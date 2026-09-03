@@ -61,3 +61,10 @@ Codex 已完成 HQ Design 官網重置工作中的 GEO 優化前基線。Claude 
 - 上述 WIP 不屬於本次 GEO 工作，Claude Code 不得 reset、checkout、stash、覆寫、stage 或 commit。
 - 本次可續作範圍限於 `codex-out/geo-baseline/**` 與 `codex-out/STATUS.md`，除非使用者另行授權網站實作。
 - 不得 push 或 Publish。
+
+## Claude Code 接收狀態
+
+- 2026-09-03 20:01（Asia/Taipei）已由 repo root 實際呼叫 Claude Code 2.1.252，以 `plan` permission mode 與 `Read` 工具要求只讀本交接文件及引用產物。
+- CLI 回傳 `Not logged in · Please run /login`，因此 Claude Code 尚未完成 read-back，也沒有修改任何檔案。
+- 本機另有一個名為 `hqdesign-1b` 的 interactive Claude session，但它不是可由 `claude attach` 接管的 background job；未強制中斷或注入該 session。
+- 使用者完成 `claude /login` 後，可重新執行相同 read-back；本文件即為安全續作入口。

@@ -69,6 +69,7 @@
 - 報告：`codex-out/geo-baseline/README.md`
 - 逐題衍生矩陣：`codex-out/geo-baseline/summary.json`
 - 原始介面讀回：`codex-out/geo-baseline/raw/*.jsonl`
+- Claude Code handoff 文件已建立並呼叫 CLI；CLI 因未登入而未完成 read-back，沒有發生檔案修改。完成 `claude /login` 後可從 `codex-out/geo-baseline/CLAUDE-CODE-HANDOFF.md` 續作。
 
 ## 尚待明確確認
 
