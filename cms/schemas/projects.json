@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hq-projects.schema.json",
+  "title": "HQ Projects (Case studies)",
+  "description": "21 筆案例。Framer CMS Collection。slug = HTML 檔名 (kebab-case)。",
+  "framerCollectionType": "multi-item-collection",
+  "notionDatabase": "HQ — Projects",
+  "type": "object",
+  "required": ["slug", "nameZh", "nameEn", "category", "year", "heroImage"],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "URL slug；與既有 HTML 檔名一致",
+      "example": "zhongbao-nangang"
+    },
+    "nameZh": { "type": "string", "example": "中保科技園區" },
+    "nameEn": {
+      "type": "string",
+      "example": "Chubb Security Nangang Tech Campus"
+    },
+    "subtitleZh": { "type": "string", "example": "南港旗艦多租戶總部" },
+    "subtitleEn": {
+      "type": "string",
+      "example": "Flagship Multi-tenant HQ Complex"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["office", "fb", "hospitality", "exhibition", "retail"],
+      "example": "office"
+    },
+    "categoryLabel": {
+      "type": "string",
+      "description": "顯示用 type-badge 文字",
+      "example": "Corporate Office"
+    },
+    "year": { "type": "integer", "example": 2025 },
+    "yearLabel": { "type": "string", "example": "2025 Q4" },
+    "location": { "type": "string", "example": "Nangang, Taipei" },
+    "locationZh": { "type": "string", "example": "台北南港" },
+    "client": { "type": "string", "example": "中保科技集團" },
+    "clientEn": { "type": "string", "example": "Chubb Security Group" },
+    "areaPing": { "type": "number", "example": 1200 },
+    "areaSqm": { "type": "number", "example": 3960 },
+    "scopeZh": { "type": "string", "example": "設計 + 統包" },
+    "scopeEn": { "type": "string", "example": "Design + Build" },
+    "designBuildLabel": {
+      "type": "string",
+      "description": "案件標示是 Design-Only 還是 Full-Build",
+      "example": "Design + Build"
+    },
+    "featured": {
+      "type": "boolean",
+      "description": "是否在 projects.html 顯示 large 變體",
+      "example": true
+    },
+    "order": { "type": "integer", "description": "列表排序" },
+    "heroImage": {
+      "type": "string",
+      "format": "uri-reference",
+      "example": "assets/images/projects/zhongbao-nangang/hero.jpg"
+    },
+    "thumbnail": {
+      "type": "string",
+      "format": "uri-reference",
+      "description": "Listing card 用的縮圖；若空則使用 heroImage"
+    },
+    "descriptionZh": { "type": "string" },
+    "descriptionEn": { "type": "string" },
+    "metaTitle": { "type": "string" },
+    "metaDescription": { "type": "string" },
+    "specs": {
+      "type": "array",
+      "description": "1–6 筆規格欄位；對應 detail 頁 .meta-row",
+      "items": {
+        "type": "object",
+        "required": ["labelZh", "value"],
+        "properties": {
+          "labelZh": { "type": "string", "example": "案件規模" },
+          "labelEn": { "type": "string", "example": "Scale" },
+          "value": { "type": "string", "example": "10 層 / 3,960㎡" }
+        }
+      }
+    },
+    "highlights": {
+      "type": "array",
+      "description": "Bullet points / 亮點 (3–6 條)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "labelZh": { "type": "string" },
+          "labelEn": { "type": "string" }
+        }
+      }
+    },
+    "gallery": {
+      "type": "array",
+      "description": "扁平模式 (kimpton 樣式) 或下方 gallerySections 二選一",
+      "items": {
+        "type": "object",
+        "required": ["image"],
+        "properties": {
+          "image": { "type": "string", "format": "uri-reference" },
+          "captionZh": { "type": "string" },
+          "captionEn": { "type": "string" },
+          "alt": { "type": "string" }
+        }
+      }
+    },
+    "gallerySections": {
+      "type": "array",
+      "description": "分組模式 (zhongbao-nangang 樣式)；同一案分為大樓整體規劃 + 各承租單元",
+      "items": {
+        "type": "object",
+        "required": ["titleZh", "items"],
+        "properties": {
+          "titleZh": { "type": "string", "example": "中保保經 11F" },
+          "titleEn": {
+            "type": "string",
+            "example": "Chubb Insurance Brokers 11F"
+          },
+          "summaryZh": { "type": "string" },
+          "summaryEn": { "type": "string" },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["image"],
+              "properties": {
+                "image": { "type": "string", "format": "uri-reference" },
+                "captionZh": { "type": "string" },
+                "captionEn": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "relatedSlugs": {
+      "type": "array",
+      "description": "相關案例的 slug；用於 detail 頁底部 'You might also like'",
+      "items": { "type": "string" },
+      "maxItems": 3
+    }
+  },
+  "registry": [
+    {
+      "slug": "zhongbao-nangang",
+      "category": "office",
+      "featured": true,
+      "groupedGallery": true,
+      "client": "中保科技"
+    },
+    {
+      "slug": "secom-nangang-complex",
+      "category": "office",
+      "featured": true,
+      "groupedGallery": false,
+      "client": "SECOM"
+    },
+    {
+      "slug": "kimpton",
+      "category": "hospitality",
+      "featured": true,
+      "groupedGallery": false,
+      "client": "Kimpton"
+    },
+    { "slug": "hq-office", "category": "office", "featured": true },
+    { "slug": "epicstech-10f", "category": "office" },
+    { "slug": "aiontech", "category": "office" },
+    { "slug": "polytron", "category": "office" },
+    { "slug": "csun", "category": "office" },
+    { "slug": "lijie", "category": "office" },
+    { "slug": "liwei", "category": "office" },
+    { "slug": "xinlan", "category": "office" },
+    { "slug": "qijia", "category": "office" },
+    { "slug": "baohua", "category": "office" },
+    { "slug": "zhongbao-baojing", "category": "office", "client": "中保保經" },
+    { "slug": "zhongbao-jingzhen", "category": "office", "client": "中保京琠" },
+    { "slug": "zhongbao-tianhe", "category": "office", "client": "中保天河" },
+    { "slug": "zhongbao-showroom", "category": "office", "client": "中保展示" },
+    { "slug": "ledaojia", "category": "office", "client": "樂到家娛樂" },
+    { "slug": "popeyes", "category": "fb", "featured": true },
+    { "slug": "soup-spoon-101", "category": "fb" },
+    { "slug": "soup-spoon-station", "category": "fb" }
+  ]
+}

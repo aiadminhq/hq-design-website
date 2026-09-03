@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs (importer run output)
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Build / cache
+dist/
+build/
+.cache/
+*.tsbuildinfo
+
+# Workflow-generated media and path indexes
+.workflow/**/web-assets/
+.workflow/**/.process/photo-index.json
+.process/web-assets/
+.process/photo-index.json
+
+# Test
+coverage/

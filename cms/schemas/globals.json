@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hq-globals.schema.json",
+  "title": "HQ Globals (Site-wide content)",
+  "description": "單筆全站共用內容。Notion 用 single-row DB，Framer 端用 CMS Singleton 或直接綁定 Style/Localization。",
+  "framerCollectionType": "single-item-collection",
+  "notionDatabase": "HQ — Globals",
+  "type": "object",
+  "required": [
+    "brandNameZh",
+    "brandNameEn",
+    "tagline",
+    "addressZh",
+    "phone",
+    "email",
+    "taxId"
+  ],
+  "properties": {
+    "brandNameZh": { "type": "string", "example": "惠強室內裝修股份有限公司" },
+    "brandNameEn": {
+      "type": "string",
+      "example": "HQ Interior & Space Design Co., Ltd."
+    },
+    "brandShortZh": { "type": "string", "example": "惠強室內裝修" },
+    "brandShortEn": {
+      "type": "string",
+      "example": "HQ Interior & Space Design"
+    },
+    "tagline": { "type": "string", "example": "匠藝專工，一應皆備。" },
+    "taglineEn": {
+      "type": "string",
+      "example": "Crafted with mastery, complete in every detail."
+    },
+    "yearFounded": { "type": "integer", "example": 1995 },
+    "yearsOfExperience": { "type": "string", "example": "31+ Years" },
+    "projectsDelivered": { "type": "string", "example": "1,600+" },
+    "designBuildPercent": { "type": "string", "example": "100%" },
+    "warrantyMonths": { "type": "string", "example": "12mo" },
+    "phone": { "type": "string", "example": "02-2557-3003" },
+    "fax": { "type": "string", "example": "02-2557-7438" },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "example": "info@hqdesign.tw"
+    },
+    "addressZh": {
+      "type": "string",
+      "example": "115台北市南港區經貿二路135號9樓"
+    },
+    "addressEn": {
+      "type": "string",
+      "example": "9F, No.135 Jingmao 2nd Rd, Nangang Dist., Taipei 115"
+    },
+    "officeHours": { "type": "string", "example": "Mon–Fri 09:00–18:00" },
+    "responseSLA": {
+      "type": "string",
+      "example": "Response within 1 business day"
+    },
+    "taxId": { "type": "string", "example": "89956251" },
+    "logo": {
+      "type": "string",
+      "format": "uri-reference",
+      "example": "assets/images/logo/IMG_6412.PNG"
+    },
+    "logoDark": { "type": "string", "format": "uri-reference" },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": { "type": "string", "example": "LEED" },
+          "labelZh": { "type": "string", "example": "LEED綠建築認證" },
+          "labelEn": { "type": "string", "example": "LEED Green Building" }
+        }
+      },
+      "example": [
+        {
+          "code": "LEED",
+          "labelZh": "LEED綠建築認證",
+          "labelEn": "LEED Green Building"
+        },
+        {
+          "code": "GREEN",
+          "labelZh": "綠建築標章",
+          "labelEn": "Taiwan Green Building Label"
+        },
+        {
+          "code": "AIOT",
+          "labelZh": "AIoT智慧空間",
+          "labelEn": "AIoT Smart Space"
+        },
+        {
+          "code": "ESG",
+          "labelZh": "ESG永續設計",
+          "labelEn": "ESG Sustainability"
+        },
+        {
+          "code": "ENERGY",
+          "labelZh": "節能減碳",
+          "labelEn": "Energy Efficiency"
+        },
+        {
+          "code": "HEALTH",
+          "labelZh": "健康建築材料",
+          "labelEn": "Healthy Building Materials"
+        }
+      ]
+    },
+    "social": {
+      "type": "object",
+      "properties": {
+        "lineId": { "type": "string", "example": "" },
+        "lineQrImage": { "type": "string", "format": "uri-reference" },
+        "facebook": { "type": "string", "format": "uri" },
+        "instagram": { "type": "string", "format": "uri" }
+      }
+    },
+    "formspree": {
+      "type": "object",
+      "properties": {
+        "contactEndpoint": {
+          "type": "string",
+          "example": "https://formspree.io/f/xeendgkz"
+        },
+        "careersEndpoint": {
+          "type": "string",
+          "example": "https://formspree.io/f/xgodqkyn"
+        }
+      }
+    },
+    "googleMapsEmbed": {
+      "type": "string",
+      "example": "https://maps.google.com/maps?q=115台北市南港區經貿二路135號&output=embed&hl=zh-TW&z=17"
+    }
+  }
+}

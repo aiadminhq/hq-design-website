@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hq-services.schema.json",
+  "title": "HQ Services (Service catalogue)",
+  "description": "10 項服務，呈現於 services.html 卡片陣列。",
+  "framerCollectionType": "multi-item-collection",
+  "notionDatabase": "HQ — Services",
+  "type": "object",
+  "required": ["slug", "number", "titleZh", "titleEn", "descriptionZh"],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "example": "office-design"
+    },
+    "number": {
+      "type": "string",
+      "description": "顯示用兩位數字 01–10",
+      "example": "01"
+    },
+    "titleZh": { "type": "string", "example": "辦公空間設計" },
+    "titleEn": { "type": "string", "example": "Office Space Design" },
+    "descriptionZh": { "type": "string" },
+    "descriptionEn": { "type": "string" },
+    "icon": { "type": "string", "description": "Emoji 或 SVG path" },
+    "categoryGroup": {
+      "type": "string",
+      "enum": ["design", "build", "consulting", "tech", "aftercare"],
+      "example": "design"
+    },
+    "order": { "type": "integer" },
+    "featured": { "type": "boolean" },
+    "relatedProjectSlugs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "示範案例的 project slug"
+    }
+  },
+  "registry": [
+    {
+      "slug": "office-design",
+      "number": "01",
+      "titleZh": "辦公空間設計",
+      "titleEn": "Office Space Design",
+      "categoryGroup": "design"
+    },
+    {
+      "slug": "commercial-design",
+      "number": "02",
+      "titleZh": "商業空間設計",
+      "titleEn": "Commercial Space Design",
+      "categoryGroup": "design"
+    },
+    {
+      "slug": "design-build",
+      "number": "03",
+      "titleZh": "設計施工統包",
+      "titleEn": "Design–Build Turnkey",
+      "categoryGroup": "build",
+      "featured": true
+    },
+    {
+      "slug": "space-planning",
+      "number": "04",
+      "titleZh": "空間規劃顧問",
+      "titleEn": "Space Planning Consulting",
+      "categoryGroup": "consulting"
+    },
+    {
+      "slug": "mep-integration",
+      "number": "05",
+      "titleZh": "機電消整合",
+      "titleEn": "MEP & Fire Safety Integration",
+      "categoryGroup": "build"
+    },
+    {
+      "slug": "brand-identity",
+      "number": "06",
+      "titleZh": "品牌空間識別",
+      "titleEn": "Brand Space Identity",
+      "categoryGroup": "design"
+    },
+    {
+      "slug": "soft-furnishing",
+      "number": "07",
+      "titleZh": "軟裝設計規劃",
+      "titleEn": "Soft Furnishing & Styling",
+      "categoryGroup": "design"
+    },
+    {
+      "slug": "smart-aiot",
+      "number": "08",
+      "titleZh": "智慧空間 / AIoT 整合",
+      "titleEn": "Smart Space / AIoT Integration",
+      "categoryGroup": "tech",
+      "featured": true
+    },
+    {
+      "slug": "renovation-mgmt",
+      "number": "09",
+      "titleZh": "裝修工程管理",
+      "titleEn": "Renovation Project Management",
+      "categoryGroup": "build"
+    },
+    {
+      "slug": "warranty",
+      "number": "10",
+      "titleZh": "完工保固服務",
+      "titleEn": "Post-completion Warranty",
+      "categoryGroup": "aftercare"
+    }
+  ],
+  "process": {
+    "description": "5 步驟流程；獨立區塊，建議用 Globals.process 或一個 Process collection",
+    "steps": [
+      { "number": "01", "titleZh": "需求評估", "titleEn": "Brief & Discovery" },
+      { "number": "02", "titleZh": "設計提案", "titleEn": "Design Proposal" },
+      { "number": "03", "titleZh": "施工執行", "titleEn": "Construction" },
+      { "number": "04", "titleZh": "完工驗收", "titleEn": "Handover" },
+      {
+        "number": "05",
+        "titleZh": "保固維護",
+        "titleEn": "Warranty & Aftercare"
+      }
+    ]
+  }
+}

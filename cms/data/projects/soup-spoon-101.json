@@ -1,0 +1,50 @@
+{
+  "slug": "soup-spoon-101",
+  "nameZh": "The Soup Spoon 101 店",
+  "nameEn": "",
+  "category": "fb",
+  "year": 2023,
+  "heroImage": "assets/images/projects/soup-spoon-101/photo-01.jpg",
+  "categoryLabel": "F&B",
+  "locationZh": "台北 101",
+  "yearLabel": "2023",
+  "designBuildLabel": "HQ Interior",
+  "descriptionZh": "The Soup Spoon 台北 101 旗艦店設計施工，於台灣最高地標商場打造符合品牌質感的用餐環境，工程精度與施工速度並重。",
+  "scopeZh": "餐飲空間",
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "value": "The Soup Spoon"
+    },
+    {
+      "labelZh": "類型",
+      "value": "餐飲品牌旗艦店"
+    },
+    {
+      "labelZh": "坪數",
+      "value": "21 坪"
+    },
+    {
+      "labelZh": "地點",
+      "value": "台北 101 購物中心"
+    },
+    {
+      "labelZh": "完工年份",
+      "value": "2023"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/images/projects/soup-spoon-101/photo-01.jpg",
+      "alt": "完工實景 01"
+    },
+    {
+      "image": "assets/images/projects/soup-spoon-101/photo-02.jpg",
+      "alt": "完工實景 02"
+    },
+    {
+      "image": "assets/images/projects/soup-spoon-101/photo-03.jpg",
+      "alt": "完工實景 03"
+    }
+  ]
+}
