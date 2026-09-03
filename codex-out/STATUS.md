@@ -1,6 +1,6 @@
 # HQ Design 官網接手狀態
 
-更新時間：2026-09-03 18:10（Asia/Taipei）
+更新時間：2026-09-03 19:57（Asia/Taipei）
 
 ## Framer 連線與專案讀回
 
@@ -60,7 +60,16 @@
 - 建議延續現有 Archiste，不購買新 template；ARCHTER 作免費 fallback，ASHLAR／Forja 僅作 Process 與 Comparison section 參考。
 - 報告：`codex-out/framer-templates/README.md`
 
+## GEO 優化前基線
+
+- ChatGPT、Claude、Perplexity 與 Google Search 共 60 個查詢槽位均已完成讀回。
+- ChatGPT、Claude、Perplexity 各完成 15 題；Google 讀回 15 個搜尋頁，其中 12 題出現 AI Overview。
+- 排除問題文字與側欄歷史後，生成回答提及 HQ Design 的題數為：ChatGPT 10、Claude 6、Perplexity 6、Google AI Overview 5。
+- Claude 全部使用 Incognito fresh chat，避免帳號 memory 污染；Google 以暫時性資料遺失後的第二次完整讀回作為 baseline。
+- 報告：`codex-out/geo-baseline/README.md`
+- 逐題衍生矩陣：`codex-out/geo-baseline/summary.json`
+- 原始介面讀回：`codex-out/geo-baseline/raw/*.jsonl`
+
 ## 尚待明確確認
 
-- GEO baseline 需要操作 ChatGPT、Claude、Perplexity 與 Google AI Overviews；尚未取得「自動操作第三方 AI UI」或「使用者手動測試」的方式選擇，因此未執行。
 - `Danelec/PDF` 約 518 MiB；目前磁碟空間約 41 GiB，沒有緊急刪除需求，且尚未取得刪除授權，因此保留。
