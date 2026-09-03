@@ -1,6 +1,6 @@
 # HQ Design 官網接手狀態
 
-更新時間：2026-09-03 17:45（Asia/Taipei）
+更新時間：2026-09-03 18:10（Asia/Taipei）
 
 ## Framer 連線與專案讀回
 
@@ -36,6 +36,9 @@
 
 - 核心 CMS／migration／parser 資產已建立本機 commit：`f3b7eb1`
 - 舊站 SEO metadata 修復已建立本機 commit：`e1b3692`
+- Internal Framer Toolkit 與 handoff 狀態已建立本機 commit：`46e2954`
+- Root 測試 17/17 通過、26 份 CMS schema data 驗證通過、TypeScript typecheck 通過。
+- Toolkit 的 lint、typecheck 與 Vite production build 通過。
 - 未 push、未 Publish。
 
 ## 清理狀態
@@ -43,3 +46,21 @@
 - 已清除 91 個 `.DS_Store`、`Thumbs.db` 與 Office lock stub，共約 11.99 MiB。
 - 重新 dry-run 為 0 個目標檔。
 - 未刪除 `Danelec/PDF`、`LOGO.zip`、`Untitled*` 或任何設計／照片資產。
+
+## Design System 修正與讀回
+
+- `colors_and_type.css` 已移至 `Claude Design/colors_and_type.css`，並同步更新 `CLAUDE.md` 的來源路徑。
+- `TopNav.jsx` 與 `FooterAndCTA.jsx` 的 HQ logo 相對路徑已由 `../../assets/HQ-logo.png` 修正為 `../../../assets/HQ-logo.png`。
+- 本機 browser read-back 已確認 Design System 首頁、stylesheet、HQ logo、shader assets 與 fonts 均回傳 HTTP 200；`--vermillion-400` 讀回為 `#D64518`，三張頁面圖片均無 broken image。
+- Design System 目錄不是 Git repo，因此上述修改目前是本機檔案狀態，未建立 commit。
+
+## Framer template 評估
+
+- 已完成 5 個候選的 live Marketplace 比較與截圖：Archiste、ARCHTER、ASHLAR、Nave、Forja。
+- 建議延續現有 Archiste，不購買新 template；ARCHTER 作免費 fallback，ASHLAR／Forja 僅作 Process 與 Comparison section 參考。
+- 報告：`codex-out/framer-templates/README.md`
+
+## 尚待明確確認
+
+- GEO baseline 需要操作 ChatGPT、Claude、Perplexity 與 Google AI Overviews；尚未取得「自動操作第三方 AI UI」或「使用者手動測試」的方式選擇，因此未執行。
+- `Danelec/PDF` 約 518 MiB；目前磁碟空間約 41 GiB，沒有緊急刪除需求，且尚未取得刪除授權，因此保留。
