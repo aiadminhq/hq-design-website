@@ -20,7 +20,7 @@
     },
     {
       "labelZh": "總坪數",
-      "value": "756 坪"
+      "value": "1,797 坪"
     },
     {
       "labelZh": "樓層範圍",
@@ -48,5 +48,7 @@
     }
   ],
   "client": "SECOM",
-  "featured": true
+  "featured": true,
+  "areaSqm": 5940,
+  "areaPing": 1797
 }
