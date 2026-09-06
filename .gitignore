@@ -43,3 +43,20 @@ coverage/
 
 # macOS / Dropbox 產生的資料夾圖示檔
 Icon?
+
+# Next.js（web/）
+web/node_modules/
+web/.next/
+web/.vercel/
+web/*.tsbuildinfo
+# 影像衍生檔為 build 產物（66 MB / 582 檔），由 scripts/build-images.mjs 產生
+web/public/media/
+# OG 圖由 scripts/build-og.mjs 於 prebuild 產生，與影像管線同性質
+web/public/og/
+web/public/fonts/
+
+# 第三方參考素材：僅供本機比對互動模式，不得進版控。
+# framer reference/ 內含 Powerhouse Company 官網鏡像（42 MB / 79 張其攝影作品）
+# 與第三方個人網站擷取（127 MB）。repo 為公開，提交等同以惠強名義公開發布他人受
+# 版權保護的內容——Codex 規格書亦明文禁止。共 1,890 檔 / 260 MB。
+framer reference/

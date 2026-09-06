@@ -1,0 +1,40 @@
+{
+  "name": "hq-design-web",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "node scripts/sync-ds.mjs --verify && node scripts/build-images.mjs && node scripts/build-og.mjs && node scripts/gates/no-pii.mjs",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "content:check": "tsx scripts/check-content.ts",
+    "gates": "node scripts/sync-ds.mjs --verify && node scripts/gates/no-pii.mjs && npm run content:check",
+    "test": "node --conditions=react-server --import tsx --test components/__tests__/project-data.test.ts",
+    "test:local": "node --test ../design/testing/local-site.test.mjs",
+    "verify": "npm run typecheck && npm test && npm run gates && npm run build",
+    "sync:ds": "node scripts/sync-ds.mjs",
+    "images": "node scripts/build-images.mjs",
+    "og": "node scripts/build-og.mjs",
+    "seo:verify": "node scripts/verify-seo.mjs"
+  },
+  "dependencies": {
+    "next": "^15.5.2",
+    "next-intl": "^4.3.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "motion": "^12.23.12",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "sharp": "^0.34.2",
+    "tsx": "^4.22.3",
+    "typescript": "^5.9.2"
+  }
+}
