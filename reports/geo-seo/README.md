@@ -4,7 +4,7 @@
 **日期**：2026-09-07
 **依據**：`.workflow/active/WFS-hq-website-reset/.brainstorming/seo/analysis.md`（499 行）
 與 `geo/analysis.md`（672 行）。本報告不重做那兩份分析的任何判斷。
-**驗證**：`npm run seo:verify` → **283/283 通過**；`npm run verify` → typecheck、7 tests、
+**驗證**：`npm run seo:verify` → **293/293 通過**；`npm run verify` → typecheck、7 tests、
 token 守衛、個資閘門、內容閘門 33/33、`next build` 全綠。
 
 ---
@@ -22,7 +22,12 @@ token 守衛、個資閘門、內容閘門 33/33、`next build` 全綠。
 
 ## 1. 起點：舊站的實測數字
 
-`seo/analysis.md` §1.1 對 27 個可索引 URL 的實測，作為對照基準：
+`seo/analysis.md` §1.1 對 27 個可索引 URL 的實測，作為對照基準。
+
+> **這一欄要看清楚**：下表「舊站」是分析文件當時對 **live 站**的實測。
+> `main` 分支的 repo 後來已被 `e1b3692` 補過一輪（canonical 27/28、OG 27/28、
+> robots.txt 的 AI 允許清單皆已存在），並非全面 0。`main` 的實際剩餘缺口見 §8。
+
 
 | 檢查項 | 舊站 | 本次交付後 |
 |---|---|---|
@@ -210,3 +215,77 @@ BASE=http://localhost:3000 npm run seo:verify   # 另一個終端
 
 輸出末行應為 `PASS — 283/283 項通過`。上線後把 `BASE` 換成正式網域再跑一次，
 即可驗證「發佈後的 HTML」而非只信任本機建置——這是 `seo/analysis.md` §4.3 的硬性要求。
+
+---
+
+## 8. 後續補做（2026-09-07 同日）
+
+### 8.1 英文內容補齊 — 33 案 + 7 段流程
+
+§3.1 記錄的「所有 `/en/` 深層頁 noindex」的成因已解除。
+
+| 項目 | 數量 |
+|---|---|
+| 案件 `name.en`／`lede.en` | 33 / 33 |
+| 案件影像 `alt.en` | 126 / 126 |
+| 影像性質聲明 `note.en` | 15 / 15 |
+| 含中文的 `spec` 值 → `valueEn` | 全數 |
+| 七段流程：標題、說明、h1、lede、輸入、輸出、how／why 標題與內文、證據註腳、製圖無障礙標題 | 7 / 7 |
+
+翻譯忠於中文原文，**未新增原文沒有的主張或數字**。原文只有「坪」而無 sqm 者
+一律不自行換算——那會產生一個原始資料裡不存在的數字。
+
+`parity` 判定同步加嚴，涵蓋頁面上實際會渲染的每一段（含影像性質聲明、
+規格值、how／why、證據註腳、製圖標題），避免宣稱 full 卻仍有段落掉回中文。
+
+**結果**：40 個 `/en/` 深層頁自動轉為可索引，sitemap 由 58 條增為 98 條。
+沒有任何人工開關——這正是 §3.1 設計成資料驅動的目的。
+
+`verify-seo` 新增 i18n 閘門：實際抓 11 個英文頁，斷言 `<main>` 內零中文殘留。
+唯一放行的是雙語技術製圖 SVG——圖內標籤本來就是中英並列（EQUIPMENT／設備），
+而它的無障礙 `<title>`（螢幕閱讀器唸出的名稱）已在英文頁替換為英文。
+
+### 8.2 移植到 `main` 的舊靜態站 — 分支 `feat/geo-seo-legacy`
+
+**merge 與 cherry-pick 都不適用**：`main` 是舊靜態站，沒有 `web/` 目錄。
+merge 會把整個網站重建推進 main；cherry-pick 會把 `web/lib/seo/**` 丟進一個
+沒有 Next.js 的 repo。所以移植的是**決策與設定**，不是程式碼。
+
+在 `../hq-design-website-legacy-seo` 獨立 worktree 進行，未觸碰主工作區裡
+其他 agent 的未提交檔案。分支自 `main` 開出，單一 commit，可直接 fast-forward。
+
+`main` 的實際剩餘缺口與處置：
+
+| 缺陷 | 處置 |
+|---|---|
+| `index.html` 為 `<html lang="en">`（全站僅此頁，內容是中文） | 改為 `zh-TW` |
+| `about.html` 檔尾 25 個 NUL byte | 移除。原本 `file(1)` 判為 data、`grep` 視為 binary |
+| `og:image` 0 / 27 | 補齊 27 / 27，新增 22 張 1200×630 JPEG |
+| JSON-LD 1 / 27，且無 `sameAs`、`alternateName` 缺 HuiCiang Design | 27 / 27，值與新站 `identity.ts` 逐字一致 |
+| `llms.txt` 首段與官網宣告不同句 | 改為逐字相同，並補別名清單與官方帳號 |
+
+OG 圖刻意跳過 `floorplan.jpg`：資料夾裡字母序第一個檔常是平面圖，
+拿它當分享卡等於把一張圖說分享出去。改取各頁實際顯示的第一張照片。
+
+`CreativeWork` 的面積、年份與地點**只從新站內容層取已核實值**。
+舊 cms 沒有 `verified` 旗標，把未核實數字寫進 JSON-LD 會被搜尋引擎與 AI
+當事實引用。結果 21 案中 12 案帶數值，其餘只有名稱、描述與影像。
+
+**刻意不做 hreflang**：舊站是單語站，沒有第二個語言版本可指。
+自我指向的單一 hreflang 不傳達任何資訊，`§4.2` 的雙向對稱前提不存在。
+
+驗證：`python3 tools/seo/verify.py` → **619 / 619 通過**。
+
+### 8.3 仍未解決：`30 年` 與 `1995` 的矛盾（U-G1）
+
+`main` 的 `index.html` meta description 寫「30 年」、`llms.txt` 寫「營運年數：30 年以上」，
+而 `about.html` 寫「31+ 年」，`foundingDate` 是 1995（至 2026 為 31 年）。
+
+我把 `llms.txt` 與所有 JSON-LD 的首段改為只陳述「1995 年創立」，
+迴避了機器可讀層的矛盾；但**行銷文案裡的「30 年」沒有動**——
+那是對外主張，該由你裁定，不是我該片面改的。
+
+`geo/analysis.md` §4.1 對這件事的判斷值得重述：LLM 抽到互相矛盾的數字時，
+最可能的結果是**不引用**，次可能是引用錯的那個且無法更正。
+這是 U-G1 清單上最高優先的一項。
+
