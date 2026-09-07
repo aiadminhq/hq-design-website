@@ -1,0 +1,108 @@
+{
+  "title": "施工圖說與深化設計｜你會拿到的完整文件｜惠強 HQ Design",
+  "desc": "完工時你手上會有什麼？施工圖說階段依六步深化：技術詳圖到竣工交付，業主最終取得竣工圖、操作手冊、保固書與驗收文件四類。看完整清單。",
+  "h1": "完工時你手上會有什麼？",
+  "lede": "你收到的不只是完工，是可稽核的一整套文件：竣工圖、操作手冊、保固書、驗收文件。",
+  "gloss": "Construction Documentation — six steps from technical detailing to handover; what you receive at each step.",
+  "inp": "整合後的 BIM 模型與衝突解決結論、材料選樣的最終決定、關鍵區域的樣板確認。",
+  "out": "施工圖說全套（平面、立面、剖面、大樣、工序）、樣板確認紀錄；完工後取得竣工圖、操作手冊、保固書與驗收文件。",
+  "q": "這疊圖跟我有什麼關係？完工後我拿到的是什麼？",
+  "quote": "惠強室內裝修（HQ Design）在施工圖說階段依六個步驟深化：技術詳圖、施工文件、材料協調、樣板確認、現場品管、竣工交付。業主最終收到四類文件：竣工圖、操作手冊、保固書與驗收文件。",
+  "quote2": "施工圖說是現場執行的依據：節點、收邊、材料接合與施工順序在圖上定案，關鍵區域先做實體樣板確認再施作。",
+  "qen": "Six steps — technical detailing, construction documentation, material coordination, mock-up verification, site quality control and handover documentation — each with a deliverable you receive.",
+  "how_h2": "施工深化六步，各步你會拿到什麼？",
+  "how": [
+    [
+      "Steps 01–02",
+      "技術詳圖與施工文件",
+      "節點、收邊、材料接合與施工順序圖說；平面、立面、剖面、大樣與工序文件——現場執行的依據。",
+      "公司簡介施工深化六步之 01 Technical Detailing、02 Construction Documentation。"
+    ],
+    [
+      "Steps 03–04",
+      "材料協調與樣板確認",
+      "材料選樣、供應商確認與交期管控；關鍵區域製作實體樣板，由你在現場確認後才施作。",
+      "六步之 03 Material Coordination、04 Mock-up Verification：「關鍵區域實體樣板製作與確認」。"
+    ],
+    [
+      "Steps 05–06",
+      "現場品管與竣工交付",
+      "品質查核、進度追蹤與安全管理紀錄；完工時交付竣工圖、操作手冊、保固書與驗收文件。",
+      "六步之 05 Site Quality Control、06 Handover Documentation；最終文件 <b>4</b> 類。"
+    ]
+  ],
+  "fig_lab": "FIG · 06",
+  "cap": [
+    "6 STEPS → YOU RECEIVE",
+    "<span class='cjk'>六步時間軸，每步下方為業主實際拿到的文件；末端竣工交付以品牌色與 60° 網線標示四類文件。</span>"
+  ],
+  "why_h2": "施工圖說對業主的意義是什麼？",
+  "why": [
+    [
+      "Auditable Set",
+      "可稽核的一整套文件",
+      "竣工圖、操作手冊、保固書與驗收文件，營運與後續維護有據可查。"
+    ],
+    [
+      "Mock-up First",
+      "樣板先確認再施作",
+      "關鍵區域以實體樣板確認，減少完工後的認知落差。"
+    ],
+    [
+      "Site Reference",
+      "圖說即現場執行依據",
+      "節點、收邊與工序在圖上定案，現場不憑口頭。"
+    ]
+  ],
+  "ev_h2": "有哪些案件可以對照？",
+  "ev": [
+    {
+      "href": "/work/secom-nangang-complex/",
+      "t": "中興保全 SECOM 南港總部",
+      "en": "Corporate HQ · Full Design &amp; Build",
+      "d": "NANGANG · <b>5,940</b> sqm · <b>2025</b>",
+      "claim_t": "品質驗收移交",
+      "claim": "如期完成交付，並達成零重大缺失驗收；竣工圖、操作手冊、保固書與驗收文件隨移交提供。",
+      "mode": "完工實景 · AS-BUILT · 2025"
+    }
+  ],
+  "ev_foot": "2024 年前完成之案件不列為本階段證據。",
+  "titleEn": "Construction Documentation — the full set you receive",
+  "descEn": "What will be in your hands at completion? Six steps from technical detailing to handover; you end with as-built drawings, operating manuals, warranties and acceptance records.",
+  "h1En": "What will you be holding at completion?",
+  "ledeEn": "What you receive is not only a finished space but an auditable set of documents: as-built drawings, operating manuals, warranties and acceptance records.",
+  "inpEn": "The integrated BIM model and clash resolutions, final material selections, and mock-up confirmations for key areas.",
+  "outEn": "A complete set of construction documents — plans, elevations, sections, details and sequencing — plus mock-up records; at completion, as-built drawings, operating manuals, warranties and acceptance records.",
+  "howH2En": "Six steps of detailing — what you receive at each",
+  "whyH2En": "What does construction documentation mean for the owner?",
+  "howEn": [
+    [
+      "Technical details and construction documents",
+      "Drawings for junctions, edges, material connections and construction sequence; plans, elevations, sections, details and sequencing documents — the basis for work on site."
+    ],
+    [
+      "Material coordination and mock-up sign-off",
+      "Material selection, supplier confirmation and lead-time control; physical mock-ups are made for key areas and built only after you confirm them on site."
+    ],
+    [
+      "Site quality control and handover",
+      "Quality checks, progress tracking and safety records; at completion, as-built drawings, operating manuals, warranties and acceptance records are handed over."
+    ]
+  ],
+  "whyEn": [
+    [
+      "An auditable set",
+      "As-built drawings, operating manuals, warranties and acceptance records give operations and later maintenance something to work from."
+    ],
+    [
+      "Mock-up first, then build",
+      "Key areas are confirmed with physical mock-ups, reducing the gap between expectation and result at completion."
+    ],
+    [
+      "Drawings are the site reference",
+      "Junctions, edges and sequence are settled on the drawings; nothing on site runs on verbal instruction."
+    ]
+  ],
+  "evFootEn": "Projects completed before 2024 are not listed as evidence for this stage.",
+  "figAltEn": "Construction documentation diagram: six steps from technical detailing, construction documents, material coordination, mock-up sign-off and site quality control to handover, each matched to a document the owner actually receives."
+}

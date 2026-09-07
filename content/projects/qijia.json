@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "slug": "qijia",
+  "category": "fb",
+  "weight": "w6",
+  "name": {
+    "zh": "起家雞 台中店",
+    "en": "Chicken Up Taichung"
+  },
+  "gloss": "Chicken Up · Chain F&amp;B · Design &amp; Build",
+  "lede": {
+    "zh": "起家雞台中店餐飲空間設計施工，以韓式炸雞品牌風格為設計基調，呈現活潑品牌個性，並兼顧高效翻桌與舒適用餐體驗。",
+    "en": "Design and build for the Chicken Up Taichung outlet. The Korean fried-chicken brand sets the tone, giving the space a lively character while supporting fast turnover and comfortable dining."
+  },
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "labelEn": "Client",
+      "value": "起家雞 Chicken Up",
+      "verified": true,
+      "valueEn": "Chicken Up"
+    },
+    {
+      "labelZh": "地點",
+      "labelEn": "Location",
+      "value": "台中",
+      "verified": true,
+      "valueEn": "Taichung"
+    },
+    {
+      "labelZh": "面積",
+      "labelEn": "Area",
+      "value": "212 坪 · 約 700 sqm",
+      "verified": true,
+      "valueEn": "212 ping · approx. 700 sqm"
+    },
+    {
+      "labelZh": "年份",
+      "labelEn": "Year",
+      "value": "2019",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "範圍",
+      "labelEn": "Scope",
+      "value": "餐飲空間設計施工",
+      "verified": true,
+      "valueEn": "F&B design & build"
+    },
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "連鎖餐飲",
+      "verified": true,
+      "valueEn": "Chain F&B"
+    }
+  ],
+  "cardMeta": [
+    "<b>212</b> 坪",
+    "TAICHUNG · 2019"
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "qijia-hero-01",
+      "sourceFile": "qijia-hero-01.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "起家雞 台中店｜用餐區",
+        "en": "Chicken Up Taichung — dining area"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "qijia-gallery-02",
+      "sourceFile": "qijia-gallery-02.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "起家雞 台中店｜用餐區",
+        "en": "Chicken Up Taichung — dining area"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 3,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "qijia-gallery-03",
+      "sourceFile": "qijia-gallery-03.jpg",
+      "width": 2560,
+      "height": 1840,
+      "spaceZh": "櫃台",
+      "alt": {
+        "zh": "起家雞 台中店｜櫃台",
+        "en": "Chicken Up Taichung — counter"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 4,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "qijia-gallery-04",
+      "sourceFile": "qijia-gallery-04.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "起家雞 台中店｜用餐區",
+        "en": "Chicken Up Taichung — dining area"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": [
+        "housekeeping"
+      ]
+    },
+    {
+      "order": 5,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "qijia-gallery-05",
+      "sourceFile": "qijia-gallery-05.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "起家雞 台中店｜用餐區",
+        "en": "Chicken Up Taichung — dining area"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": [
+        "housekeeping"
+      ]
+    },
+    {
+      "order": 6,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "qijia-gallery-06",
+      "sourceFile": "qijia-gallery-06.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "櫃台",
+      "alt": {
+        "zh": "起家雞 台中店｜櫃台",
+        "en": "Chicken Up Taichung — counter"
+      },
+      "retouch": "light",
+      "retouchNote": "壓左側窗面高光或以漸層遮罩補回窗外層次；裁掉右下前景桌面",
+      "risks": []
+    },
+    {
+      "order": 7,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "qijia-gallery-07",
+      "sourceFile": "qijia-gallery-07.jpg",
+      "width": 1920,
+      "height": 2560,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "起家雞 台中店｜用餐區",
+        "en": "Chicken Up Taichung — dining area"
+      },
+      "retouch": "light",
+      "retouchNote": "上移構圖或裁掉部分前景地貼，讓後方座位區成為主體",
+      "risks": []
+    },
+    {
+      "order": 8,
+      "role": "detail",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "qijia-detail-08",
+      "sourceFile": "qijia-detail-08.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "洗手間走廊",
+      "alt": {
+        "zh": "起家雞 台中店｜洗手間走廊",
+        "en": "Chicken Up Taichung — washroom corridor"
+      },
+      "retouch": "light",
+      "retouchNote": "補回天窗層次或改為純白留白處理；清除地坪污漬",
+      "risks": []
+    },
+    {
+      "order": 9,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "qijia-gallery-09",
+      "sourceFile": "qijia-gallery-09.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "起家雞 台中店｜用餐區",
+        "en": "Chicken Up Taichung — dining area"
+      },
+      "retouch": "light",
+      "retouchNote": "裁掉部分前景地面；壓暗左側門洞",
+      "risks": []
+    },
+    {
+      "order": 10,
+      "role": "context",
+      "grade": "B",
+      "prov": "drawing",
+      "stem": "qijia-context-10",
+      "sourceFile": "qijia-context-10.jpg",
+      "width": 2560,
+      "height": 1810,
+      "spaceZh": "平面圖",
+      "alt": {
+        "zh": "起家雞 台中店｜平面圖",
+        "en": "Chicken Up Taichung — floor plan"
+      },
+      "retouch": "light",
+      "retouchNote": "重新出圖或加粗線寬、補比例尺與空間名稱標註",
+      "risks": []
+    }
+  ],
+  "facts": {
+    "client": "起家雞 Chicken Up",
+    "locationZh": "台中",
+    "areaSqm": 700.0,
+    "areaPing": 212.0,
+    "areaRaw": "212 坪 · 約 700 sqm",
+    "year": 2019,
+    "yearRaw": "2019",
+    "typeZh": "連鎖餐飲"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": true,
+    "missingFacts": [],
+    "provisionalFields": [],
+    "needsHumanReview": []
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

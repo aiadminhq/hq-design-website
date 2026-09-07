@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "slug": "transasia-bakery-chunri",
+  "category": "fb",
+  "weight": "reg",
+  "name": {
+    "zh": "復興航棧 春日店",
+    "en": "TransAsia Bakery, Chunri"
+  },
+  "gloss": "Bakery &amp; Gift Retail",
+  "lede": {
+    "zh": "復興航空體系烘焙／伴手禮零售門市。",
+    "en": "A bakery and gift retail outlet within the TransAsia group."
+  },
+  "specs": [
+    {
+      "labelZh": "地點",
+      "labelEn": "Location",
+      "value": "桃園市",
+      "verified": true,
+      "valueEn": "Taoyuan"
+    },
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "連鎖餐飲 · 烘焙零售",
+      "verified": true,
+      "valueEn": "Chain F&B · bakery retail"
+    }
+  ],
+  "cardMeta": [
+    "BAKERY RETAIL",
+    "TAOYUAN"
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "transasia-bakery-chunri-hero-01",
+      "sourceFile": "transasia-bakery-chunri-hero-01.jpg",
+      "width": 800,
+      "height": 533,
+      "spaceZh": "店面外觀",
+      "alt": {
+        "zh": "復興航棧春日店｜店面外觀",
+        "en": "TransAsia Bakery Chunri — shopfront"
+      },
+      "retouch": "light",
+      "retouchNote": "AI 放大至長邊 ≥2400px（原圖乾淨無壓縮塊，放大成功率高）；統一白平衡、提亮右側暗部",
+      "risks": []
+    }
+  ],
+  "facts": {
+    "locationZh": "桃園市",
+    "typeZh": "連鎖餐飲 · 烘焙零售"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm",
+      "year"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm",
+      "year"
+    ]
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

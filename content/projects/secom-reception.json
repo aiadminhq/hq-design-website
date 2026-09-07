@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "slug": "secom-reception",
+  "category": "office",
+  "weight": "reg",
+  "name": {
+    "zh": "中興保全接待大廳",
+    "en": "SECOM Corporate Reception"
+  },
+  "gloss": "Corporate Reception",
+  "lede": {
+    "zh": "企業接待大廳：企業識別牆、接待櫃台與垂直綠化。",
+    "en": "A corporate reception lobby: identity wall, reception counter and vertical planting."
+  },
+  "specs": [
+    {
+      "labelZh": "地點",
+      "labelEn": "Location",
+      "value": "台北市",
+      "verified": true,
+      "valueEn": "Taipei"
+    },
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "企業總部／辦公空間",
+      "verified": true,
+      "valueEn": "Corporate headquarters / office"
+    }
+  ],
+  "cardMeta": [
+    "RECEPTION",
+    "TAIPEI"
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "secom-reception-hero-01",
+      "sourceFile": "secom-reception-hero-01.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "企業識別牆（中興保全集團）",
+      "alt": {
+        "zh": "中興保全接待大廳｜企業識別牆（中興保全集團）",
+        "en": "SECOM Corporate Reception — corporate identity wall, SECOM Group"
+      },
+      "retouch": "light",
+      "retouchNote": "招牌高光壓 -1EV 並補回筆畫邊緣、木牆暗部提亮 +0.8EV、校正右傾 2°、色溫校正至 3200K",
+      "risks": []
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "secom-reception-gallery-02",
+      "sourceFile": "secom-reception-gallery-02.jpg",
+      "width": 667,
+      "height": 1000,
+      "spaceZh": "接待櫃台與垂直綠化",
+      "alt": {
+        "zh": "中興保全接待大廳｜接待櫃台與垂直綠化",
+        "en": "SECOM Corporate Reception — reception counter and vertical planting"
+      },
+      "retouch": "light",
+      "retouchNote": "櫃體高光壓 -0.7EV、修除兩組插座面板、紅色偏移 -10、暗部提亮 +0.5EV",
+      "risks": [
+        "housekeeping"
+      ]
+    },
+    {
+      "order": 3,
+      "role": "detail",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "secom-reception-detail-03",
+      "sourceFile": "secom-reception-detail-03.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "會議室門牌",
+      "alt": {
+        "zh": "中興保全接待大廳｜會議室門牌",
+        "en": "SECOM Corporate Reception — meeting room signage"
+      },
+      "retouch": "light",
+      "retouchNote": "白平衡校正至 4200K、修除背景堆疊椅、對標示文字局部銳化",
+      "risks": []
+    }
+  ],
+  "facts": {
+    "locationZh": "台北市",
+    "typeZh": "企業總部／辦公空間"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm",
+      "year"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm",
+      "year"
+    ]
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

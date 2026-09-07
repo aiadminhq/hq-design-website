@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "slug": "staff-facility",
+  "category": "other",
+  "weight": "other",
+  "name": {
+    "zh": "員訓中心濕區工程",
+    "en": "Staff Training Centre Wet Areas"
+  },
+  "gloss": "Wet-Area Works · Client Training Centre",
+  "lede": {
+    "zh": "客戶端員工訓練中心之濕區工程：三溫暖濕區、室內按摩池與外接庭園。",
+    "en": "Wet-area works for a client's staff training centre: sauna wet area, indoor spa pool and adjoining garden."
+  },
+  "specs": [
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "其他工程能力 · 濕區工程",
+      "verified": true,
+      "valueEn": "Other capabilities · wet-area works"
+    }
+  ],
+  "cardMeta": [
+    "WET-AREA WORKS",
+    ""
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "staff-facility-gallery-01",
+      "sourceFile": "staff-facility-gallery-01.jpg",
+      "width": 2560,
+      "height": 1920,
+      "spaceZh": "三溫暖濕區（室內按摩池＋外接庭園）",
+      "alt": {
+        "zh": "員訓中心濕區（客戶端）｜三溫暖濕區（室內按摩池＋外接庭園）",
+        "en": "Staff training centre (client site) — sauna wet area with indoor spa pool and adjoining garden"
+      },
+      "retouch": "light",
+      "retouchNote": "分區白平衡（池體藍光／室內暖光／戶外日光三段分離）；壓暗或修掉溫度看板；透視校正；天花暗部提亮、庭園高光拉回。",
+      "risks": [
+        "confidential"
+      ]
+    }
+  ],
+  "facts": {
+    "typeZh": "其他工程能力 · 濕區工程"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ]
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "slug": "zhongbao-showroom",
+  "category": "showroom",
+  "weight": "w4",
+  "name": {
+    "zh": "中保科技展示廳 SECOM TECHNOLOGY HALL",
+    "en": "SECOM Technology Hall"
+  },
+  "gloss": "SECOM TECHNOLOGY HALL · Showroom",
+  "lede": {
+    "zh": "中保集團科技展示廳，以 LED 影像牆研討區與企業沿革弧牆呈現集團技術脈絡。",
+    "en": "SECOM Group's technology hall, tracing the group's technical development through an LED video-wall seminar area and a curved corporate-history wall."
+  },
+  "specs": [
+    {
+      "labelZh": "業主",
+      "labelEn": "Client",
+      "value": "中保集團 SECOM Group",
+      "verified": true,
+      "valueEn": "SECOM Group"
+    },
+    {
+      "labelZh": "地點",
+      "labelEn": "Location",
+      "value": "台北市南港區",
+      "verified": true,
+      "valueEn": "Nangang District, Taipei"
+    },
+    {
+      "labelZh": "面積",
+      "labelEn": "Area",
+      "value": "331 sqm",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "年份",
+      "labelEn": "Year",
+      "value": "2025",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "企業展示廳",
+      "verified": true,
+      "valueEn": "Corporate showroom"
+    }
+  ],
+  "cardMeta": [
+    "<b>331</b> sqm",
+    "NANGANG · 2025"
+  ],
+  "note": {
+    "title": {
+      "zh": "Visual · 影像性質",
+      "en": "Visual · image nature"
+    },
+    "body": {
+      "zh": "本案頁面影像為設計提案視覺（design visualisation），由設計圖面經 AI 重製產出，用於呈現空間設計意圖與材質配置；並非完工實景攝影。完工攝影安排後將替換。",
+      "en": "The images on this page are design visualisations, produced from the design drawings with AI assistance to convey spatial intent and material selection. They are not photographs of the completed project. They will be replaced once completed-project photography is arranged."
+    }
+  },
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "A",
+      "prov": "viz",
+      "stem": "zhongbao-showroom-hero-01",
+      "sourceFile": "zhongbao-showroom-hero-01.jpg",
+      "width": 2560,
+      "height": 1717,
+      "spaceZh": "LED 影像牆研討區",
+      "alt": {
+        "zh": "中保科技展示廳｜LED 影像牆研討區設計提案視覺",
+        "en": "SECOM Technology Hall — LED video-wall seminar area"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "viz",
+      "stem": "zhongbao-showroom-gallery-02",
+      "sourceFile": "zhongbao-showroom-gallery-02.jpg",
+      "width": 2560,
+      "height": 1717,
+      "spaceZh": "企業沿革弧牆",
+      "alt": {
+        "zh": "中保科技展示廳｜企業沿革弧牆設計提案視覺",
+        "en": "SECOM Technology Hall — curved corporate-history wall"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    }
+  ],
+  "facts": {
+    "client": "中保集團 SECOM Group",
+    "locationZh": "台北市南港區",
+    "areaSqm": 331.0,
+    "areaRaw": "331 sqm",
+    "year": 2025,
+    "yearRaw": "2025",
+    "typeZh": "企業展示廳"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": true,
+    "missingFacts": [],
+    "provisionalFields": [],
+    "needsHumanReview": []
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

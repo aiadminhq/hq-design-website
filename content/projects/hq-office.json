@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "slug": "hq-office",
+  "category": "showroom",
+  "weight": "w4",
+  "name": {
+    "zh": "惠強室內裝修 HQ DESIGN & BUILD",
+    "en": "HQ Design Office & Material Library"
+  },
+  "gloss": "HQ DESIGN &amp; BUILD · Own Office &amp; Material Library",
+  "lede": {
+    "zh": "惠強自有辦公室與材料展示空間，作為設計提案與材質選樣的實體場域。",
+    "en": "HQ Design's own office and material library, used as a physical setting for design presentations and material selection."
+  },
+  "specs": [
+    {
+      "labelZh": "地點",
+      "labelEn": "Location",
+      "value": "台北市南港區經貿二路 135 號 9F",
+      "verified": true,
+      "valueEn": "9F, No. 135, Jingmao 2nd Road, Nangang District, Taipei"
+    },
+    {
+      "labelZh": "面積",
+      "labelEn": "Area",
+      "value": "165 sqm",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "年份",
+      "labelEn": "Year",
+      "value": "2025",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "自有辦公與材料庫",
+      "verified": true,
+      "valueEn": "Own office and material library"
+    }
+  ],
+  "cardMeta": [
+    "<b>165</b> sqm",
+    "NANGANG · 2025"
+  ],
+  "note": {
+    "title": {
+      "zh": "Visual · 影像性質",
+      "en": "Visual · image nature"
+    },
+    "body": {
+      "zh": "本案頁面影像以完工實拍為底，經 AI 進行色溫校正與光影重建、材料樣板補齊與現場雜物移除，與原始實拍已有差異，性質介於完工實景與設計提案視覺之間。",
+      "en": "The images on this page start from photographs of the completed space, then use AI to correct colour temperature, rebuild lighting, complete material samples and remove clutter. They differ from the original photographs and sit between completed-project photography and design visualisation."
+    }
+  },
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "A",
+      "prov": "enh",
+      "stem": "hq-office-hero-01",
+      "sourceFile": "hq-office-hero-01.jpg",
+      "width": 2560,
+      "height": 1429,
+      "spaceZh": "材料展示與洽談區",
+      "alt": {
+        "zh": "惠強室內裝修｜材料展示與洽談區，實拍經 AI 光影強化",
+        "en": "HQ Design — material library and consultation area, photograph with AI-enhanced lighting"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "enh",
+      "stem": "hq-office-gallery-02",
+      "sourceFile": "hq-office-gallery-02.jpg",
+      "width": 2560,
+      "height": 1429,
+      "spaceZh": "主管辦公室",
+      "alt": {
+        "zh": "惠強室內裝修｜主管辦公室，實拍經 AI 光影強化",
+        "en": "HQ Design — executive office, photograph with AI-enhanced lighting"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 3,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "enh",
+      "stem": "hq-office-gallery-03",
+      "sourceFile": "hq-office-gallery-03.jpg",
+      "width": 2560,
+      "height": 1717,
+      "spaceZh": "室內空間",
+      "alt": {
+        "zh": "惠強室內裝修 HQ DESIGN & BUILD｜室內空間設計提案視覺",
+        "en": "HQ Design — interior design visualisation"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 4,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "enh",
+      "stem": "hq-office-gallery-04",
+      "sourceFile": "hq-office-gallery-04.jpg",
+      "width": 2560,
+      "height": 1717,
+      "spaceZh": "室內空間",
+      "alt": {
+        "zh": "惠強室內裝修 HQ DESIGN & BUILD｜室內空間設計提案視覺",
+        "en": "HQ Design — interior design visualisation"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    }
+  ],
+  "facts": {
+    "locationZh": "台北市南港區經貿二路 135 號 9F",
+    "areaSqm": 165.0,
+    "areaRaw": "165 sqm",
+    "year": 2025,
+    "yearRaw": "2025",
+    "typeZh": "自有辦公與材料庫"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": true,
+    "missingFacts": [],
+    "provisionalFields": [],
+    "needsHumanReview": []
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

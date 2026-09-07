@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "slug": "guochan-showroom",
+  "category": "showroom",
+  "weight": "w4",
+  "name": {
+    "zh": "國產建材情境展示間",
+    "en": "Guochan Building Materials Showroom"
+  },
+  "gloss": "Building Materials Showroom · Residential Vignettes",
+  "lede": {
+    "zh": "建材情境展示空間：以玄關、餐廚、客廳、臥室與衛浴等居家情境陳列建材。",
+    "en": "A building-materials showroom presenting products through domestic settings — entrance, kitchen and dining, living room, bedroom and bathroom."
+  },
+  "specs": [
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "展示與訓練空間",
+      "verified": true,
+      "valueEn": "Showroom and training space"
+    }
+  ],
+  "cardMeta": [
+    "SHOWROOM",
+    ""
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "guochan-showroom-hero-01",
+      "sourceFile": "guochan-showroom-hero-01.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "展示間（客廳情境）",
+      "alt": {
+        "zh": "國產建材情境展示間｜展示間（客廳情境）",
+        "en": "Guochan Building Materials Showroom — showroom, living-room setting"
+      },
+      "retouch": "light",
+      "retouchNote": "白平衡拉至 3800–4000K、左牆提亮 +0.5EV、地坪亮斑柔化；出圖前確認 master 解析度",
+      "risks": []
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "guochan-showroom-gallery-02",
+      "sourceFile": "guochan-showroom-gallery-02.jpg",
+      "width": 667,
+      "height": 1000,
+      "spaceZh": "展示間（玄關落塵區情境）",
+      "alt": {
+        "zh": "國產建材情境展示間｜展示間（玄關落塵區情境）",
+        "en": "Guochan Building Materials Showroom — showroom, entrance mudroom setting"
+      },
+      "retouch": "light",
+      "retouchNote": "整體降暖至 3800K、拉回牆面中性灰；壓抑右上出風口亮度；玻璃反光局部去除",
+      "risks": []
+    },
+    {
+      "order": 3,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "guochan-showroom-gallery-03",
+      "sourceFile": "guochan-showroom-gallery-03.jpg",
+      "width": 667,
+      "height": 1000,
+      "spaceZh": "展示間（玄關走道）",
+      "alt": {
+        "zh": "國產建材情境展示間｜展示間（玄關走道）",
+        "en": "Guochan Building Materials Showroom — showroom, entrance passage"
+      },
+      "retouch": "light",
+      "retouchNote": "提亮左牆暗部 +0.7EV、移除暈影、白平衡拉中性；插座可修圖淡化",
+      "risks": []
+    },
+    {
+      "order": 4,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "guochan-showroom-gallery-04",
+      "sourceFile": "guochan-showroom-gallery-04.jpg",
+      "width": 667,
+      "height": 1000,
+      "spaceZh": "展示間（客廳石皮電視牆）",
+      "alt": {
+        "zh": "國產建材情境展示間｜展示間（客廳石皮電視牆）",
+        "en": "Guochan Building Materials Showroom — showroom, living room with stone-clad media wall"
+      },
+      "retouch": "light",
+      "retouchNote": "壓亮部／提暗部收斂石皮明暗；修掉設備與電線；右側門洞降亮",
+      "risks": []
+    },
+    {
+      "order": 5,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "guochan-showroom-gallery-05",
+      "sourceFile": "guochan-showroom-gallery-05.jpg",
+      "width": 667,
+      "height": 1000,
+      "spaceZh": "展示間（客用衛浴／由外框景）",
+      "alt": {
+        "zh": "國產建材情境展示間｜展示間（客用衛浴／由外框景）",
+        "en": "Guochan Building Materials Showroom — showroom, guest bathroom framed from outside"
+      },
+      "retouch": "light",
+      "retouchNote": "重裁縮減左側白牆、亮斑柔化、白平衡中性化",
+      "risks": []
+    },
+    {
+      "order": 6,
+      "role": "detail",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "guochan-showroom-detail-06",
+      "sourceFile": "guochan-showroom-detail-06.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "展示間（廚房）",
+      "alt": {
+        "zh": "國產建材情境展示間｜展示間（廚房）",
+        "en": "Guochan Building Materials Showroom — showroom, kitchen"
+      },
+      "retouch": "light",
+      "retouchNote": "校正 1° 垂直、白平衡中性化、壓抑檯面反光；抹布可去除",
+      "risks": []
+    },
+    {
+      "order": 7,
+      "role": "detail",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "guochan-showroom-detail-07",
+      "sourceFile": "guochan-showroom-detail-07.jpg",
+      "width": 667,
+      "height": 1000,
+      "spaceZh": "展示間（客用衛浴洗手台）",
+      "alt": {
+        "zh": "國產建材情境展示間｜展示間（客用衛浴洗手台）",
+        "en": "Guochan Building Materials Showroom — showroom, guest bathroom washbasin"
+      },
+      "retouch": "light",
+      "retouchNote": "白平衡中性化、亮斑柔化、毛巾摺整（需修圖）、下緣重裁",
+      "risks": []
+    }
+  ],
+  "facts": {
+    "typeZh": "展示與訓練空間"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ]
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

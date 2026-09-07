@@ -1,0 +1,118 @@
+{
+  "title": "設計意圖定案｜Design Intent Review｜惠強 HQ Design",
+  "desc": "這個階段你要決定什麼？設計意圖定案確認設計目標、品牌語彙、關鍵視覺與使用情境四項；外部設計意圖也在此接入審閱。了解你要拍板的四件事。",
+  "h1": "這個階段你要決定什麼？",
+  "lede": "你在這裡拍板四件事：設計目標、品牌語彙、關鍵視覺、使用情境。定案後的每一段都以此為對照。",
+  "gloss": "Design Intent — goals, brand language, key visuals and use scenarios confirmed; the reference every later stage is checked against.",
+  "inp": "你對參數化方案的選擇與取捨、品牌規範、營運情境與未來成長預估。",
+  "out": "定案設計意圖文件（設計目標、品牌語彙、關鍵視覺、使用情境四項），交 04 技術驗證。",
+  "q": "方案這麼多，我要在什麼時候、憑什麼定案？",
+  "quote": "惠強室內裝修（HQ Design）在設計意圖定案階段確認四項：設計目標、品牌語彙、關鍵視覺與使用情境。全案設計施工模式下，業主自參數化方案中選定並在此定案；設計意圖來自外部團隊時，同一節點改為設計意圖審閱（Design Intent Review），惠強自此理解設計目標後接手技術執行。",
+  "quote2": "定案的設計意圖是後續技術驗證、BIM 協調、施工圖說與交付的共同對照，也是「設計意圖可被建造」的起點。",
+  "qen": "Design Intent Review: understand design goals, brand language, key visuals and use scenarios — the same node whether the intent is produced in-house or received from an external design team.",
+  "how_h2": "設計意圖定案要確認哪四件事？",
+  "how": [
+    [
+      "Goals",
+      "設計目標",
+      "空間要解決什麼：人數、協作模式、營運效率或品牌體驗——用可驗證的條件寫下來，而非形容詞。",
+      "公司簡介協作流程 01 Design Intent Review：「理解設計目標、品牌語彙、關鍵視覺與使用情境」四項。"
+    ],
+    [
+      "Brand Language",
+      "品牌語彙",
+      "材料、比例、識別系統如何落地為空間規則，讓連鎖或多據點可複製。",
+      "「品牌特徵成為可複製的空間系統」（公司簡介 AI Advantage）。"
+    ],
+    [
+      "Key Visuals",
+      "關鍵視覺",
+      "接待、主要動線與代表性場景的視覺定案，作為完工後對照的依據。",
+      "完工實景以「AS-BUILT」標示，與設計階段視覺分開標註，供業主自行比對。"
+    ],
+    [
+      "Scenarios",
+      "使用情境",
+      "日常、尖峰、活動與成長後的使用情境，決定彈性配置的邊界。",
+      "「同一需求可快速驗證多種使用情境」（公司簡介 AI Advantage）。"
+    ]
+  ],
+  "fig_lab": "FIG · 03",
+  "cap": [
+    "OPTIONS → INTENT → 4 ITEMS",
+    "<span class='cjk'>多組方案收斂為一個定案節點，展開為四項確認；底部虛線為外部設計意圖接入審閱的路徑（第二委任模式）。</span>"
+  ],
+  "why_h2": "設計意圖定案對業主的意義是什麼？",
+  "why": [
+    [
+      "Reference Point",
+      "後續每一段都以此為對照",
+      "技術驗證、BIM 協調與施工圖說都對照同一份定案意圖，設計品質可被建造、可被驗收。"
+    ],
+    [
+      "Reusable System",
+      "品牌特徵成為可複製的空間系統",
+      "定案的語彙與規則可延伸至其他據點，不必每次重新定義。"
+    ],
+    [
+      "Open Entry",
+      "外部設計也能在此接入",
+      "設計已由其他團隊完成時，惠強在同一節點審閱意圖，自技術驗證接手。"
+    ]
+  ],
+  "ev_h2": "有哪些案件可以對照？",
+  "ev": [
+    {
+      "href": "/work/kimpton/",
+      "t": "金普頓大安酒店 Kimpton",
+      "en": "Hospitality · Public Areas Construction",
+      "d": "TAIPEI DA'AN · <b>2022</b>",
+      "claim_t": "外部設計意圖接手（第二委任模式）",
+      "claim": "設計意圖來自外部團隊，惠強承攬公共區域與客房走廊施工，自技術驗證起負責把設計品質建造出來並可被驗收。",
+      "mode": "委任模式說明 · 非 AI 流程證據"
+    }
+  ],
+  "ev_foot": "金普頓大安酒店（2022）在此僅說明「外部設計意圖接入審閱」的委任模式，不作為參數化或 AI 流程的證據。",
+  "titleEn": "Design Intent Review — goals, brand language, key visuals, scenarios",
+  "descEn": "What do you decide at this stage? The design intent review confirms four things: design goals, brand language, key visuals and use scenarios. External design intent enters here too.",
+  "h1En": "What do you decide at this stage?",
+  "ledeEn": "You settle four things here: design goals, brand language, key visuals and use scenarios. Every later stage is checked against them.",
+  "inpEn": "Your choices and trade-offs among the parametric options, brand standards, operating scenarios and projected growth.",
+  "outEn": "A settled design intent document covering design goals, brand language, key visuals and use scenarios, passed to stage 04 Technical Validation.",
+  "howH2En": "Which four things does the design intent review confirm?",
+  "whyH2En": "What does settling design intent mean for the owner?",
+  "howEn": [
+    [
+      "Design goals",
+      "What the space has to solve — headcount, ways of working, operational efficiency or brand experience — written down as verifiable conditions rather than adjectives."
+    ],
+    [
+      "Brand language",
+      "How materials, proportion and the identity system become spatial rules, so chains and multi-site operators can reproduce them."
+    ],
+    [
+      "Key visuals",
+      "Reception, main circulation and representative scenes are settled visually, as the reference for comparison after completion."
+    ],
+    [
+      "Use scenarios",
+      "Everyday, peak, event and post-growth scenarios set the limits of a flexible layout."
+    ]
+  ],
+  "whyEn": [
+    [
+      "Every later stage is checked against it",
+      "Technical validation, BIM coordination and construction documentation all refer to the same settled intent, so design quality can be built and can be accepted."
+    ],
+    [
+      "Brand character becomes a reusable spatial system",
+      "The settled language and rules extend to other sites without being redefined each time."
+    ],
+    [
+      "External design can enter here",
+      "When the design has been completed by another team, HQ Design reviews the intent at this same node and takes over from technical validation."
+    ]
+  ],
+  "evFootEn": "Kimpton Da An Hotel (2022) appears here only to illustrate the engagement model in which external design intent is reviewed and taken on. It is not evidence of parametric or AI process.",
+  "figAltEn": "Design intent diagram: several parametric options converge on a single settled node confirming design goals, brand language, key visuals and use scenarios; external design intent can be reviewed and taken on at the same node."
+}

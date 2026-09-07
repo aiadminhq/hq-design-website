@@ -134,9 +134,10 @@ let sitemap = "";
   ok(text.includes("<urlset"), `是合法的 urlset`);
   ok(text.includes(`${ORIGIN}/zh/work/secom-nangang-complex`), `含案例頁 zh URL`);
   ok(text.includes('hreflang="x-default"'), `含 x-default alternates`);
-  // parity != full 的 en 頁不得進 sitemap
-  ok(!text.includes(`${ORIGIN}/en/work/`), `英文案例頁未進 sitemap（parity 不足）`);
-  ok(text.includes(`${ORIGIN}/en/about`), `英文 about 有進 sitemap（parity 足夠）`);
+  // parity 由內容計算：英文補齊後這些頁自動進 sitemap
+  ok(text.includes(`${ORIGIN}/en/work/secom-nangang-complex`), `英文案例頁已進 sitemap（parity 已達 full）`);
+  ok(text.includes(`${ORIGIN}/en/process/bim`), `英文階段頁已進 sitemap（parity 已達 full）`);
+  ok(text.includes(`${ORIGIN}/en/about`), `英文 about 有進 sitemap`);
 }
 
 // ── llms.txt（geo §3.3）─────────────────────────────────────
@@ -160,9 +161,9 @@ await checkPage("zh", "/work");
 await checkPage("zh", "/process");
 await checkPage("zh", "/image-policy");
 await checkPage("zh", "/process/bim");
-await checkPage("en", "/process/bim", { indexable: false });
+await checkPage("en", "/process/bim");
 await checkPage("zh", "/work/secom-nangang-complex");
-await checkPage("en", "/work/secom-nangang-complex", { indexable: false });
+await checkPage("en", "/work/secom-nangang-complex");
 
 // ── 案例頁的資料政策：暫填值不得進 JSON-LD ──────────────────
 console.log("\n[policy] JSON-LD 只吃已核實事實（COORDINATION.md §4）");
@@ -174,6 +175,37 @@ console.log("\n[policy] JSON-LD 只吃已核實事實（COORDINATION.md §4）")
   ok(work != null, `案例頁有 CreativeWork 節點`);
   const raw = JSON.stringify(work ?? {});
   ok(!/"value":\s*null/.test(raw), `沒有 null 數值滲入`);
+}
+
+// ── 英文頁不得殘留中文正文 ────────────────────────────────
+// parity 判定說一頁「英文齊了」，這裡實際去頁面上查證。
+// 只放行 SVG 製圖內的中英並列標籤——那是雙語技術圖，其無障礙 <title>
+// 已在英文頁替換為英文（見 lib/content/process.ts）。
+console.log("\n[i18n] 英文頁的中文殘留");
+for (const path of [
+  "/",
+  "/about",
+  "/services",
+  "/work",
+  "/process",
+  "/image-policy",
+  "/process/bim",
+  "/process/delivery",
+  "/work/secom-nangang-complex",
+  "/work/kimpton",
+  "/work/hq-office",
+]) {
+  const url = `/en${path === "/" ? "" : path}`;
+  const { text: html } = await get(url);
+  const noJsonLd = html.replace(
+    /<script type="application\/ld\+json">[\s\S]*?<\/script>/g,
+    "",
+  );
+  const main = noJsonLd.match(/<main[^>]*>([\s\S]*?)<\/main>/)?.[1] ?? "";
+  const outsideSvg = main.replace(/<svg[\s\S]*?<\/svg>/g, "");
+  const text = outsideSvg.replace(/<[^>]+>/g, " ");
+  const cjk = text.match(/[\u4e00-\u9fff]+/g) ?? [];
+  ok(cjk.length === 0, `${url} 的 <main> 無中文殘留`, cjk.slice(0, 6).join("、"));
 }
 
 console.log(

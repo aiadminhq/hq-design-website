@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "slug": "zhongbao-smart-facility",
+  "category": "showroom",
+  "weight": "w4",
+  "name": {
+    "zh": "中保智慧設施訓練基地",
+    "en": "SECOM Smart Facility Training Base"
+  },
+  "gloss": "Smart Facility Training Base &amp; Showroom",
+  "lede": {
+    "zh": "中保集團設於中國科技大學的智慧設施訓練與展示基地。",
+    "en": "SECOM Group's smart-facility training and demonstration base at China University of Technology."
+  },
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "labelEn": "Client",
+      "value": "中保集團",
+      "verified": true,
+      "valueEn": "SECOM Group"
+    },
+    {
+      "labelZh": "地點",
+      "labelEn": "Location",
+      "value": "新北市",
+      "verified": true,
+      "valueEn": "New Taipei"
+    },
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "展示與訓練空間",
+      "verified": true,
+      "valueEn": "Showroom and training space"
+    }
+  ],
+  "cardMeta": [
+    "SHOWROOM",
+    "NEW TAIPEI"
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "zhongbao-smart-facility-hero-01",
+      "sourceFile": "zhongbao-smart-facility-hero-01.jpg",
+      "width": 2000,
+      "height": 1333,
+      "spaceZh": "電梯廳／前廳（智慧設施訓練基地入口）",
+      "alt": {
+        "zh": "中保智慧設施訓練基地（中國科大）｜電梯廳／前廳（智慧設施訓練基地入口）",
+        "en": "SECOM Smart Facility Training Base (CUTe) — lift lobby and entrance hall at the training base entry"
+      },
+      "retouch": "none",
+      "retouchNote": "僅需尺寸階轉檔；如需完美可淡化監視器與壓看板亮部",
+      "risks": []
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "zhongbao-smart-facility-gallery-02",
+      "sourceFile": "zhongbao-smart-facility-gallery-02.jpg",
+      "width": 2000,
+      "height": 1333,
+      "spaceZh": "電梯廳／前廳（另一視角）",
+      "alt": {
+        "zh": "中保智慧設施訓練基地（中國科大）｜電梯廳／前廳（另一視角）",
+        "en": "SECOM Smart Facility Training Base (CUTe) — lift lobby and entrance hall, alternative view"
+      },
+      "retouch": "none",
+      "retouchNote": "僅需尺寸階轉檔；可選擇性提亮電梯區暗部 +0.3EV",
+      "risks": []
+    },
+    {
+      "order": 3,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "zhongbao-smart-facility-gallery-03",
+      "sourceFile": "zhongbao-smart-facility-gallery-03.jpg",
+      "width": 2000,
+      "height": 1333,
+      "spaceZh": "訓練基地大廳（含綠色主題牆）",
+      "alt": {
+        "zh": "中保智慧設施訓練基地（中國科大）｜訓練基地大廳（含綠色主題牆）",
+        "en": "SECOM Smart Facility Training Base (CUTe) — training base hall with green feature wall"
+      },
+      "retouch": "none",
+      "retouchNote": "僅需尺寸階轉檔；可壓 LED 顯示器亮度",
+      "risks": []
+    },
+    {
+      "order": 4,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "zhongbao-smart-facility-gallery-04",
+      "sourceFile": "zhongbao-smart-facility-gallery-04.jpg",
+      "width": 2000,
+      "height": 1333,
+      "spaceZh": "訓練基地大廳（全區廣角）",
+      "alt": {
+        "zh": "中保智慧設施訓練基地（中國科大）｜訓練基地大廳（全區廣角）",
+        "en": "SECOM Smart Facility Training Base (CUTe) — training base hall, wide view"
+      },
+      "retouch": "none",
+      "retouchNote": "僅需尺寸階轉檔；圖說需說明右後方為展示佈景",
+      "risks": []
+    },
+    {
+      "order": 5,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "zhongbao-smart-facility-gallery-05",
+      "sourceFile": "zhongbao-smart-facility-gallery-05.jpg",
+      "width": 2000,
+      "height": 1333,
+      "spaceZh": "訓練基地大廳（智慧居家圖牆側）",
+      "alt": {
+        "zh": "中保智慧設施訓練基地（中國科大）｜訓練基地大廳（智慧居家圖牆側）",
+        "en": "SECOM Smart Facility Training Base (CUTe) — training base hall, smart-home graphic wall side"
+      },
+      "retouch": "none",
+      "retouchNote": "僅需尺寸階轉檔；左緣可微調裁切避免文字被切一半",
+      "risks": []
+    }
+  ],
+  "facts": {
+    "client": "中保集團",
+    "locationZh": "新北市",
+    "typeZh": "展示與訓練空間"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm",
+      "year"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm",
+      "year"
+    ]
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

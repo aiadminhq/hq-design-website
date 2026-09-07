@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "slug": "zhongbao-store-zhuangjing",
+  "category": "showroom",
+  "weight": "w4",
+  "name": {
+    "zh": "中保無限家生活館 莊敬店",
+    "en": "SECOM Smart-Home Lifestyle Store, Zhuangjing"
+  },
+  "gloss": "Smart-Home Lifestyle Store · Zhuangjing",
+  "lede": {
+    "zh": "明亮便利店語彙的智慧居家門店。",
+    "en": "A smart-home store in a bright convenience-store register."
+  },
+  "specs": [
+    {
+      "labelZh": "地點",
+      "labelEn": "Location",
+      "value": "台北市",
+      "verified": true,
+      "valueEn": "Taipei"
+    },
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "展示與訓練空間",
+      "verified": true,
+      "valueEn": "Showroom and training space"
+    }
+  ],
+  "cardMeta": [
+    "LIFESTYLE STORE",
+    "TAIPEI"
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "zhongbao-store-zhuangjing-hero-01",
+      "sourceFile": "zhongbao-store-zhuangjing-hero-01.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "店內座位區（智慧居家系統展示牆）",
+      "alt": {
+        "zh": "中保無限家生活館 莊敬店｜店內座位區（智慧居家系統展示牆）",
+        "en": "SECOM Smart-Home Lifestyle Store, Zhuangjing — seating area with smart-home system display wall"
+      },
+      "retouch": "light",
+      "retouchNote": "冷氣室內機修圖淡化；門禁面板淡化；前景重裁；右側壓亮部",
+      "risks": []
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "zhongbao-store-zhuangjing-gallery-02",
+      "sourceFile": "zhongbao-store-zhuangjing-gallery-02.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "店內座位區（智慧居家系統展示牆）",
+      "alt": {
+        "zh": "中保無限家生活館 莊敬店｜店內座位區（智慧居家系統展示牆）",
+        "en": "SECOM Smart-Home Lifestyle Store, Zhuangjing — seating area with smart-home system display wall"
+      },
+      "retouch": "light",
+      "retouchNote": "壓電視與右牆亮部；冷氣室內機修圖淡化；臨時貼紙移除；天花降對比",
+      "risks": [
+        "confidential",
+        "housekeeping"
+      ]
+    },
+    {
+      "order": 3,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "zhongbao-store-zhuangjing-gallery-03",
+      "sourceFile": "zhongbao-store-zhuangjing-gallery-03.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "入口／櫃台（含冷藏展示櫃）",
+      "alt": {
+        "zh": "中保無限家生活館 莊敬店｜入口／櫃台（含冷藏展示櫃）",
+        "en": "SECOM Smart-Home Lifestyle Store, Zhuangjing — entrance and counter with chilled display cabinet"
+      },
+      "retouch": "light",
+      "retouchNote": "商品標價牌修除；門外街景降亮降飽和並確認去識別化；櫃台設備修圖簡化；壓玻璃門亮部",
+      "risks": [
+        "portrait",
+        "confidential"
+      ]
+    },
+    {
+      "order": 4,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "zhongbao-store-zhuangjing-gallery-04",
+      "sourceFile": "zhongbao-store-zhuangjing-gallery-04.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "店內座位區（WELCOME 牆）",
+      "alt": {
+        "zh": "中保無限家生活館 莊敬店｜店內座位區（WELCOME 牆）",
+        "en": "SECOM Smart-Home Lifestyle Store, Zhuangjing — seating area with WELCOME wall"
+      },
+      "retouch": "light",
+      "retouchNote": "商品標價修除；右牆海報數量修圖精簡；天花降對比；下緣重裁",
+      "risks": [
+        "confidential",
+        "housekeeping"
+      ]
+    },
+    {
+      "order": 5,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "zhongbao-store-zhuangjing-gallery-05",
+      "sourceFile": "zhongbao-store-zhuangjing-gallery-05.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "店面外觀（騎樓）",
+      "alt": {
+        "zh": "中保無限家生活館 莊敬店｜店面外觀（騎樓）",
+        "en": "SECOM Smart-Home Lifestyle Store, Zhuangjing — shopfront under the arcade"
+      },
+      "retouch": "light",
+      "retouchNote": "去識別化或修除人員；臨時立牌與器材需修圖移除；壓數位看板亮部",
+      "risks": [
+        "portrait",
+        "housekeeping"
+      ]
+    }
+  ],
+  "facts": {
+    "locationZh": "台北市",
+    "typeZh": "展示與訓練空間"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm",
+      "year"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm",
+      "year"
+    ]
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

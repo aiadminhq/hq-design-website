@@ -19,7 +19,12 @@ export function projectParity(p: Project): Parity {
   const translated =
     p.name.en != null &&
     p.lede.en != null &&
-    p.images.every((im) => im.alt.en != null);
+    p.images.every((im) => im.alt.en != null) &&
+    // 影像性質聲明是內容政策紅線（COORDINATION.md §5）。英文頁若讓它掉回中文，
+    // 等於對英文讀者少了一段必要揭露，那比不進索引更糟。
+    (p.note == null || (p.note.title.en != null && p.note.body.en != null)) &&
+    // spec 值含中文者必須有 valueEn，否則英文頁的規格表會混語。
+    p.specs.every((s) => !/[\u4e00-\u9fff]/.test(s.value) || s.valueEn != null);
   return translated ? "full" : "partial";
 }
 
@@ -34,8 +39,23 @@ export function projectParity(p: Project): Parity {
  * 在 Stage schema 補上 titleEn／descEn／ledeEn／inpEn／outEn 即可。
  */
 export function stageParity(s: StageWithMeta): Parity {
+  // 條件涵蓋階段頁上「實際會渲染出來的每一段」，不只是 metadata。
+  // 只要有一段仍會掉回中文，這一頁對英文讀者就是混語頁，不該進索引。
   const translated =
-    s.titleEn != null && s.descEn != null && s.ledeEn != null && s.inpEn != null && s.outEn != null;
+    s.titleEn != null &&
+    s.descEn != null &&
+    s.h1En != null &&
+    s.ledeEn != null &&
+    s.inpEn != null &&
+    s.outEn != null &&
+    s.howH2En != null &&
+    s.whyH2En != null &&
+    s.figAltEn != null &&
+    s.howEn.length === s.how.length &&
+    s.whyEn.length === s.why.length &&
+    (!s.ev_foot || s.evFootEn != null) &&
+    (!s.ev_none || s.evNoneEn != null) &&
+    s.ev.every((e) => e.en.length > 0);
   return translated ? "full" : "partial";
 }
 

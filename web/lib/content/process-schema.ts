@@ -102,16 +102,39 @@ export const Stage = z.object({
    */
   titleEn: z.string().nullable().default(null),
   descEn: z.string().nullable().default(null),
+  h1En: z.string().nullable().default(null),
   ledeEn: z.string().nullable().default(null),
   inpEn: z.string().nullable().default(null),
   outEn: z.string().nullable().default(null),
+  howH2En: z.string().nullable().default(null),
+  whyH2En: z.string().nullable().default(null),
+  /** [英文小標, 英文說明]，長度必須與 how／why 一致（見下方 superRefine）。 */
+  howEn: z.array(z.tuple([z.string(), z.string()])).default([]),
+  whyEn: z.array(z.tuple([z.string(), z.string()])).default([]),
+  evFootEn: z.string().nullable().default(null),
+  evNoneEn: z.string().nullable().default(null),
+  /** 製圖的英文無障礙描述。英文頁會用它替換 SVG 內的中文 <title>。 */
+  figAltEn: z.string().nullable().default(null),
 
   /** 有佐證案例時的註腳；兩段沒有 */
   ev_foot: z.string().optional(),
   /** 無佐證案例時的誠實說明；只有兩段有 */
   ev_none: z.string().optional(),
+})
+.superRefine((s, ctx) => {
+  // 英文段落若存在就必須與中文一一對應，否則英文頁會缺格或錯位。
+  // 允許長度 0（尚未翻譯），但不允許長度不符。
+  if (s.howEn.length && s.howEn.length !== s.how.length)
+    ctx.addIssue({ code: "custom", message: "howEn 長度與 how 不符", path: ["howEn"] });
+  if (s.whyEn.length && s.whyEn.length !== s.why.length)
+    ctx.addIssue({ code: "custom", message: "whyEn 長度與 why 不符", path: ["whyEn"] });
+  // ev_foot／ev_none 有中文就必須有英文，否則英文頁會掉出一段中文誠實聲明。
+  if (s.ev_foot && !s.evFootEn)
+    ctx.addIssue({ code: "custom", message: "有 ev_foot 就必須有 evFootEn", path: ["evFootEn"] });
+  if (s.ev_none && !s.evNoneEn)
+    ctx.addIssue({ code: "custom", message: "有 ev_none 就必須有 evNoneEn", path: ["evNoneEn"] });
 });
 
 export type Stage = z.infer<typeof Stage>;
 export type StageWithMeta = Stage &
-  (typeof STAGES)[number] & { figure: string };
+  (typeof STAGES)[number] & { figure: string; figureEn: string };

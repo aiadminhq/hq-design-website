@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "slug": "lijie",
+  "category": "office",
+  "weight": "w4",
+  "name": {
+    "zh": "立捷國際 LIJIE INTERNATIONAL",
+    "en": "LIJIE International"
+  },
+  "gloss": "LIJIE INTERNATIONAL · Corporate Office",
+  "lede": {
+    "zh": "企業辦公空間設計，整合集團識別與接待動線。",
+    "en": "A corporate office interior integrating group identity with the reception sequence."
+  },
+  "specs": [
+    {
+      "labelZh": "地點",
+      "labelEn": "Location",
+      "value": "台北市南港區",
+      "verified": true,
+      "valueEn": "Nangang District, Taipei"
+    },
+    {
+      "labelZh": "面積",
+      "labelEn": "Area",
+      "value": "99 sqm",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "年份",
+      "labelEn": "Year",
+      "value": "2024",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "企業辦公",
+      "verified": true,
+      "valueEn": "Corporate office"
+    }
+  ],
+  "cardMeta": [
+    "<b>99</b> sqm",
+    "NANGANG · 2024"
+  ],
+  "note": {
+    "title": {
+      "zh": "Visual · 影像性質",
+      "en": "Visual · image nature"
+    },
+    "body": {
+      "zh": "本案頁面影像為設計提案視覺（design visualisation），由設計圖面經 AI 重製產出，用於呈現空間設計意圖與材質配置；並非完工實景攝影。完工攝影安排後將替換。",
+      "en": "The images on this page are design visualisations, produced from the design drawings with AI assistance to convey spatial intent and material selection. They are not photographs of the completed project. They will be replaced once completed-project photography is arranged."
+    }
+  },
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "A",
+      "prov": "viz",
+      "stem": "lijie-hero-01",
+      "sourceFile": "lijie-hero-01.jpg",
+      "width": 2560,
+      "height": 1429,
+      "spaceZh": "室內空間",
+      "alt": {
+        "zh": "立捷國際 LIJIE INTERNATIONAL｜室內空間設計提案視覺",
+        "en": "LIJIE International — interior design visualisation"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "viz",
+      "stem": "lijie-gallery-02",
+      "sourceFile": "lijie-gallery-02.jpg",
+      "width": 2560,
+      "height": 1429,
+      "spaceZh": "室內空間",
+      "alt": {
+        "zh": "立捷國際 LIJIE INTERNATIONAL｜室內空間設計提案視覺",
+        "en": "LIJIE International — interior design visualisation"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    }
+  ],
+  "facts": {
+    "locationZh": "台北市南港區",
+    "areaSqm": 99.0,
+    "areaRaw": "99 sqm",
+    "year": 2024,
+    "yearRaw": "2024",
+    "typeZh": "企業辦公"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": true,
+    "missingFacts": [],
+    "provisionalFields": [],
+    "needsHumanReview": []
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

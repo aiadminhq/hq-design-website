@@ -1,0 +1,118 @@
+{
+  "title": "技術驗證｜尺度、材料、法規與施工可行性｜惠強 HQ Design",
+  "desc": "方案能不能蓋，什麼時候知道？技術驗證確認尺度、材料、法規、預算與施工可行性五項；100% 設計施工一體，驗證者就是施工者。外部設計自此接手。",
+  "h1": "方案能不能蓋，什麼時候知道？",
+  "lede": "能不能蓋、多少錢、合不合法，在進入 BIM 與施工圖之前確認，而不是在工地。",
+  "gloss": "Technical Validation — dimensions, materials, regulations, budget and construction feasibility confirmed before BIM coordination.",
+  "inp": "定案設計意圖（惠強產出或外部團隊提供）、預算範圍、大樓規範與消防／機電既有條件。",
+  "out": "五項驗證結論（尺度、材料、法規、預算、施工可行性）與需調整項目清單，交 05 BIM 協調。",
+  "q": "設計圖很漂亮，但預算、法規和現場真的做得到嗎？",
+  "quote": "惠強室內裝修（HQ Design）在技術驗證階段確認五項：尺度、材料、法規、預算與施工可行性。惠強設計與施工 100% 由同一團隊完成，執行驗證的即是之後進場施工的團隊。設計意圖來自外部團隊時，惠強自此階段接手；2022 年金普頓大安酒店公共區域與客房走廊施工即為此模式。",
+  "quote2": "一般流程中「問題常在現場才被發現」；技術驗證把可行性、預算與法規的判斷提前到施工圖之前。",
+  "qen": "Confirm dimensions, materials, regulations, budget and construction feasibility. Because HQ Design builds what it designs, the team validating is the team that will build.",
+  "how_h2": "惠強室內裝修在技術驗證階段確認哪五項？",
+  "how": [
+    [
+      "Scale &amp; Material",
+      "尺度與材料",
+      "關鍵尺寸、淨高、材料規格與接合方式是否成立；材料工法對照既有案件紀錄。",
+      "材料工法為惠強 AI 可用資料庫的六類內容之一（設計決策、材料工法、估價與發包、施工節點、品質管理、風險控管）。"
+    ],
+    [
+      "Code",
+      "法規",
+      "建築、機電、消防與設備界面的法規與大樓規範核對，需要調整的項目在此列出。",
+      "服務項目「機電消防整合」：建築、機電、消防與設備界面協調。"
+    ],
+    [
+      "Budget",
+      "預算",
+      "以模型與材料清單對照預算範圍，取捨在定案後、施工圖前完成。",
+      "BIM 報價整合為 2026 年 4 月導入項目；估價與發包紀錄為資料庫內容之一。"
+    ],
+    [
+      "Buildability",
+      "施工可行性",
+      "施工順序、分區與營運限制是否可執行——由之後進場的工程團隊判斷。",
+      "惠強設計施工 <b>100%</b> 一體化：驗證者就是施工者。"
+    ]
+  ],
+  "fig_lab": "FIG · 04",
+  "cap": [
+    "03 INTENT → 5 CHECKS → 05 BIM",
+    "<span class='cjk'>定案設計依序通過五道檢核閘門；左下虛線為外部設計意圖自此接手的路徑（金普頓大安酒店，2022）。</span>"
+  ],
+  "why_h2": "技術驗證對業主的意義是什麼？",
+  "why": [
+    [
+      "Before Site",
+      "問題在進場前被看見",
+      "可行性、預算與法規的取捨在施工圖之前完成，不在工地。"
+    ],
+    [
+      "Same Team",
+      "驗證者就是施工者",
+      "100% 設計施工一體，判斷「做得到」的人就是之後做的人。"
+    ],
+    [
+      "Aligned Budget",
+      "預算依據與模型一致",
+      "模型、圖面與報價依據更容易維持一致。"
+    ]
+  ],
+  "ev_h2": "有哪些案件可以對照？",
+  "ev": [
+    {
+      "href": "/work/kimpton/",
+      "t": "金普頓大安酒店 Kimpton",
+      "en": "Hospitality · Public Areas Construction",
+      "d": "TAIPEI DA'AN · <b>2022</b>",
+      "claim_t": "外部設計意圖接手（第二委任模式）",
+      "claim": "設計意圖來自外部團隊，惠強承攬公共區域與客房走廊施工，自技術驗證起負責把設計品質建造出來並可被驗收。",
+      "mode": "委任模式說明 · 非 AI 流程證據"
+    }
+  ],
+  "ev_foot": "金普頓大安酒店（2022）為「外部設計意圖自技術驗證接手」的委任模式證據，不作為 AI 流程證據；2024 年前完成之案件不列為 AI 流程證據。",
+  "titleEn": "Technical Validation — dimensions, materials, regulations, buildability",
+  "descEn": "Can the scheme be built, and when do you find out? Technical validation confirms dimensions, materials, regulations, budget and buildability. The team validating is the team that builds.",
+  "h1En": "Can it be built, and when do you find out?",
+  "ledeEn": "Whether it can be built, what it costs and whether it complies are confirmed before BIM and construction drawings — not on site.",
+  "inpEn": "Settled design intent, whether produced by HQ Design or supplied by an external team, the budget range, building standards, and existing fire and MEP conditions.",
+  "outEn": "Conclusions on five checks — dimensions, materials, regulations, budget and buildability — with a list of items to adjust, passed to stage 05 BIM Coordination.",
+  "howH2En": "Which five checks does HQ Design make during technical validation?",
+  "whyH2En": "What does technical validation mean for the owner?",
+  "howEn": [
+    [
+      "Scale and material",
+      "Whether key dimensions, clear heights, material specifications and junction details hold; material and method are checked against records from earlier projects."
+    ],
+    [
+      "Code",
+      "Architectural, MEP, fire and equipment interfaces are checked against regulations and building standards, and items needing adjustment are listed here."
+    ],
+    [
+      "Budget",
+      "The model and material schedule are checked against the budget range, so trade-offs are made after intent is settled and before construction drawings."
+    ],
+    [
+      "Buildability",
+      "Whether the construction sequence, zoning and operational constraints can be executed — judged by the site team that will later carry them out."
+    ]
+  ],
+  "whyEn": [
+    [
+      "Problems surface before site works",
+      "Feasibility, budget and regulatory trade-offs are settled before construction drawings, not on site."
+    ],
+    [
+      "The team validating is the team building",
+      "Design and construction sit in one team, so whoever judges that it can be done is whoever later does it."
+    ],
+    [
+      "Budget basis matches the model",
+      "Model, drawings and the basis for pricing are easier to keep aligned."
+    ]
+  ],
+  "evFootEn": "Kimpton Da An Hotel (2022) is evidence of the engagement model in which external design intent is taken on from technical validation. It is not evidence of AI process; projects completed before 2024 are not listed as evidence of AI process.",
+  "figAltEn": "Technical validation diagram: the settled design passes five checks in turn — dimensions, materials, regulations, budget and buildability — before entering BIM coordination; external design intent is taken on from this stage."
+}

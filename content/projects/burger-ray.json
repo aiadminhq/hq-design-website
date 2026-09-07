@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "slug": "burger-ray",
+  "category": "fb",
+  "weight": "reg",
+  "name": {
+    "zh": "Burger-Ray",
+    "en": "Burger-Ray"
+  },
+  "gloss": "Burger Restaurant",
+  "lede": {
+    "zh": "漢堡餐飲空間。目前僅有一張走廊局部影像，其餘完工攝影待後製後補上。",
+    "en": "A burger restaurant interior. Only one partial corridor image is available at present; the remaining completed-project photography will follow post-production."
+  },
+  "specs": [
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "連鎖餐飲",
+      "verified": true,
+      "valueEn": "Chain F&B"
+    }
+  ],
+  "cardMeta": [
+    "F&amp;B",
+    ""
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "detail",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "burger-ray-detail-01",
+      "sourceFile": "burger-ray-detail-01.jpg",
+      "width": 667,
+      "height": 1000,
+      "spaceZh": "走廊",
+      "alt": {
+        "zh": "Burger-Ray｜走廊",
+        "en": "Burger-Ray — corridor"
+      },
+      "retouch": "light",
+      "retouchNote": "超解析放大、校正整體暖黃色偏、提亮左側暗部",
+      "risks": []
+    }
+  ],
+  "facts": {
+    "typeZh": "連鎖餐飲"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ]
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

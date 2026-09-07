@@ -1,0 +1,108 @@
+{
+  "title": "參數化設計 室內｜一個條件改變，整套空間同步更新｜惠強 HQ Design",
+  "desc": "人數從 80 變 120，方案要重畫多久？惠強以參數化設計讓一個條件改變、整套空間同步更新：多方案可比較、平立剖與數據同步。看它怎麼運作。",
+  "h1": "改一次條件，要重畫幾次圖？",
+  "lede": "條件改一次，方案與圖面一起更新，不必從頭重畫。人做決策，系統做運算。",
+  "gloss": "Parametric Design — one change, multiple verified options. Plans, elevations, sections and data update together.",
+  "inp": "使用人數與成長預估、面積與樓層條件、部門關係與動線需求、品牌規範。",
+  "out": "多組可比較的空間方案，各附座位數、會議室數與面積使用率等數據；供 03 設計意圖定案選定。",
+  "q": "如果人數從 80 變 120，方案要重畫多久？",
+  "quote": "惠強室內裝修（HQ Design）在參數化方案階段，以人數、尺寸、動線與品牌條件作為輸入，由系統重新運算並產出多組可比較的空間方案；條件改變時，平面、立面、剖面與相關數據同步更新，不需從頭重畫。參數化多方案自 2026 年 4 月起導入。",
+  "quote2": "一般設計流程為單一方案、改一次重畫一次；參數化流程讓同一份需求可在多種使用情境下快速驗證，品牌特徵成為可複製的空間系統。",
+  "qen": "When headcount, dimensions, circulation or brand rules change, the system recalculates the options and keeps spatial and design rules consistent — instead of redrawing from scratch.",
+  "how_h2": "惠強室內裝修在參數化方案階段做哪四件事？",
+  "how": [
+    [
+      "Inputs",
+      "條件即輸入",
+      "人數、尺寸、動線、品牌規範不是註記在圖上的文字，而是驅動方案的參數。",
+      "公司簡介 Parametric Advantage：「人數、尺寸、動線或品牌需求調整時，不必從頭重畫；系統可即時重新運算。」"
+    ],
+    [
+      "Options",
+      "多方案運算與比較",
+      "同一份需求產出多組配置，每組附座位數、會議室數、面積使用率等數據，讓業主用數字比較而非憑感覺。",
+      "對照一般流程的「單一方案，改一次重畫一次」（公司簡介 The Difference 對照表）。"
+    ],
+    [
+      "Sync",
+      "平立剖與數據同步",
+      "方案變更延伸至相關圖面與數據；平面、立面、剖面與報價依據來自同一套模型。",
+      "與 05 BIM 協調的「BIM 報價整合」共用同一模型（2026 年 4 月導入項目）。"
+    ],
+    [
+      "Human-led",
+      "人做決策，系統做運算",
+      "設計團隊掌握方向與判斷，AI 與規則負責加速推演與一致性。",
+      "規則來源為惠強 <b>30 年</b>、<b>1,600+</b> 件商業空間案件的設計決策與材料工法紀錄。"
+    ]
+  ],
+  "fig_lab": "FIG · 02",
+  "cap": [
+    "INPUT → OPTIONS → SYNC",
+    "<span class='cjk'>一組輸入條件分岐為三組可比較方案（開放、混合、隔間），每組以座位數、會議室數與面積使用率比較；右側為同步更新的平面、立面、剖面與數據。示意圖，不含特定案件數值。</span>"
+  ],
+  "why_h2": "參數化方案對業主的意義是什麼？",
+  "why": [
+    [
+      "More Options, Less Waiting",
+      "多方案，不必多等待",
+      "調整輸入條件即可快速比較方案。"
+    ],
+    [
+      "Synchronized Outputs",
+      "平立剖與數據同步",
+      "方案變更可延伸至相關圖面與數據。"
+    ],
+    [
+      "Human-led, System-assisted",
+      "人做決策，系統做運算",
+      "設計團隊掌握方向，AI 與規則加速推演。"
+    ]
+  ],
+  "ev_h2": "有哪些案件可以對照？",
+  "ev": [],
+  "ev_none": "<b>目前尚無可公開引用的階段證據。</b>參數化多方案自 2026 年 4 月起導入；本頁不列 2024 年前完成之案件，也不陳述尚未統計的方案數與改版工時。首批以此流程完成的案件將補列方案比較數。",
+  "titleEn": "Parametric Design — one change, the whole scheme updates",
+  "descEn": "Headcount goes from 80 to 120 — how long to redraw? Parametric design lets one change update the whole scheme: comparable options, with plans, elevations, sections and data in step.",
+  "h1En": "Change one condition — how many times do you redraw?",
+  "ledeEn": "Change a condition once and the options and drawings update together, instead of starting again. People decide; the system computes.",
+  "inpEn": "Headcount and growth projections, area and floor conditions, departmental relationships and circulation needs, and brand standards.",
+  "outEn": "Several comparable spatial options, each with seat count, meeting-room count and area-efficiency figures, for selection at stage 03 Design Intent.",
+  "howH2En": "What does HQ Design do during the parametric stage?",
+  "whyH2En": "What does parametric design mean for the owner?",
+  "howEn": [
+    [
+      "Conditions are the input",
+      "Headcount, dimensions, circulation and brand standards are not notes written on a drawing; they are the parameters that drive the scheme."
+    ],
+    [
+      "Computing and comparing options",
+      "One brief produces several layouts, each with seat count, meeting-room count and area efficiency, so the owner compares numbers rather than impressions."
+    ],
+    [
+      "Plans, elevations, sections and data in step",
+      "A change to the scheme carries through to the related drawings and figures; plans, elevations, sections and the basis for pricing all come from one model."
+    ],
+    [
+      "People decide, the system computes",
+      "The design team holds direction and judgement; AI and rules accelerate the derivation and keep it consistent."
+    ]
+  ],
+  "whyEn": [
+    [
+      "More options, less waiting",
+      "Adjust the input conditions and the options can be compared quickly."
+    ],
+    [
+      "Outputs stay synchronised",
+      "A change to the scheme can carry through to the related drawings and figures."
+    ],
+    [
+      "Human-led, system-assisted",
+      "The design team holds direction; AI and rules accelerate the derivation."
+    ]
+  ],
+  "evNoneEn": "<b>No citable evidence for this stage yet.</b> Parametric multi-option work has been in place since April 2026. This page does not list projects completed before 2024, and does not state option counts or revision hours that have not been compiled. Option comparison figures will be added for the first projects delivered through it.",
+  "figAltEn": "Parametric design diagram: one set of input conditions — headcount, area, circulation and brand — branches into several comparable spatial options, with plans, elevations, sections and data updating together."
+}

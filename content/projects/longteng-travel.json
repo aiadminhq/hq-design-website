@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "slug": "longteng-travel",
+  "category": "office",
+  "weight": "reg",
+  "name": {
+    "zh": "龍騰旅行社",
+    "en": "Longteng Travel Agency"
+  },
+  "gloss": "Travel Agency Office",
+  "lede": {
+    "zh": "旅行社辦公空間。",
+    "en": "A travel agency office."
+  },
+  "specs": [
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "企業總部／辦公空間",
+      "verified": true,
+      "valueEn": "Corporate headquarters / office"
+    }
+  ],
+  "cardMeta": [
+    "OFFICE",
+    ""
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "longteng-travel-hero-01",
+      "sourceFile": "longteng-travel-hero-01.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "接待區（大理石壁龕）",
+      "alt": {
+        "zh": "龍騰旅行社｜接待區（大理石壁龕）",
+        "en": "Longteng Travel Agency — reception with marble niche"
+      },
+      "retouch": "light",
+      "retouchNote": "收斂壁龕明暗、消除嵌燈反射亮點、中軸校正、恢復石材暖白",
+      "risks": []
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "longteng-travel-gallery-02",
+      "sourceFile": "longteng-travel-gallery-02.jpg",
+      "width": 667,
+      "height": 1000,
+      "spaceZh": "接待區（植生牆）",
+      "alt": {
+        "zh": "龍騰旅行社｜接待區（植生牆）",
+        "en": "Longteng Travel Agency — reception with living wall"
+      },
+      "retouch": "light",
+      "retouchNote": "枯葉需修圖替換；壓吊燈亮部；透視略作校正",
+      "risks": []
+    }
+  ],
+  "facts": {
+    "typeZh": "企業總部／辦公空間"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ]
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

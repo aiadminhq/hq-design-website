@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "slug": "soup-spoon-101",
+  "category": "fb",
+  "weight": "w4",
+  "name": {
+    "zh": "The Soup Spoon 台北 101 店",
+    "en": "The Soup Spoon, Taipei 101"
+  },
+  "gloss": "Singapore F&amp;B Brand · Taipei 101",
+  "lede": {
+    "zh": "The Soup Spoon 台北 101 旗艦店設計施工，於台灣最高地標商場打造符合品牌質感的用餐環境，工程精度與施工速度並重。",
+    "en": "Design and build for The Soup Spoon's flagship outlet at Taipei 101, creating a dining environment that matches the brand inside Taiwan's tallest landmark mall, with equal weight on precision and speed."
+  },
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "labelEn": "Client",
+      "value": "The Soup Spoon",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "地點",
+      "labelEn": "Location",
+      "value": "台北 101 購物中心",
+      "verified": true,
+      "valueEn": "Taipei 101 Mall"
+    },
+    {
+      "labelZh": "面積",
+      "labelEn": "Area",
+      "value": "21 坪",
+      "verified": true,
+      "valueEn": "21 ping"
+    },
+    {
+      "labelZh": "年份",
+      "labelEn": "Year",
+      "value": "2023",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "範圍",
+      "labelEn": "Scope",
+      "value": "餐飲空間設計施工",
+      "verified": true,
+      "valueEn": "F&B design & build"
+    },
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "連鎖餐飲",
+      "verified": true,
+      "valueEn": "Chain F&B"
+    }
+  ],
+  "cardMeta": [
+    "<b>21</b> 坪",
+    "TAIPEI 101 · 2023"
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "soup-spoon-101-hero-01",
+      "sourceFile": "soup-spoon-101-hero-01.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "櫃台",
+      "alt": {
+        "zh": "The Soup Spoon 101 店｜櫃台",
+        "en": "The Soup Spoon Taipei 101 — counter"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "soup-spoon-101-gallery-02",
+      "sourceFile": "soup-spoon-101-gallery-02.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "櫃台",
+      "alt": {
+        "zh": "The Soup Spoon 101 店｜櫃台",
+        "en": "The Soup Spoon Taipei 101 — counter"
+      },
+      "retouch": "light",
+      "retouchNote": "裁切或壓暗左側鄰攤、補回招牌完整性、校正白平衡",
+      "risks": []
+    },
+    {
+      "order": 3,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "soup-spoon-101-gallery-03",
+      "sourceFile": "soup-spoon-101-gallery-03.jpg",
+      "width": 2000,
+      "height": 1333,
+      "spaceZh": "櫃台",
+      "alt": {
+        "zh": "The Soup Spoon 101 店｜櫃台",
+        "en": "The Soup Spoon Taipei 101 — counter"
+      },
+      "retouch": "light",
+      "retouchNote": "壓暗中央不鏽鋼排煙罩、修除遠處人影、校正色溫",
+      "risks": [
+        "portrait"
+      ]
+    }
+  ],
+  "facts": {
+    "client": "The Soup Spoon",
+    "locationZh": "台北 101 購物中心",
+    "areaPing": 21.0,
+    "areaRaw": "21 坪",
+    "year": 2023,
+    "yearRaw": "2023",
+    "typeZh": "連鎖餐飲"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm"
+    ]
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

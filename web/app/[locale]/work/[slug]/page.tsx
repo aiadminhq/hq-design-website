@@ -110,19 +110,26 @@ export default async function ProjectPage({
           <p className="body-large" lang={lede.lang}>
             {plain(lede.value)}
           </p>
-          {p.note && (
-            <aside className="project-note">
-              <h2>{plain(resolve(p.note.title, l).value)}</h2>
-              <p lang="zh-Hant">{plain(resolve(p.note.body, l).value)}</p>
-            </aside>
-          )}
+          {p.note && (() => {
+            // 影像性質聲明的語言必須跟著實際內容走：英文缺席時是中文，
+            // 硬寫 lang="zh-Hant" 會在英文補齊後變成錯的標記。
+            const noteBody = resolve(p.note.body, l);
+            return (
+              <aside className="project-note">
+                <h2>{plain(resolve(p.note.title, l).value)}</h2>
+                <p lang={noteBody.lang === "zh" ? "zh-Hant" : "en"}>
+                  {plain(noteBody.value)}
+                </p>
+              </aside>
+            );
+          })()}
         </div>
         <dl className="spec-strip">
           {p.specs.map((spec) => (
             <div key={spec.labelEn}>
               <dt>{l === "zh" ? spec.labelZh : spec.labelEn}</dt>
-              <dd>
-                {spec.value}
+              <dd lang={l === "zh" || spec.valueEn ? undefined : "zh-Hant"}>
+                {l === "zh" ? spec.value : (spec.valueEn ?? spec.value)}
                 {!spec.verified && (
                   <small>{l === "zh" ? "資料待核對" : "To be confirmed"}</small>
                 )}

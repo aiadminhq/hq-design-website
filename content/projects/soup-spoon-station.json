@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "slug": "soup-spoon-station",
+  "category": "fb",
+  "weight": "w6",
+  "name": {
+    "zh": "The Soup Spoon 台北車站店",
+    "en": "The Soup Spoon, Taipei Main Station"
+  },
+  "gloss": "Singapore F&amp;B Brand · Taipei Main Station",
+  "lede": {
+    "zh": "The Soup Spoon 台北車站店設計施工，位於高人流交通樞紐，空間規劃強調快速翻桌動線與視覺識別，同時符合車站商場施工規範。",
+    "en": "Design and build for The Soup Spoon at Taipei Main Station. Set in a high-footfall transport hub, the plan emphasises fast-turnover circulation and visual identity while meeting the station mall's construction rules."
+  },
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "labelEn": "Client",
+      "value": "The Soup Spoon",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "地點",
+      "labelEn": "Location",
+      "value": "台北車站商場",
+      "verified": true,
+      "valueEn": "Taipei Main Station mall"
+    },
+    {
+      "labelZh": "面積",
+      "labelEn": "Area",
+      "value": "30 坪",
+      "verified": true,
+      "valueEn": "30 ping"
+    },
+    {
+      "labelZh": "年份",
+      "labelEn": "Year",
+      "value": "2023",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "範圍",
+      "labelEn": "Scope",
+      "value": "餐飲空間設計施工",
+      "verified": true,
+      "valueEn": "F&B design & build"
+    },
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "連鎖餐飲",
+      "verified": true,
+      "valueEn": "Chain F&B"
+    },
+    {
+      "labelZh": "特色",
+      "labelEn": "Notes",
+      "value": "高人流動線規劃、捷運商場施工規範",
+      "verified": true,
+      "valueEn": "High-footfall circulation planning; transit-mall construction rules"
+    }
+  ],
+  "cardMeta": [
+    "<b>30</b> 坪",
+    "TAIPEI STATION · 2023"
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "soup-spoon-station-hero-01",
+      "sourceFile": "soup-spoon-station-hero-01.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "店面外觀",
+      "alt": {
+        "zh": "The Soup Spoon 台北車站店｜店面外觀",
+        "en": "The Soup Spoon, Taipei Main Station — shopfront"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "soup-spoon-station-gallery-02",
+      "sourceFile": "soup-spoon-station-gallery-02.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "The Soup Spoon 台北車站店｜用餐區",
+        "en": "The Soup Spoon, Taipei Main Station — dining area"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 3,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "soup-spoon-station-gallery-03",
+      "sourceFile": "soup-spoon-station-gallery-03.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "The Soup Spoon 台北車站店｜用餐區",
+        "en": "The Soup Spoon, Taipei Main Station — dining area"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 4,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "soup-spoon-station-gallery-04",
+      "sourceFile": "soup-spoon-station-gallery-04.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "櫃台",
+      "alt": {
+        "zh": "The Soup Spoon 台北車站店｜櫃台",
+        "en": "The Soup Spoon, Taipei Main Station — counter"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": [
+        "confidential"
+      ]
+    },
+    {
+      "order": 5,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "soup-spoon-station-gallery-05",
+      "sourceFile": "soup-spoon-station-gallery-05.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "The Soup Spoon 台北車站店｜用餐區",
+        "en": "The Soup Spoon, Taipei Main Station — dining area"
+      },
+      "retouch": "light",
+      "retouchNote": "壓暗或裁切上方車站結構、消除玻璃霓虹倒影、統一白平衡",
+      "risks": []
+    },
+    {
+      "order": 6,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "soup-spoon-station-gallery-06",
+      "sourceFile": "soup-spoon-station-gallery-06.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "The Soup Spoon 台北車站店｜用餐區",
+        "en": "The Soup Spoon, Taipei Main Station — dining area"
+      },
+      "retouch": "light",
+      "retouchNote": "壓暗上方結構、統一白平衡、必要時裁成 16:9",
+      "risks": []
+    },
+    {
+      "order": 7,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "soup-spoon-station-gallery-07",
+      "sourceFile": "soup-spoon-station-gallery-07.jpg",
+      "width": 2000,
+      "height": 1333,
+      "spaceZh": "店面外觀",
+      "alt": {
+        "zh": "The Soup Spoon 台北車站店｜店面外觀",
+        "en": "The Soup Spoon, Taipei Main Station — shopfront"
+      },
+      "retouch": "light",
+      "retouchNote": "裁切左側牆面比例至約三分之一、壓抑地板反光、校正色溫偏黃",
+      "risks": []
+    },
+    {
+      "order": 8,
+      "role": "detail",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "soup-spoon-station-detail-08",
+      "sourceFile": "soup-spoon-station-detail-08.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "櫃台",
+      "alt": {
+        "zh": "The Soup Spoon 台北車站店｜櫃台",
+        "en": "The Soup Spoon, Taipei Main Station — counter"
+      },
+      "retouch": "light",
+      "retouchNote": "修除檯面線材與讀卡機、壓暗或修飾中央黑色防火門",
+      "risks": [
+        "confidential"
+      ]
+    },
+    {
+      "order": 9,
+      "role": "context",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "soup-spoon-station-context-09",
+      "sourceFile": "soup-spoon-station-context-09.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "The Soup Spoon 台北車站店｜用餐區",
+        "en": "The Soup Spoon, Taipei Main Station — dining area"
+      },
+      "retouch": "light",
+      "retouchNote": "大幅壓暗背景中庭、模糊鄰店招牌與價格資訊、裁切上緣",
+      "risks": [
+        "confidential"
+      ]
+    }
+  ],
+  "facts": {
+    "client": "The Soup Spoon",
+    "locationZh": "台北車站商場",
+    "areaPing": 30.0,
+    "areaRaw": "30 坪",
+    "year": 2023,
+    "yearRaw": "2023",
+    "typeZh": "連鎖餐飲"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm"
+    ]
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

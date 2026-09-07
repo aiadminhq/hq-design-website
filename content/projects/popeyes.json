@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "slug": "popeyes",
+  "category": "fb",
+  "weight": "w6",
+  "name": {
+    "zh": "Popeyes 許昌店",
+    "en": "Popeyes Xuchang Street"
+  },
+  "gloss": "International Chain F&amp;B · Design &amp; Build",
+  "lede": {
+    "zh": "Popeyes 許昌店餐飲空間設計施工，以美式炸雞品牌識別為核心，規劃符合高翻桌率的高效動線，兼顧品牌個性與施工精度。",
+    "en": "Design and build for the Popeyes Xuchang Street outlet. The American fried-chicken brand identity drives a layout planned for high table turnover, holding brand character and construction precision together."
+  },
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "labelEn": "Client",
+      "value": "Popeyes Taiwan",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "地點",
+      "labelEn": "Location",
+      "value": "台北市許昌街",
+      "verified": true,
+      "valueEn": "Xuchang Street, Taipei"
+    },
+    {
+      "labelZh": "面積",
+      "labelEn": "Area",
+      "value": "51 坪",
+      "verified": true,
+      "valueEn": "51 ping"
+    },
+    {
+      "labelZh": "年份",
+      "labelEn": "Year",
+      "value": "2024",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "範圍",
+      "labelEn": "Scope",
+      "value": "餐飲空間設計施工",
+      "verified": true,
+      "valueEn": "F&B design & build"
+    },
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "連鎖餐飲",
+      "verified": true,
+      "valueEn": "Chain F&B"
+    }
+  ],
+  "cardMeta": [
+    "<b>51</b> 坪",
+    "XUCHANG ST. · TAIPEI · 2024"
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "popeyes-hero-01",
+      "sourceFile": "popeyes-hero-01.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "Popeyes 許昌店｜用餐區",
+        "en": "Popeyes Xuchang Street — dining area"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "popeyes-gallery-02",
+      "sourceFile": "popeyes-gallery-02.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "Popeyes 許昌店｜用餐區",
+        "en": "Popeyes Xuchang Street — dining area"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": [
+        "housekeeping"
+      ]
+    },
+    {
+      "order": 3,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "popeyes-gallery-03",
+      "sourceFile": "popeyes-gallery-03.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "櫃台",
+      "alt": {
+        "zh": "Popeyes 許昌店｜櫃台",
+        "en": "Popeyes Xuchang Street — counter"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": [
+        "portrait"
+      ]
+    },
+    {
+      "order": 4,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "popeyes-gallery-04",
+      "sourceFile": "popeyes-gallery-04.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "Popeyes 許昌店｜用餐區",
+        "en": "Popeyes Xuchang Street — dining area"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": [
+        "housekeeping"
+      ]
+    },
+    {
+      "order": 5,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "popeyes-gallery-05",
+      "sourceFile": "popeyes-gallery-05.jpg",
+      "width": 2297,
+      "height": 2560,
+      "spaceZh": "店面外觀",
+      "alt": {
+        "zh": "Popeyes 許昌店｜店面外觀",
+        "en": "Popeyes Xuchang Street — shopfront"
+      },
+      "retouch": "light",
+      "retouchNote": "裁掉下緣灰色圍籬、修除玻璃內機車、裁切右側鄰棟看板與上緣帆布；招牌可加局部提亮",
+      "risks": []
+    },
+    {
+      "order": 6,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "popeyes-gallery-06",
+      "sourceFile": "popeyes-gallery-06.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "Popeyes 許昌店｜用餐區",
+        "en": "Popeyes Xuchang Street — dining area"
+      },
+      "retouch": "light",
+      "retouchNote": "修除左緣垃圾櫃、補修牆裙刮痕、統一白平衡",
+      "risks": [
+        "housekeeping"
+      ]
+    },
+    {
+      "order": 7,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "popeyes-gallery-07",
+      "sourceFile": "popeyes-gallery-07.jpg",
+      "width": 1920,
+      "height": 2560,
+      "spaceZh": "店面外觀",
+      "alt": {
+        "zh": "Popeyes 許昌店｜店面外觀",
+        "en": "Popeyes Xuchang Street — shopfront"
+      },
+      "retouch": "light",
+      "retouchNote": "修正上緣梯形變形、裁切或壓暗左側街景雜物、壓回天空亮度",
+      "risks": [
+        "portrait",
+        "housekeeping"
+      ]
+    }
+  ],
+  "facts": {
+    "client": "Popeyes Taiwan",
+    "locationZh": "台北市許昌街",
+    "areaPing": 51.0,
+    "areaRaw": "51 坪",
+    "year": 2024,
+    "yearRaw": "2024",
+    "typeZh": "連鎖餐飲"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm"
+    ]
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

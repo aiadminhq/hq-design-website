@@ -131,6 +131,7 @@ framer reference/**       ⚠️ 1,890 檔 / 260 MB 第三方參考素材，含 
 2026-09-07  Claude→Fable  web/app/[locale]/process/[slug]/page.tsx  generateMetadata 改用內容層既有 title/desc  已完成
 2026-09-07  Claude→Fable  web/app/[locale]/image-policy/page.tsx    新頁：ImageObject.license 的指向目標  已完成
 2026-09-07  Claude       web/app/{robots.ts,sitemap.ts,llms.txt/route.ts}  SEO 基礎路由（Claude 所有）  已完成
+2026-09-07  Claude→Fable  web/app/[locale]/globals.css          移植舊站 .dia 的 SVG 線稿樣式為 .stage-figure svg（七張流程圖目前渲染成實心黑塊）  進行中
 ```
 
 **這批修改的邊界**：只動 `generateMetadata` 與在 `<main>` 內加一個 `<JsonLd>`。
