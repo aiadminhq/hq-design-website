@@ -1,0 +1,2709 @@
+{
+ "generated": "2026-09-03",
+ "target": "Framer CMS — Projects collection (id p_qCPdaU5)",
+ "field_ids_note": "Framer 的 field ID 是自動產生的字串（如 j11rZL4rT），需先用 getCMSCollections 取得後再對映。此處以欄位名稱標示。",
+ "image_url_note": "images 的 local_path 為本機檔案。Framer image 欄位需要 URL——MUST NOT 上傳至 catbox.moe 等第三方免費圖床（實績照片含授權範圍限制與第三方攝影師署名）。請改用 Framer 自身資產上傳（GUI）或公司自有 CDN，取得 URL 後替換 url 欄位。",
+ "retouch_legend": {
+  "none": "可直接發佈",
+  "light": "批次可處理：白平衡／曝光／裁切",
+  "heavy": "需局部重建，本批未轉檔"
+ },
+ "cases": {
+  "airport-lounges": {
+   "fields": {
+    "Project name": "桃園機場航空貴賓室",
+    "Project name (en)": null,
+    "Short text": null,
+    "Heading": null,
+    "Text": null,
+    "Year": null,
+    "Location": null,
+    "Scope": null,
+    "Size": null,
+    "Category": null
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "hero",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "修正垂直；壓回後方白牆高光；微調裁切讓櫃台脫離正中分割線",
+     "issues": [
+      "垂直線向內收斂約 2°",
+      "櫃台後方白牆接近純白略過曝",
+      "左側柱體與蝕刻玻璃在畫面正中形成分割",
+      "前景蘭花盆略搶主體"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "接待大廳",
+     "local_path": "site/assets/img/work/airport-lounges/airport-lounges-hero-01.jpg",
+     "url": null,
+     "alt_zh": "桃園機場航空貴賓室｜接待大廳",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/airport-lounges/airport-lounges-hero-01.jpg"
+    },
+    {
+     "order": 2,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "提亮前景地毯；校正偏黃；裁掉右緣柱體；電視畫面替換為關閉或純色",
+     "issues": [
+      "前景地毯暗部偏黑細節不足",
+      "右緣白色柱體切入畫面",
+      "金色木皮天花反射造成整體偏黃",
+      "電視畫面內容入鏡（第三方內容）"
+     ],
+     "risks": [
+      "thirdparty"
+     ],
+     "in_scope": true,
+     "space_zh": "貴賓室",
+     "local_path": "site/assets/img/work/airport-lounges/airport-lounges-gallery-02.jpg",
+     "url": null,
+     "alt_zh": "桃園機場航空貴賓室｜貴賓室",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/airport-lounges/airport-lounges-gallery-02.jpg"
+    },
+    {
+     "order": 3,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "確認掛畫授權，否則裁切或柔化；統一天花色溫；修正垂直",
+     "issues": [
+      "左側掛畫為第三方藝術作品（著作權需確認）",
+      "金色木皮天花與白色天花色溫落差大",
+      "右下前景桌面被裁切",
+      "垂直線輕微收斂"
+     ],
+     "risks": [
+      "thirdparty"
+     ],
+     "in_scope": true,
+     "space_zh": "貴賓室",
+     "local_path": "site/assets/img/work/airport-lounges/airport-lounges-gallery-03.jpg",
+     "url": null,
+     "alt_zh": "桃園機場航空貴賓室｜貴賓室",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/airport-lounges/airport-lounges-gallery-03.jpg"
+    },
+    {
+     "order": 4,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "去除左緣人物；壓右側死黑或裁切；校正水平與偏綠；清除檯面小家電",
+     "issues": [
+      "左緣有一位坐姿人物入鏡（肖像權風險，需去除）",
+      "右側深色電梯門形成大面積死黑",
+      "畫面右下水平略傾",
+      "白平衡略偏綠",
+      "備餐檯上小家電與食材外露"
+     ],
+     "risks": [
+      "portrait"
+     ],
+     "in_scope": true,
+     "space_zh": "備餐區",
+     "local_path": "site/assets/img/work/airport-lounges/airport-lounges-gallery-04.jpg",
+     "url": null,
+     "alt_zh": "桃園機場航空貴賓室｜備餐區",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/airport-lounges/airport-lounges-gallery-04.jpg"
+    },
+    {
+     "order": 5,
+     "role": "detail",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "清除玻璃反射中的雜物；校正水平；裁掉或壓暗左下咖啡機",
+     "issues": [
+      "蝕刻玻璃佔右半並反射出後方雜物",
+      "衣帽格內僅一件物品顯得空洞",
+      "左下咖啡機為營運設備非設計內容",
+      "水平略傾"
+     ],
+     "risks": [
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "衣帽區",
+     "local_path": "site/assets/img/work/airport-lounges/airport-lounges-detail-05.jpg",
+     "url": null,
+     "alt_zh": "桃園機場航空貴賓室｜衣帽區",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/airport-lounges/airport-lounges-detail-05.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [
+    {
+     "role": "gallery",
+     "space": "櫃台",
+     "fix": "AI 放大；分區校正混色溫、清除櫃台面雜物、重新裁切左緣"
+    },
+    {
+     "role": "gallery",
+     "space": "貴賓室",
+     "fix": "AI 放大；重建白平衡、提亮暗部、必要時改為低飽和處理淡化抱枕配色"
+    },
+    {
+     "role": "gallery",
+     "space": "貴賓室",
+     "fix": "AI 放大至長邊 ≥2400px；重建白平衡（去橘黃）、修正垂直、清除右下櫃台雜物"
+    },
+    {
+     "role": "gallery",
+     "space": "貴賓室",
+     "fix": "AI 放大；統一色溫、壓檯面高光、去除行李推車"
+    },
+    {
+     "role": "context",
+     "space": "電梯廳",
+     "fix": "AI 放大；修正透視、去除光斑、重建白平衡；人形立牌建議保留（為實績佐證的一部分）"
+    }
+   ],
+   "blocking_risks": [
+    "confidential",
+    "housekeeping",
+    "portrait",
+    "thirdparty"
+   ],
+   "scope_uncertain": 0
+  },
+  "budaejjigae": {
+   "fields": {
+    "Project name": "部隊鍋",
+    "Project name (en)": null,
+    "Short text": null,
+    "Heading": null,
+    "Text": null,
+    "Year": null,
+    "Location": null,
+    "Scope": null,
+    "Size": null,
+    "Category": null
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "hero",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "修除右後方冷藏櫃周邊雜物、統一白平衡、壓低海報飽和度",
+     "issues": [
+      "已裁為 2000x1143 寬幅，可再裁的餘裕很小",
+      "右後方飲料冷藏櫃與紙箱屬營運雜物",
+      "牆面韓文燈箱與海報仍主導視覺",
+      "冷白燈條與暖白嵌燈色溫分歧"
+     ],
+     "risks": [
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/budaejjigae/budaejjigae-hero-01.jpg",
+     "url": null,
+     "alt_zh": "部隊鍋｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/budaejjigae/budaejjigae-hero-01.jpg"
+    },
+    {
+     "order": 2,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "裁切左側紅磚柱、壓低海報飽和度、統一冷白燈條與暖白嵌燈色溫",
+     "issues": [
+      "左側紅磚柱占據約兩成畫面且緊貼鏡頭，前景被切斷",
+      "韓文食品海報與燈箱共六面同時入鏡，平面促銷主導畫面",
+      "外露混凝土樓板與冷白 T5 燈條使上緣顯得未完工"
+     ],
+     "risks": [
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/budaejjigae/budaejjigae-gallery-02.jpg",
+     "url": null,
+     "alt_zh": "部隊鍋｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/budaejjigae/budaejjigae-gallery-02.jpg"
+    },
+    {
+     "order": 3,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "模糊或修除玻璃外鄰店招牌與電話號碼、壓低海報飽和度",
+     "issues": [
+      "右側玻璃外鄰店招牌與外送專線電話號碼清晰可讀，需去識別",
+      "木紋美耐板天花與外露混凝土交界處收邊粗糙且被強調",
+      "海報數量過多"
+     ],
+     "risks": [
+      "confidential"
+     ],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/budaejjigae/budaejjigae-gallery-03.jpg",
+     "url": null,
+     "alt_zh": "部隊鍋｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/budaejjigae/budaejjigae-gallery-03.jpg"
+    },
+    {
+     "order": 4,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "修除紅色塑膠箱、裁切中央矮隔屏、統一白平衡",
+     "issues": [
+      "畫面中央木作矮隔屏正面切斷視線，前景成為大面積無資訊色塊",
+      "右後方紅磚柱後方地面可見紅色塑膠周轉箱等營運雜物",
+      "海報／燈箱密度過高，牆面幾無留白",
+      "冷白燈條與暖白嵌燈混色"
+     ],
+     "risks": [
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/budaejjigae/budaejjigae-gallery-04.jpg",
+     "url": null,
+     "alt_zh": "部隊鍋｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/budaejjigae/budaejjigae-gallery-04.jpg"
+    },
+    {
+     "order": 5,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "裁掉上方住宅陽台、修除左緣機車後照鏡、加強招牌與雨遮的光影層次、提亮地坪",
+     "issues": [
+      "上方住宅樓層陽台（盆栽、綠色採光罩、冷氣主機）切入畫面上緣約兩成，明顯拉低質感",
+      "陰天平光，招牌燈箱雖亮但立體感弱，前方地坪一片死灰",
+      "玻璃內可見一名工作人員身影（隔玻璃、極小、不可辨識）— 肖像權低度風險",
+      "左緣機車後照鏡入鏡"
+     ],
+     "risks": [
+      "portrait"
+     ],
+     "in_scope": true,
+     "space_zh": "店面外觀",
+     "local_path": "site/assets/img/work/budaejjigae/budaejjigae-gallery-05.jpg",
+     "url": null,
+     "alt_zh": "部隊鍋｜店面外觀",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/budaejjigae/budaejjigae-gallery-05.jpg"
+    },
+    {
+     "order": 6,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "修除左側徵才海報（含所有聯絡資訊）、消除玻璃反轉倒影、加強清水模牆側光",
+     "issues": [
+      "左側紅磚柱上張貼徵才海報，內含企業聯絡資訊，網站使用前必須修除",
+      "玻璃內側可見一名人員身影（隔霧面玻璃、不可辨識）— 肖像權低度風險",
+      "玻璃反射出對街店家招牌反轉文字",
+      "右側清水模牆與磨石子地坪在平光下缺乏層次"
+     ],
+     "risks": [
+      "portrait",
+      "confidential"
+     ],
+     "in_scope": true,
+     "space_zh": "店面外觀",
+     "local_path": "site/assets/img/work/budaejjigae/budaejjigae-gallery-06.jpg",
+     "url": null,
+     "alt_zh": "部隊鍋｜店面外觀",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/budaejjigae/budaejjigae-gallery-06.jpg"
+    },
+    {
+     "order": 7,
+     "role": "detail",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "修除陳列架上的泡麵袋與橘色餐盤、清理櫃檯上設備與立牌、統一白平衡",
+     "issues": [
+      "黑色鐵件陳列架上放置泡麵包裝袋與疊放的橘色餐盤，屬商品陳列而非設計",
+      "右側櫃檯上電子設備與壓克力立牌雜亂",
+      "外露混凝土天花與軌道燈的冷白光和木作暖色對衝"
+     ],
+     "risks": [
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "櫃台",
+     "local_path": "site/assets/img/work/budaejjigae/budaejjigae-detail-07.jpg",
+     "url": null,
+     "alt_zh": "部隊鍋｜櫃台",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/budaejjigae/budaejjigae-detail-07.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [
+    {
+     "role": "gallery",
+     "space": "用餐區",
+     "fix": "需重新裁切或以 image-to-image 重整畫面，移除柱頭設備與外露線路"
+    },
+    {
+     "role": "gallery",
+     "space": "用餐區",
+     "fix": "需重整畫面：修除泡麵包裝與塑膠桶、壓暗左後冷藏櫃、統一白平衡"
+    },
+    {
+     "role": "gallery",
+     "space": "用餐區",
+     "fix": "需重整畫面：修除泡麵袋、橘色餐盤與袋狀雜物，壓回走道盡端過曝，重新裁切"
+    }
+   ],
+   "blocking_risks": [
+    "confidential",
+    "housekeeping",
+    "portrait"
+   ],
+   "scope_uncertain": 0
+  },
+  "burger-ray": {
+   "fields": {
+    "Project name": "Burger-Ray",
+    "Project name (en)": null,
+    "Short text": null,
+    "Heading": null,
+    "Text": null,
+    "Year": null,
+    "Location": null,
+    "Scope": null,
+    "Size": null,
+    "Category": null
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "detail",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "超解析放大、校正整體暖黃色偏、提亮左側暗部",
+     "issues": [
+      "解析度僅 667x1000",
+      "整體偏鎢絲暖黃，左側門扇與地坪暗部偏黑",
+      "上緣空調回風口與嵌燈排列略顯凌亂"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "走廊",
+     "local_path": "site/assets/img/work/burger-ray/burger-ray-detail-01.jpg",
+     "url": null,
+     "alt_zh": "Burger-Ray｜走廊",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/burger-ray/burger-ray-detail-01.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [
+    {
+     "role": "gallery",
+     "space": "櫃台",
+     "fix": "超解析放大＋以 image-to-image 重建暗部層次、分區校正色溫、裁掉上緣商場天花"
+    },
+    {
+     "role": "gallery",
+     "space": "廚房",
+     "fix": "超解析放大、清理檯面與層架雜物、分區校正色溫"
+    },
+    {
+     "role": "gallery",
+     "space": "櫃台",
+     "fix": "超解析放大、修除右側開幕花籃、分區校正色溫、修正垂直線、提亮暗部"
+    },
+    {
+     "role": "detail",
+     "space": "櫃台",
+     "fix": "超解析放大、清理檯面設備與紙杯、分區校正色溫、提亮暗部"
+    }
+   ],
+   "blocking_risks": [
+    "housekeeping"
+   ],
+   "scope_uncertain": 0
+  },
+  "guochan-office": {
+   "fields": {
+    "Project name": "國產建材總部辦公",
+    "Project name (en)": null,
+    "Short text": null,
+    "Heading": null,
+    "Text": null,
+    "Year": null,
+    "Location": null,
+    "Scope": null,
+    "Size": null,
+    "Category": null
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "hero",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "提亮暗部 +1.2EV 並壓天花亮部；前景椅背需修圖移除或重裁；中軸校正對齊；去暈影",
+     "issues": [
+      "整體低曝約 1.5EV，胡桃木牆與皮椅暗部接近死黑",
+      "前景兩張椅背切入畫面下緣約 15%，遮擋桌面",
+      "圓形發光天花與投影白板為畫面最亮處，與環境落差約 3EV",
+      "四角暗角明顯",
+      "中軸略偏右約 1.5%，對稱構圖未完全對齊"
+     ],
+     "risks": [
+      "confidential"
+     ],
+     "in_scope": true,
+     "space_zh": "會議室（大型董事會議室）",
+     "local_path": "site/assets/img/work/guochan-office/guochan-office-hero-01.jpg",
+     "url": null,
+     "alt_zh": "國產建材總部辦公｜會議室（大型董事會議室）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/guochan-office/guochan-office-hero-01.jpg"
+    },
+    {
+     "order": 2,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "提亮暗部、壓抑桌面反光、重裁縮減桌面佔比",
+     "issues": [
+      "低機位貼近桌面，桌面反射佔畫面下緣約 40%",
+      "整體低曝，胡桃木牆細節不足",
+      "左右兩側椅背被切斷，構圖不完整",
+      "直幅，網站橫幅需重裁"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "會議室（大型董事會議室）",
+     "local_path": "site/assets/img/work/guochan-office/guochan-office-gallery-02.jpg",
+     "url": null,
+     "alt_zh": "國產建材總部辦公｜會議室（大型董事會議室）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/guochan-office/guochan-office-gallery-02.jpg"
+    },
+    {
+     "order": 3,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "重裁縮減前景沙發；盆栽提亮或修除；背牆熱點收斂；恢復木皮暖調；確認畫作授權或以修圖替換",
+     "issues": [
+      "前景沙發背與扶手佔畫面下緣約 40%，視線被擋",
+      "右側盆栽佔畫面約 15% 且暗部壓死",
+      "背牆藝術品與洗牆光形成明顯熱點，與環境落差約 2EV",
+      "整體偏冷灰，木皮紅棕被壓成褐灰",
+      "畫作內容為第三方藝術品，網站使用需確認授權"
+     ],
+     "risks": [
+      "thirdparty"
+     ],
+     "in_scope": true,
+     "space_zh": "主管辦公室（會客區／背牆木作）",
+     "local_path": "site/assets/img/work/guochan-office/guochan-office-gallery-03.jpg",
+     "url": null,
+     "alt_zh": "國產建材總部辦公｜主管辦公室（會客區／背牆木作）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/guochan-office/guochan-office-gallery-03.jpg"
+    },
+    {
+     "order": 4,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "壓窗簾亮部補回階調；電話與文具需修圖移除；桌面反光柔化；恢復木皮暖調",
+     "issues": [
+      "背景窗簾區過曝約 1.5EV，窗外全白",
+      "桌面電話、名片座、筆筒等辦公用品未整理，桌面雜物明顯",
+      "桌面深色鏡面反射天花與窗，反光帶橫貫桌面",
+      "色調整體偏冷灰，胡桃木的紅棕被壓成褐灰",
+      "右側盆栽切入畫面約 12%"
+     ],
+     "risks": [
+      "confidential",
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "主管辦公室（總裁辦公桌）",
+     "local_path": "site/assets/img/work/guochan-office/guochan-office-gallery-04.jpg",
+     "url": null,
+     "alt_zh": "國產建材總部辦公｜主管辦公室（總裁辦公桌）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/guochan-office/guochan-office-gallery-04.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [
+    {
+     "role": "gallery",
+     "space": "會議室（大型董事會議室）",
+     "fix": "重裁提高視點感、消除粉紅偏色、提升對比；仍難補救背牆無內容的問題"
+    },
+    {
+     "role": "gallery",
+     "space": "會議室（側向走道／玻璃隔間）",
+     "fix": "壓左上亮部、提亮玻璃隔間內側、修除牆面刮痕、重裁減少地毯佔比"
+    },
+    {
+     "role": "gallery",
+     "space": "主管辦公室（會客沙發區）",
+     "fix": "校正 1.5° 垂直、壓窗亮部、提亮皮革暗部、重裁縮減背牆佔比"
+    },
+    {
+     "role": "detail",
+     "space": "會議室（圓弧發光天花）",
+     "fix": "壓亮部恢復發光面階調、校正 2°；僅適合作為 detail 小圖"
+    },
+    {
+     "role": "detail",
+     "space": "開放辦公區（水泥板牆嵌燈壁龕）",
+     "fix": "壁龕壓亮部、右側反射降低、重裁去除左側殘影、恢復水泥板中間調"
+    },
+    {
+     "role": "detail",
+     "space": "會議室（桌面升降螢幕）",
+     "fix": "提亮、壓抑螢幕反光；只適合作為設備 detail 小圖"
+    }
+   ],
+   "blocking_risks": [
+    "confidential",
+    "housekeeping",
+    "thirdparty"
+   ],
+   "scope_uncertain": 0
+  },
+  "guochan-showroom": {
+   "fields": {
+    "Project name": "國產建材情境展示間",
+    "Project name (en)": null,
+    "Short text": null,
+    "Heading": null,
+    "Text": null,
+    "Year": null,
+    "Location": null,
+    "Scope": null,
+    "Size": null,
+    "Category": null
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "hero",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "白平衡拉至 3800–4000K、左牆提亮 +0.5EV、地坪亮斑柔化；出圖前確認 master 解析度",
+     "issues": [
+      "色溫偏橙約 2800K",
+      "右側木皮牆與左側白牆亮度落差大，左牆偏灰",
+      "地坪右下有嵌燈亮斑",
+      "解析度僅 1000×667（review 檔），需回 master 確認可用尺寸"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "展示間（客廳情境）",
+     "local_path": "site/assets/img/work/guochan-showroom/guochan-showroom-hero-01.jpg",
+     "url": null,
+     "alt_zh": "國產建材情境展示間｜展示間（客廳情境）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/guochan-showroom/guochan-showroom-hero-01.jpg"
+    },
+    {
+     "order": 2,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "整體降暖至 3800K、拉回牆面中性灰；壓抑右上出風口亮度；玻璃反光局部去除",
+     "issues": [
+      "鎢絲燈為主光源，整體色溫約 2800K，膚色／白牆偏橙",
+      "右側落地窗夜景與室內混色溫，窗外偏青",
+      "左側玻璃門把手區有輕微鏡面反光",
+      "畫面右上冷氣出風口與消防撒水頭入鏡"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "展示間（玄關落塵區情境）",
+     "local_path": "site/assets/img/work/guochan-showroom/guochan-showroom-gallery-02.jpg",
+     "url": null,
+     "alt_zh": "國產建材情境展示間｜展示間（玄關落塵區情境）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/guochan-showroom/guochan-showroom-gallery-02.jpg"
+    },
+    {
+     "order": 3,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "提亮左牆暗部 +0.7EV、移除暈影、白平衡拉中性；插座可修圖淡化",
+     "issues": [
+      "左側深色牆面暗部接近死黑，細節不足",
+      "四角暗角明顯，屬後製加上的重暈影",
+      "色溫偏橙",
+      "牆面插座與開關未避開"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "展示間（玄關走道）",
+     "local_path": "site/assets/img/work/guochan-showroom/guochan-showroom-gallery-03.jpg",
+     "url": null,
+     "alt_zh": "國產建材情境展示間｜展示間（玄關走道）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/guochan-showroom/guochan-showroom-gallery-03.jpg"
+    },
+    {
+     "order": 4,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "壓亮部／提暗部收斂石皮明暗；修掉設備與電線；右側門洞降亮",
+     "issues": [
+      "洗牆光造成石皮上半段過亮、下半段偏暗，明暗落差約 2EV",
+      "電視櫃上的網通設備與電線入鏡",
+      "右側門洞後方空間過曝",
+      "直幅構圖，網站橫幅使用需重裁"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "展示間（客廳石皮電視牆）",
+     "local_path": "site/assets/img/work/guochan-showroom/guochan-showroom-gallery-04.jpg",
+     "url": null,
+     "alt_zh": "國產建材情境展示間｜展示間（客廳石皮電視牆）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/guochan-showroom/guochan-showroom-gallery-04.jpg"
+    },
+    {
+     "order": 5,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "重裁縮減左側白牆、亮斑柔化、白平衡中性化",
+     "issues": [
+      "左側白牆佔畫面約 35% 且無資訊",
+      "衛浴內嵌燈直射造成上緣三處亮斑",
+      "色溫偏橙，白色臉盆偏黃",
+      "右側黑色門框邊緣有輕微色散"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "展示間（客用衛浴／由外框景）",
+     "local_path": "site/assets/img/work/guochan-showroom/guochan-showroom-gallery-05.jpg",
+     "url": null,
+     "alt_zh": "國產建材情境展示間｜展示間（客用衛浴／由外框景）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/guochan-showroom/guochan-showroom-gallery-05.jpg"
+    },
+    {
+     "order": 6,
+     "role": "detail",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "校正 1° 垂直、白平衡中性化、壓抑檯面反光；抹布可去除",
+     "issues": [
+      "正視構圖但相機略偏左，壁架垂直線左傾約 1°",
+      "色溫偏橙，白色壁架與磁磚呈米黃",
+      "右下不鏡鋼檯面與鍋具反光有小面積過曝",
+      "插座面板位置正對主體"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "展示間（廚房）",
+     "local_path": "site/assets/img/work/guochan-showroom/guochan-showroom-detail-06.jpg",
+     "url": null,
+     "alt_zh": "國產建材情境展示間｜展示間（廚房）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/guochan-showroom/guochan-showroom-detail-06.jpg"
+    },
+    {
+     "order": 7,
+     "role": "detail",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "白平衡中性化、亮斑柔化、毛巾摺整（需修圖）、下緣重裁",
+     "issues": [
+      "色溫偏橙，白色臉盆呈奶油色",
+      "上緣兩顆嵌燈直射入鏡形成亮斑",
+      "毛巾隨意堆放於檯面左側",
+      "下緣切在檯面支架，收邊不乾淨"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "展示間（客用衛浴洗手台）",
+     "local_path": "site/assets/img/work/guochan-showroom/guochan-showroom-detail-07.jpg",
+     "url": null,
+     "alt_zh": "國產建材情境展示間｜展示間（客用衛浴洗手台）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/guochan-showroom/guochan-showroom-detail-07.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [
+    {
+     "role": "gallery",
+     "space": "展示間（地坪收邊）",
+     "fix": "需重裁切並移除藤籃，或重新以正俯角補拍收邊"
+    },
+    {
+     "role": "gallery",
+     "space": "展示間（臥室玻璃隔間層架）",
+     "fix": "需 image-to-image 壓抑玻璃反射並簡化背景，成本高於收益"
+    },
+    {
+     "role": "detail",
+     "space": "展示間（餐廚情境）",
+     "fix": "需 image-to-image 重建景深與主體層級，或直接改用 005 取代廚房敘事"
+    }
+   ],
+   "blocking_risks": [],
+   "scope_uncertain": 0
+  },
+  "kimpton": {
+   "fields": {
+    "Project name": "金普頓大安酒店",
+    "Project name (en)": null,
+    "Short text": "台北大安 Kimpton Da An Hotel 國際飯店裝修工程，由惠強承攬公共區域與客房走廊施工，以精細木作與品牌美學呈現國際精品飯店水準。",
+    "Heading": null,
+    "Text": "台北大安 Kimpton Da An Hotel 國際飯店裝修工程，由惠強承攬公共區域與客房走廊施工，以精細木作與品牌美學呈現國際精品飯店水準。",
+    "Year": "2022",
+    "Location": "台北大安",
+    "Scope": "國際飯店",
+    "Size": "100 坪",
+    "Category": "hospitality"
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "hero",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "修掉插座蓋板與線材；消除天花光斑",
+     "issues": [
+      "地毯上插座蓋板與桌下垂落線材",
+      "天花木皮有燈具耀光"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "多功能貴賓室",
+     "local_path": "site/assets/img/work/kimpton/kimpton-hero-01.jpg",
+     "url": null,
+     "alt_zh": "金普頓大安酒店｜多功能貴賓室",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/kimpton/kimpton-hero-01.jpg"
+    },
+    {
+     "order": 2,
+     "role": "gallery",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "修掉天花光斑；窗外提亮 0.5EV",
+     "issues": [
+      "天花木皮上有燈具耀光光斑兩處",
+      "左側落地窗外夜景死黑"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "多功能貴賓室",
+     "local_path": "site/assets/img/work/kimpton/kimpton-gallery-02.jpg",
+     "url": null,
+     "alt_zh": "金普頓大安酒店｜多功能貴賓室",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/kimpton/kimpton-gallery-02.jpg"
+    },
+    {
+     "order": 3,
+     "role": "gallery",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "右緣裁 6%；修掉插座蓋板；電視加極淡環境反射",
+     "issues": [
+      "右側門框被畫面邊緣切斷",
+      "地毯上可見插座蓋板",
+      "電視螢幕純黑無細節"
+     ],
+     "risks": [
+      "confidential"
+     ],
+     "in_scope": true,
+     "space_zh": "多功能貴賓室",
+     "local_path": "site/assets/img/work/kimpton/kimpton-gallery-03.jpg",
+     "url": null,
+     "alt_zh": "金普頓大安酒店｜多功能貴賓室",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/kimpton/kimpton-gallery-03.jpg"
+    },
+    {
+     "order": 4,
+     "role": "detail",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "高光回收 0.3EV；淡化左側門反射",
+     "issues": [
+      "吊燈玻璃球高光小面積溢出",
+      "左側玻璃門反射鄰室影像"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "貴賓室茶水吧檯",
+     "local_path": "site/assets/img/work/kimpton/kimpton-detail-04.jpg",
+     "url": null,
+     "alt_zh": "金普頓大安酒店｜貴賓室茶水吧檯",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/kimpton/kimpton-detail-04.jpg"
+    },
+    {
+     "order": 5,
+     "role": "detail",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "下緣裁 8% 去除馬桶；修掉指紋擦痕",
+     "issues": [
+      "右下角馬桶與衛生用品邊緣入鏡",
+      "黃銅面板有輕微指紋與擦痕"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "洗手間前廳",
+     "local_path": "site/assets/img/work/kimpton/kimpton-detail-05.jpg",
+     "url": null,
+     "alt_zh": "金普頓大安酒店｜洗手間前廳",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/kimpton/kimpton-detail-05.jpg"
+    },
+    {
+     "order": 6,
+     "role": "detail",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "下緣裁 15%；盡端綠偏校正",
+     "issues": [
+      "前景磨石子地板佔下緣三成偏空",
+      "盡端貴賓室色溫偏綠，與前景暖白不一致"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "公共廊道",
+     "local_path": "site/assets/img/work/kimpton/kimpton-detail-06.jpg",
+     "url": null,
+     "alt_zh": "金普頓大安酒店｜公共廊道",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/kimpton/kimpton-detail-06.jpg"
+    },
+    {
+     "order": 7,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "電視補淡反射；拱龕高光回收 0.3EV",
+     "issues": [
+      "左側兩台電視純黑無細節，形成畫面黑洞",
+      "右側綠磚拱龕內高光略溢"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "多功能貴賓室",
+     "local_path": "site/assets/img/work/kimpton/kimpton-gallery-07.jpg",
+     "url": null,
+     "alt_zh": "金普頓大安酒店｜多功能貴賓室",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/kimpton/kimpton-gallery-07.jpg"
+    },
+    {
+     "order": 8,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "右緣重裁；修掉線材；電視補反射",
+     "issues": [
+      "右側門框切邊",
+      "兩台電視純黑",
+      "吧檯下方地毯有線材"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "多功能貴賓室",
+     "local_path": "site/assets/img/work/kimpton/kimpton-gallery-08.jpg",
+     "url": null,
+     "alt_zh": "金普頓大安酒店｜多功能貴賓室",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/kimpton/kimpton-gallery-08.jpg"
+    },
+    {
+     "order": 9,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "裁掉右側白門；窗外提亮",
+     "issues": [
+      "主體是空牆面，內容偏弱",
+      "右側白色機房/消防門突兀",
+      "左側窗外夜景死黑"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "電梯前室",
+     "local_path": "site/assets/img/work/kimpton/kimpton-gallery-09.jpg",
+     "url": null,
+     "alt_zh": "金普頓大安酒店｜電梯前室",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/kimpton/kimpton-gallery-09.jpg"
+    },
+    {
+     "order": 10,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "重新裁切避開衛生設備；修掉偵煙器與維修口",
+     "issues": [
+      "視線盡端是馬桶與小便斗，不宜作對外素材",
+      "天花偵煙器與維修口入鏡",
+      "右側木皮牆高光帶過亮"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "公共廊道",
+     "local_path": "site/assets/img/work/kimpton/kimpton-gallery-10.jpg",
+     "url": null,
+     "alt_zh": "金普頓大安酒店｜公共廊道",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/kimpton/kimpton-gallery-10.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [],
+   "blocking_risks": [
+    "confidential"
+   ],
+   "scope_uncertain": 0
+  },
+  "longteng-travel": {
+   "fields": {
+    "Project name": "龍騰旅行社",
+    "Project name (en)": null,
+    "Short text": null,
+    "Heading": null,
+    "Text": null,
+    "Year": null,
+    "Location": null,
+    "Scope": null,
+    "Size": null,
+    "Category": null
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "hero",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "收斂壁龕明暗、消除嵌燈反射亮點、中軸校正、恢復石材暖白",
+     "issues": [
+      "壁龕內洗牆光造成雕塑上緣過亮，明暗落差約 2EV",
+      "大理石上方可見多處嵌燈反射亮點",
+      "構圖對稱但中軸略偏左約 2%",
+      "整體偏灰，大理石的暖白被壓成灰白"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "接待區（大理石壁龕）",
+     "local_path": "site/assets/img/work/longteng-travel/longteng-travel-hero-01.jpg",
+     "url": null,
+     "alt_zh": "龍騰旅行社｜接待區（大理石壁龕）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/longteng-travel/longteng-travel-hero-01.jpg"
+    },
+    {
+     "order": 2,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "枯葉需修圖替換；壓吊燈亮部；透視略作校正",
+     "issues": [
+      "部分葉片已枯黃（畫面中段可見約十餘處褐化葉），植栽維護狀態不佳",
+      "右上木格柵天花與工業吊燈過曝，燈罩內部呈白塊",
+      "構圖為斜角仰視，格柵天花梯形變形明顯",
+      "直幅，網站橫幅需重裁"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "接待區（植生牆）",
+     "local_path": "site/assets/img/work/longteng-travel/longteng-travel-gallery-02.jpg",
+     "url": null,
+     "alt_zh": "龍騰旅行社｜接待區（植生牆）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/longteng-travel/longteng-travel-gallery-02.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [
+    {
+     "role": "gallery",
+     "space": "洽談區",
+     "fix": "重裁縮減空白牆與前景；消除地面亮斑；紅色降飽和並校正至品牌橘"
+    },
+    {
+     "role": "gallery",
+     "space": "接待區（品牌牆）",
+     "fix": "透視校正回正視、消除嵌燈亮點、左側門洞修圖簡化或裁除、統一色溫"
+    },
+    {
+     "role": "gallery",
+     "space": "接待區（玻璃植栽庭）",
+     "fix": "去識別化或裁除人員；紙箱需修圖移除；降低玻璃反射；統一色溫"
+    },
+    {
+     "role": "gallery",
+     "space": "接待等候區",
+     "fix": "降低玻璃反射、背景雜訊修圖簡化、統一色溫、重裁縮減前景"
+    },
+    {
+     "role": "gallery",
+     "space": "接待櫃台",
+     "fix": "螢幕需修圖關屏或替換；檯面文件與紙箱移除；壓光帶亮部；白平衡去橙；監視器淡化"
+    },
+    {
+     "role": "gallery",
+     "space": "開放辦公區（走道）",
+     "fix": "去識別化人員與螢幕；地面膠帶需逐一修除；隔屏文件與個人物品修圖清理；統一色溫"
+    }
+   ],
+   "blocking_risks": [
+    "confidential",
+    "housekeeping",
+    "portrait",
+    "thirdparty"
+   ],
+   "scope_uncertain": 0
+  },
+  "popeyes": {
+   "fields": {
+    "Project name": "Popeyes 許昌店",
+    "Project name (en)": null,
+    "Short text": "Popeyes 許昌店餐飲空間設計施工，以美式炸雞品牌識別為核心，規劃符合高翻桌率的高效動線，兼顧品牌個性與施工精度。",
+    "Heading": null,
+    "Text": "Popeyes 許昌店餐飲空間設計施工，以美式炸雞品牌識別為核心，規劃符合高翻桌率的高效動線，兼顧品牌個性與施工精度。",
+    "Year": "2024",
+    "Location": "台北許昌街",
+    "Scope": "餐飲空間",
+    "Size": "51 坪",
+    "Category": "fb"
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "hero",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "",
+     "issues": [
+      "橘色天花帶反光處有輕微亮斑",
+      "背景廚房區與品牌塗鴉牆亮度落差偏大，暗部細節略壓"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/popeyes/popeyes-hero-01.jpg",
+     "url": null,
+     "alt_zh": "Popeyes 許昌店｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/popeyes/popeyes-hero-01.jpg"
+    },
+    {
+     "order": 2,
+     "role": "gallery",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "",
+     "issues": [
+      "左下角藍色垃圾櫃邊緣仍入鏡",
+      "背景玻璃外可見 MOS BURGER 競品招牌",
+      "天花冷白燈帶與暖白嵌燈色溫分歧"
+     ],
+     "risks": [
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/popeyes/popeyes-gallery-02.jpg",
+     "url": null,
+     "alt_zh": "Popeyes 許昌店｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/popeyes/popeyes-gallery-02.jpg"
+    },
+    {
+     "order": 3,
+     "role": "gallery",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "",
+     "issues": [
+      "廚房人員兩名入鏡（背向鏡頭、動態模糊，五官不可辨識）— 肖像權低度風險",
+      "開放廚房內不鏽鋼設備反光雜亂",
+      "「LOVE THAT CHICKEN」燈箱與冷白廚房照明、暖白用餐區照明三段色溫並存"
+     ],
+     "risks": [
+      "portrait"
+     ],
+     "in_scope": true,
+     "space_zh": "櫃台",
+     "local_path": "site/assets/img/work/popeyes/popeyes-gallery-03.jpg",
+     "url": null,
+     "alt_zh": "Popeyes 許昌店｜櫃台",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/popeyes/popeyes-gallery-03.jpg"
+    },
+    {
+     "order": 4,
+     "role": "gallery",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "",
+     "issues": [
+      "左下角藍色回收／垃圾櫃切入前景約一成畫面",
+      "前方玻璃可見對街 MOS BURGER 競品招牌（左右反轉）",
+      "天花與冷色燈帶占上緣約三成，屬構圖上的死區",
+      "天花冷白燈帶與嵌燈暖白色溫未統一，藍綠與橘黃在同一畫面對衝"
+     ],
+     "risks": [
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/popeyes/popeyes-gallery-04.jpg",
+     "url": null,
+     "alt_zh": "Popeyes 許昌店｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/popeyes/popeyes-gallery-04.jpg"
+    },
+    {
+     "order": 5,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "裁掉下緣灰色圍籬、修除玻璃內機車、裁切右側鄰棟看板與上緣帆布；招牌可加局部提亮",
+     "issues": [
+      "畫面下緣約六分之一被灰色施工圍籬／矮牆截斷",
+      "玻璃內側停放多輛機車，透視進店內視線",
+      "右側鄰棟樓層招牌看板（牙醫、美甲、密室逃脫）與品牌並置，稀釋品牌調性",
+      "上緣鄰店帆布招牌入鏡",
+      "陰天平光，招牌燈箱未點亮，立體字缺少層次"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "店面外觀",
+     "local_path": "site/assets/img/work/popeyes/popeyes-gallery-05.jpg",
+     "url": null,
+     "alt_zh": "Popeyes 許昌店｜店面外觀",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/popeyes/popeyes-gallery-05.jpg"
+    },
+    {
+     "order": 6,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "修除左緣垃圾櫃、補修牆裙刮痕、統一白平衡",
+     "issues": [
+      "四座拱形壁龕主體良好，但左緣藍色垃圾櫃與逃生指示燈同時入鏡",
+      "橘色牆裙可見碰撞刮痕",
+      "冷白 LED 與暖白嵌燈混色"
+     ],
+     "risks": [
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/popeyes/popeyes-gallery-06.jpg",
+     "url": null,
+     "alt_zh": "Popeyes 許昌店｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/popeyes/popeyes-gallery-06.jpg"
+    },
+    {
+     "order": 7,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "修正上緣梯形變形、裁切或壓暗左側街景雜物、壓回天空亮度",
+     "issues": [
+      "強烈仰角導致上緣橘色金屬雨遮嚴重梯形變形（雖屬刻意，但不符 institutional 冷靜調性）",
+      "左側街景雜亂：貨車、機車、電線、鄰店招牌全數入鏡",
+      "騎樓深處一名行人背向遠去（不可辨識）— 肖像權低度風險",
+      "左上天空過曝成一片白"
+     ],
+     "risks": [
+      "portrait",
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "店面外觀",
+     "local_path": "site/assets/img/work/popeyes/popeyes-gallery-07.jpg",
+     "url": null,
+     "alt_zh": "Popeyes 許昌店｜店面外觀",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/popeyes/popeyes-gallery-07.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [],
+   "blocking_risks": [
+    "housekeeping",
+    "portrait"
+   ],
+   "scope_uncertain": 0
+  },
+  "qijia": {
+   "fields": {
+    "Project name": "起家雞 台中店",
+    "Project name (en)": null,
+    "Short text": "起家雞台中店餐飲空間設計施工，以韓式炸雞品牌風格為設計基調，呈現活潑品牌個性，並兼顧高效翻桌與舒適用餐體驗。",
+    "Heading": null,
+    "Text": "起家雞台中店餐飲空間設計施工，以韓式炸雞品牌風格為設計基調，呈現活潑品牌個性，並兼顧高效翻桌與舒適用餐體驗。",
+    "Year": "2024",
+    "Location": "台中",
+    "Scope": "餐飲空間",
+    "Size": "212 坪",
+    "Category": "office"
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "hero",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "",
+     "issues": [
+      "落地窗外綠意輕微過曝",
+      "左上黑色鐵件天花板暗部細節不足"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/qijia/qijia-hero-01.jpg",
+     "url": null,
+     "alt_zh": "起家雞 台中店｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/qijia/qijia-hero-01.jpg"
+    },
+    {
+     "order": 2,
+     "role": "gallery",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "",
+     "issues": [
+      "左側落地窗外過曝",
+      "上方壁掛式冷氣機外露於畫面頂部"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/qijia/qijia-gallery-02.jpg",
+     "url": null,
+     "alt_zh": "起家雞 台中店｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/qijia/qijia-gallery-02.jpg"
+    },
+    {
+     "order": 3,
+     "role": "gallery",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "",
+     "issues": [
+      "右側單椅因廣角邊緣拉伸變形",
+      "右上木作天花板受筒燈直射輕微過曝",
+      "櫃台檯面上收銀周邊小物略雜"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "櫃台",
+     "local_path": "site/assets/img/work/qijia/qijia-gallery-03.jpg",
+     "url": null,
+     "alt_zh": "起家雞 台中店｜櫃台",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/qijia/qijia-gallery-03.jpg"
+    },
+    {
+     "order": 4,
+     "role": "gallery",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "",
+     "issues": [
+      "右下前景椅背被畫面邊緣裁切",
+      "桌面紙巾架與立牌略顯瑣碎"
+     ],
+     "risks": [
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/qijia/qijia-gallery-04.jpg",
+     "url": null,
+     "alt_zh": "起家雞 台中店｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/qijia/qijia-gallery-04.jpg"
+    },
+    {
+     "order": 5,
+     "role": "gallery",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "",
+     "issues": [
+      "兩側木窗外綠意輕微過曝",
+      "地面紅色動線標示膠帶在畫面下緣搶眼"
+     ],
+     "risks": [
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/qijia/qijia-gallery-05.jpg",
+     "url": null,
+     "alt_zh": "起家雞 台中店｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/qijia/qijia-gallery-05.jpg"
+    },
+    {
+     "order": 6,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "壓左側窗面高光或以漸層遮罩補回窗外層次；裁掉右下前景桌面",
+     "issues": [
+      "左側落地窗嚴重過曝成一片白",
+      "右下前景桌面被裁切且佔比偏大",
+      "旋轉梯量體在左側切分畫面"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "櫃台",
+     "local_path": "site/assets/img/work/qijia/qijia-gallery-06.jpg",
+     "url": null,
+     "alt_zh": "起家雞 台中店｜櫃台",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/qijia/qijia-gallery-06.jpg"
+    },
+    {
+     "order": 7,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "上移構圖或裁掉部分前景地貼，讓後方座位區成為主體",
+     "issues": [
+      "前景 #10 地貼佔畫面約四成，主體不明",
+      "天花板黑色區暗部細節不足",
+      "右側座椅被邊緣裁切"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/qijia/qijia-gallery-07.jpg",
+     "url": null,
+     "alt_zh": "起家雞 台中店｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/qijia/qijia-gallery-07.jpg"
+    },
+    {
+     "order": 8,
+     "role": "detail",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "補回天窗層次或改為純白留白處理；清除地坪污漬",
+     "issues": [
+      "天窗全白過曝完全無層次",
+      "左側門片為鏡面反射造成文字反向",
+      "水泥地坪可見施工污漬"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "洗手間走廊",
+     "local_path": "site/assets/img/work/qijia/qijia-detail-08.jpg",
+     "url": null,
+     "alt_zh": "起家雞 台中店｜洗手間走廊",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/qijia/qijia-detail-08.jpg"
+    },
+    {
+     "order": 9,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "裁掉部分前景地面；壓暗左側門洞",
+     "issues": [
+      "前景地面導引箭頭佔比偏高",
+      "洗手間門洞露出洗手台，畫面左側偏生活感",
+      "右側椅背被裁切"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/qijia/qijia-gallery-09.jpg",
+     "url": null,
+     "alt_zh": "起家雞 台中店｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/qijia/qijia-gallery-09.jpg"
+    },
+    {
+     "order": 10,
+     "role": "context",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "重新出圖或加粗線寬、補比例尺與空間名稱標註",
+     "issues": [
+      "為 CAD 平面圖非照片",
+      "線條偏細，縮至網頁尺寸後可讀性下降",
+      "無比例尺與面積標註"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "平面圖",
+     "local_path": "site/assets/img/work/qijia/qijia-context-10.jpg",
+     "url": null,
+     "alt_zh": "起家雞 台中店｜平面圖",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/qijia/qijia-context-10.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [],
+   "blocking_risks": [
+    "housekeeping"
+   ],
+   "scope_uncertain": 0
+  },
+  "secom-reception": {
+   "fields": {
+    "Project name": "中興保全接待大廳",
+    "Project name (en)": null,
+    "Short text": null,
+    "Heading": null,
+    "Text": null,
+    "Year": null,
+    "Location": null,
+    "Scope": null,
+    "Size": null,
+    "Category": null
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "hero",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "招牌高光壓 -1EV 並補回筆畫邊緣、木牆暗部提亮 +0.8EV、校正右傾 2°、色溫校正至 3200K",
+     "issues": [
+      "招牌背光字內側過曝溢出（末兩字最明顯）",
+      "木牆暗部無層次",
+      "垂直線右傾約 2°",
+      "整體偏橙",
+      "左上天花格柵切邊",
+      "原檔僅 1000px、無法全幅使用"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "企業識別牆（中興保全集團）",
+     "local_path": "site/assets/img/work/secom-reception/secom-reception-hero-01.jpg",
+     "url": null,
+     "alt_zh": "中興保全接待大廳｜企業識別牆（中興保全集團）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/secom-reception/secom-reception-hero-01.jpg"
+    },
+    {
+     "order": 2,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "櫃體高光壓 -0.7EV、修除兩組插座面板、紅色偏移 -10、暗部提亮 +0.5EV",
+     "issues": [
+      "右側白色櫃體高光接近溢出",
+      "木牆上兩組插座面板未修（雜物）",
+      "整體偏紅",
+      "暗部濃重",
+      "直幅構圖不適合網站橫幅"
+     ],
+     "risks": [
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "接待櫃台與垂直綠化",
+     "local_path": "site/assets/img/work/secom-reception/secom-reception-gallery-02.jpg",
+     "url": null,
+     "alt_zh": "中興保全接待大廳｜接待櫃台與垂直綠化",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/secom-reception/secom-reception-gallery-02.jpg"
+    },
+    {
+     "order": 3,
+     "role": "detail",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "白平衡校正至 4200K、修除背景堆疊椅、對標示文字局部銳化",
+     "issues": [
+      "背景右側堆疊椅入鏡",
+      "白平衡偏暖偏黃",
+      "景深過淺使英文小字邊緣鬆散",
+      "解析度僅 1000×667"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "會議室門牌",
+     "local_path": "site/assets/img/work/secom-reception/secom-reception-detail-03.jpg",
+     "url": null,
+     "alt_zh": "中興保全接待大廳｜會議室門牌",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/secom-reception/secom-reception-detail-03.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [
+    {
+     "role": "gallery",
+     "space": "訓練室／教室",
+     "fix": "暗部提亮 +1EV、加回適度飽和、重新裁切強化透視"
+    },
+    {
+     "role": "gallery",
+     "space": "會議室",
+     "fix": "校正洋紅偏色 -10、垂直線校正 1.5°、暗部提亮 +0.7EV；僅能用於小尺寸"
+    },
+    {
+     "role": "gallery",
+     "space": "會議室玻璃隔間五金節點",
+     "fix": "暗部提亮 +0.7EV、對合焦處局部加銳、左上過曝壓 -1EV"
+    },
+    {
+     "role": "gallery",
+     "space": "會議室／電梯廳",
+     "fix": "校正洋紅偏色、去除暗角、垂直線校正 1.5°"
+    },
+    {
+     "role": "gallery",
+     "space": "客製木作開關面板",
+     "fix": "模糊或修除左側人物、白平衡校正"
+    },
+    {
+     "role": "detail",
+     "space": "地毯拼接與人工草皮收邊",
+     "fix": "壓下地燈過曝 -2EV、去除上方玻璃霧帶"
+    },
+    {
+     "role": "detail",
+     "space": "木格柵天花",
+     "fix": "暗部提亮 +1EV、裁掉右下植栽、白平衡校正"
+    }
+   ],
+   "blocking_risks": [
+    "housekeeping",
+    "portrait"
+   ],
+   "scope_uncertain": 0
+  },
+  "soup-spoon-101": {
+   "fields": {
+    "Project name": "The Soup Spoon 101 店",
+    "Project name (en)": null,
+    "Short text": "The Soup Spoon 台北 101 旗艦店設計施工，於台灣最高地標商場打造符合品牌質感的用餐環境，工程精度與施工速度並重。",
+    "Heading": null,
+    "Text": "The Soup Spoon 台北 101 旗艦店設計施工，於台灣最高地標商場打造符合品牌質感的用餐環境，工程精度與施工速度並重。",
+    "Year": "2023",
+    "Location": "台北 101",
+    "Scope": "餐飲空間",
+    "Size": "21 坪",
+    "Category": "fb"
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "hero",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "",
+     "issues": [
+      "左右兩側鄰攤（越南河粉攤等）切入畫面邊緣",
+      "美食廣場鹵素環境光使整體偏琥珀，白平衡需校正",
+      "左下角鄰座桌椅切入前景"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "櫃台",
+     "local_path": "site/assets/img/work/soup-spoon-101/soup-spoon-101-hero-01.jpg",
+     "url": null,
+     "alt_zh": "The Soup Spoon 101 店｜櫃台",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/soup-spoon-101/soup-spoon-101-hero-01.jpg"
+    },
+    {
+     "order": 2,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "裁切或壓暗左側鄰攤、補回招牌完整性、校正白平衡",
+     "issues": [
+      "左側三分之一是鄰攤的深色櫃檯、疊放餐盤與設備，雜亂且非本案設計",
+      "上方招牌燈箱被畫面上緣切掉一部分",
+      "琥珀色偏明顯"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "櫃台",
+     "local_path": "site/assets/img/work/soup-spoon-101/soup-spoon-101-gallery-02.jpg",
+     "url": null,
+     "alt_zh": "The Soup Spoon 101 店｜櫃台",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/soup-spoon-101/soup-spoon-101-gallery-02.jpg"
+    },
+    {
+     "order": 3,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "壓暗中央不鏽鋼排煙罩、修除遠處人影、校正色溫",
+     "issues": [
+      "畫面中央大面積不鏽鋼排煙罩與後場設備搶走視覺重心",
+      "右後方美食廣場座位區有數名遠處用餐顧客（極小、五官不可辨識）— 肖像權低度風險",
+      "整體偏琥珀色偏"
+     ],
+     "risks": [
+      "portrait"
+     ],
+     "in_scope": true,
+     "space_zh": "櫃台",
+     "local_path": "site/assets/img/work/soup-spoon-101/soup-spoon-101-gallery-03.jpg",
+     "url": null,
+     "alt_zh": "The Soup Spoon 101 店｜櫃台",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/soup-spoon-101/soup-spoon-101-gallery-03.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [],
+   "blocking_risks": [
+    "portrait"
+   ],
+   "scope_uncertain": 0
+  },
+  "soup-spoon-station": {
+   "fields": {
+    "Project name": "The Soup Spoon 台北車站店",
+    "Project name (en)": null,
+    "Short text": "The Soup Spoon 台北車站店設計施工，位於高人流交通樞紐，空間規劃強調快速翻桌動線與視覺識別，同時符合車站商場施工規範。",
+    "Heading": null,
+    "Text": "The Soup Spoon 台北車站店設計施工，位於高人流交通樞紐，空間規劃強調快速翻桌動線與視覺識別，同時符合車站商場施工規範。",
+    "Year": "2023",
+    "Location": "台北車站",
+    "Scope": "餐飲空間",
+    "Size": "30 坪",
+    "Category": "fb"
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "hero",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "",
+     "issues": [
+      "商場環境光偏暖，整體略帶琥珀調",
+      "右側 TAKE ME HOME 冷藏櫃為現成家電，與訂製木作質感落差"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "店面外觀",
+     "local_path": "site/assets/img/work/soup-spoon-station/soup-spoon-station-hero-01.jpg",
+     "url": null,
+     "alt_zh": "The Soup Spoon 台北車站店｜店面外觀",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/soup-spoon-station/soup-spoon-station-hero-01.jpg"
+    },
+    {
+     "order": 2,
+     "role": "gallery",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "",
+     "issues": [
+      "玻璃外可見鄰店（豪大大雞排）招牌，競品入鏡",
+      "水泥自平地坪可見補土痕與色差"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/soup-spoon-station/soup-spoon-station-gallery-02.jpg",
+     "url": null,
+     "alt_zh": "The Soup Spoon 台北車站店｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/soup-spoon-station/soup-spoon-station-gallery-02.jpg"
+    },
+    {
+     "order": 3,
+     "role": "gallery",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "",
+     "issues": [
+      "粉紅霓虹＋粉彩抽象壁畫偏「網美風」，與 institutional 冷靜調性有落差",
+      "左緣空層板櫃未陳列任何物件，讀起來像未完工",
+      "水泥地坪髒污與補土痕在正面平光下特別明顯"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/soup-spoon-station/soup-spoon-station-gallery-03.jpg",
+     "url": null,
+     "alt_zh": "The Soup Spoon 台北車站店｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/soup-spoon-station/soup-spoon-station-gallery-03.jpg"
+    },
+    {
+     "order": 4,
+     "role": "gallery",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "",
+     "issues": [
+      "櫃檯檯面可見 POS 主機與線材",
+      "右側品牌影片螢幕畫面偏藍，與暖色木作色溫衝突"
+     ],
+     "risks": [
+      "confidential"
+     ],
+     "in_scope": true,
+     "space_zh": "櫃台",
+     "local_path": "site/assets/img/work/soup-spoon-station/soup-spoon-station-gallery-04.jpg",
+     "url": null,
+     "alt_zh": "The Soup Spoon 台北車站店｜櫃台",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/soup-spoon-station/soup-spoon-station-gallery-04.jpg"
+    },
+    {
+     "order": 5,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "壓暗或裁切上方車站結構、消除玻璃霓虹倒影、統一白平衡",
+     "issues": [
+      "上緣約三成五是車站原有結構：磨石子飾板、外露金屬天花、黑色喇叭與消防管，粗糙且未整理",
+      "右側玻璃出現霓虹字反轉倒影",
+      "車站冷白日光燈管與店內暖色黃銅燈色溫對衝"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/soup-spoon-station/soup-spoon-station-gallery-05.jpg",
+     "url": null,
+     "alt_zh": "The Soup Spoon 台北車站店｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/soup-spoon-station/soup-spoon-station-gallery-05.jpg"
+    },
+    {
+     "order": 6,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "壓暗上方結構、統一白平衡、必要時裁成 16:9",
+     "issues": [
+      "上緣車站外露金屬天花與磨石子牆占據約三成",
+      "左側玻璃隔間後方的藍絨區被壓縮，讀不出兩個區域的關係",
+      "混合色溫未校正"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/soup-spoon-station/soup-spoon-station-gallery-06.jpg",
+     "url": null,
+     "alt_zh": "The Soup Spoon 台北車站店｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/soup-spoon-station/soup-spoon-station-gallery-06.jpg"
+    },
+    {
+     "order": 7,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "裁切左側牆面比例至約三分之一、壓抑地板反光、校正色溫偏黃",
+     "issues": [
+      "左側六成畫面是空白粗胚塗料牆，留白過量、資訊密度低",
+      "米色亮面地磚反光強且可見磨損刮痕",
+      "牆面中段的服務窗口位置尷紅，打斷牆面完整性",
+      "商場鹵素環境光造成整體偏琥珀"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "店面外觀",
+     "local_path": "site/assets/img/work/soup-spoon-station/soup-spoon-station-gallery-07.jpg",
+     "url": null,
+     "alt_zh": "The Soup Spoon 台北車站店｜店面外觀",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/soup-spoon-station/soup-spoon-station-gallery-07.jpg"
+    },
+    {
+     "order": 8,
+     "role": "detail",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "修除檯面線材與讀卡機、壓暗或修飾中央黑色防火門",
+     "issues": [
+      "檯面上 POS 螢幕、讀卡機與外露線材明顯",
+      "畫面中央黑色防火門為大面積深色死區",
+      "右側深色磨石子柱與左側米色亮面地磚分屬兩種地坪，接縫粗糙"
+     ],
+     "risks": [
+      "confidential"
+     ],
+     "in_scope": true,
+     "space_zh": "櫃台",
+     "local_path": "site/assets/img/work/soup-spoon-station/soup-spoon-station-detail-08.jpg",
+     "url": null,
+     "alt_zh": "The Soup Spoon 台北車站店｜櫃台",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/soup-spoon-station/soup-spoon-station-detail-08.jpg"
+    },
+    {
+     "order": 9,
+     "role": "context",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "大幅壓暗背景中庭、模糊鄰店招牌與價格資訊、裁切上緣",
+     "issues": [
+      "背景車站中庭極為雜亂：鄰店招牌、價格牌、電子看板全部清晰可讀",
+      "玻璃上「soup. nourish.」品牌字與霓虹字皆為反轉倒影",
+      "上緣結構與右上鄰棟建築窗帶搶走視覺重心"
+     ],
+     "risks": [
+      "confidential"
+     ],
+     "in_scope": true,
+     "space_zh": "用餐區",
+     "local_path": "site/assets/img/work/soup-spoon-station/soup-spoon-station-context-09.jpg",
+     "url": null,
+     "alt_zh": "The Soup Spoon 台北車站店｜用餐區",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/soup-spoon-station/soup-spoon-station-context-09.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [],
+   "blocking_risks": [
+    "confidential"
+   ],
+   "scope_uncertain": 0
+  },
+  "staff-facility": {
+   "fields": {
+    "Project name": "員訓中心濕區（客戶端）",
+    "Project name (en)": null,
+    "Short text": null,
+    "Heading": null,
+    "Text": null,
+    "Year": null,
+    "Location": null,
+    "Scope": null,
+    "Size": null,
+    "Category": null
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "分區白平衡（池體藍光／室內暖光／戶外日光三段分離）；壓暗或修掉溫度看板；透視校正；天花暗部提亮、庭園高光拉回。",
+     "issues": [
+      "池底藍色 LED 造成強烈藍偏，需分區白平衡",
+      "溫度看板紅字仍在畫面右上",
+      "手機廣角導致左側折門與右牆同時外傾",
+      "黑色格柵天花上半偏死黑",
+      "戶外庭園處輕微過曝"
+     ],
+     "risks": [
+      "confidential"
+     ],
+     "in_scope": true,
+     "space_zh": "三溫暖濕區（室內按摩池＋外接庭園）",
+     "local_path": "site/assets/img/work/staff-facility/staff-facility-gallery-01.jpg",
+     "url": null,
+     "alt_zh": "員訓中心濕區（客戶端）｜三溫暖濕區（室內按摩池＋外接庭園）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/staff-facility/staff-facility-gallery-01.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [
+    {
+     "role": "gallery",
+     "space": "三溫暖濕區（冷熱池＋檜木烤箱）",
+     "fix": "需 image-to-image 重建光影與色溫（分離池體 LED 與環境光）；壓暗或修掉溫度看板；池體透視校正；天花暗部保留基本層次。"
+    },
+    {
+     "role": "gallery",
+     "space": "三溫暖濕區（圓形氣泡池）",
+     "fix": "需 image-to-image 重建色溫；移除或壓暗溫度看板；圓池變形校正；裁掉部分天花降低死黑佔比。"
+    },
+    {
+     "role": "gallery",
+     "space": "客房（雙床房）",
+     "fix": "廣角變形與透視校正；重整床品後重拍為佳，否則需 image-to-image 修平床裙與被面；窗側高光拉回；統一色溫（暖黃桌燈 vs 冷白窗光）。"
+    }
+   ],
+   "blocking_risks": [
+    "confidential",
+    "housekeeping"
+   ],
+   "scope_uncertain": 0
+  },
+  "transasia-bakery-chunri": {
+   "fields": {
+    "Project name": "復興航棧春日店",
+    "Project name (en)": null,
+    "Short text": null,
+    "Heading": null,
+    "Text": null,
+    "Year": null,
+    "Location": null,
+    "Scope": null,
+    "Size": null,
+    "Category": null
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "hero",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "AI 放大至長邊 ≥2400px（原圖乾淨無壓縮塊，放大成功率高）；統一白平衡、提亮右側暗部",
+     "issues": [
+      "長邊僅 800px（0.43MP），遠低於網站主圖需求",
+      "招牌燈箱與商場環境光白平衡略有落差",
+      "右側深色門片區暗部偏平"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "店面外觀",
+     "local_path": "site/assets/img/work/transasia-bakery-chunri/transasia-bakery-chunri-hero-01.jpg",
+     "url": null,
+     "alt_zh": "復興航棧春日店｜店面外觀",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/transasia-bakery-chunri/transasia-bakery-chunri-hero-01.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [
+    {
+     "role": "gallery",
+     "space": "用餐區",
+     "fix": "AI 放大至長邊 ≥2400px；去洋紅色偏、提亮天花板暗部、裁掉右下前景桌面"
+    },
+    {
+     "role": "gallery",
+     "space": "用餐區",
+     "fix": "AI 放大；去色偏、移除左下禮盒雜物、提亮天花暗部"
+    }
+   ],
+   "blocking_risks": [
+    "housekeeping"
+   ],
+   "scope_uncertain": 0
+  },
+  "transasia-bakery-dayuan": {
+   "fields": {
+    "Project name": "復興航棧大園店",
+    "Project name (en)": null,
+    "Short text": null,
+    "Heading": null,
+    "Text": null,
+    "Year": null,
+    "Location": null,
+    "Scope": null,
+    "Size": null,
+    "Category": null
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "重新出圖加粗線寬、標註跑道主題區／賣場／廚房／戶外木平台等區名與比例尺",
+     "issues": [
+      "為 CAD 平面圖非照片",
+      "線條細，縮圖後可讀性下降",
+      "無比例尺與面積標註"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "平面圖",
+     "local_path": "site/assets/img/work/transasia-bakery-dayuan/transasia-bakery-dayuan-gallery-01.jpg",
+     "url": null,
+     "alt_zh": "復興航棧大園店｜平面圖",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/transasia-bakery-dayuan/transasia-bakery-dayuan-gallery-01.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [
+    {
+     "role": "hero",
+     "space": "主題賣場",
+     "fix": "AI 放大；壓窗面高光、降低草皮飽和、清除地坪污漬"
+    },
+    {
+     "role": "gallery",
+     "space": "主題賣場",
+     "fix": "AI 放大；壓窗光、降飽和"
+    },
+    {
+     "role": "gallery",
+     "space": "主題賣場",
+     "fix": "AI 放大；壓窗光、清除污漬與保護膜"
+    },
+    {
+     "role": "gallery",
+     "space": "戶外座位區",
+     "fix": "替換天空；去除紅線與停車格、修掉枯枝或替換植栽"
+    },
+    {
+     "role": "gallery",
+     "space": "主題賣場",
+     "fix": "AI 放大並重建藍色漸層；修正垂直、統一色溫、清除地坪污漬"
+    },
+    {
+     "role": "detail",
+     "space": "主題賣場",
+     "fix": "AI 放大並重建漸層；修正垂直、提亮天花暗部"
+    },
+    {
+     "role": "detail",
+     "space": "展示間",
+     "fix": "去除右側層架與商品、裁掉右上輕鋼架天花、校正水平"
+    }
+   ],
+   "blocking_risks": [],
+   "scope_uncertain": 0
+  },
+  "vair-office": {
+   "fields": {
+    "Project name": "威航辦公室",
+    "Project name (en)": null,
+    "Short text": null,
+    "Heading": null,
+    "Text": null,
+    "Year": null,
+    "Location": null,
+    "Scope": null,
+    "Size": null,
+    "Category": null
+   },
+   "hero_image_order": 1,
+   "images": [],
+   "deferred_heavy_retouch": [
+    {
+     "role": "gallery",
+     "space": "開放辦公區（走道透視）",
+     "fix": "提亮暗部 +1.5EV、壓燈具亮部、降低玻璃反射；需 image-to-image 重建盡頭階調"
+    },
+    {
+     "role": "gallery",
+     "space": "開放辦公區（隔屏工作站）",
+     "fix": "壓燈具亮部、提亮暗部 +1.2EV、天花污漬修除、地毯去藍；仍無法改善天花與燈具本身的老舊感"
+    },
+    {
+     "role": "gallery",
+     "space": "開放辦公區（全區廣角）",
+     "fix": "壓天花亮部、提亮地面 +1.2EV、天花板瑕疵修除、去藍；建議搭配裁切壓縮天花佔比"
+    },
+    {
+     "role": "gallery",
+     "space": "會議室",
+     "fix": "標籤需逐張修除；提亮暗部；重裁縮減桌面佔比；毛玻璃內側提亮"
+    },
+    {
+     "role": "gallery",
+     "space": "主管辦公室",
+     "fix": "壓燈具亮部、提亮暗部、統一木紋與桌面色溫、修除天花污漬"
+    },
+    {
+     "role": "gallery",
+     "space": "訓練教室",
+     "fix": "塑膠膜需逐張修除；統一色溫（左青右橙需拉平）；壓窗區亮部；提亮暗部"
+    },
+    {
+     "role": "gallery",
+     "space": "訓練教室",
+     "fix": "塑膠膜與標籤需大量修除；壓燈具亮部；降低白板反射；重裁縮減前景"
+    }
+   ],
+   "blocking_risks": [
+    "confidential",
+    "housekeeping",
+    "thirdparty"
+   ],
+   "scope_uncertain": 0
+  },
+  "zhongbao-smart-facility": {
+   "fields": {
+    "Project name": "中保智慧設施訓練基地（中國科大）",
+    "Project name (en)": null,
+    "Short text": null,
+    "Heading": null,
+    "Text": null,
+    "Year": null,
+    "Location": null,
+    "Scope": null,
+    "Size": null,
+    "Category": null
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "hero",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "僅需尺寸階轉檔；如需完美可淡化監視器與壓看板亮部",
+     "issues": [
+      "右上監視器入鏡（可修圖淡化）",
+      "左側水泥階梯側緣有輕微施工毛邊",
+      "畫面右側藍色發光看板亮度略高於環境約 0.7EV"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "電梯廳／前廳（智慧設施訓練基地入口）",
+     "local_path": "site/assets/img/work/zhongbao-smart-facility/zhongbao-smart-facility-hero-01.jpg",
+     "url": null,
+     "alt_zh": "中保智慧設施訓練基地（中國科大）｜電梯廳／前廳（智慧設施訓練基地入口）",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/zhongbao-smart-facility/zhongbao-smart-facility-hero-01.jpg"
+    },
+    {
+     "order": 2,
+     "role": "gallery",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "僅需尺寸階轉檔；可選擇性提亮電梯區暗部 +0.3EV",
+     "issues": [
+      "右側電梯門與電梯按鈕面板略暗，暗部細節可再提",
+      "天花黑色區域佔畫面約 30%，反射出隱藏管線",
+      "左側逃生門五金與門弓器入鏡"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "電梯廳／前廳（另一視角）",
+     "local_path": "site/assets/img/work/zhongbao-smart-facility/zhongbao-smart-facility-gallery-02.jpg",
+     "url": null,
+     "alt_zh": "中保智慧設施訓練基地（中國科大）｜電梯廳／前廳（另一視角）",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/zhongbao-smart-facility/zhongbao-smart-facility-gallery-02.jpg"
+    },
+    {
+     "order": 3,
+     "role": "gallery",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "僅需尺寸階轉檔；可壓 LED 顯示器亮度",
+     "issues": [
+      "右側展示牆上的紅色 LED 數值顯示器亮度突出",
+      "天花軌道燈具數量多，上緣略顯繁複",
+      "地坪為塑膠地磚，近景可見接縫"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "訓練基地大廳（含綠色主題牆）",
+     "local_path": "site/assets/img/work/zhongbao-smart-facility/zhongbao-smart-facility-gallery-03.jpg",
+     "url": null,
+     "alt_zh": "中保智慧設施訓練基地（中國科大）｜訓練基地大廳（含綠色主題牆）",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/zhongbao-smart-facility/zhongbao-smart-facility-gallery-03.jpg"
+    },
+    {
+     "order": 4,
+     "role": "gallery",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "僅需尺寸階轉檔；圖說需說明右後方為展示佈景",
+     "issues": [
+      "畫面右後方樣品情境間（沙發、木作、樓梯）為展示佈景，非本案裝修，需在圖說中區分",
+      "天花黑色區域佔畫面約 25%",
+      "右側 LED 數值顯示器亮度突出"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "訓練基地大廳（全區廣角）",
+     "local_path": "site/assets/img/work/zhongbao-smart-facility/zhongbao-smart-facility-gallery-04.jpg",
+     "url": null,
+     "alt_zh": "中保智慧設施訓練基地（中國科大）｜訓練基地大廳（全區廣角）",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/zhongbao-smart-facility/zhongbao-smart-facility-gallery-04.jpg"
+    },
+    {
+     "order": 5,
+     "role": "gallery",
+     "grade": "A",
+     "retouch": "none",
+     "retouch_note": "僅需尺寸階轉檔；左緣可微調裁切避免文字被切一半",
+     "issues": [
+      "左緣圖牆被裁切，文字內容不完整",
+      "右後方置物櫃區與樣品門板略顯雜亂",
+      "天花黑色區域佔畫面約 20%"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "訓練基地大廳（智慧居家圖牆側）",
+     "local_path": "site/assets/img/work/zhongbao-smart-facility/zhongbao-smart-facility-gallery-05.jpg",
+     "url": null,
+     "alt_zh": "中保智慧設施訓練基地（中國科大）｜訓練基地大廳（智慧居家圖牆側）",
+     "alt_en": null,
+     "provenance": "photo-original",
+     "web_path": "/assets/img/work/zhongbao-smart-facility/zhongbao-smart-facility-gallery-05.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [],
+   "blocking_risks": [],
+   "scope_uncertain": 0
+  },
+  "zhongbao-store-daan": {
+   "fields": {
+    "Project name": "中保無限家生活館 大安店",
+    "Project name (en)": null,
+    "Short text": null,
+    "Heading": null,
+    "Text": null,
+    "Year": null,
+    "Location": null,
+    "Scope": null,
+    "Size": null,
+    "Category": null
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "hero",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "白平衡校正（此張色相偏移最需要修，插畫牆有指定品牌色）；上緣軌道燈重裁；下緣重裁",
+     "issues": [
+      "色溫偏橙，淺藍與淺粉的插畫底色被推向米黃，品牌色相偏移明顯",
+      "天花軌道燈與監視器入鏡，燈頭切斷畫面上緣",
+      "下緣桌椅切斷，構圖不完整",
+      "右下角略有暗角"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "店內智慧居家展示牆",
+     "local_path": "site/assets/img/work/zhongbao-store-daan/zhongbao-store-daan-hero-01.jpg",
+     "url": null,
+     "alt_zh": "中保無限家生活館 大安店｜店內智慧居家展示牆",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/zhongbao-store-daan/zhongbao-store-daan-hero-01.jpg"
+    },
+    {
+     "order": 2,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "壓吊燈與門外亮部；白平衡校正；門上貼紙修除或淡化；校正 0.5°；天花明管降對比",
+     "issues": [
+      "天花工業吊燈燈面過曝，三顆燈無階調",
+      "右側玻璃門外過曝約 1.5EV，門上貼紙資訊雜亂",
+      "色溫偏橙約 2800K",
+      "天花明管、監視器、軌道燈入鏡且未整理視覺秩序",
+      "水平線右傾約 0.5°"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "麵包／輕食檯（含入口關係）",
+     "local_path": "site/assets/img/work/zhongbao-store-daan/zhongbao-store-daan-gallery-02.jpg",
+     "url": null,
+     "alt_zh": "中保無限家生活館 大安店｜麵包／輕食檯（含入口關係）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/zhongbao-store-daan/zhongbao-store-daan-gallery-02.jpg"
+    },
+    {
+     "order": 3,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "校正 2° 桶狀變形與垂直；重裁或修圖處理樹幹遮擋；鄰店招牌降飽和；前景藤椅重裁",
+     "issues": [
+      "日光下拍攝但相機高度偏低，磚牆與騎樓垂直線外擴約 2°（廣角桶狀變形）",
+      "畫面中段行道樹樹幹佔據約 15%，遮擋店招",
+      "店招被樹幹與遮陽篷切斷，品牌名稱不完整",
+      "右側鄰店紅色招牌與吊掛招牌雜亂",
+      "前景戶外藤椅佔畫面下緣約 25%"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "店面外觀（含戶外座位）",
+     "local_path": "site/assets/img/work/zhongbao-store-daan/zhongbao-store-daan-gallery-03.jpg",
+     "url": null,
+     "alt_zh": "中保無限家生活館 大安店｜店面外觀（含戶外座位）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/zhongbao-store-daan/zhongbao-store-daan-gallery-03.jpg"
+    },
+    {
+     "order": 4,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "白平衡校正；右側看板壓亮部；左上管線裁除或淡化；下緣重裁",
+     "issues": [
+      "色溫偏橙，褐色牆面呈土黃、粉色六角格偏橘",
+      "右側健康量測看板過曝約 1EV",
+      "左上冷氣管線與軌道燈入鏡",
+      "下緣白色檯面與立牌切斷，構圖不完整"
+     ],
+     "risks": [
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "店內品牌牆（服務項目識別牆）",
+     "local_path": "site/assets/img/work/zhongbao-store-daan/zhongbao-store-daan-gallery-04.jpg",
+     "url": null,
+     "alt_zh": "中保無限家生活館 大安店｜店內品牌牆（服務項目識別牆）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/zhongbao-store-daan/zhongbao-store-daan-gallery-04.jpg"
+    },
+    {
+     "order": 5,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "壓吊燈亮部；白平衡拉至 3800K；玻璃亮帶柔化；右側商品修圖簡化；下緣重裁",
+     "issues": [
+      "天花工業吊燈燈面過曝，三顆燈無階調",
+      "色溫偏橙約 2800K，白色地鐵磚呈奶油黃",
+      "玻璃展示櫃上緣反射天花，形成一道亮帶",
+      "右側商品盒與立牌略顯雜亂",
+      "下緣切在展示櫃玻璃，收邊不乾淨"
+     ],
+     "risks": [
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "麵包／輕食檯",
+     "local_path": "site/assets/img/work/zhongbao-store-daan/zhongbao-store-daan-gallery-05.jpg",
+     "url": null,
+     "alt_zh": "中保無限家生活館 大安店｜麵包／輕食檯",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/zhongbao-store-daan/zhongbao-store-daan-gallery-05.jpg"
+    },
+    {
+     "order": 6,
+     "role": "detail",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "白平衡校正；開關面板與促銷立牌修除；投影層次收斂",
+     "issues": [
+      "色溫偏橙，褐色背牆呈土黃",
+      "右側開關面板入鏡且位置正對主體",
+      "左下促銷立牌切斷畫面，屬臨時物件",
+      "背牆洗光造成輪體投影重疊，略顯雜亂"
+     ],
+     "risks": [
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "店內陳列裝置（鑄鐵摩天輪展示架）",
+     "local_path": "site/assets/img/work/zhongbao-store-daan/zhongbao-store-daan-detail-06.jpg",
+     "url": null,
+     "alt_zh": "中保無限家生活館 大安店｜店內陳列裝置（鑄鐵摩天輪展示架）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/zhongbao-store-daan/zhongbao-store-daan-detail-06.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [
+    {
+     "role": "gallery",
+     "space": "店內座位區",
+     "fix": "重裁提高視點、縮減地坪佔比；提亮沙發暗部；白平衡校正；洗牆亮斑柔化"
+    },
+    {
+     "role": "gallery",
+     "space": "店內長桌／咖啡吧",
+     "fix": "重裁大幅縮減桌面佔比；布幕反光修除；白平衡校正；天花明管降對比"
+    },
+    {
+     "role": "detail",
+     "space": "店內商品陳列架",
+     "fix": "重裁去除軌道燈與滅火器；標價牌修除；白平衡校正；僅適合作為小尺寸 detail"
+    },
+    {
+     "role": "gallery",
+     "space": "店內窗邊座位區",
+     "fix": "白平衡拉至 3800K；窗外降亮並降飽和；重裁縮減前景沙發與地坪；AED 柱淡化；校正 1.5° 垂直"
+    }
+   ],
+   "blocking_risks": [
+    "confidential",
+    "housekeeping"
+   ],
+   "scope_uncertain": 0
+  },
+  "zhongbao-store-zhuangjing": {
+   "fields": {
+    "Project name": "中保無限家生活館 莊敬店",
+    "Project name (en)": null,
+    "Short text": null,
+    "Heading": null,
+    "Text": null,
+    "Year": null,
+    "Location": null,
+    "Scope": null,
+    "Size": null,
+    "Category": null
+   },
+   "hero_image_order": 1,
+   "images": [
+    {
+     "order": 1,
+     "role": "hero",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "冷氣室內機修圖淡化；門禁面板淡化；前景重裁；右側壓亮部",
+     "issues": [
+      "右上分離式冷氣室內機佔畫面約 8% 且位置醒目",
+      "明架礦纖天花與軌道燈入鏡",
+      "左側門禁對講機與開關面板群入鏡",
+      "前景桌面切斷畫面下緣約 20%",
+      "展示牆右側略微過曝"
+     ],
+     "risks": [],
+     "in_scope": true,
+     "space_zh": "店內座位區（智慧居家系統展示牆）",
+     "local_path": "site/assets/img/work/zhongbao-store-zhuangjing/zhongbao-store-zhuangjing-hero-01.jpg",
+     "url": null,
+     "alt_zh": "中保無限家生活館 莊敬店｜店內座位區（智慧居家系統展示牆）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/zhongbao-store-zhuangjing/zhongbao-store-zhuangjing-hero-01.jpg"
+    },
+    {
+     "order": 2,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "壓電視與右牆亮部；冷氣室內機修圖淡化；臨時貼紙移除；天花降對比",
+     "issues": [
+      "明架礦纖天花直接入鏡，板材接縫與軌道燈基座雜亂",
+      "電視螢幕開機顯示影片內容，畫面亮度與環境落差約 1.5EV",
+      "右上分離式冷氣室內機入鏡且位置醒目",
+      "展示牆上多處臨時貼紙與立牌",
+      "右側牆面略微過曝約 0.7EV"
+     ],
+     "risks": [
+      "confidential",
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "店內座位區（智慧居家系統展示牆）",
+     "local_path": "site/assets/img/work/zhongbao-store-zhuangjing/zhongbao-store-zhuangjing-gallery-02.jpg",
+     "url": null,
+     "alt_zh": "中保無限家生活館 莊敬店｜店內座位區（智慧居家系統展示牆）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/zhongbao-store-zhuangjing/zhongbao-store-zhuangjing-gallery-02.jpg"
+    },
+    {
+     "order": 3,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "商品標價牌修除；門外街景降亮降飽和並確認去識別化；櫃台設備修圖簡化；壓玻璃門亮部",
+     "issues": [
+      "右側玻璃冷藏櫃與商品佔畫面約 35%，商品標價牌多處入鏡",
+      "門外街景可見對面店招與行人，需確認無可辨識人臉",
+      "櫃台上 POS、收銀機、紅色設備與備品雜亂",
+      "天花分離式冷氣室內機與明架天花入鏡",
+      "左側玻璃門過曝約 1EV"
+     ],
+     "risks": [
+      "portrait",
+      "confidential"
+     ],
+     "in_scope": true,
+     "space_zh": "入口／櫃台（含冷藏展示櫃）",
+     "local_path": "site/assets/img/work/zhongbao-store-zhuangjing/zhongbao-store-zhuangjing-gallery-03.jpg",
+     "url": null,
+     "alt_zh": "中保無限家生活館 莊敬店｜入口／櫃台（含冷藏展示櫃）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/zhongbao-store-zhuangjing/zhongbao-store-zhuangjing-gallery-03.jpg"
+    },
+    {
+     "order": 4,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "商品標價修除；右牆海報數量修圖精簡；天花降對比；下緣重裁",
+     "issues": [
+      "左側商品陳列架與伴手禮佔畫面約 25%，商品標價入鏡",
+      "右側牆面海報與立牌數量多，視覺秩序混亂",
+      "明架天花與軌道燈入鏡",
+      "左上冷氣出風口與監視器入鏡",
+      "下緣椅腳切斷"
+     ],
+     "risks": [
+      "confidential",
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "店內座位區（WELCOME 牆）",
+     "local_path": "site/assets/img/work/zhongbao-store-zhuangjing/zhongbao-store-zhuangjing-gallery-04.jpg",
+     "url": null,
+     "alt_zh": "中保無限家生活館 莊敬店｜店內座位區（WELCOME 牆）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/zhongbao-store-zhuangjing/zhongbao-store-zhuangjing-gallery-04.jpg"
+    },
+    {
+     "order": 5,
+     "role": "gallery",
+     "grade": "B",
+     "retouch": "light",
+     "retouch_note": "去識別化或修除人員；臨時立牌與器材需修圖移除；壓數位看板亮部",
+     "issues": [
+      "櫃台後方有人員入鏡（彎身作業，臉部部分可見），肖像權風險",
+      "左側試賣期公告立牌與 A 字架屬臨時物件",
+      "中央甜筒立體招牌與折疊桌切斷畫面，前景雜亂",
+      "右下黑色包袋與腳架箱等器材入鏡",
+      "右側數位看板過曝約 1EV"
+     ],
+     "risks": [
+      "portrait",
+      "housekeeping"
+     ],
+     "in_scope": true,
+     "space_zh": "店面外觀（騎樓）",
+     "local_path": "site/assets/img/work/zhongbao-store-zhuangjing/zhongbao-store-zhuangjing-gallery-05.jpg",
+     "url": null,
+     "alt_zh": "中保無限家生活館 莊敬店｜店面外觀（騎樓）",
+     "alt_en": null,
+     "provenance": "photo-retouch-pending",
+     "web_path": "/assets/img/work/zhongbao-store-zhuangjing/zhongbao-store-zhuangjing-gallery-05.jpg"
+    }
+   ],
+   "deferred_heavy_retouch": [
+    {
+     "role": "gallery",
+     "space": "店內座位區",
+     "fix": "重裁縮減白牆；地板接縫修除；仍難改善空間本身無設計亮點的問題"
+    },
+    {
+     "role": "gallery",
+     "space": "咖啡吧／後場",
+     "fix": "紙箱與塑膠桶需修圖移除；設備區重裁或改以局部特寫；壓菜單燈箱亮部"
+    },
+    {
+     "role": "gallery",
+     "space": "店內座位區",
+     "fix": "DM 架與立牌修除或裁除；重裁縮減白牆與前景"
+    },
+    {
+     "role": "gallery",
+     "space": "店內全景（含收銀區）",
+     "fix": "垃圾桶與紙箱需修圖移除；櫃台設備簡化；前景重裁；壓左上亮部"
+    }
+   ],
+   "blocking_risks": [
+    "confidential",
+    "housekeeping",
+    "portrait"
+   ],
+   "scope_uncertain": 0
+  }
+ },
+ "image_path_note": "local_path 依轉檔編號規則重建（A 級依選片序→B 級依選片序，連號），2026-09-03 修正先前字母序錯位。"
+}

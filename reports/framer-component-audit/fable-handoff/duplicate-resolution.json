@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-09-06",
+  "method": "readCodeFile content comparison plus normalized source review",
+  "exactDuplicates": [
+    {
+      "canonical": {"id": "K4D4TwM", "path": "Counter.tsx"},
+      "duplicates": [{"id": "mIDdHOA", "path": "Counter_1.tsx"}, {"id": "BhpyRnd", "path": "Counter_2.tsx"}],
+      "bytes": 4078,
+      "rawSha256": "8a0b46eab2b1f1d3b3265ebb43056307a621d7980f9f6d9846a812dccb76a366",
+      "normalizedSha256": "615a25f04134cca2914c026eab82c54d02df44115a666d01f4de352d441e8fc0",
+      "decision": "Fable may implement one canonical Counter abstraction; Framer copies remain untouched pending page-reference review."
+    }
+  ],
+  "nearDuplicates": [
+    {"group": "Timeline", "ids": ["HAziGIbgH", "kFsjMrHm8"], "classification": "near_duplicate_variant_candidate", "evidence": "both XML read successfully; same variant ID appears, normalized trees differ"},
+    {"group": "Gallery Section", "ids": ["AGUPnwAVB", "z555HSirV"], "classification": "near_duplicate_variant_candidate", "evidence": "both XML read successfully; Copy has variant/componentRef and normalized trees differ"},
+    {"group": "Card/Clients Card", "ids": ["Tz4ObI3jO", "e6luh5iUG"], "classification": "near_duplicate_variant_candidate", "evidence": "both XML read successfully; shared variants/componentRef and normalized trees differ"},
+    {"group": "RetroGrid", "ids": ["WM9aLzM", "yPOzKKp"], "classification": "near_duplicate", "evidence": "same core controls, different text/element control surface"},
+    {"group": "TypewriterEffect", "ids": ["JvhxjSC", "mm6IlTO"], "classification": "near_duplicate", "evidence": "complete and lightweight control surfaces differ"},
+    {"group": "BlurEssence", "ids": ["FWC3U5u", "f8c0ddB", "O2Ca9Kr"], "classification": "near_duplicate_or_expanded_candidate", "evidence": "large source files with differing control surfaces and effect scope"}
+  ],
+  "safety": "No Framer component was deleted, merged, renamed, detached, updated or published."
+}

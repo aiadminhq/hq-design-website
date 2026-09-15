@@ -1,0 +1,111 @@
+{
+  "slug": "hq-office",
+  "nameZh": "惠強室內裝修",
+  "nameEn": "",
+  "category": "office",
+  "year": 2025,
+  "heroImage": "assets/images/projects/hq-office/render-01.jpg",
+  "categoryLabel": "Office & Showroom",
+  "locationZh": "台北市南港區經貿二路 135 號 9 樓",
+  "yearLabel": "2025",
+  "designBuildLabel": "HQ Interior",
+  "descriptionZh": "惠強室內裝修自建辦公室與材料展示空間，以 31 年設計施工積累的工藝能量為展示主軸，整合辦公、接待與材料樣品區，呈現品牌完整服務能力。",
+  "scopeZh": "辦公室 / 展示空間",
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "value": "惠強室內裝修（自建）"
+    },
+    {
+      "labelZh": "類型",
+      "value": "辦公室 + 材料展示空間"
+    },
+    {
+      "labelZh": "坪數",
+      "value": "50 坪"
+    },
+    {
+      "labelZh": "地點",
+      "value": "台北南港經貿二路 135 號 9F"
+    },
+    {
+      "labelZh": "完工年份",
+      "value": "2025"
+    },
+    {
+      "labelZh": "特色",
+      "value": "品牌展示、材料樣品整合、接待洽談空間"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/images/projects/hq-office/floorplan.jpg",
+      "alt": "平面配置圖"
+    },
+    {
+      "image": "assets/images/projects/hq-office/render-01.jpg",
+      "alt": "空間效果圖 01"
+    },
+    {
+      "image": "assets/images/projects/hq-office/render-02.jpg",
+      "alt": "空間效果圖 02"
+    },
+    {
+      "image": "assets/images/projects/hq-office/render-03.jpg",
+      "alt": "空間效果圖 03"
+    },
+    {
+      "image": "assets/images/projects/hq-office/render-04.jpg",
+      "alt": "空間效果圖 04"
+    },
+    {
+      "image": "assets/images/projects/hq-office/render-05.jpg",
+      "alt": "空間效果圖 05"
+    },
+    {
+      "image": "assets/images/projects/hq-office/render-06.jpg",
+      "alt": "空間效果圖 06"
+    },
+    {
+      "image": "assets/images/projects/hq-office/render-07.jpg",
+      "alt": "空間效果圖 07"
+    },
+    {
+      "image": "assets/images/projects/hq-office/render-08.jpg",
+      "alt": "空間效果圖 08"
+    },
+    {
+      "image": "assets/images/projects/hq-office/render-09.jpg",
+      "alt": "空間效果圖 09"
+    },
+    {
+      "image": "assets/images/projects/hq-office/render-10.jpg",
+      "alt": "空間效果圖 10"
+    },
+    {
+      "image": "assets/images/projects/hq-office/render-11.jpg",
+      "alt": "空間效果圖 11"
+    },
+    {
+      "image": "assets/images/projects/hq-office/render-12.jpg",
+      "alt": "空間效果圖 12"
+    },
+    {
+      "image": "assets/images/projects/hq-office/render-13.jpg",
+      "alt": "空間效果圖 13"
+    },
+    {
+      "image": "assets/images/projects/hq-office/render-14.jpg",
+      "alt": "空間效果圖 14"
+    },
+    {
+      "image": "assets/images/projects/hq-office/render-15.jpg",
+      "alt": "空間效果圖 15"
+    },
+    {
+      "image": "assets/images/projects/hq-office/render-16.jpg",
+      "alt": "空間效果圖 16"
+    }
+  ],
+  "featured": true
+}

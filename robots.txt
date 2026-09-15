@@ -1,0 +1,95 @@
+# 惠強室內裝修 HQ Design — robots.txt
+#
+# 政策：完全開放，不封鎖任何爬蟲，包含所有 AI／LLM 爬蟲。
+# 這是刻意的決定，不是疏漏——公司定位為「AI × Design」，
+# 目標是讓 AI 引擎與 AI agent 能找到並正確引用本公司資訊。
+# 未來維護者請勿在未確認前改為封鎖。
+#
+# 最後更新：2026-09-03
+
+User-agent: *
+Allow: /
+
+# ─────────────────────────────────────────────
+# AI／LLM 爬蟲：明確允許（具名宣告，避免預設值或誤設造成封鎖）
+# ─────────────────────────────────────────────
+
+# OpenAI — 訓練／搜尋索引／使用者觸發瀏覽
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google — Google-Extended 控制內容是否用於 Gemini 與 AI 生成功能
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# Apple — Applebot-Extended 控制是否用於 Apple Intelligence
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Microsoft／Copilot（透過 Bing 索引）
+User-agent: bingbot
+Allow: /
+
+# Common Crawl — 多數開源 LLM 的訓練語料來源
+User-agent: CCBot
+Allow: /
+
+# Meta
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# 其他 AI 服務
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+Sitemap: https://www.hqdesign.tw/sitemap.xml

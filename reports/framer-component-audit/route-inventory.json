@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-09-06T18:15:15+08:00",
+  "source": "https://gracious-successes-409813.framer.app",
+  "exportTool": {
+    "name": "framer-export",
+    "version": "5.0.0",
+    "tag": "v5.0.0",
+    "commit": "dc023e74467bd73869aabd45fb55778b0e754059"
+  },
+  "output": "/tmp/framer-staging-export.ztMCD8",
+  "crawl": {
+    "subpagesRequested": true,
+    "subpagesWritten": 4,
+    "uniqueAssetRequests": 380,
+    "assetsWritten": 406,
+    "lazyLoadedChunks": 44,
+    "downloadFailures": 0
+  },
+  "routes": [
+    {
+      "path": "/",
+      "artifact": "index.html",
+      "routeKind": "entry",
+      "title": "Christian's Portfolio",
+      "fileBytes": 434007,
+      "httpStatus": 200,
+      "browser": {"bodyTextLength": 1153, "canvas": 0, "iframes": 0, "scripts": 10, "pageErrors": 0, "failedRequests": 0}
+    },
+    {
+      "path": "/old-home",
+      "artifact": "subpages/old-home.html",
+      "routeKind": "crawled-web-route",
+      "title": "Christian Wu",
+      "fileBytes": 335507,
+      "httpStatus": 200,
+      "browser": {"bodyTextLength": 571, "canvas": 1, "iframes": 1, "scripts": 10, "pageErrors": 0, "failedRequests": 1}
+    },
+    {
+      "path": "/projects/Spatial-Design",
+      "artifact": "subpages/projects_Spatial-Design.html",
+      "routeKind": "crawled-web-route",
+      "title": "Christian Wu - Spatial Design Portfolio",
+      "fileBytes": 499247,
+      "httpStatus": 200,
+      "browser": {"bodyTextLength": 2294, "canvas": 0, "iframes": 1, "scripts": 11, "pageErrors": 0, "failedRequests": 1}
+    },
+    {
+      "path": "/404-1",
+      "artifact": "subpages/404-1.html",
+      "routeKind": "crawled-web-route-named-404-1",
+      "title": "Christian's Spatial Design Portfolio",
+      "fileBytes": 266435,
+      "httpStatus": 200,
+      "browser": {"bodyTextLength": 24, "canvas": 0, "iframes": 1, "scripts": 10, "pageErrors": 0, "failedRequests": 1}
+    },
+    {
+      "path": "/ravenel",
+      "artifact": "subpages/ravenel.html",
+      "routeKind": "crawled-web-route",
+      "title": "Christian Wu",
+      "fileBytes": 497318,
+      "httpStatus": 200,
+      "browser": {"bodyTextLength": 11182, "canvas": 0, "iframes": 1, "scripts": 10, "pageErrors": 0, "failedRequests": 1}
+    }
+  ],
+  "failedRequestClassification": {
+    "count": 4,
+    "classification": "expected-editor-bar-block",
+    "urlPrefix": "https://framer.com/edit?framerSiteId=…",
+    "notCountedAsLocalAssetFailures": true
+  }
+}

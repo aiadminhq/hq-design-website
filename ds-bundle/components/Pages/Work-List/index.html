@@ -1,0 +1,465 @@
+<!-- @dsCard group="Pages" name="Work-List" subtitle="實績列表 · 33 案 · 實景與提案視覺分區" viewport="1440x3000" -->
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>實績｜商業空間設計施工案例｜惠強室內裝修 HQ Design</title>
+<meta name="description" content="惠強室內裝修 32 件有完工實景的商業空間案例：企業總部與辦公空間、國際飯店、連鎖餐飲、展示與訓練空間、航空貴賓室。每張影像逐一標示來源。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../../../styles.css">
+<style>
+/* ── work pages · page-level rules · hq.css tokens only ── */
+.wk h1{font-size:clamp(34px,4.4vw,64px);line-height:1.08}
+.wk h1 .gloss{display:block;font-family:var(--f-en);font-weight:500;font-size:clamp(15px,1.25vw,20px);letter-spacing:.005em;color:var(--fg-3);margin-top:var(--s3)}
+.crumb{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s3) var(--s4);font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3)}
+.crumb a{display:inline-flex;align-items:center;min-height:var(--s7);color:var(--fg-2);transition:color .2s}
+.crumb a:hover{color:var(--fg)}
+.crumb .sep{width:1px;height:1em;background:var(--line-strong);transform:rotate(30deg)}
+.fig{margin:0;position:relative}
+.fig img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.wk img,.wl img{height:auto}
+.fig figcaption{display:flex;flex-wrap:wrap;gap:var(--s2) var(--s5);margin-top:var(--s3);font-family:var(--f-mono);font-size:12px;color:var(--fg-3);letter-spacing:.02em;line-height:1.7}
+.fig .src{display:inline-flex;align-items:center;gap:var(--s2);white-space:nowrap}
+.fig .src::before{content:"";width:12px;height:1px;background:var(--brand);transform:rotate(-60deg)}
+.fig[data-provenance="drawing"] .src::before{background:var(--fg-3)}
+.fig[data-provenance="viz"] .src::before,.fig[data-provenance="enh"] .src::before{background:var(--fg-3)}
+.fig[data-provenance="viz"] .src,.fig[data-provenance="enh"] .src{color:var(--fg-3)}
+.fig[data-provenance="viz"] img,.fig[data-provenance="enh"] img{border:1px solid var(--line)}
+.fig[data-provenance="drawing"] img,.reg .im[data-provenance="drawing"] img,.wgrid .case[data-provenance="drawing"] img{border:1px solid var(--line)}
+.fig .sp{color:var(--fg-2)}
+/* review layer — hidden unless <body class="review"> (add ?review to the URL) */
+body.review .fig[data-retouch]::after{content:"RETOUCH · " attr(data-retouch) " — " attr(data-note);display:block;margin-top:var(--s2);padding-left:var(--s3);border-left:1px solid var(--fg-3);font-family:var(--f-mono);font-size:12px;line-height:1.6;color:var(--fg-2);letter-spacing:.02em}
+body.review .fig[data-retouch="none"][data-note=""]::after{content:"RETOUCH · none"}
+body.review .fig[data-retouch="heavy"]::after{border-left-color:var(--brand);color:var(--brand)}
+body.review .fig[data-orient="portrait"] .sp::after{content:" · PORTRAIT ORIGINAL, CSS-CROPPED"}
+
+.wl .hero .copy{display:flex;flex-direction:column;gap:var(--s5)}
+.wl .hero .lede{margin:0}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
+.filters{display:flex;flex-wrap:wrap;gap:var(--s2);margin-top:var(--s6)}
+.filters label{display:inline-flex;align-items:center;gap:var(--s2);min-height:var(--s7);padding:0 var(--s4);border:1px solid var(--line-strong);font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-2);cursor:pointer;transition:color .2s,border-color .2s,background .2s}
+.filters label::before{content:"";width:12px;height:1px;background:transparent;transform:rotate(-60deg)}
+.filters label:hover{color:var(--fg);background:var(--bg-sunken)}
+.filters label b{font-weight:500;color:var(--fg-3)}
+.filters label .cjk{letter-spacing:.06em;text-transform:none}
+#f-all:checked ~ .filters label[for="f-all"],#f-office:checked ~ .filters label[for="f-office"],#f-hospitality:checked ~ .filters label[for="f-hospitality"],#f-fb:checked ~ .filters label[for="f-fb"],#f-showroom:checked ~ .filters label[for="f-showroom"],#f-lounge:checked ~ .filters label[for="f-lounge"]{border-color:var(--line-ink);color:var(--fg)}
+#f-all:checked ~ .filters label[for="f-all"]::before,#f-office:checked ~ .filters label[for="f-office"]::before,#f-hospitality:checked ~ .filters label[for="f-hospitality"]::before,#f-fb:checked ~ .filters label[for="f-fb"]::before,#f-showroom:checked ~ .filters label[for="f-showroom"]::before,#f-lounge:checked ~ .filters label[for="f-lounge"]::before{background:var(--brand)}
+#f-all:focus-visible ~ .filters label[for="f-all"],#f-office:focus-visible ~ .filters label[for="f-office"],#f-hospitality:focus-visible ~ .filters label[for="f-hospitality"],#f-fb:focus-visible ~ .filters label[for="f-fb"],#f-showroom:focus-visible ~ .filters label[for="f-showroom"],#f-lounge:focus-visible ~ .filters label[for="f-lounge"]{outline:2px solid var(--brand);outline-offset:3px}
+#f-office:checked ~ .wgrid>[data-cat]:not([data-cat="office"]),#f-office:checked ~ .reg [data-cat]:not([data-cat="office"]),
+#f-hospitality:checked ~ .wgrid>[data-cat]:not([data-cat="hospitality"]),#f-hospitality:checked ~ .reg [data-cat]:not([data-cat="hospitality"]),
+#f-fb:checked ~ .wgrid>[data-cat]:not([data-cat="fb"]),#f-fb:checked ~ .reg [data-cat]:not([data-cat="fb"]),
+#f-showroom:checked ~ .wgrid>[data-cat]:not([data-cat="showroom"]),#f-showroom:checked ~ .reg [data-cat]:not([data-cat="showroom"]),
+#f-lounge:checked ~ .wgrid>[data-cat]:not([data-cat="lounge"]),#f-lounge:checked ~ .reg [data-cat]:not([data-cat="lounge"]){display:none}
+#f-hospitality:checked ~ .reg,#f-showroom:checked ~ .reg,#f-lounge:checked ~ .reg{display:none}
+.wgrid{margin-top:var(--s8);display:grid;grid-template-columns:1fr;gap:var(--s7) var(--gutter);grid-auto-flow:dense}
+@media (min-width:700px){.wgrid{grid-template-columns:repeat(6,1fr)}.wgrid>.case.w6,.wgrid>.case.w4{grid-column:span 3}.wgrid>.note-slot{grid-column:1/-1}}
+@media (min-width:1000px){.wgrid{grid-template-columns:repeat(12,1fr)}.wgrid>.case.w6{grid-column:span 6}.wgrid>.case.w4{grid-column:span 4}.wgrid>.note-slot{grid-column:9/span 4;align-self:end}}
+.wgrid .case .src.drawing::before,.wgrid .case .src.viz::before,.wgrid .case .src.enh::before{background:var(--fg-3)}
+.wgrid .case .src.viz,.wgrid .case .src.enh{color:var(--fg-3)}
+.note-slot{display:flex;flex-direction:column;gap:var(--s5)}
+.reg{margin-top:var(--s9);border-top:1px solid var(--line-ink);padding-top:var(--s5)}
+.reg .eyebrow+p{margin-top:var(--s3);font-size:14px;color:var(--fg-2);max-width:44em}
+.reg .rows{margin-top:var(--s5)}
+.reg a.row{display:grid;grid-template-columns:1fr;gap:var(--s4);padding:var(--s5) 0;border-top:1px solid var(--line);align-items:center}
+@media (min-width:700px){.reg a.row{grid-template-columns:repeat(12,1fr);gap:var(--gutter)}.reg .im{grid-column:span 3}.reg .tx{grid-column:span 5}.reg .d{grid-column:span 2}.reg .s{grid-column:span 2;justify-self:end}}
+.reg img{width:100%;aspect-ratio:3/2;object-fit:cover;transition:transform .6s var(--ease)}
+.reg a.row:hover img{transform:scale(1.015)}
+.reg .im{overflow:hidden}
+.reg .t{font-weight:500;font-size:17px;line-height:1.35}
+.reg .t .en{display:block;font-size:13px;color:var(--fg-3);font-weight:400;margin-top:2px}
+.reg .d{font-family:var(--f-mono);font-size:12px;color:var(--fg-3);line-height:1.7;letter-spacing:.02em}
+.reg .d b{color:var(--fg);font-weight:500}
+.reg .s{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;color:var(--fg-3);display:inline-flex;align-items:center;gap:var(--s2);white-space:nowrap}
+.reg .s::before{content:"";width:12px;height:1px;background:var(--brand);transform:rotate(-60deg)}
+.reg .s.drawing::before,.reg .s.viz::before,.reg .s.enh::before{background:var(--fg-3)}
+.vizsec{margin-top:var(--s10);padding-top:var(--s7);border-top:1px solid var(--line-ink)}
+.vizsec h2{margin-top:var(--s5);font-size:clamp(24px,2.6vw,36px);max-width:26em}
+.vizsec>p{margin-top:var(--s5);color:var(--fg-2);max-width:46em;font-size:15px}
+.other{background:var(--bg-sunken)}
+.other .grid{align-items:center}
+.other .l{grid-column:1/span 12}.other .r{grid-column:1/span 12}
+@media (min-width:900px){.other .l{grid-column:1/span 7}.other .r{grid-column:9/span 4}}
+.other h2{margin-top:var(--s5);font-size:clamp(20px,1.9vw,26px);font-weight:500;line-height:1.3;letter-spacing:0}
+.other p{margin-top:var(--s4);font-size:14px;color:var(--fg-2);max-width:44em}
+.other .r a{display:block}
+.other .r img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.other .r .src{margin-top:var(--s3);font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;color:var(--fg-3);display:inline-flex;align-items:center;gap:var(--s2)}
+.other .r .src::before{content:"";width:12px;height:1px;background:var(--brand);transform:rotate(-60deg)}
+</style>
+</head>
+<body class="wl">
+<nav class="nav">
+  <div class="wrap">
+    <a class="mark" href="#" aria-label="HQ Design 惠強室內裝修">
+      <span class="sq" aria-hidden="true"></span>
+      <span><b>HQ DESIGN</b><small>惠強室內裝修</small></span>
+    </a>
+    <ul>
+      <li><a href="#">設計流程</a></li>
+      <li><a href="#">實績</a></li>
+      <li><a href="#">服務項目</a></li>
+      <li><a href="#">關於惠強</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:var(--s6)">
+      <span class="lang"><b>ZH</b> / EN</span>
+      <a class="btn" href="#">洽詢專案 <span class="ar">→</span></a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="grid">
+      <div class="copy rv">
+        <div class="eyebrow"><span class="n">Selected Work</span><span>32 cases · 5 sectors · Source-labelled imagery</span></div>
+        <h1><span class="row cjk">實績</span><span class="row cjk" style="font-size:.42em;margin-top:.35em;color:var(--fg-2)">每張影像都標示來源——完工實景、設計提案視覺或設計圖面。</span></h1>
+        <p class="lede cjk">32 件商業空間案例，依業種分類。上半為完工實景案例，下半為尚未安排完工攝影、以設計提案視覺呈現的案例——兩者分區呈現，每張影像逐一標示性質。</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="work" id="cases" style="padding-top:var(--s8)">
+  <div class="wrap">
+    <input class="vh" type="radio" name="f" id="f-all" checked>
+    <input class="vh" type="radio" name="f" id="f-office">
+    <input class="vh" type="radio" name="f" id="f-hospitality">
+    <input class="vh" type="radio" name="f" id="f-fb">
+    <input class="vh" type="radio" name="f" id="f-showroom">
+    <input class="vh" type="radio" name="f" id="f-lounge">
+    <div class="filters" role="group" aria-label="依業種篩選">
+      <label for="f-all"><span class="cjk">全部</span><span>All</span><b>32</b></label>
+      <label for="f-office"><span class="cjk">企業總部／辦公空間</span><span>Corporate &amp; Office</span><b>16</b></label>
+      <label for="f-hospitality"><span class="cjk">國際飯店</span><span>Hospitality</span><b>1</b></label>
+      <label for="f-fb"><span class="cjk">連鎖餐飲</span><span>Chain F&amp;B</span><b>8</b></label>
+      <label for="f-showroom"><span class="cjk">展示與訓練空間</span><span>Showroom &amp; Training</span><b>6</b></label>
+      <label for="f-lounge"><span class="cjk">航空貴賓室</span><span>Airline Lounge</span><b>1</b></label>
+    </div>
+    <div class="wgrid">
+      <a class="case lead" href="#" data-cat="office" data-provenance="photo">
+        <div class="imgw"><img src="../../../_preview/img/c7816df79e.jpg" alt="中興保全 SECOM 南港總部｜接待大廳 — 木紋牆面、白色人造石櫃台與集團識別" width="2560" height="1707" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">中興保全 SECOM 南港總部<span class="en">Corporate HQ · Full Design &amp; Build</span></div>
+          <div class="d"><b>5,940</b> sqm<br>NANGANG · 2025</div>
+          <div class="src">完工實景 · AS-BUILT</div>
+        </div>
+      </a>
+<div class="note-slot" data-cat="office">
+        <div class="aside"><div class="note"><b>Featured · 旗艦案</b><span class="cjk">在持續營運且具高度保全需求的企業總部中，以分區施工完成接待、開放辦公、會議與主管空間的整合翻新——維持日常營運不中斷，零重大缺失驗收。</span></div></div>
+        <a class="btn ghost" href="#">看旗艦案 <span class="ar">→</span></a>
+      </div>
+<a class="case lead" href="#" data-cat="hospitality" data-provenance="photo">
+        <div class="imgw"><img src="../../../_preview/img/2508fa2426.jpg" alt="金普頓大安酒店｜多功能貴賓室" width="1707" height="2560" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">金普頓大安酒店<span class="en">Kimpton Da An · Public Areas &amp; Guest Corridors Construction</span></div>
+          <div class="d"><b>100</b> 坪<br>DA'AN · TAIPEI · 2022</div>
+          <div class="src">完工實景 · AS-BUILT</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="showroom" data-provenance="photo">
+        <div class="imgw"><img src="../../../_preview/img/208805075d.jpg" alt="中保智慧設施訓練基地（中國科大）｜電梯廳／前廳（智慧設施訓練基地入口）" width="2000" height="1333" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">中保智慧設施訓練基地<span class="en">Smart Facility Training Base &amp; Showroom</span></div>
+          <div class="d">SHOWROOM<br>NEW TAIPEI</div>
+          <div class="src">完工實景 · AS-BUILT</div>
+        </div>
+      </a>
+<a class="case w6" href="#" data-cat="fb" data-provenance="photo">
+        <div class="imgw"><img src="../../../_preview/img/76f485ce67.jpg" alt="起家雞 台中店｜用餐區" width="2560" height="1707" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">起家雞 台中店<span class="en">Chicken Up · Chain F&amp;B · Design &amp; Build</span></div>
+          <div class="d"><b>212</b> 坪<br>TAICHUNG · 2019</div>
+          <div class="src">完工實景 · AS-BUILT</div>
+        </div>
+      </a>
+<a class="case w6" href="#" data-cat="fb" data-provenance="photo">
+        <div class="imgw"><img src="../../../_preview/img/9276be7ed2.jpg" alt="The Soup Spoon 台北車站店｜店面外觀" width="2560" height="1707" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">The Soup Spoon 台北車站店<span class="en">Singapore F&amp;B Brand · Taipei Main Station</span></div>
+          <div class="d"><b>30</b> 坪<br>TAIPEI STATION · 2023</div>
+          <div class="src">完工實景 · AS-BUILT</div>
+        </div>
+      </a>
+<a class="case w6" href="#" data-cat="fb" data-provenance="photo">
+        <div class="imgw"><img src="../../../_preview/img/1277aef34c.jpg" alt="Popeyes 許昌店｜用餐區" width="2560" height="1707" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">Popeyes 許昌店<span class="en">International Chain F&amp;B · Design &amp; Build</span></div>
+          <div class="d"><b>51</b> 坪<br>XUCHANG ST. · TAIPEI · 2024</div>
+          <div class="src">完工實景 · AS-BUILT</div>
+        </div>
+      </a>
+<a class="case w6" href="#" data-cat="lounge" data-provenance="photo">
+        <div class="imgw"><img src="../../../_preview/img/185fdc034e.jpg" alt="桃園機場航空貴賓室｜接待大廳" width="2560" height="1920" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">桃園機場航空貴賓室<span class="en">Airline Lounges · Taoyuan International Airport</span></div>
+          <div class="d">AIRLINE LOUNGE<br>TAOYUAN AIRPORT</div>
+          <div class="src">完工實景 · AS-BUILT</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="fb" data-provenance="photo">
+        <div class="imgw"><img src="../../../_preview/img/2e6806ea6a.jpg" alt="部隊鍋｜用餐區" width="2000" height="1143" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">部隊鍋<span class="en">Korean F&amp;B</span></div>
+          <div class="d">KOREAN F&amp;B</div>
+          <div class="src">完工實景 · AS-BUILT</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="showroom" data-provenance="photo">
+        <div class="imgw"><img src="../../../_preview/img/38e2d6f0d9.jpg" alt="國產建材情境展示間｜展示間（客廳情境）" width="1000" height="667" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">國產建材情境展示間<span class="en">Building Materials Showroom · Residential Vignettes</span></div>
+          <div class="d">SHOWROOM</div>
+          <div class="src">完工實景 · AS-BUILT</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="showroom" data-provenance="photo">
+        <div class="imgw"><img src="../../../_preview/img/609a9f591a.jpg" alt="中保無限家生活館 大安店｜店內智慧居家展示牆" width="1000" height="667" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">中保無限家生活館 大安店<span class="en">Smart-Home Lifestyle Store · Da'an</span></div>
+          <div class="d">LIFESTYLE STORE<br>DA'AN · TAIPEI</div>
+          <div class="src">完工實景 · AS-BUILT</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="showroom" data-provenance="photo">
+        <div class="imgw"><img src="../../../_preview/img/1561399870.jpg" alt="中保無限家生活館 莊敬店｜店內座位區（智慧居家系統展示牆）" width="1000" height="667" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">中保無限家生活館 莊敬店<span class="en">Smart-Home Lifestyle Store · Zhuangjing</span></div>
+          <div class="d">LIFESTYLE STORE<br>TAIPEI</div>
+          <div class="src">完工實景 · AS-BUILT</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="office" data-provenance="photo">
+        <div class="imgw"><img src="../../../_preview/img/3db11c46b6.jpg" alt="國產建材總部辦公｜會議室（大型董事會議室）" width="1000" height="667" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">國產建材總部辦公<span class="en">Corporate Office · Boardroom &amp; Executive Suite</span></div>
+          <div class="d">CORPORATE OFFICE</div>
+          <div class="src">完工實景 · AS-BUILT</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="fb" data-provenance="photo">
+        <div class="imgw"><img src="../../../_preview/img/18b9b9d2b1.jpg" alt="The Soup Spoon 101 店｜櫃台" width="2560" height="1707" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">The Soup Spoon 台北 101 店<span class="en">Singapore F&amp;B Brand · Taipei 101</span></div>
+          <div class="d"><b>21</b> 坪<br>TAIPEI 101 · 2023</div>
+          <div class="src">完工實景 · AS-BUILT</div>
+        </div>
+      </a>
+    </div>
+    <div class="vizsec">
+      <div class="eyebrow"><span class="n">Design Visualisation</span><span>設計提案視覺 · 尚未完工攝影</span></div>
+      <h2 class="cjk">以下案例的影像為設計提案視覺，不是完工實景。</h2>
+      <p class="cjk">這些案子都已完工，但尚未安排完工攝影。頁面影像由設計圖面經 AI 重製產出，用於呈現空間設計意圖與材質配置。完工攝影安排後將逐案替換——每張影像的性質都標示在圖說上。</p>
+      <div class="wgrid" style="margin-top:var(--s7)">
+        <a class="case w6" href="#" data-cat="showroom" data-provenance="viz">
+        <div class="imgw"><img src="../../../_preview/img/d27e5010d7.jpg" alt="中保科技展示廳｜LED 影像牆研討區設計提案視覺" width="2560" height="1717" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">中保科技展示廳 SECOM TECHNOLOGY HALL<span class="en">SECOM TECHNOLOGY HALL · Showroom</span></div>
+          <div class="d"><b>331</b> sqm<br>NANGANG · 2025</div>
+          <div class="src viz">設計提案視覺 · DESIGN VISUALISATION</div>
+        </div>
+      </a>
+<a class="case w6" href="#" data-cat="showroom" data-provenance="enh">
+        <div class="imgw"><img src="../../../_preview/img/ddb10dc963.jpg" alt="惠強室內裝修｜材料展示與洽談區，實拍經 AI 光影強化" width="2560" height="1429" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">惠強室內裝修 HQ DESIGN &amp; BUILD<span class="en">HQ DESIGN &amp; BUILD · Own Office &amp; Material Library</span></div>
+          <div class="d"><b>165</b> sqm<br>NANGANG · 2025</div>
+          <div class="src enh">實拍 · AI 光影強化 · AI-ENHANCED</div>
+        </div>
+      </a>
+        <a class="case w4" href="#" data-cat="office" data-provenance="viz">
+        <div class="imgw"><img src="../../../_preview/img/1fbea8f2bf.jpg" alt="保創科技 POLYTRON｜室內空間設計提案視覺" width="2560" height="1429" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">保創科技 POLYTRON<span class="en">POLYTRON · Corporate Office</span></div>
+          <div class="d"><b>850</b> sqm<br>2025</div>
+          <div class="src viz">設計提案視覺 · DESIGN VISUALISATION</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="office" data-provenance="viz">
+        <div class="imgw"><img src="../../../_preview/img/1aedc3df8c.jpg" alt="博訊科技 AIONTECH｜室內空間設計提案視覺" width="2560" height="1429" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">博訊科技 AIONTECH<span class="en">AIONTECH · Corporate Office</span></div>
+          <div class="d"><b>825</b> sqm<br>NANGANG · 2025</div>
+          <div class="src viz">設計提案視覺 · DESIGN VISUALISATION</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="office" data-provenance="viz">
+        <div class="imgw"><img src="../../../_preview/img/6e565b236e.jpg" alt="志聖工業 C.SUN｜室內空間設計提案視覺" width="2560" height="1429" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">志聖工業 C.SUN<span class="en">C.SUN INDUSTRIAL · Corporate Office</span></div>
+          <div class="d"><b>711</b> sqm<br>NANGANG · 2026</div>
+          <div class="src viz">設計提案視覺 · DESIGN VISUALISATION</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="office" data-provenance="viz">
+        <div class="imgw"><img src="../../../_preview/img/208e0f753e.jpg" alt="立偉電子 LIWEI｜室內空間設計提案視覺" width="2560" height="1429" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">立偉電子 LIWEI<span class="en">LIWEI ELECTRONICS · Corporate Office</span></div>
+          <div class="d"><b>350</b> sqm<br>NANGANG · 2025</div>
+          <div class="src viz">設計提案視覺 · DESIGN VISUALISATION</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="office" data-provenance="viz">
+        <div class="imgw"><img src="../../../_preview/img/d474ee0a05.jpg" alt="欣蘭企業 XINLAN｜室內空間設計提案視覺" width="2560" height="1429" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">欣蘭企業 XINLAN<span class="en">XINLAN ENTERPRISE · Corporate Office</span></div>
+          <div class="d"><b>350</b> sqm<br>2025</div>
+          <div class="src viz">設計提案視覺 · DESIGN VISUALISATION</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="office" data-provenance="viz">
+        <div class="imgw"><img src="../../../_preview/img/742f492993.jpg" alt="天河電訊 eSkylink｜室內空間設計提案視覺" width="2560" height="1429" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">天河電訊 eSkylink<span class="en">ESKYLINK · Corporate Office</span></div>
+          <div class="d"><b>350</b> sqm<br>NANGANG · 2025</div>
+          <div class="src viz">設計提案視覺 · DESIGN VISUALISATION</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="office" data-provenance="viz">
+        <div class="imgw"><img src="../../../_preview/img/9d816f78d3.jpg" alt="京琠科技 CHING DIAN TECH｜室內空間設計提案視覺" width="2560" height="1429" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">京琠科技 CHING DIAN TECH<span class="en">CHING DIAN TECH · Corporate Office</span></div>
+          <div class="d"><b>250</b> sqm<br>NANGANG · 2025</div>
+          <div class="src viz">設計提案視覺 · DESIGN VISUALISATION</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="office" data-provenance="viz">
+        <div class="imgw"><img src="../../../_preview/img/f5ba35a01a.jpg" alt="中保保經 ZHONG BAO INSURANCE｜室內空間設計提案視覺" width="2560" height="1429" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">中保保經 ZHONG BAO INSURANCE<span class="en">ZHONG BAO INSURANCE · Corporate Office</span></div>
+          <div class="d"><b>200</b> sqm<br>NANGANG · 2025</div>
+          <div class="src viz">設計提案視覺 · DESIGN VISUALISATION</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="office" data-provenance="viz">
+        <div class="imgw"><img src="../../../_preview/img/b4a9357a8f.jpg" alt="史詩科技 EPICSTECH｜室內空間設計提案視覺" width="2560" height="1429" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">史詩科技 EPICSTECH<span class="en">EPICSTECH · Corporate Office</span></div>
+          <div class="d"><b>165</b> sqm<br>NANGANG · 2025</div>
+          <div class="src viz">設計提案視覺 · DESIGN VISUALISATION</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="office" data-provenance="viz">
+        <div class="imgw"><img src="../../../_preview/img/7332000da6.jpg" alt="立捷國際 LIJIE INTERNATIONAL｜室內空間設計提案視覺" width="2560" height="1429" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">立捷國際 LIJIE INTERNATIONAL<span class="en">LIJIE INTERNATIONAL · Corporate Office</span></div>
+          <div class="d"><b>99</b> sqm<br>NANGANG · 2024</div>
+          <div class="src viz">設計提案視覺 · DESIGN VISUALISATION</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="office" data-provenance="viz">
+        <div class="imgw"><img src="../../../_preview/img/33125d705b.jpg" alt="樂到家國際娛樂 LOTS HOME｜室內空間設計提案視覺" width="2560" height="1429" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">樂到家國際娛樂 LOTS HOME<span class="en">LOTS HOME ENTERTAINMENT · Corporate Office</span></div>
+          <div class="d"><b>50</b> sqm<br>NANGANG · 2025</div>
+          <div class="src viz">設計提案視覺 · DESIGN VISUALISATION</div>
+        </div>
+      </a>
+<a class="case w4" href="#" data-cat="office" data-provenance="viz">
+        <div class="imgw"><img src="../../../_preview/img/c8ce40f410.jpg" alt="保華資安 BAOHUA｜室內空間設計提案視覺" width="2560" height="1429" loading="lazy"></div>
+        <div class="meta">
+          <div class="t cjk">保華資安 BAOHUA<span class="en">BAOHUA CYBERSECURITY · Corporate Office</span></div>
+          <div class="d">OFFICE<br>2025</div>
+          <div class="src viz">設計提案視覺 · DESIGN VISUALISATION</div>
+        </div>
+      </a>
+      </div>
+    </div>
+    <div class="reg">
+      <div class="eyebrow"><span class="n">Further Work</span><span>影像數量有限的案例</span></div>
+      <p class="cjk">以下案例目前可公開的完工影像僅 1–3 張，先以列表呈現；其餘攝影待後製後補上。</p>
+      <div class="rows">
+        <a class="row" href="#" data-cat="office">
+        <div class="im" data-provenance="photo"><img src="../../../_preview/img/9cc33b5a24.jpg" alt="中興保全接待大廳｜企業識別牆（中興保全集團）" width="1000" height="667" loading="lazy"></div>
+        <div class="tx"><div class="t cjk">中興保全接待大廳<span class="en">Corporate Reception</span></div></div>
+        <div class="d">RECEPTION<br>TAIPEI</div>
+        <div class="s">完工實景 · AS-BUILT</div>
+      </a>
+<a class="row" href="#" data-cat="office">
+        <div class="im" data-provenance="photo"><img src="../../../_preview/img/ff42400cd9.jpg" alt="龍騰旅行社｜接待區（大理石壁龕）" width="1000" height="667" loading="lazy"></div>
+        <div class="tx"><div class="t cjk">龍騰旅行社<span class="en">Travel Agency Office</span></div></div>
+        <div class="d">OFFICE</div>
+        <div class="s">完工實景 · AS-BUILT</div>
+      </a>
+<a class="row" href="#" data-cat="fb">
+        <div class="im" data-provenance="photo"><img src="../../../_preview/img/6946a8ee6b.jpg" alt="Burger-Ray｜走廊" width="667" height="1000" loading="lazy"></div>
+        <div class="tx"><div class="t cjk">Burger-Ray<span class="en">Burger Restaurant</span></div></div>
+        <div class="d">F&amp;B</div>
+        <div class="s">完工實景 · AS-BUILT</div>
+      </a>
+<a class="row" href="#" data-cat="fb">
+        <div class="im" data-provenance="photo"><img src="../../../_preview/img/77eb8dcccc.jpg" alt="復興航棧春日店｜店面外觀" width="800" height="533" loading="lazy"></div>
+        <div class="tx"><div class="t cjk">復興航棧 春日店<span class="en">Bakery &amp; Gift Retail</span></div></div>
+        <div class="d">BAKERY RETAIL<br>TAOYUAN</div>
+        <div class="s">完工實景 · AS-BUILT</div>
+      </a>
+<a class="row" href="#" data-cat="fb">
+        <div class="im" data-provenance="drawing"><img src="../../../_preview/img/e8bfaae8ea.jpg" alt="復興航棧大園店｜平面圖" width="2339" height="1653" loading="lazy"></div>
+        <div class="tx"><div class="t cjk">復興航棧 大園店<span class="en">Bakery &amp; Gift Retail</span></div></div>
+        <div class="d">BAKERY RETAIL<br>DAYUAN · TAOYUAN</div>
+        <div class="s drawing">設計圖面 · FLOOR PLAN</div>
+      </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="other hair" id="other-capabilities">
+  <div class="wrap">
+    <div class="grid">
+      <div class="l">
+        <div class="eyebrow"><span class="n">Other Capabilities</span><span>其他工程能力</span></div>
+        <h2 class="cjk">濕區工程 · 客戶端員工訓練中心</h2>
+        <p class="cjk">客戶端員工訓練中心之濕區工程：三溫暖濕區、室內按摩池與外接庭園。此為客戶端設施的工程實績，作為濕區工程技術能力的佐證，不列入主要案例。</p>
+      </div>
+      <div class="r">
+        <a href="#" aria-label="員訓中心濕區工程">
+          <img src="../../../_preview/img/3a14e02b32.jpg" alt="員訓中心濕區（客戶端）｜三溫暖濕區（室內按摩池＋外接庭園）" width="2560" height="1920" loading="lazy">
+          <span class="src">完工實景 · AS-BUILT</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta hair" id="contact">
+  <div class="wrap">
+    <div class="grid">
+      <div class="l">
+        <div class="eyebrow"><span class="n">Start a Project</span><span>洽詢</span></div>
+        <h2 class="cjk">同業種的案子，<br>從第一次會議就用同一套模型談。</h2>
+        <p class="lede cjk">告訴我們人數、面積、時程與營運限制。我們會在第一次提案就帶著多組參數化方案與可建造性的初步驗證來。</p>
+      </div>
+      <div class="r">
+        <a class="btn" href="#">洽詢專案 <span class="ar">→</span></a>
+        <a class="btn ghost" href="#">看設計流程 <span class="ar">→</span></a>
+        <p class="small mono">TAIPEI, TAIWAN · EST. 1995</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="wrap">
+    <div class="grid">
+      <div class="a">
+        <div class="mark"><span class="sq" aria-hidden="true"></span><span><b>HQ DESIGN</b><small>惠強室內裝修股份有限公司</small></span></div>
+        <p class="cjk" style="max-width:36em">商業空間設計施工統包。辦公空間、商業空間、國際飯店與連鎖餐飲，設計、專案、技術與現場由同一團隊統籌。</p>
+        <p class="mono" style="margin-top:var(--s4)">AI PARAMETRIC × CONSTRUCTION EXECUTION</p>
+      </div>
+      <div class="b">
+        <ul class="cjk"><li><a href="#">設計流程</a></li><li><a href="#">AI 整合</a></li><li><a href="#">實績</a></li><li><a href="#">服務項目</a></li><li><a href="#">關於惠強</a></li></ul>
+      </div>
+      <div class="c">
+        <ul class="cjk"><li><a href="#">聯絡我們</a></li><li><a href="mailto:info@hqdesign.tw">info@hqdesign.tw</a></li><li><a href="tel:+886225573003">02-2557-3003</a></li></ul>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© 2026 HQ DESIGN CO., LTD.</span>
+      <span>WHERE DATA BUILDS SPACE</span>
+    </div>
+  </div>
+</footer>
+<script>if(/[?&]review(=|&|$)/.test(location.search))document.body.classList.add('review');</script>
+</body>
+</html>
