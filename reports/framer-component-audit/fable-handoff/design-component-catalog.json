@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-09-06",
+  "status": "read_only_live_mcp_catalog",
+  "source": {
+    "projectXml": "live Framer MCP getProjectXml",
+    "projectWebsite": "https://christianwu.framer.ai",
+    "stagingWebsite": "https://gracious-successes-409813.framer.app",
+    "counts": {"pages": 22, "reusableComponents": 231, "codeComponents": 56}
+  },
+  "authority": {
+    "content": "HQ Design workspace source of truth",
+    "structure": "Framer node IDs listed below, subject to readbackStatus",
+    "tokens": "HQ Design design system; Framer project styles were not returned as usable entries",
+    "mutation": "not performed"
+  },
+  "priorityComponents": [
+    {"role": "Navigation", "nodeId": "ClWUvICnj", "name": "Navigation", "readbackStatus": "instance_references_read", "reuse": "rebuild_structure", "notes": "Replace personal labels, links and copy."},
+    {"role": "ProjectCard", "nodeId": "RMWQkGShv", "name": "Card-Portfolio-Vertical", "readbackStatus": "instance_read_on_homepage", "reuse": "rebuild_structure", "notes": "Inject HQ project data and approved images."},
+    {"role": "ProjectGallery", "nodeId": "AGUPnwAVB", "name": "Gallery Section", "readbackStatus": "component_xml_read", "reuse": "rebuild_structure", "notes": "CMS/image bindings require separate validation."},
+    {"role": "ProcessTimeline", "nodeId": "HAziGIbgH", "name": "Timeline", "readbackStatus": "component_xml_read", "reuse": "rebuild_structure", "notes": "Timeline Copy is a separate near-duplicate candidate."},
+    {"role": "ClientCard", "nodeId": "Tz4ObI3jO", "name": "Card/Clients Card", "readbackStatus": "component_xml_read", "reuse": "rebuild_structure", "notes": "Do not reuse personal client copy or marks."}
+  ],
+  "referenceOnly": [
+    {"role": "Hero", "nodeId": "kwZpx_ioN", "readbackStatus": "component_exists_child_xml_limited"},
+    {"role": "Footer", "nodeId": "nMFCaAwuJ", "readbackStatus": "node_xml_limited"},
+    {"role": "FAQ", "nodeId": "jrVQbI3y0", "readbackStatus": "node_xml_limited"},
+    {"role": "ProjectCardVariants", "nodeIds": ["vlnlkDMGi", "IyJyNIWWK", "N4mviUwSt"], "readbackStatus": "node_xml_limited"},
+    {"role": "ImageCardVariants", "nodeIds": ["soo14upM5", "izBmMc2fz", "eAUBqBY9D"], "readbackStatus": "node_xml_limited"}
+  ],
+  "codeComponents": [
+    {"role": "Counter", "canonicalId": "K4D4TwM", "duplicateIds": ["mIDdHOA", "BhpyRnd"], "classification": "exact_duplicate", "evidence": {"bytes": 4078, "rawSha256": "8a0b46eab2b1f1d3b3265ebb43056307a621d7980f9f6d9846a812dccb76a366"}, "reuse": "optional_bounded_motion"},
+    {"role": "RetroGrid", "canonicalId": "WM9aLzM", "alternateIds": ["yPOzKKp"], "classification": "near_duplicate", "reuse": "experimental_only"},
+    {"role": "TypewriterEffect", "canonicalId": "JvhxjSC", "alternateIds": ["mm6IlTO"], "classification": "near_duplicate", "reuse": "experimental_only"},
+    {"role": "BlurEssence", "canonicalId": "FWC3U5u", "alternateIds": ["f8c0ddB", "O2Ca9Kr"], "classification": "near_duplicate_or_expanded_candidate", "reuse": "do_not_default"}
+  ],
+  "brandConstraints": {"orange": "#D64518", "englishFont": "Satoshi", "chineseFont": "Noto Sans TC", "serif": false, "gradientText": false, "glassmorphism": false, "emoji": false, "defaultRadius": "0px", "buttonRadius": "4px"},
+  "prohibitedActions": ["Framer canvas mutation", "publish", "CMS mutation", "delete", "merge", "detach without approval"]
+}

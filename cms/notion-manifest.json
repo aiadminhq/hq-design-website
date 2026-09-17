@@ -1,0 +1,174 @@
+{
+  "$schema": "./schemas/notion-manifest.schema.json",
+  "parentPage": {
+    "title": "🌐 HQ Website CMS",
+    "id": "36bf7e03-243c-812b-a005-fcd1abe389e3",
+    "url": "https://www.notion.so/36bf7e03243c812ba005fcd1abe389e3"
+  },
+  "createdAt": "2026-05-25",
+  "ancestor": "HQ work item (id: 367f7e03-243c-8015-ad33-fb7bd8fe4982)",
+  "note": "Batch A 已建好 14 個 DB；Batch B 已套用 5 條 relations（含 2 條 DUAL）。Projects 自動衍生 2 條 back-ref：Gallery Sections、Related Services。",
+  "databases": {
+    "globals": {
+      "title": "HQ — Globals",
+      "databaseId": "64236c4b-35c7-4d08-ad1e-54afbd3a04e2",
+      "dataSourceId": "cc0d910a-2a15-4921-9d22-a9e771c539ca",
+      "url": "https://www.notion.so/64236c4b35c74d08ad1e54afbd3a04e2",
+      "kind": "singleton",
+      "schemaFile": "globals.json"
+    },
+    "certifications": {
+      "title": "HQ — Certifications",
+      "databaseId": "94a924f9-5e46-48b9-94ba-e8f53bc6f2ab",
+      "dataSourceId": "53333e50-8cd9-42c6-b28a-8c24b40d9c24",
+      "url": "https://www.notion.so/94a924f95e4648b994bae8f53bc6f2ab",
+      "kind": "multi",
+      "schemaFile": "about.json#certifications"
+    },
+    "projects": {
+      "title": "HQ — Projects",
+      "databaseId": "7d3b750d-5369-4dcf-a64b-faebaaa943c8",
+      "dataSourceId": "00619820-569a-40a2-bade-2f3fd8c1997a",
+      "url": "https://www.notion.so/7d3b750d53694dcfa64bfaebaaa943c8",
+      "kind": "multi",
+      "schemaFile": "projects.json"
+    },
+    "services": {
+      "title": "HQ — Services",
+      "databaseId": "67156185-21e3-4d10-be2e-2dc5633fce3c",
+      "dataSourceId": "d2b6f48d-bcb4-4734-816d-2277779ef32c",
+      "url": "https://www.notion.so/6715618521e34d10be2e2dc5633fce3c",
+      "kind": "multi",
+      "schemaFile": "services.json#services"
+    },
+    "processSteps": {
+      "title": "HQ — Process Steps",
+      "databaseId": "08293b57-2ef4-4da5-a2e3-3b670046aa39",
+      "dataSourceId": "f5870c7c-e5e5-4cec-93fe-cb361d0df92a",
+      "url": "https://www.notion.so/08293b572ef44da5a2e33b670046aa39",
+      "kind": "multi",
+      "schemaFile": "services.json#processSteps"
+    },
+    "positions": {
+      "title": "HQ — Positions",
+      "databaseId": "87a0a8eb-00ae-499a-aa2e-d461932d85ab",
+      "dataSourceId": "ada80245-d1b1-4f0c-97da-285a95b4aab7",
+      "url": "https://www.notion.so/87a0a8eb00ae499aaa2ed461932d85ab",
+      "kind": "multi",
+      "schemaFile": "careers.json#positions"
+    },
+    "careerValues": {
+      "title": "HQ — Career Values",
+      "databaseId": "ef95dbb8-342c-49c7-bbad-f3aa8c317538",
+      "dataSourceId": "e13ef391-d243-4b62-a0e7-51a7ad8c8691",
+      "url": "https://www.notion.so/ef95dbb8342c49c7bbadf3aa8c317538",
+      "kind": "multi",
+      "schemaFile": "careers.json#values"
+    },
+    "careerPerks": {
+      "title": "HQ — Career Perks",
+      "databaseId": "e514b512-9be9-47ca-b306-9f1965da4539",
+      "dataSourceId": "3614b8e7-a20b-473f-8c1c-6ad646378f1f",
+      "url": "https://www.notion.so/e514b5129be947cab3069f1965da4539",
+      "kind": "multi",
+      "schemaFile": "careers.json#perks"
+    },
+    "clientLogos": {
+      "title": "HQ — Client Logos",
+      "databaseId": "28a8eb40-86da-4eb0-bbdd-18be0604ae36",
+      "dataSourceId": "0cfeb6e6-c26d-4cee-bcb5-3452346e22a2",
+      "url": "https://www.notion.so/28a8eb4086da4eb0bbdd18be0604ae36",
+      "kind": "multi",
+      "schemaFile": "homepage.json#logos"
+    },
+    "aboutPage": {
+      "title": "HQ — About Page",
+      "databaseId": "2b0e354c-4268-4804-8399-9b024e3227a6",
+      "dataSourceId": "3adacfef-9cf7-4959-86ab-a768b2911e55",
+      "url": "https://www.notion.so/2b0e354c4268480483999b024e3227a6",
+      "kind": "singleton",
+      "schemaFile": "about.json"
+    },
+    "teamMembers": {
+      "title": "HQ — Team Members",
+      "databaseId": "dca84b14-4ee6-416a-934c-bc90e7bb5651",
+      "dataSourceId": "4d9c1b8d-fc06-41cd-bdf6-d57ba78c6f6e",
+      "url": "https://www.notion.so/dca84b144ee6416a934cbc90e7bb5651",
+      "kind": "multi",
+      "schemaFile": "about.json#team-members"
+    },
+    "timelineMilestones": {
+      "title": "HQ — Timeline Milestones",
+      "databaseId": "cea428b9-2ce1-4330-80ed-56008b1d1ca7",
+      "dataSourceId": "d56be7ad-3ff3-4aa3-855b-82c63f245b80",
+      "url": "https://www.notion.so/cea428b92ce1433080ed56008b1d1ca7",
+      "kind": "multi",
+      "schemaFile": "about.json#timeline"
+    },
+    "homepage": {
+      "title": "HQ — Homepage",
+      "databaseId": "ccb21d66-86da-4803-8564-ecbb9952ffd9",
+      "dataSourceId": "a1995b28-3b0d-45e4-be50-8626c0461584",
+      "url": "https://www.notion.so/ccb21d6686da48038564ecbb9952ffd9",
+      "kind": "singleton",
+      "schemaFile": "homepage.json"
+    },
+    "gallerySections": {
+      "title": "HQ — Gallery Sections",
+      "databaseId": "51156245-6804-4985-9491-8f8ffd18e860",
+      "dataSourceId": "b744dcf1-95f8-4f60-b7c3-5b01841c4728",
+      "url": "https://www.notion.so/511562456804498594918f8ffd18e860",
+      "kind": "multi",
+      "schemaFile": "projects.json#gallerySections"
+    }
+  },
+  "relations": [
+    {
+      "id": "projects-self-related",
+      "status": "applied",
+      "source": "projects",
+      "target": "projects",
+      "kind": "one-way",
+      "sourceProperty": "Related Projects",
+      "purpose": "detail 頁底部 'You might also like'"
+    },
+    {
+      "id": "gallery-sections-to-projects",
+      "status": "applied",
+      "source": "gallerySections",
+      "target": "projects",
+      "kind": "two-way",
+      "sourceProperty": "Project",
+      "backRefProperty": "Gallery Sections",
+      "purpose": "Multi-section detail 頁掛載 (zhongbao-nangang 樣式)"
+    },
+    {
+      "id": "services-to-projects",
+      "status": "applied",
+      "source": "services",
+      "target": "projects",
+      "kind": "two-way",
+      "sourceProperty": "Related Projects",
+      "backRefProperty": "Related Services",
+      "purpose": "Service 頁交叉導流到相關案例"
+    },
+    {
+      "id": "homepage-to-projects",
+      "status": "applied",
+      "source": "homepage",
+      "target": "projects",
+      "kind": "one-way",
+      "sourceProperty": "Featured Projects",
+      "purpose": "homepage Featured 卡片 ×4"
+    },
+    {
+      "id": "homepage-to-services",
+      "status": "applied",
+      "source": "homepage",
+      "target": "services",
+      "kind": "one-way",
+      "sourceProperty": "Highlighted Services",
+      "purpose": "homepage Approach 區塊 service 推薦"
+    }
+  ]
+}
