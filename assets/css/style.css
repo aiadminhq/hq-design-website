@@ -1041,3 +1041,59 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   .door-card { border-right: none; border-bottom: 1px solid var(--border); }
   .door-card:last-child { border-bottom: none; }
 }
+/* =========================================================
+   Stage 1 bilingual split — language toggle & EN logo subtitle
+   Appended for feat/zh-en-split draft
+   ========================================================= */
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 12px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+.lang-toggle__item {
+  font-family: var(--font-en);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  color: var(--mid);
+  text-decoration: none;
+  padding: 4px 2px;
+  white-space: nowrap;
+}
+.lang-toggle__item:hover { color: var(--brand); }
+.lang-toggle__item.is-active {
+  color: var(--dark);
+  font-weight: 700;
+}
+.lang-toggle__sep {
+  color: var(--border);
+  font-size: 12px;
+  user-select: none;
+}
+.nav-logo--int .name-zh--en {
+  font-family: var(--font-en);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+/* Phone 375px: keep toggle visible; collapse spacing */
+@media (max-width: 900px) {
+  .lang-toggle {
+    order: 3;
+    margin-left: auto;
+    margin-right: 8px;
+  }
+  .nav-inner .hamburger { order: 4; }
+  .nav-cta { display: none; }
+}
+@media (max-width: 375px) {
+  .lang-toggle { gap: 4px; margin-right: 4px; }
+  .lang-toggle__item { font-size: 11px; }
+  .nav-logo--int .name-en { font-size: 13px; }
+  .nav-logo--int img { height: 32px; }
+  .nav-logo--int .name-zh { display: none; }
+}

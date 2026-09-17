@@ -1,44 +1,30 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>專案案例 Projects — 惠強室內裝修 HQ Design</title>
-  <meta name="description" content="惠強室內裝修專案案例：辦公室、飯店、餐飲連鎖、企業展廳。超過1,600件商業空間設計施工實績。">
+  <title>Projects — Commercial Fit-Out Portfolio | HQ Design</title>
+  <meta name="description" content="HQ Design project portfolio: office, hospitality, F&B, exhibition. 1,600+ commercial fit-out projects across Taiwan.">
   <link rel="canonical" href="https://www.hqdesign.tw/projects.html">
+  <link rel="alternate" hreflang="en" href="https://www.hqdesign.tw/projects.html">
+  <link rel="alternate" hreflang="zh-Hant" href="https://www.hqdesign.tw/zh/projects.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.hqdesign.tw/projects.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="惠強室內裝修 HQ Design">
-  <meta property="og:locale" content="zh_TW">
+  <meta property="og:locale" content="en_US">
   <meta property="og:url" content="https://www.hqdesign.tw/projects.html">
-  <meta property="og:title" content="專案案例 Projects — 惠強室內裝修 HQ Interior & Space Design">
-  <meta property="og:description" content="惠強室內裝修專案案例：辦公室、飯店、餐飲連鎖、企業展廳。超過1,600件商業空間設計施工實績。">
+  <meta property="og:title" content="Projects — Commercial Fit-Out Portfolio | HQ Design">
+  <meta property="og:description" content="HQ Design project portfolio: office, hospitality, F&amp;B, exhibition. 1,600+ commercial fit-out projects across Taiwan.">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="專案案例 Projects — 惠強室內裝修 HQ Interior & Space Design">
-  <meta name="twitter:description" content="惠強室內裝修專案案例：辦公室、飯店、餐飲連鎖、企業展廳。超過1,600件商業空間設計施工實績。">
-
+  <meta name="twitter:title" content="Projects — Commercial Fit-Out Portfolio | HQ Design">
+  <meta name="twitter:description" content="HQ Design project portfolio: office, hospitality, F&amp;B, exhibition. 1,600+ commercial fit-out projects across Taiwan.">
   <link rel="stylesheet" href="assets/css/style.css">
   <style>
-    /* Unified project card title — Chinese on top, English below */
-    .project-name {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-      line-height: 1.25;
-      margin-bottom: 6px;
-    }
-    .project-name .name-zh {
-      font-family: var(--font-zh);
-      font-size: 18px;
-      font-weight: 700;
-      color: var(--white);
-    }
-    .project-name .name-en {
-      font-family: var(--font-en);
-      font-size: 14px;
-      font-weight: 500;
-      color: rgba(255,255,255,0.78);
-      letter-spacing: 0.2px;
-    }
+    .project-name { display: flex; flex-direction: column; gap: 2px; line-height: 1.25; margin-bottom: 6px; }
+    .project-name .name-en { font-family: var(--font-en); font-size: 18px; font-weight: 700; color: var(--white); }
+    .project-name .name-zh-pn { font-family: var(--font-zh); font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.65); }
+    .project-name .name-zh { font-family: var(--font-zh); font-size: 18px; font-weight: 700; color: var(--white); }
+    .project-name .name-en-sub { font-family: var(--font-en); font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.65); }
   </style>
 </head>
 <body>
@@ -50,7 +36,7 @@
       <img src="assets/images/logo/IMG_6412.PNG" alt="HQ Design Logo">
       <div>
         <span class="name-en">HQ Design</span>
-        <span class="name-zh">惠強室內裝修 · Since 1995</span>
+        <span class="name-zh name-zh--en">Since 1995</span>
       </div>
     </a>
     <ul class="nav-links">
@@ -59,6 +45,11 @@
       <li><a href="local-partner-international-pm.html">Local Partner</a></li>
       <li><a href="about.html">About</a></li>
     </ul>
+    <div class="lang-toggle" aria-label="Language">
+      <a class="lang-toggle__item is-active" href="projects.html" hreflang="en" lang="en">EN</a>
+      <span class="lang-toggle__sep" aria-hidden="true">|</span>
+      <a class="lang-toggle__item" href="zh/projects.html" hreflang="zh-Hant" lang="zh-Hant">中文</a>
+    </div>
     <a class="btn btn-primary nav-cta" href="contact.html">Contact</a>
     <div class="hamburger" id="hamburger">
       <span></span><span></span><span></span>
@@ -66,21 +57,16 @@
   </div>
 </nav>
 
-<!-- PAGE HERO -->
 <div class="page-hero">
   <div class="container">
     <span class="label">Portfolio</span>
-    <h1>專案案例</h1>
-    <p>辦公室、飯店、餐飲連鎖、企業展廳 — 跨產業商業空間實績</p>
-    <p style="font-family: var(--font-en); font-size:13px; color:rgba(255,255,255,0.35); margin-top:6px;">Office · Hospitality · F&B · Exhibition — Commercial fit-out across sectors</p>
+    <h1>Projects</h1>
+    <p>Office · Hospitality · F&amp;B · Exhibition — commercial fit-out across sectors</p>
   </div>
 </div>
 
-<!-- PROJECTS -->
 <section class="section">
   <div class="container">
-
-    <!-- Filter -->
     <div class="filter-bar" id="project-filters">
       <button type="button" class="filter-btn active" data-filter="office">Corporate office</button>
       <button type="button" class="filter-btn" data-filter="hospitality">Hospitality</button>
@@ -88,327 +74,280 @@
       <button type="button" class="filter-btn" data-filter="industrial">Industrial &amp; lab</button>
       <button type="button" class="filter-btn" data-filter="public">Public sector</button>
     </div>
-
-    <!-- Grid -->
     <div class="projects-grid">
-
-      <!-- 中興保全南港總部 SECOM Nangang HQ -->
       <div class="project-card large" data-type="office">
-        <img src="assets/images/projects/secom-nangang-complex/photo-01.jpg" alt="中興保全南港總部 SECOM Nangang HQ">
+        <img src="assets/images/projects/secom-nangang-complex/photo-01.jpg" alt="SECOM Nangang HQ">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">中興保全南港總部</span>
             <span class="name-en">SECOM Nangang HQ</span>
+            <span class="name-zh-pn">中興保全南港總部</span>
           </h3>
           <span class="project-meta en">6,000 sqm · Nangang, Taipei · 2025</span>
-        <span class="project-type">Corporate Office 企業辦公</span>
+          <span class="project-type">Corporate Office</span>
         </div>
-        <a class="project-link" href="projects/secom-nangang-complex.html">查看案例 →</a>
+        <a class="project-link" href="projects/secom-nangang-complex.html">View Case →</a>
       </div>
 
-      <!-- 志聖工業總部 C.SUN Industrial HQ -->
       <div class="project-card" data-type="office">
-        <img src="assets/images/projects/csun/render-01.jpg" alt="志聖工業總部 C.SUN Industrial HQ">
+        <img src="assets/images/projects/csun/render-01.jpg" alt="C.SUN Industrial HQ">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">志聖工業總部</span>
             <span class="name-en">C.SUN Industrial HQ</span>
+            <span class="name-zh-pn">志聖工業總部</span>
           </h3>
           <span class="project-meta en">709 sqm · Taiwan · 2026</span>
-        <span class="project-type">Corporate Office 企業辦公</span>
+          <span class="project-type">Corporate Office</span>
         </div>
-        <a class="project-link" href="projects/csun.html">查看案例 →</a>
+        <a class="project-link" href="projects/csun.html">View Case →</a>
       </div>
 
-      <!-- 中保科技展示廳 SECOM Technology Hall -->
       <div class="project-card" data-type="industrial">
-        <img src="assets/images/projects/zhongbao-showroom/render-01.jpg" alt="中保科技展示廳 SECOM Technology Hall">
+        <img src="assets/images/projects/zhongbao-showroom/render-01.jpg" alt="SECOM Technology Hall">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">中保科技展示廳</span>
             <span class="name-en">SECOM Technology Hall</span>
+            <span class="name-zh-pn">中保科技展示廳</span>
           </h3>
           <span class="project-meta en">330 sqm · Nangang, Taipei · 2025</span>
-        <span class="project-type">Exhibition Hall 企業展廳</span>
+          <span class="project-type">Exhibition Hall</span>
         </div>
-        <a class="project-link" href="projects/zhongbao-showroom.html">查看案例 →</a>
+        <a class="project-link" href="projects/zhongbao-showroom.html">View Case →</a>
       </div>
 
-      <!-- 金普頓大安酒店 Kimpton Da An Hotel -->
       <div class="project-card" data-type="hospitality">
         <img src="assets/images/projects/kimpton/photo-01.jpg" alt="Kimpton Da An Hotel">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">金普頓大安酒店</span>
             <span class="name-en">Kimpton Da An Hotel</span>
+            <span class="name-zh-pn">金普頓大安酒店</span>
           </h3>
           <span class="project-meta en">330 sqm · Da An, Taipei · 2022</span>
-        <span class="project-type">Hospitality 飯店</span>
+          <span class="project-type">Hospitality</span>
         </div>
-        <a class="project-link" href="projects/kimpton.html">查看案例 →</a>
+        <a class="project-link" href="projects/kimpton.html">View Case →</a>
       </div>
 
-      <!-- 博訊科技 AIONTECH -->
       <div class="project-card" data-type="office">
         <img src="assets/images/projects/aiontech/render-01.jpg" alt="AIONTECH">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">博訊科技</span>
             <span class="name-en">AIONTECH</span>
+            <span class="name-zh-pn">博訊科技</span>
           </h3>
           <span class="project-meta en">825 sqm · Nangang, Taipei · 2025</span>
-        <span class="project-type">Corporate Office 企業辦公</span>
+          <span class="project-type">Corporate Office</span>
         </div>
-        <a class="project-link" href="projects/aiontech.html">查看案例 →</a>
+        <a class="project-link" href="projects/aiontech.html">View Case →</a>
       </div>
 
-      <!-- 保創科技 Brightron Technology -->
       <div class="project-card" data-type="office">
         <img src="assets/images/projects/polytron/render-01.jpg" alt="Brightron Technology">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">保創科技</span>
             <span class="name-en">Brightron Technology</span>
+            <span class="name-zh-pn">保創科技</span>
           </h3>
           <span class="project-meta en">850 sqm · Nangang, Taipei · 2025</span>
-        <span class="project-type">Corporate Office 企業辦公</span>
+          <span class="project-type">Corporate Office</span>
         </div>
-        <a class="project-link" href="projects/polytron.html">查看案例 →</a>
+        <a class="project-link" href="projects/polytron.html">View Case →</a>
       </div>
 
-      <!-- 史詩科技 Epic Tech -->
       <div class="project-card" data-type="office">
         <img src="assets/images/projects/epicstech-10f/render-01.jpg" alt="Epic Tech">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">史詩科技</span>
             <span class="name-en">Epic Tech</span>
+            <span class="name-zh-pn">史詩科技</span>
           </h3>
           <span class="project-meta en">165 sqm · Nangang, Taipei · 2025</span>
-        <span class="project-type">Corporate Office 企業辦公</span>
+          <span class="project-type">Corporate Office</span>
         </div>
-        <a class="project-link" href="projects/epicstech-10f.html">查看案例 →</a>
+        <a class="project-link" href="projects/epicstech-10f.html">View Case →</a>
       </div>
 
-      <!-- 保華資安 Baohua Cybersecurity -->
       <div class="project-card" data-type="office">
         <img src="assets/images/projects/baohua/render-01.jpg" alt="Baohua Cybersecurity">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">保華資安</span>
             <span class="name-en">Baohua Cybersecurity</span>
+            <span class="name-zh-pn">保華資安</span>
           </h3>
           <span class="project-meta en">350 sqm · Nangang, Taipei · 2025</span>
-        <span class="project-type">Corporate Office 企業辦公</span>
+          <span class="project-type">Corporate Office</span>
         </div>
-        <a class="project-link" href="projects/baohua.html">查看案例 →</a>
+        <a class="project-link" href="projects/baohua.html">View Case →</a>
       </div>
 
-      <!-- 欣蘭企業 Xinlan Enterprise -->
       <div class="project-card" data-type="office">
         <img src="assets/images/projects/xinlan/render-01.jpg" alt="Xinlan Enterprise">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">欣蘭企業</span>
             <span class="name-en">Xinlan Enterprise</span>
+            <span class="name-zh-pn">欣蘭企業</span>
           </h3>
           <span class="project-meta en">350 sqm · Nangang, Taipei · 2025</span>
-        <span class="project-type">Corporate Office 企業辦公</span>
+          <span class="project-type">Corporate Office</span>
         </div>
-        <a class="project-link" href="projects/xinlan.html">查看案例 →</a>
+        <a class="project-link" href="projects/xinlan.html">View Case →</a>
       </div>
 
-      <!-- 立偉電子 Liwei Electronics -->
       <div class="project-card" data-type="office">
         <img src="assets/images/projects/liwei/render-01.jpg" alt="Liwei Electronics">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">立偉電子</span>
             <span class="name-en">Liwei Electronics</span>
+            <span class="name-zh-pn">立偉電子</span>
           </h3>
           <span class="project-meta en">350 sqm · Nangang, Taipei · 2025</span>
-        <span class="project-type">Corporate Office 企業辦公</span>
+          <span class="project-type">Corporate Office</span>
         </div>
-        <a class="project-link" href="projects/liwei.html">查看案例 →</a>
+        <a class="project-link" href="projects/liwei.html">View Case →</a>
       </div>
 
-      <!-- 立捷國際 Lijie International -->
       <div class="project-card" data-type="office">
         <img src="assets/images/projects/lijie/render-01.jpg" alt="Lijie International">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">立捷國際</span>
             <span class="name-en">Lijie International</span>
+            <span class="name-zh-pn">立捷國際</span>
           </h3>
           <span class="project-meta en">100 sqm · Nangang, Taipei · 2024</span>
-        <span class="project-type">Corporate Office 企業辦公</span>
+          <span class="project-type">Corporate Office</span>
         </div>
-        <a class="project-link" href="projects/lijie.html">查看案例 →</a>
+        <a class="project-link" href="projects/lijie.html">View Case →</a>
       </div>
 
-      <!-- 惠強室內裝修 HQ Design&Build -->
       <div class="project-card" data-type="office">
-        <img src="assets/images/projects/hq-office/render-01.jpg" alt="HQ Design&Build">
+        <img src="assets/images/projects/hq-office/render-01.jpg" alt="HQ Design Office">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">惠強室內裝修</span>
-            <span class="name-en">HQ Design&Build</span>
+            <span class="name-en">HQ Design Office</span>
+            <span class="name-zh-pn">惠強室內裝修</span>
           </h3>
           <span class="project-meta en">165 sqm · Nangang, Taipei · 2025</span>
-        <span class="project-type">Corporate Office 企業辦公</span>
+          <span class="project-type">Corporate Office</span>
         </div>
-        <a class="project-link" href="projects/hq-office.html">查看案例 →</a>
+        <a class="project-link" href="projects/hq-office.html">View Case →</a>
       </div>
 
-      <!-- 中保保經 Zhong Bao Insurance Services -->
       <div class="project-card" data-type="office">
         <img src="assets/images/projects/zhongbao-baojing/render-04.jpg" alt="Zhong Bao Insurance Services">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">中保保經</span>
             <span class="name-en">Zhong Bao Insurance Services</span>
+            <span class="name-zh-pn">中保保經</span>
           </h3>
           <span class="project-meta en">200 sqm · Nangang, Taipei · 2025</span>
-        <span class="project-type">Corporate Office 企業辦公</span>
+          <span class="project-type">Corporate Office</span>
         </div>
-        <a class="project-link" href="projects/zhongbao-baojing.html">查看案例 →</a>
+        <a class="project-link" href="projects/zhongbao-baojing.html">View Case →</a>
       </div>
 
-      <!-- 京琠科技 Ching Dian TECH -->
       <div class="project-card" data-type="office">
         <img src="assets/images/projects/zhongbao-jingzhen/render-04.jpg" alt="Ching Dian TECH">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">京琠科技</span>
             <span class="name-en">Ching Dian TECH</span>
+            <span class="name-zh-pn">京琠科技</span>
           </h3>
           <span class="project-meta en">250 sqm · Nangang, Taipei · 2025</span>
-        <span class="project-type">Corporate Office 企業辦公</span>
+          <span class="project-type">Corporate Office</span>
         </div>
-        <a class="project-link" href="projects/zhongbao-jingzhen.html">查看案例 →</a>
+        <a class="project-link" href="projects/zhongbao-jingzhen.html">View Case →</a>
       </div>
 
-      <!-- 天河電訊 eSkylink -->
       <div class="project-card" data-type="office">
         <img src="assets/images/projects/zhongbao-tianhe/render-03.jpg" alt="eSkylink">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">天河電訊</span>
             <span class="name-en">eSkylink</span>
+            <span class="name-zh-pn">天河電訊</span>
           </h3>
           <span class="project-meta en">350 sqm · Nangang, Taipei · 2025</span>
-        <span class="project-type">Corporate Office 企業辦公</span>
+          <span class="project-type">Corporate Office</span>
         </div>
-        <a class="project-link" href="projects/zhongbao-tianhe.html">查看案例 →</a>
+        <a class="project-link" href="projects/zhongbao-tianhe.html">View Case →</a>
       </div>
 
-      <!-- 樂到家國際娛樂 Lots Home Entertainment -->
       <div class="project-card" data-type="office">
         <img src="assets/images/projects/ledaojia/render-04.jpg" alt="Lots Home Entertainment">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">樂到家國際娛樂</span>
             <span class="name-en">Lots Home Entertainment</span>
+            <span class="name-zh-pn">樂到家國際娛樂</span>
           </h3>
           <span class="project-meta en">50 sqm · Nangang, Taipei · 2025</span>
-        <span class="project-type">Corporate Office 企業辦公</span>
+          <span class="project-type">Corporate Office</span>
         </div>
-        <a class="project-link" href="projects/ledaojia.html">查看案例 →</a>
+        <a class="project-link" href="projects/ledaojia.html">View Case →</a>
       </div>
 
-      <!-- 起家雞 Cheogajip — Taichung -->
       <div class="project-card large" data-type="retail">
-        <img src="assets/images/projects/qijia/photo-01.jpg" alt="Cheogajip Taichung">
+        <img src="assets/images/projects/qijia/photo-01.jpg" alt="Cheogajip — Taichung">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">起家雞 — 台中</span>
             <span class="name-en">Cheogajip — Taichung</span>
+            <span class="name-zh-pn">起家雞 — 台中</span>
           </h3>
           <span class="project-meta en">700 sqm · Taichung · 2019</span>
-        <span class="project-type">F&B 餐飲連鎖</span>
+          <span class="project-type">F&B</span>
         </div>
-        <a class="project-link" href="projects/qijia.html">查看案例 →</a>
+        <a class="project-link" href="projects/qijia.html">View Case →</a>
       </div>
 
-      <!-- 匙碗湯 The Soup Spoon — Taipei 101 -->
       <div class="project-card" data-type="retail">
-        <img src="assets/images/projects/soup-spoon-101/photo-01.jpg" alt="The Soup Spoon Taipei 101">
+        <img src="assets/images/projects/soup-spoon-101/photo-01.jpg" alt="The Soup Spoon — Taipei 101">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">匙碗湯 — 台北 101</span>
             <span class="name-en">The Soup Spoon — Taipei 101</span>
+            <span class="name-zh-pn">匙碗湯 — 台北 101</span>
           </h3>
           <span class="project-meta en">70 sqm · Taipei 101 · 2023</span>
-        <span class="project-type">F&B 餐飲連鎖</span>
+          <span class="project-type">F&B</span>
         </div>
-        <a class="project-link" href="projects/soup-spoon-101.html">查看案例 →</a>
+        <a class="project-link" href="projects/soup-spoon-101.html">View Case →</a>
       </div>
 
-      <!-- 匙碗湯 The Soup Spoon — Taipei Main Station -->
       <div class="project-card" data-type="retail">
-        <img src="assets/images/projects/soup-spoon-station/photo-01.jpg" alt="The Soup Spoon Taipei Main Station">
+        <img src="assets/images/projects/soup-spoon-station/photo-01.jpg" alt="The Soup Spoon — Taipei Main Station">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">匙碗湯 — 台北車站</span>
             <span class="name-en">The Soup Spoon — Taipei Main Station</span>
+            <span class="name-zh-pn">匙碗湯 — 台北車站</span>
           </h3>
           <span class="project-meta en">100 sqm · Taipei Main Station · 2023</span>
-        <span class="project-type">F&B 餐飲連鎖</span>
+          <span class="project-type">F&B</span>
         </div>
-        <a class="project-link" href="projects/soup-spoon-station.html">查看案例 →</a>
+        <a class="project-link" href="projects/soup-spoon-station.html">View Case →</a>
       </div>
 
-      <!-- 大力水手 Popeyes — Xuchang -->
       <div class="project-card" data-type="retail">
-        <img src="assets/images/projects/popeyes/photo-01.jpg" alt="Popeyes Xuchang">
+        <img src="assets/images/projects/popeyes/photo-01.jpg" alt="Popeyes — Xuchang">
         <div class="project-card-overlay">
-          
           <h3 class="project-name">
-            <span class="name-zh">大力水手 — 許昌店</span>
             <span class="name-en">Popeyes — Xuchang</span>
+            <span class="name-zh-pn">大力水手 — 許昌店</span>
           </h3>
           <span class="project-meta en">170 sqm · Xuchang St., Taipei · 2024</span>
-        <span class="project-type">F&B 餐飲連鎖</span>
+          <span class="project-type">F&B</span>
         </div>
-
-    
-        <a class="project-link" href="projects/popeyes.html">查看案例 →</a>
+        <a class="project-link" href="projects/popeyes.html">View Case →</a>
       </div>
-
-    </div><!-- /.projects-grid -->
-  </div><!-- /.container -->
+    </div>
+  </div>
 </section>
 
-<!-- CTA BANNER -->
 <section class="cta-banner">
   <div class="container">
     <div class="cta-banner-inner">
       <div class="cta-text">
-        <h2>有類似需求嗎？<br><span style="font-size:0.65em;font-weight:400;color:rgba(255,255,255,0.5)" class="en">Have a similar project in mind?</span></h2>
-        <p class="sub">告訴我們您的需求，我們將提供初步評估與建議。</p>
+        <h2>Have a similar project in mind?</h2>
+        <p class="sub">Tell us your requirements — we'll provide an initial assessment.</p>
       </div>
       <div class="cta-actions">
-        <a class="btn btn-primary" href="contact.html">聯繫我們 Contact Us →</a>
-        <div class="cta-contact-info"><a href="tel:0225573003">📞 02-2557-3003</a></div>
+        <a class="btn btn-primary" href="contact.html">Contact Us →</a>
+        <div class="cta-contact-info"><a href="tel:+886225573003">+886-2-2557-3003</a></div>
       </div>
     </div>
   </div>
@@ -427,7 +366,6 @@
         </div>
         <p class="footer-tagline">
           <span style="font-family: var(--font-en); font-size:12px; display:block; margin-bottom:4px;">Precision Craftsmanship. Zero Downtime. 31+ Years.</span>
-          匠藝專工，一應皆備。
         </p>
         <div class="footer-certs">
           <span class="cert-badge">LEED</span>
