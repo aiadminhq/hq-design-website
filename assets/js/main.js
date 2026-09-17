@@ -1,4 +1,4 @@
-// HQ Interior & Space Design — Main JS
+// HQ Design — Main JS
 
 // Nav scroll effect
 const nav = document.querySelector('.nav');
