@@ -19,25 +19,33 @@ navLinks.forEach(link => {
   if (link.getAttribute('href') === currentPage) link.classList.add('active');
 });
 
-// Project filter (projects page)
+// Project filter (projects page) — default: corporate office (not "all")
 const filterBtns = document.querySelectorAll('.filter-btn');
 const projectCards = document.querySelectorAll('.project-card[data-type]');
+function applyProjectFilter(filter) {
+  const grid = document.querySelector('.projects-grid');
+  if (grid) grid.classList.remove('view-all');
+  projectCards.forEach(card => {
+    const show = card.dataset.type === filter;
+    card.style.display = show ? '' : 'none';
+  });
+}
 filterBtns.forEach(btn => {
   btn.addEventListener('click', () => {
     filterBtns.forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    const filter = btn.dataset.filter;
-    const grid = document.querySelector('.projects-grid');
-    if (grid) {
-      if (filter === 'all') grid.classList.add('view-all');
-      else grid.classList.remove('view-all');
-    }
-    projectCards.forEach(card => {
-      const show = filter === 'all' || card.dataset.type === filter;
-      card.style.display = show ? '' : 'none';
-    });
+    applyProjectFilter(btn.dataset.filter);
   });
 });
+// Initial state: corporate office
+(function initProjectFilter() {
+  if (!filterBtns.length || !projectCards.length) return;
+  const officeBtn = document.querySelector('.filter-btn[data-filter="office"]');
+  filterBtns.forEach(b => b.classList.remove('active'));
+  if (officeBtn) officeBtn.classList.add('active');
+  applyProjectFilter('office');
+})();
+
 
 // Careers: apply button pre-selects position in form
 document.querySelectorAll('.apply-btn').forEach(btn => {
