@@ -1,21 +1,26 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>聯繫我們 Contact — 惠強室內裝修 HQ Design</title>
-  <meta name="description" content="聯繫惠強室內裝修。告訴我們您的商業空間需求，我們將於一個工作天內回覆。電話：02-2557-3003。">
+  <title>Contact — HQ Design | Taipei Commercial Fit-Out</title>
+  <meta name="description" content="Contact HQ Design. Tell us your commercial space requirements — we respond within one business day. Tel: +886-2-2557-3003.">
+  <link rel="canonical" href="https://www.hqdesign.tw/contact.html">
+  <link rel="alternate" hreflang="en" href="https://www.hqdesign.tw/contact.html">
+  <link rel="alternate" hreflang="zh-Hant" href="https://www.hqdesign.tw/zh/contact.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.hqdesign.tw/contact.html">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
+<!-- NAVIGATION -->
 <nav class="nav" id="nav">
   <div class="nav-inner">
     <a class="nav-logo nav-logo--int" href="index.html">
       <img src="assets/images/logo/IMG_6412.PNG" alt="HQ Design Logo">
       <div>
         <span class="name-en">HQ Design</span>
-        <span class="name-zh">惠強室內裝修 · Since 1995</span>
+        <span class="name-zh name-zh--en">Since 1995</span>
       </div>
     </a>
     <ul class="nav-links">
@@ -24,7 +29,12 @@
       <li><a href="local-partner-international-pm.html">Local Partner</a></li>
       <li><a href="about.html">About</a></li>
     </ul>
-    <a class="btn btn-primary nav-cta" href="contact.html" class="active">Contact</a>
+    <div class="lang-toggle" aria-label="Language">
+      <a class="lang-toggle__item is-active" href="contact.html" hreflang="en" lang="en">EN</a>
+      <span class="lang-toggle__sep" aria-hidden="true">|</span>
+      <a class="lang-toggle__item" href="zh/contact.html" hreflang="zh-Hant" lang="zh-Hant">中文</a>
+    </div>
+    <a class="btn btn-primary nav-cta active" href="contact.html">Contact</a>
     <div class="hamburger" id="hamburger">
       <span></span><span></span><span></span>
     </div>
@@ -34,97 +44,90 @@
 <div class="page-hero">
   <div class="container">
     <span class="label">Contact</span>
-    <h1>聯繫我們</h1>
-    <p>告訴我們您的空間需求，我們將於一個工作天內回覆。</p>
-    <p style="font-family: var(--font-en); font-size:13px; color:rgba(255,255,255,0.35); margin-top:6px;">Tell us about your project — we'll respond within one business day.</p>
+    <h1>Contact us</h1>
+    <p>Tell us about your project — we'll respond within one business day.</p>
   </div>
 </div>
 
 <section class="section">
   <div class="container">
     <div class="contact-grid">
-
-      <!-- FORM -->
       <div>
-        <h2 style="font-size: 26px; margin-bottom: 8px;">填寫需求表單</h2>
-        <p style="font-size: 14px; color: var(--mid); margin-bottom: 36px;">請盡量填寫空間資訊，讓我們能給您更精準的初步建議。<br><span style="font-family: var(--font-en); font-size: 13px;">The more detail you share, the more useful our initial response will be.</span></p>
+        <h2 style="font-size: 26px; margin-bottom: 8px;">Project enquiry form</h2>
+        <p style="font-size: 14px; color: var(--mid); margin-bottom: 36px;">The more detail you share, the more useful our initial response will be.</p>
         <form class="contact-form" action="https://formspree.io/f/xeendgkz" method="POST">
-          <input type="hidden" name="_subject" value="【HQ 新詢問】網站聯絡表單">
-          <input type="hidden" name="_language" value="zh">
+          <input type="hidden" name="_subject" value="[HQ Enquiry] Website contact form">
+          <input type="hidden" name="_language" value="en">
           <div class="form-row">
             <div class="form-group">
-              <label>公司名稱 <span class="en-label en">Company</span></label>
-              <input type="text" name="company" placeholder="惠強室內裝修股份有限公司" required>
+              <label>Company</label>
+              <input type="text" name="company" placeholder="Your company name" required>
             </div>
             <div class="form-group">
-              <label>聯絡人姓名 <span class="en-label en">Name</span></label>
+              <label>Name</label>
               <input type="text" name="name" placeholder="Alex Lin" required>
             </div>
           </div>
           <div class="form-row">
             <div class="form-group">
-              <label>聯絡電話 <span class="en-label en">Phone</span></label>
-              <input type="tel" name="phone" placeholder="09xx-xxx-xxx" required>
+              <label>Phone</label>
+              <input type="tel" name="phone" placeholder="+886 ..." required>
             </div>
             <div class="form-group">
-              <label>電子信箱 <span class="en-label en">Email</span></label>
+              <label>Email</label>
               <input type="email" name="email" placeholder="your@company.com" required>
             </div>
           </div>
           <div class="form-group">
-            <label>空間類型 <span class="en-label en">Space Type</span></label>
+            <label>Space Type</label>
             <select name="space_type">
-              <option value="">請選擇 Please select...</option>
-              <option>辦公室 Office</option>
-              <option>商業空間 / 零售 Commercial / Retail</option>
-              <option>餐飲 F&B / Restaurant</option>
-              <option>飯店 / 接待空間 Hotel / Hospitality</option>
-              <option>企業展廳 Exhibition / Showroom</option>
-              <option>其他 Other</option>
+              <option value="">Please select...</option>
+              <option>Office</option>
+              <option>Commercial / Retail</option>
+              <option>F&amp;B / Restaurant</option>
+              <option>Hotel / Hospitality</option>
+              <option>Exhibition / Showroom</option>
+              <option>Other</option>
             </select>
           </div>
           <div class="form-group">
-            <label>空間需求簡述 <span class="en-label en">Brief Description</span></label>
-            <textarea name="description" placeholder="請簡述您的空間面積、位置、預計用途，以及希望開工的大概時程。&#10;&#10;Please describe the space size, location, intended use, and rough timeline."></textarea>
+            <label>Brief Description</label>
+            <textarea name="description" placeholder="Please describe the space size, location, intended use, and rough timeline."></textarea>
           </div>
           <div class="form-group">
-            <label>預計時程 <span class="en-label en">Target Timeline</span></label>
+            <label>Target Timeline</label>
             <select name="timeline">
-              <option value="">請選擇 Please select...</option>
-              <option>1個月內 Within 1 month</option>
-              <option>1–3個月 1–3 months</option>
-              <option>3–6個月 3–6 months</option>
-              <option>6個月以上 6+ months</option>
-              <option>尚未確定 Not yet decided</option>
+              <option value="">Please select...</option>
+              <option>Within 1 month</option>
+              <option>1–3 months</option>
+              <option>3–6 months</option>
+              <option>6+ months</option>
+              <option>Not yet decided</option>
             </select>
           </div>
           <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center; padding: 16px;">
-            送出需求 Submit Request →
+            Submit Request →
           </button>
-          <p style="font-size: 12px; color: var(--light); text-align: center; font-family: var(--font-en);">We'll respond within 1 business day · 一個工作天內回覆</p>
+          <p style="font-size: 12px; color: var(--light); text-align: center; font-family: var(--font-en);">We'll respond within 1 business day</p>
         </form>
       </div>
 
-      <!-- INFO -->
       <div class="contact-info">
-
-        <!-- LINE placeholder -->
         <div class="line-box">
-          <h4>LINE 官方帳號</h4>
-          <p>加入LINE，與我們的專案團隊直接對話，獲得最快速的回應。<br><span style="font-family: var(--font-en); font-size: 12px; color: var(--light);">Add us on LINE for the fastest response from our project team.</span></p>
+          <h4>LINE Official Account</h4>
+          <p>Add us on LINE for the fastest response from our project team.</p>
           <div class="line-placeholder">
             <div>
               <div style="font-size: 28px; margin-bottom: 8px;">📱</div>
               LINE QR Code<br>Coming Soon<br>
-              <span style="font-size: 10px; color: var(--light);">(帳號設定中)</span>
+              <span style="font-size: 10px; color: var(--light);">(setup in progress)</span>
             </div>
           </div>
           <p style="font-size: 11px; color: var(--light); font-family: var(--font-en);">LINE Official Account — setup in progress</p>
         </div>
 
-        <!-- Direct contact -->
         <div class="info-block">
-          <h3>直接聯絡 Direct Contact</h3>
+          <h3>Direct Contact</h3>
           <div class="info-item">
             <span class="info-icon">📞</span>
             <p><strong>02-2557-3003</strong><br><span style="font-size:12px; font-family: var(--font-en);">Mon–Fri 09:00–18:00</span></p>
@@ -139,20 +142,17 @@
           </div>
         </div>
 
-        <!-- Office -->
         <div class="info-block">
-          <h3>辦公室地址 Office</h3>
+          <h3>Office</h3>
           <div class="info-item">
             <span class="info-icon">📍</span>
             <p>
-              <strong>115台北市南港區<br>經貿二路135號9樓</strong><br>
-              <span style="font-family: var(--font-en); font-size: 12px; color: var(--light);">9F, No.135 Jingmao 2nd Rd<br>Nangang Dist., Taipei 115</span>
+              <strong>9F, No.135 Jingmao 2nd Rd<br>Nangang Dist., Taipei 115, Taiwan</strong>
             </p>
           </div>
-          <!-- Google Maps embed -->
           <div style="width:100%; height:220px; border-radius:var(--radius); overflow:hidden; border:1px solid var(--border); margin-top:12px;">
             <iframe
-              src="https://maps.google.com/maps?q=115台北市南港區經貿二路135號&output=embed&hl=zh-TW&z=17"
+              src="https://maps.google.com/maps?q=115台北市南港區經貿二路135號&output=embed&hl=en&z=17"
               width="100%" height="100%"
               style="border:0; display:block;"
               allowfullscreen="" loading="lazy"
@@ -161,22 +161,20 @@
           </div>
         </div>
 
-        <!-- Company info -->
         <div class="info-block" style="background: var(--bg); border-radius: var(--radius); padding: 20px;">
-          <h3 style="font-size: 14px; margin-bottom: 12px;">公司資訊 Company Info</h3>
+          <h3 style="font-size: 14px; margin-bottom: 12px;">Company Info</h3>
           <p style="font-size: 13px; color: var(--mid); line-height: 1.8;">
+            HQ Design Co., Ltd.<br>
             惠強室內裝修股份有限公司<br>
-            <span style="font-family: var(--font-en);">HQ Design Co., Ltd.</span><br>
-            統一編號：89956251<br>
-            <span style="font-family: var(--font-en); font-size: 12px;">Registration No. 89956251</span>
+            Tax ID: 89956251
           </p>
         </div>
       </div>
-
     </div>
   </div>
 </section>
 
+<!-- FOOTER -->
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
@@ -189,7 +187,6 @@
         </div>
         <p class="footer-tagline">
           <span style="font-family: var(--font-en); font-size:12px; display:block; margin-bottom:4px;">Precision Craftsmanship. Zero Downtime. 31+ Years.</span>
-          匠藝專工，一應皆備。
         </p>
         <div class="footer-certs">
           <span class="cert-badge">LEED</span>
@@ -237,6 +234,5 @@
 </footer>
 
 <script src="assets/js/main.js"></script>
-
 </body>
 </html>
