@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>專案案例 Projects — 惠強室內裝修 HQ Interior & Space Design</title>
+  <title>專案案例 Projects — 惠強室內裝修 HQ Design</title>
   <meta name="description" content="惠強室內裝修專案案例：辦公室、飯店、餐飲連鎖、企業展廳。超過1,600件商業空間設計施工實績。">
   <link rel="stylesheet" href="assets/css/style.css">
   <style>
@@ -35,21 +35,23 @@
 <!-- NAVIGATION -->
 <nav class="nav" id="nav">
   <div class="nav-inner">
-    <a class="nav-logo" href="index.html">
-      <img src="assets/images/logo/IMG_6412.PNG" alt="HQ Interior Design Logo">
-      <div class="nav-logo-text">
-        <span class="name-zh">惠強室內裝修</span>
-        <span class="name-en">HQ Interior & Space Design</span>
+    <a class="nav-logo nav-logo--int" href="index.html">
+      <img src="assets/images/logo/IMG_6412.PNG" alt="HQ Design Logo">
+      <div>
+        <span class="name-en">HQ Design</span>
+        <span class="name-zh">惠強室內裝修 · Since 1995</span>
       </div>
     </a>
     <ul class="nav-links">
-      <li><a href="projects.html" class="active">專案案例 Projects</a></li>
-      <li><a href="services.html">服務項目 Services</a></li>
-      <li><a href="about.html">關於我們 About</a></li>
-      <li><a href="careers.html">加入我們 Careers</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="local-partner-international-pm.html">Local Partner</a></li>
+      <li><a href="about.html">About</a></li>
     </ul>
-    <a class="btn btn-primary nav-cta" href="contact.html">聯繫我們 Contact</a>
-    <div class="hamburger"><span></span><span></span><span></span></div>
+    <a class="btn btn-primary nav-cta" href="contact.html">Contact</a>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
   </div>
 </nav>
 
@@ -68,16 +70,16 @@
   <div class="container">
 
     <!-- Filter -->
-    <div class="filter-bar">
-      <button class="filter-btn active" data-filter="all">全部 All</button>
-      <button class="filter-btn" data-filter="office">辦公室 Office</button>
-      <button class="filter-btn" data-filter="fb">餐飲 F&B</button>
-      <button class="filter-btn" data-filter="hospitality">飯店 Hospitality</button>
-      <button class="filter-btn" data-filter="exhibition">展廳 Exhibition</button>
+    <div class="filter-bar" id="project-filters">
+      <button type="button" class="filter-btn active" data-filter="office">Corporate office</button>
+      <button type="button" class="filter-btn" data-filter="hospitality">Hospitality</button>
+      <button type="button" class="filter-btn" data-filter="retail">Retail &amp; F&amp;B</button>
+      <button type="button" class="filter-btn" data-filter="industrial">Industrial &amp; lab</button>
+      <button type="button" class="filter-btn" data-filter="public">Public sector</button>
     </div>
 
     <!-- Grid -->
-    <div class="projects-grid view-all">
+    <div class="projects-grid">
 
       <!-- 中興保全南港總部 SECOM Nangang HQ -->
       <div class="project-card large" data-type="office">
@@ -110,7 +112,7 @@
       </div>
 
       <!-- 中保科技展示廳 SECOM Technology Hall -->
-      <div class="project-card" data-type="exhibition">
+      <div class="project-card" data-type="industrial">
         <img src="assets/images/projects/zhongbao-showroom/render-01.jpg" alt="中保科技展示廳 SECOM Technology Hall">
         <div class="project-card-overlay">
           
@@ -320,7 +322,7 @@
       </div>
 
       <!-- 起家雞 Cheogajip — Taichung -->
-      <div class="project-card large" data-type="fb">
+      <div class="project-card large" data-type="retail">
         <img src="assets/images/projects/qijia/photo-01.jpg" alt="Cheogajip Taichung">
         <div class="project-card-overlay">
           
@@ -335,7 +337,7 @@
       </div>
 
       <!-- 匙碗湯 The Soup Spoon — Taipei 101 -->
-      <div class="project-card" data-type="fb">
+      <div class="project-card" data-type="retail">
         <img src="assets/images/projects/soup-spoon-101/photo-01.jpg" alt="The Soup Spoon Taipei 101">
         <div class="project-card-overlay">
           
@@ -350,7 +352,7 @@
       </div>
 
       <!-- 匙碗湯 The Soup Spoon — Taipei Main Station -->
-      <div class="project-card" data-type="fb">
+      <div class="project-card" data-type="retail">
         <img src="assets/images/projects/soup-spoon-station/photo-01.jpg" alt="The Soup Spoon Taipei Main Station">
         <div class="project-card-overlay">
           
@@ -365,7 +367,7 @@
       </div>
 
       <!-- 大力水手 Popeyes — Xuchang -->
-      <div class="project-card" data-type="fb">
+      <div class="project-card" data-type="retail">
         <img src="assets/images/projects/popeyes/photo-01.jpg" alt="Popeyes Xuchang">
         <div class="project-card-overlay">
           
@@ -407,16 +409,17 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <div class="footer-logo">
-          <img src="assets/images/logo/IMG_6412.PNG" alt="HQ Logo">
           <div class="footer-logo-text">
-            <span class="name-zh">惠強室內裝修股份有限公司</span>
-            <span class="name-en en">HQ Interior &amp; Space Design Co., Ltd.</span>
+            <span class="name-en en" style="font-size:16px; font-weight:700;">HQ Design Co., Ltd.</span>
+            <span class="name-zh" style="font-size:13px; color:rgba(255,255,255,0.55);">惠強室內裝修股份有限公司</span>
           </div>
         </div>
-        <p class="footer-tagline">匠藝專工，一應皆備。<br><span style="font-family:var(--font-en);font-size:12px">Precision craftsmanship. Complete delivery. 31+ Years.</span></p>
+        <p class="footer-tagline">
+          <span style="font-family: var(--font-en); font-size:12px; display:block; margin-bottom:4px;">Precision Craftsmanship. Zero Downtime. 31+ Years.</span>
+          匠藝專工，一應皆備。
+        </p>
         <div class="footer-certs">
           <span class="cert-badge">LEED</span>
-          
           <span class="cert-badge">Green Building</span>
           <span class="cert-badge">AIoT</span>
           <span class="cert-badge">ESG</span>
@@ -425,34 +428,37 @@
       <div class="footer-col">
         <h4>Navigation</h4>
         <ul>
-          <li><a href="projects.html">專案案例 Projects</a></li>
-          <li><a href="services.html">服務項目 Services</a></li>
-          <li><a href="about.html">關於我們 About</a></li>
-          <li><a href="careers.html">加入我們 Careers</a></li>
-          <li><a href="contact.html">聯繫我們 Contact</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="local-partner-international-pm.html">Local Partner</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Project Types</h4>
+        <h4>Services</h4>
         <ul>
-          <li><a href="projects.html">辦公室 Office</a></li>
-          <li><a href="projects.html">飯店 Hospitality</a></li>
-          <li><a href="projects.html">餐飲 F&amp;B</a></li>
-          <li><a href="projects.html">展廳 Exhibition</a></li>
+          <li><a href="services.html#design-build">Design &amp; Build</a></li>
+          <li><a href="services.html#permits">Permits &amp; Compliance</a></li>
+          <li><a href="services.html#construction-mgmt">Construction Management</a></li>
+          <li><a href="services.html#public-tender">Public-Sector Tenders</a></li>
+          <li><a href="services.html#mep">MEP Coordination</a></li>
+          <li><a href="services.html#reinstatement">Reinstatement &amp; Handback</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
         <ul>
-          <li><a href="#">115台北市南港區經貿二路135號9樓</a></li>
-          <li><a href="tel:0225573003">02-2557-3003</a></li>
+          <li><a href="https://maps.google.com/maps?q=115%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%B6%93%E8%B2%BF%E4%BA%8C%E8%B7%AF135%E8%99%9F&amp;hl=en&amp;z=17" target="_blank" rel="noopener">9F, No.135 Jingmao 2nd Rd<br>Nangang, Taipei 115, Taiwan</a></li>
+          <li><a href="tel:+886225573003">+886-2-2557-3003</a></li>
           <li><a href="mailto:info@hqdesign.tw">info@hqdesign.tw</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p class="en">© 2026 HQ Interior &amp; Space Design Co., Ltd. All rights reserved.</p>
-      <p class="footer-reg en">統一編號 89956251</p>
+      <p class="en">© 2026 HQ Design Co., Ltd. All rights reserved.</p>
+      <p class="footer-reg en">Tax ID 89956251 · hqdesign.tw</p>
     </div>
   </div>
 </footer>

@@ -1,5 +1,5 @@
 /* ============================================================
-   HQ Interior & Space Design — Main Stylesheet
+   HQ Design — Main Stylesheet
    Brand: #1C2B3A (deep navy) | #C8410F (accent red) | #F8F8F6 (off-white)
    CBRE/JLL institutional style — updated 2026-05
    ============================================================ */
@@ -908,4 +908,136 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   padding: 24px 32px;
   gap: 20px;
   box-shadow: var(--shadow-lg);
+}
+
+
+/* ============================================================
+   STAGE 1 — feat/international-partner (append only; do not edit rules above)
+   ============================================================ */
+.door-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.door-grid--three { grid-template-columns: repeat(3, 1fr); }
+.door-card {
+  display: block;
+  background: var(--white);
+  padding: 40px 36px;
+  border-right: 1px solid var(--border);
+  text-decoration: none;
+  color: inherit;
+  transition: background var(--transition);
+}
+.door-card:last-child { border-right: none; }
+.door-card:hover { background: var(--bg); }
+.door-card--static { cursor: default; }
+.door-card--static:hover { background: var(--white); }
+.door-card--accent { background: var(--bg); }
+.door-kicker {
+  display: block;
+  font-family: var(--font-en);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+.door-card h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: var(--dark);
+}
+.door-card p {
+  font-size: 14px;
+  color: var(--mid);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+.door-cta {
+  font-family: var(--font-en);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--brand);
+}
+.service-badge {
+  display: inline-block;
+  font-family: var(--font-en);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 4px 8px;
+  margin-bottom: 10px;
+}
+.lp-prose p { font-size: 15px; color: var(--mid); line-height: 1.8; max-width: 720px; margin-bottom: 20px; }
+.lp-list { list-style: disc; padding-left: 20px; max-width: 720px; }
+.lp-list li { font-size: 15px; color: var(--mid); line-height: 1.7; margin-bottom: 10px; }
+.lp-table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius); }
+.lp-table { width: 100%; border-collapse: collapse; background: var(--white); }
+.lp-table th, .lp-table td {
+  text-align: left;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+  vertical-align: top;
+}
+.lp-table th {
+  font-family: var(--font-en);
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--light);
+  background: var(--bg);
+}
+.lp-table tr:last-child td { border-bottom: none; }
+.lp-steps {
+  list-style: none;
+  counter-reset: lpstep;
+  max-width: 720px;
+  padding: 0;
+  margin: 0;
+}
+.lp-steps li {
+  counter-increment: lpstep;
+  position: relative;
+  padding: 18px 0 18px 56px;
+  border-bottom: 1px solid var(--border);
+  font-size: 15px;
+  color: var(--mid);
+  line-height: 1.7;
+}
+.lp-steps li::before {
+  content: counter(lpstep, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 18px;
+  font-family: var(--font-en);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--accent);
+}
+.placeholder-block {
+  margin-top: 32px;
+  padding: 48px 24px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  text-align: center;
+  color: var(--light);
+  font-family: var(--font-en);
+  font-size: 13px;
+  background: var(--bg);
+}
+@media (max-width: 900px) {
+  .door-grid, .door-grid--three { grid-template-columns: 1fr; }
+  .door-card { border-right: none; border-bottom: 1px solid var(--border); }
+  .door-card:last-child { border-bottom: none; }
 }
