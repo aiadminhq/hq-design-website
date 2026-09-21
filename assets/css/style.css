@@ -975,7 +975,8 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   border: 1px solid var(--accent);
   border-radius: var(--radius);
   padding: 4px 8px;
-  margin-bottom: 10px;
+  margin-top: 12px;
+  margin-bottom: 0;
 }
 .lp-prose p { font-size: 15px; color: var(--mid); line-height: 1.8; max-width: 720px; margin-bottom: 20px; }
 .lp-list { list-style: disc; padding-left: 20px; max-width: 720px; }
@@ -1096,4 +1097,38 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   .nav-logo--int .name-en { font-size: 13px; }
   .nav-logo--int img { height: 32px; }
   .nav-logo--int .name-zh { display: none; }
+}
+
+/* Team structure (About) — high-contrast numbers on dark cells */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+  background: var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 48px;
+}
+.team-cell {
+  background: var(--brand);
+  padding: 32px 16px;
+  text-align: center;
+}
+.team-num {
+  font-family: var(--font-en);
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.team-role {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 10px;
+  line-height: 1.35;
+}
+@media (max-width: 768px) {
+  .team-grid { grid-template-columns: repeat(2, 1fr); }
+  .team-cell:last-child { grid-column: 1 / -1; }
 }
