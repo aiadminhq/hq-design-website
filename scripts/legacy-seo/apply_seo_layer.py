@@ -101,13 +101,14 @@ def main():
     check = "--check" in sys.argv; changed = []
     for p in PAGES:
         rel = str(pathlib.Path(p).relative_to(ROOT))
-        raw = pathlib.Path(p).read_text(encoding="utf-8", newline="")   # 保留原始換行（有些頁面仍是 CRLF）
+        with open(p, encoding="utf-8", newline="") as fh: raw = fh.read()   # 保留原始換行（有些頁面仍是 CRLF）；open() 相容 Python 3.8+
         eol = "\r\n" if "\r\n" in raw else "\n"
         before = raw.replace("\r\n", "\n")
         after = apply(before, rel)
         if after != before:
             changed.append(rel)
-            if not check: pathlib.Path(p).write_text(after.replace("\n", eol), encoding="utf-8", newline="")
+            if not check:
+                with open(p, "w", encoding="utf-8", newline="") as fh: fh.write(after.replace("\n", eol))
     print(("would change" if check else "updated") + f" {len(changed)} / {len(PAGES)} pages" + (": " + ", ".join(changed) if changed and len(changed) <= 8 else ""))
     sys.exit(1 if (check and changed) else 0)
 
