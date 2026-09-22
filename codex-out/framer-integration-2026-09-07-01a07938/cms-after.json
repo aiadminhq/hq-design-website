@@ -1,0 +1,3299 @@
+[
+  {
+    "id": "MpbgR_s8K",
+    "slug": "csun",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "tGyqyUTKe3ezVR1U29txHL89tfA.jpg",
+          "url": "https://framerusercontent.com/images/tGyqyUTKe3ezVR1U29txHL89tfA.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/tGyqyUTKe3ezVR1U29txHL89tfA.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "bmpswWY6S",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "tGyqyUTKe3ezVR1U29txHL89tfA.jpg",
+                  "url": "https://framerusercontent.com/images/tGyqyUTKe3ezVR1U29txHL89tfA.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/tGyqyUTKe3ezVR1U29txHL89tfA.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "b5zVAKc3H",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "9Z89iKtH309HkiGpFtoWXr7DhdE.jpg",
+                  "url": "https://framerusercontent.com/images/9Z89iKtH309HkiGpFtoWXr7DhdE.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/9Z89iKtH309HkiGpFtoWXr7DhdE.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "志聖工業",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "C.SUN INDUSTRIAL",
+            "lastEdited": 1788744267466,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "志聖工業辦公空間以企業規模與品牌形象為核心，兼顧管理階層需求、團隊動線與施工整合。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "C.SUN Industrial’s workplace translates the scale and discipline of a listed Taiwanese manufacturer into a clear, efficient office environment. Executive spaces, team circulation and brand expression are coordinated through an integrated design-and-build approach.",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "志聖工業｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "C.SUN INDUSTRIAL | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">志聖工業辦公空間以企業規模與品牌形象為核心，兼顧管理階層需求、團隊動線與施工整合。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2026</p><p dir=\"auto\"><strong>地點：</strong>台北南港</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>711 sqm</p><p dir=\"auto\"><strong>類型：</strong>企業辦公</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>設計視覺化</strong>｜本案圖片為設計視覺化，用於呈現空間構想，並非完工攝影。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">C.SUN Industrial’s workplace translates the scale and discipline of a listed Taiwanese manufacturer into a clear, efficient office environment. Executive spaces, team circulation and brand expression are coordinated through an integrated design-and-build approach.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2026</p><p dir=\"auto\"><strong>Location: </strong>Taipei Nangang</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>711 sqm</p><p dir=\"auto\"><strong>Category: </strong>Corporate Office</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Design visualisation. These images communicate the spatial concept and are not completed-project photography.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2026",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2026",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北南港",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Nangang",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "711 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "711 sqm",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "企業辦公",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Corporate Office",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "bQ1GWwHHo",
+    "slug": "baohua",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "QO1okSkN64uQjqQHoZem6bs1LLk.jpg",
+          "url": "https://framerusercontent.com/images/QO1okSkN64uQjqQHoZem6bs1LLk.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/QO1okSkN64uQjqQHoZem6bs1LLk.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "Pgese_EoP",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "QO1okSkN64uQjqQHoZem6bs1LLk.jpg",
+                  "url": "https://framerusercontent.com/images/QO1okSkN64uQjqQHoZem6bs1LLk.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/QO1okSkN64uQjqQHoZem6bs1LLk.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "aSqCtyelG",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "Wy9NRdxD1qUxClI1MsUpl6T0jws.jpg",
+                  "url": "https://framerusercontent.com/images/Wy9NRdxD1qUxClI1MsUpl6T0jws.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/Wy9NRdxD1qUxClI1MsUpl6T0jws.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "保華資安",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "BAOHUA CYBERSECURITY",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "保華資安 11 樓辦公空間設計施工，以資安產業的專業形象為設計出發點，融合穩重、精準的空間語彙，打造符合企業定位的工作環境。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "11th floor fit-out for a cybersecurity firm. The design reflects the client's brand of precision and trust — clean lines, measured materiality and a workspace that communicates expertise.",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "保華資安｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "BAOHUA CYBERSECURITY | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">保華資安 11 樓辦公空間設計施工，以資安產業的專業形象為設計出發點，融合穩重、精準的空間語彙，打造符合企業定位的工作環境。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2025</p><p dir=\"auto\"><strong>地點：</strong>台北南港</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>350 sqm</p><p dir=\"auto\"><strong>類型：</strong>企業辦公</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>設計視覺化</strong>｜本案圖片為設計視覺化，用於呈現空間構想，並非完工攝影。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">11th floor fit-out for a cybersecurity firm. The design reflects the client's brand of precision and trust — clean lines, measured materiality and a workspace that communicates expertise.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2025</p><p dir=\"auto\"><strong>Location: </strong>Taipei Nangang</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>350 sqm</p><p dir=\"auto\"><strong>Category: </strong>Corporate Office</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Design visualisation. These images communicate the spatial concept and are not completed-project photography.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2025",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2025",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北南港",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Nangang",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "350 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "350 sqm",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "企業辦公",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Corporate Office",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "E9BK28UNp",
+    "slug": "hq-office",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "3pvu84fkAd39n5gjGIsHOD7MbUU.jpg",
+          "url": "https://framerusercontent.com/images/3pvu84fkAd39n5gjGIsHOD7MbUU.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/3pvu84fkAd39n5gjGIsHOD7MbUU.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "MPRYAO5d0",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "3pvu84fkAd39n5gjGIsHOD7MbUU.jpg",
+                  "url": "https://framerusercontent.com/images/3pvu84fkAd39n5gjGIsHOD7MbUU.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/3pvu84fkAd39n5gjGIsHOD7MbUU.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "EmDKSTDCq",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "ufWVHKQjmHhx9ZuMPPgKkXkm7P0.jpg",
+                  "url": "https://framerusercontent.com/images/ufWVHKQjmHhx9ZuMPPgKkXkm7P0.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/ufWVHKQjmHhx9ZuMPPgKkXkm7P0.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "惠強室內裝修",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "HQ DESIGN & BUILD",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "惠強室內裝修自建辦公室與材料展示空間，以 31 年設計施工積累的工藝能量為展示主軸，整合辦公、接待與材料樣品區，呈現品牌完整服務能力。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "HQ's own office and showroom, purpose-built to demonstrate 31+ Years of design-build craftsmanship. The space integrates working offices, client reception and material sample zones into one cohesive brand experience.",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "惠強室內裝修｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "HQ DESIGN & BUILD | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">惠強室內裝修自建辦公室與材料展示空間，以 31 年設計施工積累的工藝能量為展示主軸，整合辦公、接待與材料樣品區，呈現品牌完整服務能力。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2025</p><p dir=\"auto\"><strong>地點：</strong>台北南港經貿二路 135 號 9F</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>165 sqm</p><p dir=\"auto\"><strong>類型：</strong>辦公與展示空間</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>AI 視覺增強影像</strong>｜本案採用經 AI 視覺增強的專案影像，與原始照片有差異，呈現效果不代表原始完工紀錄。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">HQ's own office and showroom, purpose-built to demonstrate 31+ Years of design-build craftsmanship. The space integrates working offices, client reception and material sample zones into one cohesive brand experience.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2025</p><p dir=\"auto\"><strong>Location: </strong>Taipei Nangang, 9F</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>165 sqm</p><p dir=\"auto\"><strong>Category: </strong>Office &amp; Showroom</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">AI-enhanced project imagery. These images differ from the original photographs and do not represent an unaltered record of the completed space.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2025",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2025",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北南港經貿二路 135 號 9F",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Nangang, 9F",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "165 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "165 sqm",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "辦公與展示空間",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Office & Showroom",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "iel6Ad0ZF",
+    "slug": "aiontech",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "k1pIDUOpdYoKYBPIe6HODZWVA.png",
+          "url": "https://framerusercontent.com/images/k1pIDUOpdYoKYBPIe6HODZWVA.png",
+          "thumbnailUrl": "https://framerusercontent.com/images/k1pIDUOpdYoKYBPIe6HODZWVA.png?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "ogZNb4Q7g",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "k1pIDUOpdYoKYBPIe6HODZWVA.png",
+                  "url": "https://framerusercontent.com/images/k1pIDUOpdYoKYBPIe6HODZWVA.png",
+                  "thumbnailUrl": "https://framerusercontent.com/images/k1pIDUOpdYoKYBPIe6HODZWVA.png?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "Ea9DUJZEb",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "nKlJq9xtSjjLeR3MExj8ajO5XaM.jpg",
+                  "url": "https://framerusercontent.com/images/nKlJq9xtSjjLeR3MExj8ajO5XaM.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/nKlJq9xtSjjLeR3MExj8ajO5XaM.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "博訊科技",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "AIONTECH",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "博訊科技與史詩科技聯合辦公空間，以開放協作為核心設計理念，融入品牌視覺語言，打造兼具靈活性與科技感的現代工作環境。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Combined workspace for AIONTECH and Epicstech. The design prioritises open collaboration zones, brand-forward interiors and flexible layouts suited to fast-growing tech teams.",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "博訊科技｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "AIONTECH | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">博訊科技與史詩科技聯合辦公空間，以開放協作為核心設計理念，融入品牌視覺語言，打造兼具靈活性與科技感的現代工作環境。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2025</p><p dir=\"auto\"><strong>地點：</strong>台北南港</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>825 sqm</p><p dir=\"auto\"><strong>類型：</strong>科技辦公</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>設計視覺化</strong>｜本案圖片為設計視覺化，用於呈現空間構想，並非完工攝影。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">Combined workspace for AIONTECH and Epicstech. The design prioritises open collaboration zones, brand-forward interiors and flexible layouts suited to fast-growing tech teams.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2025</p><p dir=\"auto\"><strong>Location: </strong>Taipei Nangang</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>825 sqm</p><p dir=\"auto\"><strong>Category: </strong>Tech Office</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Design visualisation. These images communicate the spatial concept and are not completed-project photography.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2025",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2025",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北南港",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Nangang",
+            "lastEdited": 1788744267467,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "825 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "825 sqm",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "科技辦公",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Tech Office",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "FwV_uduCs",
+    "slug": "epicstech-10f",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "FpJyvYkvFJcEMFXXoH3qW1QMuhA.png",
+          "url": "https://framerusercontent.com/images/FpJyvYkvFJcEMFXXoH3qW1QMuhA.png",
+          "thumbnailUrl": "https://framerusercontent.com/images/FpJyvYkvFJcEMFXXoH3qW1QMuhA.png?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "zizbBdVxn",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "FpJyvYkvFJcEMFXXoH3qW1QMuhA.png",
+                  "url": "https://framerusercontent.com/images/FpJyvYkvFJcEMFXXoH3qW1QMuhA.png",
+                  "thumbnailUrl": "https://framerusercontent.com/images/FpJyvYkvFJcEMFXXoH3qW1QMuhA.png?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "xHTlnZmEq",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "5buP2R8tBzfvRUnZqEzJJRkAlQ.jpg",
+                  "url": "https://framerusercontent.com/images/5buP2R8tBzfvRUnZqEzJJRkAlQ.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/5buP2R8tBzfvRUnZqEzJJRkAlQ.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "史詩科技",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "EPIC TECH TAIWAN",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "史詩科技 10 樓辦公空間翻新專案，以精準的空間配置與品牌色系整合，打造高效能現代辦公環境，施工期間維持正常營運。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "10th floor office renovation for Epicstech. Precision zoning and brand-aligned interiors deliver a high-performance workspace — completed without disrupting day-to-day operations.",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "史詩科技｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "EPIC TECH TAIWAN | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">史詩科技 10 樓辦公空間翻新專案，以精準的空間配置與品牌色系整合，打造高效能現代辦公環境，施工期間維持正常營運。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2025</p><p dir=\"auto\"><strong>地點：</strong>台北南港</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>165 sqm</p><p dir=\"auto\"><strong>類型：</strong>企業辦公</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>設計視覺化</strong>｜本案圖片為設計視覺化，用於呈現空間構想，並非完工攝影。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">10th floor office renovation for Epicstech. Precision zoning and brand-aligned interiors deliver a high-performance workspace — completed without disrupting day-to-day operations.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2025</p><p dir=\"auto\"><strong>Location: </strong>Taipei Nangang</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>165 sqm</p><p dir=\"auto\"><strong>Category: </strong>Corporate Office</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Design visualisation. These images communicate the spatial concept and are not completed-project photography.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2025",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2025",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北南港",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Nangang",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "165 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "165 sqm",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "企業辦公",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Corporate Office",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "WPMuwsPqs",
+    "slug": "kimpton",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "NTIjEisbsRHgci98bCVVpG7No.jpg",
+          "url": "https://framerusercontent.com/images/NTIjEisbsRHgci98bCVVpG7No.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/NTIjEisbsRHgci98bCVVpG7No.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "sfJHezKsd",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "NTIjEisbsRHgci98bCVVpG7No.jpg",
+                  "url": "https://framerusercontent.com/images/NTIjEisbsRHgci98bCVVpG7No.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/NTIjEisbsRHgci98bCVVpG7No.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "TpEGfmKm7",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "IRZm5Q8SZkC3iJ5HUiHyMrzTDoo.jpg",
+                  "url": "https://framerusercontent.com/images/IRZm5Q8SZkC3iJ5HUiHyMrzTDoo.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/IRZm5Q8SZkC3iJ5HUiHyMrzTDoo.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "金普頓大安酒店",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "KIMPTON DA AN HOTEL",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "台北大安 Kimpton Da An Hotel 國際飯店裝修工程，由惠強承攬公共區域與客房走廊施工，以精細木作與品牌美學呈現國際精品飯店水準。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Interior fit-out for Kimpton Da An Hotel, Taipei. HQ delivered public area and corridor works, combining refined joinery with the brand's warm, design-led aesthetic.",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "金普頓大安酒店｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "KIMPTON DA AN HOTEL | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">台北大安 Kimpton Da An Hotel 國際飯店裝修工程，由惠強承攬公共區域與客房走廊施工，以精細木作與品牌美學呈現國際精品飯店水準。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2022</p><p dir=\"auto\"><strong>地點：</strong>台北大安</p><p dir=\"auto\"><strong>服務範圍：</strong>公共區域、客房走廊</p><p dir=\"auto\"><strong>面積：</strong>331 sqm</p><p dir=\"auto\"><strong>類型：</strong>旅宿空間</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>完工實景</strong>｜本案圖片為完工實景，選自目前公司簡介使用的專案影像。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">Interior fit-out for Kimpton Da An Hotel, Taipei. HQ delivered public area and corridor works, combining refined joinery with the brand's warm, design-led aesthetic.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2022</p><p dir=\"auto\"><strong>Location: </strong>Taipei Da’an</p><p dir=\"auto\"><strong>Scope: </strong>Interior Fit-out Delivery</p><p dir=\"auto\"><strong>Area: </strong>331 sqm</p><p dir=\"auto\"><strong>Category: </strong>Hospitality</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Completed-project photography, selected from the current company-profile project imagery.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2022",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2022",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北大安",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Da’an",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "公共區域、客房走廊",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Interior Fit-out Delivery",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "331 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "331 sqm",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "旅宿空間",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Hospitality",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "PRstgeyUp",
+    "slug": "liwei",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "H0SUpSTW1DmcOOBP6A0KM2vtRyY.jpg",
+          "url": "https://framerusercontent.com/images/H0SUpSTW1DmcOOBP6A0KM2vtRyY.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/H0SUpSTW1DmcOOBP6A0KM2vtRyY.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "uVB9hbw0N",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "H0SUpSTW1DmcOOBP6A0KM2vtRyY.jpg",
+                  "url": "https://framerusercontent.com/images/H0SUpSTW1DmcOOBP6A0KM2vtRyY.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/H0SUpSTW1DmcOOBP6A0KM2vtRyY.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "hN90Cm6gO",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "sNcvzBLOCS3qxiuuMZGauyR2KPw.jpg",
+                  "url": "https://framerusercontent.com/images/sNcvzBLOCS3qxiuuMZGauyR2KPw.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/sNcvzBLOCS3qxiuuMZGauyR2KPw.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "立偉電子",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "LIWEI ELECTRONICS",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "立偉電子 9 樓辦公室翻新，以電子產業的精密工藝為設計靈感，呈現技術導向企業的專業形象，動線規劃符合產品研發與業務協作需求。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "9th floor office renovation for Liwei Electronics. Inspired by the precision of the electronics industry, the space projects technical expertise while supporting both R&amp;D and business collaboration.",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "立偉電子｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "LIWEI ELECTRONICS | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">立偉電子 9 樓辦公室翻新，以電子產業的精密工藝為設計靈感，呈現技術導向企業的專業形象，動線規劃符合產品研發與業務協作需求。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2025</p><p dir=\"auto\"><strong>地點：</strong>台北南港</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>350 sqm</p><p dir=\"auto\"><strong>類型：</strong>企業辦公</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>設計視覺化</strong>｜本案圖片為設計視覺化，用於呈現空間構想，並非完工攝影。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">9th floor office renovation for Liwei Electronics. Inspired by the precision of the electronics industry, the space projects technical expertise while supporting both R&amp;D and business collaboration.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2025</p><p dir=\"auto\"><strong>Location: </strong>Taipei Nangang</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>350 sqm</p><p dir=\"auto\"><strong>Category: </strong>Corporate Office</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Design visualisation. These images communicate the spatial concept and are not completed-project photography.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2025",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2025",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北南港",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Nangang",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "350 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "350 sqm",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "企業辦公",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Corporate Office",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "fExXX69mo",
+    "slug": "lijie",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "2NrRSspaN9cHOtN7B8EiRzunIc.jpg",
+          "url": "https://framerusercontent.com/images/2NrRSspaN9cHOtN7B8EiRzunIc.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/2NrRSspaN9cHOtN7B8EiRzunIc.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "EBXeceVQ1",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "2NrRSspaN9cHOtN7B8EiRzunIc.jpg",
+                  "url": "https://framerusercontent.com/images/2NrRSspaN9cHOtN7B8EiRzunIc.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/2NrRSspaN9cHOtN7B8EiRzunIc.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "IWjIvu_Db",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "7bRKsDKysUN7jygzPLZ33iqFU.jpg",
+                  "url": "https://framerusercontent.com/images/7bRKsDKysUN7jygzPLZ33iqFU.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/7bRKsDKysUN7jygzPLZ33iqFU.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "立捷國際",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "LIJIE INTERNATIONAL",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "立捷國際 9 樓辦公空間，以國際商務形象為設計基調，空間配置兼顧接待洽談與內部辦公功能，呈現企業的專業與開放文化。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "9th floor fit-out for Lijie International. The space balances a professional reception and meeting front-of-house with efficient back-office layouts, projecting the client's international business identity.",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "立捷國際｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "LIJIE INTERNATIONAL | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">立捷國際 9 樓辦公空間，以國際商務形象為設計基調，空間配置兼顧接待洽談與內部辦公功能，呈現企業的專業與開放文化。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2024</p><p dir=\"auto\"><strong>地點：</strong>台北南港</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>99 sqm</p><p dir=\"auto\"><strong>類型：</strong>企業辦公</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>設計視覺化</strong>｜本案圖片為設計視覺化，用於呈現空間構想，並非完工攝影。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">9th floor fit-out for Lijie International. The space balances a professional reception and meeting front-of-house with efficient back-office layouts, projecting the client's international business identity.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2024</p><p dir=\"auto\"><strong>Location: </strong>Taipei Nangang</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>99 sqm</p><p dir=\"auto\"><strong>Category: </strong>Corporate Office</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Design visualisation. These images communicate the spatial concept and are not completed-project photography.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2024",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2024",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北南港",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Nangang",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "99 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "99 sqm",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "企業辦公",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Corporate Office",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "HycAZ87uJ",
+    "slug": "ledaojia",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "0qS2Q1McMHBFauO8klNpEJzkO9A.jpg",
+          "url": "https://framerusercontent.com/images/0qS2Q1McMHBFauO8klNpEJzkO9A.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/0qS2Q1McMHBFauO8klNpEJzkO9A.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "YPHSAH4Nz",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "0qS2Q1McMHBFauO8klNpEJzkO9A.jpg",
+                  "url": "https://framerusercontent.com/images/0qS2Q1McMHBFauO8klNpEJzkO9A.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/0qS2Q1McMHBFauO8klNpEJzkO9A.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "tpGuhhLVp",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "nqnMF8U495B9dddS25W0DW4TI.jpg",
+                  "url": "https://framerusercontent.com/images/nqnMF8U495B9dddS25W0DW4TI.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/nqnMF8U495B9dddS25W0DW4TI.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "樂到家國際娛樂",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "LOTS HOME ENTERTAINMENT",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "樂到家國際娛樂 9 樓辦公空間設計施工，以娛樂產業的活潑創意為調性，在專業辦公格局中注入品牌個性與空間活力。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "9th floor fit-out for an international entertainment company. The design brings brand personality and creative energy into a professional office framework.",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "樂到家國際娛樂｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "LOTS HOME ENTERTAINMENT | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">樂到家國際娛樂 9 樓辦公空間設計施工，以娛樂產業的活潑創意為調性，在專業辦公格局中注入品牌個性與空間活力。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2025</p><p dir=\"auto\"><strong>地點：</strong>台北南港</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>50 sqm</p><p dir=\"auto\"><strong>類型：</strong>企業辦公</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>設計視覺化</strong>｜本案圖片為設計視覺化，用於呈現空間構想，並非完工攝影。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">9th floor fit-out for an international entertainment company. The design brings brand personality and creative energy into a professional office framework.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2025</p><p dir=\"auto\"><strong>Location: </strong>Taipei Nangang</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>50 sqm</p><p dir=\"auto\"><strong>Category: </strong>Corporate Office</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Design visualisation. These images communicate the spatial concept and are not completed-project photography.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2025",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2025",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北南港",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Nangang",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "50 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "50 sqm",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "企業辦公",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Corporate Office",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "rBqncwq1X",
+    "slug": "popeyes",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "e5AfGdSn5acMNA32wQkzG18jfk.jpg",
+          "url": "https://framerusercontent.com/images/e5AfGdSn5acMNA32wQkzG18jfk.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/e5AfGdSn5acMNA32wQkzG18jfk.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "Tcow37WPK",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "e5AfGdSn5acMNA32wQkzG18jfk.jpg",
+                  "url": "https://framerusercontent.com/images/e5AfGdSn5acMNA32wQkzG18jfk.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/e5AfGdSn5acMNA32wQkzG18jfk.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "tn48bU0FN",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "F84lWhapjxkdDCR2B7YCC4n4uD4.jpg",
+                  "url": "https://framerusercontent.com/images/F84lWhapjxkdDCR2B7YCC4n4uD4.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/F84lWhapjxkdDCR2B7YCC4n4uD4.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "大力水手許昌店",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "POPEYES — XUCHANG",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "Popeyes 許昌店餐飲空間設計施工，以美式炸雞品牌識別為核心，規劃符合高翻桌率的高效動線，兼顧品牌個性與施工精度。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Interior fit-out for Popeyes Xuchang Street, Taipei. The design captures the brand's American identity while maximising throughput with an efficient circulation plan.",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "大力水手許昌店｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "POPEYES — XUCHANG | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">Popeyes 許昌店餐飲空間設計施工，以美式炸雞品牌識別為核心，規劃符合高翻桌率的高效動線，兼顧品牌個性與施工精度。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2024</p><p dir=\"auto\"><strong>地點：</strong>台北許昌街</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>170 sqm</p><p dir=\"auto\"><strong>類型：</strong>餐飲空間</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>完工實景</strong>｜本案圖片為完工實景，選自目前公司簡介使用的專案影像。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">Interior fit-out for Popeyes Xuchang Street, Taipei. The design captures the brand's American identity while maximising throughput with an efficient circulation plan.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2024</p><p dir=\"auto\"><strong>Location: </strong>Xuchang Street, Taipei</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>170 sqm</p><p dir=\"auto\"><strong>Category: </strong>F&amp;B</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Completed-project photography, selected from the current company-profile project imagery.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2024",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2024",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北許昌街",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Xuchang Street, Taipei",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "170 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "170 sqm",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "餐飲空間",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "F&B",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "dqNXpK_kD",
+    "slug": "polytron",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "tRQygpOuJzEBxE68WRN6hLewsA.jpg",
+          "url": "https://framerusercontent.com/images/tRQygpOuJzEBxE68WRN6hLewsA.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/tRQygpOuJzEBxE68WRN6hLewsA.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "Ks8i__9Se",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "tRQygpOuJzEBxE68WRN6hLewsA.jpg",
+                  "url": "https://framerusercontent.com/images/tRQygpOuJzEBxE68WRN6hLewsA.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/tRQygpOuJzEBxE68WRN6hLewsA.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "meiWNdEYT",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "Akqe5z06tjoLIJu0UQxTty2hEnU.png",
+                  "url": "https://framerusercontent.com/images/Akqe5z06tjoLIJu0UQxTty2hEnU.png",
+                  "thumbnailUrl": "https://framerusercontent.com/images/Akqe5z06tjoLIJu0UQxTty2hEnU.png?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "保創科技",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "POLYTRON",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "保創科技辦公空間結合防災應變中心，以高規格的技術需求為設計依據，兼顧指揮功能與日常辦公使用，空間機能複合，施工精度要求嚴格。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Office and disaster prevention command centre for Polytron-global. The dual-function space meets strict technical requirements for both everyday operations and emergency response.",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "保創科技｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "POLYTRON | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267468,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">保創科技辦公空間結合防災應變中心，以高規格的技術需求為設計依據，兼顧指揮功能與日常辦公使用，空間機能複合，施工精度要求嚴格。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2025</p><p dir=\"auto\"><strong>地點：</strong>台北南港</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>850 sqm</p><p dir=\"auto\"><strong>類型：</strong>科技辦公</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>設計視覺化</strong>｜本案圖片為設計視覺化，用於呈現空間構想，並非完工攝影。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">Office and disaster prevention command centre for Polytron-global. The dual-function space meets strict technical requirements for both everyday operations and emergency response.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2025</p><p dir=\"auto\"><strong>Location: </strong>Taipei Nangang</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>850 sqm</p><p dir=\"auto\"><strong>Category: </strong>Tech Office</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Design visualisation. These images communicate the spatial concept and are not completed-project photography.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2025",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2025",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北南港",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Nangang",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "850 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "850 sqm",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "科技辦公",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Tech Office",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "j3X8kTFlU",
+    "slug": "soup-spoon-101",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "7GxCbMGZOtOJk91UBYPIjEaezQ.jpg",
+          "url": "https://framerusercontent.com/images/7GxCbMGZOtOJk91UBYPIjEaezQ.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/7GxCbMGZOtOJk91UBYPIjEaezQ.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "EnJuo_h4w",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "7GxCbMGZOtOJk91UBYPIjEaezQ.jpg",
+                  "url": "https://framerusercontent.com/images/7GxCbMGZOtOJk91UBYPIjEaezQ.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/7GxCbMGZOtOJk91UBYPIjEaezQ.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "hJGzwR2X8",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "2cAMc2zPdFhfz7p3gxeYYcrWs.jpg",
+                  "url": "https://framerusercontent.com/images/2cAMc2zPdFhfz7p3gxeYYcrWs.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/2cAMc2zPdFhfz7p3gxeYYcrWs.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "匙碗湯 101 店",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "THE SOUP SPOON — TAIPEI 101",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "The Soup Spoon 台北 101 旗艦店設計施工，於台灣最高地標商場打造符合品牌質感的用餐環境，工程精度與施工速度並重。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Flagship fit-out for The Soup Spoon at Taipei 101 mall. HQ delivered a brand-coherent dining environment within the high-profile landmark, balancing quality and speed.",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "匙碗湯 101 店｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "THE SOUP SPOON — TAIPEI 101 | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">The Soup Spoon 台北 101 旗艦店設計施工，於台灣最高地標商場打造符合品牌質感的用餐環境，工程精度與施工速度並重。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2023</p><p dir=\"auto\"><strong>地點：</strong>台北 101</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>69 sqm</p><p dir=\"auto\"><strong>類型：</strong>餐飲空間</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>完工實景</strong>｜本案圖片為完工實景，選自目前公司簡介使用的專案影像。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">Flagship fit-out for The Soup Spoon at Taipei 101 mall. HQ delivered a brand-coherent dining environment within the high-profile landmark, balancing quality and speed.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2023</p><p dir=\"auto\"><strong>Location: </strong>Taipei 101</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>69 sqm</p><p dir=\"auto\"><strong>Category: </strong>F&amp;B</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Completed-project photography, selected from the current company-profile project imagery.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2023",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2023",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北 101",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei 101",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "69 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "69 sqm",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "餐飲空間",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "F&B",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "sGwCFva8P",
+    "slug": "qijia",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "noqgBiD6afvWykKuLDKV9UWWvbU.jpg",
+          "url": "https://framerusercontent.com/images/noqgBiD6afvWykKuLDKV9UWWvbU.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/noqgBiD6afvWykKuLDKV9UWWvbU.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "r8atv7yBs",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "noqgBiD6afvWykKuLDKV9UWWvbU.jpg",
+                  "url": "https://framerusercontent.com/images/noqgBiD6afvWykKuLDKV9UWWvbU.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/noqgBiD6afvWykKuLDKV9UWWvbU.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "LV_7rVI9V",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "lIzbuBskjCRM3DCcOc4RB9rEi4U.jpg",
+                  "url": "https://framerusercontent.com/images/lIzbuBskjCRM3DCcOc4RB9rEi4U.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/lIzbuBskjCRM3DCcOc4RB9rEi4U.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "起家雞台中",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "CHEOGAJIP — TAICHUNG",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "起家雞台中店餐飲空間設計施工，以韓式炸雞品牌風格為設計基調，呈現活潑品牌個性，並兼顧高效翻桌與舒適用餐體驗。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Interior design and construction for CHEOGAJIP in Taichung. The Korean fried chicken brand’s lively identity is expressed through the space, balancing efficient table turnover with a comfortable dining experience.",
+            "lastEdited": 1788744323059,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "起家雞台中｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "CHEOGAJIP — TAICHUNG | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">起家雞台中店餐飲空間設計施工，以韓式炸雞品牌風格為設計基調，呈現活潑品牌個性，並兼顧高效翻桌與舒適用餐體驗。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2024</p><p dir=\"auto\"><strong>地點：</strong>台中</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>700 sqm</p><p dir=\"auto\"><strong>類型：</strong>餐飲空間</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>完工實景</strong>｜本案圖片為完工實景，選自目前公司簡介使用的專案影像。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">Interior design and construction for CHEOGAJIP in Taichung. The Korean fried chicken brand’s lively identity is expressed through the space, balancing efficient table turnover with a comfortable dining experience.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\">Year: 2024</p><p dir=\"auto\">Location: Taichung</p><p dir=\"auto\">Scope: Full Design &amp; Build</p><p dir=\"auto\">Area: 700 sqm</p><p dir=\"auto\">Category: F&amp;B</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Completed-project photography, selected from the current company-profile project imagery.</p>",
+            "lastEdited": 1788744323059,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2024",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2024",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台中",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taichung",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "700 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "700 sqm",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "餐飲空間",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "F&B",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "xsLIU1Lqq",
+    "slug": "secom-nangang-complex",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "KxclrXd4GHC9Wa7QjRE851FL4TY.jpg",
+          "url": "https://framerusercontent.com/images/KxclrXd4GHC9Wa7QjRE851FL4TY.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/KxclrXd4GHC9Wa7QjRE851FL4TY.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "TyyM4Ig3y",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "KxclrXd4GHC9Wa7QjRE851FL4TY.jpg",
+                  "url": "https://framerusercontent.com/images/KxclrXd4GHC9Wa7QjRE851FL4TY.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/KxclrXd4GHC9Wa7QjRE851FL4TY.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "cwUCAhmkf",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "0IfPDhqSHEI5nXAmbZJXrQNs2nc.jpg",
+                  "url": "https://framerusercontent.com/images/0IfPDhqSHEI5nXAmbZJXrQNs2nc.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/0IfPDhqSHEI5nXAmbZJXrQNs2nc.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "中保集團總部",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "SECOM GROUP",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "中保集團總部專案由惠強室內裝修執行整合設計與施工交付。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Integrated interior design and construction delivery by HQ Design.",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "中保集團總部｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "SECOM GROUP | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">中保集團總部專案由惠強室內裝修執行整合設計與施工交付。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2025</p><p dir=\"auto\"><strong>地點：</strong>台北南港</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>5,940 sqm</p><p dir=\"auto\"><strong>類型：</strong>旗艦複合空間</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>完工實景</strong>｜本案圖片為完工實景，選自目前公司簡介使用的專案影像。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">Integrated interior design and construction delivery by HQ Design.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2025</p><p dir=\"auto\"><strong>Location: </strong>Taipei Nangang</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>5,940 sqm</p><p dir=\"auto\"><strong>Category: </strong>Flagship Complex · Multi-Tenant Design &amp; Build</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Completed-project photography, selected from the current company-profile project imagery.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2025",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2025",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北南港",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Nangang",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "5,940 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "5,940 sqm",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "旗艦複合空間",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Flagship Complex · Multi-Tenant Design & Build",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "NVJ1HpXZv",
+    "slug": "xinlan",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "4OY88rT8tSTaSkmhLUOnIb5r0ZY.jpg",
+          "url": "https://framerusercontent.com/images/4OY88rT8tSTaSkmhLUOnIb5r0ZY.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/4OY88rT8tSTaSkmhLUOnIb5r0ZY.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "hV9civS1n",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "4OY88rT8tSTaSkmhLUOnIb5r0ZY.jpg",
+                  "url": "https://framerusercontent.com/images/4OY88rT8tSTaSkmhLUOnIb5r0ZY.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/4OY88rT8tSTaSkmhLUOnIb5r0ZY.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "hGTHHTwNe",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "IsWnnLt9TM53KFEXxhnLTheZCY.jpg",
+                  "url": "https://framerusercontent.com/images/IsWnnLt9TM53KFEXxhnLTheZCY.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/IsWnnLt9TM53KFEXxhnLTheZCY.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "欣蘭企業",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "XINLAN ENTERPRISE",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "欣蘭企業 9 樓辦公空間設計施工，依據客戶的業務特性與團隊動線需求，規劃兼具專業感與使用效率的現代辦公環境。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "9th floor office fit-out for Xinlan Enterprise. The layout reflects the client's operational workflow, balancing open collaboration areas with focused workspaces.",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "欣蘭企業｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "XINLAN ENTERPRISE | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">欣蘭企業 9 樓辦公空間設計施工，依據客戶的業務特性與團隊動線需求，規劃兼具專業感與使用效率的現代辦公環境。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2025</p><p dir=\"auto\"><strong>地點：</strong>台北南港</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>350 sqm</p><p dir=\"auto\"><strong>類型：</strong>企業辦公</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>設計視覺化</strong>｜本案圖片為設計視覺化，用於呈現空間構想，並非完工攝影。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">9th floor office fit-out for Xinlan Enterprise. The layout reflects the client's operational workflow, balancing open collaboration areas with focused workspaces.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2025</p><p dir=\"auto\"><strong>Location: </strong>Taipei Nangang</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>350 sqm</p><p dir=\"auto\"><strong>Category: </strong>Corporate Office</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Design visualisation. These images communicate the spatial concept and are not completed-project photography.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2025",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2025",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北南港",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Nangang",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "350 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "350 sqm",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "企業辦公",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Corporate Office",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "dMlWFoKAe",
+    "slug": "soup-spoon-station",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "5dcKUrzYSeS81SIW9eVkL9hnXHo.jpg",
+          "url": "https://framerusercontent.com/images/5dcKUrzYSeS81SIW9eVkL9hnXHo.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/5dcKUrzYSeS81SIW9eVkL9hnXHo.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "gj8UYPd0y",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "5dcKUrzYSeS81SIW9eVkL9hnXHo.jpg",
+                  "url": "https://framerusercontent.com/images/5dcKUrzYSeS81SIW9eVkL9hnXHo.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/5dcKUrzYSeS81SIW9eVkL9hnXHo.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "V0VdokKZe",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "G0KGM9awnJWa5YN3oLnlrK3wVqw.jpg",
+                  "url": "https://framerusercontent.com/images/G0KGM9awnJWa5YN3oLnlrK3wVqw.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/G0KGM9awnJWa5YN3oLnlrK3wVqw.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "匙碗湯台北車站店",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "THE SOUP SPOON — TAIPEI MAIN STATION",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "The Soup Spoon 台北車站店設計施工，位於高人流交通樞紐，空間規劃強調快速翻桌動線與視覺識別，同時符合車站商場施工規範。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Fit-out for The Soup Spoon at Taipei Main Station. The high-traffic transit hub demanded fast-turnover circulation and strong brand visibility within strict mall construction standards.",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "匙碗湯台北車站店｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "THE SOUP SPOON — TAIPEI MAIN STATION | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">The Soup Spoon 台北車站店設計施工，位於高人流交通樞紐，空間規劃強調快速翻桌動線與視覺識別，同時符合車站商場施工規範。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2023</p><p dir=\"auto\"><strong>地點：</strong>台北車站</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>99 sqm</p><p dir=\"auto\"><strong>類型：</strong>餐飲空間</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>完工實景</strong>｜本案圖片為完工實景，選自目前公司簡介使用的專案影像。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">Fit-out for The Soup Spoon at Taipei Main Station. The high-traffic transit hub demanded fast-turnover circulation and strong brand visibility within strict mall construction standards.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2023</p><p dir=\"auto\"><strong>Location: </strong>Taipei Main Station</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>99 sqm</p><p dir=\"auto\"><strong>Category: </strong>F&amp;B</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Completed-project photography, selected from the current company-profile project imagery.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2023",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2023",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北車站",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Main Station",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "99 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "99 sqm",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "餐飲空間",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "F&B",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "QJ9ai98C3",
+    "slug": "zhongbao-baojing",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "l04p2V5LVXNXH6hoNf1rylKAsg8.jpg",
+          "url": "https://framerusercontent.com/images/l04p2V5LVXNXH6hoNf1rylKAsg8.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/l04p2V5LVXNXH6hoNf1rylKAsg8.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "kPbXVuE_p",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "l04p2V5LVXNXH6hoNf1rylKAsg8.jpg",
+                  "url": "https://framerusercontent.com/images/l04p2V5LVXNXH6hoNf1rylKAsg8.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/l04p2V5LVXNXH6hoNf1rylKAsg8.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "nXFRdxoWm",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "IJVARhV1KDiKqbXCvKxZ9NmYhl8.jpg",
+                  "url": "https://framerusercontent.com/images/IJVARhV1KDiKqbXCvKxZ9NmYhl8.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/IJVARhV1KDiKqbXCvKxZ9NmYhl8.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "中保保經",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "TAIWAN SECOM INSURANCE BROKERAGE SERVICES",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "中保科技旗下中保保經 11 樓辦公空間設計施工，延續中保集團一貫的穩重專業形象，以精準工法打造符合金融保險產業定位的辦公環境。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "11th floor fit-out for SECOM's insurance subsidiary. The design reflects the group's established brand identity — structured, professional and built to financial-sector standards.",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "中保保經｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "TAIWAN SECOM INSURANCE BROKERAGE SERVICES | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">中保科技旗下中保保經 11 樓辦公空間設計施工，延續中保集團一貫的穩重專業形象，以精準工法打造符合金融保險產業定位的辦公環境。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2025</p><p dir=\"auto\"><strong>地點：</strong>台北南港</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>200 sqm</p><p dir=\"auto\"><strong>類型：</strong>企業辦公</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>設計視覺化</strong>｜本案圖片為設計視覺化，用於呈現空間構想，並非完工攝影。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">11th floor fit-out for SECOM's insurance subsidiary. The design reflects the group's established brand identity — structured, professional and built to financial-sector standards.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2025</p><p dir=\"auto\"><strong>Location: </strong>Taipei Nangang</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>200 sqm</p><p dir=\"auto\"><strong>Category: </strong>Corporate Office</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Design visualisation. These images communicate the spatial concept and are not completed-project photography.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2025",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2025",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北南港",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Nangang",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "200 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "200 sqm",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "企業辦公",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Corporate Office",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "fSVNWDyzw",
+    "slug": "zhongbao-jingzhen",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "zTZ8FR69IXMIhiA2zTeZJ43OBQ.jpg",
+          "url": "https://framerusercontent.com/images/zTZ8FR69IXMIhiA2zTeZJ43OBQ.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/zTZ8FR69IXMIhiA2zTeZJ43OBQ.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "D67Cmyb_c",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "zTZ8FR69IXMIhiA2zTeZJ43OBQ.jpg",
+                  "url": "https://framerusercontent.com/images/zTZ8FR69IXMIhiA2zTeZJ43OBQ.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/zTZ8FR69IXMIhiA2zTeZJ43OBQ.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "MAufqtoSz",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "W9HcQclW1p51pnka0rahkFh8dMk.jpg",
+                  "url": "https://framerusercontent.com/images/W9HcQclW1p51pnka0rahkFh8dMk.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/W9HcQclW1p51pnka0rahkFh8dMk.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "京琠科技",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "JINGTIAN TECHNOLOGY",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "京琠科技 9 樓辦公空間設計施工，以科技產業的簡潔俐落為基調，呈現現代專業的工作場域氛圍。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "9th floor fit-out for Jingzhen Technology. Clean, contemporary lines support a high-efficiency workspace aligned with the tech sector's demands.",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "京琠科技｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "JINGTIAN TECHNOLOGY | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">京琠科技 9 樓辦公空間設計施工，以科技產業的簡潔俐落為基調，呈現現代專業的工作場域氛圍。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2025</p><p dir=\"auto\"><strong>地點：</strong>台北南港</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>250 sqm</p><p dir=\"auto\"><strong>類型：</strong>企業辦公</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>設計視覺化</strong>｜本案圖片為設計視覺化，用於呈現空間構想，並非完工攝影。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">9th floor fit-out for Jingzhen Technology. Clean, contemporary lines support a high-efficiency workspace aligned with the tech sector's demands.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2025</p><p dir=\"auto\"><strong>Location: </strong>Taipei Nangang</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>250 sqm</p><p dir=\"auto\"><strong>Category: </strong>Corporate Office</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Design visualisation. These images communicate the spatial concept and are not completed-project photography.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2025",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2025",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北南港",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Nangang",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "250 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "250 sqm",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "企業辦公",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Corporate Office",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "hzqbYpuxY",
+    "slug": "zhongbao-showroom",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "obw2lw5SjSd9Beu11Fz4xGJgPw.jpg",
+          "url": "https://framerusercontent.com/images/obw2lw5SjSd9Beu11Fz4xGJgPw.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/obw2lw5SjSd9Beu11Fz4xGJgPw.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "Ykko7ICjZ",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "obw2lw5SjSd9Beu11Fz4xGJgPw.jpg",
+                  "url": "https://framerusercontent.com/images/obw2lw5SjSd9Beu11Fz4xGJgPw.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/obw2lw5SjSd9Beu11Fz4xGJgPw.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "lZA5w6mqV",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "fDApkJWaMvnDwcRLm0hPA8SJyUw.jpg",
+                  "url": "https://framerusercontent.com/images/fDApkJWaMvnDwcRLm0hPA8SJyUw.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/fDApkJWaMvnDwcRLm0hPA8SJyUw.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "中保科技展示廳",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "SECOM TECHNOLOGY HALL",
+            "lastEdited": 1788744267469,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "中保集團品牌展示廳設計施工專案，以沉浸式空間體驗呈現智慧安防技術與企業形象，融合科技感與品牌識別，打造符合企業定位的旗艦展示空間。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Brand exhibition hall for SECOM Group. The space combines immersive experience design with smart security technology showcases, creating a flagship venue aligned with the group's corporate identity.",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "中保科技展示廳｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "SECOM TECHNOLOGY HALL | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">中保集團品牌展示廳設計施工專案，以沉浸式空間體驗呈現智慧安防技術與企業形象，融合科技感與品牌識別，打造符合企業定位的旗艦展示空間。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2025</p><p dir=\"auto\"><strong>地點：</strong>台北南港</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>331 sqm</p><p dir=\"auto\"><strong>類型：</strong>展覽展示空間</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>設計視覺化</strong>｜本案圖片為設計視覺化，用於呈現空間構想，並非完工攝影。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">Brand exhibition hall for SECOM Group. The space combines immersive experience design with smart security technology showcases, creating a flagship venue aligned with the group's corporate identity.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2025</p><p dir=\"auto\"><strong>Location: </strong>Taipei Nangang</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>331 sqm</p><p dir=\"auto\"><strong>Category: </strong>Exhibition Hall</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Design visualisation. These images communicate the spatial concept and are not completed-project photography.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2025",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2025",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北南港",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Nangang",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "331 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "331 sqm",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "展覽展示空間",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Exhibition Hall",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "K76k5V40u",
+    "slug": "zhongbao-tianhe",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "CIdbJP6DyYMHRjUCSlIMwfYQ.jpg",
+          "url": "https://framerusercontent.com/images/CIdbJP6DyYMHRjUCSlIMwfYQ.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/CIdbJP6DyYMHRjUCSlIMwfYQ.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "iwx2cmpwM",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "CIdbJP6DyYMHRjUCSlIMwfYQ.jpg",
+                  "url": "https://framerusercontent.com/images/CIdbJP6DyYMHRjUCSlIMwfYQ.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/CIdbJP6DyYMHRjUCSlIMwfYQ.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "pFcLVlMj2",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "MlVBdqegMzYGgZDvpLEgwN43Y.jpg",
+                  "url": "https://framerusercontent.com/images/MlVBdqegMzYGgZDvpLEgwN43Y.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/MlVBdqegMzYGgZDvpLEgwN43Y.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "天河電訊",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "ESKYLINK",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "天河電訊 9 樓辦公空間設計施工，以電信科技產業特性為設計出發，整合開放協作與獨立作業需求，打造高效能的現代辦公環境。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "9th floor fit-out for Tianhe Telecom. The design balances open collaboration and focused work zones, reflecting the operational needs of a telecoms business.",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "天河電訊｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "ESKYLINK | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">天河電訊 9 樓辦公空間設計施工，以電信科技產業特性為設計出發，整合開放協作與獨立作業需求，打造高效能的現代辦公環境。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2025</p><p dir=\"auto\"><strong>地點：</strong>台北南港</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>350 sqm</p><p dir=\"auto\"><strong>類型：</strong>企業辦公</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>設計視覺化</strong>｜本案圖片為設計視覺化，用於呈現空間構想，並非完工攝影。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">9th floor fit-out for Tianhe Telecom. The design balances open collaboration and focused work zones, reflecting the operational needs of a telecoms business.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2025</p><p dir=\"auto\"><strong>Location: </strong>Taipei Nangang</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>350 sqm</p><p dir=\"auto\"><strong>Category: </strong>Corporate Office</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Design visualisation. These images communicate the spatial concept and are not completed-project photography.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2025",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2025",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北南港",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Taipei Nangang",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "350 sqm",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "350 sqm",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "企業辦公",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Corporate Office",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "oe6RY_gZV",
+    "slug": "zhongbao-nangang",
+    "draft": false,
+    "fieldData": {
+      "rTXTpRgl1": {
+        "type": "image",
+        "value": {
+          "id": "wreac2B7tLWRyZvRpEGqb5gPtUA.jpg",
+          "url": "https://framerusercontent.com/images/wreac2B7tLWRyZvRpEGqb5gPtUA.jpg",
+          "thumbnailUrl": "https://framerusercontent.com/images/wreac2B7tLWRyZvRpEGqb5gPtUA.jpg?scale-down-to=512",
+          "resolution": "auto"
+        }
+      },
+      "yIT6pjNEK": {
+        "type": "array",
+        "value": [
+          {
+            "id": "nB1lYxpQW",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "wreac2B7tLWRyZvRpEGqb5gPtUA.jpg",
+                  "url": "https://framerusercontent.com/images/wreac2B7tLWRyZvRpEGqb5gPtUA.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/wreac2B7tLWRyZvRpEGqb5gPtUA.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          },
+          {
+            "id": "c1nUkrxQ2",
+            "fieldData": {
+              "ucye9moEF": {
+                "type": "image",
+                "value": {
+                  "id": "f2LVWZ9hCjK2x7wqdtV5Xp6XCA.jpg",
+                  "url": "https://framerusercontent.com/images/f2LVWZ9hCjK2x7wqdtV5Xp6XCA.jpg",
+                  "thumbnailUrl": "https://framerusercontent.com/images/f2LVWZ9hCjK2x7wqdtV5Xp6XCA.jpg?scale-down-to=512",
+                  "resolution": "auto"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "N3RhcSzvj": {
+        "type": "string",
+        "value": "中保南港大樓",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "SECOM NANGANG COMPLEX",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "vejOa_CI5": {
+        "type": "string",
+        "value": "中保集團南港辦公大樓多戶統包專案，單棟涵蓋多家子公司與進駐企業，分層分區同步施工，確保各租戶營運不中斷。惠強以完整設計施工整合能力，統籌規劃 9F–11F 共 6 個獨立辦公空間。",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "A multi-tenant design &amp; build project within SECOM Group's Nangang headquarters tower. HQ managed simultaneous fit-outs across floors 9–11 for six independent tenants, delivering each space without disrupting the others.",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "NTj6Wqkga": {
+        "type": "string",
+        "value": "中保南港大樓｜空間策略與交付",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "SECOM NANGANG COMPLEX | Spatial Strategy & Delivery",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "dCPdaxOG_": {
+        "type": "formattedText",
+        "value": "<p dir=\"auto\">中保集團南港辦公大樓多戶統包專案，單棟涵蓋多家子公司與進駐企業，分層分區同步施工，確保各租戶營運不中斷。惠強以完整設計施工整合能力，統籌規劃 9F–11F 共 6 個獨立辦公空間。</p><h3 dir=\"auto\">專案資料</h3><p dir=\"auto\"><strong>年份：</strong>2025</p><p dir=\"auto\"><strong>地點：</strong>台北南港</p><p dir=\"auto\"><strong>服務範圍：</strong>統包設計施工</p><p dir=\"auto\"><strong>面積：</strong>Six tenant workplaces · Floors 9–11</p><p dir=\"auto\"><strong>類型：</strong>企業辦公</p><h3 dir=\"auto\">影像來源說明</h3><p dir=\"auto\"><strong>完工實景</strong>｜本案圖片為完工實景，選自目前公司簡介使用的專案影像。</p>",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "<p dir=\"auto\">A multi-tenant design &amp; build project within SECOM Group's Nangang headquarters tower. HQ managed simultaneous fit-outs across floors 9–11 for six independent tenants, delivering each space without disrupting the others.</p><h3 dir=\"auto\">Project Details</h3><p dir=\"auto\"><strong>Year: </strong>2025</p><p dir=\"auto\"><strong>Location: </strong>SECOM Group Tower, Taipei Nangang</p><p dir=\"auto\"><strong>Scope: </strong>Full Design &amp; Build</p><p dir=\"auto\"><strong>Area: </strong>Six tenant workplaces · Floors 9–11</p><p dir=\"auto\"><strong>Category: </strong>Corporate Office</p><h3 dir=\"auto\">Image Reference</h3><p dir=\"auto\">Completed-project photography, selected from the current company-profile project imagery.</p>",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "PQ_RrtUW2": {
+        "type": "string",
+        "value": "2025",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "2025",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "uc7CQSEk5": {
+        "type": "string",
+        "value": "台北南港",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "SECOM Group Tower, Taipei Nangang",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "yHSinaN7g": {
+        "type": "string",
+        "value": "統包設計施工",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Full Design & Build",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      },
+      "hjPEZX02f": {
+        "type": "string",
+        "value": "Six tenant workplaces · Floors 9–11",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Six tenant workplaces · Floors 9–11",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "done"
+          }
+        }
+      },
+      "H9NRFCkaf": {
+        "type": "string",
+        "value": "企業辦公",
+        "valueByLocale": {
+          "G8MIkQXH2": {
+            "value": "Corporate Office",
+            "lastEdited": 1788744267470,
+            "readonly": false,
+            "status": "needsReview"
+          }
+        }
+      }
+    }
+  }
+]

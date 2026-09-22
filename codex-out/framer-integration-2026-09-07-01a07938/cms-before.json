@@ -1,0 +1,1482 @@
+{
+  "capturedAt": "2026-09-07",
+  "message": "Retrieved 21 of 21 item(s) from collection \"Projects\"",
+  "pagination": {
+    "total": 21,
+    "skip": 0,
+    "limit": 100,
+    "returned": 21
+  },
+  "items": [
+    {
+      "id": "MpbgR_s8K",
+      "slug": "csun",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/tGyqyUTKe3ezVR1U29txHL89tfA.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "bmpswWY6S",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/tGyqyUTKe3ezVR1U29txHL89tfA.jpg"
+                }
+              }
+            },
+            {
+              "id": "b5zVAKc3H",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/9Z89iKtH309HkiGpFtoWXr7DhdE.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "志聖工業｜C.SUN INDUSTRIAL"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "志聖工業辦公空間以企業規模與品牌形象為核心，兼顧管理階層需求、團隊動線與施工整合。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "志聖工業｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">志聖工業辦公空間以企業規模與品牌形象為核心，兼顧管理階層需求、團隊動線與施工整合。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">C.SUN Industrial’s workplace translates the scale and discipline of a listed Taiwanese manufacturer into a clear, efficient office environment. Executive spaces, team circulation and brand expression are coordinated through an integrated design-and-build approach.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">The hero and gallery images follow the current Figma company-profile selection. Image type: <strong>Design visualisation</strong>; these images are reference visuals rather than completed-project photography.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2026"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北南港｜Taipei Nangang"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "711 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "企業辦公｜Corporate Office"
+        }
+      }
+    },
+    {
+      "id": "bQ1GWwHHo",
+      "slug": "baohua",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/QO1okSkN64uQjqQHoZem6bs1LLk.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "Pgese_EoP",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/QO1okSkN64uQjqQHoZem6bs1LLk.jpg"
+                }
+              }
+            },
+            {
+              "id": "aSqCtyelG",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/Wy9NRdxD1qUxClI1MsUpl6T0jws.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "保華資安｜BAOHUA CYBERSECURITY"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "保華資安 11 樓辦公空間設計施工，以資安產業的專業形象為設計出發點，融合穩重、精準的空間語彙，打造符合企業定位的工作環境。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "保華資安｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">保華資安 11 樓辦公空間設計施工，以資安產業的專業形象為設計出發點，融合穩重、精準的空間語彙，打造符合企業定位的工作環境。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">11th floor fit-out for a cybersecurity firm. The design reflects the client's brand of precision and trust — clean lines, measured materiality and a workspace that communicates expertise.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Official HQ Design project library; no dedicated current Figma case page. Image type: <strong>Design visualisation</strong>. These images are reference visuals rather than completed-project photography.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2025"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北南港｜Taipei Nangang"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "350 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "企業辦公｜Corporate Office"
+        }
+      }
+    },
+    {
+      "id": "E9BK28UNp",
+      "slug": "hq-office",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/3pvu84fkAd39n5gjGIsHOD7MbUU.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "MPRYAO5d0",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/3pvu84fkAd39n5gjGIsHOD7MbUU.jpg"
+                }
+              }
+            },
+            {
+              "id": "EmDKSTDCq",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/ufWVHKQjmHhx9ZuMPPgKkXkm7P0.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "惠強室內裝修｜HQ DESIGN & BUILD"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "惠強室內裝修自建辦公室與材料展示空間，以 31 年設計施工積累的工藝能量為展示主軸，整合辦公、接待與材料樣品區，呈現品牌完整服務能力。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "惠強室內裝修｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">惠強室內裝修自建辦公室與材料展示空間，以 31 年設計施工積累的工藝能量為展示主軸，整合辦公、接待與材料樣品區，呈現品牌完整服務能力。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">HQ's own office and showroom, purpose-built to demonstrate 31+ Years of design-build craftsmanship. The space integrates working offices, client reception and material sample zones into one cohesive brand experience.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>AI-enhanced project photography</strong>. The images differ from the original project photographs and require editorial review before public release.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2025"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北南港經貿二路 135 號 9F｜Taipei Nangang, 9F"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "165 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "辦公與展示空間｜Office & Showroom"
+        }
+      }
+    },
+    {
+      "id": "iel6Ad0ZF",
+      "slug": "aiontech",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/k1pIDUOpdYoKYBPIe6HODZWVA.png"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "ogZNb4Q7g",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/k1pIDUOpdYoKYBPIe6HODZWVA.png"
+                }
+              }
+            },
+            {
+              "id": "Ea9DUJZEb",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/nKlJq9xtSjjLeR3MExj8ajO5XaM.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "博訊科技｜AIONTECH"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "博訊科技與史詩科技聯合辦公空間，以開放協作為核心設計理念，融入品牌視覺語言，打造兼具靈活性與科技感的現代工作環境。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "博訊科技｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">博訊科技與史詩科技聯合辦公空間，以開放協作為核心設計理念，融入品牌視覺語言，打造兼具靈活性與科技感的現代工作環境。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">Combined workspace for AIONTECH and Epicstech. The design prioritises open collaboration zones, brand-forward interiors and flexible layouts suited to fast-growing tech teams.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Design visualisation</strong>. These images are reference visuals rather than completed-project photography.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2025"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北南港｜Taipei Nangang"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "825 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "科技辦公｜Tech Office"
+        }
+      }
+    },
+    {
+      "id": "FwV_uduCs",
+      "slug": "epicstech-10f",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/FpJyvYkvFJcEMFXXoH3qW1QMuhA.png"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "zizbBdVxn",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/FpJyvYkvFJcEMFXXoH3qW1QMuhA.png"
+                }
+              }
+            },
+            {
+              "id": "xHTlnZmEq",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/5buP2R8tBzfvRUnZqEzJJRkAlQ.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "史詩科技｜EPIC TECH TAIWAN"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "史詩科技 10 樓辦公空間翻新專案，以精準的空間配置與品牌色系整合，打造高效能現代辦公環境，施工期間維持正常營運。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "史詩科技｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">史詩科技 10 樓辦公空間翻新專案，以精準的空間配置與品牌色系整合，打造高效能現代辦公環境，施工期間維持正常營運。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">10th floor office renovation for Epicstech. Precision zoning and brand-aligned interiors deliver a high-performance workspace — completed without disrupting day-to-day operations.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Design visualisation</strong>. These images are reference visuals rather than completed-project photography.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2025"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北南港｜Taipei Nangang"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "165 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "企業辦公｜Corporate Office"
+        }
+      }
+    },
+    {
+      "id": "WPMuwsPqs",
+      "slug": "kimpton",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/NTIjEisbsRHgci98bCVVpG7No.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "sfJHezKsd",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/NTIjEisbsRHgci98bCVVpG7No.jpg"
+                }
+              }
+            },
+            {
+              "id": "TpEGfmKm7",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/IRZm5Q8SZkC3iJ5HUiHyMrzTDoo.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "金普頓大安酒店｜KIMPTON DA AN HOTEL"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "台北大安 Kimpton Da An Hotel 國際飯店裝修工程，由惠強承攬公共區域與客房走廊施工，以精細木作與品牌美學呈現國際精品飯店水準。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "金普頓大安酒店｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">台北大安 Kimpton Da An Hotel 國際飯店裝修工程，由惠強承攬公共區域與客房走廊施工，以精細木作與品牌美學呈現國際精品飯店水準。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">Interior fit-out for Kimpton Da An Hotel, Taipei. HQ delivered public area and corridor works, combining refined joinery with the brand's warm, design-led aesthetic.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Completed-project photography</strong>.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2022"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北大安｜Taipei Da’an"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "公共區域、客房走廊｜Interior Fit-out Delivery"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "331 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "旅宿空間｜Hospitality"
+        }
+      }
+    },
+    {
+      "id": "PRstgeyUp",
+      "slug": "liwei",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/H0SUpSTW1DmcOOBP6A0KM2vtRyY.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "uVB9hbw0N",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/H0SUpSTW1DmcOOBP6A0KM2vtRyY.jpg"
+                }
+              }
+            },
+            {
+              "id": "hN90Cm6gO",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/sNcvzBLOCS3qxiuuMZGauyR2KPw.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "立偉電子｜LIWEI ELECTRONICS"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "立偉電子 9 樓辦公室翻新，以電子產業的精密工藝為設計靈感，呈現技術導向企業的專業形象，動線規劃符合產品研發與業務協作需求。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "立偉電子｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">立偉電子 9 樓辦公室翻新，以電子產業的精密工藝為設計靈感，呈現技術導向企業的專業形象，動線規劃符合產品研發與業務協作需求。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">9th floor office renovation for Liwei Electronics. Inspired by the precision of the electronics industry, the space projects technical expertise while supporting both R&amp;D and business collaboration.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Design visualisation</strong>. These images are reference visuals rather than completed-project photography.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2025"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北南港｜Taipei Nangang"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "350 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "企業辦公｜Corporate Office"
+        }
+      }
+    },
+    {
+      "id": "fExXX69mo",
+      "slug": "lijie",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/2NrRSspaN9cHOtN7B8EiRzunIc.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "EBXeceVQ1",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/2NrRSspaN9cHOtN7B8EiRzunIc.jpg"
+                }
+              }
+            },
+            {
+              "id": "IWjIvu_Db",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/7bRKsDKysUN7jygzPLZ33iqFU.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "立捷國際｜LIJIE INTERNATIONAL"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "立捷國際 9 樓辦公空間，以國際商務形象為設計基調，空間配置兼顧接待洽談與內部辦公功能，呈現企業的專業與開放文化。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "立捷國際｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">立捷國際 9 樓辦公空間，以國際商務形象為設計基調，空間配置兼顧接待洽談與內部辦公功能，呈現企業的專業與開放文化。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">9th floor fit-out for Lijie International. The space balances a professional reception and meeting front-of-house with efficient back-office layouts, projecting the client's international business identity.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Design visualisation</strong>. These images are reference visuals rather than completed-project photography.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2024"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北南港｜Taipei Nangang"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "99 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "企業辦公｜Corporate Office"
+        }
+      }
+    },
+    {
+      "id": "HycAZ87uJ",
+      "slug": "ledaojia",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/0qS2Q1McMHBFauO8klNpEJzkO9A.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "YPHSAH4Nz",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/0qS2Q1McMHBFauO8klNpEJzkO9A.jpg"
+                }
+              }
+            },
+            {
+              "id": "tpGuhhLVp",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/nqnMF8U495B9dddS25W0DW4TI.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "樂到家國際娛樂｜LOTS HOME ENTERTAINMENT"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "樂到家國際娛樂 9 樓辦公空間設計施工，以娛樂產業的活潑創意為調性，在專業辦公格局中注入品牌個性與空間活力。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "樂到家國際娛樂｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">樂到家國際娛樂 9 樓辦公空間設計施工，以娛樂產業的活潑創意為調性，在專業辦公格局中注入品牌個性與空間活力。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">9th floor fit-out for an international entertainment company. The design brings brand personality and creative energy into a professional office framework.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Design visualisation</strong>. These images are reference visuals rather than completed-project photography.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2025"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北南港｜Taipei Nangang"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "50 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "企業辦公｜Corporate Office"
+        }
+      }
+    },
+    {
+      "id": "rBqncwq1X",
+      "slug": "popeyes",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/e5AfGdSn5acMNA32wQkzG18jfk.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "Tcow37WPK",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/e5AfGdSn5acMNA32wQkzG18jfk.jpg"
+                }
+              }
+            },
+            {
+              "id": "tn48bU0FN",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/F84lWhapjxkdDCR2B7YCC4n4uD4.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "大力水手許昌店｜POPEYES — XUCHANG"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "Popeyes 許昌店餐飲空間設計施工，以美式炸雞品牌識別為核心，規劃符合高翻桌率的高效動線，兼顧品牌個性與施工精度。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "大力水手許昌店｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">Popeyes 許昌店餐飲空間設計施工，以美式炸雞品牌識別為核心，規劃符合高翻桌率的高效動線，兼顧品牌個性與施工精度。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">Interior fit-out for Popeyes Xuchang Street, Taipei. The design captures the brand's American identity while maximising throughput with an efficient circulation plan.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Completed-project photography</strong>.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2024"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北許昌街｜Xuchang Street, Taipei"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "170 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "餐飲空間｜F&B"
+        }
+      }
+    },
+    {
+      "id": "dqNXpK_kD",
+      "slug": "polytron",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/tRQygpOuJzEBxE68WRN6hLewsA.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "Ks8i__9Se",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/tRQygpOuJzEBxE68WRN6hLewsA.jpg"
+                }
+              }
+            },
+            {
+              "id": "meiWNdEYT",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/Akqe5z06tjoLIJu0UQxTty2hEnU.png"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "保創科技｜POLYTRON"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "保創科技辦公空間結合防災應變中心，以高規格的技術需求為設計依據，兼顧指揮功能與日常辦公使用，空間機能複合，施工精度要求嚴格。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "保創科技｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">保創科技辦公空間結合防災應變中心，以高規格的技術需求為設計依據，兼顧指揮功能與日常辦公使用，空間機能複合，施工精度要求嚴格。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">Office and disaster prevention command centre for Polytron-global. The dual-function space meets strict technical requirements for both everyday operations and emergency response.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Design visualisation</strong>. These images are reference visuals rather than completed-project photography.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2025"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北南港｜Taipei Nangang"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "850 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "科技辦公｜Tech Office"
+        }
+      }
+    },
+    {
+      "id": "j3X8kTFlU",
+      "slug": "soup-spoon-101",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/7GxCbMGZOtOJk91UBYPIjEaezQ.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "EnJuo_h4w",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/7GxCbMGZOtOJk91UBYPIjEaezQ.jpg"
+                }
+              }
+            },
+            {
+              "id": "hJGzwR2X8",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/2cAMc2zPdFhfz7p3gxeYYcrWs.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "匙碗湯 101 店｜THE SOUP SPOON — TAIPEI 101"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "The Soup Spoon 台北 101 旗艦店設計施工，於台灣最高地標商場打造符合品牌質感的用餐環境，工程精度與施工速度並重。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "匙碗湯 101 店｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">The Soup Spoon 台北 101 旗艦店設計施工，於台灣最高地標商場打造符合品牌質感的用餐環境，工程精度與施工速度並重。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">Flagship fit-out for The Soup Spoon at Taipei 101 mall. HQ delivered a brand-coherent dining environment within the high-profile landmark, balancing quality and speed.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Completed-project photography</strong>.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2023"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北 101｜Taipei 101"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "69 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "餐飲空間｜F&B"
+        }
+      }
+    },
+    {
+      "id": "sGwCFva8P",
+      "slug": "qijia",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/noqgBiD6afvWykKuLDKV9UWWvbU.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "r8atv7yBs",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/noqgBiD6afvWykKuLDKV9UWWvbU.jpg"
+                }
+              }
+            },
+            {
+              "id": "LV_7rVI9V",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/lIzbuBskjCRM3DCcOc4RB9rEi4U.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "起家雞台中｜CHEOGAJIP — TAICHUNG"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "起家雞台中店餐飲空間設計施工，以韓式炸雞品牌風格為設計基調，呈現活潑品牌個性，並兼顧高效翻桌與舒適用餐體驗。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "起家雞台中｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">起家雞台中店餐飲空間設計施工，以韓式炸雞品牌風格為設計基調，呈現活潑品牌個性，並兼顧高效翻桌與舒適用餐體驗。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">Interior fit-out for Chicken Up (起家雞) in Taichung. The Korean fried chicken brand's vibrant identity is expressed through bold finishes while maintaining efficient table turnover.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Completed-project photography</strong>.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2024"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台中｜Taichung"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "700 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "餐飲空間｜F&B"
+        }
+      }
+    },
+    {
+      "id": "xsLIU1Lqq",
+      "slug": "secom-nangang-complex",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/KxclrXd4GHC9Wa7QjRE851FL4TY.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "TyyM4Ig3y",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/KxclrXd4GHC9Wa7QjRE851FL4TY.jpg"
+                }
+              }
+            },
+            {
+              "id": "cwUCAhmkf",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/0IfPDhqSHEI5nXAmbZJXrQNs2nc.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "中保集團總部｜SECOM GROUP"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "中保集團總部專案由惠強室內裝修執行整合設計與施工交付。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "中保集團總部｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">中保集團總部專案由惠強室內裝修執行整合設計與施工交付。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">Integrated interior design and construction delivery by HQ Design.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Completed-project photography</strong>.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2025"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北南港｜Taipei Nangang"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "5,940 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "旗艦複合空間｜Flagship Complex · Multi-Tenant Design & Build"
+        }
+      }
+    },
+    {
+      "id": "NVJ1HpXZv",
+      "slug": "xinlan",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/4OY88rT8tSTaSkmhLUOnIb5r0ZY.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "hV9civS1n",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/4OY88rT8tSTaSkmhLUOnIb5r0ZY.jpg"
+                }
+              }
+            },
+            {
+              "id": "hGTHHTwNe",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/IsWnnLt9TM53KFEXxhnLTheZCY.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "欣蘭企業｜XINLAN ENTERPRISE"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "欣蘭企業 9 樓辦公空間設計施工，依據客戶的業務特性與團隊動線需求，規劃兼具專業感與使用效率的現代辦公環境。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "欣蘭企業｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">欣蘭企業 9 樓辦公空間設計施工，依據客戶的業務特性與團隊動線需求，規劃兼具專業感與使用效率的現代辦公環境。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">9th floor office fit-out for Xinlan Enterprise. The layout reflects the client's operational workflow, balancing open collaboration areas with focused workspaces.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Design visualisation</strong>. These images are reference visuals rather than completed-project photography.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2025"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北南港｜Taipei Nangang"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "350 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "企業辦公｜Corporate Office"
+        }
+      }
+    },
+    {
+      "id": "dMlWFoKAe",
+      "slug": "soup-spoon-station",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/5dcKUrzYSeS81SIW9eVkL9hnXHo.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "gj8UYPd0y",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/5dcKUrzYSeS81SIW9eVkL9hnXHo.jpg"
+                }
+              }
+            },
+            {
+              "id": "V0VdokKZe",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/G0KGM9awnJWa5YN3oLnlrK3wVqw.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "匙碗湯台北車站店｜THE SOUP SPOON — TAIPEI MAIN STATION"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "The Soup Spoon 台北車站店設計施工，位於高人流交通樞紐，空間規劃強調快速翻桌動線與視覺識別，同時符合車站商場施工規範。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "匙碗湯台北車站店｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">The Soup Spoon 台北車站店設計施工，位於高人流交通樞紐，空間規劃強調快速翻桌動線與視覺識別，同時符合車站商場施工規範。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">Fit-out for The Soup Spoon at Taipei Main Station. The high-traffic transit hub demanded fast-turnover circulation and strong brand visibility within strict mall construction standards.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Official HQ Design project library; no dedicated current Figma case page. Image type: <strong>Completed-project photography</strong>.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2023"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北車站｜Taipei Main Station"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "99 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "餐飲空間｜F&B"
+        }
+      }
+    },
+    {
+      "id": "QJ9ai98C3",
+      "slug": "zhongbao-baojing",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/l04p2V5LVXNXH6hoNf1rylKAsg8.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "kPbXVuE_p",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/l04p2V5LVXNXH6hoNf1rylKAsg8.jpg"
+                }
+              }
+            },
+            {
+              "id": "nXFRdxoWm",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/IJVARhV1KDiKqbXCvKxZ9NmYhl8.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "中保保經｜TAIWAN SECOM INSURANCE BROKERAGE SERVICES"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "中保科技旗下中保保經 11 樓辦公空間設計施工，延續中保集團一貫的穩重專業形象，以精準工法打造符合金融保險產業定位的辦公環境。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "中保保經｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">中保科技旗下中保保經 11 樓辦公空間設計施工，延續中保集團一貫的穩重專業形象，以精準工法打造符合金融保險產業定位的辦公環境。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">11th floor fit-out for SECOM's insurance subsidiary. The design reflects the group's established brand identity — structured, professional and built to financial-sector standards.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Design visualisation</strong>. These images are reference visuals rather than completed-project photography.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2025"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北南港｜Taipei Nangang"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "200 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "企業辦公｜Corporate Office"
+        }
+      }
+    },
+    {
+      "id": "fSVNWDyzw",
+      "slug": "zhongbao-jingzhen",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/zTZ8FR69IXMIhiA2zTeZJ43OBQ.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "D67Cmyb_c",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/zTZ8FR69IXMIhiA2zTeZJ43OBQ.jpg"
+                }
+              }
+            },
+            {
+              "id": "MAufqtoSz",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/W9HcQclW1p51pnka0rahkFh8dMk.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "京琠科技｜JINGTIAN TECHNOLOGY"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "京琠科技 9 樓辦公空間設計施工，以科技產業的簡潔俐落為基調，呈現現代專業的工作場域氛圍。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "京琠科技｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">京琠科技 9 樓辦公空間設計施工，以科技產業的簡潔俐落為基調，呈現現代專業的工作場域氛圍。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">9th floor fit-out for Jingzhen Technology. Clean, contemporary lines support a high-efficiency workspace aligned with the tech sector's demands.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Design visualisation</strong>. These images are reference visuals rather than completed-project photography.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2025"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北南港｜Taipei Nangang"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "250 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "企業辦公｜Corporate Office"
+        }
+      }
+    },
+    {
+      "id": "hzqbYpuxY",
+      "slug": "zhongbao-showroom",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/obw2lw5SjSd9Beu11Fz4xGJgPw.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "Ykko7ICjZ",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/obw2lw5SjSd9Beu11Fz4xGJgPw.jpg"
+                }
+              }
+            },
+            {
+              "id": "lZA5w6mqV",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/fDApkJWaMvnDwcRLm0hPA8SJyUw.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "中保科技展示廳｜SECOM TECHNOLOGY HALL"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "中保集團品牌展示廳設計施工專案，以沉浸式空間體驗呈現智慧安防技術與企業形象，融合科技感與品牌識別，打造符合企業定位的旗艦展示空間。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "中保科技展示廳｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">中保集團品牌展示廳設計施工專案，以沉浸式空間體驗呈現智慧安防技術與企業形象，融合科技感與品牌識別，打造符合企業定位的旗艦展示空間。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">Brand exhibition hall for SECOM Group. The space combines immersive experience design with smart security technology showcases, creating a flagship venue aligned with the group's corporate identity.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Design visualisation</strong>. These images are reference visuals rather than completed-project photography.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2025"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北南港｜Taipei Nangang"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "331 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "展覽展示空間｜Exhibition Hall"
+        }
+      }
+    },
+    {
+      "id": "K76k5V40u",
+      "slug": "zhongbao-tianhe",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/CIdbJP6DyYMHRjUCSlIMwfYQ.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "iwx2cmpwM",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/CIdbJP6DyYMHRjUCSlIMwfYQ.jpg"
+                }
+              }
+            },
+            {
+              "id": "pFcLVlMj2",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/MlVBdqegMzYGgZDvpLEgwN43Y.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "天河電訊｜ESKYLINK"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "天河電訊 9 樓辦公空間設計施工，以電信科技產業特性為設計出發，整合開放協作與獨立作業需求，打造高效能的現代辦公環境。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "天河電訊｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">天河電訊 9 樓辦公空間設計施工，以電信科技產業特性為設計出發，整合開放協作與獨立作業需求，打造高效能的現代辦公環境。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">9th floor fit-out for Tianhe Telecom. The design balances open collaboration and focused work zones, reflecting the operational needs of a telecoms business.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Design visualisation</strong>. These images are reference visuals rather than completed-project photography.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2025"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北南港｜Taipei Nangang"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "350 sqm"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "企業辦公｜Corporate Office"
+        }
+      }
+    },
+    {
+      "id": "oe6RY_gZV",
+      "slug": "zhongbao-nangang",
+      "draft": false,
+      "fieldData": {
+        "rTXTpRgl1": {
+          "type": "image",
+          "value": "https://framerusercontent.com/images/wreac2B7tLWRyZvRpEGqb5gPtUA.jpg"
+        },
+        "yIT6pjNEK": {
+          "type": "array",
+          "value": [
+            {
+              "id": "nB1lYxpQW",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/wreac2B7tLWRyZvRpEGqb5gPtUA.jpg"
+                }
+              }
+            },
+            {
+              "id": "c1nUkrxQ2",
+              "fieldData": {
+                "ucye9moEF": {
+                  "type": "image",
+                  "value": "https://framerusercontent.com/images/f2LVWZ9hCjK2x7wqdtV5Xp6XCA.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "N3RhcSzvj": {
+          "type": "string",
+          "value": "中保南港大樓｜SECOM NANGANG COMPLEX"
+        },
+        "vejOa_CI5": {
+          "type": "string",
+          "value": "中保集團南港辦公大樓多戶統包專案，單棟涵蓋多家子公司與進駐企業，分層分區同步施工，確保各租戶營運不中斷。惠強以完整設計施工整合能力，統籌規劃 9F–11F 共 6 個獨立辦公空間。"
+        },
+        "NTj6Wqkga": {
+          "type": "string",
+          "value": "中保南港大樓｜空間策略與交付"
+        },
+        "dCPdaxOG_": {
+          "type": "formattedText",
+          "value": "<p dir=\"auto\">中保集團南港辦公大樓多戶統包專案，單棟涵蓋多家子公司與進駐企業，分層分區同步施工，確保各租戶營運不中斷。惠強以完整設計施工整合能力，統籌規劃 9F–11F 共 6 個獨立辦公空間。</p><p dir=\"auto\"><strong>English summary</strong></p><p dir=\"auto\">A multi-tenant design &amp; build project within SECOM Group's Nangang headquarters tower. HQ managed simultaneous fit-outs across floors 9–11 for six independent tenants, delivering each space without disrupting the others.</p><p dir=\"auto\"><strong>影像來源說明 / Image reference</strong></p><p dir=\"auto\">Source: Current Figma company-profile selection. Image type: <strong>Completed-project photography</strong>.</p>"
+        },
+        "PQ_RrtUW2": {
+          "type": "string",
+          "value": "2025"
+        },
+        "uc7CQSEk5": {
+          "type": "string",
+          "value": "台北南港｜SECOM Group Tower, Taipei Nangang"
+        },
+        "yHSinaN7g": {
+          "type": "string",
+          "value": "統包設計施工｜Full Design & Build"
+        },
+        "hjPEZX02f": {
+          "type": "string",
+          "value": "Six tenant workplaces · Floors 9–11"
+        },
+        "H9NRFCkaf": {
+          "type": "string",
+          "value": "企業辦公｜Corporate Office"
+        }
+      }
+    }
+  ]
+}

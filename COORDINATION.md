@@ -131,7 +131,7 @@ framer reference/**       ⚠️ 1,890 檔 / 260 MB 第三方參考素材，含 
 2026-09-07  Claude→Fable  web/app/[locale]/process/[slug]/page.tsx  generateMetadata 改用內容層既有 title/desc  已完成
 2026-09-07  Claude→Fable  web/app/[locale]/image-policy/page.tsx    新頁：ImageObject.license 的指向目標  已完成
 2026-09-07  Claude       web/app/{robots.ts,sitemap.ts,llms.txt/route.ts}  SEO 基礎路由（Claude 所有）  已完成
-2026-09-07  Claude→Fable  web/app/[locale]/globals.css          移植舊站 .dia 的 SVG 線稿樣式為 .stage-figure svg（七張流程圖目前渲染成實心黑塊）  進行中
+2026-09-07  Claude→Fable  web/app/[locale]/globals.css          移植舊站 .dia 的 SVG 線稿樣式為 .stage-figure svg（七張流程圖原渲染成實心黑塊）  已完成
 2026-09-07  Claude→Fable  web/app/[locale]/process/[slug]/page.tsx  改用階段英文欄位渲染（h1En/ledeEn/inpEn/outEn/howEn/whyEn/evFootEn/figAltEn）、修正硬寫的 lang="zh-Hant"、證據連結錨點改用案件英文名  已完成
 2026-09-07  Claude→Fable  web/app/[locale]/work/[slug]/page.tsx     規格表英文頁改讀 spec.valueEn、影像性質聲明的 lang 改為跟著實際內容  已完成
 2026-09-07  Claude→Fable  web/components/project-data.ts           toCardData 英文卡片改讀 spec.valueEn  已完成

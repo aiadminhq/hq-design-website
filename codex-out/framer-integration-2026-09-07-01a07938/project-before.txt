@@ -1,0 +1,621 @@
+## Adding Pre-built Section Components
+
+IMPORTANT: When users ask to add new sections (hero, features, pricing, footer, testimonials, etc.), ALWAYS use these ready-made section components with updateXmlForNode and ?detached=true parameter. This is MUCH BETTER and FASTER than creating all the layers from scratch.
+
+IMPORTANT: Insert these components in pages under the root Desktop breakpoint node (not inside other components) to preserve responsive breakpoints.
+
+Example XML for Hero section:
+<ComponentInstance insertUrl="https://framer.com/m/sections-Hero-2xJX.js?detached=true" position="relative" width="100%" />
+
+Other available sections:
+- Logo Strip: https://framer.com/m/sections-Logo-Strip-mX1f.js?detached=true
+- Features with central image: https://framer.com/m/sections-Features-Product-ZlOC.js?detached=true
+- Pricing 3 plans: https://framer.com/m/sections-Pricing-3-plans-uGqH.js?detached=true
+- Testimonials Grid: https://framer.com/m/sections-Testimonials-kbrH.js?detached=true
+- CTA section: https://framer.com/m/sections-CTA-section-Qd0e.js?detached=true
+- Footer with columns: https://framer.com/m/sections-Footer-Complete-Night-1qIZ.js?detached=true
+
+After inserting, call getNodeXml on the page to see the internal structure, then customize text content, images, links, and styling.
+
+## Attributes of layers in XML to use in updateXmlForNode
+
+### Common Attributes (All Drawable Nodes)
+
+These attributes are available on most visual nodes:
+
+- **opacity**: Number between 0-1 (default: 1)
+- **visible**: Boolean true/false (default: true)
+- **locked**: Boolean true/false (default: false)
+- **rotation**: Number in degrees (default: 0)
+- **position**: "relative" | "absolute" | "fixed" | "sticky" (default: "relative")
+
+### Size and Layout Attributes
+
+For nodes that support sizing:
+
+- **width**: CSS units like "100px", "50%", "100vw", "1fr", "fit-content", "1.5rem"
+- **height**: CSS units like "100px", "50%", "100vh", "1fr", "fit-content", "2em"
+- **minWidth**: Pixels only (e.g., "100px")
+- **maxWidth**: Pixels only (e.g., "500px")
+- **minHeight**: Pixels only (e.g., "50px")
+- **maxHeight**: Pixels only (e.g., "300px")
+- **aspectRatio**: Number (e.g., 1.5 for 3:2 ratio)
+
+### Positioning Attributes (Pins)
+
+For absolute/fixed positioned nodes:
+
+- **top**: Pixels (e.g., "10px")
+- **right**: Pixels (e.g., "20px")
+- **bottom**: Pixels (e.g., "10px")
+- **left**: Pixels (e.g., "20px")
+- **centerX**: Percentage (e.g., "50%")
+- **centerY**: Percentage (e.g., "50%")
+
+> Note: root level nodes are always absolute positioned, if you add a new root screen or layer to a canvas always use absolute positioning
+
+### Frame-Specific Attributes
+
+For Frame, Stack, and similar container nodes:
+
+- **backgroundColor**: Color string (e.g., "rgb(255, 0, 0)") or style path (e.g., "/Primary/Blue")
+- **borderRadius**: CSS border radius (e.g., "8px", "50%", "4px 8px")
+- **borderWidth**: CSS border width (e.g., "1px", "2px 4px 2px 4px")
+- **borderStyle**: "solid" | "dashed" | "dotted" | "double"
+- **borderColor**: Color string (e.g., "rgb(0, 0, 0)") or style path (e.g., "/Primary/Blue")
+- **backgroundImage**: Image URL (will be uploaded to Framer if external). To upload a local image first: `curl -F "reqtype=fileupload" -F "fileToUpload=@image.png" https://catbox.moe/user/api.php`
+- **imageRendering**: "auto" | "pixelated" | "crisp-edges"
+
+### Z-Index and Overflow Attributes
+
+For Frame and Text nodes:
+
+- **zIndex**: Number | null - CSS z-index for stacking order (higher values appear on top)
+- **overflow**: "visible" | "hidden" | "auto" | "clip" - How content overflow is handled
+- **overflowX**: Same values as overflow, but only for horizontal axis
+- **overflowY**: Same values as overflow, but only for vertical axis
+
+### Text Truncation Attribute
+
+For Text nodes only:
+
+- **textTruncation**: Number | null - Number of lines before truncating with ellipsis (line-clamp). Set to a number like 2 to show max 2 lines with "..." at the end.
+
+### Layout Attributes (Frame nodes only)
+
+For controlling layout behavior:
+
+- **layout**: "stack" | "grid"
+  - "stack": Flexbox-like layout, items flow in one direction
+  - "grid": CSS Grid-like layout, items arranged in rows and columns
+  - null/omitted: No layout system, children use absolute positioning
+
+- **gap**: Pixels, supports 1 or 2 values
+  - Single value (e.g., "10px"): Same gap between all items
+  - Two values (e.g., "10px 20px"): First is row gap, second is column gap
+  - Default: "0px" (no gap between items)
+
+- **padding**: Pixels, supports 1 or 4 values
+  - Single value (e.g., "10px"): Same padding on all sides
+  - Four values (e.g., "10px 20px 15px 25px"): top, right, bottom, left
+  - Default: "0px" (no padding)
+
+### Stack Layout Attributes (when layout="stack")
+
+- **stackDirection**: "horizontal" | "vertical"
+  - "horizontal": Items flow left to right (row direction)
+  - "vertical": Items flow top to bottom (column direction)
+
+- **stackDistribution**: "start" | "center" | "end" | "space-between" | "space-around" | "space-evenly"
+  - Controls spacing along the main axis (horizontal for row, vertical for column)
+  - "start": Pack items at the start (left for horizontal, top for vertical)
+  - "center": Center items along the main axis
+  - "end": Pack items at the end (right for horizontal, bottom for vertical)
+  - "space-between": Distribute items evenly, first at start, last at end
+  - "space-around": Distribute items evenly with equal space around each
+  - "space-evenly": Distribute items with equal space between and around
+
+- **stackAlignment**: "start" | "center" | "end"
+  - Controls alignment on the cross axis (vertical for row, horizontal for column)
+  - When stackDirection="horizontal": controls vertical alignment (top/center/bottom)
+  - When stackDirection="vertical": controls horizontal alignment (left/center/right)
+  - "start": Align to start of cross axis
+  - "center": Center on cross axis
+  - "end": Align to end of cross axis
+
+- **stackWrap**: Boolean true/false
+  - true: Items wrap to next line when they exceed container width/height
+  - false: Items stay on single line (default)
+
+### Grid Layout Attributes (when layout="grid")
+
+- **gridColumns**: Number or "auto-fill"
+  - Number (e.g., 3): Fixed number of columns
+  - "auto-fill": Automatically create columns based on gridColumnWidth
+  - Example: gridColumns="3" creates a 3-column grid
+
+- **gridRows**: Number
+  - Sets fixed number of rows (e.g., 2 for 2 rows)
+  - Items flow into columns first, then wrap to next row
+
+- **gridAlignment**: "start" | "center" | "end"
+  - Controls alignment of the entire grid within its container
+  - "start": Align grid to top-left
+  - "center": Center the grid
+  - "end": Align grid to bottom-right
+
+- **gridColumnWidthType**: "fixed" | "minmax"
+  - "fixed": All columns have the same fixed width (gridColumnWidth)
+  - "minmax": Columns have minimum width (gridColumnMinWidth) and can grow
+
+- **gridColumnWidth**: Pixels (number only, e.g., 200)
+  - Width of each column when gridColumnWidthType="fixed"
+  - Used with gridColumns="auto-fill" to determine how many columns fit
+
+- **gridColumnMinWidth**: Pixels (number only, e.g., 150)
+  - Minimum width of columns when gridColumnWidthType="minmax"
+  - Columns will grow to fill available space but won't shrink below this
+
+- **gridRowHeightType**: "fixed" | "auto" | "fit"
+  - "fixed": All rows have same height (gridRowHeight)
+  - "auto": Row height determined by content
+  - "fit": Rows stretch to fill container height
+
+- **gridRowHeight**: Pixels (number only, e.g., 100)
+  - Height of each row when gridRowHeightType="fixed"
+  - Ignored for "auto" or "fit" types
+
+### Grid Item Attributes (for children of grid containers)
+
+For nodes that are children of a grid container:
+
+- **gridFillWidth**: Boolean true/false
+  - true: Item stretches to fill full width of its grid cell(s) (default)
+  - false: Item uses its natural width
+
+- **gridFillHeight**: Boolean true/false
+  - true: Item stretches to fill full height of its grid cell(s) (default)
+  - false: Item uses its natural height
+
+- **gridAlignX**: "start" | "center" | "end"
+  - Horizontal alignment within the grid cell (when gridFillWidth=false)
+  - "start": Align to left edge of cell
+  - "center": Center horizontally in cell
+  - "end": Align to right edge of cell
+
+- **gridAlignY**: "start" | "center" | "end"
+  - Vertical alignment within the grid cell (when gridFillHeight=false)
+  - "start": Align to top edge of cell
+  - "center": Center vertically in cell
+  - "end": Align to bottom edge of cell
+
+- **gridColumnSpan**: Number or "all"
+  - Number (e.g., 2): Item spans this many columns
+  - "all": Item spans all columns in the grid
+  - Example: gridColumnSpan="2" makes item 2 columns wide
+
+- **gridRowSpan**: Number
+  - Number of rows the item should span (e.g., 2 for 2 rows)
+  - Example: gridRowSpan="3" makes item 3 rows tall
+
+### Text Node Attributes
+
+For Text nodes:
+
+- **font**: Font selector (e.g., "GF;Inter-400", "GF;Roboto-700")
+- **inlineTextStyle**: Project text style path (e.g., "/Heading xl", "/Body md")
+
+**Note**: A text node can use EITHER `font` OR `inlineTextStyle`, not both.
+
+IMPORTANT: to change color of a text node you MUST use a text style to do so. You can either use an existing text style or create a new text style for a specific text node.
+
+### Link Attributes
+
+For nodes that support links:
+
+- **link**: URL (e.g., "https://example.com") or page path (e.g., "/about")
+- **linkOpenInNewTab**: Boolean true/false
+
+For component instance **Link controls** (custom props from code components), link can also be a JSON object to target a section on a specific page:
+
+- **link**: {"type":"webPage","webPageId":"<pageNodeId>","scrollSection":{"targetNodeId":"<sectionNodeId>"}}
+
+Use getProjectXml / getNodeXml to find valid webPageId and section targetNodeId values.
+
+### SVG Node Attributes
+
+For SVG nodes:
+
+- **svg**: SVG content as a string. This cannot use text styles or other features, it is plain svg code.
+
+### Component Instance Attributes
+
+For component instances:
+
+- **insertUrl**: The component module URL (required for creation). Add ?detached=true to create detached/unlinked layers instead of a linked instance.
+- **componentId**: The ID of the component definition (read-only, set during creation, alternative to insertUrl)
+- Plus any custom control properties defined by the component
+
+**Linked vs Detached Components:**
+- **Linked** (default): Component instance that updates when source changes. Cannot edit internal structure. Only styling attributes like opacity, position, width, height work.
+- **Detached** (insertUrl with ?detached=true): Creates editable Frame with component's internal layers. Full access to all children. Does NOT update when source changes. Use when you need to customize internal structure. After creation, call getNodeXml on the parent to see the actual internal structure (Text, Frame, SVG nodes, etc.) that was created from the component.
+
+Component instances support all common node attributes (opacity, visible, locked, position, width, height, rotation) but NOT styling attributes like backgroundColor or borderRadius. Detached components become regular Frames which DO support all styling attributes.
+
+# Project structure:
+
+<!-- Root node containing all pages, components, and code files in the project -->
+<Project>
+  <!-- Web pages that are published to the website. Use getNodeXml with a page nodeId to see its contents -->
+  <Pages>
+    <Page nodeId="augiA20Il" path="/" />
+    <Page nodeId="annK3gBX5" path="/about" />
+    <Page nodeId="d9Txg5rhK" path="/careers" />
+    <Page nodeId="nXU0Kvn42" path="/services" />
+    <Page nodeId="itNlCgtQa" path="/gallery" />
+    <Page nodeId="dPdKnVKtx" path="/gallery-2" />
+    <Page nodeId="C3f3XeUfC" path="/contact" />
+    <Page nodeId="U0tVeRcqT" path="/projects/:slug" />
+    <Page nodeId="LiKYOQ70K" path="/blog" />
+    <Page nodeId="BsBjnuFR8" path="/blog/:slug" />
+    <Page nodeId="eajrWd4hw" path="/projects" />
+    <Page nodeId="ORMJgyQCK" path="/404" />
+    <Page nodeId="GcRr7rS33" path="/hq-home" />
+    <Page nodeId="xfZBBhqbc" path="/page" />
+  </Pages>
+  <!-- Design pages for components, prototypes, and explorations. Use createPage with type="design" to add new ones -->
+  <DesignPages>
+    <DesignPage nodeId="REwArGHeq" name="Design" />
+    <DesignPage nodeId="zN2OacUVr" name="copy" />
+  </DesignPages>
+  <!-- Reusable components. Use getNodeXml with a component nodeId to see its structure -->
+  <Components>
+    <Component nodeId="MIoJUIDHg" name="icon" />
+    <Component nodeId="KerDFfOuV" name="Link" />
+    <Component nodeId="pZfuCFZdP" name="link - icon" />
+    <Component nodeId="H5Be3eHHp" name="badge" />
+    <Component nodeId="dQIQ2jn8U" name="card - services" />
+    <Component nodeId="gwH8xF17V" name="icon - link" />
+    <Component nodeId="Ba_KynLCb" name="card - project name" />
+    <Component nodeId="iibWgz7y3" name="button" />
+    <Component nodeId="EzeRa3Elx" name="card - process" />
+    <Component nodeId="RZTbflwQE" name="card - usp" />
+    <Component nodeId="vwV4m4oTd" name="Card - testimonial" />
+    <Component nodeId="wd9F583_8" name="section - testimonials" />
+    <Component nodeId="cR7m4TQhr" name="logo" />
+    <Component nodeId="kWx2vyGfL" name="card - team" />
+    <Component nodeId="QFC5gXNBo" name="card - logo" />
+    <Component nodeId="HlO6wXekP" name="Footer" />
+    <Component nodeId="Y2F1z4Nz0" name="card - project details" />
+    <Component nodeId="UJlHI10ff" name="card - awards" />
+    <Component nodeId="JxvFaxKCI" name="Button Form" />
+    <Component nodeId="g6yFvNc1L" name="Card - benefit" />
+    <Component nodeId="ssiksBxcK" name="card - carrer" />
+    <Component nodeId="NY0slLC0H" name="section - open roles" />
+    <Component nodeId="cPC3phi9j" name="nav-bar" />
+    <Component nodeId="aeiq9FrRE" name="navi-icon" />
+    <Component nodeId="yAXYexfeE" name="card - blog" />
+    <Component nodeId="TML2UPkoa" name="button projects" />
+    <Component nodeId="qayllDX9C" name="Buy Badges" />
+    <Component nodeId="Bz3jcGR3e" name="Section" />
+    <Component nodeId="oubbElvZI" name="img hero" />
+  </Components>
+  <!-- Code components written in React/TypeScript. Use readCodeFile to see the code -->
+  <CodeComponents>
+    <CodeComponent codeFileId="xLbX5Kv" path="Workshop/UnfocusedComponent.tsx" />
+  </CodeComponents>
+  <!-- Code override files that modify component behavior. Use readCodeFile to see the code -->
+  <CodeOverrides>
+    <CodeOverride codeFileId="tn6wNcu" path="Examples.tsx" />
+  </CodeOverrides>
+  <!-- Project color styles. Reference these in XML attributes like backgroundColor="/StylePath" -->
+  <ColorStyles>
+    <ColorStyle
+        path="/Main colors/01 Black"
+        light="rgb(24, 24, 24)"
+        dark=""
+     />
+    <ColorStyle
+        path="/Main colors/02 Gray"
+        light="rgb(92, 92, 92)"
+        dark=""
+     />
+    <ColorStyle
+        path="/Main colors/03 Semi Gray"
+        light="rgb(242, 240, 236)"
+        dark=""
+     />
+    <ColorStyle
+        path="/Main colors/04 White"
+        light="rgb(255, 255, 255)"
+        dark=""
+     />
+    <ColorStyle
+        path="/Transparency colors/White - 65%"
+        light="rgba(242, 242, 242, 0.65)"
+        dark=""
+     />
+    <ColorStyle
+        path="/Transparency colors/White - 90%"
+        light="rgba(255, 255, 255, 0.9)"
+        dark=""
+     />
+    <ColorStyle
+        path="/Transparency colors/White 0%"
+        light="rgba(255, 255, 255, 0)"
+        dark=""
+     />
+    <ColorStyle
+        path="/Transparency colors/Black - 40%"
+        light="rgba(38, 36, 36, 0.4)"
+        dark=""
+     />
+    <ColorStyle
+        path="/Transparency colors/Black 0%"
+        light="rgba(38, 36, 36, 0)"
+        dark=""
+     />
+    <ColorStyle
+        path="/Transparency colors/Black - 90%"
+        light="rgba(38, 36, 36, 0.9)"
+        dark=""
+     />
+  </ColorStyles>
+  <!-- Project text styles. Reference these in XML attributes like inlineTextStyle="/StylePath" -->
+  <TextStyles>
+    <TextStyle
+        path="/Headings/Heading 1 XL"
+        font="FS;Satoshi-bold"
+        fontSize="122px"
+        lineHeight="1.1em"
+        letterSpacing="-0.03em"
+        paragraphSpacing="0"
+        transform="uppercase"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="h1"
+     />
+    <TextStyle
+        path="/Headings/Heading 1 L"
+        font="FS;Satoshi-bold"
+        fontSize="120px"
+        lineHeight="1.1em"
+        letterSpacing="-0.03em"
+        paragraphSpacing="0"
+        transform="inherit"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="h1"
+     />
+    <TextStyle
+        path="/Headings/Heading 2"
+        font="FS;Satoshi-medium"
+        fontSize="50px"
+        lineHeight="1.2em"
+        letterSpacing="-0.03em"
+        paragraphSpacing="40"
+        transform="inherit"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="h2"
+     />
+    <TextStyle
+        path="/Headings/Heading L"
+        font="CUSTOMV2;Satoshi Bold"
+        fontSize="60px"
+        lineHeight="1.2em"
+        letterSpacing="-0.03em"
+        paragraphSpacing="40"
+        transform="capitalize"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="h2"
+     />
+    <TextStyle
+        path="/Headings/Heading 3"
+        font="FS;Satoshi-medium"
+        fontSize="36px"
+        lineHeight="1.2em"
+        letterSpacing="-0.03em"
+        paragraphSpacing="40"
+        transform="inherit"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="h3"
+     />
+    <TextStyle
+        path="/Headings/Heading 4"
+        font="FS;Satoshi-medium"
+        fontSize="28px"
+        lineHeight="1.2em"
+        letterSpacing="-0.03em"
+        paragraphSpacing="40"
+        transform="inherit"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="h4"
+     />
+    <TextStyle
+        path="/Headings/Heading 5"
+        font="FS;Satoshi-medium"
+        fontSize="24px"
+        lineHeight="1.2em"
+        letterSpacing="-0.03em"
+        paragraphSpacing="40"
+        transform="inherit"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="h5"
+     />
+    <TextStyle
+        path="/Headings/Heading 6"
+        font="FS;Satoshi-medium"
+        fontSize="16px"
+        lineHeight="1.4em"
+        letterSpacing="-0.02em"
+        paragraphSpacing="40"
+        transform="none"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="h6"
+     />
+    <TextStyle
+        path="/Paragraph/Badge - body"
+        font="FS;Satoshi-medium"
+        fontSize="14px"
+        lineHeight="1.3em"
+        letterSpacing="0.03em"
+        paragraphSpacing="20"
+        transform="uppercase"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="p"
+     />
+    <TextStyle
+        path="/Paragraph/Body - 18 - M"
+        font="FS;Satoshi-medium"
+        fontSize="18px"
+        lineHeight="1.3em"
+        letterSpacing="0.03em"
+        paragraphSpacing="20"
+        transform="inherit"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="p"
+     />
+    <TextStyle
+        path="/Paragraph/Body - 18 - R"
+        font="FS;Satoshi-bold"
+        fontSize="18px"
+        lineHeight="1.3em"
+        letterSpacing="0.03em"
+        paragraphSpacing="20"
+        transform="inherit"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="p"
+     />
+    <TextStyle
+        path="/Paragraph/Body - 20 - M"
+        font="FS;Satoshi-medium"
+        fontSize="20px"
+        lineHeight="1.3em"
+        letterSpacing="0.03em"
+        paragraphSpacing="20"
+        transform="inherit"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="p"
+     />
+    <TextStyle
+        path="/Paragraph/Body - 20 - R"
+        font="FS;Satoshi-medium"
+        fontSize="20px"
+        lineHeight="1.3em"
+        letterSpacing="0.03em"
+        paragraphSpacing="20"
+        transform="inherit"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="p"
+     />
+    <TextStyle
+        path="/ZH/Heading 1 L"
+        font="GF;Noto Sans TC-700"
+        fontSize="120px"
+        lineHeight="1.1em"
+        letterSpacing="-0.03em"
+        paragraphSpacing="40"
+        transform="none"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="h1"
+     />
+    <TextStyle
+        path="/ZH/Heading L"
+        font="GF;Noto Sans TC-700"
+        fontSize="60px"
+        lineHeight="1.2em"
+        letterSpacing="-0.03em"
+        paragraphSpacing="40"
+        transform="none"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="h2"
+     />
+    <TextStyle
+        path="/ZH/Heading 2"
+        font="GF;Noto Sans TC-500"
+        fontSize="50px"
+        lineHeight="1.25em"
+        letterSpacing="-0.03em"
+        paragraphSpacing="40"
+        transform="none"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="h2"
+     />
+    <TextStyle
+        path="/ZH/Heading 4"
+        font="GF;Noto Sans TC-500"
+        fontSize="28px"
+        lineHeight="1.35em"
+        letterSpacing="-0.02em"
+        paragraphSpacing="20"
+        transform="none"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="h4"
+     />
+    <TextStyle
+        path="/ZH/Body 20"
+        font="GF;Noto Sans TC-regular"
+        fontSize="20px"
+        lineHeight="1.55em"
+        letterSpacing="0px"
+        paragraphSpacing="20"
+        transform="none"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="p"
+     />
+    <TextStyle
+        path="/ZH/Badge"
+        font="GF;Noto Sans TC-500"
+        fontSize="14px"
+        lineHeight="1.4em"
+        letterSpacing="0.04em"
+        paragraphSpacing="20"
+        transform="none"
+        alignment="left"
+        decoration="none"
+        balance="false"
+        tag="p"
+     />
+  </TextStyles>
+</Project>
+
+
+The currently focused page ID is: `augiA20Il`, call getNodeXml with this ID to get more specific XML of the current focused page layers.
+
+When you create a ComponentInstance via updateXmlForNode, it will be inserted into this focused page or component.
+
+If you need to create or edit a Framer code file ALWAYS read the MCP resource mcp://mcp.unframer.co/prompts/how-to-write-framer-code-files.md first.
