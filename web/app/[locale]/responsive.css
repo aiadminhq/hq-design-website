@@ -1,0 +1,283 @@
+.model-mesh {
+  position: absolute !important;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+/* Keep supplied brand artwork in its original aspect ratio. */
+.brand-pattern-mask {
+  aspect-ratio: 1920 / 1069.71;
+  background: currentColor;
+  mask: url('/brand/hq-pattern.svg') center / contain no-repeat;
+}
+.wordmark > img {
+  display: block;
+  flex: none;
+}
+.wordmark > .footer-logo {
+  width: 220px;
+  height: auto;
+  max-width: 100%;
+}
+.site-nav .wordmark {
+  gap: 0;
+}
+.site-nav .wordmark span {
+  margin-left: 2px;
+  font-size: 11px;
+}
+.filter-tools input {
+  min-width: 0;
+}
+.lightbox-controls p {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.lightbox-controls button {
+  flex: none;
+  min-width: 44px;
+  min-height: 44px;
+}
+.menu-button,
+.menu-close,
+.lightbox-close,
+.locale-switch {
+  min-height: 44px;
+  min-width: 44px;
+}
+.menu-button,
+.locale-switch {
+  align-content: center;
+  text-align: center;
+}
+.mobile-menu {
+  max-height: calc(100dvh - 32px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.title-block {
+  pointer-events: none;
+}
+
+@media (min-width: 701px) and (max-width: 1100px) {
+  .contact-layout,
+  .about-story {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  .three-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .service-register article {
+    grid-template-columns: 36px minmax(0, 1fr) minmax(0, 1fr) 24px;
+    gap: 20px;
+  }
+  .scene-title {
+    max-width: 86%;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .filter-tabs button,
+  .filter-tools button,
+  .model-toolbar button {
+    min-height: 44px;
+  }
+  .photo-arrow {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .site-nav {
+    top: max(12px, env(safe-area-inset-top));
+    gap: 8px;
+    padding: 0 10px;
+  }
+  .scene-stage {
+    height: clamp(580px, 100svh, 820px);
+  }
+  .scene-title h1 {
+    font-size: clamp(40px, 13.5vw, 76px);
+  }
+  .scene-title {
+    padding-inline: 12px;
+  }
+  .scene-title {
+    opacity: 1 !important;
+  }
+  .scene-foot {
+    padding-bottom: max(20px, env(safe-area-inset-bottom));
+    gap: 12px;
+  }
+  .scene-foot a {
+    display: inline-flex;
+    min-height: 44px;
+    align-items: center;
+  }
+  .scene-foot span {
+    align-self: center;
+  }
+  .filter-tools {
+    gap: 12px;
+  }
+  .filter-tools input,
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    font-size: 16px;
+  }
+  .filter-tools button {
+    flex: none;
+    min-height: 44px;
+  }
+  .filter-tabs {
+    column-gap: 18px;
+    row-gap: 4px;
+  }
+  .filter-tabs button {
+    min-height: 44px;
+  }
+  .page-heading h1 {
+    font-size: clamp(32px, 8.5vw, 48px);
+    overflow-wrap: anywhere;
+  }
+  .project-heading h1 {
+    font-size: clamp(28px, 8vw, 40px);
+    overflow-wrap: anywhere;
+  }
+  .lightbox {
+    height: 100dvh;
+    padding-bottom: max(20px, env(safe-area-inset-bottom));
+  }
+  .lightbox-image {
+    height: calc(100% - 130px);
+  }
+  .lightbox-controls {
+    gap: 8px;
+  }
+  .lightbox-controls p {
+    max-height: 95px;
+    overflow-y: auto;
+  }
+  .title-block {
+    display: none;
+  }
+  .contact-layout,
+  .about-story {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .contact-strip {
+    margin-bottom: 45px;
+    gap: 18px;
+    font-size: 13px;
+  }
+  .contact-layout h2 {
+    font-size: 25px;
+  }
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .brief-summary {
+    padding: 22px;
+  }
+  .service-register article {
+    grid-template-columns: 30px 1fr 20px;
+    gap: 15px;
+  }
+  .service-register h2 {
+    font-size: 22px;
+  }
+  .service-register p {
+    grid-column: 2;
+  }
+  .service-register article > a {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .milestones,
+  .team-register {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .milestones h3 {
+    font-size: 14px;
+  }
+  .team-register h3 {
+    font-size: 18px;
+  }
+  .jobs summary {
+    grid-template-columns: 24px 1fr 20px;
+    gap: 15px;
+  }
+  .jobs summary .small {
+    display: none;
+  }
+  .jobs h2 {
+    font-size: 23px;
+  }
+  .job-body {
+    padding-left: 0;
+  }
+  .model-viewport {
+    height: 330px;
+  }
+  .model-drawing {
+    width: 95%;
+  }
+  .model-toolbar {
+    gap: 16px;
+  }
+  .model-toolbar button {
+    font-size: 11px;
+  }
+  .model-controls {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .title-block {
+    font-size: 8px;
+  }
+  .title-block span {
+    padding: 7px 10px;
+  }
+}
+
+@media (max-width: 374px) {
+  .site-nav .wordmark span {
+    font-size: 10px;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .project-list .project-card {
+    grid-template-columns: 80px minmax(0, 1fr);
+    gap: 10px 14px;
+  }
+  .stats > div {
+    padding-inline: 8px;
+  }
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+  .scroll-scene {
+    height: auto;
+  }
+  .scene-stage {
+    position: relative;
+    height: 580px;
+    min-height: 0;
+  }
+  .image-field {
+    transform: none !important;
+  }
+  .scene-title {
+    opacity: 1 !important;
+  }
+  .mobile-menu nav a {
+    padding-block: 12px;
+    font-size: 22px;
+  }
+}
