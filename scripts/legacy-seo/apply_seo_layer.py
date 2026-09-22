@@ -16,7 +16,9 @@ import re, sys, json, html, glob, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 ORIGIN = "https://www.hqdesign.tw"
-SITE_NAME = "惠強室內裝修 HQ Design"
+SITE_NAME = "HQ Design"
+IMAGE_URL = f"{ORIGIN}/assets/images/logo/IMG_6412.PNG"
+IMAGE_ALT = "HQ Design logo"
 PAGES = sorted(glob.glob(str(ROOT/"*.html")) + glob.glob(str(ROOT/"projects/*.html")) + glob.glob(str(ROOT/"zh/*.html")))
 OG_RE = re.compile(r'^[ \t]*<meta (?:property="og:[^"]+"|name="twitter:[^"]+")[^\n]*\n', re.M)
 LD_RE = re.compile(r'[ \t]*<script type="application/ld\+json">.*?</script>\n', re.S)
@@ -50,9 +52,9 @@ def org_jsonld(desc):
         "@type": ["Organization", "GeneralContractor"],
         "@id": f"{ORIGIN}/#organization",
         "name": "惠強室內裝修股份有限公司",
-        "alternateName": ["HQ Design", "HQ Design Co., Ltd.", "惠強室內裝修", "惠強設計", "HQ Interior & Space Design"],
+        "alternateName": ["HQ Design", "HQ Design CO., LTD.", "惠強室內裝修股份有限公司", "惠強室內裝修", "惠強設計"],
         "url": f"{ORIGIN}/",
-        "logo": f"{ORIGIN}/assets/images/logo/IMG_6412.PNG",
+        "logo": IMAGE_URL,
         "foundingDate": "1995",
         "taxID": "89956251",
         "telephone": "+886-2-2557-3003",
@@ -83,7 +85,11 @@ def apply(doc, rel):
         f'  <meta property="og:url" content="{url}">',
         f'  <meta property="og:title" content="{attr(title)}">',
         f'  <meta property="og:description" content="{attr(desc)}">',
+        '  <meta property="og:image" content="' + IMAGE_URL + '">',
+        '  <meta property="og:image:alt" content="' + IMAGE_ALT + '">',
         '  <meta name="twitter:card" content="summary_large_image">',
+        '  <meta name="twitter:image" content="' + IMAGE_URL + '">',
+        '  <meta name="twitter:image:alt" content="' + IMAGE_ALT + '">',
         f'  <meta name="twitter:title" content="{attr(title)}">',
         f'  <meta name="twitter:description" content="{attr(desc)}">',
     ]) + "\n"
