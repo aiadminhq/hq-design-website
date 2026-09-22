@@ -5,10 +5,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.hqdesign.tw/index.html</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://www.hqdesign.tw/services.html</loc>
     <priority>0.8</priority>
   </url>
@@ -35,10 +31,6 @@
   <url>
     <loc>https://www.hqdesign.tw/zh/</loc>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.hqdesign.tw/zh/index.html</loc>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/zh/services.html</loc>
@@ -126,6 +118,10 @@
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/xinlan.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/projects/zhongbao-nangang.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
