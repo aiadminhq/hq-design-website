@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "slug": "kimpton",
+  "category": "hospitality",
+  "weight": "lead",
+  "name": {
+    "zh": "金普頓大安酒店",
+    "en": "Kimpton Da An Hotel"
+  },
+  "gloss": "Kimpton Da An · Public Areas &amp; Guest Corridors Construction",
+  "lede": {
+    "zh": "台北大安 Kimpton Da An Hotel 國際飯店裝修工程，由惠強承攬公共區域與客房走廊施工，以精細木作與品牌美學呈現國際精品飯店水準。",
+    "en": "Interior works for the Kimpton Da An Hotel in Da'an, Taipei. HQ Design was contracted for the public areas and guest corridors, delivering the standard of an international boutique hotel through fine joinery and brand-led detailing."
+  },
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "labelEn": "Client",
+      "value": "Kimpton Da An Hotel",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "地點",
+      "labelEn": "Location",
+      "value": "台北市大安區",
+      "verified": true,
+      "valueEn": "Da'an District, Taipei"
+    },
+    {
+      "labelZh": "面積",
+      "labelEn": "Area",
+      "value": "100 坪",
+      "verified": true,
+      "valueEn": "100 ping"
+    },
+    {
+      "labelZh": "年份",
+      "labelEn": "Year",
+      "value": "2022",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "範圍",
+      "labelEn": "Scope",
+      "value": "公共區域、客房走廊施工",
+      "verified": true,
+      "valueEn": "Public areas and guest corridors, construction"
+    },
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "國際精品飯店",
+      "verified": true,
+      "valueEn": "International boutique hotel"
+    }
+  ],
+  "cardMeta": [
+    "<b>100</b> 坪",
+    "DA'AN · TAIPEI · 2022"
+  ],
+  "note": {
+    "title": {
+      "zh": "Scope · 承攬範圍",
+      "en": "Scope · contracted works"
+    },
+    "body": {
+      "zh": "本案設計意圖由外部團隊提出，惠強承攬公共區域與客房走廊的施工，自技術驗證階段接手，負責把設計品質建造出來並可被驗收。頁面影像均為惠強施作範圍內之空間。",
+      "en": "The design intent for this project came from an external team. HQ Design was contracted for construction of the public areas and guest corridors, taking over from the technical validation stage and responsible for building the design to a standard that passes acceptance. Every image on this page is from a space within HQ Design's scope."
+    }
+  },
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "kimpton-hero-01",
+      "sourceFile": "kimpton-hero-01.jpg",
+      "width": 1707,
+      "height": 2560,
+      "spaceZh": "多功能貴賓室",
+      "alt": {
+        "zh": "金普頓大安酒店｜多功能貴賓室",
+        "en": "Kimpton Da An Hotel — multi-purpose VIP lounge"
+      },
+      "retouch": "none",
+      "retouchNote": "修掉插座蓋板與線材；消除天花光斑",
+      "risks": []
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "kimpton-gallery-02",
+      "sourceFile": "kimpton-gallery-02.jpg",
+      "width": 1707,
+      "height": 2560,
+      "spaceZh": "多功能貴賓室",
+      "alt": {
+        "zh": "金普頓大安酒店｜多功能貴賓室",
+        "en": "Kimpton Da An Hotel — multi-purpose VIP lounge"
+      },
+      "retouch": "none",
+      "retouchNote": "修掉天花光斑；窗外提亮 0.5EV",
+      "risks": []
+    },
+    {
+      "order": 3,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "kimpton-gallery-03",
+      "sourceFile": "kimpton-gallery-03.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "多功能貴賓室",
+      "alt": {
+        "zh": "金普頓大安酒店｜多功能貴賓室",
+        "en": "Kimpton Da An Hotel — multi-purpose VIP lounge"
+      },
+      "retouch": "none",
+      "retouchNote": "右緣裁 6%；修掉插座蓋板；電視加極淡環境反射",
+      "risks": [
+        "confidential"
+      ]
+    },
+    {
+      "order": 4,
+      "role": "detail",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "kimpton-detail-04",
+      "sourceFile": "kimpton-detail-04.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "貴賓室茶水吧檯",
+      "alt": {
+        "zh": "金普頓大安酒店｜貴賓室茶水吧檯",
+        "en": "Kimpton Da An Hotel — lounge tea bar"
+      },
+      "retouch": "none",
+      "retouchNote": "高光回收 0.3EV；淡化左側門反射",
+      "risks": []
+    },
+    {
+      "order": 5,
+      "role": "detail",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "kimpton-detail-05",
+      "sourceFile": "kimpton-detail-05.jpg",
+      "width": 1707,
+      "height": 2560,
+      "spaceZh": "洗手間前廳",
+      "alt": {
+        "zh": "金普頓大安酒店｜洗手間前廳",
+        "en": "Kimpton Da An Hotel — washroom vestibule"
+      },
+      "retouch": "none",
+      "retouchNote": "下緣裁 8% 去除馬桶；修掉指紋擦痕",
+      "risks": []
+    },
+    {
+      "order": 6,
+      "role": "detail",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "kimpton-detail-06",
+      "sourceFile": "kimpton-detail-06.jpg",
+      "width": 1707,
+      "height": 2560,
+      "spaceZh": "公共廊道",
+      "alt": {
+        "zh": "金普頓大安酒店｜公共廊道",
+        "en": "Kimpton Da An Hotel — public corridor"
+      },
+      "retouch": "none",
+      "retouchNote": "下緣裁 15%；盡端綠偏校正",
+      "risks": []
+    },
+    {
+      "order": 7,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "kimpton-gallery-07",
+      "sourceFile": "kimpton-gallery-07.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "多功能貴賓室",
+      "alt": {
+        "zh": "金普頓大安酒店｜多功能貴賓室",
+        "en": "Kimpton Da An Hotel — multi-purpose VIP lounge"
+      },
+      "retouch": "light",
+      "retouchNote": "電視補淡反射；拱龕高光回收 0.3EV",
+      "risks": []
+    },
+    {
+      "order": 8,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "kimpton-gallery-08",
+      "sourceFile": "kimpton-gallery-08.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "多功能貴賓室",
+      "alt": {
+        "zh": "金普頓大安酒店｜多功能貴賓室",
+        "en": "Kimpton Da An Hotel — multi-purpose VIP lounge"
+      },
+      "retouch": "light",
+      "retouchNote": "右緣重裁；修掉線材；電視補反射",
+      "risks": []
+    },
+    {
+      "order": 9,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "kimpton-gallery-09",
+      "sourceFile": "kimpton-gallery-09.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "電梯前室",
+      "alt": {
+        "zh": "金普頓大安酒店｜電梯前室",
+        "en": "Kimpton Da An Hotel — lift vestibule"
+      },
+      "retouch": "light",
+      "retouchNote": "裁掉右側白門；窗外提亮",
+      "risks": []
+    },
+    {
+      "order": 10,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "kimpton-gallery-10",
+      "sourceFile": "kimpton-gallery-10.jpg",
+      "width": 1707,
+      "height": 2560,
+      "spaceZh": "公共廊道",
+      "alt": {
+        "zh": "金普頓大安酒店｜公共廊道",
+        "en": "Kimpton Da An Hotel — public corridor"
+      },
+      "retouch": "light",
+      "retouchNote": "重新裁切避開衛生設備；修掉偵煙器與維修口",
+      "risks": []
+    }
+  ],
+  "facts": {
+    "client": "Kimpton Da An Hotel",
+    "locationZh": "台北市大安區",
+    "areaPing": 100.0,
+    "areaRaw": "100 坪",
+    "year": 2022,
+    "yearRaw": "2022",
+    "typeZh": "國際精品飯店"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm"
+    ]
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

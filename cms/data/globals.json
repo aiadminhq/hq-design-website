@@ -1,0 +1,62 @@
+{
+  "brandNameZh": "惠強室內裝修股份有限公司",
+  "brandNameEn": "HQ Interior & Space Design Co., Ltd.",
+  "brandShortZh": "惠強室內裝修",
+  "brandShortEn": "HQ Interior & Space Design",
+  "tagline": "匠藝專工，一應皆備。",
+  "taglineEn": "Crafted with mastery, complete in every detail.",
+  "yearFounded": 1995,
+  "yearsOfExperience": "31+ Years",
+  "projectsDelivered": "1,600+",
+  "designBuildPercent": "100%",
+  "warrantyMonths": "12mo",
+  "phone": "02-2557-3003",
+  "fax": "02-2557-7438",
+  "email": "info@hqdesign.tw",
+  "addressZh": "115台北市南港區經貿二路135號9樓",
+  "addressEn": "9F, No.135 Jingmao 2nd Rd, Nangang Dist., Taipei 115",
+  "officeHours": "Mon–Fri 09:00–18:00",
+  "responseSLA": "Response within 1 business day",
+  "taxId": "89956251",
+  "logo": "assets/images/logo/IMG_6412.PNG",
+  "certifications": [
+    {
+      "code": "LEED",
+      "labelZh": "LEED綠建築認證",
+      "labelEn": "LEED Green Building"
+    },
+    {
+      "code": "GREEN",
+      "labelZh": "綠建築標章",
+      "labelEn": "Taiwan Green Building Label"
+    },
+    {
+      "code": "AIOT",
+      "labelZh": "AIoT智慧空間",
+      "labelEn": "AIoT Smart Space"
+    },
+    {
+      "code": "ESG",
+      "labelZh": "ESG永續設計",
+      "labelEn": "ESG Sustainability"
+    },
+    {
+      "code": "ENERGY",
+      "labelZh": "節能減碳",
+      "labelEn": "Energy Efficiency"
+    },
+    {
+      "code": "HEALTH",
+      "labelZh": "健康建築材料",
+      "labelEn": "Healthy Building Materials"
+    }
+  ],
+  "social": {
+    "lineId": ""
+  },
+  "formspree": {
+    "contactEndpoint": "https://formspree.io/f/xeendgkz",
+    "careersEndpoint": "https://formspree.io/f/xgodqkyn"
+  },
+  "googleMapsEmbed": "https://maps.google.com/maps?q=115台北市南港區經貿二路135號&output=embed&hl=zh-TW&z=17"
+}

@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "slug": "secom-nangang-complex",
+  "category": "office",
+  "weight": "lead",
+  "name": {
+    "zh": "中興保全 SECOM 南港總部",
+    "en": "SECOM Nangang Headquarters"
+  },
+  "gloss": "Corporate HQ · Full Design &amp; Build",
+  "lede": {
+    "zh": "在持續營運且具高度保全需求的企業總部中，以分區施工完成接待、開放辦公、會議與主管空間的整合翻新——維持日常營運不中斷，零重大缺失驗收。",
+    "en": "A phased refurbishment of reception, open office, meeting and executive spaces inside a corporate headquarters that stayed fully operational and under high security requirements — daily operations continued throughout, and the works passed acceptance with no major defects."
+  },
+  "specs": [
+    {
+      "labelZh": "業主",
+      "labelEn": "Client",
+      "value": "中保集團 SECOM Group",
+      "verified": true,
+      "valueEn": "SECOM Group"
+    },
+    {
+      "labelZh": "地點",
+      "labelEn": "Location",
+      "value": "台北市南港區",
+      "verified": true,
+      "valueEn": "Nangang District, Taipei"
+    },
+    {
+      "labelZh": "面積",
+      "labelEn": "Area",
+      "value": "5,940 sqm · 1,797 坪",
+      "verified": true,
+      "valueEn": "5,940 sqm · 1,797 ping"
+    },
+    {
+      "labelZh": "年份",
+      "labelEn": "Year",
+      "value": "2025",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "範圍",
+      "labelEn": "Scope",
+      "value": "設計施工統包",
+      "verified": true,
+      "valueEn": "Design & build"
+    },
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "企業總部",
+      "verified": true,
+      "valueEn": "Corporate headquarters"
+    },
+    {
+      "labelZh": "樓層",
+      "labelEn": "Floors",
+      "value": "7F–14F",
+      "verified": true,
+      "valueEn": null
+    },
+    {
+      "labelZh": "工法",
+      "labelEn": "Method",
+      "value": "分層分區同步施工",
+      "verified": true,
+      "valueEn": "Phased construction by floor and zone"
+    }
+  ],
+  "cardMeta": [
+    "<b>5,940</b> sqm",
+    "NANGANG · 2025"
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "secom-nangang-complex-hero-01",
+      "sourceFile": "secom-nangang-complex-hero-01.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "接待大廳",
+      "alt": {
+        "zh": "中興保全 SECOM 南港總部｜接待大廳 — 木紋牆面、白色人造石櫃台與集團識別",
+        "en": "SECOM Nangang HQ — reception lobby: timber wall, white solid-surface counter, group identity"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "secom-nangang-complex-gallery-02",
+      "sourceFile": "secom-nangang-complex-gallery-02.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "電梯廳",
+      "alt": {
+        "zh": "中興保全 SECOM 南港總部｜電梯廳 — 深灰石紋地坪、深色石牆與 LED 影像牆",
+        "en": "SECOM Nangang HQ — lift lobby: dark grey stone floor, dark stone wall and LED video wall"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 3,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "secom-nangang-complex-gallery-03",
+      "sourceFile": "secom-nangang-complex-gallery-03.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "接待大廳",
+      "alt": {
+        "zh": "中興保全 SECOM 南港總部｜接待大廳 — 櫃台側視與等候區",
+        "en": "SECOM Nangang HQ — reception lobby: counter from the side, with waiting area"
+      },
+      "retouch": "light",
+      "retouchNote": "人員入鏡：上線前需確認肖像權，或修圖去識別化（本頁標註為人工判讀，非選片資料）",
+      "risks": [
+        "portrait"
+      ]
+    },
+    {
+      "order": 4,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "secom-nangang-complex-gallery-04",
+      "sourceFile": "secom-nangang-complex-gallery-04.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "主管會客區",
+      "alt": {
+        "zh": "中興保全 SECOM 南港總部｜主管會客區 — 沙發組、電視牆與展示櫃",
+        "en": "SECOM Nangang HQ — executive lounge: sofa group, media wall and display cabinet"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 5,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "secom-nangang-complex-gallery-05",
+      "sourceFile": "secom-nangang-complex-gallery-05.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "主管會客區",
+      "alt": {
+        "zh": "中興保全 SECOM 南港總部｜主管會客區 — 落地窗與城市景觀",
+        "en": "SECOM Nangang HQ — executive lounge: full-height glazing and city view"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    },
+    {
+      "order": 6,
+      "role": "gallery",
+      "grade": "A",
+      "prov": "photo",
+      "stem": "secom-nangang-complex-gallery-06",
+      "sourceFile": "secom-nangang-complex-gallery-06.jpg",
+      "width": 2560,
+      "height": 1707,
+      "spaceZh": "廊道",
+      "alt": {
+        "zh": "中興保全 SECOM 南港總部｜廊道 — 木皮牆面、掛畫與玻璃隔間",
+        "en": "SECOM Nangang HQ — corridor: timber-veneer walls, artwork and glazed partitions"
+      },
+      "retouch": "none",
+      "retouchNote": "",
+      "risks": []
+    }
+  ],
+  "facts": {
+    "client": "中保集團 SECOM Group",
+    "locationZh": "台北市南港區",
+    "areaSqm": 5940.0,
+    "areaPing": 1797.0,
+    "areaRaw": "5,940 sqm · 1,797 坪",
+    "year": 2025,
+    "yearRaw": "2025",
+    "typeZh": "企業總部"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": true,
+    "missingFacts": [],
+    "provisionalFields": [],
+    "needsHumanReview": []
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "slug": "guochan-office",
+  "category": "office",
+  "weight": "w4",
+  "name": {
+    "zh": "國產建材總部辦公",
+    "en": "Guochan Building Materials Head Office"
+  },
+  "gloss": "Corporate Office · Boardroom &amp; Executive Suite",
+  "lede": {
+    "zh": "企業辦公空間：辦公區、會議室與主管辦公室。",
+    "en": "A corporate workplace: open office, meeting rooms and executive offices."
+  },
+  "specs": [
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "企業總部／辦公空間",
+      "verified": true,
+      "valueEn": "Corporate headquarters / office"
+    }
+  ],
+  "cardMeta": [
+    "CORPORATE OFFICE",
+    ""
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "guochan-office-hero-01",
+      "sourceFile": "guochan-office-hero-01.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "會議室（大型董事會議室）",
+      "alt": {
+        "zh": "國產建材總部辦公｜會議室（大型董事會議室）",
+        "en": "Guochan Building Materials Head Office — boardroom"
+      },
+      "retouch": "light",
+      "retouchNote": "提亮暗部 +1.2EV 並壓天花亮部；前景椅背需修圖移除或重裁；中軸校正對齊；去暈影",
+      "risks": [
+        "confidential"
+      ]
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "guochan-office-gallery-02",
+      "sourceFile": "guochan-office-gallery-02.jpg",
+      "width": 667,
+      "height": 1000,
+      "spaceZh": "會議室（大型董事會議室）",
+      "alt": {
+        "zh": "國產建材總部辦公｜會議室（大型董事會議室）",
+        "en": "Guochan Building Materials Head Office — boardroom"
+      },
+      "retouch": "light",
+      "retouchNote": "提亮暗部、壓抑桌面反光、重裁縮減桌面佔比",
+      "risks": []
+    },
+    {
+      "order": 3,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "guochan-office-gallery-03",
+      "sourceFile": "guochan-office-gallery-03.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "主管辦公室（會客區／背牆木作）",
+      "alt": {
+        "zh": "國產建材總部辦公｜主管辦公室（會客區／背牆木作）",
+        "en": "Guochan Building Materials Head Office — executive office, meeting corner with timber back wall"
+      },
+      "retouch": "light",
+      "retouchNote": "重裁縮減前景沙發；盆栽提亮或修除；背牆熱點收斂；恢復木皮暖調；確認畫作授權或以修圖替換",
+      "risks": [
+        "thirdparty"
+      ]
+    },
+    {
+      "order": 4,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "guochan-office-gallery-04",
+      "sourceFile": "guochan-office-gallery-04.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "主管辦公室（總裁辦公桌）",
+      "alt": {
+        "zh": "國產建材總部辦公｜主管辦公室（總裁辦公桌）",
+        "en": "Guochan Building Materials Head Office — executive office, chairman's desk"
+      },
+      "retouch": "light",
+      "retouchNote": "壓窗簾亮部補回階調；電話與文具需修圖移除；桌面反光柔化；恢復木皮暖調",
+      "risks": [
+        "confidential",
+        "housekeeping"
+      ]
+    }
+  ],
+  "facts": {
+    "typeZh": "企業總部／辦公空間"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ]
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

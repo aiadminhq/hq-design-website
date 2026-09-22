@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "slug": "zhongbao-store-daan",
+  "category": "showroom",
+  "weight": "w4",
+  "name": {
+    "zh": "中保無限家生活館 大安店",
+    "en": "SECOM Smart-Home Lifestyle Store, Da'an"
+  },
+  "gloss": "Smart-Home Lifestyle Store · Da'an",
+  "lede": {
+    "zh": "復古工業／咖啡館語彙的智慧居家門店。",
+    "en": "A smart-home store in a retro-industrial, coffee-house register."
+  },
+  "specs": [
+    {
+      "labelZh": "地點",
+      "labelEn": "Location",
+      "value": "台北市大安區",
+      "verified": true,
+      "valueEn": "Da'an District, Taipei"
+    },
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "展示與訓練空間",
+      "verified": true,
+      "valueEn": "Showroom and training space"
+    }
+  ],
+  "cardMeta": [
+    "LIFESTYLE STORE",
+    "DA'AN · TAIPEI"
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "zhongbao-store-daan-hero-01",
+      "sourceFile": "zhongbao-store-daan-hero-01.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "店內智慧居家展示牆",
+      "alt": {
+        "zh": "中保無限家生活館 大安店｜店內智慧居家展示牆",
+        "en": "SECOM Smart-Home Lifestyle Store, Da'an — in-store smart-home display wall"
+      },
+      "retouch": "light",
+      "retouchNote": "白平衡校正（此張色相偏移最需要修，插畫牆有指定品牌色）；上緣軌道燈重裁；下緣重裁",
+      "risks": []
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "zhongbao-store-daan-gallery-02",
+      "sourceFile": "zhongbao-store-daan-gallery-02.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "麵包／輕食檯（含入口關係）",
+      "alt": {
+        "zh": "中保無限家生活館 大安店｜麵包／輕食檯（含入口關係）",
+        "en": "SECOM Smart-Home Lifestyle Store, Da'an — bakery and light-meal counter with entrance"
+      },
+      "retouch": "light",
+      "retouchNote": "壓吊燈與門外亮部；白平衡校正；門上貼紙修除或淡化；校正 0.5°；天花明管降對比",
+      "risks": []
+    },
+    {
+      "order": 3,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "zhongbao-store-daan-gallery-03",
+      "sourceFile": "zhongbao-store-daan-gallery-03.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "店面外觀（含戶外座位）",
+      "alt": {
+        "zh": "中保無限家生活館 大安店｜店面外觀（含戶外座位）",
+        "en": "SECOM Smart-Home Lifestyle Store, Da'an — shopfront with outdoor seating"
+      },
+      "retouch": "light",
+      "retouchNote": "校正 2° 桶狀變形與垂直；重裁或修圖處理樹幹遮擋；鄰店招牌降飽和；前景藤椅重裁",
+      "risks": []
+    },
+    {
+      "order": 4,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "zhongbao-store-daan-gallery-04",
+      "sourceFile": "zhongbao-store-daan-gallery-04.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "店內品牌牆（服務項目識別牆）",
+      "alt": {
+        "zh": "中保無限家生活館 大安店｜店內品牌牆（服務項目識別牆）",
+        "en": "SECOM Smart-Home Lifestyle Store, Da'an — in-store brand wall of service offerings"
+      },
+      "retouch": "light",
+      "retouchNote": "白平衡校正；右側看板壓亮部；左上管線裁除或淡化；下緣重裁",
+      "risks": [
+        "housekeeping"
+      ]
+    },
+    {
+      "order": 5,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "zhongbao-store-daan-gallery-05",
+      "sourceFile": "zhongbao-store-daan-gallery-05.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "麵包／輕食檯",
+      "alt": {
+        "zh": "中保無限家生活館 大安店｜麵包／輕食檯",
+        "en": "SECOM Smart-Home Lifestyle Store, Da'an — bakery and light-meal counter"
+      },
+      "retouch": "light",
+      "retouchNote": "壓吊燈亮部；白平衡拉至 3800K；玻璃亮帶柔化；右側商品修圖簡化；下緣重裁",
+      "risks": [
+        "housekeeping"
+      ]
+    },
+    {
+      "order": 6,
+      "role": "detail",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "zhongbao-store-daan-detail-06",
+      "sourceFile": "zhongbao-store-daan-detail-06.jpg",
+      "width": 1000,
+      "height": 667,
+      "spaceZh": "店內陳列裝置（鑄鐵摩天輪展示架）",
+      "alt": {
+        "zh": "中保無限家生活館 大安店｜店內陳列裝置（鑄鐵摩天輪展示架）",
+        "en": "SECOM Smart-Home Lifestyle Store, Da'an — cast-iron ferris-wheel display stand"
+      },
+      "retouch": "light",
+      "retouchNote": "白平衡校正；開關面板與促銷立牌修除；投影層次收斂",
+      "risks": [
+        "housekeeping"
+      ]
+    }
+  ],
+  "facts": {
+    "locationZh": "台北市大安區",
+    "typeZh": "展示與訓練空間"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm",
+      "year"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm",
+      "year"
+    ]
+  },
+  "pairs": [
+    {
+      "intent": null,
+      "asBuilt": "zhongbao-store-daan-detail-06",
+      "note": "對照組需同機位、同視角的渲染圖與完工攝影配對；渲染影像尚未到位。"
+    }
+  ],
+  "relatedSlugs": []
+}

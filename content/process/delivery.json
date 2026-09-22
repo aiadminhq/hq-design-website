@@ -1,0 +1,118 @@
+{
+  "title": "交付與 AI 專案管理｜營運不中斷的分區施工｜惠強 HQ Design",
+  "desc": "施工期間營運會停嗎？惠強 2025 年完成 SECOM 南港總部 5,940 sqm：分區施工、營運不中斷、零重大缺失驗收。AI 專案管理試行中。",
+  "h1": "施工期間營運會停嗎？",
+  "lede": "分區進場、營運不中斷地完成，如期驗收移交。單一合約、單一窗口對業主負責。",
+  "gloss": "Site Delivery &amp; AI PM — phased construction, quality control, acceptance, as-built documents and warranty under one accountable team.",
+  "inp": "營運時段與管制條件、保全／IT 規範、業主指定廠商窗口、驗收與移交的時程要求。",
+  "out": "分區施工計畫、品質與進度紀錄、驗收與竣工文件、保固服務；單一窗口對業主負責。",
+  "q": "總部一邊上班一邊施工，做得到嗎？誰來協調保全、進料和動線？",
+  "quote": "惠強室內裝修（HQ Design）於 2025 年完成中興保全 SECOM 南港總部 5,940 sqm 全案設計施工：在持續營運且具高度保全需求的企業總部中分區施工，協調施工區隔、非核心時段進料與安全動線，維持日常營運不中斷，如期交付並達成零重大缺失驗收。",
+  "quote2": "惠強室內裝修（HQ Design）正將 30 年的施工節點、品質管理與風險控管紀錄整理為 AI 可用的資料庫，作為專案管理的依據；AI 專案管理自 2026 年 4 月起導入，目前為試行階段，本頁不陳述其成效數字。",
+  "qen": "Phased site works keep the client's operations running; quality control, schedule coordination, acceptance and as-built handover are delivered by the same team that designed the space.",
+  "how_h2": "惠強室內裝修在交付階段做哪四件事？",
+  "how": [
+    [
+      "Phased Construction",
+      "分區施工",
+      "樓層與區域分期進場，維持企業日常營運、人員通行與工作連續性。",
+      "2025 年 SECOM 南港總部 <b>5,940 sqm</b>，於營運中總部分區完成接待、開放辦公、會議與主管空間翻新。"
+    ],
+    [
+      "Security &amp; Operations",
+      "保全與營運整合",
+      "協調施工區隔、非核心時段進料與安全動線；建築、機電、IT／保全與指定廠商由同一窗口對接。",
+      "SECOM 為具高度保全需求的企業總部；技術協調範圍見服務項目 04 Technical Coordination。"
+    ],
+    [
+      "Quality Handover",
+      "品質驗收移交",
+      "品質管控、進度協調、驗收、竣工文件與保固——單一合約、單一窗口對業主負責。",
+      "SECOM 南港總部如期完成交付，<b>零重大缺失</b>驗收。"
+    ],
+    [
+      "AI PM · Pilot",
+      "AI 專案管理（試行中）",
+      "把 30 年的施工節點、品質管理與風險控管紀錄整理為 AI 可用資料庫，供進度、變更與風險判斷參考。",
+      "2026 年 4 月起導入，目前為試行階段；成效數字待首批案件完成後再公開，不預先陳述。"
+    ]
+  ],
+  "fig_lab": "FIG · 07",
+  "cap": [
+    "PHASED · OPERATION CONTINUES",
+    "<span class='cjk'>左：樓板分四區輪替施工（60° 網線為施工中區域，其餘維持營運）；右：各區依序進場的分期時程，底部品牌色線為整個工期中持續的營運。示意圖。</span>"
+  ],
+  "why_h2": "交付與專案管理對業主的意義是什麼？",
+  "why": [
+    [
+      "Operations Continue",
+      "營運不中斷",
+      "分區進場維持日常營運、人員通行與工作連續性。"
+    ],
+    [
+      "One Contract",
+      "單一合約，單一窗口",
+      "設計、專案、技術與現場由同一團隊統籌，對業主負責的只有一個窗口。"
+    ],
+    [
+      "Complete Handover",
+      "驗收移交完整文件",
+      "竣工圖、操作手冊、保固書與驗收文件。"
+    ]
+  ],
+  "ev_h2": "有哪些案件可以對照？",
+  "ev": [
+    {
+      "href": "/work/secom-nangang-complex/",
+      "t": "中興保全 SECOM 南港總部",
+      "en": "Corporate HQ · Full Design &amp; Build",
+      "d": "NANGANG · <b>5,940</b> sqm · <b>2025</b>",
+      "claim_t": "分區施工 · 營運不中斷 · 零重大缺失驗收",
+      "claim": "在持續營運且具高度保全需求的企業總部中，以分區施工完成接待、開放辦公、會議與主管空間的整合翻新——維持日常營運不中斷，如期交付，零重大缺失驗收。",
+      "mode": "完工實景 · AS-BUILT · 2025"
+    }
+  ],
+  "ev_foot": "AI 專案管理自 2026 年 4 月起試行，SECOM（2025）為分區施工與驗收移交的證據，不作為 AI 專案管理的成效證據。",
+  "titleEn": "Delivery and AI Project Management — phased works, operations continue",
+  "descEn": "Do operations stop during construction? HQ Design completed SECOM's 5,940 sqm Nangang headquarters in 2025: phased works, operations uninterrupted, accepted with no major defects.",
+  "h1En": "Do operations stop during construction?",
+  "ledeEn": "Work proceeds zone by zone and finishes without interrupting operations, with acceptance and handover on schedule. One contract and one point of contact answer to the owner.",
+  "inpEn": "Operating hours and control conditions, security and IT standards, contacts for the owner's nominated contractors, and the required acceptance and handover schedule.",
+  "outEn": "A phased construction plan, quality and progress records, acceptance and as-built documents, and warranty service — with one point of contact answering to the owner.",
+  "howH2En": "What does HQ Design do during delivery?",
+  "whyH2En": "What do delivery and project management mean for the owner?",
+  "howEn": [
+    [
+      "Phased construction",
+      "Floors and zones are entered in stages, keeping daily operations, staff movement and continuity of work intact."
+    ],
+    [
+      "Security and operations",
+      "Site separation, deliveries outside core hours and safe routes are coordinated; architecture, MEP, IT, security and nominated contractors all work through one point of contact."
+    ],
+    [
+      "Quality, acceptance and handover",
+      "Quality control, programme coordination, acceptance, as-built documents and warranty — one contract and one point of contact answering to the owner."
+    ],
+    [
+      "AI project management, in pilot",
+      "Thirty years of construction milestones, quality management and risk control records are being organised into a database an AI can use, to inform judgement on progress, changes and risk."
+    ]
+  ],
+  "whyEn": [
+    [
+      "Operations continue",
+      "Entering zone by zone keeps daily operations, staff movement and continuity of work intact."
+    ],
+    [
+      "One contract, one point of contact",
+      "Design, project management, technical work and site are coordinated by one team, and only one contact answers to the owner."
+    ],
+    [
+      "A complete handover",
+      "As-built drawings, operating manuals, warranties and acceptance records."
+    ]
+  ],
+  "evFootEn": "AI project management has been piloted since April 2026. SECOM (2025) is evidence of phased construction and acceptance handover, not evidence of the effectiveness of AI project management.",
+  "figAltEn": "Delivery diagram: on the left the floor plate is split into four zones worked in rotation; on the right the programme shows each zone entered in sequence, while the operations line runs unbroken throughout."
+}

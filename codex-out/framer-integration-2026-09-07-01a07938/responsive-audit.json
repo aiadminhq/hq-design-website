@@ -1,0 +1,265 @@
+{
+  "source": "CUA public browser DOM; 36 distinct route/viewport combinations",
+  "checkedAt": "2026-09-07T02:23:51.780Z",
+  "checks": [
+    {
+      "path": "/",
+      "width": 390,
+      "scrollWidth": 390,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/",
+      "width": 900,
+      "scrollWidth": 900,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/",
+      "width": 390,
+      "scrollWidth": 390,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/",
+      "width": 900,
+      "scrollWidth": 900,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/projects",
+      "width": 390,
+      "scrollWidth": 390,
+      "forms": 0,
+      "brokenLoadedImages": null
+    },
+    {
+      "path": "/projects",
+      "width": 900,
+      "scrollWidth": 900,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/projects",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/projects",
+      "width": 390,
+      "scrollWidth": 390,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/projects",
+      "width": 900,
+      "scrollWidth": 900,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/projects",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/about",
+      "width": 390,
+      "scrollWidth": 390,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/about",
+      "width": 900,
+      "scrollWidth": 900,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/about",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/about",
+      "width": 390,
+      "scrollWidth": 390,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/about",
+      "width": 900,
+      "scrollWidth": 900,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/about",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/services",
+      "width": 390,
+      "scrollWidth": 390,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/services",
+      "width": 900,
+      "scrollWidth": 900,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/services",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/services",
+      "width": 390,
+      "scrollWidth": 390,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/services",
+      "width": 900,
+      "scrollWidth": 900,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/services",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/careers",
+      "width": 390,
+      "scrollWidth": 390,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/careers",
+      "width": 900,
+      "scrollWidth": 900,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/careers",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/careers",
+      "width": 390,
+      "scrollWidth": 390,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/careers",
+      "width": 900,
+      "scrollWidth": 900,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/careers",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/contact",
+      "width": 390,
+      "scrollWidth": 390,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/contact",
+      "width": 900,
+      "scrollWidth": 900,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/contact",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/contact",
+      "width": 390,
+      "scrollWidth": 390,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/contact",
+      "width": 900,
+      "scrollWidth": 900,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    },
+    {
+      "path": "/en/contact",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "forms": 0,
+      "brokenLoadedImages": 0
+    }
+  ],
+  "notes": [
+    "No horizontal page overflow observed.",
+    "Broken-image check covers already-loaded images only; unvisited lazy images are not counted as failures.",
+    "Representative visual screenshots were inspected in the Codex task.",
+    "Kimpton EN gallery: two loaded images at width 900; updated alt text confirmed in live DOM.",
+    "Mobile menu opens and closes; native locale selector changes /projects to /en/projects."
+  ]
+}

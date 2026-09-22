@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "slug": "transasia-bakery-dayuan",
+  "category": "fb",
+  "weight": "reg",
+  "name": {
+    "zh": "復興航棧 大園店",
+    "en": "TransAsia Bakery, Dayuan"
+  },
+  "gloss": "Bakery &amp; Gift Retail",
+  "lede": {
+    "zh": "復興航空體系烘焙／伴手禮零售門市。目前僅有平面圖可供檢視，完工攝影待後製後補上。",
+    "en": "A bakery and gift retail outlet within the TransAsia group. Only the floor plan is available for review at present; completed-project photography will follow post-production."
+  },
+  "specs": [
+    {
+      "labelZh": "地點",
+      "labelEn": "Location",
+      "value": "桃園市大園區",
+      "verified": true,
+      "valueEn": "Dayuan District, Taoyuan"
+    },
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "連鎖餐飲 · 烘焙零售",
+      "verified": true,
+      "valueEn": "Chain F&B · bakery retail"
+    }
+  ],
+  "cardMeta": [
+    "BAKERY RETAIL",
+    "DAYUAN · TAOYUAN"
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "drawing",
+      "stem": "transasia-bakery-dayuan-gallery-01",
+      "sourceFile": "transasia-bakery-dayuan-gallery-01.jpg",
+      "width": 2339,
+      "height": 1653,
+      "spaceZh": "平面圖",
+      "alt": {
+        "zh": "復興航棧大園店｜平面圖",
+        "en": "TransAsia Bakery Dayuan — floor plan"
+      },
+      "retouch": "light",
+      "retouchNote": "重新出圖加粗線寬、標註跑道主題區／賣場／廚房／戶外木平台等區名與比例尺",
+      "risks": []
+    }
+  ],
+  "facts": {
+    "locationZh": "桃園市大園區",
+    "typeZh": "連鎖餐飲 · 烘焙零售"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm",
+      "year"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm",
+      "year"
+    ]
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

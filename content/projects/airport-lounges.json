@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "slug": "airport-lounges",
+  "category": "lounge",
+  "weight": "w6",
+  "name": {
+    "zh": "桃園機場航空貴賓室",
+    "en": "Taoyuan Airport Airline Lounges"
+  },
+  "gloss": "Airline Lounges · Taoyuan International Airport",
+  "lede": {
+    "zh": "桃園國際機場內兩家航空公司貴賓室之室內裝修工程。本頁影像以其中一案為主：接待大廳、貴賓室、備餐區與衣帽區。",
+    "en": "Interior fit-out of two airline lounges inside Taoyuan International Airport. The images on this page are mainly from one of them: reception lobby, lounge, pantry and cloakroom."
+  },
+  "specs": [
+    {
+      "labelZh": "地點",
+      "labelEn": "Location",
+      "value": "桃園市 · 桃園國際機場",
+      "verified": true,
+      "valueEn": "Taoyuan · Taoyuan International Airport"
+    },
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "航空貴賓室",
+      "verified": true,
+      "valueEn": "Airline lounge"
+    }
+  ],
+  "cardMeta": [
+    "AIRLINE LOUNGE",
+    "TAOYUAN AIRPORT"
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "airport-lounges-hero-01",
+      "sourceFile": "airport-lounges-hero-01.jpg",
+      "width": 2560,
+      "height": 1920,
+      "spaceZh": "接待大廳",
+      "alt": {
+        "zh": "桃園機場航空貴賓室｜接待大廳",
+        "en": "Taoyuan Airport Airline Lounges — reception lobby"
+      },
+      "retouch": "light",
+      "retouchNote": "修正垂直；壓回後方白牆高光；微調裁切讓櫃台脫離正中分割線",
+      "risks": []
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "airport-lounges-gallery-02",
+      "sourceFile": "airport-lounges-gallery-02.jpg",
+      "width": 2560,
+      "height": 1920,
+      "spaceZh": "貴賓室",
+      "alt": {
+        "zh": "桃園機場航空貴賓室｜貴賓室",
+        "en": "Taoyuan Airport Airline Lounges — lounge"
+      },
+      "retouch": "light",
+      "retouchNote": "提亮前景地毯；校正偏黃；裁掉右緣柱體；電視畫面替換為關閉或純色",
+      "risks": [
+        "thirdparty"
+      ]
+    },
+    {
+      "order": 3,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "airport-lounges-gallery-03",
+      "sourceFile": "airport-lounges-gallery-03.jpg",
+      "width": 2560,
+      "height": 1920,
+      "spaceZh": "貴賓室",
+      "alt": {
+        "zh": "桃園機場航空貴賓室｜貴賓室",
+        "en": "Taoyuan Airport Airline Lounges — lounge"
+      },
+      "retouch": "light",
+      "retouchNote": "確認掛畫授權，否則裁切或柔化；統一天花色溫；修正垂直",
+      "risks": [
+        "thirdparty"
+      ]
+    },
+    {
+      "order": 4,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "airport-lounges-gallery-04",
+      "sourceFile": "airport-lounges-gallery-04.jpg",
+      "width": 2560,
+      "height": 1920,
+      "spaceZh": "備餐區",
+      "alt": {
+        "zh": "桃園機場航空貴賓室｜備餐區",
+        "en": "Taoyuan Airport Airline Lounges — pantry"
+      },
+      "retouch": "light",
+      "retouchNote": "去除左緣人物；壓右側死黑或裁切；校正水平與偏綠；清除檯面小家電",
+      "risks": [
+        "portrait"
+      ]
+    },
+    {
+      "order": 5,
+      "role": "detail",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "airport-lounges-detail-05",
+      "sourceFile": "airport-lounges-detail-05.jpg",
+      "width": 2560,
+      "height": 1920,
+      "spaceZh": "衣帽區",
+      "alt": {
+        "zh": "桃園機場航空貴賓室｜衣帽區",
+        "en": "Taoyuan Airport Airline Lounges — cloakroom"
+      },
+      "retouch": "light",
+      "retouchNote": "清除玻璃反射中的雜物；校正水平；裁掉或壓暗左下咖啡機",
+      "risks": [
+        "housekeeping"
+      ]
+    }
+  ],
+  "facts": {
+    "locationZh": "桃園市 · 桃園國際機場",
+    "typeZh": "航空貴賓室"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm",
+      "year"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm",
+      "year"
+    ]
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

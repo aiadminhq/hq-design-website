@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "slug": "budaejjigae",
+  "category": "fb",
+  "weight": "w4",
+  "name": {
+    "zh": "部隊鍋",
+    "en": "Budae Jjigae"
+  },
+  "gloss": "Korean F&amp;B",
+  "lede": {
+    "zh": "韓式餐飲空間。",
+    "en": "A Korean restaurant interior."
+  },
+  "specs": [
+    {
+      "labelZh": "類別",
+      "labelEn": "Type",
+      "value": "連鎖餐飲",
+      "verified": true,
+      "valueEn": "Chain F&B"
+    }
+  ],
+  "cardMeta": [
+    "KOREAN F&amp;B",
+    ""
+  ],
+  "note": null,
+  "images": [
+    {
+      "order": 1,
+      "role": "hero",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "budaejjigae-hero-01",
+      "sourceFile": "budaejjigae-hero-01.jpg",
+      "width": 2000,
+      "height": 1143,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "部隊鍋｜用餐區",
+        "en": "Budae Jjigae — dining area"
+      },
+      "retouch": "light",
+      "retouchNote": "修除右後方冷藏櫃周邊雜物、統一白平衡、壓低海報飽和度",
+      "risks": [
+        "housekeeping"
+      ]
+    },
+    {
+      "order": 2,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "budaejjigae-gallery-02",
+      "sourceFile": "budaejjigae-gallery-02.jpg",
+      "width": 2000,
+      "height": 1333,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "部隊鍋｜用餐區",
+        "en": "Budae Jjigae — dining area"
+      },
+      "retouch": "light",
+      "retouchNote": "裁切左側紅磚柱、壓低海報飽和度、統一冷白燈條與暖白嵌燈色溫",
+      "risks": [
+        "housekeeping"
+      ]
+    },
+    {
+      "order": 3,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "budaejjigae-gallery-03",
+      "sourceFile": "budaejjigae-gallery-03.jpg",
+      "width": 2000,
+      "height": 1333,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "部隊鍋｜用餐區",
+        "en": "Budae Jjigae — dining area"
+      },
+      "retouch": "light",
+      "retouchNote": "模糊或修除玻璃外鄰店招牌與電話號碼、壓低海報飽和度",
+      "risks": [
+        "confidential"
+      ]
+    },
+    {
+      "order": 4,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "budaejjigae-gallery-04",
+      "sourceFile": "budaejjigae-gallery-04.jpg",
+      "width": 2000,
+      "height": 1333,
+      "spaceZh": "用餐區",
+      "alt": {
+        "zh": "部隊鍋｜用餐區",
+        "en": "Budae Jjigae — dining area"
+      },
+      "retouch": "light",
+      "retouchNote": "修除紅色塑膠箱、裁切中央矮隔屏、統一白平衡",
+      "risks": [
+        "housekeeping"
+      ]
+    },
+    {
+      "order": 5,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "budaejjigae-gallery-05",
+      "sourceFile": "budaejjigae-gallery-05.jpg",
+      "width": 1875,
+      "height": 1108,
+      "spaceZh": "店面外觀",
+      "alt": {
+        "zh": "部隊鍋｜店面外觀",
+        "en": "Budae Jjigae — shopfront"
+      },
+      "retouch": "light",
+      "retouchNote": "裁掉上方住宅陽台、修除左緣機車後照鏡、加強招牌與雨遮的光影層次、提亮地坪",
+      "risks": [
+        "portrait"
+      ]
+    },
+    {
+      "order": 6,
+      "role": "gallery",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "budaejjigae-gallery-06",
+      "sourceFile": "budaejjigae-gallery-06.jpg",
+      "width": 2000,
+      "height": 1333,
+      "spaceZh": "店面外觀",
+      "alt": {
+        "zh": "部隊鍋｜店面外觀",
+        "en": "Budae Jjigae — shopfront"
+      },
+      "retouch": "light",
+      "retouchNote": "修除左側徵才海報（含所有聯絡資訊）、消除玻璃反轉倒影、加強清水模牆側光",
+      "risks": [
+        "portrait",
+        "confidential"
+      ]
+    },
+    {
+      "order": 7,
+      "role": "detail",
+      "grade": "B",
+      "prov": "photo",
+      "stem": "budaejjigae-detail-07",
+      "sourceFile": "budaejjigae-detail-07.jpg",
+      "width": 2000,
+      "height": 1333,
+      "spaceZh": "櫃台",
+      "alt": {
+        "zh": "部隊鍋｜櫃台",
+        "en": "Budae Jjigae — counter"
+      },
+      "retouch": "light",
+      "retouchNote": "修除陳列架上的泡麵袋與橘色餐盤、清理櫃檯上設備與立牌、統一白平衡",
+      "risks": [
+        "housekeeping"
+      ]
+    }
+  ],
+  "facts": {
+    "typeZh": "連鎖餐飲"
+  },
+  "dataQuality": {
+    "source": "gen_work.py CASES（人工策展）",
+    "factsVerified": false,
+    "missingFacts": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ],
+    "provisionalFields": [],
+    "needsHumanReview": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ]
+  },
+  "pairs": [],
+  "relatedSlugs": []
+}

@@ -1,0 +1,98 @@
+{
+  "title": "現況掃描｜AI 識圖丈量與 CAD 轉 BIM｜惠強 HQ Design",
+  "desc": "現場和舊圖不一樣，誰來量？惠強以 AI 識圖丈量與 CAD→BIM 建立現況模型，作為後續六段共用的基準；2026 年 4 月起導入。了解你需要準備什麼。",
+  "h1": "進場前，我們先量清楚什麼？",
+  "lede": "現況量清楚一次，後續六段都以同一份基準運算；舊圖與現場的落差在進場前被看見。",
+  "gloss": "Site Survey — AI-assisted measurement from existing drawings and site data; CAD converted to a BIM base model.",
+  "inp": "既有建築／裝修圖（CAD 或紙本）、現場進入時段與大樓管制條件、營運中區域的範圍。",
+  "out": "現況 BIM 模型與現況平面；後續參數化方案、BIM 協調與施工圖說共用的基準檔。",
+  "q": "現場和舊圖不一樣，重新丈量要多久、要我準備什麼？",
+  "quote": "惠強室內裝修（HQ Design）在現況掃描階段，以 AI 識圖丈量讀取既有 CAD 或紙本圖面與現場量測資料，並將 CAD 圖轉為 BIM 現況模型，作為七段流程中後續六段共用的運算基準。AI 識圖丈量與 CAD→BIM 兩項自 2026 年 4 月起導入。",
+  "quote2": "業主端只需提供既有圖面與現場進入條件；辨識牆、柱、開口、設備位置與建立模型由惠強完成。",
+  "qen": "Owners provide existing drawings and site access; HQ Design reads them with AI-assisted measurement and builds the BIM base that every later stage shares.",
+  "how_h2": "惠強室內裝修在現況掃描階段做哪三件事？",
+  "how": [
+    [
+      "AI Recognition",
+      "AI 識圖丈量",
+      "讀取既有 CAD／紙本圖與現場量測資料，辨識牆、柱、開口與設備位置，減少人工逐點抄繪。",
+      "2026 年 4 月導入項目之一（公司簡介 Milestones），與 CAD→BIM、參數化多方案、BIM 報價整合並列四項。"
+    ],
+    [
+      "CAD → BIM",
+      "二維圖面轉三維模型",
+      "將二維現況圖轉為帶尺寸與屬性的 BIM 模型：牆體、樓板、開口與機電幹管位置一次建立。",
+      "同一模型延用至 05 BIM 協調與 06 施工圖說——七段中有 <b>3 段</b>直接共用此基準。"
+    ],
+    [
+      "Site Conditions",
+      "現地條件建檔",
+      "記錄大樓管制、進料動線、營運時段與保全要求，作為後續分區施工計畫的前提。",
+      "2025 年 SECOM 南港總部 <b>5,940 sqm</b> 於營運中總部施工，進場前即建立施工區隔、非核心時段進料與安全動線條件。"
+    ]
+  ],
+  "fig_lab": "FIG · 01",
+  "cap": [
+    "SCAN → PLAN",
+    "<span class='cjk'>點雲網格經 AI 識圖丈量與 CAD→BIM，轉為帶尺寸線的現況平面；品牌色標示的柱位為模型中被保留的既有結構。</span>"
+  ],
+  "why_h2": "現況掃描對業主的意義是什麼？",
+  "why": [
+    [
+      "Single Baseline",
+      "後續每一段都以同一份現況為準",
+      "平面、立面、剖面與報價數據來自同一套模型，不再各自維護。"
+    ],
+    [
+      "Earlier Visibility",
+      "舊圖與現場的落差在進場前被看見",
+      "問題不在拆除後才發現，返工與工期風險不由業主承擔。"
+    ],
+    [
+      "Low Effort",
+      "你只需提供既有圖與進場條件",
+      "辨識、建模與現地條件建檔由惠強完成。"
+    ]
+  ],
+  "ev_h2": "有哪些案件可以對照？",
+  "ev": [],
+  "ev_none": "<b>目前尚無可公開引用的階段證據。</b>AI 識圖丈量與 CAD→BIM 自 2026 年 4 月起導入；2024 年前完成之案件不列為本階段的 AI 流程證據，以免誤導。首批以此流程完成並驗收的案件將補列於此。",
+  "titleEn": "Site Survey — AI-assisted measurement and CAD to BIM",
+  "descEn": "Site and old drawings never match — who measures? HQ Design builds a BIM base model with AI-assisted measurement and CAD conversion, in place since April 2026.",
+  "h1En": "What do we measure before work starts?",
+  "ledeEn": "Measure the existing condition once and the six later stages all compute from the same baseline; the gap between old drawings and the actual site surfaces before anyone enters.",
+  "inpEn": "Existing architectural and fit-out drawings (CAD or paper), site access windows and building control conditions, and the extent of areas that stay in operation.",
+  "outEn": "An existing-condition BIM model and plans — the baseline file shared by parametric options, BIM coordination and construction documentation.",
+  "howH2En": "What does HQ Design do during the site survey?",
+  "whyH2En": "What does the site survey mean for the owner?",
+  "howEn": [
+    [
+      "AI-assisted measurement",
+      "Existing CAD or paper drawings and site measurements are read to identify walls, columns, openings and equipment positions, reducing point-by-point manual tracing."
+    ],
+    [
+      "From 2D drawings to a 3D model",
+      "The two-dimensional existing-condition drawings become a BIM model carrying dimensions and attributes: walls, slabs, openings and main MEP runs established in one pass."
+    ],
+    [
+      "Recording site conditions",
+      "Building controls, delivery routes, operating hours and security requirements are recorded as the premise for the later phased construction plan."
+    ]
+  ],
+  "whyEn": [
+    [
+      "Every later stage works from the same baseline",
+      "Plans, elevations, sections and cost data come from one model instead of being maintained separately."
+    ],
+    [
+      "The gap between old drawings and the site surfaces before work starts",
+      "Problems are not discovered after demolition, so rework and programme risk do not fall to the owner."
+    ],
+    [
+      "You only provide existing drawings and access conditions",
+      "Recognition, modelling and the record of site conditions are handled by HQ Design."
+    ]
+  ],
+  "evNoneEn": "<b>No citable evidence for this stage yet.</b> AI-assisted measurement and CAD to BIM have been in place since April 2026; projects completed before 2024 are not listed as evidence of this AI process, to avoid misleading. The first projects delivered and accepted through it will be added here.",
+  "figAltEn": "Site survey diagram: a site point-cloud grid on the left is converted, through AI-assisted measurement and CAD to BIM, into a dimensioned existing-condition plan and model baseline on the right."
+}

@@ -1,0 +1,118 @@
+{
+  "title": "BIM 室內裝修協調｜衝突在模型裡被找到，不在工地｜惠強 HQ Design",
+  "desc": "撞管誰付錢？惠強在 BIM 協調階段把建築、機電、設備與現場條件整合於同一套模型，衝突在進場前辨識而非在工地發現。了解整合對象與你拿到什麼。",
+  "h1": "撞管誰付錢？何時發現？",
+  "lede": "衝突在模型裡被找到，不在工地被找到。設計、機電、設備與現場條件先在同一套模型中整合。",
+  "gloss": "BIM Coordination — architecture, MEP, equipment and site conditions integrated in one model; clashes identified before construction.",
+  "inp": "定案設計與技術驗證結論、機電／消防／IT／保全等指定廠商圖面、大樓既有系統資料。",
+  "out": "整合後的 BIM 模型、衝突清單與解決方案、與模型一致的報價依據，交 06 施工圖說。",
+  "q": "進場後才發現風管撞到樑、灑水頭撞到燈，誰付錢、誰延誤？",
+  "quote": "惠強室內裝修（HQ Design）在 BIM 協調階段將建築、機電、設備與現場條件整合於同一套模型，使跨專業衝突在進場前被辨識，而非在工地被發現。CAD→BIM 與 BIM 報價整合兩項自 2026 年 4 月起導入。",
+  "quote2": "一般流程中問題常在現場才被發現，返工與工期風險由業主承擔；BIM 協調把發現階段提前到進場前，模型、圖面與報價依據也更容易維持一致。",
+  "qen": "Design, MEP, equipment and site conditions are coordinated in one model, so conflicts surface early — reducing rework and information gaps.",
+  "how_h2": "惠強室內裝修在 BIM 協調階段做哪四件事？",
+  "how": [
+    [
+      "One Model",
+      "同一套模型",
+      "建築、機電、設備與專業界面整合於同一套模型，而非各自維護的圖面。",
+      "整合對象 <b>4</b> 類：建築、機電（MEP）、設備、專業界面（公司簡介協作流程 03 BIM Coordination）。"
+    ],
+    [
+      "Clash Detection",
+      "預先辨識衝突",
+      "風管與樑、灑水頭與燈具、設備與淨高等衝突在模型中標記並解決。",
+      "發現階段：進場前。對照一般流程「問題常在現場才被發現」（公司簡介 The Difference）。"
+    ],
+    [
+      "Interfaces",
+      "專業廠商對接",
+      "建築、機電、IT／保全與業主指定廠商的界面在模型中協調，責任邊界在施工前釐清。",
+      "2025 年 SECOM 南港總部 <b>5,940 sqm</b>：高度保全需求的企業總部，保全與營運系統界面於施工前協調。"
+    ],
+    [
+      "Quantities",
+      "BIM 報價整合",
+      "報價依據由模型而來，模型改、數量改、報價改，三者一致。",
+      "2026 年 4 月導入項目之一，與 CAD→BIM、參數化多方案並列。"
+    ]
+  ],
+  "fig_lab": "FIG · 05",
+  "cap": [
+    "3 LAYERS · 1 MODEL",
+    "<span class='cjk'>建築、機電、設備三層在同一套模型中疊合；貫穿三層的虛線於機電層標記衝突點——在模型中辨識，而非在工地。示意圖，不含特定案件衝突數。</span>"
+  ],
+  "why_h2": "BIM 協調對業主的意義是什麼？",
+  "why": [
+    [
+      "Buildable Design Intent",
+      "設計意圖可被建造",
+      "細節與責任界面在施工前被釐清。"
+    ],
+    [
+      "Less Rework",
+      "減少返工",
+      "跨專業衝突可在進場前被發現。"
+    ],
+    [
+      "Aligned Information",
+      "資訊更一致",
+      "模型、圖面與報價依據更容易維持一致。"
+    ]
+  ],
+  "ev_h2": "有哪些案件可以對照？",
+  "ev": [
+    {
+      "href": "/work/secom-nangang-complex/",
+      "t": "中興保全 SECOM 南港總部",
+      "en": "Corporate HQ · Full Design &amp; Build",
+      "d": "NANGANG · <b>5,940</b> sqm · <b>2025</b>",
+      "claim_t": "技術協調：建築、機電、IT／保全與指定廠商界面",
+      "claim": "在持續營運且具高度保全需求的企業總部中，協調施工區隔、保全與營運系統界面，完成接待、開放辦公、會議與主管空間的整合翻新；零重大缺失驗收。",
+      "mode": "完工實景 · AS-BUILT · 2025"
+    }
+  ],
+  "ev_foot": "本頁不列出具名案件的衝突計數；惠強尚未公開該統計，將於整理後補列，而非以推估數字取代。",
+  "titleEn": "BIM Coordination — clashes found in the model, not on site",
+  "descEn": "Who pays when a duct hits a beam? HQ Design integrates architecture, MEP, equipment and site conditions in one model, so clashes surface before anyone enters the site.",
+  "h1En": "Who pays for the clash, and when is it found?",
+  "ledeEn": "Clashes are found in the model, not on site. Design, MEP, equipment and site conditions are integrated in one model first.",
+  "inpEn": "Settled design and technical validation conclusions, drawings from nominated MEP, fire, IT and security contractors, and existing building system data.",
+  "outEn": "The integrated BIM model, a clash list with resolutions, and a pricing basis consistent with the model, passed to stage 06 Construction Documentation.",
+  "howH2En": "What does HQ Design do during BIM coordination?",
+  "whyH2En": "What does BIM coordination mean for the owner?",
+  "howEn": [
+    [
+      "A single coordinated model",
+      "Architecture, MEP, equipment and specialist interfaces are integrated in one model rather than kept as separately maintained drawings."
+    ],
+    [
+      "Identifying clashes in advance",
+      "Ducts against beams, sprinkler heads against light fittings, equipment against clear height — these are marked and resolved in the model."
+    ],
+    [
+      "Working with specialist contractors",
+      "Interfaces with architecture, MEP, IT and security, and with the owner's nominated contractors, are coordinated in the model, so responsibility boundaries are clear before construction."
+    ],
+    [
+      "Pricing from the model",
+      "The pricing basis comes from the model: change the model, the quantities change, and the price changes with them."
+    ]
+  ],
+  "whyEn": [
+    [
+      "Design intent that can be built",
+      "Details and responsibility boundaries are clarified before construction."
+    ],
+    [
+      "Less rework",
+      "Cross-discipline clashes can be found before work starts on site."
+    ],
+    [
+      "Information stays aligned",
+      "Model, drawings and the pricing basis are easier to keep consistent."
+    ]
+  ],
+  "evFootEn": "This page does not publish clash counts for named projects. HQ Design has not released those figures; they will be added once compiled, rather than substituted with estimates.",
+  "figAltEn": "BIM coordination diagram: architecture, MEP and equipment are overlaid as three layers in one model, with cross-layer clash points marked before work starts on site."
+}
