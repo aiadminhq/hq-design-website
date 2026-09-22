@@ -1,0 +1,257 @@
+/* ============================================================
+   HQ Design — hq.css token authority, synced verbatim from
+   site/assets/css/hq.css (Design Token 3.0). Font @font-face src
+   paths only are rewritten from ../fonts/ to /fonts/ to match this
+   app's public/ layout. Do not hand-edit tokens here — resync from
+   the source file if the design system changes.
+   ============================================================ */
+@font-face {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/Satoshi-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/Satoshi-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Satoshi";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/Satoshi-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("/fonts/Satoshi-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  src: url("/fonts/Satoshi-MediumItalic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Satoshi";
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url("/fonts/Satoshi-BoldItalic.woff2") format("woff2");
+}
+:root {
+  /* ── HQ Design Token 3.0 · primitives ── */
+  --p-verm-050: #fdede5;
+  --p-verm-100: #facdb6;
+  --p-verm-300: #ed6d45;
+  --p-verm-400: #d64518;
+  --p-verm-500: #ba3a12;
+  --p-verm-600: #8e2a09;
+  --p-navy-050: #f1f5f9;
+  --p-navy-100: #e1e8f0;
+  --p-navy-300: #c0c8d2;
+  --p-navy-400: #6b7785;
+  --p-navy-500: #3f4e60;
+  --p-navy-700: #1f2a36;
+  --p-navy-800: #131b25;
+  --p-navy-900: #0a1118;
+  --p-white: #ffffff;
+  /* ── semantic · light ── */
+  --bg: var(--p-white);
+  --bg-sunken: var(--p-navy-050);
+  --bg-inverse: var(--p-navy-700);
+  --bg-immersive: var(--p-navy-900);
+  --fg: var(--p-navy-700);
+  --fg-2: var(--p-navy-500);
+  --fg-3: var(--p-navy-400);
+  --fg-inverse: var(--p-white);
+  --fg-inverse-2: var(--p-navy-300);
+  --line: var(--p-navy-100);
+  --line-strong: var(--p-navy-300);
+  --line-ink: var(--p-navy-700);
+  --brand: var(--p-verm-400);
+  --brand-hover: var(--p-verm-500);
+  --brand-subtle: var(--p-verm-050);
+  --img-scrim: linear-gradient(
+    180deg,
+    rgba(10, 17, 24, 0) 40%,
+    rgba(10, 17, 24, 0.55) 100%
+  );
+  /* ── type ── */
+  --f-en: "Satoshi", system-ui, -apple-system, sans-serif;
+  --f-cjk: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  --f-sans: var(--f-en), var(--f-cjk);
+  --f-mono: "Geist Mono", "SF Mono", Menlo, monospace;
+  /* ── space ── */
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+  --s7: 48px;
+  --s8: 64px;
+  --s9: 96px;
+  --s10: 128px;
+  --container: 1320px;
+  --gutter: 24px;
+  --section-y: clamp(72px, 8vw, 150px);
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: var(--p-navy-900);
+    --bg-sunken: var(--p-navy-800);
+    --bg-inverse: var(--p-navy-050);
+    --bg-immersive: #050a0f;
+    --fg: var(--p-navy-050);
+    --fg-2: var(--p-navy-300);
+    --fg-3: var(--p-navy-400);
+    --fg-inverse: var(--p-navy-900);
+    --fg-inverse-2: var(--p-navy-500);
+    --line: #1c2733;
+    --line-strong: #2e3b49;
+    --line-ink: var(--p-navy-050);
+    --brand: var(--p-verm-300);
+    --brand-hover: var(--p-verm-400);
+    --brand-subtle: #2a150c;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: var(--p-navy-900);
+  --bg-sunken: var(--p-navy-800);
+  --bg-inverse: var(--p-navy-050);
+  --bg-immersive: #050a0f;
+  --fg: var(--p-navy-050);
+  --fg-2: var(--p-navy-300);
+  --fg-3: var(--p-navy-400);
+  --fg-inverse: var(--p-navy-900);
+  --fg-inverse-2: var(--p-navy-500);
+  --line: #1c2733;
+  --line-strong: #2e3b49;
+  --line-ink: var(--p-navy-050);
+  --brand: var(--p-verm-300);
+  --brand-hover: var(--p-verm-400);
+  --brand-subtle: #2a150c;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--f-sans);
+  font-size: 17px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings:
+    "tnum" 1,
+    "lnum" 1;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+.eyebrow {
+  font-family: var(--f-mono);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--fg-3);
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+}
+.eyebrow::before {
+  content: "";
+  width: 28px;
+  height: 1px;
+  background: var(--line-ink);
+}
+.eyebrow .n {
+  color: var(--brand);
+}
+
+/* ============================================================
+   影像來源標示（Source Label）— 內容政策的硬要求
+   四種 data-provenance：photo / viz / enh / drawing
+   synced from ds-bundle/tokens/components.css
+   ============================================================ */
+.fig {
+  margin: 0;
+  position: relative;
+}
+.fig img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  display: block;
+}
+.fig[data-orient="portrait"] img {
+  object-position: center;
+}
+.fig figcaption {
+  padding-top: var(--s3);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2) var(--s5);
+  font-family: var(--f-mono);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: var(--fg-3);
+  align-items: center;
+}
+.fig figcaption .src {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+}
+.fig figcaption .src::before {
+  content: "";
+  width: 14px;
+  height: 1px;
+  background: var(--brand);
+  transform: rotate(-60deg);
+}
+.fig[data-provenance="photo"] .src::before {
+  background: var(--brand);
+}
+.fig[data-provenance="drawing"] .src::before,
+.fig[data-provenance="viz"] .src::before,
+.fig[data-provenance="enh"] .src::before {
+  background: var(--fg-3);
+}
+.fig[data-provenance="viz"] .src,
+.fig[data-provenance="enh"] .src {
+  color: var(--fg-3);
+}
+.fig[data-provenance="drawing"] img,
+.fig[data-provenance="viz"] img,
+.fig[data-provenance="enh"] img {
+  border: 1px solid var(--line);
+}
