@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-09-06T10:24:56.019Z",
+  "source": {
+    "tokens/hq.css": "49c430c55b603ccc",
+    "tokens/components.css": "98607caeffca56ec",
+    "fonts/LICENSE-Satoshi-FFL.txt": "145e7fe2429a3336",
+    "fonts/Satoshi-Bold.woff2": "6f979e75eb9d6de6",
+    "fonts/Satoshi-BoldItalic.woff2": "cdce008b63614513",
+    "fonts/Satoshi-Italic.woff2": "a80f3880397bbb8c",
+    "fonts/Satoshi-Medium.woff2": "d492ce178ab9042b",
+    "fonts/Satoshi-MediumItalic.woff2": "e4655448c210344d",
+    "fonts/Satoshi-Regular.woff2": "5aa97d938f523dd8"
+  },
+  "output": {
+    "hq.css": "c76d44410cc5f360",
+    "components.css": "98607caeffca56ec"
+  }
+}

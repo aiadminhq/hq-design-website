@@ -1,0 +1,137 @@
+[
+  {
+    "from": "/index.html",
+    "to": "/zh",
+    "note": ""
+  },
+  {
+    "from": "/about.html",
+    "to": "/zh/about",
+    "note": ""
+  },
+  {
+    "from": "/services.html",
+    "to": "/zh/services",
+    "note": ""
+  },
+  {
+    "from": "/projects.html",
+    "to": "/zh/work",
+    "note": ""
+  },
+  {
+    "from": "/contact.html",
+    "to": "/zh/contact",
+    "note": ""
+  },
+  {
+    "from": "/careers.html",
+    "to": "/zh/careers",
+    "note": ""
+  },
+  {
+    "from": "/projects/aiontech.html",
+    "to": "/zh/work/aiontech",
+    "note": ""
+  },
+  {
+    "from": "/projects/baohua.html",
+    "to": "/zh/work/baohua",
+    "note": ""
+  },
+  {
+    "from": "/projects/csun.html",
+    "to": "/zh/work/csun",
+    "note": ""
+  },
+  {
+    "from": "/projects/epicstech-10f.html",
+    "to": "/zh/work/epicstech-10f",
+    "note": ""
+  },
+  {
+    "from": "/projects/hq-office.html",
+    "to": "/zh/work/hq-office",
+    "note": ""
+  },
+  {
+    "from": "/projects/kimpton.html",
+    "to": "/zh/work/kimpton",
+    "note": ""
+  },
+  {
+    "from": "/projects/ledaojia.html",
+    "to": "/zh/work/ledaojia",
+    "note": ""
+  },
+  {
+    "from": "/projects/lijie.html",
+    "to": "/zh/work/lijie",
+    "note": ""
+  },
+  {
+    "from": "/projects/liwei.html",
+    "to": "/zh/work/liwei",
+    "note": ""
+  },
+  {
+    "from": "/projects/polytron.html",
+    "to": "/zh/work/polytron",
+    "note": ""
+  },
+  {
+    "from": "/projects/popeyes.html",
+    "to": "/zh/work/popeyes",
+    "note": ""
+  },
+  {
+    "from": "/projects/qijia.html",
+    "to": "/zh/work/qijia",
+    "note": ""
+  },
+  {
+    "from": "/projects/secom-nangang-complex.html",
+    "to": "/zh/work/secom-nangang-complex",
+    "note": ""
+  },
+  {
+    "from": "/projects/soup-spoon-101.html",
+    "to": "/zh/work/soup-spoon-101",
+    "note": ""
+  },
+  {
+    "from": "/projects/soup-spoon-station.html",
+    "to": "/zh/work/soup-spoon-station",
+    "note": ""
+  },
+  {
+    "from": "/projects/xinlan.html",
+    "to": "/zh/work/xinlan",
+    "note": ""
+  },
+  {
+    "from": "/projects/zhongbao-baojing.html",
+    "to": "/zh/work/zhongbao-baojing",
+    "note": ""
+  },
+  {
+    "from": "/projects/zhongbao-jingzhen.html",
+    "to": "/zh/work/zhongbao-jingzhen",
+    "note": ""
+  },
+  {
+    "from": "/projects/zhongbao-nangang.html",
+    "to": "/zh/work/secom-nangang-complex",
+    "note": "新站已拆成多個租戶案例，導向同址同業主的旗艦案；待使用者確認"
+  },
+  {
+    "from": "/projects/zhongbao-showroom.html",
+    "to": "/zh/work/zhongbao-showroom",
+    "note": ""
+  },
+  {
+    "from": "/projects/zhongbao-tianhe.html",
+    "to": "/zh/work/zhongbao-tianhe",
+    "note": ""
+  }
+]

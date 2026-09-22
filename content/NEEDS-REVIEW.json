@@ -1,0 +1,79 @@
+{
+  "generatedAt": "2026-09-06T18:19:26",
+  "note": "缺漏的可稽核事實。暫填值一律 verified=false，人工確認後才可進 JSON-LD／llms.txt／OG。",
+  "cases": {
+    "kimpton": [
+      "areaSqm"
+    ],
+    "zhongbao-smart-facility": [
+      "areaSqm",
+      "year"
+    ],
+    "soup-spoon-station": [
+      "areaSqm"
+    ],
+    "popeyes": [
+      "areaSqm"
+    ],
+    "airport-lounges": [
+      "areaSqm",
+      "year"
+    ],
+    "budaejjigae": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ],
+    "guochan-showroom": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ],
+    "zhongbao-store-daan": [
+      "areaSqm",
+      "year"
+    ],
+    "zhongbao-store-zhuangjing": [
+      "areaSqm",
+      "year"
+    ],
+    "guochan-office": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ],
+    "soup-spoon-101": [
+      "areaSqm"
+    ],
+    "secom-reception": [
+      "areaSqm",
+      "year"
+    ],
+    "longteng-travel": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ],
+    "burger-ray": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ],
+    "transasia-bakery-chunri": [
+      "areaSqm",
+      "year"
+    ],
+    "transasia-bakery-dayuan": [
+      "areaSqm",
+      "year"
+    ],
+    "baohua": [
+      "areaSqm"
+    ],
+    "staff-facility": [
+      "areaSqm",
+      "year",
+      "locationZh"
+    ]
+  }
+}

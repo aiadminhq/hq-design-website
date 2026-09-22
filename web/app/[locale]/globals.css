@@ -1,0 +1,23 @@
+/* 所有權：Fable 5.1。
+   下面兩行是 token 接入點——_ds/ 由 scripts/sync-ds.mjs 從 ds-bundle 產生並受
+   checksum 守衛（手改會讓 build 失敗）。要改 token 請改 ds-bundle/tokens/ 後重新同步。
+   這兩行以外的內容你可以整份取代。 */
+@import url("../_ds/hq.css");
+@import url("../_ds/components.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--f-sans);
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
