@@ -60,3 +60,7 @@ web/public/fonts/
 # 與第三方個人網站擷取（127 MB）。repo 為公開，提交等同以惠強名義公開發布他人受
 # 版權保護的內容——Codex 規格書亦明文禁止。共 1,890 檔 / 260 MB。
 framer reference/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
