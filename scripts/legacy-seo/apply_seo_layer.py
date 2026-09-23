@@ -19,7 +19,7 @@ ORIGIN = "https://www.hqdesign.tw"
 SITE_NAME = "HQ Design"
 IMAGE_URL = f"{ORIGIN}/assets/images/logo/IMG_6412.PNG"
 IMAGE_ALT = "HQ Design logo"
-PAGES = sorted(glob.glob(str(ROOT/"*.html")) + glob.glob(str(ROOT/"projects/*.html")) + glob.glob(str(ROOT/"zh/*.html")))
+PAGES = sorted(glob.glob(str(ROOT/"*.html")) + glob.glob(str(ROOT/"projects/*.html")) + glob.glob(str(ROOT/"zh/*.html")) + glob.glob(str(ROOT/"zh/projects/*.html")))
 OG_RE = re.compile(r'^[ \t]*<meta (?:property="og:[^"]+"|name="twitter:[^"]+")[^\n]*\n', re.M)
 LD_RE = re.compile(r'[ \t]*<script type="application/ld\+json">.*?</script>\n', re.S)
 
@@ -42,7 +42,7 @@ def repair_tail(doc, rel):
     le = doc.find("\n", idx); line = doc[idx: le if le >= 0 else len(doc)].rstrip()
     if not line.endswith("."): line += "."
     if not line.endswith("</p>"): line += "</p>"
-    prefix = "../" if rel.startswith(("projects/", "zh/")) else ""
+    prefix = "../../" if rel.startswith("zh/projects/") else ("../" if rel.startswith(("projects/", "zh/")) else "")
     tail = f'{line}\n    </div>\n  </div>\n</footer>\n<script src="{prefix}assets/js/main.js"></script>\n</body>\n</html>\n'
     return doc[:idx] + tail
 

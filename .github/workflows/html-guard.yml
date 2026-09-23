@@ -15,7 +15,7 @@ jobs:
             size=$(wc -c < "$f")
             if [ "$size" -lt 2048 ]; then echo "::error file=$f::only $size bytes — page looks truncated"; fail=1; fi
             if ! grep -q '</html>' "$f"; then echo "::error file=$f::missing </html>"; fail=1; fi
-          done < <(git ls-files -- ':(glob)*.html' ':(glob)projects/*.html' ':(glob)zh/*.html')
+          done < <(git ls-files -- ':(glob)*.html' ':(glob)projects/*.html' ':(glob)zh/*.html' ':(glob)zh/projects/*.html')
           exit $fail
       - name: SEO head layer is in sync with titles/descriptions
         run: python3 scripts/legacy-seo/apply_seo_layer.py --check
