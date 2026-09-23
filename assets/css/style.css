@@ -777,29 +777,6 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
 .info-item p { font-size: 14px; color: var(--mid); }
 .info-item p strong { color: var(--dark); }
 
-.line-box {
-  background: var(--bg);
-  border: 1.5px solid var(--border);
-  border-radius: var(--radius);
-  padding: 28px;
-  text-align: center;
-}
-.line-box h4 { font-size: 16px; margin-bottom: 8px; }
-.line-box p { font-size: 13px; color: var(--mid); margin-bottom: 20px; }
-.line-placeholder {
-  width: 140px; height: 140px;
-  background: var(--border);
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 12px;
-  font-size: 12px;
-  color: var(--light);
-  text-align: center;
-  padding: 12px;
-  line-height: 1.4;
-}
 
 /* ============================================================
    FOOTER
