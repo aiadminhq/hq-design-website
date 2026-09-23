@@ -754,7 +754,26 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
 .contact-info { display: flex; flex-direction: column; gap: 36px; }
 .info-block h3 { font-size: 16px; margin-bottom: 16px; }
 .info-item { display: flex; gap: 12px; margin-bottom: 12px; align-items: flex-start; }
-.info-icon { width: 20px; color: var(--mid); flex-shrink: 0; margin-top: 2px; }
+.info-icon {
+  width: 20px;
+  height: 20px;
+  color: var(--brand);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.info-icon svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 .info-item p { font-size: 14px; color: var(--mid); }
 .info-item p strong { color: var(--dark); }
 
