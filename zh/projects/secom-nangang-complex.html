@@ -108,65 +108,7 @@
     .proj-hero-meta span strong { color: rgba(255,255,255,0.9); }
 
     /* ── Stats Bar ── */
-    .stats-bar {
-      background: var(--dark);
-      padding: 0;
-    }
-    .stats-bar-inner {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      divide: var(--border);
-    }
-    @media (max-width: 640px) {
-      .stats-bar-inner { grid-template-columns: repeat(2, 1fr); }
-    }
-    .stat-item {
-      padding: 32px 24px;
-      text-align: center;
-      border-right: 1px solid rgba(255,255,255,0.08);
-    }
-    .stat-item:last-child { border-right: none; }
-    .stat-num {
-      font-family: var(--font-en);
-      font-size: clamp(28px, 3vw, 40px);
-      font-weight: 800;
-      color: var(--brand);
-      line-height: 1;
-      margin-bottom: 6px;
-    }
-    .stat-label {
-      font-size: 12px;
-      color: rgba(255,255,255,0.45);
-      letter-spacing: 0.5px;
-    }
 
-    /* ── Section headings ── */
-    .section-heading {
-      margin-bottom: 48px;
-    }
-    .section-heading .label {
-      display: block;
-      margin-bottom: 10px;
-    }
-    .section-heading h2 {
-      font-size: clamp(22px, 2.8vw, 36px);
-      margin-bottom: 8px;
-    }
-    .section-heading p {
-      font-family: var(--font-en);
-      font-size: 14px;
-      color: var(--mid);
-      line-height: 1.7;
-      max-width: 640px;
-    }
-    .divider-line {
-      width: 48px;
-      height: 3px;
-      background: var(--brand);
-      margin: 16px 0 0;
-    }
-
-    /* ── Overview layout ── */
     .overview-section { padding: 80px 0; }
     .overview-layout {
       display: grid;
@@ -333,29 +275,6 @@
   </div>
 </div>
 
-<!-- STATS BAR -->
-<div class="stats-bar">
-  <div class="container" style="padding: 0; max-width: 100%;">
-    <div class="stats-bar-inner">
-      <div class="stat-item">
-        <div class="stat-num">6</div>
-        <div class="stat-label">六層</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-num">600+</div>
-        <div class="stat-label">座位</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-num">115</div>
-        <div class="stat-label">設計圖頁</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-num">0</div>
-        <div class="stat-label">停業干擾</div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- OVERVIEW -->
 <section class="overview-section">
