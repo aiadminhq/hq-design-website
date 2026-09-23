@@ -109,6 +109,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.hqdesign.tw/zh/projects/secom-nangang-complex.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
     <loc>https://www.hqdesign.tw/projects/soup-spoon-101.html</loc>
     <priority>0.7</priority>
   </url>
@@ -120,11 +126,7 @@
     <loc>https://www.hqdesign.tw/projects/xinlan.html</loc>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://www.hqdesign.tw/projects/zhongbao-nangang.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
+<url>
     <loc>https://www.hqdesign.tw/projects/zhongbao-baojing.html</loc>
     <priority>0.7</priority>
   </url>
