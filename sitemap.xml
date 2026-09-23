@@ -29,6 +29,10 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.hqdesign.tw/faq.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.hqdesign.tw/zh/</loc>
     <priority>1.0</priority>
   </url>
@@ -54,6 +58,10 @@
   </url>
   <url>
     <loc>https://www.hqdesign.tw/zh/local-partner-international-pm.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/faq.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
