@@ -1210,3 +1210,24 @@ html[lang="zh-Hant"] .faq-group-title {
   padding-left: 1.25em;
 }
 .faq-answer li { margin-bottom: 6px; }
+/* Chinese navigation: keep the brand name and founding year on separate lines. */
+.nav-logo--int.nav-logo--zh .name-zh {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+.nav-logo--int.nav-logo--zh .name-zh-company,
+.nav-logo--int.nav-logo--zh .name-zh-since {
+  display: block;
+}
+.nav-logo--int.nav-logo--zh .name-zh-since {
+  font-family: var(--font-en);
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
+@media (max-width: 900px) {
+  .nav-logo--int.nav-logo--zh .name-zh { font-size: 10px; }
+  .nav-logo--int.nav-logo--zh .name-zh-since { font-size: 9px; }
+}
