@@ -82,7 +82,8 @@
 
 - 英文：https://www.hqdesign.tw/faq.html
 - 繁中：https://www.hqdesign.tw/zh/faq.html
-- 涵蓋：法定名稱與室內裝修業執照、Design & Build 與 Local Partner 差異、設計主導權保留、台灣許可／消防／房東協調（依案評估）、僅許可服務、專案角色分工（專案經理／工務／設計師）、英文雙語 PM、一個工作天內首次回覆、12 個月保固、產業實績名稱、非建築師事務所說明、採購啟動方式、不停業裝修定位（專案確認）
+- 涵蓋：法定名稱與室內裝修業執照、Design & Build 與 Local Partner 差異、設計主導權保留、台灣許可／消防／房東協調（依案評估）、僅許可服務、專案角色分工（專案經理／工務／設計師）、英文雙語 PM、一個工作天內首次回覆、12 個月保固、產業實績名稱、非建築師事務所說明、採購／總務低摩擦啟動與少協調壓力（單一對口、進度與變更歸屬、英中文件分工、RFI／RFQ 一個工作天內確認）、不停業裝修定位（專案確認）
+- 服務頁專區：https://www.hqdesign.tw/services.html#for-procurement （給採購／總務）；聯繫頁清單：https://www.hqdesign.tw/contact.html#procurement-checklist
 - 不主張：坪單價、LEED／綠建築、公司層級建築師開業、固定許可清單矩陣、未驗證工期／報價天數
 
 ## 使用說明
