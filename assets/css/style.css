@@ -1098,11 +1098,33 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   font-size: 12px;
   user-select: none;
 }
+/* English header brand stack — shared so every EN page matches home/reference:
+   orange logo + DESIGN AND BUILD mark, then "HQ Design" (15px/700 dark)
+   over "SINCE 1995" (11px light, all-caps). Scoped away from .nav-logo--zh. */
+.nav-logo--int:not(.nav-logo--zh) img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+.nav-logo--int:not(.nav-logo--zh) .name-en {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--dark);
+  letter-spacing: -0.2px;
+  line-height: 1.1;
+  display: block;
+}
 .nav-logo--int .name-zh--en {
   font-family: var(--font-en);
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--light);
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-size: 10px;
+  line-height: 1.2;
+  display: block;
+  margin-top: 2px;
 }
 
 /* Phone 375px: keep toggle visible; collapse spacing */
@@ -1118,9 +1140,10 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
 @media (max-width: 375px) {
   .lang-toggle { gap: 4px; margin-right: 4px; }
   .lang-toggle__item { font-size: 11px; }
-  .nav-logo--int .name-en { font-size: 13px; }
-  .nav-logo--int img { height: 32px; }
-  .nav-logo--int .name-zh { display: none; }
+  .nav-logo--int:not(.nav-logo--zh) .name-en { font-size: 13px; }
+  .nav-logo--int:not(.nav-logo--zh) img { height: 32px; }
+  /* Hide EN "SINCE 1995" only — do not blank the ZH company stack */
+  .nav-logo--int:not(.nav-logo--zh) .name-zh { display: none; }
 }
 
 /* Team structure (About) — high-contrast numbers on dark cells */
