@@ -266,7 +266,7 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   border-top: 1px solid rgba(255,255,255,0.1);
 }
 .stat-item { display: flex; flex-direction: column; }
-.stat-num  { font-family: var(--font-en); font-size: 44px; font-weight: 800; color: var(--white); line-height: 1; }
+.stat-num  { font-family: var(--font-en); font-size: 44px; font-weight: 800; color: var(--white); line-height: 1; white-space: nowrap; }
 .stat-num .stat-unit { font-size: 22px; color: var(--accent); }
 .stat-label-en { font-family: var(--font-en); font-size: 11px; color: rgba(255,255,255,0.55); letter-spacing: 0.5px; margin-top: 6px; display: block; }
 .stat-label-zh { font-size: 11px; color: rgba(255,255,255,0.30); margin-top: 2px; display: block; letter-spacing: 0.5px; }
@@ -641,6 +641,7 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   font-weight: 800;
   color: var(--accent);
   line-height: 1;
+  white-space: nowrap;
 }
 .about-stat .unit { font-size: 24px; }
 .about-stat .zh { font-size: 13px; color: rgba(255,255,255,0.6); margin-top: 8px; }
