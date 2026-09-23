@@ -1212,6 +1212,9 @@ html[lang="zh-Hant"] .faq-group-title {
 }
 .faq-answer li { margin-bottom: 6px; }
 /* Chinese navigation: keep the brand name and founding year on separate lines. */
+/* Locale-only header brand: Chinese pages should not render the English name. */
+.nav-logo--int.nav-logo--zh .name-en { display: none; }
+
 .nav-logo--int.nav-logo--zh .name-zh {
   display: flex;
   flex-direction: column;
