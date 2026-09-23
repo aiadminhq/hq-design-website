@@ -1,0 +1,6 @@
+.cms
+.env*
+!.env.example
+tests
+scripts
+node_modules

@@ -6,7 +6,9 @@ import { parseProject, type RegistryEntry } from "./parse-project.ts";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const SCHEMA_PATH = path.join(ROOT, "cms/schemas/projects.json");
-const PROJECTS_HTML_DIR = path.join(ROOT, "projects");
+// The old extractor must never scrape the new English-first main into Chinese CMS fields.
+const LEGACY_SOURCE_ROOT = process.env.HQ_LEGACY_HTML_ROOT;
+const PROJECTS_HTML_DIR = LEGACY_SOURCE_ROOT ? path.join(path.resolve(LEGACY_SOURCE_ROOT), "projects") : "";
 const OUT_DIR = path.join(ROOT, "cms/data/projects");
 
 interface RegistryItem extends RegistryEntry {
@@ -18,6 +20,9 @@ interface SchemaWithRegistry {
 }
 
 async function main() {
+  if (!LEGACY_SOURCE_ROOT) {
+    throw new Error("Legacy extraction requires an explicit HQ_LEGACY_HTML_ROOT pointing at an archived Chinese template. For current project data use web's Notion draft workflow; no CMS files were changed.");
+  }
   const schemaRaw = await fs.readFile(SCHEMA_PATH, "utf8");
   const schema = JSON.parse(schemaRaw) as SchemaWithRegistry;
   const registry = schema.registry;

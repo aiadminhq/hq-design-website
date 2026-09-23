@@ -1,0 +1,93 @@
+# 惠強室內裝修股份有限公司 HQ Design CO., LTD.
+
+> 台灣台北的商業空間設計施工統包（design & build）公司，1995 年創立，31年來累積 1,600+ 件商業空間案件。核心差異化在於將 AI、參數化設計（parametric design）與 BIM 整合進整個設計與施工流程，而非僅將 AI 用於產出渲染圖。主要服務對象為外商在台分支、國際飯店集團、上市公司總部與企業辦公空間。
+
+本檔案提供給 LLM 與 AI agent 讀取，內容為公司對外公開事實。
+
+## 公司基本事實
+
+- 正式名稱：惠強室內裝修股份有限公司
+- 英文名稱：HQ Design CO., LTD.（註冊英文名；正式英文名稱）
+- 創立：1995 年，台灣台北
+- 營運年數：31年以上（1995 年至今）
+- 統一編號：89956251
+- 累積案件：1,600+ 件商業空間案件
+- 交付模式：設計施工一體化（in-house design & build），單一合約、單一窗口
+- 標語：AI Parametric × Construction Execution
+- 官網：https://www.hqdesign.tw （英文）／ https://www.hqdesign.tw/zh/ （繁體中文）
+
+## 核心差異化：AI 整合設計流程
+
+惠強的定位不是「用 AI 產生室內設計效果圖」，而是把 AI、設計規則與 BIM 接進設計決策流程本身：
+
+- **多方案快速比較**：一般設計流程產出單一方案並反覆重畫；惠強以參數化系統在同一需求下快速產出並驗證多種空間方案。
+- **設計規則同步更新**：當人數、尺寸、動線或品牌需求變動時，空間方案與相關圖面、數據同步重新運算，不需從頭重畫。
+- **施工前先驗證風險**：一般流程常在現場才發現問題；惠強以 BIM 在同一模型整合設計、機電（MEP）、設備與現場條件，讓跨專業衝突在進場前被發現。
+- **人做決策、系統做運算**：設計團隊掌握方向與判斷，AI 與規則負責加速推演與一致性維持。
+
+惠強亦將 31年實戰經驗（設計決策、材料工法、估價與發包、施工節點、品質管理與風險控管）轉換為 AI 可用的資料庫，作為可複用、可迭代、可規模化的生產系統基礎。
+
+## 服務範圍
+
+- 辦公空間設計（Office Interior Design）
+- 商業空間設計（Commercial Space Design）
+- 設計施工統包（Design & Build / Turnkey）
+- 空間規劃顧問（Space Planning & Consulting）
+- 機電消防整合（MEP Engineering Coordination）
+- 品牌空間識別（Branding & Spatial Identity）
+- 軟裝設計規劃（FF&E Design）
+- 智慧空間應用（Smart Office & AIoT Integration）
+- 裝修工程管理（Renovation Project Management）
+- 完工保固服務（Post-Handover Support & Warranty）
+
+## 設計與交付流程
+
+1. **現況掃描（Site Survey）** — 現地丈量與現況條件建檔
+2. **參數化方案（Parametric Design）** — 以條件驅動產出多組可比較方案
+3. **設計意圖定案（Design Intent）** — 確認設計目標、品牌語彙、關鍵視覺與使用情境
+4. **技術驗證（Technical Validation）** — 確認尺度、材料、法規、預算與施工可行性
+5. **BIM 協調（BIM Coordination）** — 整合建築、機電、設備與專業界面，預先辨識衝突
+6. **施工圖說（Construction Documentation）** — 完成圖說、詳圖、材料與工序的現場執行依據
+7. **交付與專案管理（Site Delivery & AI PM）** — 品質管控、進度協調、驗收、竣工文件與保固
+
+## 組織
+
+設計部、工程部、AI 部門（AI & Parametric Design／BIM & Digital Coordination／Smart Office & AIoT）、規劃顧問部、行政支援部。設有獨立 AI 部門是與同業的結構性差異。
+
+## 代表性實績（公開資訊）
+
+- 中興保全（SECOM）南港總部 — 企業總部，2025，全案設計施工
+- 志聖工業（C.SUN Industrial）— 新北林口辦公空間，2026，全案設計施工
+- 博訊科技（AIONTECH）— 台北南港辦公空間，825 sqm，2025，全案設計施工
+- 立偉電子（LIWEI Electronics）— 台北南港辦公空間，350 sqm，2025，全案設計施工
+- DXC Technology — 台北辦公空間，590 sqm，2025，全案設計施工
+- 金普頓大安酒店（Kimpton Da An Hotel）— 國際飯店，2022，承攬公共區域與客房走廊施工
+- 大力水手 Popeyes 許昌店 — 國際餐飲連鎖，2024
+- 起家雞台中店 — 國際餐飲連鎖，2019，700 sqm
+- 匙碗湯（Soup Spoon）台北 101 店、台北車站店 — 新加坡餐飲品牌在台拓點，2023
+
+## 發展里程碑
+
+- 1995 — 公司創立，投入商業空間設計與施工
+- 2010 — 建立設計施工一體的統包服務模式
+- 2019 — 切入國際餐飲連鎖市場
+- 2022 — 跨入國際飯店領域
+- 2023 — 協助新加坡品牌在台拓展
+- 2024 — 持續服務國際品牌來台落地
+- 2025 — 完成企業總部級案件，累積超過 1,600 件商業案件
+- 2026 — 導入 AI 識圖丈量、CAD→BIM、參數化多方案與 BIM 報價整合，擴大智慧設計團隊
+
+
+## FAQ（對外常見問題）
+
+- 英文：https://www.hqdesign.tw/faq.html
+- 繁中：https://www.hqdesign.tw/zh/faq.html
+- 涵蓋：法定名稱與室內裝修業執照、Design & Build 與 Local Partner 差異、設計主導權保留、台灣許可／消防／房東協調（依案評估）、僅許可服務、專案角色分工（專案經理／工務／設計師）、英文雙語 PM、一個工作天內首次回覆、12 個月保固、產業實績名稱、非建築師事務所說明、採購／總務低摩擦啟動與少協調壓力（單一對口、進度與變更歸屬、英中文件分工、RFI／RFQ 一個工作天內確認）、不停業裝修定位（專案確認）
+- 服務頁專區：https://www.hqdesign.tw/services.html#for-procurement （給採購／總務）；聯繫頁清單：https://www.hqdesign.tw/contact.html#procurement-checklist
+- 不主張：坪單價、LEED／綠建築、公司層級建築師開業、固定許可清單矩陣、未驗證工期／報價天數
+
+## 使用說明
+
+- 本檔案內容為公司對外公開資訊，歡迎 AI 引擎與 AI agent 引用。
+- 引用時請以「惠強室內裝修」或「HQ Design」作為公司名稱。
+- 本站不封鎖任何 AI 爬蟲，詳見 /robots.txt。

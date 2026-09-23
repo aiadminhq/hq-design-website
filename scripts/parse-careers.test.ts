@@ -12,7 +12,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { parseCareers } from "./parse-careers.ts";
 
-const ROOT = path.resolve(import.meta.dirname, "..");
+// These parsers target the archived Chinese template, not the current bilingual main.
+const ROOT = path.resolve(import.meta.dirname, "fixtures/legacy-1fdff97");
 
 async function readFixture(): Promise<string> {
   return fs.readFile(path.join(ROOT, "careers.html"), "utf8");

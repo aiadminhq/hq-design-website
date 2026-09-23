@@ -1,0 +1,2211 @@
+{
+  "version": "initial-20260923",
+  "createdAt": "2026-09-23T09:56:30.178Z",
+  "projects": [
+    {
+      "slug": "secom-nangang-complex",
+      "name": {
+        "en": "SECOM Nangang Headquarters",
+        "zh": "中興保全 SECOM 南港總部"
+      },
+      "description": {
+        "en": "SECOM’s Nangang headquarters was a single-tenant design & build fit-out. HQ Design planned and built six floors of workplace for SECOM, delivering more than 600 seats with phased, floor-by-floor construction so operations continued without disruption.",
+        "zh": "中興保全南港總部為單一業主設計施工統包專案。惠強負責六層辦公空間的整體規劃與施工，打造逾六百席的工作場域，並以分層分區排程推進，確保施工期間營運不中斷。"
+      },
+      "location": {
+        "en": "Nangang District, Taipei",
+        "zh": "台北市南港區"
+      },
+      "client": {
+        "en": "SECOM Group",
+        "zh": "中保集團 SECOM Group"
+      },
+      "category": "office",
+      "year": 2025,
+      "areaSqm": 5940,
+      "order": 0,
+      "featured": true,
+      "featuredOrder": 0,
+      "images": [
+        {
+          "src": "/assets/images/projects/secom-nangang-complex/photo-01.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 1",
+            "zh": "中興保全 SECOM 南港總部 — 1"
+          },
+          "kind": "image",
+          "assetName": "photo-01.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-06.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 2",
+            "zh": "中興保全 SECOM 南港總部 — 2"
+          },
+          "kind": "image",
+          "assetName": "page-06.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-07.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 3",
+            "zh": "中興保全 SECOM 南港總部 — 3"
+          },
+          "kind": "image",
+          "assetName": "page-07.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-08.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 4",
+            "zh": "中興保全 SECOM 南港總部 — 4"
+          },
+          "kind": "image",
+          "assetName": "page-08.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-68.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 5",
+            "zh": "中興保全 SECOM 南港總部 — 5"
+          },
+          "kind": "image",
+          "assetName": "page-68.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-69.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 6",
+            "zh": "中興保全 SECOM 南港總部 — 6"
+          },
+          "kind": "image",
+          "assetName": "page-69.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-70.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 7",
+            "zh": "中興保全 SECOM 南港總部 — 7"
+          },
+          "kind": "image",
+          "assetName": "page-70.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-71.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 8",
+            "zh": "中興保全 SECOM 南港總部 — 8"
+          },
+          "kind": "image",
+          "assetName": "page-71.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-72.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 9",
+            "zh": "中興保全 SECOM 南港總部 — 9"
+          },
+          "kind": "image",
+          "assetName": "page-72.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-73.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 10",
+            "zh": "中興保全 SECOM 南港總部 — 10"
+          },
+          "kind": "image",
+          "assetName": "page-73.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-74.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 11",
+            "zh": "中興保全 SECOM 南港總部 — 11"
+          },
+          "kind": "image",
+          "assetName": "page-74.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-81.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 12",
+            "zh": "中興保全 SECOM 南港總部 — 12"
+          },
+          "kind": "image",
+          "assetName": "page-81.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-82.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 13",
+            "zh": "中興保全 SECOM 南港總部 — 13"
+          },
+          "kind": "image",
+          "assetName": "page-82.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-83.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 14",
+            "zh": "中興保全 SECOM 南港總部 — 14"
+          },
+          "kind": "image",
+          "assetName": "page-83.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-84.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 15",
+            "zh": "中興保全 SECOM 南港總部 — 15"
+          },
+          "kind": "image",
+          "assetName": "page-84.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-85.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 16",
+            "zh": "中興保全 SECOM 南港總部 — 16"
+          },
+          "kind": "image",
+          "assetName": "page-85.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-86.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 17",
+            "zh": "中興保全 SECOM 南港總部 — 17"
+          },
+          "kind": "image",
+          "assetName": "page-86.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-87.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 18",
+            "zh": "中興保全 SECOM 南港總部 — 18"
+          },
+          "kind": "image",
+          "assetName": "page-87.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-96.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 19",
+            "zh": "中興保全 SECOM 南港總部 — 19"
+          },
+          "kind": "image",
+          "assetName": "page-96.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-97.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 20",
+            "zh": "中興保全 SECOM 南港總部 — 20"
+          },
+          "kind": "image",
+          "assetName": "page-97.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-98.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 21",
+            "zh": "中興保全 SECOM 南港總部 — 21"
+          },
+          "kind": "image",
+          "assetName": "page-98.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-99.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 22",
+            "zh": "中興保全 SECOM 南港總部 — 22"
+          },
+          "kind": "image",
+          "assetName": "page-99.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-100.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 23",
+            "zh": "中興保全 SECOM 南港總部 — 23"
+          },
+          "kind": "image",
+          "assetName": "page-100.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-101.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 24",
+            "zh": "中興保全 SECOM 南港總部 — 24"
+          },
+          "kind": "image",
+          "assetName": "page-101.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-102.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 25",
+            "zh": "中興保全 SECOM 南港總部 — 25"
+          },
+          "kind": "image",
+          "assetName": "page-102.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-109.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 26",
+            "zh": "中興保全 SECOM 南港總部 — 26"
+          },
+          "kind": "image",
+          "assetName": "page-109.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-110.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 27",
+            "zh": "中興保全 SECOM 南港總部 — 27"
+          },
+          "kind": "image",
+          "assetName": "page-110.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-111.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 28",
+            "zh": "中興保全 SECOM 南港總部 — 28"
+          },
+          "kind": "image",
+          "assetName": "page-111.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-112.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 29",
+            "zh": "中興保全 SECOM 南港總部 — 29"
+          },
+          "kind": "image",
+          "assetName": "page-112.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-113.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 30",
+            "zh": "中興保全 SECOM 南港總部 — 30"
+          },
+          "kind": "image",
+          "assetName": "page-113.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-114.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 31",
+            "zh": "中興保全 SECOM 南港總部 — 31"
+          },
+          "kind": "image",
+          "assetName": "page-114.jpg"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-nangang/page-115.jpg",
+          "alt": {
+            "en": "SECOM Nangang Headquarters — 32",
+            "zh": "中興保全 SECOM 南港總部 — 32"
+          },
+          "kind": "image",
+          "assetName": "page-115.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "csun",
+      "name": {
+        "en": "C.SUN Industrial",
+        "zh": "志聖工業 C.SUN"
+      },
+      "description": {
+        "en": "Office fit-out for C.SUN Industrial, a listed Taiwanese manufacturer. The design reflects the client's scale and brand while optimising executive-level spaces and overall circulation efficiency.",
+        "zh": "志聖工業辦公空間設計施工，為台灣上市製造企業打造符合企業規模與品牌形象的辦公環境，兼顧管理階層需求與整體動線效率。"
+      },
+      "location": {
+        "en": "Nangang District, Taipei",
+        "zh": "台北市南港區"
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "office",
+      "year": 2026,
+      "areaSqm": 711,
+      "order": 1,
+      "featured": true,
+      "featuredOrder": 1,
+      "images": [
+        {
+          "src": "/assets/images/projects/csun/selected-20260923-01.webp",
+          "alt": {
+            "en": "C.SUN Industrial — 1",
+            "zh": "志聖工業 C.SUN — 1"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/csun/retouched-20260923-02.webp",
+          "alt": {
+            "en": "C.SUN Industrial — 2",
+            "zh": "志聖工業 C.SUN — 2"
+          },
+          "kind": "image",
+          "assetName": "retouched-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/csun/floorplan.jpg",
+          "alt": {
+            "en": "C.SUN Industrial — 3",
+            "zh": "志聖工業 C.SUN — 3"
+          },
+          "kind": "plan",
+          "assetName": "floorplan.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "zhongbao-showroom",
+      "name": {
+        "en": "SECOM Technology Hall",
+        "zh": "中保科技展示廳 SECOM TECHNOLOGY HALL"
+      },
+      "description": {
+        "en": "Brand exhibition hall for SECOM Group. The space combines immersive experience design with smart security technology showcases, creating a flagship venue aligned with the group's corporate identity.",
+        "zh": "中保集團品牌展示廳設計施工專案，以沉浸式空間體驗呈現智慧安防技術與企業形象，融合科技感與品牌識別，打造符合企業定位的旗艦展示空間。"
+      },
+      "location": {
+        "en": "Nangang District, Taipei",
+        "zh": "台北市南港區"
+      },
+      "client": {
+        "en": "SECOM Group",
+        "zh": "中保集團 SECOM Group"
+      },
+      "category": "showroom",
+      "year": null,
+      "areaSqm": 331,
+      "order": 2,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/zhongbao-showroom/selected-20260923-01.webp",
+          "alt": {
+            "en": "SECOM Technology Hall — 1",
+            "zh": "中保科技展示廳 SECOM TECHNOLOGY HALL — 1"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-showroom/selected-20260923-02.webp",
+          "alt": {
+            "en": "SECOM Technology Hall — 2",
+            "zh": "中保科技展示廳 SECOM TECHNOLOGY HALL — 2"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-showroom/floorplan.jpg",
+          "alt": {
+            "en": "SECOM Technology Hall — 3",
+            "zh": "中保科技展示廳 SECOM TECHNOLOGY HALL — 3"
+          },
+          "kind": "plan",
+          "assetName": "floorplan.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "kimpton",
+      "name": {
+        "en": "Kimpton Da An Hotel",
+        "zh": "金普頓大安酒店"
+      },
+      "description": {
+        "en": "Interior fit-out for Kimpton Da An Hotel, Taipei. HQ delivered public area and corridor works, combining refined joinery with the brand's warm, design-led aesthetic.",
+        "zh": "台北大安 Kimpton Da An Hotel 國際飯店裝修工程，由惠強承攬公共區域與客房走廊施工，以精細木作與品牌美學呈現國際精品飯店水準。"
+      },
+      "location": {
+        "en": "Da'an District, Taipei",
+        "zh": "台北市大安區"
+      },
+      "client": {
+        "en": "",
+        "zh": "Kimpton Da An Hotel"
+      },
+      "category": "hospitality",
+      "year": 2022,
+      "areaSqm": 330,
+      "order": 3,
+      "featured": true,
+      "featuredOrder": 3,
+      "images": [
+        {
+          "src": "/assets/images/projects/kimpton/photo-01.jpg",
+          "alt": {
+            "en": "Kimpton Da An Hotel — 1",
+            "zh": "金普頓大安酒店 — 1"
+          },
+          "kind": "image",
+          "assetName": "photo-01.jpg"
+        },
+        {
+          "src": "/assets/images/projects/kimpton/photo-02.jpg",
+          "alt": {
+            "en": "Kimpton Da An Hotel — 2",
+            "zh": "金普頓大安酒店 — 2"
+          },
+          "kind": "image",
+          "assetName": "photo-02.jpg"
+        },
+        {
+          "src": "/assets/images/projects/kimpton/photo-03.jpg",
+          "alt": {
+            "en": "Kimpton Da An Hotel — 3",
+            "zh": "金普頓大安酒店 — 3"
+          },
+          "kind": "image",
+          "assetName": "photo-03.jpg"
+        },
+        {
+          "src": "/assets/images/projects/kimpton/photo-04.jpg",
+          "alt": {
+            "en": "Kimpton Da An Hotel — 4",
+            "zh": "金普頓大安酒店 — 4"
+          },
+          "kind": "image",
+          "assetName": "photo-04.jpg"
+        },
+        {
+          "src": "/assets/images/projects/kimpton/photo-05.jpg",
+          "alt": {
+            "en": "Kimpton Da An Hotel — 5",
+            "zh": "金普頓大安酒店 — 5"
+          },
+          "kind": "image",
+          "assetName": "photo-05.jpg"
+        },
+        {
+          "src": "/assets/images/projects/kimpton/photo-06.jpg",
+          "alt": {
+            "en": "Kimpton Da An Hotel — 6",
+            "zh": "金普頓大安酒店 — 6"
+          },
+          "kind": "image",
+          "assetName": "photo-06.jpg"
+        },
+        {
+          "src": "/assets/images/projects/kimpton/photo-07.jpg",
+          "alt": {
+            "en": "Kimpton Da An Hotel — 7",
+            "zh": "金普頓大安酒店 — 7"
+          },
+          "kind": "image",
+          "assetName": "photo-07.jpg"
+        },
+        {
+          "src": "/assets/images/projects/kimpton/photo-08.jpg",
+          "alt": {
+            "en": "Kimpton Da An Hotel — 8",
+            "zh": "金普頓大安酒店 — 8"
+          },
+          "kind": "image",
+          "assetName": "photo-08.jpg"
+        },
+        {
+          "src": "/assets/images/projects/kimpton/photo-09.jpg",
+          "alt": {
+            "en": "Kimpton Da An Hotel — 9",
+            "zh": "金普頓大安酒店 — 9"
+          },
+          "kind": "image",
+          "assetName": "photo-09.jpg"
+        },
+        {
+          "src": "/assets/images/projects/kimpton/photo-10.jpg",
+          "alt": {
+            "en": "Kimpton Da An Hotel — 10",
+            "zh": "金普頓大安酒店 — 10"
+          },
+          "kind": "image",
+          "assetName": "photo-10.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "aiontech",
+      "name": {
+        "en": "AIONTECH",
+        "zh": "博訊科技 AIONTECH"
+      },
+      "description": {
+        "en": "Combined workspace for AIONTECH and Epicstech. The design prioritises open collaboration zones, brand-forward interiors and flexible layouts suited to fast-growing tech teams.",
+        "zh": "博訊科技與史詩科技聯合辦公空間，以開放協作為核心設計理念，融入品牌視覺語言，打造兼具靈活性與科技感的現代工作環境。"
+      },
+      "location": {
+        "en": "Nangang District, Taipei",
+        "zh": "台北市南港區"
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "office",
+      "year": 2025,
+      "areaSqm": 825,
+      "order": 4,
+      "featured": true,
+      "featuredOrder": 2,
+      "images": [
+        {
+          "src": "/assets/images/projects/aiontech/selected-20260923-01.webp",
+          "alt": {
+            "en": "AIONTECH — 1",
+            "zh": "博訊科技 AIONTECH — 1"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/aiontech/selected-20260923-02.webp",
+          "alt": {
+            "en": "AIONTECH — 2",
+            "zh": "博訊科技 AIONTECH — 2"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/aiontech/floorplan.jpg",
+          "alt": {
+            "en": "AIONTECH — 3",
+            "zh": "博訊科技 AIONTECH — 3"
+          },
+          "kind": "plan",
+          "assetName": "floorplan.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "polytron",
+      "name": {
+        "en": "POLYTRON",
+        "zh": "保創科技 POLYTRON"
+      },
+      "description": {
+        "en": "Office and disaster prevention command centre for Polytron-global. The dual-function space meets strict technical requirements for both everyday operations and emergency response.",
+        "zh": "保創科技辦公空間結合防災應變中心，以高規格的技術需求為設計依據，兼顧指揮功能與日常辦公使用，空間機能複合，施工精度要求嚴格。"
+      },
+      "location": {
+        "en": "Taipei",
+        "zh": "台北市"
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "office",
+      "year": 2025,
+      "areaSqm": 850,
+      "order": 5,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/polytron/selected-20260923-01.webp",
+          "alt": {
+            "en": "POLYTRON — 1",
+            "zh": "保創科技 POLYTRON — 1"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/polytron/floorplan.jpg",
+          "alt": {
+            "en": "POLYTRON — 2",
+            "zh": "保創科技 POLYTRON — 2"
+          },
+          "kind": "plan",
+          "assetName": "floorplan.jpg"
+        },
+        {
+          "src": "/assets/images/projects/polytron/render-02.jpg",
+          "alt": {
+            "en": "POLYTRON — 3",
+            "zh": "保創科技 POLYTRON — 3"
+          },
+          "kind": "image",
+          "assetName": "render-02.jpg"
+        },
+        {
+          "src": "/assets/images/projects/polytron/render-03.jpg",
+          "alt": {
+            "en": "POLYTRON — 4",
+            "zh": "保創科技 POLYTRON — 4"
+          },
+          "kind": "image",
+          "assetName": "render-03.jpg"
+        },
+        {
+          "src": "/assets/images/projects/polytron/render-04.jpg",
+          "alt": {
+            "en": "POLYTRON — 5",
+            "zh": "保創科技 POLYTRON — 5"
+          },
+          "kind": "image",
+          "assetName": "render-04.jpg"
+        },
+        {
+          "src": "/assets/images/projects/polytron/render-05.jpg",
+          "alt": {
+            "en": "POLYTRON — 6",
+            "zh": "保創科技 POLYTRON — 6"
+          },
+          "kind": "image",
+          "assetName": "render-05.jpg"
+        },
+        {
+          "src": "/assets/images/projects/polytron/render-06.jpg",
+          "alt": {
+            "en": "POLYTRON — 7",
+            "zh": "保創科技 POLYTRON — 7"
+          },
+          "kind": "image",
+          "assetName": "render-06.jpg"
+        },
+        {
+          "src": "/assets/images/projects/polytron/render-07.jpg",
+          "alt": {
+            "en": "POLYTRON — 8",
+            "zh": "保創科技 POLYTRON — 8"
+          },
+          "kind": "image",
+          "assetName": "render-07.jpg"
+        },
+        {
+          "src": "/assets/images/projects/polytron/render-08.jpg",
+          "alt": {
+            "en": "POLYTRON — 9",
+            "zh": "保創科技 POLYTRON — 9"
+          },
+          "kind": "image",
+          "assetName": "render-08.jpg"
+        },
+        {
+          "src": "/assets/images/projects/polytron/render-09.jpg",
+          "alt": {
+            "en": "POLYTRON — 10",
+            "zh": "保創科技 POLYTRON — 10"
+          },
+          "kind": "image",
+          "assetName": "render-09.jpg"
+        },
+        {
+          "src": "/assets/images/projects/polytron/render-10.jpg",
+          "alt": {
+            "en": "POLYTRON — 11",
+            "zh": "保創科技 POLYTRON — 11"
+          },
+          "kind": "image",
+          "assetName": "render-10.jpg"
+        },
+        {
+          "src": "/assets/images/projects/polytron/render-11.jpg",
+          "alt": {
+            "en": "POLYTRON — 12",
+            "zh": "保創科技 POLYTRON — 12"
+          },
+          "kind": "image",
+          "assetName": "render-11.jpg"
+        },
+        {
+          "src": "/assets/images/projects/polytron/render-12.jpg",
+          "alt": {
+            "en": "POLYTRON — 13",
+            "zh": "保創科技 POLYTRON — 13"
+          },
+          "kind": "image",
+          "assetName": "render-12.jpg"
+        },
+        {
+          "src": "/assets/images/projects/polytron/render-13.jpg",
+          "alt": {
+            "en": "POLYTRON — 14",
+            "zh": "保創科技 POLYTRON — 14"
+          },
+          "kind": "image",
+          "assetName": "render-13.jpg"
+        },
+        {
+          "src": "/assets/images/projects/polytron/render-14.jpg",
+          "alt": {
+            "en": "POLYTRON — 15",
+            "zh": "保創科技 POLYTRON — 15"
+          },
+          "kind": "image",
+          "assetName": "render-14.jpg"
+        },
+        {
+          "src": "/assets/images/projects/polytron/render-15.jpg",
+          "alt": {
+            "en": "POLYTRON — 16",
+            "zh": "保創科技 POLYTRON — 16"
+          },
+          "kind": "image",
+          "assetName": "render-15.jpg"
+        },
+        {
+          "src": "/assets/images/projects/polytron/render-16.jpg",
+          "alt": {
+            "en": "POLYTRON — 17",
+            "zh": "保創科技 POLYTRON — 17"
+          },
+          "kind": "image",
+          "assetName": "render-16.jpg"
+        },
+        {
+          "src": "/assets/images/projects/polytron/render-17.jpg",
+          "alt": {
+            "en": "POLYTRON — 18",
+            "zh": "保創科技 POLYTRON — 18"
+          },
+          "kind": "image",
+          "assetName": "render-17.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "epicstech-10f",
+      "name": {
+        "en": "EPICSTECH",
+        "zh": "史詩科技 EPICSTECH"
+      },
+      "description": {
+        "en": "10th floor office renovation for Epicstech. Precision zoning and brand-aligned interiors deliver a high-performance workspace — completed without disrupting day-to-day operations.",
+        "zh": "史詩科技 10 樓辦公空間翻新專案，以精準的空間配置與品牌色系整合，打造高效能現代辦公環境，施工期間維持正常營運。"
+      },
+      "location": {
+        "en": "Nangang District, Taipei",
+        "zh": "台北市南港區"
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "office",
+      "year": 2025,
+      "areaSqm": 165,
+      "order": 6,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/epicstech-10f/selected-20260923-01.webp",
+          "alt": {
+            "en": "EPICSTECH — 1",
+            "zh": "史詩科技 EPICSTECH — 1"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/epicstech-10f/selected-20260923-02.webp",
+          "alt": {
+            "en": "EPICSTECH — 2",
+            "zh": "史詩科技 EPICSTECH — 2"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/epicstech-10f/floorplan.jpg",
+          "alt": {
+            "en": "EPICSTECH — 3",
+            "zh": "史詩科技 EPICSTECH — 3"
+          },
+          "kind": "plan",
+          "assetName": "floorplan.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "baohua",
+      "name": {
+        "en": "BAOHUA Cybersecurity",
+        "zh": "保華資安 BAOHUA"
+      },
+      "description": {
+        "en": "11th floor fit-out for a cybersecurity firm. The design reflects the client's brand of precision and trust — clean lines, measured materiality and a workspace that communicates expertise.",
+        "zh": "保華資安 11 樓辦公空間設計施工，以資安產業的專業形象為設計出發點，融合穩重、精準的空間語彙，打造符合企業定位的工作環境。"
+      },
+      "location": {
+        "en": "Taipei",
+        "zh": "台北市"
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "office",
+      "year": 2025,
+      "areaSqm": 264,
+      "order": 7,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/baohua/render-01.jpg",
+          "alt": {
+            "en": "BAOHUA Cybersecurity — 1",
+            "zh": "保華資安 BAOHUA — 1"
+          },
+          "kind": "image",
+          "assetName": "render-01.jpg"
+        },
+        {
+          "src": "/assets/images/projects/baohua/floorplan.jpg",
+          "alt": {
+            "en": "BAOHUA Cybersecurity — 2",
+            "zh": "保華資安 BAOHUA — 2"
+          },
+          "kind": "plan",
+          "assetName": "floorplan.jpg"
+        },
+        {
+          "src": "/assets/images/projects/baohua/render-02.jpg",
+          "alt": {
+            "en": "BAOHUA Cybersecurity — 3",
+            "zh": "保華資安 BAOHUA — 3"
+          },
+          "kind": "image",
+          "assetName": "render-02.jpg"
+        },
+        {
+          "src": "/assets/images/projects/baohua/render-03.jpg",
+          "alt": {
+            "en": "BAOHUA Cybersecurity — 4",
+            "zh": "保華資安 BAOHUA — 4"
+          },
+          "kind": "image",
+          "assetName": "render-03.jpg"
+        },
+        {
+          "src": "/assets/images/projects/baohua/render-04.jpg",
+          "alt": {
+            "en": "BAOHUA Cybersecurity — 5",
+            "zh": "保華資安 BAOHUA — 5"
+          },
+          "kind": "image",
+          "assetName": "render-04.jpg"
+        },
+        {
+          "src": "/assets/images/projects/baohua/render-05.jpg",
+          "alt": {
+            "en": "BAOHUA Cybersecurity — 6",
+            "zh": "保華資安 BAOHUA — 6"
+          },
+          "kind": "image",
+          "assetName": "render-05.jpg"
+        },
+        {
+          "src": "/assets/images/projects/baohua/render-06.jpg",
+          "alt": {
+            "en": "BAOHUA Cybersecurity — 7",
+            "zh": "保華資安 BAOHUA — 7"
+          },
+          "kind": "image",
+          "assetName": "render-06.jpg"
+        },
+        {
+          "src": "/assets/images/projects/baohua/render-07.jpg",
+          "alt": {
+            "en": "BAOHUA Cybersecurity — 8",
+            "zh": "保華資安 BAOHUA — 8"
+          },
+          "kind": "image",
+          "assetName": "render-07.jpg"
+        },
+        {
+          "src": "/assets/images/projects/baohua/render-08.jpg",
+          "alt": {
+            "en": "BAOHUA Cybersecurity — 9",
+            "zh": "保華資安 BAOHUA — 9"
+          },
+          "kind": "image",
+          "assetName": "render-08.jpg"
+        },
+        {
+          "src": "/assets/images/projects/baohua/render-09.jpg",
+          "alt": {
+            "en": "BAOHUA Cybersecurity — 10",
+            "zh": "保華資安 BAOHUA — 10"
+          },
+          "kind": "image",
+          "assetName": "render-09.jpg"
+        },
+        {
+          "src": "/assets/images/projects/baohua/render-10.jpg",
+          "alt": {
+            "en": "BAOHUA Cybersecurity — 11",
+            "zh": "保華資安 BAOHUA — 11"
+          },
+          "kind": "image",
+          "assetName": "render-10.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "xinlan",
+      "name": {
+        "en": "XINLAN Enterprise",
+        "zh": "欣蘭企業 XINLAN"
+      },
+      "description": {
+        "en": "9th floor office fit-out for Xinlan Enterprise. The layout reflects the client's operational workflow, balancing open collaboration areas with focused workspaces.",
+        "zh": "欣蘭企業 9 樓辦公空間設計施工，依據客戶的業務特性與團隊動線需求，規劃兼具專業感與使用效率的現代辦公環境。"
+      },
+      "location": {
+        "en": "Taipei",
+        "zh": "台北市"
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "office",
+      "year": 2025,
+      "areaSqm": 350,
+      "order": 8,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/xinlan/selected-20260923-01.webp",
+          "alt": {
+            "en": "XINLAN Enterprise — 1",
+            "zh": "欣蘭企業 XINLAN — 1"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/xinlan/selected-20260923-02.webp",
+          "alt": {
+            "en": "XINLAN Enterprise — 2",
+            "zh": "欣蘭企業 XINLAN — 2"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/xinlan/floorplan.jpg",
+          "alt": {
+            "en": "XINLAN Enterprise — 3",
+            "zh": "欣蘭企業 XINLAN — 3"
+          },
+          "kind": "plan",
+          "assetName": "floorplan.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "liwei",
+      "name": {
+        "en": "LIWEI Electronics",
+        "zh": "立偉電子 LIWEI"
+      },
+      "description": {
+        "en": "9th floor office renovation for Liwei Electronics. Inspired by the precision of the electronics industry, the space projects technical expertise while supporting both R&D and business collaboration.",
+        "zh": "立偉電子 9 樓辦公室翻新，以電子產業的精密工藝為設計靈感，呈現技術導向企業的專業形象，動線規劃符合產品研發與業務協作需求。"
+      },
+      "location": {
+        "en": "Nangang District, Taipei",
+        "zh": "台北市南港區"
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "office",
+      "year": 2025,
+      "areaSqm": 350,
+      "order": 9,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/liwei/selected-20260923-01.webp",
+          "alt": {
+            "en": "LIWEI Electronics — 1",
+            "zh": "立偉電子 LIWEI — 1"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/liwei/selected-20260923-02.webp",
+          "alt": {
+            "en": "LIWEI Electronics — 2",
+            "zh": "立偉電子 LIWEI — 2"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/liwei/floorplan.jpg",
+          "alt": {
+            "en": "LIWEI Electronics — 3",
+            "zh": "立偉電子 LIWEI — 3"
+          },
+          "kind": "plan",
+          "assetName": "floorplan.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "lijie",
+      "name": {
+        "en": "LIJIE International",
+        "zh": "立捷國際 LIJIE INTERNATIONAL"
+      },
+      "description": {
+        "en": "9th floor fit-out for Lijie International. The space balances a professional reception and meeting front-of-house with efficient back-office layouts, projecting the client's international business identity.",
+        "zh": "立捷國際 9 樓辦公空間，以國際商務形象為設計基調，空間配置兼顧接待洽談與內部辦公功能，呈現企業的專業與開放文化。"
+      },
+      "location": {
+        "en": "Nangang District, Taipei",
+        "zh": "台北市南港區"
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "office",
+      "year": 2024,
+      "areaSqm": 99,
+      "order": 10,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/lijie/selected-20260923-01.webp",
+          "alt": {
+            "en": "LIJIE International — 1",
+            "zh": "立捷國際 LIJIE INTERNATIONAL — 1"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/lijie/selected-20260923-02.webp",
+          "alt": {
+            "en": "LIJIE International — 2",
+            "zh": "立捷國際 LIJIE INTERNATIONAL — 2"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/lijie/floorplan.jpg",
+          "alt": {
+            "en": "LIJIE International — 3",
+            "zh": "立捷國際 LIJIE INTERNATIONAL — 3"
+          },
+          "kind": "plan",
+          "assetName": "floorplan.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "hq-office",
+      "name": {
+        "en": "HQ Design Office & Material Library",
+        "zh": "惠強室內裝修 HQ DESIGN & BUILD"
+      },
+      "description": {
+        "en": "HQ's own office and showroom, purpose-built to demonstrate 31+ Years of design-build craftsmanship. The space integrates working offices, client reception and material sample zones into one cohesive brand experience.",
+        "zh": "惠強室內裝修自建辦公室與材料展示空間，以 31 年設計施工積累的工藝能量為展示主軸，整合辦公、接待與材料樣品區，呈現品牌完整服務能力。"
+      },
+      "location": {
+        "en": "9F, No. 135, Jingmao 2nd Road, Nangang District, Taipei",
+        "zh": "台北市南港區經貿二路135號9F"
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "showroom",
+      "year": 2025,
+      "areaSqm": 165,
+      "order": 11,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/hq-office/selected-20260923-01.webp",
+          "alt": {
+            "en": "HQ Design Office & Material Library — 1",
+            "zh": "惠強室內裝修 HQ DESIGN & BUILD — 1"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/hq-office/selected-20260923-02.webp",
+          "alt": {
+            "en": "HQ Design Office & Material Library — 2",
+            "zh": "惠強室內裝修 HQ DESIGN & BUILD — 2"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/hq-office/floorplan.jpg",
+          "alt": {
+            "en": "HQ Design Office & Material Library — 3",
+            "zh": "惠強室內裝修 HQ DESIGN & BUILD — 3"
+          },
+          "kind": "plan",
+          "assetName": "floorplan.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "zhongbao-baojing",
+      "name": {
+        "en": "ZHONG BAO Insurance Brokers",
+        "zh": "中保保經 ZHONG BAO INSURANCE"
+      },
+      "description": {
+        "en": "11th floor fit-out for SECOM's insurance subsidiary. The design reflects the group's established brand identity — structured, professional and built to financial-sector standards.",
+        "zh": "中保科技旗下中保保經 11 樓辦公空間設計施工，延續中保集團一貫的穩重專業形象，以精準工法打造符合金融保險產業定位的辦公環境。"
+      },
+      "location": {
+        "en": "Nangang District, Taipei",
+        "zh": "台北市南港區"
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "office",
+      "year": 2025,
+      "areaSqm": 200,
+      "order": 12,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/zhongbao-baojing/selected-20260923-01.webp",
+          "alt": {
+            "en": "ZHONG BAO Insurance Brokers — 1",
+            "zh": "中保保經 ZHONG BAO INSURANCE — 1"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-baojing/selected-20260923-02.webp",
+          "alt": {
+            "en": "ZHONG BAO Insurance Brokers — 2",
+            "zh": "中保保經 ZHONG BAO INSURANCE — 2"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-02.webp"
+        }
+      ]
+    },
+    {
+      "slug": "zhongbao-jingzhen",
+      "name": {
+        "en": "CHING DIAN TECH",
+        "zh": "京琠科技 CHING DIAN TECH"
+      },
+      "description": {
+        "en": "9th floor fit-out for Jingzhen Technology. Clean, contemporary lines support a high-efficiency workspace aligned with the tech sector's demands.",
+        "zh": "京琠科技 9 樓辦公空間設計施工，以科技產業的簡潔俐落為基調，呈現現代專業的工作場域氛圍。"
+      },
+      "location": {
+        "en": "Nangang District, Taipei",
+        "zh": "台北市南港區"
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "office",
+      "year": 2025,
+      "areaSqm": 250,
+      "order": 13,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/zhongbao-jingzhen/selected-20260923-01.webp",
+          "alt": {
+            "en": "CHING DIAN TECH — 1",
+            "zh": "京琠科技 CHING DIAN TECH — 1"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-jingzhen/selected-20260923-02.webp",
+          "alt": {
+            "en": "CHING DIAN TECH — 2",
+            "zh": "京琠科技 CHING DIAN TECH — 2"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-02.webp"
+        }
+      ]
+    },
+    {
+      "slug": "zhongbao-tianhe",
+      "name": {
+        "en": "eSkylink",
+        "zh": "天河電訊 eSkylink"
+      },
+      "description": {
+        "en": "9th floor fit-out for Tianhe Telecom. The design balances open collaboration and focused work zones, reflecting the operational needs of a telecoms business.",
+        "zh": "天河電訊 9 樓辦公空間設計施工，以電信科技產業特性為設計出發，整合開放協作與獨立作業需求，打造高效能的現代辦公環境。"
+      },
+      "location": {
+        "en": "Nangang District, Taipei",
+        "zh": "台北市南港區"
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "office",
+      "year": 2025,
+      "areaSqm": 350,
+      "order": 14,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/zhongbao-tianhe/selected-20260923-01.webp",
+          "alt": {
+            "en": "eSkylink — 1",
+            "zh": "天河電訊 eSkylink — 1"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/zhongbao-tianhe/selected-20260923-02.webp",
+          "alt": {
+            "en": "eSkylink — 2",
+            "zh": "天河電訊 eSkylink — 2"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-02.webp"
+        }
+      ]
+    },
+    {
+      "slug": "ledaojia",
+      "name": {
+        "en": "LOTS HOME Entertainment",
+        "zh": "樂到家國際娛樂 LOTS HOME"
+      },
+      "description": {
+        "en": "9th floor fit-out for an international entertainment company. The design brings brand personality and creative energy into a professional office framework.",
+        "zh": "樂到家國際娛樂 9 樓辦公空間設計施工，以娛樂產業的活潑創意為調性，在專業辦公格局中注入品牌個性與空間活力。"
+      },
+      "location": {
+        "en": "Nangang District, Taipei",
+        "zh": "台北市南港區"
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "office",
+      "year": 2025,
+      "areaSqm": 50,
+      "order": 15,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/ledaojia/selected-20260923-01.webp",
+          "alt": {
+            "en": "LOTS HOME Entertainment — 1",
+            "zh": "樂到家國際娛樂 LOTS HOME — 1"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/ledaojia/selected-20260923-02.webp",
+          "alt": {
+            "en": "LOTS HOME Entertainment — 2",
+            "zh": "樂到家國際娛樂 LOTS HOME — 2"
+          },
+          "kind": "image",
+          "assetName": "selected-20260923-02.webp"
+        }
+      ]
+    },
+    {
+      "slug": "qijia",
+      "name": {
+        "en": "Chicken Up Taichung",
+        "zh": "起家雞 台中店"
+      },
+      "description": {
+        "en": "Interior fit-out for Chicken Up (起家雞) in Taichung. The Korean fried chicken brand's vibrant identity is expressed through bold finishes while maintaining efficient table turnover.",
+        "zh": "起家雞台中店餐飲空間設計施工，以韓式炸雞品牌風格為設計基調，呈現活潑品牌個性，並兼顧高效翻桌與舒適用餐體驗。"
+      },
+      "location": {
+        "en": "Taichung",
+        "zh": "台中"
+      },
+      "client": {
+        "en": "Chicken Up",
+        "zh": "起家雞 Chicken Up"
+      },
+      "category": "fb",
+      "year": 2019,
+      "areaSqm": 700,
+      "order": 16,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/qijia/retouched-20260923-01.webp",
+          "alt": {
+            "en": "Chicken Up Taichung — 1",
+            "zh": "起家雞 台中店 — 1"
+          },
+          "kind": "image",
+          "assetName": "retouched-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/qijia/retouched-20260923-02.webp",
+          "alt": {
+            "en": "Chicken Up Taichung — 2",
+            "zh": "起家雞 台中店 — 2"
+          },
+          "kind": "image",
+          "assetName": "retouched-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/qijia/retouched-20260923-03.webp",
+          "alt": {
+            "en": "Chicken Up Taichung — 3",
+            "zh": "起家雞 台中店 — 3"
+          },
+          "kind": "image",
+          "assetName": "retouched-20260923-03.webp"
+        },
+        {
+          "src": "/assets/images/projects/qijia/retouched-20260923-04.webp",
+          "alt": {
+            "en": "Chicken Up Taichung — 4",
+            "zh": "起家雞 台中店 — 4"
+          },
+          "kind": "image",
+          "assetName": "retouched-20260923-04.webp"
+        },
+        {
+          "src": "/assets/images/projects/qijia/retouched-20260923-05.webp",
+          "alt": {
+            "en": "Chicken Up Taichung — 5",
+            "zh": "起家雞 台中店 — 5"
+          },
+          "kind": "image",
+          "assetName": "retouched-20260923-05.webp"
+        },
+        {
+          "src": "/assets/images/projects/qijia/retouched-20260923-06.webp",
+          "alt": {
+            "en": "Chicken Up Taichung — 6",
+            "zh": "起家雞 台中店 — 6"
+          },
+          "kind": "image",
+          "assetName": "retouched-20260923-06.webp"
+        },
+        {
+          "src": "/assets/images/projects/qijia/retouched-20260923-07.webp",
+          "alt": {
+            "en": "Chicken Up Taichung — 7",
+            "zh": "起家雞 台中店 — 7"
+          },
+          "kind": "image",
+          "assetName": "retouched-20260923-07.webp"
+        },
+        {
+          "src": "/assets/images/projects/qijia/retouched-20260923-08.webp",
+          "alt": {
+            "en": "Chicken Up Taichung — 8",
+            "zh": "起家雞 台中店 — 8"
+          },
+          "kind": "image",
+          "assetName": "retouched-20260923-08.webp"
+        }
+      ]
+    },
+    {
+      "slug": "soup-spoon-101",
+      "name": {
+        "en": "The Soup Spoon, Taipei 101",
+        "zh": "The Soup Spoon 台北101店"
+      },
+      "description": {
+        "en": "Flagship fit-out for The Soup Spoon at Taipei 101 mall. HQ delivered a brand-coherent dining environment within the high-profile landmark, balancing quality and speed.",
+        "zh": "The Soup Spoon 台北 101 旗艦店設計施工，於台灣最高地標商場打造符合品牌質感的用餐環境，工程精度與施工速度並重。"
+      },
+      "location": {
+        "en": "Taipei 101 Mall",
+        "zh": "台北101購物中心"
+      },
+      "client": {
+        "en": "",
+        "zh": "The Soup Spoon"
+      },
+      "category": "fb",
+      "year": 2023,
+      "areaSqm": 69,
+      "order": 17,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/soup-spoon-101/photo-01.jpg",
+          "alt": {
+            "en": "The Soup Spoon, Taipei 101 — 1",
+            "zh": "The Soup Spoon 台北101店 — 1"
+          },
+          "kind": "image",
+          "assetName": "photo-01.jpg"
+        },
+        {
+          "src": "/assets/images/projects/soup-spoon-101/photo-02.jpg",
+          "alt": {
+            "en": "The Soup Spoon, Taipei 101 — 2",
+            "zh": "The Soup Spoon 台北101店 — 2"
+          },
+          "kind": "image",
+          "assetName": "photo-02.jpg"
+        },
+        {
+          "src": "/assets/images/projects/soup-spoon-101/photo-03.jpg",
+          "alt": {
+            "en": "The Soup Spoon, Taipei 101 — 3",
+            "zh": "The Soup Spoon 台北101店 — 3"
+          },
+          "kind": "image",
+          "assetName": "photo-03.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "soup-spoon-station",
+      "name": {
+        "en": "The Soup Spoon, Taipei Main Station",
+        "zh": "The Soup Spoon 台北車站店"
+      },
+      "description": {
+        "en": "Fit-out for The Soup Spoon at Taipei Main Station. The high-traffic transit hub demanded fast-turnover circulation and strong brand visibility within strict mall construction standards.",
+        "zh": "The Soup Spoon 台北車站店設計施工，位於高人流交通樞紐，空間規劃強調快速翻桌動線與視覺識別，同時符合車站商場施工規範。"
+      },
+      "location": {
+        "en": "Taipei Main Station mall",
+        "zh": "台北車站商場"
+      },
+      "client": {
+        "en": "",
+        "zh": "The Soup Spoon"
+      },
+      "category": "fb",
+      "year": 2023,
+      "areaSqm": 99,
+      "order": 18,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/soup-spoon-station/photo-01.jpg",
+          "alt": {
+            "en": "The Soup Spoon, Taipei Main Station — 1",
+            "zh": "The Soup Spoon 台北車站店 — 1"
+          },
+          "kind": "image",
+          "assetName": "photo-01.jpg"
+        },
+        {
+          "src": "/assets/images/projects/soup-spoon-station/photo-02.jpg",
+          "alt": {
+            "en": "The Soup Spoon, Taipei Main Station — 2",
+            "zh": "The Soup Spoon 台北車站店 — 2"
+          },
+          "kind": "image",
+          "assetName": "photo-02.jpg"
+        },
+        {
+          "src": "/assets/images/projects/soup-spoon-station/photo-03.jpg",
+          "alt": {
+            "en": "The Soup Spoon, Taipei Main Station — 3",
+            "zh": "The Soup Spoon 台北車站店 — 3"
+          },
+          "kind": "image",
+          "assetName": "photo-03.jpg"
+        },
+        {
+          "src": "/assets/images/projects/soup-spoon-station/photo-04.jpg",
+          "alt": {
+            "en": "The Soup Spoon, Taipei Main Station — 4",
+            "zh": "The Soup Spoon 台北車站店 — 4"
+          },
+          "kind": "image",
+          "assetName": "photo-04.jpg"
+        },
+        {
+          "src": "/assets/images/projects/soup-spoon-station/photo-05.jpg",
+          "alt": {
+            "en": "The Soup Spoon, Taipei Main Station — 5",
+            "zh": "The Soup Spoon 台北車站店 — 5"
+          },
+          "kind": "image",
+          "assetName": "photo-05.jpg"
+        },
+        {
+          "src": "/assets/images/projects/soup-spoon-station/photo-06.jpg",
+          "alt": {
+            "en": "The Soup Spoon, Taipei Main Station — 6",
+            "zh": "The Soup Spoon 台北車站店 — 6"
+          },
+          "kind": "image",
+          "assetName": "photo-06.jpg"
+        },
+        {
+          "src": "/assets/images/projects/soup-spoon-station/photo-07.jpg",
+          "alt": {
+            "en": "The Soup Spoon, Taipei Main Station — 7",
+            "zh": "The Soup Spoon 台北車站店 — 7"
+          },
+          "kind": "image",
+          "assetName": "photo-07.jpg"
+        },
+        {
+          "src": "/assets/images/projects/soup-spoon-station/photo-08.jpg",
+          "alt": {
+            "en": "The Soup Spoon, Taipei Main Station — 8",
+            "zh": "The Soup Spoon 台北車站店 — 8"
+          },
+          "kind": "image",
+          "assetName": "photo-08.jpg"
+        },
+        {
+          "src": "/assets/images/projects/soup-spoon-station/photo-09.jpg",
+          "alt": {
+            "en": "The Soup Spoon, Taipei Main Station — 9",
+            "zh": "The Soup Spoon 台北車站店 — 9"
+          },
+          "kind": "image",
+          "assetName": "photo-09.jpg"
+        },
+        {
+          "src": "/assets/images/projects/soup-spoon-station/photo-10.jpg",
+          "alt": {
+            "en": "The Soup Spoon, Taipei Main Station — 10",
+            "zh": "The Soup Spoon 台北車站店 — 10"
+          },
+          "kind": "image",
+          "assetName": "photo-10.jpg"
+        },
+        {
+          "src": "/assets/images/projects/soup-spoon-station/photo-11.jpg",
+          "alt": {
+            "en": "The Soup Spoon, Taipei Main Station — 11",
+            "zh": "The Soup Spoon 台北車站店 — 11"
+          },
+          "kind": "image",
+          "assetName": "photo-11.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "popeyes",
+      "name": {
+        "en": "Popeyes Xuchang Street",
+        "zh": "Popeyes 許昌店"
+      },
+      "description": {
+        "en": "Interior fit-out for Popeyes Xuchang Street, Taipei. The design captures the brand's American identity while maximising throughput with an efficient circulation plan.",
+        "zh": "大力水手 許昌店餐飲空間設計施工，以美式炸雞品牌識別為核心，規劃符合高翻桌率的高效動線，兼顧品牌個性與施工精度。"
+      },
+      "location": {
+        "en": "Xuchang Street, Taipei",
+        "zh": "台北市許昌街"
+      },
+      "client": {
+        "en": "",
+        "zh": "Popeyes Taiwan"
+      },
+      "category": "fb",
+      "year": 2024,
+      "areaSqm": 170,
+      "order": 19,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/popeyes/photo-01.jpg",
+          "alt": {
+            "en": "Popeyes Xuchang Street — 1",
+            "zh": "Popeyes 許昌店 — 1"
+          },
+          "kind": "image",
+          "assetName": "photo-01.jpg"
+        },
+        {
+          "src": "/assets/images/projects/popeyes/photo-02.jpg",
+          "alt": {
+            "en": "Popeyes Xuchang Street — 2",
+            "zh": "Popeyes 許昌店 — 2"
+          },
+          "kind": "image",
+          "assetName": "photo-02.jpg"
+        },
+        {
+          "src": "/assets/images/projects/popeyes/photo-03.jpg",
+          "alt": {
+            "en": "Popeyes Xuchang Street — 3",
+            "zh": "Popeyes 許昌店 — 3"
+          },
+          "kind": "image",
+          "assetName": "photo-03.jpg"
+        },
+        {
+          "src": "/assets/images/projects/popeyes/photo-04.jpg",
+          "alt": {
+            "en": "Popeyes Xuchang Street — 4",
+            "zh": "Popeyes 許昌店 — 4"
+          },
+          "kind": "image",
+          "assetName": "photo-04.jpg"
+        },
+        {
+          "src": "/assets/images/projects/popeyes/photo-05.jpg",
+          "alt": {
+            "en": "Popeyes Xuchang Street — 5",
+            "zh": "Popeyes 許昌店 — 5"
+          },
+          "kind": "image",
+          "assetName": "photo-05.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "guochan-office",
+      "name": {
+        "en": "Guochan Building Materials Head Office",
+        "zh": "國產建材總部辦公"
+      },
+      "description": {
+        "en": "Meeting rooms, work areas and display niches form the Guochan Building Materials headquarters office. Wood, stone and indirect lighting give the interiors depth and definition.",
+        "zh": "以會議空間、辦公區與展示壁龕呈現國產建材總部辦公環境，透過木質、石材與間接照明展現空間層次。"
+      },
+      "location": {
+        "en": "",
+        "zh": ""
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "office",
+      "year": null,
+      "areaSqm": 3300,
+      "order": 20,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/guochan-office/portfolio-20260923-01.webp",
+          "alt": {
+            "en": "Guochan Building Materials Head Office — 1",
+            "zh": "國產建材總部辦公 — 1"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/guochan-office/portfolio-20260923-02.webp",
+          "alt": {
+            "en": "Guochan Building Materials Head Office — 2",
+            "zh": "國產建材總部辦公 — 2"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/guochan-office/portfolio-20260923-03.webp",
+          "alt": {
+            "en": "Guochan Building Materials Head Office — 3",
+            "zh": "國產建材總部辦公 — 3"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-03.webp"
+        },
+        {
+          "src": "/assets/images/projects/guochan-office/portfolio-20260923-04.webp",
+          "alt": {
+            "en": "Guochan Building Materials Head Office — 4",
+            "zh": "國產建材總部辦公 — 4"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-04.webp"
+        }
+      ]
+    },
+    {
+      "slug": "guochan-showroom",
+      "name": {
+        "en": "Guochan Building Materials Showroom",
+        "zh": "國產建材情境展示間"
+      },
+      "description": {
+        "en": "Living room, bedroom and bathroom settings demonstrate building material applications, showing combinations of surfaces, edge details and lighting.",
+        "zh": "以客廳、臥室與衛浴等居家情境呈現建材應用，記錄不同材質、收邊與照明的搭配。"
+      },
+      "location": {
+        "en": "",
+        "zh": ""
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "showroom",
+      "year": null,
+      "areaSqm": 165,
+      "order": 21,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/guochan-showroom/portfolio-20260923-01.webp",
+          "alt": {
+            "en": "Guochan Building Materials Showroom — 1",
+            "zh": "國產建材情境展示間 — 1"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/guochan-showroom/portfolio-20260923-02.webp",
+          "alt": {
+            "en": "Guochan Building Materials Showroom — 2",
+            "zh": "國產建材情境展示間 — 2"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/guochan-showroom/portfolio-20260923-03.webp",
+          "alt": {
+            "en": "Guochan Building Materials Showroom — 3",
+            "zh": "國產建材情境展示間 — 3"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-03.webp"
+        },
+        {
+          "src": "/assets/images/projects/guochan-showroom/portfolio-20260923-04.webp",
+          "alt": {
+            "en": "Guochan Building Materials Showroom — 4",
+            "zh": "國產建材情境展示間 — 4"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-04.webp"
+        }
+      ]
+    },
+    {
+      "slug": "secom-reception",
+      "name": {
+        "en": "SECOM Corporate Reception",
+        "zh": "中興保全接待大廳"
+      },
+      "description": {
+        "en": "Glass partitions, timber walls and planting define the reception and meeting spaces, connecting discussion, waiting and conference areas.",
+        "zh": "接待與會議空間以玻璃隔間、木質牆面及植栽形成層次，串聯洽談、等候與會議區域。"
+      },
+      "location": {
+        "en": "Taipei",
+        "zh": "台北市"
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "office",
+      "year": null,
+      "areaSqm": 495,
+      "order": 22,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/secom-reception/portfolio-20260923-01.webp",
+          "alt": {
+            "en": "SECOM Corporate Reception — 1",
+            "zh": "中興保全接待大廳 — 1"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/secom-reception/portfolio-20260923-02.webp",
+          "alt": {
+            "en": "SECOM Corporate Reception — 2",
+            "zh": "中興保全接待大廳 — 2"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/secom-reception/portfolio-20260923-03.webp",
+          "alt": {
+            "en": "SECOM Corporate Reception — 3",
+            "zh": "中興保全接待大廳 — 3"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-03.webp"
+        },
+        {
+          "src": "/assets/images/projects/secom-reception/portfolio-20260923-04.webp",
+          "alt": {
+            "en": "SECOM Corporate Reception — 4",
+            "zh": "中興保全接待大廳 — 4"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-04.webp"
+        }
+      ]
+    },
+    {
+      "slug": "longteng-travel",
+      "name": {
+        "en": "Longteng Travel Agency",
+        "zh": "龍騰旅行社"
+      },
+      "description": {
+        "en": "Longteng Travel's office combines a stone reception area, discussion seating and planting to connect customer service with the internal workspace.",
+        "zh": "龍騰旅行社辦公空間以石材接待區、洽談座位及植栽配置，串聯對客服務與內部工作區域。"
+      },
+      "location": {
+        "en": "",
+        "zh": ""
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "office",
+      "year": null,
+      "areaSqm": null,
+      "order": 23,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/longteng-travel/portfolio-20260923-01.webp",
+          "alt": {
+            "en": "Longteng Travel Agency — 1",
+            "zh": "龍騰旅行社 — 1"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/longteng-travel/portfolio-20260923-02.webp",
+          "alt": {
+            "en": "Longteng Travel Agency — 2",
+            "zh": "龍騰旅行社 — 2"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/longteng-travel/portfolio-20260923-03.webp",
+          "alt": {
+            "en": "Longteng Travel Agency — 3",
+            "zh": "龍騰旅行社 — 3"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-03.webp"
+        },
+        {
+          "src": "/assets/images/projects/longteng-travel/portfolio-20260923-04.webp",
+          "alt": {
+            "en": "Longteng Travel Agency — 4",
+            "zh": "龍騰旅行社 — 4"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-04.webp"
+        }
+      ]
+    },
+    {
+      "slug": "transasia-bakery-dayuan",
+      "name": {
+        "en": "TransAsia Bakery, Dayuan",
+        "zh": "復興航棧 大園店"
+      },
+      "description": {
+        "en": "The TransAsia Bakery Dayuan store combines bakery retail, a service counter and seating. Aviation references and a blue-and-white palette shape the branded interior.",
+        "zh": "復興航棧大園店結合烘焙零售、櫃檯與休憩座位，透過航空意象及藍白色調呈現品牌空間。"
+      },
+      "location": {
+        "en": "Dayuan District, Taoyuan",
+        "zh": "桃園市大園區"
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "fb",
+      "year": null,
+      "areaSqm": null,
+      "order": 24,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/transasia-bakery-dayuan/portfolio-20260923-01.webp",
+          "alt": {
+            "en": "TransAsia Bakery, Dayuan — 1",
+            "zh": "復興航棧 大園店 — 1"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/transasia-bakery-dayuan/portfolio-20260923-02.webp",
+          "alt": {
+            "en": "TransAsia Bakery, Dayuan — 2",
+            "zh": "復興航棧 大園店 — 2"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/transasia-bakery-dayuan/portfolio-20260923-03.webp",
+          "alt": {
+            "en": "TransAsia Bakery, Dayuan — 3",
+            "zh": "復興航棧 大園店 — 3"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-03.webp"
+        },
+        {
+          "src": "/assets/images/projects/transasia-bakery-dayuan/portfolio-20260923-04.webp",
+          "alt": {
+            "en": "TransAsia Bakery, Dayuan — 4",
+            "zh": "復興航棧 大園店 — 4"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-04.webp"
+        }
+      ]
+    },
+    {
+      "slug": "transasia-bakery-chunri",
+      "name": {
+        "en": "TransAsia Bakery, Chunri",
+        "zh": "復興航棧 春日店"
+      },
+      "description": {
+        "en": "Bakery display counters connect the entrance and dining seats at the TransAsia Bakery Chunri store, bringing retail and seating areas together.",
+        "zh": "復興航棧春日店以烘焙展示櫃連結店面入口與用餐座位，呈現品牌零售及休憩空間。"
+      },
+      "location": {
+        "en": "Taoyuan",
+        "zh": "桃園市"
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "fb",
+      "year": null,
+      "areaSqm": 230,
+      "order": 25,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/transasia-bakery-chunri/portfolio-20260923-01.webp",
+          "alt": {
+            "en": "TransAsia Bakery, Chunri — 1",
+            "zh": "復興航棧 春日店 — 1"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/transasia-bakery-chunri/portfolio-20260923-02.webp",
+          "alt": {
+            "en": "TransAsia Bakery, Chunri — 2",
+            "zh": "復興航棧 春日店 — 2"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/transasia-bakery-chunri/portfolio-20260923-03.webp",
+          "alt": {
+            "en": "TransAsia Bakery, Chunri — 3",
+            "zh": "復興航棧 春日店 — 3"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-03.webp"
+        }
+      ]
+    },
+    {
+      "slug": "budaejjigae",
+      "name": {
+        "en": "Budae Jjigae",
+        "zh": "部隊鍋"
+      },
+      "description": {
+        "en": "Brick walls, timber and continuous lighting shape the dining atmosphere, with a range of table settings, seats and circulation routes.",
+        "zh": "餐飲空間以磚牆、木質與連續照明形成用餐氛圍，呈現不同桌型、座位與通道的安排。"
+      },
+      "location": {
+        "en": "",
+        "zh": ""
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "fb",
+      "year": null,
+      "areaSqm": 264,
+      "order": 26,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/budaejjigae/portfolio-20260923-01.webp",
+          "alt": {
+            "en": "Budae Jjigae — 1",
+            "zh": "部隊鍋 — 1"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/budaejjigae/portfolio-20260923-02.webp",
+          "alt": {
+            "en": "Budae Jjigae — 2",
+            "zh": "部隊鍋 — 2"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/budaejjigae/portfolio-20260923-03.webp",
+          "alt": {
+            "en": "Budae Jjigae — 3",
+            "zh": "部隊鍋 — 3"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-03.webp"
+        },
+        {
+          "src": "/assets/images/projects/budaejjigae/portfolio-20260923-04.webp",
+          "alt": {
+            "en": "Budae Jjigae — 4",
+            "zh": "部隊鍋 — 4"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-04.webp"
+        }
+      ]
+    },
+    {
+      "slug": "burger-ray",
+      "name": {
+        "en": "Burger-Ray",
+        "zh": "Burger-Ray"
+      },
+      "description": {
+        "en": "A metal counter, timber walls and pendant lights define the Burger-Ray interior, framing the ordering, preparation and seating areas.",
+        "zh": "Burger-Ray 以金屬櫃檯、木質牆面與吊燈構成鮮明的餐飲空間，呈現點餐、備餐與座位區域。"
+      },
+      "location": {
+        "en": "",
+        "zh": ""
+      },
+      "client": {
+        "en": "",
+        "zh": ""
+      },
+      "category": "fb",
+      "year": null,
+      "areaSqm": 165,
+      "order": 27,
+      "featured": false,
+      "featuredOrder": -1,
+      "images": [
+        {
+          "src": "/assets/images/projects/burger-ray/portfolio-20260923-01.webp",
+          "alt": {
+            "en": "Burger-Ray — 1",
+            "zh": "Burger-Ray — 1"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-01.webp"
+        },
+        {
+          "src": "/assets/images/projects/burger-ray/portfolio-20260923-02.webp",
+          "alt": {
+            "en": "Burger-Ray — 2",
+            "zh": "Burger-Ray — 2"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-02.webp"
+        },
+        {
+          "src": "/assets/images/projects/burger-ray/portfolio-20260923-03.webp",
+          "alt": {
+            "en": "Burger-Ray — 3",
+            "zh": "Burger-Ray — 3"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-03.webp"
+        },
+        {
+          "src": "/assets/images/projects/burger-ray/portfolio-20260923-04.webp",
+          "alt": {
+            "en": "Burger-Ray — 4",
+            "zh": "Burger-Ray — 4"
+          },
+          "kind": "image",
+          "assetName": "portfolio-20260923-04.webp"
+        }
+      ]
+    }
+  ]
+}

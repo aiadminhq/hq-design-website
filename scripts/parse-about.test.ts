@@ -5,7 +5,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { parseAbout } from "./parse-about.ts";
 
-const ROOT = path.resolve(import.meta.dirname, "..");
+// These parsers target the archived Chinese template, not the current bilingual main.
+const ROOT = path.resolve(import.meta.dirname, "fixtures/legacy-1fdff97");
 
 async function readFixture(): Promise<string> {
   return fs.readFile(path.join(ROOT, "about.html"), "utf8");

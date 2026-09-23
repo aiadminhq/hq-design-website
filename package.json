@@ -7,6 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
+    "dev:web": "npm --prefix web run dev",
+    "build:web": "npm --prefix web run build",
+    "test:web": "npm --prefix web test",
     "test": "node --import tsx --test scripts/*.test.ts",
     "validate": "tsx scripts/validate-schemas.ts",
     "extract": "tsx scripts/extract-html.ts",
