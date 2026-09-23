@@ -1222,16 +1222,21 @@ html[lang="zh-Hant"] .faq-group-title {
   line-height: 1.15;
   white-space: nowrap;
 }
-.nav-logo--int.nav-logo--zh .name-zh-company,
+.nav-logo--int.nav-logo--zh .name-zh-company {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--dark);
+  line-height: 1.1;
+}
 .nav-logo--int.nav-logo--zh .name-zh-since {
   display: block;
-}
-.nav-logo--int.nav-logo--zh .name-zh-since {
   font-family: var(--font-en);
-  font-size: 10px;
+  font-size: 11px;
+  color: var(--light);
   letter-spacing: 0.5px;
+  line-height: 1.2;
 }
-@media (max-width: 900px) {
-  .nav-logo--int.nav-logo--zh .name-zh { font-size: 10px; }
-  .nav-logo--int.nav-logo--zh .name-zh-since { font-size: 9px; }
+@media (max-width: 375px) {
+  .nav-logo--int.nav-logo--zh .name-zh-company { font-size: 13px; }
 }
