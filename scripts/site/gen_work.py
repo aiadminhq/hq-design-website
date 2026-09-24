@@ -79,7 +79,7 @@ CASES = {}
 def C(slug, **kw): CASES[slug] = dict(slug=slug, **kw)
 
 C("secom-nangang-complex", cat="office", weight="lead",
-  name="中興保全 SECOM 南港總部", gloss="Corporate HQ · Full Design &amp; Build",
+  name="中興保全 SECOM 南港總部", gloss="SECOM Nangang HQ · Full Design &amp; Build",
   lede="在持續營運且具高度保全需求的企業總部中，以分區施工完成接待、開放辦公、會議與主管空間的整合翻新——維持日常營運不中斷，零重大缺失驗收。",
   specs=[("業主","Client","中保集團 SECOM Group"),("地點","Location","台北市南港區"),("面積","Area","5,940 sqm · 1,797 坪"),
          ("年份","Year","2025"),("範圍","Scope","設計施工統包"),("類別","Type","企業總部"),("樓層","Floors","7F–14F"),("工法","Method","分層分區同步施工")],
@@ -109,7 +109,7 @@ C("zhongbao-smart-facility", cat="showroom", weight="w4",
   card_d=("SHOWROOM","NEW TAIPEI"))
 
 C("qijia", cat="fb", weight="w6",
-  name="起家雞 台中店", gloss="Chicken Up · Chain F&amp;B · Design &amp; Build",
+  name="起家雞 台中店", gloss="Cheogajip, Taichung · Chain F&amp;B · Design &amp; Build",
   lede="起家雞台中店餐飲空間設計施工，以韓式炸雞品牌風格為設計基調，呈現活潑品牌個性，並兼顧高效翻桌與舒適用餐體驗。",
   specs=[("客戶","Client","起家雞 Chicken Up"),("地點","Location","台中"),("面積","Area","212 坪 · 約 700 sqm"),("年份","Year","2019"),
          ("範圍","Scope","餐飲空間設計施工"),("類別","Type","連鎖餐飲")],
@@ -204,28 +204,28 @@ C("transasia-bakery-dayuan", cat="fb", weight="reg",
 
 # ---- AI-visualisation cases（資料源：_EXCHANGE/website-asset-manifest.md §1）----
 C("polytron", cat="office", weight="w4",
-  name="保創科技 POLYTRON", gloss="POLYTRON · Corporate Office",
+  name="保創科技 POLYTRON", gloss="Brightron Technology · Corporate Office",
   lede="企業辦公空間設計，以參數化方案比較配置後定案。",
   specs=[("地點","Location","台北市"),("面積","Area","850 sqm"),("年份","Year","2025"),("類別","Type","企業辦公")],
   card_d=("<b>850</b> sqm","2025"), note=VIZ_NOTE,
   images=viz_images("polytron","保創科技 POLYTRON",2), deferred=[])
 
 C("csun", cat="office", weight="w4",
-  name="志聖工業 C.SUN", gloss="C.SUN INDUSTRIAL · Corporate Office",
+  name="志聖工業 C.SUN", gloss="C.SUN Industrial HQ · Corporate Office",
   lede="上市製造企業辦公空間，配合企業規模與品牌形象規劃管理階層需求與整體動線。",
   specs=[("地點","Location","台北市南港區"),("面積","Area","711 sqm"),("年份","Year","2026"),("類別","Type","企業辦公")],
   card_d=("<b>711</b> sqm","NANGANG · 2026"), note=VIZ_NOTE,
   images=viz_images("csun","志聖工業 C.SUN",2), deferred=[])
 
 C("liwei", cat="office", weight="w4",
-  name="立偉電子 LIWEI", gloss="LIWEI ELECTRONICS · Corporate Office",
+  name="立偉電子 LIWEI", gloss="Liwei Electronics · Corporate Office",
   lede="精簡辦公空間規劃與統包設計施工。",
   specs=[("地點","Location","台北市南港區"),("面積","Area","350 sqm"),("年份","Year","2025"),("類別","Type","企業辦公")],
   card_d=("<b>350</b> sqm","NANGANG · 2025"), note=VIZ_NOTE,
   images=viz_images("liwei","立偉電子 LIWEI",2), deferred=[])
 
 C("xinlan", cat="office", weight="w4",
-  name="欣蘭企業 XINLAN", gloss="XINLAN ENTERPRISE · Corporate Office",
+  name="欣蘭企業 XINLAN", gloss="Xinlan Enterprise · Corporate Office",
   lede="企業辦公空間設計，整合品牌識別與工作動線。",
   specs=[("地點","Location","台北市"),("面積","Area","350 sqm"),("年份","Year","2025"),("類別","Type","企業辦公")],
   card_d=("<b>350</b> sqm","2025"), note=VIZ_NOTE,
@@ -239,35 +239,35 @@ C("zhongbao-tianhe", cat="office", weight="w4",
   images=viz_images("zhongbao-tianhe","天河電訊 eSkylink",2), deferred=[])
 
 C("zhongbao-jingzhen", cat="office", weight="w4",
-  name="京琠科技 CHING DIAN TECH", gloss="CHING DIAN TECH · Corporate Office",
+  name="京琠科技 CHING DIAN TECH", gloss="Ching Dian TECH · Corporate Office",
   lede="科技企業辦公空間設計。",
   specs=[("地點","Location","台北市南港區"),("面積","Area","250 sqm"),("年份","Year","2025"),("類別","Type","企業辦公")],
   card_d=("<b>250</b> sqm","NANGANG · 2025"), note=VIZ_NOTE,
   images=viz_images("zhongbao-jingzhen","京琠科技 CHING DIAN TECH",3), deferred=[])
 
 C("zhongbao-baojing", cat="office", weight="w4",
-  name="中保保經 ZHONG BAO INSURANCE", gloss="ZHONG BAO INSURANCE · Corporate Office",
+  name="中保保經 ZHONG BAO INSURANCE", gloss="Zhong Bao Insurance Services · Corporate Office",
   lede="保險經紀企業辦公空間設計。",
   specs=[("地點","Location","台北市南港區"),("面積","Area","200 sqm"),("年份","Year","2025"),("類別","Type","企業辦公")],
   card_d=("<b>200</b> sqm","NANGANG · 2025"), note=VIZ_NOTE,
   images=viz_images("zhongbao-baojing","中保保經 ZHONG BAO INSURANCE",2), deferred=[])
 
 C("epicstech-10f", cat="office", weight="w4",
-  name="史詩科技 EPICSTECH", gloss="EPICSTECH · Corporate Office",
+  name="史詩科技 EPICSTECH", gloss="Epic Tech · Corporate Office",
   lede="科技辦公空間翻新，以精準空間配置與品牌色系整合規劃高效能工作環境。",
   specs=[("地點","Location","台北市南港區"),("面積","Area","165 sqm"),("年份","Year","2025"),("類別","Type","企業辦公")],
   card_d=("<b>165</b> sqm","NANGANG · 2025"), note=VIZ_NOTE,
   images=viz_images("epicstech-10f","史詩科技 EPICSTECH",3), deferred=[])
 
 C("lijie", cat="office", weight="w4",
-  name="立捷國際 LIJIE INTERNATIONAL", gloss="LIJIE INTERNATIONAL · Corporate Office",
+  name="立捷國際 LIJIE INTERNATIONAL", gloss="Lijie International · Corporate Office",
   lede="企業辦公空間設計，整合集團識別與接待動線。",
   specs=[("地點","Location","台北市南港區"),("面積","Area","99 sqm"),("年份","Year","2024"),("類別","Type","企業辦公")],
   card_d=("<b>99</b> sqm","NANGANG · 2024"), note=VIZ_NOTE,
   images=viz_images("lijie","立捷國際 LIJIE INTERNATIONAL",2), deferred=[])
 
 C("ledaojia", cat="office", weight="w4",
-  name="樂到家國際娛樂 LOTS HOME", gloss="LOTS HOME ENTERTAINMENT · Corporate Office",
+  name="樂到家國際娛樂 LOTS HOME", gloss="Lots Home Entertainment · Corporate Office",
   lede="娛樂產業辦公空間設計。",
   specs=[("地點","Location","台北市南港區"),("面積","Area","50 sqm"),("年份","Year","2025"),("類別","Type","企業辦公")],
   card_d=("<b>50</b> sqm","NANGANG · 2025"), note=VIZ_NOTE,
@@ -281,7 +281,7 @@ C("aiontech", cat="office", weight="w4",
   images=viz_images("aiontech","博訊科技 AIONTECH",2), deferred=[])
 
 C("baohua", cat="office", weight="w4",
-  name="保華資安 BAOHUA", gloss="BAOHUA CYBERSECURITY · Corporate Office",
+  name="保華資安 BAOHUA", gloss="Baohua Cybersecurity · Corporate Office",
   lede="資安產業辦公空間設計，以穩重、精準的空間語彙呈現企業專業定位。",
   specs=[("地點","Location","台北市"),("年份","Year","2025"),("類別","Type","企業辦公")],
   card_d=("OFFICE","2025"), note=VIZ_NOTE,
