@@ -1,0 +1,102 @@
+{
+  "stats": [
+    {
+      "number": "1995",
+      "labelZh": "創立年份",
+      "labelEn": "Founded"
+    },
+    {
+      "number": "1,600+",
+      "labelZh": "完成商業案件",
+      "labelEn": "Projects Completed"
+    },
+    {
+      "number": "100%",
+      "labelZh": "設計施工自有整合",
+      "labelEn": "In-house D&B"
+    },
+    {
+      "number": "12mo",
+      "labelZh": "完工保固期",
+      "labelEn": "Warranty Period"
+    }
+  ],
+  "story": {
+    "tagline": "匠藝專工，一應皆備",
+    "paragraphsZh": [
+      "惠強室內裝修股份有限公司成立於1995年。三十年來，我們致力和客戶一同用設計思考，結合策略、賦予脈絡、創造情境，將空間規劃成企業與人、品牌與人之間的故事場域。",
+      "在空間裡，我們和人、企業、品牌一起重組價值，提供觀看世界的方式，打造專屬品味風格，及提升工作與生活品質為目標。"
+    ],
+    "paragraphEn": "Founded in 1995, HQ has delivered over 1,600 commercial renovation projects across Taiwan. Our clients include listed corporations, international hotel brands, major financial institutions, chain restaurants, and government bodies.",
+    "image": "assets/images/projects/kimpton/photo-02.jpg",
+    "imageCaption": "HQ Project — Kimpton"
+  },
+  "team": {
+    "summaryZh": "",
+    "summaryEn": "12-person core team — design, build, and delivery under one roof",
+    "cells": [
+      {
+        "role": "MD",
+        "roleLabelZh": "負責人",
+        "roleLabelEn": "Managing Director",
+        "count": 1
+      },
+      {
+        "role": "PM",
+        "roleLabelZh": "專案經理",
+        "roleLabelEn": "Project Managers",
+        "count": 3
+      },
+      {
+        "role": "Site",
+        "roleLabelZh": "工務經理",
+        "roleLabelEn": "Site Managers",
+        "count": 3
+      },
+      {
+        "role": "Designer",
+        "roleLabelZh": "設計師",
+        "roleLabelEn": "Designers",
+        "count": 3
+      },
+      {
+        "role": "Finance",
+        "roleLabelZh": "財務/採購",
+        "roleLabelEn": "Finance & Procurement",
+        "count": 2
+      }
+    ]
+  },
+  "certifications": [
+    {
+      "code": "LEED",
+      "labelZh": "LEED綠建築認證",
+      "labelEn": "LEED Green Building"
+    },
+    {
+      "code": "GREEN",
+      "labelZh": "綠建築標章",
+      "labelEn": "Taiwan Green Building Label"
+    },
+    {
+      "code": "AIOT",
+      "labelZh": "AIoT智慧空間",
+      "labelEn": "AIoT Smart Space"
+    },
+    {
+      "code": "ESG",
+      "labelZh": "ESG永續設計",
+      "labelEn": "ESG Sustainability"
+    },
+    {
+      "code": "ENERGY",
+      "labelZh": "節能減碳",
+      "labelEn": "Energy Efficiency"
+    },
+    {
+      "code": "HEALTH",
+      "labelZh": "健康建築材料",
+      "labelEn": "Healthy Building Materials"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "zhongbao-jingzhen",
+  "nameZh": "京琠科技",
+  "nameEn": "Ching Dian TECH",
+  "category": "office",
+  "year": 2025,
+  "heroImage": "assets/images/projects/zhongbao-jingzhen/render-04.jpg",
+  "categoryLabel": "Corporate Office",
+  "locationZh": "台北南港",
+  "yearLabel": "2025",
+  "designBuildLabel": "HQ Interior",
+  "descriptionZh": "京琠科技 9 樓辦公空間設計施工，以科技產業的簡潔俐落為基調，呈現現代專業的工作場域氛圍。",
+  "scopeZh": "企業辦公室",
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "value": "中保科技（京琠科技）"
+    },
+    {
+      "labelZh": "類型",
+      "value": "企業辦公室"
+    },
+    {
+      "labelZh": "坪數",
+      "value": "76 坪"
+    },
+    {
+      "labelZh": "地點",
+      "value": "台北南港"
+    },
+    {
+      "labelZh": "完工年份",
+      "value": "2025"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/images/projects/zhongbao-jingzhen/render-02.jpg",
+      "alt": "平面配置圖"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-jingzhen/render-03.jpg",
+      "alt": "空間效果圖 03"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-jingzhen/render-04.jpg",
+      "alt": "空間效果圖 04"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-jingzhen/render-05.jpg",
+      "alt": "空間效果圖 05"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-jingzhen/render-06.jpg",
+      "alt": "空間效果圖 06"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-jingzhen/render-07.jpg",
+      "alt": "空間效果圖 07"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-jingzhen/render-08.jpg",
+      "alt": "空間效果圖 08"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-jingzhen/render-09.jpg",
+      "alt": "空間效果圖 09"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-jingzhen/render-10.jpg",
+      "alt": "空間效果圖 10"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-jingzhen/render-11.jpg",
+      "alt": "空間效果圖 11"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-jingzhen/render-12.jpg",
+      "alt": "空間效果圖 12"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-jingzhen/render-13.jpg",
+      "alt": "空間效果圖 13"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-jingzhen/render-14.jpg",
+      "alt": "空間效果圖 14"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-jingzhen/render-15.jpg",
+      "alt": "空間效果圖 15"
+    }
+  ],
+  "client": "中保京琠"
+}

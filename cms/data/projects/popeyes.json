@@ -1,0 +1,59 @@
+{
+  "slug": "popeyes",
+  "nameZh": "Popeyes 許昌店",
+  "nameEn": "",
+  "category": "fb",
+  "year": 2024,
+  "heroImage": "assets/images/projects/popeyes/photo-01.jpg",
+  "categoryLabel": "F&B",
+  "locationZh": "台北許昌街",
+  "yearLabel": "2024",
+  "designBuildLabel": "HQ Interior",
+  "descriptionZh": "Popeyes 許昌店餐飲空間設計施工，以美式炸雞品牌識別為核心，規劃符合高翻桌率的高效動線，兼顧品牌個性與施工精度。",
+  "scopeZh": "餐飲空間",
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "value": "Popeyes Taiwan"
+    },
+    {
+      "labelZh": "類型",
+      "value": "餐飲連鎖"
+    },
+    {
+      "labelZh": "坪數",
+      "value": "51 坪"
+    },
+    {
+      "labelZh": "地點",
+      "value": "台北市許昌街"
+    },
+    {
+      "labelZh": "完工年份",
+      "value": "2024"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/images/projects/popeyes/photo-01.jpg",
+      "alt": "完工實景 01"
+    },
+    {
+      "image": "assets/images/projects/popeyes/photo-02.jpg",
+      "alt": "完工實景 02"
+    },
+    {
+      "image": "assets/images/projects/popeyes/photo-03.jpg",
+      "alt": "完工實景 03"
+    },
+    {
+      "image": "assets/images/projects/popeyes/photo-04.jpg",
+      "alt": "完工實景 04"
+    },
+    {
+      "image": "assets/images/projects/popeyes/photo-05.jpg",
+      "alt": "完工實景 05"
+    }
+  ],
+  "featured": true
+}

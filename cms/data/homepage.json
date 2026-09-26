@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "kicker": "Commercial Design & Build · 31 Years · Taipei",
+    "headlineZh": "",
+    "headlineEn": "Zero Downtime. Turnkey Delivery.",
+    "subZh": "精準施工，營運不中斷｜為國際企業在台拓點打造商業空間",
+    "subEn": "Institutional-grade fit-out for foreign-HQ enterprises, hotel groups and listed corporations expanding into Taiwan. Design and build, in-house. One contract. One PM.",
+    "backgroundImage": "assets/images/projects/secom-nangang-complex/photo-01.jpg",
+    "ctaPrimary": {
+      "label": "Start Your Project →",
+      "href": "contact.html"
+    },
+    "ctaSecondary": {
+      "label": "View Portfolio",
+      "href": "projects.html"
+    },
+    "stats": [
+      {
+        "number": "31+",
+        "labelZh": "",
+        "labelEn": "Years in Operation"
+      },
+      {
+        "number": "1,600+",
+        "labelZh": "",
+        "labelEn": "Commercial Projects"
+      },
+      {
+        "number": "100%",
+        "labelZh": "",
+        "labelEn": "In-House Design & Build"
+      },
+      {
+        "number": "12M",
+        "labelZh": "",
+        "labelEn": "Post-Handover Warranty"
+      }
+    ]
+  },
+  "logosBar": {
+    "labelZh": "",
+    "labelEn": "Trusted by",
+    "items": [
+      {
+        "name": "中保科技",
+        "alt": "SECOM"
+      },
+      {
+        "name": "志聖工業",
+        "alt": "C.SUN"
+      },
+      {
+        "name": "復興空廚",
+        "alt": "TransAsia Catering"
+      },
+      {
+        "name": "金普頓大安酒店",
+        "alt": "Kimpton Hotel"
+      },
+      {
+        "name": "大力水手",
+        "alt": "Popeyes"
+      },
+      {
+        "name": "匙碗湯",
+        "alt": "Soup Spoon"
+      },
+      {
+        "name": "起家雞",
+        "alt": "Cheogajip"
+      }
+    ]
+  },
+  "featuredProjects": [
+    "secom-nangang-complex",
+    "csun",
+    "aiontech",
+    "kimpton"
+  ],
+  "taiwanWedge": {
+    "bullets": [
+      "English-language scope, drawings & reporting",
+      "Local permitting & building management liaison",
+      "Procurement-grade documentation (audit-ready)",
+      "LEED · Green Building certified capability",
+      "Single PM from briefing to final handover"
+    ],
+    "ctaLabel": "Talk to a Project Director →",
+    "ctaHref": "contact.html"
+  }
+}

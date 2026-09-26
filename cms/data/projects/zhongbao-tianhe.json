@@ -1,0 +1,87 @@
+{
+  "slug": "zhongbao-tianhe",
+  "nameZh": "天河電訊",
+  "nameEn": "",
+  "category": "office",
+  "year": 2025,
+  "heroImage": "assets/images/projects/zhongbao-tianhe/render-03.jpg",
+  "categoryLabel": "Corporate Office",
+  "locationZh": "台北南港",
+  "yearLabel": "2025",
+  "designBuildLabel": "HQ Interior",
+  "descriptionZh": "天河電訊 9 樓辦公空間設計施工，以電信科技產業特性為設計出發，整合開放協作與獨立作業需求，打造高效能的現代辦公環境。",
+  "scopeZh": "企業辦公室",
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "value": "中保科技（天河電訊）"
+    },
+    {
+      "labelZh": "類型",
+      "value": "企業辦公室"
+    },
+    {
+      "labelZh": "坪數",
+      "value": "106 坪"
+    },
+    {
+      "labelZh": "地點",
+      "value": "台北南港"
+    },
+    {
+      "labelZh": "完工年份",
+      "value": "2025"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/images/projects/zhongbao-tianhe/render-02.jpg",
+      "alt": "平面配置圖"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-tianhe/render-03.jpg",
+      "alt": "空間效果圖 03"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-tianhe/render-04.jpg",
+      "alt": "空間效果圖 04"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-tianhe/render-05.jpg",
+      "alt": "空間效果圖 05"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-tianhe/render-06.jpg",
+      "alt": "空間效果圖 06"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-tianhe/render-07.jpg",
+      "alt": "空間效果圖 07"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-tianhe/render-08.jpg",
+      "alt": "空間效果圖 08"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-tianhe/render-09.jpg",
+      "alt": "空間效果圖 09"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-tianhe/render-10.jpg",
+      "alt": "空間效果圖 10"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-tianhe/render-11.jpg",
+      "alt": "空間效果圖 11"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-tianhe/render-12.jpg",
+      "alt": "空間效果圖 12"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-tianhe/render-13.jpg",
+      "alt": "空間效果圖 13"
+    }
+  ],
+  "client": "中保天河"
+}
