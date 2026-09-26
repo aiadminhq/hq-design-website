@@ -751,6 +751,37 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
 .form-group textarea { resize: vertical; min-height: 120px; }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 
+.contact-form-fields { display: flex; flex-direction: column; gap: 20px; }
+.contact-form-status {
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  font-size: 15px;
+  line-height: 1.7;
+  border: 1px solid var(--border);
+}
+.contact-form-status.is-success {
+  background: var(--bg);
+  border-color: var(--brand);
+  color: var(--dark);
+}
+.contact-form-status.is-error {
+  background: #fff8f7;
+  border-color: #c45c4a;
+  color: #7a2e22;
+}
+.contact-form-thankyou {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--dark);
+}
+.contact-form-submit[disabled] {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
 .contact-info { display: flex; flex-direction: column; gap: 36px; }
 .info-block h3 { font-size: 16px; margin-bottom: 16px; }
 .info-item { display: flex; gap: 12px; margin-bottom: 12px; align-items: flex-start; }

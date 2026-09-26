@@ -89,60 +89,63 @@
 
         <h2 style="font-size: 26px; margin-bottom: 8px;">Project enquiry form</h2>
         <p style="font-size: 14px; color: var(--mid); margin-bottom: 36px;">The more detail you share, the more useful our initial response will be. You may note a preferred engagement model in your brief; each project gets a dedicated project manager, site manager, and designer — or ask which engagement fits. We respond within one business day.</p>
-        <form class="contact-form" action="https://formspree.io/f/xeendgkz" method="POST">
-          <input type="hidden" name="_subject" value="[HQ Enquiry] Website contact form">
-          <input type="hidden" name="_language" value="en">
-          <div class="form-row">
-            <div class="form-group">
-              <label>Company</label>
-              <input type="text" name="company" placeholder="Your company name" required>
+        <form class="contact-form" action="https://formspree.io/f/xeendgkz" method="POST" data-contact-ajax data-locale="en">
+          <div class="contact-form-fields">
+            <input type="hidden" name="_subject" value="[HQ Enquiry] Website contact form">
+            <input type="hidden" name="_language" value="en">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-company">Company</label>
+                <input id="contact-company" type="text" name="company" placeholder="Your company name" required autocomplete="organization">
+              </div>
+              <div class="form-group">
+                <label for="contact-name">Name</label>
+                <input id="contact-name" type="text" name="name" placeholder="Alex Lin" required autocomplete="name">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-phone">Phone</label>
+                <input id="contact-phone" type="tel" name="phone" placeholder="+886 ..." required autocomplete="tel">
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Email</label>
+                <input id="contact-email" type="email" name="email" placeholder="your@company.com" required autocomplete="email">
+              </div>
             </div>
             <div class="form-group">
-              <label>Name</label>
-              <input type="text" name="name" placeholder="Alex Lin" required>
+              <label for="contact-space-type">Space Type</label>
+              <select id="contact-space-type" name="space_type">
+                <option value="">Please select...</option>
+                <option>Office</option>
+                <option>Commercial / Retail</option>
+                <option>F&amp;B / Restaurant</option>
+                <option>Hotel / Hospitality</option>
+                <option>Exhibition / Showroom</option>
+                <option>Other</option>
+              </select>
             </div>
-          </div>
-          <div class="form-row">
             <div class="form-group">
-              <label>Phone</label>
-              <input type="tel" name="phone" placeholder="+886 ..." required>
+              <label for="contact-description">Brief Description</label>
+              <textarea id="contact-description" name="description" placeholder="Please describe the space size, location, intended use, and rough timeline."></textarea>
             </div>
             <div class="form-group">
-              <label>Email</label>
-              <input type="email" name="email" placeholder="your@company.com" required>
+              <label for="contact-timeline">Target Timeline</label>
+              <select id="contact-timeline" name="timeline">
+                <option value="">Please select...</option>
+                <option>Within 1 month</option>
+                <option>1–3 months</option>
+                <option>3–6 months</option>
+                <option>6+ months</option>
+                <option>Not yet decided</option>
+              </select>
             </div>
+            <button type="submit" class="btn btn-primary contact-form-submit" style="width: 100%; justify-content: center; padding: 16px;">
+              Submit Request →
+            </button>
+            <p class="contact-form-note" style="font-size: 12px; color: var(--light); text-align: center; font-family: var(--font-en);">We'll respond within 1 business day</p>
           </div>
-          <div class="form-group">
-            <label>Space Type</label>
-            <select name="space_type">
-              <option value="">Please select...</option>
-              <option>Office</option>
-              <option>Commercial / Retail</option>
-              <option>F&amp;B / Restaurant</option>
-              <option>Hotel / Hospitality</option>
-              <option>Exhibition / Showroom</option>
-              <option>Other</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label>Brief Description</label>
-            <textarea name="description" placeholder="Please describe the space size, location, intended use, and rough timeline."></textarea>
-          </div>
-          <div class="form-group">
-            <label>Target Timeline</label>
-            <select name="timeline">
-              <option value="">Please select...</option>
-              <option>Within 1 month</option>
-              <option>1–3 months</option>
-              <option>3–6 months</option>
-              <option>6+ months</option>
-              <option>Not yet decided</option>
-            </select>
-          </div>
-          <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center; padding: 16px;">
-            Submit Request →
-          </button>
-          <p style="font-size: 12px; color: var(--light); text-align: center; font-family: var(--font-en);">We'll respond within 1 business day</p>
+          <div class="contact-form-status" role="status" aria-live="polite" hidden></div>
         </form>
       </div>
 
