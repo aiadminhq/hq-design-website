@@ -76,7 +76,7 @@ document.querySelectorAll('.why-card, .project-card, .service-card, .career-card
   const COPY = {
     en: {
       sending: 'Sending…',
-      success: 'Thanks — we received your message. We'll reply soon.',
+      success: "Thanks — we received your message. We'll reply soon.",
       error: 'Something went wrong. Please try again, or email info@hqdesign.tw.',
       submit: 'Submit Request →',
     },
