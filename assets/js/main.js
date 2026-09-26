@@ -76,12 +76,14 @@ document.querySelectorAll('.why-card, .project-card, .service-card, .career-card
   const COPY = {
     en: {
       sending: 'Sending…',
+      done: 'Sent',
       success: "Thanks — we received your message. We'll reply soon.",
       error: 'Something went wrong. Please try again, or email info@hqdesign.tw.',
       submit: 'Submit Request →',
     },
     zh: {
       sending: '傳送中…',
+      done: '已送出',
       success: '已收到您的訊息，我們會盡快回覆。',
       error: '送出失敗，請再試一次，或改寄信至 info@hqdesign.tw。',
       submit: '送出需求 →',
@@ -134,12 +136,16 @@ document.querySelectorAll('.why-card, .project-card, .service-card, .career-card
 
         if (response.ok) {
           trackFormSubmit(form);
+          form.classList.add('is-sent');
           fields.hidden = true;
+          // Keep button disabled; clear busy/"Sending…" so UI is clean if fields ever reappear
+          submitBtn.removeAttribute('aria-busy');
+          submitBtn.textContent = copy.done;
           status.hidden = false;
           status.className = 'contact-form-status is-success';
           status.innerHTML = `<p class="contact-form-thankyou">${copy.success}</p>`;
           status.setAttribute('tabindex', '-1');
-          form.reset();
+          // Skip reset: fields are hidden; resetting emptied inputs looked like a failed send
           status.focus();
           return;
         }

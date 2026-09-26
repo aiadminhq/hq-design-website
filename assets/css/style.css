@@ -752,6 +752,9 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 
 .contact-form-fields { display: flex; flex-direction: column; gap: 20px; }
+/* [hidden] must win over display:flex above, or fields stay visible after AJAX success */
+.contact-form-fields[hidden] { display: none !important; }
+.contact-form.is-sent .contact-form-fields { display: none; }
 .contact-form-status {
   border-radius: var(--radius);
   padding: 20px 22px;
