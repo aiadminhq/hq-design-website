@@ -1,0 +1,128 @@
+{
+  "slug": "office-design",
+  "number": "01",
+  "titleZh": "辦公空間設計",
+  "titleEn": "",
+  "descriptionZh": "企業辦公環境全方位規劃，從工作效能到品牌呈現，以使用者需求為核心，打造符合企業文化、提升員工生產力的辦公場域。涵蓋開放式工作區、會議室、主管辦公室與公共空間。",
+  "services": [
+    {
+      "slug": "office-design",
+      "number": "01",
+      "titleZh": "辦公空間設計",
+      "titleEn": "",
+      "descriptionZh": "企業辦公環境全方位規劃，從工作效能到品牌呈現，以使用者需求為核心，打造符合企業文化、提升員工生產力的辦公場域。涵蓋開放式工作區、會議室、主管辦公室與公共空間。",
+      "order": 1,
+      "categoryGroup": "design"
+    },
+    {
+      "slug": "commercial-design",
+      "number": "02",
+      "titleZh": "商業空間設計",
+      "titleEn": "",
+      "descriptionZh": "餐飲、零售、展廳等商業場域設計，以品牌策略驅動空間規劃，整合視覺識別與動線設計，創造讓顧客印象深刻的品牌體驗空間。",
+      "order": 2,
+      "categoryGroup": "design"
+    },
+    {
+      "slug": "design-build",
+      "number": "03",
+      "titleZh": "設計施工統包",
+      "titleEn": "",
+      "descriptionZh": "設計與施工由同一團隊執行，一份合約全程負責。消除設計與施工介面風險，確保圖面與執行一致，避免追加變更，準時完工交付。這是惠強最核心的服務模式。",
+      "order": 3,
+      "categoryGroup": "build",
+      "featured": true
+    },
+    {
+      "slug": "space-planning",
+      "number": "04",
+      "titleZh": "空間規劃顧問",
+      "titleEn": "",
+      "descriptionZh": "針對尚未進入設計階段的業主提供專業顧問服務，包含時程規劃建議、工程可行性評估、成本預算分析，協助業主做出更有把握的決策。",
+      "order": 4,
+      "categoryGroup": "consulting"
+    },
+    {
+      "slug": "mep-integration",
+      "number": "05",
+      "titleZh": "機電消整合",
+      "titleEn": "",
+      "descriptionZh": "機械、電氣、消防系統與室內設計的全面整合管理。確保系統設計符合法規，與建築結構協調，並納入整體設計美學，無縫融入空間。",
+      "order": 5,
+      "categoryGroup": "build"
+    },
+    {
+      "slug": "brand-identity",
+      "number": "06",
+      "titleZh": "品牌空間識別",
+      "titleEn": "",
+      "descriptionZh": "協助品牌將視覺識別系統（VIS）轉化為空間語言。從色彩系統、材料選用到展示設計，確保品牌形象在空間中精準呈現，建立強烈的品牌感知。",
+      "order": 6,
+      "categoryGroup": "design"
+    },
+    {
+      "slug": "soft-furnishing",
+      "number": "07",
+      "titleZh": "軟裝設計規劃",
+      "titleEn": "",
+      "descriptionZh": "家具、燈具與設備（FF&E）的選定、採購與安裝管理。結合空間設計風格，為每個場域挑選最合適的軟裝配置，提升整體空間質感與使用舒適度。",
+      "order": 7,
+      "categoryGroup": "design"
+    },
+    {
+      "slug": "smart-aiot",
+      "number": "08",
+      "titleZh": "智慧空間 / AIoT整合",
+      "titleEn": "",
+      "descriptionZh": "AIoT全面串聯，整合智慧照明、門禁系統、環境感測與數位顯示設備，打造高效、節能的智慧辦公空間。協助企業迎接數位轉型，提升空間管理效能。",
+      "order": 8,
+      "categoryGroup": "tech",
+      "featured": true
+    },
+    {
+      "slug": "renovation-mgmt",
+      "number": "09",
+      "titleZh": "裝修工程管理",
+      "titleEn": "",
+      "descriptionZh": "提供獨立的工程管理顧問服務。包含施工圖審核、工程預算審議、進度監控、品質保證與安全管理，協助業主有效管控工程風險與成本。",
+      "order": 9,
+      "categoryGroup": "build"
+    },
+    {
+      "slug": "warranty",
+      "number": "10",
+      "titleZh": "完工保固服務",
+      "titleEn": "",
+      "descriptionZh": "全部專案提供12個月保固，快速響應維修機制，確保在接到維修請求後迅速安排技術人員處理。定期客戶關懷追蹤，確保長期工程品質與客戶滿意度。",
+      "order": 10,
+      "categoryGroup": "aftercare"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "titleZh": "需求評估",
+      "titleEn": ""
+    },
+    {
+      "number": "02",
+      "titleZh": "設計提案",
+      "titleEn": ""
+    },
+    {
+      "number": "03",
+      "titleZh": "施工執行",
+      "titleEn": ""
+    },
+    {
+      "number": "04",
+      "titleZh": "完工驗收",
+      "titleEn": ""
+    },
+    {
+      "number": "05",
+      "titleZh": "保固維護",
+      "titleEn": ""
+    }
+  ]
+}

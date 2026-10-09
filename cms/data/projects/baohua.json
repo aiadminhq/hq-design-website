@@ -1,0 +1,82 @@
+{
+  "slug": "baohua",
+  "nameZh": "保華資安",
+  "nameEn": "Baohua Cybersecurity",
+  "category": "office",
+  "year": 2025,
+  "heroImage": "assets/images/projects/baohua/render-01.jpg",
+  "categoryLabel": "Corporate Office",
+  "locationZh": "台北南港",
+  "yearLabel": "2025",
+  "designBuildLabel": "HQ Interior",
+  "descriptionZh": "保華資安 11 樓辦公空間設計施工，以資安產業的專業形象為設計出發點，融合穩重、精準的空間語彙，打造符合企業定位的工作環境。",
+  "scopeZh": "企業辦公室",
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "value": "保華資安"
+    },
+    {
+      "labelZh": "類型",
+      "value": "企業辦公室"
+    },
+    {
+      "labelZh": "坪數",
+      "value": "106 坪"
+    },
+    {
+      "labelZh": "地點",
+      "value": "台北南港"
+    },
+    {
+      "labelZh": "完工年份",
+      "value": "2025"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/images/projects/baohua/floorplan.jpg",
+      "alt": "平面配置圖"
+    },
+    {
+      "image": "assets/images/projects/baohua/render-01.jpg",
+      "alt": "空間效果圖 01"
+    },
+    {
+      "image": "assets/images/projects/baohua/render-02.jpg",
+      "alt": "空間效果圖 02"
+    },
+    {
+      "image": "assets/images/projects/baohua/render-03.jpg",
+      "alt": "空間效果圖 03"
+    },
+    {
+      "image": "assets/images/projects/baohua/render-04.jpg",
+      "alt": "空間效果圖 04"
+    },
+    {
+      "image": "assets/images/projects/baohua/render-05.jpg",
+      "alt": "空間效果圖 05"
+    },
+    {
+      "image": "assets/images/projects/baohua/render-06.jpg",
+      "alt": "空間效果圖 06"
+    },
+    {
+      "image": "assets/images/projects/baohua/render-07.jpg",
+      "alt": "空間效果圖 07"
+    },
+    {
+      "image": "assets/images/projects/baohua/render-08.jpg",
+      "alt": "空間效果圖 08"
+    },
+    {
+      "image": "assets/images/projects/baohua/render-09.jpg",
+      "alt": "空間效果圖 09"
+    },
+    {
+      "image": "assets/images/projects/baohua/render-10.jpg",
+      "alt": "空間效果圖 10"
+    }
+  ]
+}

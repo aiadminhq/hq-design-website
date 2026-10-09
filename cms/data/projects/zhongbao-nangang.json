@@ -1,0 +1,221 @@
+{
+  "slug": "zhongbao-nangang",
+  "nameZh": "中保南港大樓",
+  "nameEn": "",
+  "category": "office",
+  "year": 2025,
+  "heroImage": "assets/images/projects/zhongbao-nangang/page-03.jpg",
+  "categoryLabel": "Corporate Office",
+  "locationZh": "台北市南港區經貿二路",
+  "yearLabel": "2025",
+  "designBuildLabel": "HQ Interior",
+  "descriptionZh": "中保集團南港辦公大樓多戶統包專案，單棟涵蓋多家子公司與進駐企業，分層分區同步施工，確保各租戶營運不中斷。惠強以完整設計施工整合能力，統籌規劃 9F–11F 共 6 個獨立辦公空間。",
+  "scopeZh": "企業辦公",
+  "specs": [
+    {
+      "labelZh": "案件規模",
+      "value": "6 個獨立辦公空間 / 9F–11F"
+    },
+    {
+      "labelZh": "服務模式",
+      "value": "設計施工統包"
+    },
+    {
+      "labelZh": "完工年份",
+      "value": "2025"
+    },
+    {
+      "labelZh": "地點",
+      "value": "台北南港，中保集團大樓"
+    },
+    {
+      "labelZh": "特色工法",
+      "value": "分層分區同步施工，零停業干擾"
+    }
+  ],
+  "gallerySections": [
+    {
+      "titleZh": "大樓整體規劃",
+      "items": [
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-02.jpg",
+          "alt": "平面配置圖"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-03.jpg",
+          "alt": "空間效果圖 01"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-04.jpg",
+          "alt": "空間效果圖 02"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-05.jpg",
+          "alt": "空間效果圖 03"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-06.jpg",
+          "alt": "空間效果圖 04"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-07.jpg",
+          "alt": "空間效果圖 05"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-08.jpg",
+          "alt": "空間效果圖 06"
+        }
+      ]
+    },
+    {
+      "titleZh": "中保保經 11F",
+      "items": [
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-67.jpg",
+          "alt": "中保保經 11F 效果圖 67"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-68.jpg",
+          "alt": "中保保經 11F 效果圖 68"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-69.jpg",
+          "alt": "中保保經 11F 效果圖 69"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-70.jpg",
+          "alt": "中保保經 11F 效果圖 70"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-71.jpg",
+          "alt": "中保保經 11F 效果圖 71"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-72.jpg",
+          "alt": "中保保經 11F 效果圖 72"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-73.jpg",
+          "alt": "中保保經 11F 效果圖 73"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-74.jpg",
+          "alt": "中保保經 11F 效果圖 74"
+        }
+      ]
+    },
+    {
+      "titleZh": "京琠科技 9F",
+      "items": [
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-80.jpg",
+          "alt": "京琠科技 9F 效果圖 80"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-81.jpg",
+          "alt": "京琠科技 9F 效果圖 81"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-82.jpg",
+          "alt": "京琠科技 9F 效果圖 82"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-83.jpg",
+          "alt": "京琠科技 9F 效果圖 83"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-84.jpg",
+          "alt": "京琠科技 9F 效果圖 84"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-85.jpg",
+          "alt": "京琠科技 9F 效果圖 85"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-86.jpg",
+          "alt": "京琠科技 9F 效果圖 86"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-87.jpg",
+          "alt": "京琠科技 9F 效果圖 87"
+        }
+      ]
+    },
+    {
+      "titleZh": "天河電訊 9F",
+      "items": [
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-95.jpg",
+          "alt": "天河電訊 9F 效果圖 95"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-96.jpg",
+          "alt": "天河電訊 9F 效果圖 96"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-97.jpg",
+          "alt": "天河電訊 9F 效果圖 97"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-98.jpg",
+          "alt": "天河電訊 9F 效果圖 98"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-99.jpg",
+          "alt": "天河電訊 9F 效果圖 99"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-100.jpg",
+          "alt": "天河電訊 9F 效果圖 100"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-101.jpg",
+          "alt": "天河電訊 9F 效果圖 101"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-102.jpg",
+          "alt": "天河電訊 9F 效果圖 102"
+        }
+      ]
+    },
+    {
+      "titleZh": "樂到家娛樂 9F",
+      "items": [
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-108.jpg",
+          "alt": "樂到家娛樂 9F 效果圖 108"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-109.jpg",
+          "alt": "樂到家娛樂 9F 效果圖 109"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-110.jpg",
+          "alt": "樂到家娛樂 9F 效果圖 110"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-111.jpg",
+          "alt": "樂到家娛樂 9F 效果圖 111"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-112.jpg",
+          "alt": "樂到家娛樂 9F 效果圖 112"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-113.jpg",
+          "alt": "樂到家娛樂 9F 效果圖 113"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-114.jpg",
+          "alt": "樂到家娛樂 9F 效果圖 114"
+        },
+        {
+          "image": "assets/images/projects/zhongbao-nangang/page-115.jpg",
+          "alt": "樂到家娛樂 9F 效果圖 115"
+        }
+      ]
+    }
+  ],
+  "client": "中保科技",
+  "featured": true
+}

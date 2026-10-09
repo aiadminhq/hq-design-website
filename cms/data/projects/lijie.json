@@ -1,0 +1,66 @@
+{
+  "slug": "lijie",
+  "nameZh": "立捷國際",
+  "nameEn": "Lijie International",
+  "category": "office",
+  "year": 2024,
+  "heroImage": "assets/images/projects/lijie/render-01.jpg",
+  "categoryLabel": "Corporate Office",
+  "locationZh": "台北南港",
+  "yearLabel": "2024",
+  "designBuildLabel": "HQ Interior",
+  "descriptionZh": "立捷國際 9 樓辦公空間，以國際商務形象為設計基調，空間配置兼顧接待洽談與內部辦公功能，呈現企業的專業與開放文化。",
+  "scopeZh": "企業辦公室",
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "value": "立捷國際"
+    },
+    {
+      "labelZh": "類型",
+      "value": "企業辦公室"
+    },
+    {
+      "labelZh": "坪數",
+      "value": "30 坪"
+    },
+    {
+      "labelZh": "地點",
+      "value": "台北南港"
+    },
+    {
+      "labelZh": "完工年份",
+      "value": "2024"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/images/projects/lijie/floorplan.jpg",
+      "alt": "平面配置圖"
+    },
+    {
+      "image": "assets/images/projects/lijie/render-01.jpg",
+      "alt": "空間效果圖 01"
+    },
+    {
+      "image": "assets/images/projects/lijie/render-02.jpg",
+      "alt": "空間效果圖 02"
+    },
+    {
+      "image": "assets/images/projects/lijie/render-03.jpg",
+      "alt": "空間效果圖 03"
+    },
+    {
+      "image": "assets/images/projects/lijie/render-04.jpg",
+      "alt": "空間效果圖 04"
+    },
+    {
+      "image": "assets/images/projects/lijie/render-05.jpg",
+      "alt": "空間效果圖 05"
+    },
+    {
+      "image": "assets/images/projects/lijie/render-06.jpg",
+      "alt": "空間效果圖 06"
+    }
+  ]
+}

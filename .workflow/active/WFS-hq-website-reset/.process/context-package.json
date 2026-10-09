@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "session_id": "WFS-hq-website-reset",
+    "generated_at": "2026-09-03",
+    "mode": "brainstorm",
+    "collector": "direct-inspection"
+  },
+  "project_context": {
+    "repo_local": "/Users/christianwu/Library/CloudStorage/Dropbox/HQdesign/hq-design-website",
+    "git_remote_actual": "https://github.com/chr1st1anw0w/hq-design-website.git",
+    "git_remote_stated_by_user": "https://github.com/aiadminhq/hq-design-website",
+    "remote_discrepancy": true,
+    "live_url": "https://www.hqdesign.tw/index.html",
+    "branch": "main",
+    "business": "惠強設計 HQ Design - 商用空間設計與裝修工程（design & build）",
+    "positioning_from_meta": "Institutional-grade commercial fit-out for foreign-HQ enterprises, hotel groups and listed corporations expanding into Taiwan. 31 years. 1,600+ projects."
+  },
+  "assets": {
+    "pages_static_html": [
+      "index.html",
+      "about.html",
+      "services.html",
+      "projects.html",
+      "careers.html",
+      "contact.html"
+    ],
+    "project_detail_pages": 21,
+    "html_total_lines": 2774,
+    "index_html_lines": 613,
+    "assets_dir_size": "525MB",
+    "css_strategy": "assets/css/style.css + 大量 inline <style> override (INTERNATIONAL-VERSION OVERRIDES)",
+    "build_step": "none (pure static)",
+    "cms_schemas": [
+      "globals",
+      "projects",
+      "services",
+      "careers",
+      "homepage",
+      "about"
+    ],
+    "cms_data_extracted": true,
+    "cms_data_projects_count": 21,
+    "scripts": [
+      "extract-html.ts",
+      "push-to-notion.ts",
+      "validate-schemas.ts",
+      "parse-*.ts + tests"
+    ],
+    "validation_stack": [
+      "zod",
+      "ajv",
+      "ajv-formats",
+      "cheerio",
+      "tsx"
+    ]
+  },
+  "prior_decisions": {
+    "adr_001": {
+      "file": "docs/decisions/001-cms-stack.md",
+      "status": "Proposed",
+      "date": "2026-05-25",
+      "decision": "Notion 作為 authoring CMS，Framer 官方 Notion plugin 作為橋樑，cms/schemas + cms/data 在 git 作為 single source of truth",
+      "known_negatives": [
+        "Notion property 上限對 gallery sections 需拆 relation DB",
+        "Notion API rate limit 3 req/s",
+        "Framer Basic 訂閱費 US$15/mo"
+      ]
+    },
+    "migration_plan": {
+      "file": "docs/migration-plan/2026-05-25-hq-design-website-framer-migration.md",
+      "architecture": "Notion (authoring) -> Framer CMS (design/publish) -> Unframer (git snapshot)",
+      "phase_status": {
+        "phase_0_cms_decision": "done",
+        "phase_1_html_to_json": "done",
+        "phase_2_notion_import": "script ready, execution unconfirmed",
+        "phase_3_framer_template_binding": "not started (framer/ absent, template pending user decision)",
+        "phase_4_unframer_ci": "not started (cms/exports absent)",
+        "phase_5_traffic_cutover": "not started"
+      },
+      "checkbox_progress": {
+        "done": 6,
+        "open": 53
+      }
+    }
+  },
+  "user_toolchain": {
+    "figma": "設計定稿、設計系統、Company Profile（已有 HQ Design - Design System 目錄）",
+    "framer": "發佈層（使用者已拍板維持）。2026-09-03 補充：需重新從 Framer marketplace 挑選適合的 template 作為改造基底，Framer MCP 連線需重新建立（可能換綁新專案）。",
+    "higgsfield": "圖像／影片生成（Pulsar 專案已有實戰經驗）",
+    "flora_ai": "節點畫布式生成工作流",
+    "weavy": "生成式工作流（待確認具體用途）",
+    "cloud_design": "待確認（可能指 Claude Design / Open Design）",
+    "fable": "使用者期望最終以 Fable 進行「設計升級」待定義"
+  },
+  "existing_design_system": {
+    "path": "/Users/christianwu/Library/CloudStorage/Dropbox/HQdesign/HQ Design - Design System",
+    "artifacts": [
+      "HQ-design-system.html",
+      "colors_and_type.css",
+      "HQ-logo",
+      "LOGO",
+      "Pattern",
+      "Claude Design",
+      "HQ Design Company Profile",
+      "名片.ai"
+    ]
+  },
+  "conflict_detection": {
+    "tension_1": "使用者選「整體重建、只留內容素材」（設計自由度最大）但同時「維持 Framer 發佈」（能力有邊界）——需針對 Framer 可定義能力天花板與逃生路徑",
+    "tension_2": "525MB 未最佳化資產 vs Framer hosting 的資產與效能限制",
+    "tension_3": "生成式圖像用於案例情境圖 vs B2B 機構型客戶對實績真實性的信賴門檿（揬造風險）",
+    "tension_4": "cms/data 已投入的 schema 與「只留內容素材」的 IA 重新定義可能衝突",
+    "tension_5": "使用者提供的 repo 位址與本機 remote 不一致，發佈權與帳號歸屬待釐清",
+    "tension_6": "Framer template 需重新選型，MCP 連線需重建——舊遷移計畫的『template 候選待拍板』至今未解，且新 template 的結構會反向約束 CMS collection 設計與 IA"
+  }
+}

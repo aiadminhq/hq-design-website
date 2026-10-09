@@ -1,0 +1,6 @@
+{
+ "shape": "manual-static",
+ "readmeHeader": ".design-sync/conventions.md",
+ "localDir": "./ds-bundle",
+ "note": "此 repo 無可 bundle 的 React 元件庫，layout 為手動產出。重建方式見 NOTES.md。"
+}

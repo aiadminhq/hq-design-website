@@ -1,0 +1,1157 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HQ Design 官網視覺語言提案</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+/* ============================================================
+   HQ Design 官網重建 · 視覺語言與互動提案 v0.2
+   Token 權威：ds-bundle/tokens/hq.css（Token 3.0）— 此頁只引用，不新增色碼
+   v0.2：以惠強自己的製圖慣例建立原創介面裝置——圖名框、尺寸線、圖層、對照 wipe、圖紙索引、座標讀數；
+         納入 Figma 品牌 pattern（node 1073-100220）、受控 HQ Mesh 漸層、Codex 已完成元件的銜接方案
+   ============================================================ */
+@font-face{font-family:"Satoshi";src:url("data:font/woff2;base64,{{FONT_SATOSHI}}") format("woff2");font-weight:300 900;font-style:normal;font-display:swap}
+
+:root{
+  --p-verm-050:#FDEDE5;--p-verm-100:#FACDB6;--p-verm-300:#ED6D45;--p-verm-400:#D64518;--p-verm-500:#BA3A12;--p-verm-600:#8E2A09;
+  --p-navy-050:#F1F5F9;--p-navy-100:#E1E8F0;--p-navy-300:#C0C8D2;--p-navy-400:#6B7785;--p-navy-500:#3F4E60;--p-navy-700:#1F2A36;--p-navy-800:#131B25;--p-navy-900:#0A1118;
+  --p-white:#FFFFFF;
+  --bg:var(--p-white);--bg-sunken:var(--p-navy-050);--bg-inverse:var(--p-navy-700);--bg-immersive:var(--p-navy-900);
+  --fg:var(--p-navy-700);--fg-2:var(--p-navy-500);--fg-3:var(--p-navy-400);--fg-inverse:var(--p-white);--fg-inverse-2:var(--p-navy-300);
+  --line:var(--p-navy-100);--line-strong:var(--p-navy-300);--line-ink:var(--p-navy-700);
+  --brand:var(--p-verm-400);--brand-hover:var(--p-verm-500);--brand-pressed:var(--p-verm-600);--brand-subtle:var(--p-verm-050);
+  --f-en:"Satoshi",system-ui,-apple-system,sans-serif;
+  --f-cjk:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+  --f-sans:var(--f-en),var(--f-cjk);
+  --f-mono:"Geist Mono","SF Mono",Menlo,monospace;
+  --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:48px;--s8:64px;--s9:96px;--s10:128px;
+  --container:1320px;--gutter:24px;--section-y:clamp(56px,7vw,112px);
+  --ease:cubic-bezier(.2,.7,.2,1);--ease-soft:cubic-bezier(.16,1,.3,1);
+  --radius-control:4px;--radius-mark:9.8%;
+  --imm-bg:var(--p-navy-900);--imm-fg:var(--p-white);--imm-fg-2:var(--p-navy-300);--imm-fg-3:var(--p-navy-400);--imm-line:#1C2733;--imm-line-ink:var(--p-navy-300);--imm-brand:var(--p-verm-300);
+  --tb-h:56px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:var(--p-navy-900);--bg-sunken:var(--p-navy-800);--bg-inverse:var(--p-navy-050);--bg-immersive:#050A0F;
+  --fg:var(--p-navy-050);--fg-2:var(--p-navy-300);--fg-3:var(--p-navy-400);--fg-inverse:var(--p-navy-900);--fg-inverse-2:var(--p-navy-500);
+  --line:#1C2733;--line-strong:#2E3B49;--line-ink:var(--p-navy-050);
+  --brand:var(--p-verm-300);--brand-hover:var(--p-verm-400);--brand-pressed:var(--p-verm-500);--brand-subtle:#2A150C;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:var(--p-navy-900);--bg-sunken:var(--p-navy-800);--bg-inverse:var(--p-navy-050);--bg-immersive:#050A0F;
+  --fg:var(--p-navy-050);--fg-2:var(--p-navy-300);--fg-3:var(--p-navy-400);--fg-inverse:var(--p-navy-900);--fg-inverse-2:var(--p-navy-500);
+  --line:#1C2733;--line-strong:#2E3B49;--line-ink:var(--p-navy-050);
+  --brand:var(--p-verm-300);--brand-hover:var(--p-verm-400);--brand-pressed:var(--p-verm-500);--brand-subtle:#2A150C;
+  color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;padding-bottom:calc(var(--tb-h) + 16px);background:var(--bg);color:var(--fg);font-family:var(--f-sans);font-size:16px;line-height:1.75;-webkit-font-smoothing:antialiased;font-feature-settings:"tnum" 1,"lnum" 1}
+@media (min-width:1180px){body{padding-left:44px}}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--brand);outline-offset:3px}
+h1,h2,h3,h4{margin:0;font-weight:700;letter-spacing:-.02em;text-wrap:balance}
+h1{font-size:clamp(40px,6vw,88px);line-height:1.02}
+h2{font-size:clamp(28px,3.6vw,52px);line-height:1.08}
+h3{font-size:clamp(19px,1.7vw,24px);line-height:1.3;font-weight:500}
+h4{font-size:15px;font-weight:500;letter-spacing:0}
+p{margin:0}
+.cjk{font-family:var(--f-cjk)}
+h1 .cjk,h2 .cjk{letter-spacing:0;line-height:1.22}
+.mono{font-family:var(--f-mono);font-feature-settings:"tnum" 1}
+.wrap{max-width:var(--container);margin:0 auto;padding:0 var(--gutter)}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--gutter)}
+section{padding:var(--section-y) 0;scroll-margin-top:72px;position:relative}
+.hair{border-top:1px solid var(--line)}
+.lede{font-size:clamp(17px,1.2vw,20px);color:var(--fg-2);max-width:34em}
+.small{font-size:14px;color:var(--fg-3)}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3);display:flex;align-items:center;gap:var(--s3)}
+.eyebrow::before{content:"";width:28px;height:1px;background:var(--line-ink)}
+.eyebrow .n{color:var(--brand)}
+.sec-head{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--gutter);align-items:end}
+.sec-head .l{grid-column:1/span 7}
+.sec-head .r{grid-column:9/span 4;align-self:end}
+.sec-head h2{margin-top:var(--s5)}
+.sec-head .r p{font-size:15px;color:var(--fg-2);line-height:1.7}
+@media (max-width:900px){.sec-head .l,.sec-head .r{grid-column:1/-1}.sec-head .r{margin-top:var(--s5)}}
+.mt3{margin-top:var(--s3)}.mt5{margin-top:var(--s5)}.mt6{margin-top:var(--s6)}.mt7{margin-top:var(--s7)}
+
+/* 60° 簽名 */
+.src{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;color:var(--fg-3);display:inline-flex;align-items:center;gap:var(--s2);text-transform:uppercase}
+.src::before{content:"";width:12px;height:1px;background:var(--brand);transform:rotate(-60deg)}
+.src.viz::before,.src.enh::before,.src.drawing::before{background:var(--fg-3)}
+.btn{display:inline-flex;align-items:center;gap:var(--s3);padding:13px 20px;background:var(--brand);color:#fff;font-weight:500;font-size:15px;border-radius:var(--radius-control);transition:background .18s var(--ease),transform .18s var(--ease)}
+.btn:hover{background:var(--brand-hover);transform:translateY(-1px)}
+.btn .ar{font-family:var(--f-mono);font-size:14px}
+.tbl{width:100%;border-collapse:collapse;font-size:14px}
+.tbl th,.tbl td{text-align:left;padding:10px 0;border-bottom:1px solid var(--line);vertical-align:top}
+.tbl th{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-3);font-weight:500;border-bottom:1px solid var(--line-ink)}
+.tbl td.m{font-family:var(--f-mono);font-size:12.5px;color:var(--fg-2);white-space:nowrap}
+.tbl td.k{font-weight:500;white-space:nowrap}
+.tbl td+td,.tbl th+th{padding-left:var(--s4)}
+.scroll{overflow-x:auto}
+
+/* 尺寸線：影像下方的資料載體。60° tick 就是品牌 slash；標註的是真實數據 */
+.dim{position:relative;height:26px;margin-top:10px;font-family:var(--f-mono);font-size:11px;letter-spacing:.04em;color:var(--fg-2)}
+.dim::before{content:"";position:absolute;left:0;right:0;top:13px;height:1px;background:var(--line-ink)}
+.dim .tk{position:absolute;top:7px;width:1px;height:13px;background:var(--brand);transform:rotate(30deg)}
+.dim .tk.l{left:0}.dim .tk.r{right:0}
+.dim.viz .tk,.dim.enh .tk,.dim.drawing .tk{background:var(--fg-3)}
+.dim .lb{position:absolute;left:50%;top:4px;transform:translateX(-50%);background:var(--bg);padding:0 8px;white-space:nowrap;color:var(--fg);font-weight:500}
+.dim .rb{position:absolute;right:10px;top:16px;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--fg-3);background:var(--bg);padding-left:6px}
+.dim .rb::before{content:"";display:inline-block;width:10px;height:1px;background:var(--brand);transform:rotate(-60deg);margin-right:6px;vertical-align:middle}
+.dim.viz .rb::before,.dim.enh .rb::before,.dim.drawing .rb::before{background:var(--fg-3)}
+.imm .dim::before{background:var(--imm-line-ink)}.imm .dim .lb,.imm .dim .rb{background:transparent;color:var(--imm-fg)}.imm .dim .rb{color:var(--imm-fg-3)}
+.imm .dim .lb{background:var(--imm-bg)}
+
+/* 影像：全部 3:2 */
+.ph{aspect-ratio:3/2;background-size:cover;background-position:center;background-color:var(--bg-sunken);width:100%;display:block}
+.ph.empty{border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;color:var(--fg-3);text-transform:uppercase;background:transparent}
+.i-secom{background-image:url("data:image/jpeg;base64,{{IMG:secom-nangang-complex}}")}
+.i-kimpton{background-image:url("data:image/jpeg;base64,{{IMG:kimpton}}")}
+.i-qijia{background-image:url("data:image/jpeg;base64,{{IMG:qijia}}")}
+.i-soup{background-image:url("data:image/jpeg;base64,{{IMG:soup-spoon-station}}")}
+.i-popeyes{background-image:url("data:image/jpeg;base64,{{IMG:popeyes}}")}
+.i-lounge{background-image:url("data:image/jpeg;base64,{{IMG:airport-lounges}}")}
+.i-smart{background-image:url("data:image/jpeg;base64,{{IMG:zhongbao-smart-facility}}")}
+.i-guochan{background-image:url("data:image/jpeg;base64,{{IMG:guochan-showroom}}")}
+.i-polytron{background-image:url("data:image/jpeg;base64,{{IMG:polytron}}")}
+.i-aiontech{background-image:url("data:image/jpeg;base64,{{IMG:aiontech}}")}
+.i-csun{background-image:url("data:image/jpeg;base64,{{IMG:csun}}")}
+.iso{background-size:contain;background-repeat:no-repeat;background-position:center;background-color:#fff}
+.iso-a{background-image:url("data:image/png;base64,{{ISO:a}}")}
+.iso-b{background-image:url("data:image/png;base64,{{ISO:b}}")}
+.c-line{background-image:url("data:image/png;base64,{{CMP:line}}");background-color:#fff}
+.c-render{background-image:url("data:image/png;base64,{{CMP:render}}")}
+
+/* 品牌 pattern（Figma node 1073-100220 · Variant2 向量，重上色為 currentColor） */
+.pat{position:relative;overflow:hidden}
+.pat svg{position:absolute;inset:0;width:100%;height:100%;display:block}
+
+/* ── 頁首 ── */
+.top{border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(12px)}
+.top .wrap{height:64px;display:flex;align-items:center;justify-content:space-between;gap:var(--s5)}
+.lockup{display:flex;align-items:center;gap:var(--s3)}
+.lockup svg{width:28px;height:28px;display:block}
+.lockup b{font-family:var(--f-en);font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase}
+.lockup small{display:block;font-family:var(--f-cjk);font-size:11px;color:var(--fg-3);letter-spacing:.06em;font-weight:500;margin-top:1px}
+.top .meta{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;color:var(--fg-3);text-transform:uppercase;display:flex;gap:var(--s5)}
+@media (max-width:700px){.top .meta span:not(:first-child){display:none}}
+
+/* ── 圖名框 Title block ── */
+.tb{position:fixed;right:0;bottom:0;z-index:20;display:grid;grid-auto-flow:column;background:var(--bg);border-top:1px solid var(--line-ink);border-left:1px solid var(--line-ink);height:var(--tb-h)}
+.tb .cell{padding:7px 14px 6px;border-left:1px solid var(--line);display:flex;flex-direction:column;justify-content:center;min-width:72px}
+.tb .cell:first-child{border-left:0}
+.tb .cell span{font-family:var(--f-mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3);line-height:1.2}
+.tb .cell b{font-family:var(--f-mono);font-size:12.5px;font-weight:500;color:var(--fg);line-height:1.4;margin-top:3px;white-space:nowrap}
+.tb .cell b.cjk{font-family:var(--f-cjk)}
+.tb .cell u{text-decoration:none;color:var(--brand)}
+@media (max-width:700px){.tb{left:0;grid-auto-flow:row;grid-template-columns:repeat(4,1fr);border-left:0}.tb .cell{min-width:0;padding:6px 10px}.tb .cell.rev{display:none}}
+
+/* ── 圖紙索引 Sheet rail ── */
+.rail{display:none}
+@media (min-width:1180px){
+  .rail{display:flex;flex-direction:column;position:fixed;left:0;top:64px;bottom:var(--tb-h);width:44px;border-right:1px solid var(--line);background:var(--bg);z-index:9;padding-top:var(--s4);gap:1px;overflow:hidden}
+  .rail a{writing-mode:vertical-rl;text-orientation:mixed;font-family:var(--f-mono);font-size:10px;letter-spacing:.12em;color:var(--fg-3);padding:5px 0;margin:0 auto;position:relative;display:flex;gap:6px;align-items:center;line-height:1}
+  .rail a .t{font-family:var(--f-cjk);letter-spacing:.2em;font-size:10.5px}
+  .rail a::before{content:"";position:absolute;left:-13px;top:50%;width:1px;height:10px;background:var(--brand);transform:translateY(-50%) rotate(30deg);opacity:0;transition:opacity .18s var(--ease)}
+  .rail a.on{color:var(--fg)}.rail a.on::before{opacity:1}
+}
+
+/* ── 論點 ── */
+.thesis{padding-top:clamp(48px,6vw,96px)}
+.thesis h1{margin-top:var(--s5)}
+.thesis .lede{margin-top:var(--s6)}
+.pillars{display:grid;grid-template-columns:1fr;gap:0;border-top:1px solid var(--line-ink);margin-top:var(--s7)}
+@media (min-width:900px){.pillars{grid-template-columns:repeat(3,1fr);gap:var(--gutter)}}
+.pillar{padding:var(--s5) 0 var(--s6);border-bottom:1px solid var(--line)}
+@media (min-width:900px){.pillar{border-bottom:0}}
+.pillar .k{font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3)}
+.pillar h3{margin-top:var(--s3);font-weight:700;font-size:19px}
+.pillar p{margin-top:var(--s3);font-size:14.5px;color:var(--fg-2);line-height:1.7}
+.devices{margin-top:var(--s7);border-top:1px solid var(--line-ink)}
+.devices .dv{display:grid;grid-template-columns:150px 1fr;gap:var(--s4);padding:var(--s4) 0;border-bottom:1px solid var(--line);font-size:14.5px;color:var(--fg-2);line-height:1.65}
+@media (min-width:900px){.devices .dv{grid-template-columns:150px 1fr 1fr}}
+.devices .dv .k{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-3);padding-top:4px}
+.devices .dv b{color:var(--fg);font-weight:500;display:block;font-size:15px}
+.devices .dv .w{font-size:13px;color:var(--fg-3)}
+@media (max-width:899px){.devices .dv .w{grid-column:2}}
+
+/* ── 色彩 ── */
+.swatches{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--gutter);margin-top:var(--s7)}
+@media (max-width:700px){.swatches{grid-template-columns:repeat(2,1fr)}}
+.sw{border:1px solid var(--line)}
+.sw .c{height:88px}
+.sw .t{padding:var(--s3) var(--s3) var(--s4);font-family:var(--f-mono);font-size:11.5px;letter-spacing:.04em;color:var(--fg-2);line-height:1.6}
+.sw .t b{display:block;font-weight:500;color:var(--fg)}
+.ratio{margin-top:var(--s7);border-top:1px solid var(--line-ink);padding-top:var(--s5)}
+.ratio .bar{display:flex;height:40px;border:1px solid var(--line)}
+.ratio .bar>div{display:flex;align-items:center;justify-content:center;font-family:var(--f-mono);font-size:11px;letter-spacing:.08em}
+.ratio .legend{display:flex;flex-wrap:wrap;gap:var(--s3) var(--s6);margin-top:var(--s3);font-family:var(--f-mono);font-size:11.5px;color:var(--fg-3);letter-spacing:.04em}
+.meshes{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--gutter);margin-top:var(--s5)}
+@media (max-width:700px){.meshes{grid-template-columns:repeat(2,1fr)}}
+.mesh{aspect-ratio:3/2;border:1px solid var(--line);position:relative;overflow:hidden}
+.mesh::after{content:"";position:absolute;inset:0;opacity:.07;mix-blend-mode:soft-light;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='160' height='160' filter='url(%23n)'/></svg>")}
+.mesh span{position:absolute;left:8px;bottom:6px;font-family:var(--f-mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;mix-blend-mode:difference}
+.m1{background:radial-gradient(80% 90% at 20% 20%,var(--p-verm-300) 0%,var(--p-verm-400) 45%,#FFFFFF 100%)}
+.m2{background:radial-gradient(90% 100% at 80% 80%,var(--p-verm-400) 0%,var(--p-verm-600) 70%,#4A1503 100%)}
+.m3{background:radial-gradient(90% 90% at 25% 30%,var(--p-navy-500) 0%,var(--p-navy-700) 40%,var(--p-navy-300) 100%)}
+.m4{background:radial-gradient(70% 80% at 85% 15%,var(--p-verm-400) 0%,var(--p-verm-600) 30%,var(--p-navy-800) 70%,var(--p-navy-900) 100%)}
+
+/* ── 字體 ── */
+.spec{margin-top:var(--s7);border-top:1px solid var(--line-ink)}
+.spec .row{display:grid;grid-template-columns:1fr;gap:var(--s3);padding:var(--s5) 0;border-bottom:1px solid var(--line);align-items:baseline}
+@media (min-width:900px){.spec .row{grid-template-columns:200px 1fr}}
+.spec .k{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.06em;color:var(--fg-3);line-height:1.7}
+.spec .d1{font-family:var(--f-en);font-size:clamp(44px,6vw,88px);line-height:1;letter-spacing:-.03em}
+.spec .d1 .lt{font-weight:300}.spec .d1 .hv{font-weight:700}
+.sl{display:inline-block;width:2px;height:.72em;background:var(--brand);transform:rotate(30deg);vertical-align:-.08em;margin:0 .22em}
+.spec .d2{font-family:var(--f-cjk);font-weight:700;font-size:clamp(30px,3.6vw,52px);line-height:1.2}
+.spec .d3{font-family:var(--f-cjk);font-weight:500;font-size:clamp(19px,1.7vw,24px);line-height:1.35}
+.spec .d4{font-size:17px;color:var(--fg-2);max-width:36em;line-height:1.75}
+.spec .d7{font-family:var(--f-en);font-weight:700;font-size:clamp(34px,3.2vw,48px);letter-spacing:-.03em;line-height:1}
+.spec .d7 i{color:var(--brand);font-style:normal}
+.spec .vert{writing-mode:vertical-rl;text-orientation:mixed;font-family:var(--f-mono);font-size:12px;letter-spacing:.2em;color:var(--fg-2);height:120px}
+.spec .vert .cjk{letter-spacing:.3em}
+
+/* ── 網格 ── */
+.gdemo{margin-top:var(--s7);display:grid;grid-template-columns:repeat(12,1fr);gap:var(--gutter)}
+.gdemo .col{height:56px;border:1px dashed var(--line-strong);display:flex;align-items:flex-end;justify-content:center;font-family:var(--f-mono);font-size:10px;color:var(--fg-3);padding-bottom:4px}
+.gdemo .span{background:var(--bg-sunken);border:1px solid var(--line-ink);height:56px;display:flex;align-items:center;justify-content:center;font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;color:var(--fg)}
+.gdemo .span.no{border-style:dashed;color:var(--fg-3);background:transparent;text-decoration:line-through}
+
+/* ── 60° 系統 ── */
+.sixty{margin-top:var(--s7);display:grid;grid-template-columns:1fr;gap:var(--gutter)}
+@media (min-width:900px){.sixty{grid-template-columns:repeat(12,1fr)}}
+.sixty .a{grid-column:1/span 5}.sixty .b{grid-column:7/span 6}
+@media (max-width:899px){.sixty .a,.sixty .b{grid-column:1/-1}}
+.uses{border-top:1px solid var(--line-ink)}
+.uses .u{display:grid;grid-template-columns:150px 1fr;gap:var(--s4);padding:var(--s4) 0;border-bottom:1px solid var(--line);align-items:center}
+.uses .u .k{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-3)}
+.chips{display:flex;gap:var(--s2);flex-wrap:wrap}
+.chip{height:32px;padding:0 14px 0 20px;display:inline-flex;align-items:center;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--line-strong);color:var(--fg-2);background:transparent;cursor:pointer}
+.chip.on{background:var(--fg);color:var(--bg);border-color:var(--fg);clip-path:polygon(18.5px 0,100% 0,100% 100%,0 100%)}
+.card-demo{display:block;max-width:360px}
+.card-demo .imgw{overflow:hidden}
+.card-demo .ph{transition:transform .6s var(--ease)}
+.card-demo:hover .ph{transform:scale(1.015)}
+.card-demo .dim::before{transform:scaleX(0);transform-origin:left;transition:transform .45s var(--ease)}
+.card-demo:hover .dim::before,.card-demo:focus-visible .dim::before{transform:scaleX(1)}
+.card-demo .nm{display:flex;justify-content:space-between;gap:var(--s3);margin-top:6px;font-size:15px;font-weight:500;line-height:1.35}
+.card-demo .nm .en{display:block;font-size:12px;color:var(--fg-3);font-weight:400;font-family:var(--f-en)}
+.pats{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--gutter)}
+.pats figure{margin:0}
+.pats .pat{aspect-ratio:16/9;border:1px solid var(--line)}
+.pats figcaption{margin-top:var(--s2);font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;color:var(--fg-3);line-height:1.6}
+.pats figcaption b{color:var(--fg);font-weight:500}
+.pat.navy{background:var(--p-navy-700);color:#fff}
+.pat.paper{background:var(--p-white);color:var(--p-navy-700)}
+.pat.verm{background:var(--p-verm-400);color:#fff}
+.pat.faint{background:var(--p-white);color:var(--p-navy-100)}
+.pat .over{position:absolute;inset:0;display:flex;align-items:flex-end;padding:var(--s4);font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+.pat.navy .over{color:var(--p-navy-300)}.pat.paper .over,.pat.faint .over{color:var(--fg-3)}.pat.verm .over{color:#fff}
+.curtain{margin-top:var(--s6);border:1px solid var(--line);aspect-ratio:16/9;position:relative;overflow:hidden;background:var(--bg)}
+.curtain .pane{position:absolute;inset:0;background:var(--p-navy-900);clip-path:polygon(0 0,42% 0,20% 100%,0 100%)}
+.curtain .lab{position:absolute;right:var(--s4);bottom:var(--s3);font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;color:var(--fg-3);text-transform:uppercase}
+.curtain .lab2{position:absolute;left:var(--s4);bottom:var(--s3);font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;color:var(--p-navy-300);text-transform:uppercase}
+
+/* ── 動態 ── */
+.mtokens{margin-top:var(--s7);display:grid;grid-template-columns:1fr;gap:var(--gutter)}
+@media (min-width:900px){.mtokens{grid-template-columns:repeat(12,1fr)}.mtokens .a{grid-column:1/span 6}.mtokens .b{grid-column:8/span 5}}
+.principles{border-top:1px solid var(--line-ink)}
+.principles ul{margin:0;padding:0}
+.principles li{list-style:none;padding:var(--s4) 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:14px 1fr;gap:var(--s3);font-size:14.5px;color:var(--fg-2);line-height:1.65}
+.principles li::before{content:"";width:9px;height:1px;background:var(--brand);margin-top:.85em;transform:rotate(-60deg)}
+.principles li b{color:var(--fg);font-weight:500;display:block}
+
+/* ── 首頁拼貼（live）── */
+.mz-wrap{margin-top:var(--s7);border:1px solid var(--line);position:relative;background:var(--bg)}
+.frame-lab{position:absolute;top:0;left:0;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-3);padding:6px 10px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--bg);z-index:2}
+.mz{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--gutter);padding:var(--s9) var(--s6) var(--s9);align-items:start}
+.mz .tile{position:relative;display:block;transform:translate3d(0,var(--py,0),0) scale(var(--s,1));opacity:var(--dim,1);transition:transform .8s var(--ease-soft),opacity .6s var(--ease);will-change:transform}
+.mz .tile .cap{position:absolute;left:0;right:0;top:100%;opacity:0;transform:translateY(-4px);transition:opacity .35s var(--ease),transform .35s var(--ease)}
+.mz .tile .cap .dim::before{transform:scaleX(0);transform-origin:left;transition:transform .45s var(--ease)}
+.mz .tile .cap .nm{display:flex;justify-content:space-between;gap:var(--s3);font-family:var(--f-cjk);font-size:12.5px;font-weight:500;line-height:1.4;margin-top:2px;white-space:nowrap}
+.mz .tile.is-active .cap,.mz .tile:hover .cap,.mz .tile:focus-visible .cap{opacity:1;transform:none}
+.mz .tile.is-active .cap .dim::before,.mz .tile:hover .cap .dim::before,.mz .tile:focus-visible .cap .dim::before{transform:scaleX(1)}
+.mz .tile.is-active{--s:1.04;z-index:1}
+.mz .st{font-family:var(--f-en);letter-spacing:-.03em;line-height:.98;font-size:clamp(34px,5.4vw,84px);align-self:center}
+.mz .st .lt{font-weight:300}.mz .st .hv{font-weight:700}
+.mz .st .zh{display:block;font-family:var(--f-cjk);font-weight:700;font-size:clamp(18px,2vw,30px);letter-spacing:0;line-height:1.3;margin-top:var(--s3)}
+.mz .stats{display:flex;gap:var(--s6);flex-wrap:wrap;align-self:center}
+.mz .stat{display:flex;flex-direction:column;gap:4px;padding-left:var(--s3);border-left:1px solid var(--line-ink)}
+.mz .stat b{font-family:var(--f-en);font-size:clamp(26px,2.6vw,40px);font-weight:700;letter-spacing:-.03em;line-height:1}
+.mz .stat b i{color:var(--brand);font-style:normal}
+.mz .stat span{font-size:12px;color:var(--fg-3)}
+.c1{grid-column:1/span 6}.c2{grid-column:8/span 4;margin-top:22%}
+.c3{grid-column:1/span 12}
+.c4{grid-column:2/span 4;margin-top:6%}.c5{grid-column:7/span 6}
+.c6{grid-column:1/span 9}.c7{grid-column:10/span 3;align-self:end}
+.c8{grid-column:1/span 4;margin-top:10%}.c9{grid-column:5/span 4}.c10{grid-column:9/span 4;margin-top:18%}
+.c11{grid-column:3/span 6;margin-top:6%}.c12{grid-column:10/span 3;margin-top:30%}
+@media (max-width:700px){.mz{padding:var(--s7) var(--s4) var(--s8)}.mz>*{grid-column:1/-1!important;margin-top:0!important}.mz .tile .cap .nm{white-space:normal}}
+.flow{margin-top:var(--s7);display:grid;grid-template-columns:repeat(8,1fr);border-top:1px solid var(--line-ink)}
+@media (max-width:900px){.flow{grid-template-columns:repeat(2,1fr)}}
+.flow div{padding:var(--s4) var(--s3) var(--s5) 0;border-bottom:1px solid var(--line);font-size:13px;color:var(--fg-2);line-height:1.6}
+.flow div .i{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;color:var(--fg-3);display:block;margin-bottom:6px}
+.flow div b{display:block;color:var(--fg);font-weight:500;margin-bottom:2px}
+.flow div.dark{background:var(--imm-bg);color:var(--imm-fg-2);padding-left:var(--s3)}
+.flow div.dark b{color:var(--imm-fg)}.flow div.dark .i{color:var(--imm-fg-3)}
+
+/* ── 頁面示意 ── */
+.mock{margin-top:var(--s7);border:1px solid var(--line);padding:var(--s6);background:var(--bg);position:relative}
+.mock .g{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--gutter)}
+.mock .g+.g{margin-top:var(--s6)}
+.s6{grid-column:span 6}.s4{grid-column:span 4}.s3{grid-column:span 3}.s9{grid-column:span 9}
+@media (max-width:700px){.mock .g>*{grid-column:1/-1!important}}
+.mock .nm{display:flex;justify-content:space-between;gap:var(--s3);font-size:13px;font-weight:500;line-height:1.3;margin-top:4px}
+.mock .nm .en{display:block;font-family:var(--f-en);font-size:11px;color:var(--fg-3);font-weight:400}
+.toolbar{display:flex;justify-content:space-between;gap:var(--s4);flex-wrap:wrap;align-items:flex-end;padding-bottom:var(--s4);border-bottom:1px solid var(--line-ink);margin-bottom:var(--s6)}
+.legend{display:flex;flex-direction:column;gap:6px}
+.legend .k{font-family:var(--f-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3)}
+.search{display:flex;align-items:center;gap:var(--s2);border:1px solid var(--line-strong);height:32px;padding:0 12px;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.06em;color:var(--fg-3);min-width:240px}
+.search .cur{width:1px;height:14px;background:var(--brand)}
+.band{display:flex;justify-content:space-between;align-items:baseline;gap:var(--s4);margin:var(--s6) 0 var(--s4);padding-top:var(--s4);border-top:1px solid var(--line-ink)}
+.band h4{font-size:16px;font-weight:700}
+.band h4 .en{font-family:var(--f-en);font-weight:500;color:var(--fg-3);font-size:12px;margin-left:8px;letter-spacing:.08em;text-transform:uppercase}
+.band .src{font-size:10.5px}
+.reg .row{display:grid;grid-template-columns:96px 1fr auto;gap:var(--s4);align-items:center;padding:var(--s3) 0;border-bottom:1px solid var(--line);font-size:13px}
+.reg .row .m{font-family:var(--f-mono);font-size:10.5px;color:var(--fg-3);letter-spacing:.04em}
+.notice{border:1px solid var(--line);padding:var(--s4) var(--s5);font-size:13.5px;color:var(--fg-2);line-height:1.7;margin-bottom:var(--s5)}
+.notice b{display:block;font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3);margin-bottom:6px}
+.titleblock{display:grid;grid-template-columns:1fr;gap:var(--s4);align-items:end;margin-bottom:var(--s6)}
+@media (min-width:900px){.titleblock{grid-template-columns:7fr 5fr}}
+.titleblock h3{font-family:var(--f-cjk);font-weight:700;font-size:clamp(26px,3vw,40px);line-height:1.2;margin-top:var(--s3)}
+.titleblock .gl{font-family:var(--f-en);color:var(--fg-3);font-size:14px;margin-top:6px}
+.specstrip{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line-ink)}
+.specstrip div{padding:var(--s3) 0;border-bottom:1px solid var(--line);font-size:13px}
+.specstrip div span{display:block;font-family:var(--f-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-3);margin-bottom:2px}
+.specstrip div b{font-weight:500;font-family:var(--f-mono);font-size:12.5px}
+.closer{position:absolute;right:var(--s6);top:var(--s6);font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-3)}
+.aside-note{padding:var(--s4);border:1px solid var(--line);font-size:13px;color:var(--fg-2);line-height:1.7;align-self:end}
+.aside-note b{display:block;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3);margin-bottom:6px}
+
+/* ── 對照 wipe：60° 邊緣 ── */
+.cmp{position:relative;aspect-ratio:3/2;overflow:hidden;border:1px solid var(--line);--v:52%}
+.cmp .ph{position:absolute;inset:0;width:100%;height:100%}
+.cmp .ph.top{clip-path:polygon(0 0,calc(var(--v) + 19.2%) 0,calc(var(--v) - 19.2%) 100%,0 100%)}
+.cmp .edge{position:absolute;left:var(--v);top:-12%;height:124%;width:2px;background:var(--fg);transform:translateX(-50%) rotate(30deg);pointer-events:none}
+.cmp .lab{position:absolute;bottom:10px;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;padding:4px 8px;background:var(--bg);color:var(--fg-2);pointer-events:none}
+.cmp .lab.l{left:10px}.cmp .lab.r{right:10px}
+.cmp input[type=range]{position:absolute;left:0;right:0;bottom:0;top:0;width:100%;height:100%;margin:0;appearance:none;-webkit-appearance:none;background:transparent;cursor:ew-resize;outline:none}
+.cmp input[type=range]::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:24px;height:100%;background:transparent;border:0;border-radius:0}
+.cmp input[type=range]::-moz-range-thumb{width:24px;height:100%;background:transparent;border:0;border-radius:0}
+.cmp input[type=range]:focus-visible{outline:2px solid var(--brand);outline-offset:-2px}
+
+/* ── 流程雙軌 ── */
+.tracks{margin-top:var(--s7);overflow-x:auto}
+.tracks .inner{min-width:900px}
+.track{display:grid;grid-template-columns:120px repeat(7,1fr);gap:var(--s2);align-items:stretch;margin-bottom:var(--s2)}
+.track .lab{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-3);padding:var(--s3) 0;line-height:1.5;align-self:center}
+.track .lab b{display:block;color:var(--fg);font-weight:500;font-family:var(--f-cjk);letter-spacing:0;font-size:12.5px;text-transform:none}
+.stg{border-top:1px solid var(--line-ink);padding:var(--s3) var(--s2) var(--s4) 0;font-size:12.5px;line-height:1.5}
+.stg .i{font-family:var(--f-mono);font-size:10.5px;color:var(--fg-3);letter-spacing:.08em;display:flex;align-items:center;gap:6px}
+.stg .i::before{content:"";width:6px;height:6px;border:1px solid var(--line-ink);transform:rotate(45deg)}
+.stg.ai .i::before{background:var(--brand);border-color:var(--brand)}
+.stg .en{font-family:var(--f-en);font-weight:500;font-size:11.5px;color:var(--fg-3);margin-top:var(--s2);line-height:1.3}
+.stg b{display:block;font-weight:700;font-size:13.5px;margin-top:2px}
+.stg .tag{margin-top:var(--s2);display:inline-flex;font-family:var(--f-mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--brand);border:1px solid var(--brand);padding:2px 6px}
+.ph2{border-top:1px solid var(--line-strong);padding:var(--s3) var(--s2) var(--s3) 0;font-size:12px;color:var(--fg-2);line-height:1.45;background:var(--bg-sunken)}
+.ph2 .i{font-family:var(--f-mono);font-size:10px;color:var(--fg-3);letter-spacing:.08em}
+.ph2 b{display:block;font-weight:500;color:var(--fg);font-family:var(--f-en);font-size:12px;margin-top:2px}
+.ph2.none{background:transparent;border-top-style:dashed;color:var(--fg-3);font-family:var(--f-mono);font-size:10.5px;letter-spacing:.06em}
+.steps6{grid-column:7/span 2;display:grid;grid-template-columns:repeat(6,1fr);gap:2px}
+.steps6 div{border-top:1px solid var(--line-strong);padding:var(--s2) 4px var(--s3) 0;font-size:10.5px;color:var(--fg-2);line-height:1.4;background:var(--bg-sunken)}
+.steps6 div span{display:block;font-family:var(--f-mono);font-size:9.5px;color:var(--fg-3);letter-spacing:.06em}
+.prog{height:2px;background:var(--line);position:relative;margin:var(--s4) 0 var(--s5) 128px}
+.prog::after{content:"";position:absolute;left:0;top:0;height:2px;width:37%;background:var(--brand)}
+.prog span{position:absolute;left:37%;top:-18px;transform:translateX(-50%);font-family:var(--f-mono);font-size:10px;color:var(--brand);letter-spacing:.08em}
+
+/* ── AI 章節（沉浸 · 模型空間 · 受控 HQ Mesh + grain）── */
+.imm{color:var(--imm-fg);background:radial-gradient(55% 70% at 85% 10%,var(--p-navy-700) 0%,rgba(31,42,54,0) 60%),radial-gradient(38% 46% at 8% 92%,rgba(214,69,24,.22) 0%,rgba(214,69,24,0) 62%),var(--imm-bg)}
+.imm::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.06;mix-blend-mode:soft-light;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/></filter><rect width='180' height='180' filter='url(%23n)'/></svg>")}
+.imm .wrap{position:relative;z-index:1}
+.imm .eyebrow{color:var(--imm-fg-3)}.imm .eyebrow::before{background:var(--imm-line-ink)}.imm .eyebrow .n{color:var(--imm-brand)}
+.imm h2{color:var(--imm-fg)}
+.imm .sec-head .r p{color:var(--imm-fg-2)}
+.imm .small{color:var(--imm-fg-3)}
+.imm .src{color:var(--imm-fg-3)}.imm .src::before{background:var(--imm-fg-3)}
+.ai{margin-top:var(--s7);display:grid;grid-template-columns:1fr;gap:var(--gutter)}
+@media (min-width:900px){.ai{grid-template-columns:repeat(12,1fr)}.ai .a{grid-column:1/span 5}.ai .b{grid-column:7/span 6}}
+.ctrl{border-top:1px solid var(--imm-line-ink);padding-top:var(--s5)}
+.ctrl label.rng{display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--imm-fg-3)}
+.ctrl label.rng b{color:var(--imm-fg);font-weight:500}
+.ctrl input[type=range]{width:100%;margin:var(--s3) 0 var(--s5);appearance:none;-webkit-appearance:none;height:2px;background:var(--imm-line-ink);outline:none}
+.ctrl input[type=range]::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:14px;height:24px;background:var(--imm-brand);border:0;border-radius:0;cursor:ew-resize}
+.ctrl input[type=range]::-moz-range-thumb{width:14px;height:24px;background:var(--imm-brand);border:0;border-radius:0;cursor:ew-resize}
+.ctrl input[type=range]:focus-visible{outline:2px solid var(--imm-brand);outline-offset:6px}
+.layers{display:flex;flex-wrap:wrap;gap:var(--s3) var(--s5);padding:var(--s4) 0;border-top:1px solid var(--imm-line);border-bottom:1px solid var(--imm-line)}
+.layers .k{font-family:var(--f-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--imm-fg-3);flex-basis:100%}
+.chk{display:inline-flex;align-items:center;gap:8px;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--imm-fg-2);cursor:pointer}
+.chk input{appearance:none;-webkit-appearance:none;width:12px;height:12px;border:1px solid var(--imm-fg-3);background:transparent;margin:0;border-radius:0;cursor:pointer}
+.chk input:checked{background:var(--imm-fg);border-color:var(--imm-fg)}
+.chk input:focus-visible{outline:2px solid var(--imm-brand);outline-offset:3px}
+.readout{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s4);padding-top:var(--s5)}
+.readout div span{display:block;font-family:var(--f-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--imm-fg-3)}
+.readout div b{font-family:var(--f-en);font-size:clamp(24px,2.4vw,36px);font-weight:700;letter-spacing:-.03em;line-height:1.1;color:var(--imm-fg);font-feature-settings:"tnum" 1}
+.readout div b small{font-size:.5em;font-weight:500;letter-spacing:.06em}
+.plan-wrap{position:relative}
+.plan{width:100%;height:auto;display:block;background:var(--p-navy-800);border:1px solid var(--imm-line);cursor:crosshair}
+.coord{position:absolute;right:10px;top:10px;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.08em;color:var(--imm-fg-2);background:var(--p-navy-800);padding:3px 8px;pointer-events:none}
+.isos{margin-top:var(--s5);display:grid;grid-template-columns:repeat(2,1fr);gap:var(--gutter)}
+.isos figure{margin:0}
+.isos .iso{aspect-ratio:3/2;border:1px solid var(--imm-line)}
+.claims{margin-top:var(--s6);border-top:1px solid var(--imm-line-ink)}
+.claims div{padding:var(--s4) 0;border-bottom:1px solid var(--imm-line);display:grid;grid-template-columns:150px 1fr;gap:var(--s4);font-size:14px;color:var(--imm-fg-2);line-height:1.6}
+.claims div span{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--imm-brand);padding-top:3px}
+.claims div b{display:block;color:var(--imm-fg);font-weight:500}
+
+/* ── 品牌資產 ── */
+.assets{margin-top:var(--s7);display:grid;grid-template-columns:1fr;gap:var(--gutter)}
+@media (min-width:900px){.assets{grid-template-columns:repeat(12,1fr)}.assets .og{grid-column:1/span 7}.assets .fav{grid-column:9/span 4}}
+.ogm{aspect-ratio:1200/630;background:var(--p-navy-700);position:relative;overflow:hidden;border:1px solid var(--line);color:#fff}
+.ogm .pat{position:absolute;inset:0;opacity:.09}
+.ogm .lk{position:absolute;left:6%;bottom:14%;display:flex;align-items:center;gap:4%}
+.ogm .lk svg{width:12%;height:auto;flex:none}
+.ogm .lk b{font-family:var(--f-en);font-weight:700;color:#fff;font-size:clamp(18px,3.4vw,44px);letter-spacing:.12em;line-height:1}
+.ogm .lk small{display:block;font-family:var(--f-cjk);color:var(--p-navy-300);font-size:clamp(9px,1.2vw,15px);letter-spacing:.14em;margin-top:.4em;font-weight:500}
+.ogm .tag{position:absolute;right:6%;top:10%;font-family:var(--f-mono);font-size:clamp(8px,1vw,12px);letter-spacing:.14em;color:var(--p-navy-300);text-transform:uppercase}
+.ogm .acc{position:absolute;left:52%;top:-10%;width:2px;height:120%;background:var(--p-verm-400);transform:rotate(30deg)}
+.ogm .tbm{position:absolute;right:0;bottom:0;display:flex;border-top:1px solid var(--p-navy-500);border-left:1px solid var(--p-navy-500);background:var(--p-navy-700)}
+.ogm .tbm div{padding:.5% 1.4%;border-left:1px solid #2A3744;font-family:var(--f-mono);font-size:clamp(6px,.8vw,10px);letter-spacing:.1em;color:var(--p-navy-300);text-transform:uppercase}
+.favs{display:flex;gap:var(--s5);align-items:flex-end;flex-wrap:wrap}
+.fav1{width:64px;height:64px;background:var(--p-verm-400);border-radius:var(--radius-mark);display:grid;place-items:center}
+.fav1 svg{width:76%;height:76%}
+.fav2{width:32px;height:32px;background:var(--p-verm-400);border-radius:var(--radius-mark);display:grid;place-items:center}
+.fav2 svg{width:76%;height:76%}
+.fav3{width:16px;height:16px;background:var(--p-verm-400);border-radius:var(--radius-mark);display:grid;place-items:center}
+.fav3 svg{width:80%;height:80%}
+.favcap{font-family:var(--f-mono);font-size:11px;color:var(--fg-3);letter-spacing:.06em;line-height:1.8;margin-top:var(--s4)}
+.navm{margin-top:var(--s6);border:1px solid var(--line);height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 var(--s4);gap:var(--s4)}
+.navm ul{display:flex;gap:var(--s5);list-style:none;margin:0;padding:0;font-size:13px;font-weight:500;color:var(--fg-2)}
+@media (max-width:800px){.navm ul{display:none}}
+.nf{margin-top:var(--s6);aspect-ratio:16/6;border:1px solid var(--line)}
+.nf .over{flex-direction:column;align-items:flex-start;justify-content:center;gap:var(--s2)}
+.nf .over b{font-family:var(--f-cjk);font-size:clamp(20px,2.4vw,32px);font-weight:700;letter-spacing:0;text-transform:none;color:var(--fg)}
+
+/* ── 路由／變更／決策 ── */
+.two{margin-top:var(--s7);display:grid;grid-template-columns:1fr;gap:var(--gutter)}
+@media (min-width:900px){.two{grid-template-columns:repeat(12,1fr)}.two .a{grid-column:1/span 6}.two .b{grid-column:8/span 5}}
+.dec{margin-top:var(--s7);border-top:1px solid var(--line-ink)}
+.dec .d{display:grid;grid-template-columns:56px 1fr;gap:var(--s4);padding:var(--s5) 0;border-bottom:1px solid var(--line)}
+.dec .d .n{font-family:var(--f-mono);font-size:12px;color:var(--brand);letter-spacing:.1em;padding-top:4px}
+.dec .d h4{font-size:16px;font-weight:700}
+.dec .d p{margin-top:var(--s2);font-size:14.5px;color:var(--fg-2);line-height:1.7;max-width:60em}
+.dec .d .opt{margin-top:var(--s3);display:flex;flex-wrap:wrap;gap:var(--s2)}
+.dec .d .opt span{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;border:1px solid var(--line-strong);padding:4px 10px;color:var(--fg-2)}
+.dec .d .opt span.rec{border-color:var(--fg);color:var(--fg)}
+footer{padding:var(--s8) 0 var(--s7);border-top:1px solid var(--line);font-size:13px;color:var(--fg-3)}
+footer .grid{align-items:start}
+footer .a{grid-column:1/span 6}footer .b{grid-column:8/span 5}
+@media (max-width:900px){footer .a,footer .b{grid-column:1/-1}}
+footer .mono{font-size:11.5px;letter-spacing:.04em;line-height:1.9}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition-duration:.01ms!important}.mz .tile{transform:none!important}}
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <a class="lockup" href="#top" aria-label="HQ Design">
+      <svg viewBox="0 0 1024 1024" aria-hidden="true"><rect width="1024" height="1024" rx="100" fill="var(--brand)"/><g fill="#fff"><path d="M678.995 420H520.334L490.889 369H649.55L678.995 420Z"/><path d="M822 420V745H707.974L737.418 796H873V369H747.263L776.708 420H822Z"/><path d="M263.301 279L233.856 228H568.144L597.589 279H263.301Z"/><path d="M582 228L692.851 420H762.851L652 228H582Z"/><path d="M201 340.334L150 251.999V646H553.103L523.658 595H201V340.334Z"/><path d="M220 228H150L354.959 583H424.959L220 228Z"/><path d="M723.562 796L432 291H362L653.562 796H723.562Z"/><path d="M344.716 420L315.216 369H393.216L422.569 420H344.716Z"/></g></svg>
+      <div><b>HQ Design</b><small>官網重建 · 視覺語言提案</small></div>
+    </a>
+    <div class="meta"><span>v0.3 · 2026-09-06</span><span>Fable 5.1</span><span>待核可 · For review</span></div>
+  </div>
+</header>
+
+<nav class="rail" aria-label="圖紙索引">
+  <a href="#s00" data-sheet="s00">A-00 <span class="t">論點</span></a>
+  <a href="#s01" data-sheet="s01">A-01 <span class="t">色彩</span></a>
+  <a href="#s02" data-sheet="s02">A-02 <span class="t">字體</span></a>
+  <a href="#s03" data-sheet="s03">A-03 <span class="t">網格</span></a>
+  <a href="#s04" data-sheet="s04">A-04 <span class="t">六十度</span></a>
+  <a href="#s05" data-sheet="s05">A-05 <span class="t">動態</span></a>
+  <a href="#s06" data-sheet="s06">A-06 <span class="t">首頁</span></a>
+  <a href="#s07" data-sheet="s07">A-07 <span class="t">實績</span></a>
+  <a href="#s08" data-sheet="s08">A-08 <span class="t">案例</span></a>
+  <a href="#s09" data-sheet="s09">A-09 <span class="t">流程</span></a>
+  <a href="#s10" data-sheet="s10">A-10 <span class="t">智能</span></a>
+  <a href="#s11" data-sheet="s11">A-11 <span class="t">資產</span></a>
+  <a href="#s12" data-sheet="s12">A-12 <span class="t">閘門</span></a>
+  <a href="#s13" data-sheet="s13">A-13 <span class="t">銜接</span></a>
+  <a href="#s14" data-sheet="s14">A-14 <span class="t">變更</span></a>
+  <a href="#s15" data-sheet="s15">A-15 <span class="t">裁決</span></a>
+</nav>
+
+<aside class="tb" aria-label="圖名框：目前位置">
+  <div class="cell"><span>圖號 Sheet</span><b id="tb-sheet">A-00</b></div>
+  <div class="cell"><span>圖名 Title</span><b id="tb-name" class="cjk">論點</b></div>
+  <div class="cell rev"><span>版次 Rev</span><b>v0.3</b></div>
+  <div class="cell"><span>語言 Lang</span><b><u>ZH</u> / EN</b></div>
+  <div class="cell"><span>頁 Page</span><b id="tb-page">01 / 16</b></div>
+</aside>
+
+<main id="top">
+
+<!-- 00 論點 -->
+<section class="thesis" id="s00" data-sheet="A-00" data-name="論點">
+  <div class="wrap">
+    <div class="eyebrow"><span class="n">A-00</span><span>Thesis · 設計論點</span></div>
+    <h1><span class="cjk">一套會動的施工圖說。</span></h1>
+    <p class="lede cjk">惠強不是把 AI 當渲染工具的設計公司，而是把三十年工法資料接進整條流程的施工方。所以官網不用行銷網站的版面。首頁沿用 Powerhouse 的互動骨架（影像場、捲動縮放、點圖放大成 hero），其餘全部用施工圖說自己的慣例當介面：圖名框是導航、尺寸線是圖說、圖層是解釋 BIM 的方式、對照 wipe 是誠實標示的展示。影像是版面上唯一的顏色，動態是「把圖畫出來」的動作。品牌 pattern 與受控的 HQ Mesh 漸層只在少數大面積出現。</p>
+    <div class="pillars">
+      <div class="pillar"><div class="k">01 · Drawing conventions as UI</div><h3 class="cjk">製圖慣例就是介面</h3><p class="cjk">業主每天在看施工圖：圖名框、尺寸線、圖例、圖層、版次。這些不是裝飾，是大家已經會讀的介面語言。網站直接借用，不必再教。</p></div>
+      <div class="pillar"><div class="k">02 · Image is the colour</div><h3 class="cjk">影像是唯一的顏色</h3><p class="cjk">白／冷灰／深藍承載結構，橘紅只在決策點與 60° tick 出現，單頁佔比 ≤10%。HQ Mesh 漸層限四組配對、只作大面積底層。3:2 影像走 9／6／4 欄，每張由 prov 推導標示。</p></div>
+      <div class="pillar"><div class="k">03 · One pen</div><h3 class="cjk">一支筆的動態</h3><p class="cjk">全站只有一種動勢：一條 60° 的線在畫。它是尺寸線的 tick、流程軸的進度、路由轉場的斜切幕、圖紙索引的目前位置。一個母題，四個工作。</p></div>
+    </div>
+    <div class="devices">
+      <div class="dv"><div class="k">Device 01</div><div><b class="cjk">圖名框 Title block</b><span class="cjk">固定在右下角的常駐 chrome：圖號、圖名、版次、語言、頁碼。捲動時同步，等於麵包屑、進度與語言切換三合一。手機上貼底、拇指可及，兼作選單入口。</span></div><div class="w cjk">本頁右下角即為實作示範，全頁即時同步。</div></div>
+      <div class="dv"><div class="k">Device 02</div><div><b class="cjk">尺寸線 Dimension string</b><span class="cjk">每張影像下方不放「圖說」，放一條尺寸線：兩端 60° tick，線上標註真實數據（5,940 SQM · 1,797 坪），右端接來源標示。tick 是品牌 slash，數字是可稽核事實，一個元件同時完成三件事。</span></div><div class="w cjk">首頁拼貼、實績卡、案例 hero、模型空間圖片全部沿用。</div></div>
+      <div class="dv"><div class="k">Device 03</div><div><b class="cjk">圖層 Layers</b><span class="cjk">用 BIM 自己的概念解釋 BIM：建築、機電、家具、施工分區四個可開關的圖層。同時打開建築與機電時，衝突點被標出——「撞管在模型裡被找到，不在工地」一句話變成一個畫面。</span></div><div class="w cjk">模型空間章節可操作示範。</div></div>
+      <div class="dv"><div class="k">Device 04</div><div><b class="cjk">對照 wipe Intent ↔ As-built</b><span class="cjk">把內容政策紅線變成賣點：同一空間的設計圖面與完工實景（或提案視覺）並列，60° 斜邊 wipe 拖曳對照，兩側各自保留來源標示。誠實不是免責聲明，是可以互動的證據。</span></div><div class="w cjk">案例頁示範。需要內容層加配對欄位（見裁決 D3）。</div></div>
+      <div class="dv"><div class="k">Device 05</div><div><b class="cjk">圖紙索引 Sheet rail</b><span class="cjk">桌機左緣一條直排的圖紙索引，圖號拉丁字橫躺、中文直立，像圖冊裝訂邊。捲動同步、可點擊跳轉。手機收進圖名框。</span></div><div class="w cjk">本頁左緣（≥1180px）即為示範。</div></div>
+      <div class="dv"><div class="k">Device 06</div><div><b class="cjk">座標讀數 Model space</b><span class="cjk">沉浸深底的 AI 章節是「模型空間」：十字游標、右上角跟隨游標的 X／Y 座標（mm）、受控的 navy→cool gray mesh 加 6% grain。給設計師會心一笑，給業主一種「這是工具不是廣告」的感覺。</span></div><div class="w cjk">模型空間章節平面圖上移動游標。</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 01 色彩 -->
+<section class="hair" id="s01" data-sheet="A-01" data-name="色彩">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l"><div class="eyebrow"><span class="n">A-01</span><span>Colour · 色彩、比例與受控漸層</span></div><h2 class="cjk">白紙、墨線、一條橘紅；漸層只有四組配對。</h2></div>
+      <div class="r"><p class="cjk">全部引用 Token 3.0，此提案不新增任何色碼。深色主題由 token 自動切換。漸層依你的裁示開放，但只用 CIS §3.4 的 HQ Mesh 四組配對加 3–8% grain，做大面積底層；漸層文字、玻璃擬態、霓虹仍不用。</p></div>
+    </div>
+    <div class="swatches">
+      <div class="sw"><div class="c" style="background:var(--p-white);border-bottom:1px solid var(--line)"></div><div class="t"><b>--bg · Paper White</b>#FFFFFF · 主背景，約 55%</div></div>
+      <div class="sw"><div class="c" style="background:var(--p-navy-050)"></div><div class="t"><b>--bg-sunken · Navy 050</b>#F1F5F9 · 對照表、CTA 帶</div></div>
+      <div class="sw"><div class="c" style="background:var(--p-navy-700)"></div><div class="t"><b>--fg · Navy 700</b>#1F2A36 · 標題、墨線、深底</div></div>
+      <div class="sw"><div class="c" style="background:var(--p-navy-900)"></div><div class="t"><b>--bg-immersive · Navy 900</b>#0A1118 · 模型空間、footer</div></div>
+      <div class="sw"><div class="c" style="background:var(--p-navy-500)"></div><div class="t"><b>--fg-2 · Navy 500</b>#3F4E60 · 正文</div></div>
+      <div class="sw"><div class="c" style="background:var(--p-navy-400)"></div><div class="t"><b>--fg-3 · Steel 400</b>#6B7785 · 註記、mono 標籤</div></div>
+      <div class="sw"><div class="c" style="background:var(--p-navy-100)"></div><div class="t"><b>--line · Navy 100</b>#E1E8F0 · 髮絲線</div></div>
+      <div class="sw"><div class="c" style="background:var(--p-verm-400)"></div><div class="t"><b>--brand · HQ Vermillion</b>#D64518 · 唯一英雄色，≤10%</div></div>
+    </div>
+    <div class="ratio">
+      <div class="eyebrow"><span>Colour ratio · 單頁配色預算</span></div>
+      <div class="bar mt5" aria-label="配色比例：白與冷灰 55%、深藍 25%、線條圖紋 10%、橘紅至多 10%">
+        <div style="width:55%;background:var(--p-white);color:var(--fg-3);border-right:1px solid var(--line)">55</div>
+        <div style="width:25%;background:var(--p-navy-700);color:var(--p-navy-300)">25</div>
+        <div style="width:10%;background:var(--p-navy-100);color:var(--fg-3)">10</div>
+        <div style="width:10%;background:var(--p-verm-400);color:#fff">≤10</div>
+      </div>
+      <div class="legend"><span>55 白／冷灰</span><span>25 深藍（文字、模型空間）</span><span>10 線條圖紋</span><span>≤10 HQ Vermillion（稽核：--hq-ratio-brand-max）</span></div>
+    </div>
+    <div class="ratio">
+      <div class="eyebrow"><span>HQ Mesh · 四組受控漸層 + grain</span></div>
+      <div class="meshes">
+        <div class="mesh m1"><span>verm → white · 封面、章節轉場</span></div>
+        <div class="mesh m2"><span>verm → deep red · OG 極少數</span></div>
+        <div class="mesh m3"><span>navy → cool gray · 模型空間底層</span></div>
+        <div class="mesh m4"><span>verm → navy · AI 主視覺</span></div>
+      </div>
+      <p class="small cjk mt5">規則：mesh 只作底層、不放在長段文字後方；grain 3–8%、soft-light；橘紅 mesh 計入 10% 預算，所以網站上實際只用 navy→cool gray（模型空間）與一小角 verm→navy（見下方 A-10）。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 02 字體 -->
+<section class="hair" id="s02" data-sheet="A-02" data-name="字體">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l"><div class="eyebrow"><span class="n">A-02</span><span>Typography · 字體與階層</span></div><h2 class="cjk">Satoshi 300 對 Noto Sans TC 700，數字一律 Geist Mono。</h2></div>
+      <div class="r"><p class="cjk">Satoshi 以 Variable 原檔自架（300–900，不 subset、不轉檔）。原創之處在對比：英文 statement 用 300 細體，中文用 700 粗體，像圖紙上的英文標註對中文圖名。標題裡的「×」改成品牌 60° slash 字形。直排只用於圖紙索引與圖名框，像圖冊裝訂邊。</p></div>
+    </div>
+    <div class="spec">
+      <div class="row"><div class="k">Display EN<br>Satoshi 300 + 700 · 112→44px · -0.03em</div><div class="d1"><span class="lt">AI Parametric</span><span class="sl" aria-hidden="true"></span><span class="hv">Construction</span></div></div>
+      <div class="row"><div class="k">Display CJK<br>Noto Sans TC 700 · 64→34px · 0 · 1.22</div><div class="d2">把 AI 接進整個設計與施工流程</div></div>
+      <div class="row"><div class="k">H3<br>Noto Sans TC 500 · 26→19px · 1.35</div><div class="d3">從現況掃描到交付，每一段都有人負責、有系統加速。</div></div>
+      <div class="row"><div class="k">Body<br>Satoshi 400 ／ Noto Sans TC 400 · 17px · 1.75 · 34em</div><div class="d4 cjk">惠強深耕商業空間設計施工 30 年、累積 1,600+ 件案件。我們把三十年的工法、估價與施工節點轉成 AI 可用的資料庫，讓方案更快比較、資訊更一致、風險在進場前就被看見。</div></div>
+      <div class="row"><div class="k">Stat<br>Satoshi 700 · 48→34px · tnum</div><div class="d7">1,600<i>+</i>&nbsp;&nbsp;&nbsp;30<i>+</i>&nbsp;&nbsp;&nbsp;100<i>%</i></div></div>
+      <div class="row"><div class="k">Dimension · Mono<br>Geist Mono 500／400 · 11px · 0.04em</div><div><div class="dim" style="max-width:420px"><i class="tk l"></i><i class="tk r"></i><span class="lb">5,940 SQM · 1,797 坪</span><span class="rb">完工實景 · As-built</span></div></div></div>
+      <div class="row"><div class="k">Vertical · 直排<br>Geist Mono 12px 0.2em ／ Noto 10.5px 0.3em</div><div style="display:flex;gap:var(--s6)"><div class="vert">A-07 <span class="cjk">實績</span></div><div class="vert">A-10 <span class="cjk">智能</span></div><div class="vert">REV v0.2</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 03 網格 -->
+<section class="hair" id="s03" data-sheet="A-03" data-name="網格">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l"><div class="eyebrow"><span class="n">A-03</span><span>Grid · 網格與影像欄位</span></div><h2 class="cjk">12 欄、1320 容器，影像只走 9／6／4。</h2></div>
+      <div class="r"><p class="cjk">24px 溝、4px 起十階間距、區塊垂直節奏 <span class="mono">clamp(72px, 8vw, 150px)</span>。8 欄得 581.3px 會脫離 8px 節奏，9 欄得 656px 完全貼合，所以旗艦案走 9+3 不對稱切分，中型 6+6，小型 4+4+4。三等分卡片牆只准出現在純文字。桌機左緣保留 44px 給圖紙索引。</p></div>
+    </div>
+    <div class="gdemo" aria-label="12 欄網格示意">
+      <div class="col">1</div><div class="col">2</div><div class="col">3</div><div class="col">4</div><div class="col">5</div><div class="col">6</div><div class="col">7</div><div class="col">8</div><div class="col">9</div><div class="col">10</div><div class="col">11</div><div class="col">12</div>
+      <div class="span" style="grid-column:1/span 9">9 col · 656px · lead</div><div class="span" style="grid-column:10/span 3;background:transparent;border-color:var(--line)">3 · aside</div>
+      <div class="span" style="grid-column:1/span 6">6 col · 432px</div><div class="span" style="grid-column:7/span 6">6 col · 432px</div>
+      <div class="span" style="grid-column:1/span 4">4 · 208px</div><div class="span" style="grid-column:5/span 4">4 · 208px</div><div class="span" style="grid-column:9/span 4">4 · 208px</div>
+      <div class="span no" style="grid-column:1/span 8">8 col · 581.3px · 不用</div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 60° 系統 -->
+<section class="hair" id="s04" data-sheet="A-04" data-name="六十度">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l"><div class="eyebrow"><span class="n">A-04</span><span>60° system · 品牌 pattern 與介面用法</span></div><h2 class="cjk">Figma 的品牌 pattern，加一條 60° 的線做六件事。</h2></div>
+      <div class="r"><p class="cjk">右側四格是 Figma 檔 <span class="mono">HQ Background Pattern-1</span>（node 1073-100220）的原始向量，重上色為 currentColor 後可在任何底色上用：深藍底白線、紙白底深藍線、極淡底當空狀態。原始的橘底版只留給 OG 與封面等小面積，網站頁面不用滿版橘。介面上的 slash 一律是 1px 線旋轉 60°，端點平切，永不圓角。</p></div>
+    </div>
+    <div class="sixty">
+      <div class="a">
+        <div class="uses">
+          <div class="u"><div class="k">Dimension tick</div><div><div class="dim" style="margin-top:0"><i class="tk l"></i><i class="tk r"></i><span class="lb">700 SQM · 212 坪</span><span class="rb">完工實景 · As-built</span></div></div></div>
+          <div class="u"><div class="k">Eyebrow</div><div class="eyebrow"><span class="n">A-07</span><span>Selected work · 實績</span></div></div>
+          <div class="u"><div class="k">Filter · active</div><div class="chips"><span class="chip on">全部 33</span><span class="chip">Office 15</span><span class="chip">F&amp;B 8</span><span class="chip">Showroom 6</span></div></div>
+          <div class="u"><div class="k">Rail marker</div><div class="cjk small">圖紙索引目前位置：一條 60° 短線，不用圓點、不用色塊。</div></div>
+          <div class="u"><div class="k">Wipe edge</div><div class="cjk small">對照 wipe 的分界線是 60° 斜邊，不是垂直線。見案例頁。</div></div>
+          <div class="u"><div class="k">Card hover</div><div><a class="card-demo" href="#top" aria-label="示範：案例卡 hover"><div class="imgw"><div class="ph i-qijia" role="img" aria-label="起家雞台中店，完工實景"></div></div><div class="dim"><i class="tk l"></i><i class="tk r"></i><span class="lb">700 SQM · 212 坪 · 2019</span><span class="rb">完工實景 · As-built</span></div><div class="nm cjk"><span>起家雞 台中店<span class="en">Chicken Up · Chain F&amp;B</span></span></div></a><p class="small cjk mt5">hover：影像 scale 1.015（600ms），尺寸線自左向右畫出（450ms）。沒有陰影、沒有浮起。</p></div></div>
+        </div>
+      </div>
+      <div class="b">
+        <div class="pats">
+          <figure><div class="pat navy" role="img" aria-label="品牌 pattern，深藍底白線">{{PAT:cc}}<span class="over">navy · 模型空間、footer</span></div><figcaption><b>Figma pattern · on navy</b> · 60° 步進斜線，白 @100%</figcaption></figure>
+          <figure><div class="pat paper" role="img" aria-label="品牌 pattern，紙白底深藍線">{{PAT:cc}}<span class="over">paper · 章節轉場</span></div><figcaption><b>on paper</b> · navy 700 線</figcaption></figure>
+          <figure><div class="pat verm" role="img" aria-label="品牌 pattern，橘紅底白線">{{PAT:cc}}<span class="over">vermillion · 僅 OG／封面</span></div><figcaption><b>on vermillion</b> · Figma 原版配色；頁面不滿版使用</figcaption></figure>
+          <figure><div class="pat faint" role="img" aria-label="品牌 pattern，極淡">{{PAT:cc}}<span class="over">faint · 空狀態、404</span></div><figcaption><b>faint</b> · navy 100 線，當空狀態底紋</figcaption></figure>
+        </div>
+        <div class="curtain" role="img" aria-label="頁面轉場：60° 斜切的深藍幕自左掃過"><div class="pane"></div><span class="lab2">Route transition · 60° wipe</span><span class="lab">Reduced motion → crossfade</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 05 動態 -->
+<section class="hair" id="s05" data-sheet="A-05" data-name="動態">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l"><div class="eyebrow"><span class="n">A-05</span><span>Motion · 動態原則與 token</span></div><h2 class="cjk">一支筆。對位，不彈跳。</h2></div>
+      <div class="r"><p class="cjk">Motion for React 是唯一動畫引擎，GSAP 不進第一版。所有 transition 取自 <span class="mono">hqMotion</span> token（沿用 Codex 已寫好的 <span class="mono">lib/motion.ts</span>），<span class="mono">MotionConfig reducedMotion="user"</span> 統一處理減少動態：transform 全部關閉，只留 opacity 交叉淡化，捲動拼貼退成靜態網格，尺寸線直接顯示。</p></div>
+    </div>
+    <div class="mtokens">
+      <div class="a scroll">
+        <table class="tbl">
+          <thead><tr><th>Token</th><th>值</th><th>用途</th></tr></thead>
+          <tbody>
+            <tr><td class="m">duration.micro</td><td class="m">0.18s</td><td class="cjk">hover、focus、圖層開關、圖名框更新</td></tr>
+            <tr><td class="m">duration.standard</td><td class="m">0.45s</td><td class="cjk">尺寸線畫出、filter 重排、選單</td></tr>
+            <tr><td class="m">duration.editorial</td><td class="m">0.80s</td><td class="cjk">影像 clip-path 揭露、標題 stagger</td></tr>
+            <tr><td class="m">duration.scene</td><td class="m">1.20s</td><td class="cjk">tile→hero 共享元素轉場、路由斜切幕</td></tr>
+            <tr><td class="m">ease.brand</td><td class="m">[.2, .7, .2, 1]</td><td class="cjk">預設，與 hq.css --ease 同源（Codex 已同步）</td></tr>
+            <tr><td class="m">ease.soft</td><td class="m">[.16, 1, .3, 1]</td><td class="cjk">大位移場景（新增）</td></tr>
+            <tr><td class="m">spring.scroll</td><td class="m">stiffness 90 · damping 24</td><td class="cjk">useScroll → useSpring 的拼貼跟隨</td></tr>
+            <tr><td class="m">stagger</td><td class="m">0.05 / 0.10 / 0.16</td><td class="cjk">tight / standard / relaxed</td></tr>
+            <tr><td class="m">reveal.y</td><td class="m">18px</td><td class="cjk">進場位移上限</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="b principles">
+        <ul>
+          <li><b class="cjk">一支筆：所有動態都是「一條 60° 線在畫」。</b><span class="cjk">尺寸線 tick、流程進度、路由斜切幕、圖紙索引標記共用同一個母題與同一組 token。</span></li>
+          <li><b class="cjk">影像用「裁切」揭露，不用縮放模糊。</b><span class="cjk">clip-path inset 自 3:2 框內展開，像圖紙上的裁切線。</span></li>
+          <li><b class="cjk">線先畫，字再進。</b><span class="cjk">尺寸線 scaleX 0→1，標註與案名再以 0.1s stagger 進場。</span></li>
+          <li><b class="cjk">Scroll 只驅動 transform 與 opacity。</b><span class="cjk">useScroll + useTransform 走 MotionValue，不觸發 React re-render。</span></li>
+          <li><b class="cjk">轉場失敗仍可到達路由。</b><span class="cjk">共享元素轉場是加分，不是前提；沒有 sourceRect 就直接淡入 hero。</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 首頁 -->
+<section class="hair" id="s06" data-sheet="A-06" data-name="首頁">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l"><div class="eyebrow"><span class="n">A-06</span><span>Home · 首頁拼貼場（可捲動示範）</span></div><h2 class="cjk">首頁第一屏就是作品場，每張圖都帶尺寸線。</h2></div>
+      <div class="r"><p class="cjk">12 張 3:2 影像依 4／6／9 欄散置於 12 欄格上，statement 與數據夾在影像之間。不釘住、無 100vh。三層深度以不同速率視差；最接近視窗中心的 tile 放大 1.04，尺寸線畫出、案名與標示浮現，其餘降到 0.55。點擊 tile → 該圖以 layoutId 放大成案例頁 hero（沿用 Codex 的 <span class="mono">project-photo-&lt;slug&gt;</span> 共享元素鏈），尺寸線接續成案例頁的規格條。下方示範是實際互動，請捲動。</p></div>
+    </div>
+    <div class="mz-wrap">
+      <span class="frame-lab">Live · scroll to test</span>
+      <div class="mz" id="mz">
+        <a class="tile c1" data-depth="1" href="#top"><div class="ph i-secom" role="img" aria-label="中興保全 SECOM 南港總部，接待大廳，完工實景"></div><div class="cap"><div class="dim"><i class="tk l"></i><i class="tk r"></i><span class="lb">5,940 SQM · 1,797 坪 · 2025</span><span class="rb">As-built</span></div><div class="nm"><b>中興保全 SECOM 南港總部</b></div></div></a>
+        <a class="tile c2" data-depth="1.6" href="#top"><div class="ph i-soup" role="img" aria-label="The Soup Spoon 台北車站店，完工實景"></div><div class="cap"><div class="dim"><i class="tk l"></i><i class="tk r"></i><span class="lb">30 坪 · 2023</span><span class="rb">As-built</span></div><div class="nm"><b>The Soup Spoon 台北車站店</b></div></div></a>
+        <div class="st c3"><span class="lt">AI Parametric</span><span class="sl" aria-hidden="true"></span><br><span class="hv">Construction Execution</span><span class="zh">把 AI、參數化設計與 BIM 接進整個設計與施工流程，不只是產出一張渲染圖。</span></div>
+        <a class="tile c4" data-depth="1.3" href="#top"><div class="ph i-popeyes" role="img" aria-label="Popeyes 許昌店，完工實景"></div><div class="cap"><div class="dim"><i class="tk l"></i><i class="tk r"></i><span class="lb">51 坪 · 2024</span><span class="rb">As-built</span></div><div class="nm"><b>Popeyes 許昌店</b></div></div></a>
+        <a class="tile c5" data-depth="0.7" href="#top"><div class="ph i-kimpton" role="img" aria-label="金普頓大安酒店公共區域，完工實景"></div><div class="cap"><div class="dim"><i class="tk l"></i><i class="tk r"></i><span class="lb">100 坪 · 2022 · 公共區域與客房廊道施工</span><span class="rb">As-built</span></div><div class="nm"><b>金普頓大安酒店</b></div></div></a>
+        <a class="tile c6" data-depth="0.6" href="#top"><div class="ph i-qijia" role="img" aria-label="起家雞台中店，完工實景"></div><div class="cap"><div class="dim"><i class="tk l"></i><i class="tk r"></i><span class="lb">700 SQM · 212 坪 · 2019</span><span class="rb">As-built</span></div><div class="nm"><b>起家雞 台中店</b></div></div></a>
+        <div class="stats c7"><div class="stat"><b>1,600<i>+</i></b><span class="cjk">商業空間案件</span></div><div class="stat"><b>30<i>+</i></b><span class="cjk">年設計施工經驗</span></div><div class="stat"><b>100<i>%</i></b><span class="cjk">設計施工一體化</span></div></div>
+        <a class="tile c8" data-depth="1.4" href="#top"><div class="ph i-lounge" role="img" aria-label="桃園機場航空貴賓室，完工實景"></div><div class="cap"><div class="dim"><i class="tk l"></i><i class="tk r"></i><span class="lb">桃園國際機場</span><span class="rb">As-built</span></div><div class="nm"><b>航空貴賓室</b></div></div></a>
+        <a class="tile c9" data-depth="0.9" href="#top"><div class="ph i-polytron" role="img" aria-label="保創科技 POLYTRON 辦公室，設計提案視覺"></div><div class="cap"><div class="dim viz"><i class="tk l"></i><i class="tk r"></i><span class="lb">850 SQM · 257 坪 · 2025</span><span class="rb">Design visualisation</span></div><div class="nm"><b>保創科技 POLYTRON</b></div></div></a>
+        <a class="tile c10" data-depth="1.7" href="#top"><div class="ph i-smart" role="img" aria-label="中保智慧設施訓練基地，完工實景"></div><div class="cap"><div class="dim"><i class="tk l"></i><i class="tk r"></i><span class="lb">訓練基地 · 展示廳</span><span class="rb">As-built</span></div><div class="nm"><b>中保智慧設施訓練基地</b></div></div></a>
+        <a class="tile c11" data-depth="0.8" href="#top"><div class="ph i-aiontech" role="img" aria-label="博訊科技 AIONTECH 辦公室，設計提案視覺"></div><div class="cap"><div class="dim viz"><i class="tk l"></i><i class="tk r"></i><span class="lb">825 SQM · 2025</span><span class="rb">Design visualisation</span></div><div class="nm"><b>博訊科技 AIONTECH</b></div></div></a>
+        <a class="tile c12" data-depth="1.5" href="#top"><div class="ph i-guochan" role="img" aria-label="國產建材情境展示間，完工實景"></div><div class="cap"><div class="dim"><i class="tk l"></i><i class="tk r"></i><span class="lb">情境展示間</span><span class="rb">As-built</span></div><div class="nm"><b>國產建材</b></div></div></a>
+      </div>
+    </div>
+    <div class="flow" aria-label="首頁區塊順序">
+      <div><span class="i">Hero</span><b class="cjk">拼貼場</b>12 tile · statement · 3 stat · 尺寸線</div>
+      <div><span class="i">01</span><b class="cjk">定位</b>AI 不只畫圖 · 對照表</div>
+      <div><span class="i">02</span><b class="cjk">流程雙軌</b>七段 × 外部設計意圖五階段</div>
+      <div class="dark"><span class="i">03</span><b class="cjk">模型空間</b>圖層 · 參數化 · 座標 · mesh</div>
+      <div><span class="i">04</span><b class="cjk">實績</b>9+3 · 6+6 · 4+4+4，雙圖集</div>
+      <div><span class="i">05</span><b class="cjk">客戶</b>純文字名冊，一列 mono</div>
+      <div><span class="i">06</span><b class="cjk">開始專案</b>一個 CTA · 電話 · email</div>
+      <div><span class="i">TB</span><b class="cjk">圖名框</b>全站常駐 · 進度 · 語言</div>
+    </div>
+  </div>
+</section>
+
+<!-- 07 實績列表 -->
+<section class="hair" id="s07" data-sheet="A-07" data-name="實績">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l"><div class="eyebrow"><span class="n">A-07</span><span>Work · 實績列表</span></div><h2 class="cjk">兩套圖集：竣工圖集與設計圖集。</h2></div>
+      <div class="r"><p class="cjk">Filter 做成圖例（legend），search 做成「找圖」。兩者共用同一份 <span class="mono">content/projects</span> 資料，狀態同步到 URL query，重排沿用 Codex <span class="mono">ProjectsBrowser</span> 的 LayoutGroup + popLayout 模式。完工實景與設計提案視覺是兩套圖集、不得混排；只有 1–3 張圖的案子改成名冊列。</p></div>
+    </div>
+    <div class="mock">
+      <span class="frame-lab">/zh/work · desktop</span>
+      <div class="toolbar mt6">
+        <div class="legend"><span class="k">圖例 · Legend</span><div class="chips" role="group" aria-label="篩選"><span class="chip on">全部 33</span><span class="chip">Office 15</span><span class="chip">Hospitality 1</span><span class="chip">F&amp;B 8</span><span class="chip">Showroom 6</span><span class="chip">Lounge 1</span></div></div>
+        <div class="legend"><span class="k">找圖 · Search</span><div class="search" role="search"><span>案名、業主、地點</span><span class="cur"></span></div></div>
+      </div>
+      <div class="band"><h4 class="cjk">竣工圖集<span class="en">As-built set</span></h4><span class="src">完工實景 · 19 案</span></div>
+      <div class="g">
+        <div class="s6"><div class="ph i-secom" role="img" aria-label="中興保全 SECOM 南港總部"></div><div class="dim"><i class="tk l"></i><i class="tk r"></i><span class="lb">5,940 SQM · 1,797 坪 · 2025</span><span class="rb">As-built</span></div><div class="nm cjk"><span>中興保全 SECOM 南港總部<span class="en">Corporate HQ · Full Design &amp; Build</span></span></div></div>
+        <div class="s6"><div class="ph i-kimpton" role="img" aria-label="金普頓大安酒店"></div><div class="dim"><i class="tk l"></i><i class="tk r"></i><span class="lb">100 坪 · 2022</span><span class="rb">As-built</span></div><div class="nm cjk"><span>金普頓大安酒店<span class="en">Kimpton Da An · Public Areas Construction</span></span></div></div>
+      </div>
+      <div class="g">
+        <div class="s4"><div class="ph i-qijia" role="img" aria-label="起家雞台中店"></div><div class="dim"><i class="tk l"></i><i class="tk r"></i><span class="lb">700 SQM · 2019</span><span class="rb">As-built</span></div><div class="nm cjk"><span>起家雞 台中店<span class="en">Chicken Up · Chain F&amp;B</span></span></div></div>
+        <div class="s4"><div class="ph i-soup" role="img" aria-label="The Soup Spoon 台北車站店"></div><div class="dim"><i class="tk l"></i><i class="tk r"></i><span class="lb">30 坪 · 2023</span><span class="rb">As-built</span></div><div class="nm cjk"><span>The Soup Spoon 台北車站店<span class="en">Singapore F&amp;B Brand</span></span></div></div>
+        <div class="s4"><div class="ph i-popeyes" role="img" aria-label="Popeyes 許昌店"></div><div class="dim"><i class="tk l"></i><i class="tk r"></i><span class="lb">51 坪 · 2024</span><span class="rb">As-built</span></div><div class="nm cjk"><span>Popeyes 許昌店<span class="en">International Chain F&amp;B</span></span></div></div>
+      </div>
+      <div class="reg mt6">
+        <div class="row"><div class="ph empty">reg</div><div class="cjk">中興保全接待大廳 <span class="mono small">· Corporate Reception · 3 張</span></div><div class="m">AS-BUILT</div></div>
+        <div class="row"><div class="ph empty">reg</div><div class="cjk">龍騰旅行社 <span class="mono small">· Travel Agency Office · 2 張</span></div><div class="m">AS-BUILT</div></div>
+        <div class="row"><div class="ph empty">reg</div><div class="cjk">復興航棧 大園店 <span class="mono small">· Bakery &amp; Gift Retail · 1 張</span></div><div class="m">FLOOR PLAN</div></div>
+      </div>
+      <div class="band"><h4 class="cjk">設計圖集<span class="en">Design set</span></h4><span class="src viz">設計提案視覺 12 案 · AI 光影強化 1 案</span></div>
+      <div class="notice cjk"><b>影像性質 · About these images</b>本圖集影像由設計圖面經 AI 重製為提案視覺，用於呈現空間意圖與材質方向，非完工實景。所有面積、年份為專案實際數據。</div>
+      <div class="g">
+        <div class="s4"><div class="ph i-polytron" role="img" aria-label="保創科技 POLYTRON"></div><div class="dim viz"><i class="tk l"></i><i class="tk r"></i><span class="lb">850 SQM · 257 坪 · 2025</span><span class="rb">Design visualisation</span></div><div class="nm cjk"><span>保創科技 POLYTRON<span class="en">Corporate Office</span></span></div></div>
+        <div class="s4"><div class="ph i-aiontech" role="img" aria-label="博訊科技 AIONTECH"></div><div class="dim viz"><i class="tk l"></i><i class="tk r"></i><span class="lb">825 SQM · 2025</span><span class="rb">Design visualisation</span></div><div class="nm cjk"><span>博訊科技 AIONTECH<span class="en">Corporate Office</span></span></div></div>
+        <div class="s4"><div class="ph i-csun" role="img" aria-label="志聖工業 C.SUN"></div><div class="dim viz"><i class="tk l"></i><i class="tk r"></i><span class="lb">711 SQM · 215 坪 · 2026</span><span class="rb">Design visualisation</span></div><div class="nm cjk"><span>志聖工業 C.SUN<span class="en">Corporate Office</span></span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 08 案例頁 -->
+<section class="hair" id="s08" data-sheet="A-08" data-name="案例">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l"><div class="eyebrow"><span class="n">A-08</span><span>Project · 案例頁</span></div><h2 class="cjk">圖名框在上、9 欄 hero 在下、設計意圖對完工實景可以拖。</h2></div>
+      <div class="r"><p class="cjk">不做滿版 100vh hero。標題欄是這一案的圖名框：eyebrow（類別 · 年份）、中文案名、英文 gloss、四格 mono 規格條。右上角 mono 的「關閉 · ESC」回到列表並還原捲動位置。有配對影像的案子放對照 wipe；含 viz／enh 的案子在圖集前放影像性質區塊。圖集 6+6、4+4+4；lightbox 支援 Esc、方向鍵、focus trap。</p></div>
+    </div>
+    <div class="mock">
+      <span class="frame-lab">/zh/work/secom-nangang-complex</span>
+      <span class="closer">關閉 · ESC</span>
+      <div class="titleblock mt7">
+        <div><div class="eyebrow"><span class="n">Office</span><span>2025 · 台北南港 · 圖 1/6</span></div><h3>中興保全 SECOM 南港總部</h3><div class="gl">Corporate HQ · Full Design &amp; Build</div></div>
+        <div class="specstrip"><div><span>業主 · Client</span><b>中保集團 SECOM</b></div><div><span>地點 · Location</span><b>台北市南港區</b></div><div><span>面積 · Area</span><b>5,940 sqm</b></div><div><span>年份 · Year</span><b>2025</b></div></div>
+      </div>
+      <div class="g">
+        <div class="s9"><div class="ph i-secom" role="img" aria-label="中興保全 SECOM 南港總部，接待大廳"></div><div class="dim"><i class="tk l"></i><i class="tk r"></i><span class="lb">接待大廳 · 7F · 5,940 SQM</span><span class="rb">完工實景 · As-built</span></div></div>
+        <div class="s3 aside-note cjk"><b>Featured · 旗艦案</b>在持續營運且具高度保全需求的企業總部中，以分區施工完成接待、開放辦公、會議與主管空間的整合翻新——維持日常營運不中斷，零重大缺失驗收。</div>
+      </div>
+      <div class="g">
+        <div class="s6"><div class="ph empty">gallery-02 · 電梯廳</div></div>
+        <div class="s6"><div class="ph empty">gallery-03 · 開放辦公</div></div>
+      </div>
+      <div class="band"><h4 class="cjk">設計意圖 ↔ 完工實景<span class="en">Intent ↔ As-built · drag</span></h4><span class="src drawing">示範用同一空間的 BIM 線稿與提案視覺</span></div>
+      <div class="g">
+        <div class="s9">
+          <div class="cmp" id="cmp">
+            <div class="ph c-render" role="img" aria-label="開放辦公區，設計提案視覺"></div>
+            <div class="ph c-line top" role="img" aria-label="同一辦公區的等角 BIM 線稿"></div>
+            <div class="edge" aria-hidden="true"></div>
+            <span class="lab l src drawing">設計圖面 · BIM view</span>
+            <span class="lab r src viz">設計提案視覺 · Design visualisation</span>
+            <input type="range" min="12" max="88" value="52" aria-label="拖曳比較設計圖面與提案視覺" id="cmpr">
+          </div>
+          <div class="dim drawing"><i class="tk l"></i><i class="tk r"></i><span class="lb">同一空間 · 兩種來源 · 各自標示</span><span class="rb">Intent ↔ Visualisation</span></div>
+        </div>
+        <div class="s3 aside-note cjk"><b>Why · 為什麼是賣點</b>業主最常問的不是「效果圖多漂亮」，而是「蓋出來會不會一樣」。把設計圖面和完工實景放在同一個框裡讓人拖，是最直接的回答。正式站用 zhongbao-store-daan 這類有配對影像的案子。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 09 流程雙軌 -->
+<section class="hair" id="s09" data-sheet="A-09" data-name="流程">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l"><div class="eyebrow"><span class="n">A-09</span><span>Process · 流程雙軌同時呈現</span></div><h2 class="cjk">七段是一條管線；外部設計意圖從第 03 段接進來。</h2></div>
+      <div class="r"><p class="cjk">同一張圖上三列：上列是全案七段（AI 介入處以橘紅標記），中列是外部設計意圖委任的五階段，對齊到 03→07 顯示它們是同一條管線的後半；下列是施工交付六步驟，落在 06→07。捲動時一條橘紅進度線沿軌道前進（一支筆），各段 SVG 製圖以 pathLength 畫出。hover／focus 任一段顯示一句業主看得懂的效益。</p></div>
+    </div>
+    <div class="tracks"><div class="inner">
+      <div class="prog"><span>scroll progress</span></div>
+      <div class="track">
+        <div class="lab">Track A<b>全案設計施工</b>01 → 07</div>
+        <div class="stg ai"><div class="i">01</div><div class="en">Site Survey</div><b class="cjk">現況掃描</b><span class="tag">AI</span></div>
+        <div class="stg ai"><div class="i">02</div><div class="en">Parametric Design</div><b class="cjk">參數化方案</b><span class="tag">Parametric</span></div>
+        <div class="stg"><div class="i">03</div><div class="en">Design Intent</div><b class="cjk">設計意圖定案</b></div>
+        <div class="stg"><div class="i">04</div><div class="en">Technical Validation</div><b class="cjk">技術驗證</b></div>
+        <div class="stg ai"><div class="i">05</div><div class="en">BIM Coordination</div><b class="cjk">BIM 協調</b><span class="tag">BIM</span></div>
+        <div class="stg"><div class="i">06</div><div class="en">Construction Documentation</div><b class="cjk">施工圖說</b></div>
+        <div class="stg ai"><div class="i">07</div><div class="en">Site Delivery &amp; AI PM</div><b class="cjk">交付與專案管理</b><span class="tag">AI PM</span></div>
+      </div>
+      <div class="track">
+        <div class="lab">Track B<b>外部設計意圖接手</b>例：金普頓</div>
+        <div class="ph2 none">設計由業主指定團隊完成</div>
+        <div class="ph2 none"></div>
+        <div class="ph2"><div class="i">B1</div><b>Design Intent Review</b><span class="cjk">理解設計目標、品牌語彙</span></div>
+        <div class="ph2"><div class="i">B2</div><b>Technical Validation</b><span class="cjk">尺度、材料、法規、預算</span></div>
+        <div class="ph2"><div class="i">B3</div><b>BIM Coordination</b><span class="cjk">建築、機電、設備界面</span></div>
+        <div class="ph2"><div class="i">B4</div><b>Construction Documentation</b><span class="cjk">圖說、詳圖、工序</span></div>
+        <div class="ph2"><div class="i">B5</div><b>Site Delivery</b><span class="cjk">品管、驗收、竣工文件</span></div>
+      </div>
+      <div class="track">
+        <div class="lab">Track C<b>施工交付六步驟</b>落在 06 → 07</div>
+        <div class="ph2 none"></div><div class="ph2 none"></div><div class="ph2 none"></div><div class="ph2 none"></div><div class="ph2 none"></div>
+        <div class="steps6"><div><span>C1</span>技術詳圖</div><div><span>C2</span>施工文件</div><div><span>C3</span>材料協調</div><div><span>C4</span>樣板確認</div><div><span>C5</span>現場品管</div><div><span>C6</span>竣工交付</div></div>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+<!-- 10 模型空間 -->
+<section class="imm" id="s10" data-sheet="A-10" data-name="智能">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l"><div class="eyebrow"><span class="n">A-10</span><span>AI department · 模型空間</span></div><h2 class="cjk">一個條件改變，整套空間同步更新；圖層一疊，衝突先看見。</h2></div>
+      <div class="r"><p class="cjk">全站唯一的沉浸深底章節，設定為「模型空間」：navy→cool gray 的 HQ Mesh 底層、左下一小角 verm→navy 能量場、6% grain。不堆術語：一個可拉的人數滑桿讓平面、工位與數據同步更新；四個圖層開關讓「BIM 協調」變成看得見的畫面——建築與機電同時打開，衝突點自己浮出來。右上角是跟隨游標的座標讀數。下方全部可操作。</p></div>
+    </div>
+    <div class="ai">
+      <div class="a">
+        <div class="ctrl">
+          <label class="rng" for="hc"><span>Headcount · 人數</span><b id="hcv">36</b></label>
+          <input type="range" id="hc" min="20" max="60" value="36" step="1" aria-describedby="hcnote">
+          <div class="layers" role="group" aria-label="圖層">
+            <span class="k">圖層 · Layers</span>
+            <label class="chk"><input type="checkbox" checked data-layer="gArch"> 建築 Arch</label>
+            <label class="chk"><input type="checkbox" checked data-layer="gMep"> 機電 MEP</label>
+            <label class="chk"><input type="checkbox" checked data-layer="gFfe"> 家具 FF&amp;E</label>
+            <label class="chk"><input type="checkbox" data-layer="gPhase"> 分區 Phasing</label>
+          </div>
+          <div class="readout">
+            <div><span>Workstations · 工位</span><b id="ws">36</b></div>
+            <div><span>Meeting rooms · 會議室</span><b id="mr">3</b></div>
+            <div><span>Net area · 淨面積</span><b id="ar">324 <small>SQM</small></b></div>
+          </div>
+          <p class="small cjk mt5" id="hcnote">示意模型：以每人 9 sqm、每 12 人一間會議室推演。非任何實際案件數據，正式站以專案規則庫驅動。</p>
+        </div>
+        <div class="claims">
+          <div><span>More options</span><div><b class="cjk">多方案，不必多等待</b><span class="cjk">調整輸入條件即可快速比較方案。</span></div></div>
+          <div><span>Clash found early</span><div><b class="cjk">撞管在模型裡被找到</b><span class="cjk">建築、機電、設備先在同一套模型中整合。</span></div></div>
+          <div><span>Human-led</span><div><b class="cjk">人做決策，系統做運算</b><span class="cjk">設計團隊掌握方向，AI 與規則加速推演。</span></div></div>
+        </div>
+      </div>
+      <div class="b">
+        <div class="plan-wrap" id="planwrap">
+          <svg class="plan" viewBox="0 0 600 400" id="plan" role="img" aria-label="參數化平面示意：人數改變時工位與會議室同步更新；圖層可開關">
+            <defs><pattern id="pPhase" width="14" height="200" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)"><rect width="1.5" height="200" fill="#C0C8D2"/></pattern></defs>
+            <g id="gPhase" style="display:none"><rect x="31" y="31" width="269" height="338" fill="url(#pPhase)" opacity=".55"/><text x="40" y="52" font-family="Geist Mono, monospace" font-size="9" fill="#C0C8D2" letter-spacing="1.5">PHASE 1 · 分區進場 · 營運不中斷</text></g>
+            <g id="gArch"><rect x="30" y="30" width="540" height="340" fill="none" stroke="#C0C8D2" stroke-width="2"/><line x1="300" y1="30" x2="300" y2="370" stroke="#C0C8D2" stroke-width="1.5"/><line x1="30" y1="30" x2="60" y2="30" stroke="#ED6D45" stroke-width="3"/><g id="rooms"></g></g>
+            <g id="gMep"><line x1="40" y1="200" x2="560" y2="200" stroke="#6B7785" stroke-width="1.5" stroke-dasharray="6 4"/><line x1="140" y1="40" x2="140" y2="360" stroke="#6B7785" stroke-width="1.5" stroke-dasharray="6 4"/><text x="44" y="194" font-family="Geist Mono, monospace" font-size="8" fill="#6B7785" letter-spacing="1">DUCT 600×300</text></g>
+            <g id="gFfe"><g id="desks"></g></g>
+            <g id="clash"><rect x="291" y="191" width="18" height="18" fill="none" stroke="#ED6D45" stroke-width="1.5"/><line x1="309" y1="191" x2="322" y2="169" stroke="#ED6D45" stroke-width="1"/><text x="326" y="167" font-family="Geist Mono, monospace" font-size="8.5" fill="#ED6D45" letter-spacing="1">CLASH 01 · 進場前解決</text></g>
+            <text x="40" y="360" font-family="Geist Mono, monospace" font-size="10" fill="#6B7785" letter-spacing="1">MODEL SPACE · 示意</text>
+          </svg>
+          <div class="coord" id="coord">X 0 · Y 0 · MM</div>
+        </div>
+        <div class="dim"><i class="tk l"></i><i class="tk r"></i><span class="lb">參數化平面 · 1 px = 20 mm</span><span class="rb">Diagram</span></div>
+        <div class="isos">
+          <figure><div class="iso iso-a" role="img" aria-label="等角 BIM 線稿：會議室"></div><div class="dim drawing"><i class="tk l"></i><i class="tk r"></i><span class="lb">會議室 · 12 人</span><span class="rb">設計圖面 · BIM view</span></div></figure>
+          <figure><div class="iso iso-b" role="img" aria-label="等角 BIM 線稿：接待區"></div><div class="dim drawing"><i class="tk l"></i><i class="tk r"></i><span class="lb">接待區</span><span class="rb">設計圖面 · BIM view</span></div></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 11 品牌資產 -->
+<section class="hair" id="s11" data-sheet="A-11" data-name="資產">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l"><div class="eyebrow"><span class="n">A-11</span><span>Brand assets · 零 logo、零 favicon、零 OG 的補齊</span></div><h2 class="cjk">從 HQ-logo/export 重建，全部統一為 #D64518。</h2></div>
+      <div class="r"><p class="cjk">頁首用系統版橫式 lockup：印記 + Satoshi 700 全大寫 tracking 0.14em 的 HQ DESIGN，中文公司名在下。favicon 是印記 on 橘紅底、9.8% 圓角（唯二例外之一）。OG 預設圖：深藍底、Figma 品牌 pattern @9%、白色 lockup、一條橘紅重音、右下角迷你圖名框；案例頁 OG 用 hero 3:2 置中於 1200×630 加圖名框，只放 <span class="mono">verified</span> 的事實。404 用極淡 pattern 當「此圖未發行」。</p></div>
+    </div>
+    <div class="assets">
+      <div class="og">
+        <div class="ogm" role="img" aria-label="OG 預設圖示意">
+          <div class="pat">{{PAT:cc}}</div>
+          <span class="acc"></span>
+          <span class="tag">AI Parametric × Construction Execution</span>
+          <div class="lk"><svg viewBox="0 0 1024 1024" aria-hidden="true"><g fill="#fff"><path d="M678.995 420H520.334L490.889 369H649.55L678.995 420Z"/><path d="M822 420V745H707.974L737.418 796H873V369H747.263L776.708 420H822Z"/><path d="M263.301 279L233.856 228H568.144L597.589 279H263.301Z"/><path d="M582 228L692.851 420H762.851L652 228H582Z"/><path d="M201 340.334L150 251.999V646H553.103L523.658 595H201V340.334Z"/><path d="M220 228H150L354.959 583H424.959L220 228Z"/><path d="M723.562 796L432 291H362L653.562 796H723.562Z"/><path d="M344.716 420L315.216 369H393.216L422.569 420H344.716Z"/></g></svg><div><b>HQ DESIGN</b><small>惠強室內裝修股份有限公司</small></div></div>
+          <div class="tbm"><div>Sheet OG-00</div><div>Since 1995</div><div>Taipei</div><div>ZH / EN</div></div>
+        </div>
+        <p class="small mono mt5">og-default.png · 1200×630 · navy 700 · figma pattern @9% · one vermillion slash · mini title block</p>
+        <div class="navm" aria-label="頁首示意">
+          <div class="lockup"><svg viewBox="0 0 1024 1024" aria-hidden="true"><rect width="1024" height="1024" rx="100" fill="var(--brand)"/><g fill="#fff"><path d="M678.995 420H520.334L490.889 369H649.55L678.995 420Z"/><path d="M822 420V745H707.974L737.418 796H873V369H747.263L776.708 420H822Z"/><path d="M263.301 279L233.856 228H568.144L597.589 279H263.301Z"/><path d="M582 228L692.851 420H762.851L652 228H582Z"/><path d="M201 340.334L150 251.999V646H553.103L523.658 595H201V340.334Z"/><path d="M220 228H150L354.959 583H424.959L220 228Z"/><path d="M723.562 796L432 291H362L653.562 796H723.562Z"/><path d="M344.716 420L315.216 369H393.216L422.569 420H344.716Z"/></g></svg><div><b>HQ Design</b><small>惠強室內裝修</small></div></div>
+          <ul><li>實績</li><li>設計流程</li><li>服務項目</li><li>關於惠強</li><li>加入我們</li></ul>
+          <a class="btn" href="#top" style="padding:9px 14px;font-size:13px">洽詢專案 <span class="ar">→</span></a>
+        </div>
+        <p class="small mono mt5">sticky bar · 64px → 56px on scroll · hairline bottom · one .btn per viewport · 語言切換移到圖名框</p>
+        <div class="pat faint nf" role="img" aria-label="404 頁示意">{{PAT:cc}}<div class="over"><span class="src drawing">Sheet not issued · 404</span><b>此圖未發行。</b><span class="mono">回實績 →</span></div></div>
+      </div>
+      <div class="fav">
+        <div class="favs">
+          <div class="fav1"><svg viewBox="0 0 1024 1024" aria-hidden="true"><g fill="#fff"><path d="M678.995 420H520.334L490.889 369H649.55L678.995 420Z"/><path d="M822 420V745H707.974L737.418 796H873V369H747.263L776.708 420H822Z"/><path d="M263.301 279L233.856 228H568.144L597.589 279H263.301Z"/><path d="M582 228L692.851 420H762.851L652 228H582Z"/><path d="M201 340.334L150 251.999V646H553.103L523.658 595H201V340.334Z"/><path d="M220 228H150L354.959 583H424.959L220 228Z"/><path d="M723.562 796L432 291H362L653.562 796H723.562Z"/><path d="M344.716 420L315.216 369H393.216L422.569 420H344.716Z"/></g></svg></div>
+          <div class="fav2"><svg viewBox="0 0 1024 1024" aria-hidden="true"><g fill="#fff"><path d="M678.995 420H520.334L490.889 369H649.55L678.995 420Z"/><path d="M822 420V745H707.974L737.418 796H873V369H747.263L776.708 420H822Z"/><path d="M263.301 279L233.856 228H568.144L597.589 279H263.301Z"/><path d="M582 228L692.851 420H762.851L652 228H582Z"/><path d="M201 340.334L150 251.999V646H553.103L523.658 595H201V340.334Z"/><path d="M220 228H150L354.959 583H424.959L220 228Z"/><path d="M723.562 796L432 291H362L653.562 796H723.562Z"/><path d="M344.716 420L315.216 369H393.216L422.569 420H344.716Z"/></g></svg></div>
+          <div class="fav3"><svg viewBox="0 0 1024 1024" aria-hidden="true"><g fill="#fff"><path d="M678.995 420H520.334L490.889 369H649.55L678.995 420Z"/><path d="M822 420V745H707.974L737.418 796H873V369H747.263L776.708 420H822Z"/><path d="M263.301 279L233.856 228H568.144L597.589 279H263.301Z"/><path d="M201 340.334L150 251.999V646H553.103L523.658 595H201V340.334Z"/><path d="M723.562 796L432 291H362L653.562 796H723.562Z"/></g></svg></div>
+        </div>
+        <div class="favcap">favicon.svg · icon-192 · icon-512 · apple-touch-180<br>rx 9.8% · mark white on #D64518<br>16px 以下省略最細次階斜線（幾何標準 v2 §6）</div>
+        <div class="favcap" style="margin-top:var(--s6);border-top:1px solid var(--line);padding-top:var(--s4)">Sources<br>HQ-logo/export/HQ-logo.svg · mark<br>HQ-logo/export/HQ-logo-wordmark.svg · lockup<br>Figma 1073-100220 · brand pattern（本頁已抽取向量）<br>LOGO/ 資料夾 #DB421A 全部不用</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 12 路由與檢核 -->
+<section class="hair" id="s12" data-sheet="A-12" data-name="閘門">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l"><div class="eyebrow"><span class="n">A-12</span><span>Routes, gates &amp; budget · 頁面、閘門與效能預算</span></div><h2 class="cjk">十類頁面、兩個語系、七道閘門、一份效能預算。</h2></div>
+      <div class="r"><p class="cjk">路由與 301 由內容層已定：<span class="mono">/zh</span>、<span class="mono">/en</span> 皆帶前綴，27 條舊網址已對照。設計層只新增頁面與元件，不改資料介面；每張影像的標示只能從 <span class="mono">sourceLabel(prov, locale)</span> 取得。實用性有數字：效能預算是驗收條件，不是願望。</p></div>
+    </div>
+    <div class="two">
+      <div class="a scroll">
+        <table class="tbl">
+          <thead><tr><th>Route</th><th>頁面</th><th>關鍵互動</th></tr></thead>
+          <tbody>
+            <tr><td class="m">/{locale}</td><td class="k cjk">首頁</td><td class="cjk">拼貼場視差＋尺寸線、tile→hero 轉場、流程進度線、模型空間</td></tr>
+            <tr><td class="m">/{locale}/work</td><td class="k cjk">實績</td><td class="cjk">圖例 filter＋找圖 search（URL 同步）、layout 重排、雙圖集、名冊列</td></tr>
+            <tr><td class="m">/{locale}/work/[slug]</td><td class="k cjk">案例 ×33</td><td class="cjk">共享元素 hero、對照 wipe、lightbox、影像性質區塊、相關案例</td></tr>
+            <tr><td class="m">/{locale}/process</td><td class="k cjk">流程總覽</td><td class="cjk">三軌同圖、hover 效益、兩種委任模式</td></tr>
+            <tr><td class="m">/{locale}/process/[stage]</td><td class="k cjk">七段 ×7</td><td class="cjk">問句 h1、輸入／輸出、SVG 製圖 pathLength 畫出</td></tr>
+            <tr><td class="m">/{locale}/services</td><td class="k cjk">服務</td><td class="cjk">十項服務名冊、五部門樹狀圖（髮絲線）</td></tr>
+            <tr><td class="m">/{locale}/about</td><td class="k cjk">關於</td><td class="cjk">八節點里程碑（1995.1→2026.4）作為一條尺寸線、AI 部門</td></tr>
+            <tr><td class="m">/{locale}/careers</td><td class="k cjk">加入我們</td><td class="cjk">4 職缺、價值與福利改為 mono 編號＋60° 短線</td></tr>
+            <tr><td class="m">/{locale}/contact</td><td class="k cjk">聯絡</td><td class="cjk">「第一次會議六件事」勾選→預填表單→mono 需求摘要→Formspree xeendgkz</td></tr>
+            <tr><td class="m">/404</td><td class="k cjk">此圖未發行</td><td class="cjk">極淡品牌 pattern、圖名框顯示 SHEET NOT ISSUED、回實績</td></tr>
+          </tbody>
+        </table>
+        <table class="tbl mt7">
+          <thead><tr><th>效能預算</th><th>目標</th><th>量測</th></tr></thead>
+          <tbody>
+            <tr><td class="k cjk">LCP（首頁、4G 模擬）</td><td class="m">≤ 2.0 s</td><td class="cjk">Vercel preview + Lighthouse CI</td></tr>
+            <tr><td class="k cjk">Hero 影像</td><td class="m">≤ 180 KB AVIF</td><td class="cjk">影像管線輸出檢查</td></tr>
+            <tr><td class="k cjk">首頁 client JS</td><td class="m">≤ 90 KB gz</td><td class="cjk">Motion 只進 client islands</td></tr>
+            <tr><td class="k cjk">CLS</td><td class="m">0</td><td class="cjk">所有影像帶 aspect-ratio 與尺寸</td></tr>
+            <tr><td class="k cjk">INP</td><td class="m">&lt; 200 ms</td><td class="cjk">拼貼只寫 CSS 變數，不觸發 re-render</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="b principles">
+        <ul>
+          <li><b class="cjk">Build-time lint</b><span class="cjk">無襯線體、無 emoji、無 100vh、圓角只有 4px／9.8%、漸層只允許 HQ Mesh 四組配對、單一 h1、canonical 齊全。</span></li>
+          <li><b class="cjk">來源標示稽核</b><span class="cjk">每張 img 都在帶 data-provenance 的 figure 內，尺寸線的 rb 由 prov 推導；13 個 viz 案不得出現 AS-BUILT。</span></li>
+          <li><b class="cjk">--brand 像素稽核</b><span class="cjk">Playwright 截圖逐頁計算橘紅像素（含 mesh 內的橘紅），≤ 0.10。</span></li>
+          <li><b class="cjk">a11y 與 reduced-motion</b><span class="cjk">鍵盤走完 nav／圖例／找圖／card／gallery／wipe／圖層；Esc 關閉；減少動態下仍能完成導航。</span></li>
+          <li><b class="cjk">301 與 hreflang</b><span class="cjk">27 條逐條驗證；zh／en 互指 alternate。</span></li>
+          <li><b class="cjk">個資閘門</b><span class="cjk">影像改名 slug-role-NN、EXIF／XMP 剝除，對照表存在版控外。</span></li>
+          <li><b class="cjk">Vercel preview 走完整站</b><span class="cjk">首頁 → 實績 → 案例 → 流程 → careers → 聯絡，三個 viewport。</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 13 Codex 銜接 -->
+<section class="hair" id="s13" data-sheet="A-13" data-name="銜接">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l"><div class="eyebrow"><span class="n">A-13</span><span>Codex handoff · 已完成元件的銜接方案</span></div><h2 class="cjk">沿用四樣、改寫三樣、不搬一樣。</h2></div>
+      <div class="r"><p class="cjk">依 <span class="mono">CLAUDE-INTEGRATION-HANDOFF.md</span> 與 motion worktree 的四個元件（共 366 行）逐一判定。沿用的是骨架與模式，不是樣式；資料一律改接內容層的 <span class="mono">getAllProjects / toCardData / sourceLabel</span>，prototype 的 <span class="mono">lib/projects.ts</span> 不移植。Framer 元件已轉為 <span class="mono">HqUnfocusedMesh</span>，見表末列與附件。</p></div>
+    </div>
+    <div class="scroll mt7">
+      <table class="tbl">
+        <thead><tr><th>Codex 產出</th><th>判定</th><th>怎麼用</th><th>要改什麼</th></tr></thead>
+        <tbody>
+          <tr><td class="k m">lib/motion.ts · hqMotion</td><td class="k cjk">沿用</td><td class="cjk">直接搬到 <span class="mono">web/lib/motion.ts</span>；ease.brand 已與 hq.css 同源</td><td class="cjk">加 ease.soft、spring.scroll、reveal.y 三個 token</td></tr>
+          <tr><td class="k m">ProjectsBrowser</td><td class="k cjk">沿用模式</td><td class="cjk">LayoutGroup + AnimatePresence popLayout + layout 重排是對的</td><td class="cjk">資料改 ProjectCardData；filter 改圖例、search 改找圖並同步 URL；兩圖集分帶；空狀態用極淡 pattern</td></tr>
+          <tr><td class="k m">layoutId project-photo-&lt;slug&gt;</td><td class="k cjk">沿用</td><td class="cjk">首頁 tile → 列表卡 → 案例 hero 同一條共享元素鏈</td><td class="cjk">加 sourceRect 缺席時的淡入 fallback；hero 不再滿版</td></tr>
+          <tr><td class="k m">SiteNavigation</td><td class="k cjk">沿用骨架</td><td class="cjk">aria-expanded、AnimatePresence 行動選單</td><td class="cjk">選單改 60° 斜切幕；語言切換移到圖名框；連結接 next-intl 路由</td></tr>
+          <tr><td class="k m">ProjectMosaic</td><td class="k cjk">改寫</td><td class="cjk">保留 useScroll → useSpring 的跟隨手感</td><td class="cjk">釘住整個 stage 放大的做法改為不釘住的三層視差；tile 加尺寸線；移除 rotate 與「Scroll to explore」（facts.md 禁用詞）</td></tr>
+          <tr><td class="k m">ProjectDetail</td><td class="k cjk">改寫</td><td class="cjk">保留 hero layoutId 與 close 連結</td><td class="cjk">滿版 hero + 漸層 scrim + ×，改為圖名框 + 9 欄 hero + 尺寸線 + mono「關閉 · ESC」</td></tr>
+          <tr><td class="k m">app/globals.css · hq-tokens.css</td><td class="k cjk">不搬</td><td class="cjk">token 改由 Claude 的 sync 從 ds-bundle 產生到 web/app/_ds</td><td class="cjk">prototype 樣式（WE MAKE SPACE MEANINGFUL 等文案與版面）不進正式站</td></tr>
+          <tr><td class="k m">lib/projects.ts · content/*.json</td><td class="k cjk">不搬</td><td class="cjk">只當互動參考</td><td class="cjk">資料權威是 repo 根 content/projects（33 案、verified 欄位）</td></tr>
+          <tr><td class="k m">Framer 元件 → HqUnfocusedMesh</td><td class="k cjk">已轉換</td><td class="cjk">節點 RhV2IHfHj 是純 CSS 的漸進模糊效果（清晰源 → 遮罩模糊層 → 顆粒 → vignette），非 WebGL。已轉成只依賴 react 與 motion/react 的元件，預設 navy→cool gray mesh 加一條 60° 橘紅色帶（約 3.3%）</td><td class="cjk">移除色散、失真、blur-glow 與玻璃面板；角度鎖定 0/30/60/90/120/150；grain 上限 8%；用於模型空間底層或章節轉場</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- 14 變更 -->
+<section class="hair" id="s14" data-sheet="A-14" data-name="變更">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l"><div class="eyebrow"><span class="n">A-14</span><span>Revision · v0.1 → v0.2 變更與理由</span></div><h2 class="cjk">參考只是參考。這一版把借來的換成自己的。</h2></div>
+      <div class="r"><p class="cjk">v0.1 在結構上仍是「現有靜態站的排版 + Powerhouse 的拼貼」。v0.2 逐項換成從惠強施工圖說慣例長出來的裝置，每一項都有實用理由，不是為了不同而不同。</p></div>
+    </div>
+    <div class="scroll mt7">
+      <table class="tbl">
+        <thead><tr><th>項目</th><th>v0.1</th><th>v0.2</th><th>為什麼</th></tr></thead>
+        <tbody>
+          <tr><td class="k cjk">常駐 chrome</td><td class="cjk">頁首 sticky bar 含語言切換</td><td class="cjk">頁首只留 lockup、選單、一個 CTA；新增右下角圖名框承載圖號、圖名、版次、語言、頁碼</td><td class="cjk">麵包屑、進度、語言三合一；手機拇指可及；業主看圖名框不用學</td></tr>
+          <tr><td class="k cjk">圖說</td><td class="cjk">影像下方文字 caption + 來源標示</td><td class="cjk">尺寸線：60° tick、線上真實數據、右端來源標示</td><td class="cjk">一個元件同時是品牌 slash、可稽核事實與標示；hover 畫線是自然的動態</td></tr>
+          <tr><td class="k cjk">解釋 AI／BIM</td><td class="cjk">滑桿 + 等角圖</td><td class="cjk">滑桿 + 四個圖層開關 + 衝突標記 + 座標讀數 + 模型空間 mesh</td><td class="cjk">「撞管在模型裡被找到」從口號變成可操作的畫面</td></tr>
+          <tr><td class="k cjk">誠實標示</td><td class="cjk">標示與影像性質區塊</td><td class="cjk">加上設計意圖 ↔ 完工實景的 60° wipe 對照</td><td class="cjk">把紅線變賣點：回答「蓋出來會不會一樣」</td></tr>
+          <tr><td class="k cjk">品牌 pattern</td><td class="cjk">手繪的 51/12/63 線條系統</td><td class="cjk">Figma 1073-100220 原始向量，重上色為 currentColor 四種用法</td><td class="cjk">用品牌自己的圖紋，不重畫</td></tr>
+          <tr><td class="k cjk">漸層</td><td class="cjk">全面禁止</td><td class="cjk">開放 HQ Mesh 四組配對 + 3–8% grain，只作大面積底層</td><td class="cjk">你的裁示；CIS §3.4 本來就允許受控漸層</td></tr>
+          <tr><td class="k cjk">桌機導航</td><td class="cjk">無</td><td class="cjk">左緣直排圖紙索引，捲動同步</td><td class="cjk">長頁有座標；直排是台灣圖冊裝訂邊的語言</td></tr>
+          <tr><td class="k cjk">Display 字體</td><td class="cjk">Satoshi 700 + ×</td><td class="cjk">Satoshi 300 對 700，× 改 60° slash 字形</td><td class="cjk">細粗對比像英文標註對中文圖名；品牌角度進入標題</td></tr>
+          <tr><td class="k cjk">實績 filter</td><td class="cjk">chips + search</td><td class="cjk">圖例 legend + 找圖；兩帶命名為竣工圖集／設計圖集</td><td class="cjk">用圖說的詞，不用 SaaS 的詞</td></tr>
+          <tr><td class="k cjk">Codex 元件</td><td class="cjk">未評估</td><td class="cjk">逐一判定沿用／改寫／不搬（A-13）</td><td class="cjk">不重做已經對的東西</td></tr>
+          <tr><td class="k cjk">驗收</td><td class="cjk">七道閘門</td><td class="cjk">七道閘門 + 五項效能預算</td><td class="cjk">實用性要有數字</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- 15 待裁決 -->
+<section class="hair" id="s15" data-sheet="A-15" data-name="裁決">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l"><div class="eyebrow"><span class="n">A-15</span><span>Decisions · 需要你裁決的事</span></div><h2 class="cjk">七件事，其餘我已決定並可回溯。</h2></div>
+      <div class="r"><p class="cjk">標示「建議」的是我的推薦。你回覆編號與選項即可開工。</p></div>
+    </div>
+    <div class="dec">
+      <div class="d"><div class="n">D1</div><div><h4 class="cjk">工作區：在目前 checkout 的 web/app、web/components 直接動手</h4><p class="cjk">repo 根的 COORDINATION.md 已把這兩個目錄、globals.css 與 design/ 劃給我，且目前只有可整份取代的最小骨架，與其他兩方沒有檔案重疊。開獨立 worktree 會在 Dropbox 內再複製一份 525 MB 影像。</p><div class="opt"><span class="rec">A · 目前 checkout，只動我擁有的路徑（建議）</span><span>B · 新 worktree feat/web-design</span><span>C · 先停下審閱</span></div></div></div>
+      <div class="d"><div class="n">D2</div><div><h4 class="cjk">首頁第一屏：Powerhouse 式捲動影像場＋尺寸線（使用者已確認 A）</h4><p class="cjk">A 是本提案的作品場，B 是 Figma 封面式的橘紅 pattern 場加大標。B 一屏就會用掉整頁的橘紅預算，且違反「橘紅是重點不是底色」；橘紅 pattern 留給 OG 與封面。</p><div class="opt"><span class="rec">A · 拼貼場（建議）</span><span>B · 封面式 statement</span></div></div></div>
+      <div class="d"><div class="n">D3</div><div><h4 class="cjk">內容層三個介面：已由另一位 Claude 實作完成，只需你確認命名</h4><p class="cjk"><span class="mono">sourceLabel(prov, locale, variant)</span> 新增 drawing 家族的 bim 變體「設計圖面 · BIM VIEW」；<span class="mono">ProjectImage.focal</span> 已加；<span class="mono">Project.pairs</span> 已加且 intent 允許為 null（目前只有 zhongbao-store-daan 一組，設計意圖那半尚無同機位渲染，對照 wipe 會以空狀態呈現，不拿別角度的圖湊對）。typecheck、內容閘門 33/33、build 皆綠燈。</p><div class="opt"><span class="rec">A · 接受 BIM VIEW 命名（建議）</span><span>B · 改名，另行指定</span></div></div></div>
+      <div class="d"><div class="n">D4</div><div><h4 class="cjk">16:9 的 AI 視覺母檔裁成 3:2</h4><p class="cjk">26 張 final 渲染全是 5504×3072。3:2 規則下必須裁掉 16% 寬度，由每張圖的 focal 欄位控制裁切中心。</p><div class="opt"><span class="rec">A · 置中裁切＋focal 欄位（建議）</span><span>B · 允許 16:9 例外</span></div></div></div>
+      <div class="d"><div class="n">D5</div><div><h4 class="cjk">兩個事實衝突要定案</h4><p class="cjk">careers.json 寫 31+ 年而 facts.md 與首頁寫 30+；舊站 CTA 用 hello@hqdesign.tw 而 site.ts 用 info@。建議一律以 facts.md／site.ts 為準：30+、info@。</p><div class="opt"><span class="rec">A · 30+ 與 info@（建議）</span><span>B · 另行指定</span></div></div></div>
+      <div class="d"><div class="n">D6</div><div><h4 class="cjk">首頁拼貼要不要放設計提案視覺</h4><p class="cjk">本示範放了兩張 viz（POLYTRON、AIONTECH），尺寸線 tick 改為灰、標示為 Design visualisation。若你希望第一屏只出現完工實景，拼貼改為 12 張全 as-built。</p><div class="opt"><span class="rec">A · 可混入、每張標示（建議）</span><span>B · 第一屏只放完工實景</span></div></div></div>
+<div class="d"><div class="n">D7</div><div><h4 class="cjk">14 張直式（2:3）影像怎麼進 3:2 的版面</h4><p class="cjk">影像管線刻意不裁切、保留原比例：3:2 有 64 張、AI 渲染 1.79 有 29 張、直式 2:3 有 14 張、4:3 有 6 張。卡片、拼貼、hero 一律維持 3:2 框並用 focal 定位沒有問題；但直式圖放進 3:2 框只剩 44% 高度。建議把「影像一律 3:2」的硬規則限縮為「卡片、拼貼、hero 一律 3:2」，案例頁圖集允許直式圖以 2:3 框、成對放進 4 欄位，仍走 9／6／4 欄。</p><div class="opt"><span class="rec">A · 圖集允許 2:3 例外，其餘維持 3:2（建議）</span><span>B · 全部硬裁 3:2 用 focal</span><span>C · 直式圖降為 context 縮圖</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="grid">
+      <div class="a"><div class="lockup" style="margin-bottom:var(--s3)"><svg viewBox="0 0 1024 1024" aria-hidden="true"><rect width="1024" height="1024" rx="100" fill="var(--brand)"/><g fill="#fff"><path d="M678.995 420H520.334L490.889 369H649.55L678.995 420Z"/><path d="M822 420V745H707.974L737.418 796H873V369H747.263L776.708 420H822Z"/><path d="M263.301 279L233.856 228H568.144L597.589 279H263.301Z"/><path d="M582 228L692.851 420H762.851L652 228H582Z"/><path d="M201 340.334L150 251.999V646H553.103L523.658 595H201V340.334Z"/><path d="M220 228H150L354.959 583H424.959L220 228Z"/><path d="M723.562 796L432 291H362L653.562 796H723.562Z"/><path d="M344.716 420L315.216 369H393.216L422.569 420H344.716Z"/></g></svg><div><b>HQ Design</b><small>惠強室內裝修股份有限公司</small></div></div><p class="mono">Token 3.0 · ds-bundle/tokens/hq.css<br>幾何 · HQ-線條與標誌幾何標準-v2.md · 品牌 pattern · Figma 1073-100220<br>互動參考 · HQ Design React Project Experience System.md · Motion-first 動畫元件系統.md · CLAUDE-INTEGRATION-HANDOFF.md</p></div>
+      <div class="b"><p class="mono">此頁本身的規則自檢：襯線體 0 · 圓角 只有 .btn 4px 與印記 9.8% · emoji 0 · 100vh 0 · 漸層 只有 HQ Mesh 四組配對 · 漸層文字 0 · 玻璃擬態 0 · 角度 0／30／60／90 · 影像 3:2 全部帶尺寸線與標示<br>示範影像取自 site/assets/img/work 縮圖，等角線稿與渲染取自 Figma 簡介 p07／p08／p32。</p></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* 圖名框 + 圖紙索引：捲動同步 */
+  var secs = Array.prototype.slice.call(document.querySelectorAll('section[data-sheet]'));
+  var tbSheet = document.getElementById('tb-sheet'), tbName = document.getElementById('tb-name'), tbPage = document.getElementById('tb-page');
+  var railLinks = Array.prototype.slice.call(document.querySelectorAll('.rail a'));
+  var total = secs.length, current = null;
+  function setSheet(sec){
+    if (sec === current) return; current = sec;
+    var i = secs.indexOf(sec);
+    tbSheet.textContent = sec.getAttribute('data-sheet');
+    tbName.textContent = sec.getAttribute('data-name');
+    tbPage.textContent = (i+1 < 10 ? '0' : '') + (i+1) + ' / ' + total;
+    railLinks.forEach(function(a){ a.classList.toggle('on', a.getAttribute('data-sheet') === sec.id); });
+  }
+  if ('IntersectionObserver' in window){
+    var ratios = new Map();
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ ratios.set(e.target, e.isIntersecting ? e.intersectionRatio : 0); });
+      var best = null, br = -1;
+      secs.forEach(function(s){ var r = ratios.get(s) || 0; if (r > br){ br = r; best = s; } });
+      if (best && br > 0) setSheet(best);
+    }, {threshold:[0, .1, .25, .5, .75, 1]});
+    secs.forEach(function(s){ io.observe(s); });
+  }
+  setSheet(secs[0]);
+
+  /* 首頁拼貼：視差 + 中心 tile。只改 CSS 變數，不做 layout。 */
+  var tiles = Array.prototype.slice.call(document.querySelectorAll('#mz .tile'));
+  var raf = 0;
+  function frame(){
+    raf = 0;
+    var vh = window.innerHeight, cy = vh/2, best = null, bd = 1e9;
+    tiles.forEach(function(t){
+      var r = t.getBoundingClientRect();
+      var c = r.top + r.height/2;
+      var d = (c - cy)/vh;
+      var depth = parseFloat(t.getAttribute('data-depth')) || 1;
+      var py = reduce ? 0 : (-d * (depth - 1) * 90);
+      var dist = Math.abs(d);
+      if (dist < bd){ bd = dist; best = t; }
+      t.style.setProperty('--py', py.toFixed(1) + 'px');
+      var dim = 0.55 + (1 - Math.min(dist * 1.5, 1)) * 0.45;
+      t.style.setProperty('--dim', dim.toFixed(3));
+    });
+    tiles.forEach(function(t){ t.classList.toggle('is-active', t === best && bd < 0.32); });
+  }
+  function req(){ if(!raf) raf = requestAnimationFrame(frame); }
+  window.addEventListener('scroll', req, {passive:true});
+  window.addEventListener('resize', req);
+  frame();
+
+  /* 對照 wipe */
+  var cmp = document.getElementById('cmp'), cmpr = document.getElementById('cmpr');
+  if (cmp && cmpr){ cmpr.addEventListener('input', function(){ cmp.style.setProperty('--v', cmpr.value + '%'); }); }
+
+  /* 模型空間：人數 → 平面；圖層開關；座標讀數。示意模型。 */
+  var hc = document.getElementById('hc');
+  if (hc){
+    var desks = document.getElementById('desks'), rooms = document.getElementById('rooms');
+    var hcv = document.getElementById('hcv'), ws = document.getElementById('ws'), mr = document.getElementById('mr'), ar = document.getElementById('ar');
+    function render(n){
+      n = parseInt(n,10);
+      var roomsN = Math.ceil(n/12);
+      hcv.textContent = n; ws.textContent = n; mr.textContent = roomsN;
+      ar.innerHTML = (n*9).toLocaleString('en-US') + ' <small>SQM</small>';
+      var d = '', perRow = 6, x0 = 44, y0 = 60, dw = 34, dh = 20, gx = 8, gy = 20;
+      for (var i=0;i<n;i++){
+        var row = Math.floor(i/perRow), col = i%perRow;
+        var x = x0 + col*(dw+gx), y = y0 + row*(dh+gy);
+        if (y + dh + 14 > 340) break;
+        d += '<rect x="'+x+'" y="'+y+'" width="'+dw+'" height="'+dh+'" fill="none" stroke="#C0C8D2" stroke-width="1.1"/>';
+        d += '<rect x="'+(x+11)+'" y="'+(y+dh+4)+'" width="12" height="7" fill="#6B7785"/>';
+      }
+      desks.innerHTML = d;
+      var r = '', rw = 96, rh = 56, rx = 570 - 30 - rw;
+      for (var j=0;j<roomsN;j++){
+        var ry = 60 + j*(rh+14);
+        if (ry + rh > 340) break;
+        r += '<rect x="'+rx+'" y="'+ry+'" width="'+rw+'" height="'+rh+'" fill="none" stroke="#FFFFFF" stroke-width="1.6"/>';
+        r += '<line x1="'+(rx+14)+'" y1="'+(ry+rh/2)+'" x2="'+(rx+rw-14)+'" y2="'+(ry+rh/2)+'" stroke="#C0C8D2" stroke-width="1"/>';
+        r += '<text x="'+(rx+6)+'" y="'+(ry+12)+'" font-family="Geist Mono, monospace" font-size="8" fill="#6B7785" letter-spacing="1">MR-0'+(j+1)+'</text>';
+      }
+      rooms.innerHTML = r;
+    }
+    hc.addEventListener('input', function(){ render(hc.value); });
+    render(hc.value);
+
+    var checks = Array.prototype.slice.call(document.querySelectorAll('.layers input[data-layer]'));
+    var clash = document.getElementById('clash');
+    function layers(){
+      var on = {};
+      checks.forEach(function(c){ var g = document.getElementById(c.getAttribute('data-layer')); on[c.getAttribute('data-layer')] = c.checked; if (g) g.style.display = c.checked ? '' : 'none'; });
+      if (clash) clash.style.display = (on.gArch && on.gMep) ? '' : 'none';
+    }
+    checks.forEach(function(c){ c.addEventListener('change', layers); });
+    layers();
+
+    var wrap = document.getElementById('planwrap'), coord = document.getElementById('coord'), plan = document.getElementById('plan');
+    if (wrap && coord && plan){
+      wrap.addEventListener('pointermove', function(e){
+        var r = plan.getBoundingClientRect();
+        var x = Math.max(0, Math.min(1, (e.clientX - r.left)/r.width)) * 600;
+        var y = Math.max(0, Math.min(1, (e.clientY - r.top)/r.height)) * 400;
+        coord.textContent = 'X ' + Math.round(x*20).toLocaleString('en-US') + ' · Y ' + Math.round(y*20).toLocaleString('en-US') + ' · MM';
+      });
+      wrap.addEventListener('pointerleave', function(){ coord.textContent = 'X 0 · Y 0 · MM'; });
+    }
+  }
+})();
+</script>

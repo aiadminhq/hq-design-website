@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-09-06T18:15:15+08:00",
+  "status": "live_project_xml_partial_readback",
+  "authority": "Framer MCP getProjectXml, then getNodeXml for pages/components and readCodeFile for Code Components",
+  "mcp": {
+    "initialize": {"status": "success", "protocolVersion": "2025-03-26", "server": "Framer MCP", "version": "1.8.0"},
+    "toolsList": {"status": "success", "readOnlyToolsObserved": ["getProjectWebsiteUrl", "getProjectXml", "getNodeXml", "readCodeFile"]},
+    "getProjectWebsiteUrl": {"status": "success", "production": "https://christianwu.framer.ai", "staging": "https://gracious-successes-409813.framer.app"},
+    "getProjectXml": {"status": "success", "pages": 22, "reusableComponents": 231, "codeComponents": 56}
+  },
+  "priorReadOnlyPreflight": {
+    "pages": 22,
+    "reusableComponents": 231,
+    "codeComponents": 56,
+    "source": "user-provided task context and prior read-only preflight summary",
+    "revalidatedInThisRun": true
+  },
+  "requiredRowSchema": ["nodeId", "name", "type", "variants", "props", "referencedPages", "codeFile", "sourceEvidence"],
+  "components": [
+    {"nodeId": "ClWUvICnj", "name": "Navigation", "type": "reusableComponent", "variants": "instance variants observed", "props": "instance props observed", "referencedPages": ["/", "/old-home", "/projects/Spatial-Design/:slug", "/projects/uiux-design-1/:title", "/ravenel"], "codeFile": null, "sourceEvidence": "live page XML instance references"},
+    {"nodeId": "RMWQkGShv", "name": "Card-Portfolio-Vertical", "type": "reusableComponent", "variants": "WJLtNbXWy observed on homepage", "props": "FZo_azgDr, snsAGcMvn, HnYIRMAe6, PzpRJ0eZW observed", "referencedPages": ["/"], "codeFile": null, "sourceEvidence": "live homepage XML"},
+    {"nodeId": "AGUPnwAVB", "name": "Gallery Section", "type": "reusableComponent", "variants": "none in component XML", "props": "component XML read; props require semantic mapping", "referencedPages": ["/projects/Spatial-Design/:slug", "/projects/uiux-design-1/:title"], "codeFile": null, "sourceEvidence": "live getNodeXml"},
+    {"nodeId": "HAziGIbgH", "name": "Timeline", "type": "reusableComponent", "variants": ["NYivbzEyg"], "props": "component XML read", "referencedPages": [], "codeFile": null, "sourceEvidence": "live getNodeXml; page references pending"},
+    {"nodeId": "Tz4ObI3jO", "name": "Card/Clients Card", "type": "reusableComponent", "variants": ["JuHc05yDt", "fgDtLefuP"], "props": "component XML read", "referencedPages": [], "codeFile": null, "sourceEvidence": "live getNodeXml; page references pending"},
+    {"nodeId": "kwZpx_ioN", "name": "Hero", "type": "reusableComponent", "variants": "not read", "props": "not read", "referencedPages": [], "codeFile": null, "sourceEvidence": "live project XML only; component child XML limited"},
+    {"nodeId": "nMFCaAwuJ", "name": "Footer", "type": "reusableComponent", "variants": "not read", "props": "not read", "referencedPages": ["/", "/projects/Spatial-Design/:slug", "/projects/uiux-design-1/:title"], "codeFile": null, "sourceEvidence": "live page XML instance references; component XML limited"}
+  ],
+  "staticRuntimeHints": {
+    "identifiableModules": ["ArrowCircleUp.js", "ArrowDown.js", "ArrowElbowDownRight.js", "Browsers.js", "Envelope.js", "LinkedinLogo.js", "MapPin.js", "PhoneCall.js"],
+    "runtimeSignals": ["Motion", "Theme", "Gallery", "FAQ", "Timeline", "WEBGL", "canvas-sandbox"],
+    "interpretation": "These are downloaded runtime/module or DOM-name hints only; they do not prove reusable Framer component source, variants, props, or editable ownership."
+  },
+  "nextReadOnlyPass": [
+    "Read remaining dynamic/template page XML after resolving Node is not a text node limits.",
+    "Read remaining referenced reusable component IDs and complete page-reference mapping.",
+    "Read remaining Code Components and compare normalized code plus exports/props.",
+    "Complete semantic review before any keep/merge/retire recommendation is promoted.",
+    "Do not call update, delete, duplicate, create, CMS mutation, or publish tools."
+  ]
+}

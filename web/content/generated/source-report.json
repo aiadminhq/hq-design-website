@@ -1,0 +1,390 @@
+{
+  "main": "423df0c675c9b6281f78856f65a3a127451fbf73",
+  "projects": [
+    {
+      "slug": "secom-nangang-complex",
+      "images": [
+        "/assets/images/projects/secom-nangang-complex/photo-01.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-06.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-07.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-08.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-68.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-69.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-70.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-71.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-72.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-73.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-74.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-81.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-82.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-83.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-84.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-85.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-86.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-87.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-96.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-97.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-98.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-99.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-100.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-101.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-102.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-109.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-110.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-111.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-112.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-113.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-114.jpg",
+        "/assets/images/projects/zhongbao-nangang/page-115.jpg"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "csun",
+      "images": [
+        "/assets/images/projects/csun/selected-20260923-01.webp",
+        "/assets/images/projects/csun/retouched-20260923-02.webp",
+        "/assets/images/projects/csun/floorplan.jpg"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "zhongbao-showroom",
+      "images": [
+        "/assets/images/projects/zhongbao-showroom/selected-20260923-01.webp",
+        "/assets/images/projects/zhongbao-showroom/selected-20260923-02.webp",
+        "/assets/images/projects/zhongbao-showroom/floorplan.jpg"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "kimpton",
+      "images": [
+        "/assets/images/projects/kimpton/photo-01.jpg",
+        "/assets/images/projects/kimpton/photo-02.jpg",
+        "/assets/images/projects/kimpton/photo-03.jpg",
+        "/assets/images/projects/kimpton/photo-04.jpg",
+        "/assets/images/projects/kimpton/photo-05.jpg",
+        "/assets/images/projects/kimpton/photo-06.jpg",
+        "/assets/images/projects/kimpton/photo-07.jpg",
+        "/assets/images/projects/kimpton/photo-08.jpg",
+        "/assets/images/projects/kimpton/photo-09.jpg",
+        "/assets/images/projects/kimpton/photo-10.jpg"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "aiontech",
+      "images": [
+        "/assets/images/projects/aiontech/selected-20260923-01.webp",
+        "/assets/images/projects/aiontech/selected-20260923-02.webp",
+        "/assets/images/projects/aiontech/floorplan.jpg"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "polytron",
+      "images": [
+        "/assets/images/projects/polytron/selected-20260923-01.webp",
+        "/assets/images/projects/polytron/floorplan.jpg",
+        "/assets/images/projects/polytron/render-02.jpg",
+        "/assets/images/projects/polytron/render-03.jpg",
+        "/assets/images/projects/polytron/render-04.jpg",
+        "/assets/images/projects/polytron/render-05.jpg",
+        "/assets/images/projects/polytron/render-06.jpg",
+        "/assets/images/projects/polytron/render-07.jpg",
+        "/assets/images/projects/polytron/render-08.jpg",
+        "/assets/images/projects/polytron/render-09.jpg",
+        "/assets/images/projects/polytron/render-10.jpg",
+        "/assets/images/projects/polytron/render-11.jpg",
+        "/assets/images/projects/polytron/render-12.jpg",
+        "/assets/images/projects/polytron/render-13.jpg",
+        "/assets/images/projects/polytron/render-14.jpg",
+        "/assets/images/projects/polytron/render-15.jpg",
+        "/assets/images/projects/polytron/render-16.jpg",
+        "/assets/images/projects/polytron/render-17.jpg"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "epicstech-10f",
+      "images": [
+        "/assets/images/projects/epicstech-10f/selected-20260923-01.webp",
+        "/assets/images/projects/epicstech-10f/selected-20260923-02.webp",
+        "/assets/images/projects/epicstech-10f/floorplan.jpg"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "baohua",
+      "images": [
+        "/assets/images/projects/baohua/render-01.jpg",
+        "/assets/images/projects/baohua/floorplan.jpg",
+        "/assets/images/projects/baohua/render-02.jpg",
+        "/assets/images/projects/baohua/render-03.jpg",
+        "/assets/images/projects/baohua/render-04.jpg",
+        "/assets/images/projects/baohua/render-05.jpg",
+        "/assets/images/projects/baohua/render-06.jpg",
+        "/assets/images/projects/baohua/render-07.jpg",
+        "/assets/images/projects/baohua/render-08.jpg",
+        "/assets/images/projects/baohua/render-09.jpg",
+        "/assets/images/projects/baohua/render-10.jpg"
+      ],
+      "areaSource": "User screenshot 2026-09-23",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "xinlan",
+      "images": [
+        "/assets/images/projects/xinlan/selected-20260923-01.webp",
+        "/assets/images/projects/xinlan/selected-20260923-02.webp",
+        "/assets/images/projects/xinlan/floorplan.jpg"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "liwei",
+      "images": [
+        "/assets/images/projects/liwei/selected-20260923-01.webp",
+        "/assets/images/projects/liwei/selected-20260923-02.webp",
+        "/assets/images/projects/liwei/floorplan.jpg"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "lijie",
+      "images": [
+        "/assets/images/projects/lijie/selected-20260923-01.webp",
+        "/assets/images/projects/lijie/selected-20260923-02.webp",
+        "/assets/images/projects/lijie/floorplan.jpg"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "hq-office",
+      "images": [
+        "/assets/images/projects/hq-office/selected-20260923-01.webp",
+        "/assets/images/projects/hq-office/selected-20260923-02.webp",
+        "/assets/images/projects/hq-office/floorplan.jpg"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "zhongbao-baojing",
+      "images": [
+        "/assets/images/projects/zhongbao-baojing/selected-20260923-01.webp",
+        "/assets/images/projects/zhongbao-baojing/selected-20260923-02.webp"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "zhongbao-jingzhen",
+      "images": [
+        "/assets/images/projects/zhongbao-jingzhen/selected-20260923-01.webp",
+        "/assets/images/projects/zhongbao-jingzhen/selected-20260923-02.webp"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "zhongbao-tianhe",
+      "images": [
+        "/assets/images/projects/zhongbao-tianhe/selected-20260923-01.webp",
+        "/assets/images/projects/zhongbao-tianhe/selected-20260923-02.webp"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "ledaojia",
+      "images": [
+        "/assets/images/projects/ledaojia/selected-20260923-01.webp",
+        "/assets/images/projects/ledaojia/selected-20260923-02.webp"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "qijia",
+      "images": [
+        "/assets/images/projects/qijia/retouched-20260923-01.webp",
+        "/assets/images/projects/qijia/retouched-20260923-02.webp",
+        "/assets/images/projects/qijia/retouched-20260923-03.webp",
+        "/assets/images/projects/qijia/retouched-20260923-04.webp",
+        "/assets/images/projects/qijia/retouched-20260923-05.webp",
+        "/assets/images/projects/qijia/retouched-20260923-06.webp",
+        "/assets/images/projects/qijia/retouched-20260923-07.webp",
+        "/assets/images/projects/qijia/retouched-20260923-08.webp"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "soup-spoon-101",
+      "images": [
+        "/assets/images/projects/soup-spoon-101/photo-01.jpg",
+        "/assets/images/projects/soup-spoon-101/photo-02.jpg",
+        "/assets/images/projects/soup-spoon-101/photo-03.jpg"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "soup-spoon-station",
+      "images": [
+        "/assets/images/projects/soup-spoon-station/photo-01.jpg",
+        "/assets/images/projects/soup-spoon-station/photo-02.jpg",
+        "/assets/images/projects/soup-spoon-station/photo-03.jpg",
+        "/assets/images/projects/soup-spoon-station/photo-04.jpg",
+        "/assets/images/projects/soup-spoon-station/photo-05.jpg",
+        "/assets/images/projects/soup-spoon-station/photo-06.jpg",
+        "/assets/images/projects/soup-spoon-station/photo-07.jpg",
+        "/assets/images/projects/soup-spoon-station/photo-08.jpg",
+        "/assets/images/projects/soup-spoon-station/photo-09.jpg",
+        "/assets/images/projects/soup-spoon-station/photo-10.jpg",
+        "/assets/images/projects/soup-spoon-station/photo-11.jpg"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "popeyes",
+      "images": [
+        "/assets/images/projects/popeyes/photo-01.jpg",
+        "/assets/images/projects/popeyes/photo-02.jpg",
+        "/assets/images/projects/popeyes/photo-03.jpg",
+        "/assets/images/projects/popeyes/photo-04.jpg",
+        "/assets/images/projects/popeyes/photo-05.jpg"
+      ],
+      "areaSource": "Notion Area Sqm",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "guochan-office",
+      "images": [
+        "/assets/images/projects/guochan-office/portfolio-20260923-01.webp",
+        "/assets/images/projects/guochan-office/portfolio-20260923-02.webp",
+        "/assets/images/projects/guochan-office/portfolio-20260923-03.webp",
+        "/assets/images/projects/guochan-office/portfolio-20260923-04.webp"
+      ],
+      "areaSource": "User screenshot 2026-09-23",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "guochan-showroom",
+      "images": [
+        "/assets/images/projects/guochan-showroom/portfolio-20260923-01.webp",
+        "/assets/images/projects/guochan-showroom/portfolio-20260923-02.webp",
+        "/assets/images/projects/guochan-showroom/portfolio-20260923-03.webp",
+        "/assets/images/projects/guochan-showroom/portfolio-20260923-04.webp"
+      ],
+      "areaSource": "User screenshot 2026-09-23",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "secom-reception",
+      "images": [
+        "/assets/images/projects/secom-reception/portfolio-20260923-01.webp",
+        "/assets/images/projects/secom-reception/portfolio-20260923-02.webp",
+        "/assets/images/projects/secom-reception/portfolio-20260923-03.webp",
+        "/assets/images/projects/secom-reception/portfolio-20260923-04.webp"
+      ],
+      "areaSource": "User screenshot 2026-09-23",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "longteng-travel",
+      "images": [
+        "/assets/images/projects/longteng-travel/portfolio-20260923-01.webp",
+        "/assets/images/projects/longteng-travel/portfolio-20260923-02.webp",
+        "/assets/images/projects/longteng-travel/portfolio-20260923-03.webp",
+        "/assets/images/projects/longteng-travel/portfolio-20260923-04.webp"
+      ],
+      "areaSource": "Missing",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "transasia-bakery-dayuan",
+      "images": [
+        "/assets/images/projects/transasia-bakery-dayuan/portfolio-20260923-01.webp",
+        "/assets/images/projects/transasia-bakery-dayuan/portfolio-20260923-02.webp",
+        "/assets/images/projects/transasia-bakery-dayuan/portfolio-20260923-03.webp",
+        "/assets/images/projects/transasia-bakery-dayuan/portfolio-20260923-04.webp"
+      ],
+      "areaSource": "Missing",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "transasia-bakery-chunri",
+      "images": [
+        "/assets/images/projects/transasia-bakery-chunri/portfolio-20260923-01.webp",
+        "/assets/images/projects/transasia-bakery-chunri/portfolio-20260923-02.webp",
+        "/assets/images/projects/transasia-bakery-chunri/portfolio-20260923-03.webp"
+      ],
+      "areaSource": "User screenshot 2026-09-23",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "budaejjigae",
+      "images": [
+        "/assets/images/projects/budaejjigae/portfolio-20260923-01.webp",
+        "/assets/images/projects/budaejjigae/portfolio-20260923-02.webp",
+        "/assets/images/projects/budaejjigae/portfolio-20260923-03.webp",
+        "/assets/images/projects/budaejjigae/portfolio-20260923-04.webp"
+      ],
+      "areaSource": "User screenshot 2026-09-23",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    },
+    {
+      "slug": "burger-ray",
+      "images": [
+        "/assets/images/projects/burger-ray/portfolio-20260923-01.webp",
+        "/assets/images/projects/burger-ray/portfolio-20260923-02.webp",
+        "/assets/images/projects/burger-ray/portfolio-20260923-03.webp",
+        "/assets/images/projects/burger-ray/portfolio-20260923-04.webp"
+      ],
+      "areaSource": "User screenshot 2026-09-23",
+      "metadataSource": "Notion",
+      "photoSource": "Approved local individual image selection"
+    }
+  ]
+}

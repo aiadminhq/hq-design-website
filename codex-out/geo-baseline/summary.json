@@ -1,0 +1,1130 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-03T19:45:00+08:00",
+  "scope": "HQ Design GEO pre-optimization baseline",
+  "platform_summary": {
+    "chatgpt": {
+      "queries_completed": 15,
+      "hq_mentions": 10,
+      "mode": "Web Search, new conversation per query"
+    },
+    "claude": {
+      "queries_completed": 15,
+      "hq_mentions": 6,
+      "mode": "Incognito fresh chat per query",
+      "average_wait_ms": 59600
+    },
+    "perplexity": {
+      "queries_completed": 15,
+      "hq_mentions": 6,
+      "mode": "anonymous Search, new session per query"
+    },
+    "google_ai_overview": {
+      "search_pages_captured": 15,
+      "ai_overviews_present": 12,
+      "hq_mentions_in_ai_overview": 5
+    }
+  },
+  "questions": [
+    {
+      "q": 1,
+      "question": "惠強室內裝修是什麼樣的公司？",
+      "chatgpt": {
+        "completed": true,
+        "mentions_hq": true,
+        "conversation_url": "https://chatgpt.com/c/6a9948e3-6940-83e9-8fe5-e7c584cb7561",
+        "source_link_count": 2
+      },
+      "claude": {
+        "completed": true,
+        "mentions_hq": true,
+        "mode": "incognito",
+        "waited_ms": 33000,
+        "source_link_count": 4
+      },
+      "perplexity": {
+        "completed": true,
+        "mentions_hq": true,
+        "search_url": "https://www.perplexity.ai/search/0c578d17-318b-412f-8d28-a8249fc97911",
+        "source_link_count": 4
+      },
+      "google_ai_overview": {
+        "search_page_captured": true,
+        "has_ai_overview": true,
+        "mentions_hq": true,
+        "search_url": "https://www.google.com/search?q=%E6%83%A0%E5%BC%B7%E5%AE%A4%E5%85%A7%E8%A3%9D%E4%BF%AE%E6%98%AF%E4%BB%80%E9%BA%BC%E6%A8%A3%E7%9A%84%E5%85%AC%E5%8F%B8%EF%BC%9F",
+        "source_link_count": 5
+      }
+    },
+    {
+      "q": 2,
+      "question": "What is HQ Design (惠強室內裝修) in Taiwan?",
+      "chatgpt": {
+        "completed": true,
+        "mentions_hq": true,
+        "conversation_url": "https://chatgpt.com/c/6a99496f-5804-83e8-89dc-22208a0663f8",
+        "source_link_count": 3
+      },
+      "claude": {
+        "completed": true,
+        "mentions_hq": true,
+        "mode": "incognito",
+        "waited_ms": 30000,
+        "source_link_count": 3
+      },
+      "perplexity": {
+        "completed": true,
+        "mentions_hq": true,
+        "search_url": "https://www.perplexity.ai/search/6b062420-8865-484c-a8df-0eb78f651043",
+        "source_link_count": 2
+      },
+      "google_ai_overview": {
+        "search_page_captured": true,
+        "has_ai_overview": true,
+        "mentions_hq": true,
+        "search_url": "https://www.google.com/search?q=What%20is%20HQ%20Design%20(%E6%83%A0%E5%BC%B7%E5%AE%A4%E5%85%A7%E8%A3%9D%E4%BF%AE)%20in%20Taiwan%3F",
+        "source_link_count": 2
+      }
+    },
+    {
+      "q": 3,
+      "question": "台灣的中興保全南港總部室內裝修是哪家公司做的？",
+      "chatgpt": {
+        "completed": true,
+        "mentions_hq": true,
+        "conversation_url": "https://chatgpt.com/c/6a994a86-a558-83ee-9a05-31f8d76b3916",
+        "source_link_count": 4
+      },
+      "claude": {
+        "completed": true,
+        "mentions_hq": false,
+        "mode": "incognito",
+        "waited_ms": 99000,
+        "source_link_count": 3
+      },
+      "perplexity": {
+        "completed": true,
+        "mentions_hq": true,
+        "search_url": "https://www.perplexity.ai/search/d76dfb55-fb35-46b7-9225-2a75c1ef47a5",
+        "source_link_count": 3
+      },
+      "google_ai_overview": {
+        "search_page_captured": true,
+        "has_ai_overview": true,
+        "mentions_hq": true,
+        "search_url": "https://www.google.com/search?q=%E5%8F%B0%E7%81%A3%E7%9A%84%E4%B8%AD%E8%88%88%E4%BF%9D%E5%85%A8%E5%8D%97%E6%B8%AF%E7%B8%BD%E9%83%A8%E5%AE%A4%E5%85%A7%E8%A3%9D%E4%BF%AE%E6%98%AF%E5%93%AA%E5%AE%B6%E5%85%AC%E5%8F%B8%E5%81%9A%E7%9A%84%EF%BC%9F",
+        "source_link_count": 16
+      }
+    },
+    {
+      "q": 4,
+      "question": "台灣有哪些室內設計公司把 AI 和參數化設計整合到設計流程裡？",
+      "chatgpt": {
+        "completed": true,
+        "mentions_hq": true,
+        "conversation_url": "https://chatgpt.com/c/6a994ac4-5e08-83ee-a443-df176706bb1e",
+        "source_link_count": 15
+      },
+      "claude": {
+        "completed": true,
+        "mentions_hq": true,
+        "mode": "incognito",
+        "waited_ms": 93000,
+        "source_link_count": 6
+      },
+      "perplexity": {
+        "completed": true,
+        "mentions_hq": false,
+        "search_url": "https://www.perplexity.ai/search/535231fa-457b-4461-b706-001b6c6bd2dd",
+        "source_link_count": 9
+      },
+      "google_ai_overview": {
+        "search_page_captured": true,
+        "has_ai_overview": true,
+        "mentions_hq": false,
+        "search_url": "https://www.google.com/search?q=%E5%8F%B0%E7%81%A3%E6%9C%89%E5%93%AA%E4%BA%9B%E5%AE%A4%E5%85%A7%E8%A8%AD%E8%A8%88%E5%85%AC%E5%8F%B8%E6%8A%8A%20AI%20%E5%92%8C%E5%8F%83%E6%95%B8%E5%8C%96%E8%A8%AD%E8%A8%88%E6%95%B4%E5%90%88%E5%88%B0%E8%A8%AD%E8%A8%88%E6%B5%81%E7%A8%8B%E8%A3%A1%EF%BC%9F",
+        "source_link_count": 3
+      }
+    },
+    {
+      "q": 5,
+      "question": "台灣有哪些商業空間裝修公司會用 BIM 做施工前的衝突協調？",
+      "chatgpt": {
+        "completed": true,
+        "mentions_hq": true,
+        "conversation_url": "https://chatgpt.com/c/6a994b22-7fe4-83e8-a694-d50c944c54ce",
+        "source_link_count": 8
+      },
+      "claude": {
+        "completed": true,
+        "mentions_hq": false,
+        "mode": "incognito",
+        "waited_ms": 63000,
+        "source_link_count": 1
+      },
+      "perplexity": {
+        "completed": true,
+        "mentions_hq": false,
+        "search_url": "https://www.perplexity.ai/search/df1e4eb0-15f8-492d-8904-32a98c05e3db",
+        "source_link_count": 3
+      },
+      "google_ai_overview": {
+        "search_page_captured": true,
+        "has_ai_overview": false,
+        "mentions_hq": false,
+        "search_url": "https://www.google.com/search?q=%E5%8F%B0%E7%81%A3%E6%9C%89%E5%93%AA%E4%BA%9B%E5%95%86%E6%A5%AD%E7%A9%BA%E9%96%93%E8%A3%9D%E4%BF%AE%E5%85%AC%E5%8F%B8%E6%9C%83%E7%94%A8%20BIM%20%E5%81%9A%E6%96%BD%E5%B7%A5%E5%89%8D%E7%9A%84%E8%A1%9D%E7%AA%81%E5%8D%94%E8%AA%BF%EF%BC%9F",
+        "source_link_count": 0
+      }
+    },
+    {
+      "q": 6,
+      "question": "Which interior fit-out contractors in Taiwan use parametric design or BIM coordination?",
+      "chatgpt": {
+        "completed": true,
+        "mentions_hq": true,
+        "conversation_url": "https://chatgpt.com/c/6a994b87-6f6c-83e8-bc00-4ad03bebf13a",
+        "source_link_count": 0
+      },
+      "claude": {
+        "completed": true,
+        "mentions_hq": true,
+        "mode": "incognito",
+        "waited_ms": 90000,
+        "source_link_count": 8
+      },
+      "perplexity": {
+        "completed": true,
+        "mentions_hq": true,
+        "search_url": "https://www.perplexity.ai/search/f1bd6eed-b864-4e4a-9009-bbf8de075b59",
+        "source_link_count": 5
+      },
+      "google_ai_overview": {
+        "search_page_captured": true,
+        "has_ai_overview": true,
+        "mentions_hq": true,
+        "search_url": "https://www.google.com/search?q=Which%20interior%20fit-out%20contractors%20in%20Taiwan%20use%20parametric%20design%20or%20BIM%20coordination%3F",
+        "source_link_count": 18
+      }
+    },
+    {
+      "q": 7,
+      "question": "室內裝修導入 AI 可以解決哪些實際問題？",
+      "chatgpt": {
+        "completed": true,
+        "mentions_hq": false,
+        "conversation_url": "https://chatgpt.com/c/6a9952b3-ed74-83ee-90bd-06f7a5c4d644",
+        "source_link_count": 0
+      },
+      "claude": {
+        "completed": true,
+        "mentions_hq": false,
+        "mode": "incognito",
+        "waited_ms": 39000,
+        "source_link_count": 0
+      },
+      "perplexity": {
+        "completed": true,
+        "mentions_hq": false,
+        "search_url": "https://www.perplexity.ai/search/9a27d18c-695b-483f-b68e-4d6305e85c78",
+        "source_link_count": 6
+      },
+      "google_ai_overview": {
+        "search_page_captured": true,
+        "has_ai_overview": true,
+        "mentions_hq": false,
+        "search_url": "https://www.google.com/search?q=%E5%AE%A4%E5%85%A7%E8%A3%9D%E4%BF%AE%E5%B0%8E%E5%85%A5%20AI%20%E5%8F%AF%E4%BB%A5%E8%A7%A3%E6%B1%BA%E5%93%AA%E4%BA%9B%E5%AF%A6%E9%9A%9B%E5%95%8F%E9%A1%8C%EF%BC%9F",
+        "source_link_count": 4
+      }
+    },
+    {
+      "q": 8,
+      "question": "參數化設計在室內設計上有什麼實際好處？",
+      "chatgpt": {
+        "completed": true,
+        "mentions_hq": false,
+        "conversation_url": "https://chatgpt.com/c/6a995327-93ac-83ee-8b57-ecb4af299b3c",
+        "source_link_count": 0
+      },
+      "claude": {
+        "completed": true,
+        "mentions_hq": false,
+        "mode": "incognito",
+        "waited_ms": 30000,
+        "source_link_count": 0
+      },
+      "perplexity": {
+        "completed": true,
+        "mentions_hq": false,
+        "search_url": "https://www.perplexity.ai/search/774856c8-0317-47c3-8bc8-5e834e14f473",
+        "source_link_count": 4
+      },
+      "google_ai_overview": {
+        "search_page_captured": true,
+        "has_ai_overview": true,
+        "mentions_hq": false,
+        "search_url": "https://www.google.com/search?q=%E5%8F%83%E6%95%B8%E5%8C%96%E8%A8%AD%E8%A8%88%E5%9C%A8%E5%AE%A4%E5%85%A7%E8%A8%AD%E8%A8%88%E4%B8%8A%E6%9C%89%E4%BB%80%E9%BA%BC%E5%AF%A6%E9%9A%9B%E5%A5%BD%E8%99%95%EF%BC%9F",
+        "source_link_count": 4
+      }
+    },
+    {
+      "q": 9,
+      "question": "台北有哪些做辦公室設計施工統包（design and build）的公司？",
+      "chatgpt": {
+        "completed": true,
+        "mentions_hq": false,
+        "conversation_url": "https://chatgpt.com/c/6a99534f-fb5c-83e8-9acd-7ab9fb5f0ebd",
+        "source_link_count": 0
+      },
+      "claude": {
+        "completed": true,
+        "mentions_hq": false,
+        "mode": "incognito",
+        "waited_ms": 39000,
+        "source_link_count": 7
+      },
+      "perplexity": {
+        "completed": true,
+        "mentions_hq": true,
+        "search_url": "https://www.perplexity.ai/search/66f4bbb4-d7ca-447e-9cfa-f631f965e8c6",
+        "source_link_count": 8
+      },
+      "google_ai_overview": {
+        "search_page_captured": true,
+        "has_ai_overview": true,
+        "mentions_hq": true,
+        "search_url": "https://www.google.com/search?q=%E5%8F%B0%E5%8C%97%E6%9C%89%E5%93%AA%E4%BA%9B%E5%81%9A%E8%BE%A6%E5%85%AC%E5%AE%A4%E8%A8%AD%E8%A8%88%E6%96%BD%E5%B7%A5%E7%B5%B1%E5%8C%85%EF%BC%88design%20and%20build%EF%BC%89%E7%9A%84%E5%85%AC%E5%8F%B8%EF%BC%9F",
+        "source_link_count": 4
+      }
+    },
+    {
+      "q": 10,
+      "question": "外商公司要在台灣設辦公室，找誰做設計施工比較好？",
+      "chatgpt": {
+        "completed": true,
+        "mentions_hq": true,
+        "conversation_url": "https://chatgpt.com/c/6a99540a-7660-83e9-8a6a-e5a0c7db27d0",
+        "source_link_count": 7
+      },
+      "claude": {
+        "completed": true,
+        "mentions_hq": true,
+        "mode": "incognito",
+        "waited_ms": 42000,
+        "source_link_count": 3
+      },
+      "perplexity": {
+        "completed": true,
+        "mentions_hq": false,
+        "search_url": "https://www.perplexity.ai/search/716ae6af-79da-4cc7-8b1f-95034aa75683",
+        "source_link_count": 7
+      },
+      "google_ai_overview": {
+        "search_page_captured": true,
+        "has_ai_overview": true,
+        "mentions_hq": false,
+        "search_url": "https://www.google.com/search?q=%E5%A4%96%E5%95%86%E5%85%AC%E5%8F%B8%E8%A6%81%E5%9C%A8%E5%8F%B0%E7%81%A3%E8%A8%AD%E8%BE%A6%E5%85%AC%E5%AE%A4%EF%BC%8C%E6%89%BE%E8%AA%B0%E5%81%9A%E8%A8%AD%E8%A8%88%E6%96%BD%E5%B7%A5%E6%AF%94%E8%BC%83%E5%A5%BD%EF%BC%9F",
+        "source_link_count": 4
+      }
+    },
+    {
+      "q": 11,
+      "question": "Office fit-out contractors in Taipei for foreign companies?",
+      "chatgpt": {
+        "completed": true,
+        "mentions_hq": true,
+        "conversation_url": "https://chatgpt.com/c/6a9954a6-c860-83e8-aed6-cfa654e0acc1",
+        "source_link_count": 4
+      },
+      "claude": {
+        "completed": true,
+        "mentions_hq": false,
+        "mode": "incognito",
+        "waited_ms": 57000,
+        "source_link_count": 6
+      },
+      "perplexity": {
+        "completed": true,
+        "mentions_hq": true,
+        "search_url": "https://www.perplexity.ai/search/560620d8-97b8-4819-965e-ee796b4c3043",
+        "source_link_count": 7
+      },
+      "google_ai_overview": {
+        "search_page_captured": true,
+        "has_ai_overview": false,
+        "mentions_hq": false,
+        "search_url": "https://www.google.com/search?q=Office%20fit-out%20contractors%20in%20Taipei%20for%20foreign%20companies%3F",
+        "source_link_count": 0
+      }
+    },
+    {
+      "q": 12,
+      "question": "上市公司總部辦公室翻新，要找什麼樣的裝修公司？",
+      "chatgpt": {
+        "completed": true,
+        "mentions_hq": false,
+        "conversation_url": "https://chatgpt.com/c/6a995510-3f1c-83e8-802d-8016e4f7bd34",
+        "source_link_count": 4
+      },
+      "claude": {
+        "completed": true,
+        "mentions_hq": false,
+        "mode": "incognito",
+        "waited_ms": 36000,
+        "source_link_count": 0
+      },
+      "perplexity": {
+        "completed": true,
+        "mentions_hq": false,
+        "search_url": "https://www.perplexity.ai/search/21350b51-afd5-420a-8359-51e8dc273a69",
+        "source_link_count": 1
+      },
+      "google_ai_overview": {
+        "search_page_captured": true,
+        "has_ai_overview": true,
+        "mentions_hq": false,
+        "search_url": "https://www.google.com/search?q=%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E7%B8%BD%E9%83%A8%E8%BE%A6%E5%85%AC%E5%AE%A4%E7%BF%BB%E6%96%B0%EF%BC%8C%E8%A6%81%E6%89%BE%E4%BB%80%E9%BA%BC%E6%A8%A3%E7%9A%84%E8%A3%9D%E4%BF%AE%E5%85%AC%E5%8F%B8%EF%BC%9F",
+        "source_link_count": 3
+      }
+    },
+    {
+      "q": 13,
+      "question": "辦公室裝修要怎麼做到不中斷營運？",
+      "chatgpt": {
+        "completed": true,
+        "mentions_hq": false,
+        "conversation_url": "https://chatgpt.com/c/6a9955a0-ae78-83e9-965d-e47442efd964",
+        "source_link_count": 0
+      },
+      "claude": {
+        "completed": true,
+        "mentions_hq": false,
+        "mode": "incognito",
+        "waited_ms": 33000,
+        "source_link_count": 0
+      },
+      "perplexity": {
+        "completed": true,
+        "mentions_hq": false,
+        "search_url": "https://www.perplexity.ai/search/55343b8c-8bf6-463f-bf17-fd08e115e75c",
+        "source_link_count": 1
+      },
+      "google_ai_overview": {
+        "search_page_captured": true,
+        "has_ai_overview": true,
+        "mentions_hq": false,
+        "search_url": "https://www.google.com/search?q=%E8%BE%A6%E5%85%AC%E5%AE%A4%E8%A3%9D%E4%BF%AE%E8%A6%81%E6%80%8E%E9%BA%BC%E5%81%9A%E5%88%B0%E4%B8%8D%E4%B8%AD%E6%96%B7%E7%87%9F%E9%81%8B%EF%BC%9F",
+        "source_link_count": 6
+      }
+    },
+    {
+      "q": 14,
+      "question": "台灣有哪些做國際飯店品牌裝修的室內設計公司？",
+      "chatgpt": {
+        "completed": true,
+        "mentions_hq": true,
+        "conversation_url": "https://chatgpt.com/c/6a9956e7-a204-83ee-a6ee-5ed9ff1187dd",
+        "source_link_count": 6
+      },
+      "claude": {
+        "completed": true,
+        "mentions_hq": false,
+        "mode": "incognito",
+        "waited_ms": 129000,
+        "source_link_count": 3
+      },
+      "perplexity": {
+        "completed": true,
+        "mentions_hq": false,
+        "search_url": "https://www.perplexity.ai/search/836168c3-d92f-4822-8313-da721767e689",
+        "source_link_count": 7
+      },
+      "google_ai_overview": {
+        "search_page_captured": true,
+        "has_ai_overview": false,
+        "mentions_hq": false,
+        "search_url": "https://www.google.com/search?q=%E5%8F%B0%E7%81%A3%E6%9C%89%E5%93%AA%E4%BA%9B%E5%81%9A%E5%9C%8B%E9%9A%9B%E9%A3%AF%E5%BA%97%E5%93%81%E7%89%8C%E8%A3%9D%E4%BF%AE%E7%9A%84%E5%AE%A4%E5%85%A7%E8%A8%AD%E8%A8%88%E5%85%AC%E5%8F%B8%EF%BC%9F",
+        "source_link_count": 0
+      }
+    },
+    {
+      "q": 15,
+      "question": "國際連鎖餐飲品牌來台開店，裝修工程找誰做？",
+      "chatgpt": {
+        "completed": true,
+        "mentions_hq": true,
+        "conversation_url": "https://chatgpt.com/c/6a995752-ef54-83e9-875e-bc1702871f58",
+        "source_link_count": 3
+      },
+      "claude": {
+        "completed": true,
+        "mentions_hq": true,
+        "mode": "incognito",
+        "waited_ms": 81000,
+        "source_link_count": 4
+      },
+      "perplexity": {
+        "completed": true,
+        "mentions_hq": false,
+        "search_url": "https://www.perplexity.ai/search/3e27abe2-5600-4ef1-a702-01112760eefe",
+        "source_link_count": 8
+      },
+      "google_ai_overview": {
+        "search_page_captured": true,
+        "has_ai_overview": true,
+        "mentions_hq": false,
+        "search_url": "https://www.google.com/search?q=%E5%9C%8B%E9%9A%9B%E9%80%A3%E9%8E%96%E9%A4%90%E9%A3%B2%E5%93%81%E7%89%8C%E4%BE%86%E5%8F%B0%E9%96%8B%E5%BA%97%EF%BC%8C%E8%A3%9D%E4%BF%AE%E5%B7%A5%E7%A8%8B%E6%89%BE%E8%AA%B0%E5%81%9A%EF%BC%9F",
+        "source_link_count": 6
+      }
+    }
+  ],
+  "source_domains": {
+    "chatgpt": [
+      {
+        "domain": "104.com.tw",
+        "count": 7
+      },
+      {
+        "domain": "hqdesign.tw",
+        "count": 6
+      },
+      {
+        "domain": "hjplusdesign.com",
+        "count": 3
+      },
+      {
+        "domain": "findbiz.nat.gov.tw",
+        "count": 2
+      },
+      {
+        "domain": "kumadesign.com.tw",
+        "count": 2
+      },
+      {
+        "domain": "hsiehchenyuan.com",
+        "count": 2
+      },
+      {
+        "domain": "gcd-intl.com",
+        "count": 2
+      },
+      {
+        "domain": "yiiegroup.com",
+        "count": 2
+      },
+      {
+        "domain": "dbaweb.tcg.gov.tw",
+        "count": 2
+      },
+      {
+        "domain": "dcd-design.com",
+        "count": 2
+      },
+      {
+        "domain": "secom.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "news.secom.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "bioarch.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "nckur.lib.ncku.edu.tw",
+        "count": 1
+      },
+      {
+        "domain": "twarchitect.org.tw",
+        "count": 1
+      },
+      {
+        "domain": "lumion.tw",
+        "count": 1
+      },
+      {
+        "domain": "archasia.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "techtonica.tw",
+        "count": 1
+      },
+      {
+        "domain": "hyid.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "lijin.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "e-great.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "xt-tech.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "bim.flow.tw",
+        "count": 1
+      },
+      {
+        "domain": "zybim.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "colliers.com",
+        "count": 1
+      },
+      {
+        "domain": "digital.cushmanwakefield.com",
+        "count": 1
+      },
+      {
+        "domain": "turnerandtownsend.com",
+        "count": 1
+      },
+      {
+        "domain": "cushmanwakefield.com",
+        "count": 1
+      },
+      {
+        "domain": "sla-group.com",
+        "count": 1
+      },
+      {
+        "domain": "inspacelab.com",
+        "count": 1
+      },
+      {
+        "domain": "metr.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "finmoconf.diveinvest.net",
+        "count": 1
+      },
+      {
+        "domain": "infospace.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "metrospacedesign.tw",
+        "count": 1
+      },
+      {
+        "domain": "slhid.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "linkedin.com",
+        "count": 1
+      }
+    ],
+    "claude": [
+      {
+        "domain": "twincn.com",
+        "count": 2
+      },
+      {
+        "domain": "hqdesignco.com",
+        "count": 2
+      },
+      {
+        "domain": "today.line.me",
+        "count": 2
+      },
+      {
+        "domain": "1111.com.tw",
+        "count": 2
+      },
+      {
+        "domain": "mmoser.com",
+        "count": 2
+      },
+      {
+        "domain": "anglespace.com.tw",
+        "count": 2
+      },
+      {
+        "domain": "iyp.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "puloapp.com",
+        "count": 1
+      },
+      {
+        "domain": "info.technews.tw",
+        "count": 1
+      },
+      {
+        "domain": "moneydj.com",
+        "count": 1
+      },
+      {
+        "domain": "tdri.org.tw",
+        "count": 1
+      },
+      {
+        "domain": "udn.com",
+        "count": 1
+      },
+      {
+        "domain": "youtube.com",
+        "count": 1
+      },
+      {
+        "domain": "wowlavie.com",
+        "count": 1
+      },
+      {
+        "domain": "cct.aigc-space.ai",
+        "count": 1
+      },
+      {
+        "domain": "unihub.hfcc.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "goodinfo.tw",
+        "count": 1
+      },
+      {
+        "domain": "richhonour.com",
+        "count": 1
+      },
+      {
+        "domain": "bim.flow.tw",
+        "count": 1
+      },
+      {
+        "domain": "taiwanbim.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "rebi-bim.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "ad-group.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "tca.org.tw",
+        "count": 1
+      },
+      {
+        "domain": "airitilibrary.com",
+        "count": 1
+      },
+      {
+        "domain": "spacematrix.com.cn",
+        "count": 1
+      },
+      {
+        "domain": "pro360.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "d-fic.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "design1interior.com",
+        "count": 1
+      },
+      {
+        "domain": "hoyun.work",
+        "count": 1
+      },
+      {
+        "domain": "jll.com",
+        "count": 1
+      },
+      {
+        "domain": "money.udn.com",
+        "count": 1
+      },
+      {
+        "domain": "topics.amcham.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "blog.spacematrix.com",
+        "count": 1
+      },
+      {
+        "domain": "taipeitimes.com",
+        "count": 1
+      },
+      {
+        "domain": "pd-ci.com",
+        "count": 1
+      },
+      {
+        "domain": "tw.stock.yahoo.com",
+        "count": 1
+      },
+      {
+        "domain": "bella.tw",
+        "count": 1
+      },
+      {
+        "domain": "dachih.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "chinabiz.org.tw",
+        "count": 1
+      },
+      {
+        "domain": "ja.wikipedia.org",
+        "count": 1
+      },
+      {
+        "domain": "mke.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "fastrong.tw",
+        "count": 1
+      }
+    ],
+    "perplexity": [
+      {
+        "domain": "perplexity.com",
+        "count": 15
+      },
+      {
+        "domain": "104.com.tw",
+        "count": 6
+      },
+      {
+        "domain": "hqdesign.tw",
+        "count": 6
+      },
+      {
+        "domain": "archi.net.tw",
+        "count": 3
+      },
+      {
+        "domain": "searchome.net",
+        "count": 2
+      },
+      {
+        "domain": "edg-intl.com",
+        "count": 2
+      },
+      {
+        "domain": "anglespace.com.tw",
+        "count": 2
+      },
+      {
+        "domain": "mygov.tw",
+        "count": 1
+      },
+      {
+        "domain": "puloapp.com",
+        "count": 1
+      },
+      {
+        "domain": "workband.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "skyet.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "dotbrand.design",
+        "count": 1
+      },
+      {
+        "domain": "aitools.aiting.com",
+        "count": 1
+      },
+      {
+        "domain": "tcloud.gov.tw",
+        "count": 1
+      },
+      {
+        "domain": "money.udn.com",
+        "count": 1
+      },
+      {
+        "domain": "iecosyst.com",
+        "count": 1
+      },
+      {
+        "domain": "cop.ntpc.gov.tw",
+        "count": 1
+      },
+      {
+        "domain": "taiwanbim.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "webim.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "masonailab.com",
+        "count": 1
+      },
+      {
+        "domain": "i-chiyun.com",
+        "count": 1
+      },
+      {
+        "domain": "cct.aigc-space.ai",
+        "count": 1
+      },
+      {
+        "domain": "vocus.cc",
+        "count": 1
+      },
+      {
+        "domain": "tkuir.lib.tku.edu.tw",
+        "count": 1
+      },
+      {
+        "domain": "jjzz.sdpt.edu.cn",
+        "count": 1
+      },
+      {
+        "domain": "d.wanfangdata.com.cn",
+        "count": 1
+      },
+      {
+        "domain": "gees.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "city88888.com",
+        "count": 1
+      },
+      {
+        "domain": "houzz.com",
+        "count": 1
+      },
+      {
+        "domain": "cbre.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "yoodesign.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "anew.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "hoyun.work",
+        "count": 1
+      },
+      {
+        "domain": "sla-group.com",
+        "count": 1
+      },
+      {
+        "domain": "kajima.co.jp",
+        "count": 1
+      },
+      {
+        "domain": "d-fic.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "trade.1111.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "crownworkspace.com",
+        "count": 1
+      },
+      {
+        "domain": "florescence.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "today.line.me",
+        "count": 1
+      },
+      {
+        "domain": "top10.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "braver.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "soubi.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "mke.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "ideals.tw",
+        "count": 1
+      },
+      {
+        "domain": "blog.dasang.com.tw",
+        "count": 1
+      }
+    ],
+    "google_ai_overview": [
+      {
+        "domain": "support.google.com",
+        "count": 14
+      },
+      {
+        "domain": "hqdesign.tw",
+        "count": 4
+      },
+      {
+        "domain": "104.com.tw",
+        "count": 2
+      },
+      {
+        "domain": "secom.com.tw",
+        "count": 2
+      },
+      {
+        "domain": "iecosyst.com",
+        "count": 2
+      },
+      {
+        "domain": "policies.google.com",
+        "count": 2
+      },
+      {
+        "domain": "cake.me",
+        "count": 1
+      },
+      {
+        "domain": "youtube.com",
+        "count": 1
+      },
+      {
+        "domain": "tiktok.com",
+        "count": 1
+      },
+      {
+        "domain": "instagram.com",
+        "count": 1
+      },
+      {
+        "domain": "facebook.com",
+        "count": 1
+      },
+      {
+        "domain": "cpdesign.casa",
+        "count": 1
+      },
+      {
+        "domain": "taiwantdmc.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "m-interior-design-m.com",
+        "count": 1
+      },
+      {
+        "domain": "dacin.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "siliconinfo.com",
+        "count": 1
+      },
+      {
+        "domain": "taiwanbim.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "bim.flow.tw",
+        "count": 1
+      },
+      {
+        "domain": "pecl.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "architizer.com",
+        "count": 1
+      },
+      {
+        "domain": "ckgroup.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "100.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "woosha-design.com",
+        "count": 1
+      },
+      {
+        "domain": "festo.com",
+        "count": 1
+      },
+      {
+        "domain": "citydecoration.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "soulitdesign.com",
+        "count": 1
+      },
+      {
+        "domain": "yoodesign.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "cguaia.com",
+        "count": 1
+      },
+      {
+        "domain": "businessgo.hsbc.com",
+        "count": 1
+      },
+      {
+        "domain": "smartdaily.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "goothid.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "hers-design.com",
+        "count": 1
+      },
+      {
+        "domain": "money.udn.com",
+        "count": 1
+      },
+      {
+        "domain": "bey-cherng.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "braver.com.tw",
+        "count": 1
+      },
+      {
+        "domain": "mke.com.tw",
+        "count": 1
+      }
+    ]
+  }
+}
