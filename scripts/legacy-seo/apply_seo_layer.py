@@ -46,8 +46,8 @@ def repair_tail(doc, rel):
     tail = f'{line}\n    </div>\n  </div>\n</footer>\n<script src="{prefix}assets/js/main.js"></script>\n</body>\n</html>\n'
     return doc[:idx] + tail
 
-def org_jsonld(desc):
-    return {
+def org_jsonld(desc, include_whatsapp=False):
+    data = {
         "@context": "https://schema.org",
         "@type": ["Organization", "GeneralContractor"],
         "@id": f"{ORIGIN}/#organization",
@@ -66,6 +66,16 @@ def org_jsonld(desc):
         "knowsAbout": ["商業空間設計", "辦公室設計施工", "設計施工統包", "Design and Build", "Commercial Fit-Out",
                        "參數化設計", "Parametric Design", "BIM 協調", "機電消防整合", "品牌空間識別"],
     }
+    # English homepage only. /zh/index.html keeps the previous Organization block.
+    if include_whatsapp:
+        data["contactPoint"] = {
+            "@type": "ContactPoint",
+            "telephone": "+886-937-061-533",
+            "contactType": "customer service",
+            "availableLanguage": "English",
+            "url": "https://wa.me/886937061533",
+        }
+    return data
 
 def apply(doc, rel):
     doc = repair_tail(doc, rel)
@@ -98,7 +108,7 @@ def apply(doc, rel):
     doc = doc[:pos] + block + doc[pos:]
     if rel in ("index.html", "zh/index.html"):
         doc = LD_RE.sub("", doc)
-        ld = '  <script type="application/ld+json">\n' + json.dumps(org_jsonld(desc), ensure_ascii=False, indent=2) + '\n  </script>\n'
+        ld = '  <script type="application/ld+json">\n' + json.dumps(org_jsonld(desc, include_whatsapp=(rel == "index.html")), ensure_ascii=False, indent=2) + '\n  </script>\n'
         m = re.search(r'^[ \t]*<meta name="twitter:description"[^\n]*\n', doc, re.M)
         doc = doc[:m.end()] + ld + doc[m.end():]
     return doc
