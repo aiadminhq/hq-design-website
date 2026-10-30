@@ -1297,7 +1297,7 @@ html[lang="zh-Hant"] .faq-group-title {
   .nav-logo--int.nav-logo--zh .name-zh-company { font-size: 13px; }
 }
 
-/* English-page WhatsApp contact — green #25D366, inline glyph, no icon CDN */
+/* Contact page WhatsApp button — green #25D366, inline glyph, no icon CDN */
 .wa-glyph {
   display: block;
   width: 1.05em;
@@ -1335,62 +1335,4 @@ html[lang="zh-Hant"] .faq-group-title {
   font-weight: 400;
   line-height: 1.55;
   color: var(--mid);
-}
-.footer-col a.wa-inline,
-.cta-contact-info a.wa-inline {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-.footer-col a.wa-inline .wa-glyph,
-.cta-contact-info a.wa-inline .wa-glyph {
-  width: 15px;
-  height: 15px;
-  color: #25D366;
-}
-.wa-float {
-  position: fixed;
-  right: calc(20px + env(safe-area-inset-right));
-  bottom: calc(20px + env(safe-area-inset-bottom));
-  z-index: 90;
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  background: #25D366;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 16px rgba(18, 40, 28, 0.28);
-  transition: background var(--transition), transform var(--transition);
-}
-.wa-float:hover {
-  background: #1DA851;
-  color: #fff;
-  transform: translateY(-2px);
-}
-.wa-float:focus-visible {
-  outline: 2px solid var(--brand);
-  outline-offset: 3px;
-}
-.wa-float .wa-glyph {
-  width: 28px;
-  height: 28px;
-  color: #fff;
-}
-@media (max-width: 768px) {
-  .wa-float {
-    right: calc(16px + env(safe-area-inset-right));
-    bottom: calc(16px + env(safe-area-inset-bottom));
-    width: 48px;
-    height: 48px;
-  }
-  .wa-float .wa-glyph { width: 26px; height: 26px; }
-  .wa-float.is-raised {
-    bottom: calc(var(--wa-lift, 96px) + env(safe-area-inset-bottom));
-  }
-}
-.wa-float.is-hidden {
-  visibility: hidden;
-  pointer-events: none;
 }
