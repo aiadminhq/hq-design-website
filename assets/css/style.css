@@ -1327,14 +1327,6 @@ html[lang="zh-Hant"] .faq-group-title {
   color: #fff;
 }
 .wa-direct { margin-bottom: 18px; }
-.wa-number {
-  margin: 8px 0 0;
-  font-family: var(--font-en);
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--dark);
-  letter-spacing: 0.2px;
-}
 .phone-abroad-note {
   display: block;
   margin-top: 6px;
