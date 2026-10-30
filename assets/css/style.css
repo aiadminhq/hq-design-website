@@ -1296,3 +1296,43 @@ html[lang="zh-Hant"] .faq-group-title {
 @media (max-width: 375px) {
   .nav-logo--int.nav-logo--zh .name-zh-company { font-size: 13px; }
 }
+
+/* Contact page WhatsApp button — green #25D366, inline glyph, no icon CDN */
+.wa-glyph {
+  display: block;
+  width: 1.05em;
+  height: 1.05em;
+  flex-shrink: 0;
+}
+.btn-whatsapp {
+  background: #25D366;
+  border-color: #25D366;
+  color: #fff;
+  font-family: var(--font-en);
+}
+.btn-whatsapp:hover {
+  background: #1DA851;
+  border-color: #1DA851;
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.35);
+}
+.btn-whatsapp:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+.btn-whatsapp .wa-glyph {
+  width: 18px;
+  height: 18px;
+  color: #fff;
+}
+.wa-direct { margin-bottom: 18px; }
+.phone-abroad-note {
+  display: block;
+  margin-top: 6px;
+  font-family: var(--font-en);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.55;
+  color: var(--mid);
+}

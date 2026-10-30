@@ -175,3 +175,17 @@ document.querySelectorAll('.why-card, .project-card, .service-card, .career-card
     });
   });
 })();
+
+// Contact page: count WhatsApp button clicks in both GA4 properties.
+document.addEventListener('click', (event) => {
+  const link = event.target.closest('a[data-whatsapp]');
+  if (!link || typeof gtag !== 'function') return;
+  const label = (link.textContent || '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 100);
+  gtag('event', 'whatsapp_click', {
+    link_url: link.href,
+    link_text: label,
+  });
+});
