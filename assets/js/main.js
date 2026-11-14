@@ -176,6 +176,100 @@ document.querySelectorAll('.why-card, .project-card, .service-card, .career-card
   });
 })();
 
+// Free-review offer: preselect the Formspree subject from ?review= or the on-page choice.
+(function initFreeReview() {
+  const select = document.querySelector('#contact-review');
+  const subject = document.querySelector('form.contact-form input[name="_subject"]');
+  if (!select || !subject) return;
+
+  const locale = (document.documentElement.lang || 'en').toLowerCase().startsWith('zh') ? 'zh' : 'en';
+  const SUBJECTS = {
+    en: {
+      reinstatement: '[HQ Enquiry] Free review — lease restoration terms',
+      permit: '[HQ Enquiry] Free review — interior renovation permit',
+    },
+    zh: {
+      reinstatement: '【HQ 新詢問】免費檢視 — 租約退租復原條款',
+      permit: '【HQ 新詢問】免費檢視 — 室內裝修許可',
+    },
+  };
+  const NOTES = {
+    en: {
+      reinstatement: 'Selected: lease restoration terms. This will be included when you submit the form.',
+      permit: 'Selected: interior renovation permit. This will be included when you submit the form.',
+    },
+    zh: {
+      reinstatement: '已選擇：租約退租復原條款。送出表單時會一併註明。',
+      permit: '已選擇：室內裝修許可。送出表單時會一併註明。',
+    },
+  };
+  const defaultSubject = subject.value;
+  const note = document.querySelector('#review-selection-note');
+
+  function apply(value, scroll) {
+    const known = Object.prototype.hasOwnProperty.call(SUBJECTS[locale], value);
+    select.value = known ? value : '';
+    subject.value = known ? SUBJECTS[locale][value] : defaultSubject;
+    document.querySelectorAll('button.review-option[data-review]').forEach((btn) => {
+      const on = btn.getAttribute('data-review') === select.value;
+      btn.classList.toggle('is-selected', on);
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+    if (note) {
+      if (known) {
+        note.hidden = false;
+        note.textContent = NOTES[locale][value];
+      } else {
+        note.hidden = true;
+        note.textContent = '';
+      }
+    }
+    if (scroll && known) {
+      const form = document.querySelector('#enquiry-form');
+      form?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  const initial = new URLSearchParams(window.location.search).get('review');
+  if (initial) apply(initial, false);
+  select.addEventListener('change', () => apply(select.value, false));
+  document.querySelectorAll('button.review-option[data-review]').forEach((btn) => {
+    btn.addEventListener('click', () => apply(btn.getAttribute('data-review'), true));
+  });
+})();
+
+// Project pages: render a testimonial only when a real quote is filled in.
+(function initTestimonials() {
+  const slots = document.querySelectorAll('[data-testimonial]');
+  if (!slots.length) return;
+  const data = window.HQ_TESTIMONIALS || {};
+  const blocked = /placeholder|paste a real|replace with|fictional|範例|請替換|貼上真實/i;
+
+  slots.forEach((slot) => {
+    const slug = slot.getAttribute('data-testimonial');
+    const locale = (slot.getAttribute('data-locale') || '').toLowerCase().startsWith('zh') ? 'zh' : 'en';
+    const entry = data[slug] && data[slug][locale];
+    const quote = entry && typeof entry.quote === 'string' ? entry.quote.trim() : '';
+    if (!quote || blocked.test(quote)) return;
+
+    const name = entry.name && typeof entry.name === 'string' ? entry.name.trim() : '';
+    const role = entry.role && typeof entry.role === 'string' ? entry.role.trim() : '';
+    if (blocked.test(name) || blocked.test(role)) return;
+
+    const quoteEl = document.createElement('blockquote');
+    quoteEl.textContent = quote;
+    const figure = document.createElement('figure');
+    figure.appendChild(quoteEl);
+    if (name || role) {
+      const cap = document.createElement('figcaption');
+      cap.textContent = [name, role].filter(Boolean).join(' · ');
+      figure.appendChild(cap);
+    }
+    slot.replaceChildren(figure);
+    slot.hidden = false;
+  });
+})();
+
 // Contact page: count WhatsApp button clicks in both GA4 properties.
 document.addEventListener('click', (event) => {
   const link = event.target.closest('a[data-whatsapp]');
