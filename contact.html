@@ -87,12 +87,39 @@
           <p style="font-size: 13px; color: var(--mid); line-height: 1.8; margin: 0;">Then use the form below. Process detail: <a href="services.html#for-procurement">For procurement &amp; general affairs</a> · <a href="faq.html#for-procurement">FAQ</a>.</p>
         </div>
 
+        <div class="review-offer review-offer--stack" id="free-review">
+          <span class="label">Free review</span>
+          <h2>Two checks we can do at no charge</h2>
+          <p class="review-lead">If you are leasing an office or planning a renovation, choose one item and send it with the form. We reply within one business day. This is a reading of what you send — not a quote, and not a commitment to build.</p>
+          <div class="review-options">
+            <button type="button" class="review-option" data-review="reinstatement" aria-pressed="false">
+              <strong>Lease restoration terms</strong>
+              <span>We read the reinstatement clauses in an office lease (退租復原) and summarise what the landlord is asking to be restored.</span>
+              <span class="review-go">Use this review in the form</span>
+            </button>
+            <button type="button" class="review-option" data-review="permit" aria-pressed="false">
+              <strong>Interior renovation permit</strong>
+              <span>We check whether the office renovation needs an interior renovation permit (室內裝修許可), and what that filing involves.</span>
+              <span class="review-go">Use this review in the form</span>
+            </button>
+          </div>
+          <p class="review-note" id="review-selection-note" hidden></p>
+        </div>
+
         <h2 style="font-size: 26px; margin-bottom: 8px;">Project enquiry form</h2>
         <p style="font-size: 14px; color: var(--mid); margin-bottom: 36px;">The more detail you share, the more useful our initial response will be. You may note a preferred engagement model in your brief; each project gets a dedicated project manager, site manager, and designer — or ask which engagement fits. We respond within one business day.</p>
-        <form class="contact-form" action="https://formspree.io/f/xeendgkz" method="POST" data-contact-ajax data-locale="en">
+        <form class="contact-form" id="enquiry-form" action="https://formspree.io/f/xeendgkz" method="POST" data-contact-ajax data-locale="en">
           <div class="contact-form-fields">
-            <input type="hidden" name="_subject" value="[HQ Enquiry] Website contact form">
+            <input type="hidden" name="_subject" id="contact-subject" value="[HQ Enquiry] Website contact form">
             <input type="hidden" name="_language" value="en">
+            <div class="form-group">
+              <label for="contact-review">Free review</label>
+              <select id="contact-review" name="free_review">
+                <option value="">Not requesting a review</option>
+                <option value="reinstatement">Lease restoration terms</option>
+                <option value="permit">Interior renovation permit</option>
+              </select>
+            </div>
             <div class="form-row">
               <div class="form-group">
                 <label for="contact-company">Company</label>

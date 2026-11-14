@@ -1336,3 +1336,131 @@ html[lang="zh-Hant"] .faq-group-title {
   line-height: 1.55;
   color: var(--mid);
 }
+
+/* ============================================================
+   FREE REVIEW OFFER + PROJECT FACTS / TESTIMONIAL SLOT
+   ============================================================ */
+#free-review,
+#enquiry-form,
+.proj-facts {
+  scroll-margin-top: 88px;
+}
+.review-offer {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 28px 22px;
+  margin-bottom: 28px;
+}
+.review-offer h2 {
+  font-size: 22px;
+  margin: 8px 0 10px;
+}
+.review-lead {
+  font-size: 14px;
+  color: var(--mid);
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+.review-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.review-offer--stack .review-options { grid-template-columns: 1fr; }
+.review-option {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  text-align: left;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+a.review-option:hover,
+button.review-option:hover { border-color: var(--brand); }
+.review-option.is-selected {
+  border-color: var(--brand);
+  box-shadow: 0 0 0 1px var(--brand);
+}
+.review-option strong { font-size: 15px; font-weight: 700; color: var(--dark); }
+.review-option span { font-size: 13px; color: var(--mid); line-height: 1.65; }
+.review-option .review-go {
+  font-family: var(--font-en);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--brand);
+  margin-top: 4px;
+}
+html[lang="zh-Hant"] .review-option .review-go { font-family: var(--font-zh); }
+.review-note {
+  font-size: 13px;
+  color: var(--mid);
+  line-height: 1.6;
+  margin-top: 14px;
+}
+.review-note[hidden] { display: none !important; }
+
+.review-band {
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 40px 0;
+}
+.review-band-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.review-band h2 { font-size: 26px; margin: 8px 0 10px; }
+.review-band p {
+  font-size: 15px;
+  color: var(--mid);
+  line-height: 1.7;
+  max-width: 640px;
+}
+.review-band-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  max-width: 420px;
+}
+.review-band .btn { white-space: normal; text-align: center; }
+
+.proj-facts .spec-value { flex: 1; min-width: 0; }
+.proj-testimonial[hidden] { display: none !important; }
+.proj-testimonial {
+  margin-top: 28px;
+  padding: 22px 24px;
+  background: var(--bg);
+  border-left: 3px solid var(--brand);
+  border-radius: var(--radius);
+}
+.proj-testimonial blockquote {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--dark);
+}
+.proj-testimonial figcaption {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--mid);
+}
+
+@media (max-width: 768px) {
+  .review-options { grid-template-columns: 1fr; }
+  .review-offer { padding: 22px 18px 16px; }
+  .review-band-inner { flex-direction: column; align-items: flex-start; }
+  .review-band-actions { justify-content: flex-start; max-width: none; }
+  .review-band h2 { font-size: 22px; }
+}
