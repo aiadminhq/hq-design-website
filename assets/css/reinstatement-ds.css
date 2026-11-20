@@ -371,3 +371,43 @@ body.rs-page {
 .rs-page main .rs-prep {
   align-items: stretch; /* 兩個面板一樣高 */
 }
+
+/* ---------- 表單頁：回到服務說明 ---------- */
+.rs-page .page-hero .rs-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px; /* 觸控目標 */
+  margin: -8px 0 12px -4px;
+  padding: 0 4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.88);
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+}
+.rs-page .page-hero .rs-back-link .rs-ico {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.2s ease;
+}
+.rs-page .page-hero .rs-back-link:hover {
+  color: var(--white);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.rs-page .page-hero .rs-back-link:hover .rs-ico {
+  transform: translateX(-3px);
+}
+.rs-page .page-hero .rs-back-link:focus-visible {
+  outline: 2px solid var(--white);
+  outline-offset: 2px;
+}
+.rs-page .page-hero .rs-back-link + .label {
+  display: block;
+}
+@media (prefers-reduced-motion: reduce) {
+  .rs-page .page-hero .rs-back-link .rs-ico {
+    transition: none;
+  }
+}

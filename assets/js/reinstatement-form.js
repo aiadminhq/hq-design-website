@@ -130,6 +130,35 @@
   var consentInput = $("rs-consent");
   var step1Status = $("rs-step1-status");
   var step1Submit = $("rs-step1-submit");
+
+  // 第 1 步草稿：使用者點「回到服務說明」再回來時，把填過的聯絡資料填回去。
+  // 只存在這個分頁（sessionStorage），關掉分頁就清除；送出完成後由感謝頁刪除。
+  var DRAFT_KEY = "rs_step1_draft";
+  var draftInputs = [nameInput, companyInput, phoneInput, emailInput];
+  (function restoreDraft() {
+    var raw = storageGet(DRAFT_KEY);
+    if (!raw) return;
+    try {
+      var draft = JSON.parse(raw);
+      draftInputs.forEach(function (input) {
+        if (input && !input.value && typeof draft[input.id] === "string") {
+          input.value = draft[input.id];
+        }
+      });
+    } catch (e) {
+      /* 格式不對就略過 */
+    }
+  })();
+  draftInputs.forEach(function (input) {
+    if (!input) return;
+    input.addEventListener("input", function () {
+      var draft = {};
+      draftInputs.forEach(function (el) {
+        if (el) draft[el.id] = el.value;
+      });
+      storageSet(DRAFT_KEY, JSON.stringify(draft));
+    });
+  });
   var contact = {};
 
   function setError(input, errorEl, message) {
