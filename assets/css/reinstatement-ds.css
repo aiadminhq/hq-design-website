@@ -22,6 +22,20 @@
   --border: #e8e8e8; /* slide/line */
   --white: #ffffff;
 
+  /* 狀態色（表單送出成功／失敗訊息） */
+  --success-bg: #eaf3ec;
+  --success-line: #b9d6bf;
+  --success-text: #1e4d2b;
+  --danger-bg: #fff3ef;
+  --danger-line: #f4cec5;
+  --danger-text: #7a2609;
+
+  /* 間距階：space/2xs 4、xs 8、sm 12、md 20、lg 32、xl 50 */
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 20px;
+  --space-lg: 32px;
+
   /* 圓角：radius/sm 8、md 16、lg 24、full 999 */
   --radius: 16px;
   --radius-sm: 8px;
@@ -253,4 +267,107 @@ body.rs-page {
   --font-en: 'Satoshi', 'Noto Sans TC', sans-serif;
   --font-zh: 'Satoshi', 'Noto Sans TC', sans-serif;
   font-family: var(--font-zh);
+}
+
+/* ============================================================
+   互動狀態補齊：hover／active／disabled（focus-visible 已在 reinstatement.css）
+   ============================================================ */
+.rs-page main .btn:active {
+  transform: translateY(0) scale(0.98);
+}
+.rs-page main .btn:disabled,
+.rs-page main .btn[aria-disabled="true"] {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+.rs-page main .rs-faq summary {
+  transition: color 0.2s ease;
+}
+.rs-page main .rs-faq summary:hover {
+  color: var(--accent);
+}
+.rs-page main .rs-scene-btn:active {
+  transform: scale(0.97);
+}
+
+/* ---------- 痛點卡片：手機改成左右滑動，不用一路往下捲 ---------- */
+@media (max-width: 640px) {
+  .rs-page main .rs-cards--snap {
+    display: flex;
+    gap: var(--space-sm);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: var(--space-sm);
+    scrollbar-width: thin;
+  }
+  .rs-page main .rs-cards--snap > .rs-card {
+    flex: 0 0 84%;
+    scroll-snap-align: start;
+  }
+}
+
+/* ---------- 準備什麼／拿到什麼：兩欄同一種面板＋圖示清單 ---------- */
+.rs-page main .rs-prep > div {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-lg);
+}
+.rs-page main .rs-prep .section-title {
+  margin-bottom: var(--space-md) !important;
+}
+.rs-page main .rs-prep .section-title h2 {
+  font-size: clamp(22px, 2.4vw, 28px);
+}
+.rs-page main .rs-prep-note {
+  background: var(--bg);
+  border: 0;
+  border-radius: var(--radius-sm);
+}
+@media (max-width: 640px) {
+  .rs-page main .rs-prep > div {
+    padding: var(--space-md);
+  }
+}
+
+/* ---------- 結尾 CTA：電話與 Email 放大、提高對比 ---------- */
+.rs-page main .cta-contact-info a {
+  font-size: 15px;
+  color: var(--white);
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.45);
+  text-underline-offset: 4px;
+}
+.rs-page main .cta-contact-info a:hover {
+  text-decoration-color: var(--white);
+}
+
+/* ---------- 表單第 2 步：拆除項目預設收合 ---------- */
+.rs-page main .rs-demo-details {
+  margin-top: var(--space-sm);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--white);
+}
+.rs-page main .rs-demo-details > summary {
+  cursor: pointer;
+  padding: 14px var(--space-md);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--dark);
+}
+.rs-page main .rs-demo-details > summary:hover {
+  color: var(--accent);
+}
+.rs-page main .rs-demo-details[open] > summary {
+  border-bottom: 1px solid var(--border);
+}
+.rs-page main .rs-demo-details > .rs-demo-list {
+  padding: var(--space-sm) var(--space-md) var(--space-md);
+}
+.rs-page main .rs-prep {
+  align-items: stretch; /* 兩個面板一樣高 */
 }

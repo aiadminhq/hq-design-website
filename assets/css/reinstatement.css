@@ -25,7 +25,7 @@
 }
 .rs-dark a:focus-visible,
 .rs-dark button:focus-visible {
-  outline-color: #fff;
+  outline-color: var(--white);
 }
 
 .rs-sr-only {
@@ -107,7 +107,7 @@
   width: 100%;
   overflow: hidden;
   border-radius: var(--radius);
-  background: #0e1620;
+  background: var(--brand-dark, #0e1620);
   user-select: none;
   -webkit-user-select: none;
   touch-action: pan-y;
@@ -587,14 +587,14 @@
   display: none;
 }
 .rs-status--ok {
-  background: #eaf3ec;
-  border: 1px solid #b9d6bf;
-  color: #1e4d2b;
+  background: var(--success-bg, #eaf3ec);
+  border: 1px solid var(--success-line, #b9d6bf);
+  color: var(--success-text, #1e4d2b);
 }
 .rs-status--err {
-  background: #fbede7;
-  border: 1px solid #ebc3b2;
-  color: #7a2609;
+  background: var(--danger-bg, #fbede7);
+  border: 1px solid var(--danger-line, #ebc3b2);
+  color: var(--danger-text, #7a2609);
 }
 .rs-status a {
   text-decoration: underline;
