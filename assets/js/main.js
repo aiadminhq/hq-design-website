@@ -2,14 +2,15 @@
 
 // Nav scroll effect
 const nav = document.querySelector('.nav');
-window.addEventListener('scroll', () => {
-  nav?.classList.toggle('scrolled', window.scrollY > 40);
-});
+const setNavScrolled = () => nav?.classList.toggle('scrolled', window.scrollY > 40);
+window.addEventListener('scroll', setNavScrolled, { passive: true });
+setNavScrolled();
 
 // Mobile nav toggle
 const hamburger = document.querySelector('.hamburger');
 hamburger?.addEventListener('click', () => {
-  nav?.classList.toggle('nav-mobile-open');
+  const open = nav?.classList.toggle('nav-mobile-open');
+  if (hamburger.hasAttribute('aria-expanded')) hamburger.setAttribute('aria-expanded', String(!!open));
 });
 
 // Set active nav link
