@@ -342,9 +342,16 @@
   font-size: 15px;
   color: var(--dark);
 }
+/* 「我們不動」：用鎖頭表示「保留」，不用叉叉（叉叉看起來像壞事） */
 .rs-list--keep li::before {
-  content: "\2715";
-  color: var(--accent);
+  content: "";
+  left: 0;
+  top: 4px;
+  width: 16px;
+  height: 16px;
+  background-color: var(--accent);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='11' width='14' height='10' rx='2'/%3E%3Cpath d='M8 11V8a4 4 0 0 1 8 0v3'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='11' width='14' height='10' rx='2'/%3E%3Cpath d='M8 11V8a4 4 0 0 1 8 0v3'/%3E%3C/svg%3E") center / contain no-repeat;
 }
 
 /* 流程：沿用 .process-steps，補手機版排列與對比 */
@@ -1152,9 +1159,13 @@
 }
 
 /* ---------- 啟用後：固定＋橫向滑動 ---------- */
+#rs-process {
+  padding-block: 40px;
+  overflow-x: clip; /* 卡片可滑到螢幕邊緣；clip 不建立捲動容器，sticky 仍有效 */
+}
 .rs-process.is-enhanced {
-  /* 每一步大約捲 70% 螢幕高，再加上固定區本身的高度 */
-  height: calc(var(--rs-steps) * 70vh + 100vh - var(--rs-nav-h));
+  /* 每一步大約捲 60% 螢幕高，再加上固定區本身的高度 */
+  height: calc(var(--rs-steps) * 60vh + 100vh - var(--rs-nav-h));
 }
 .is-enhanced .rs-process-pin {
   position: sticky;
@@ -1162,14 +1173,17 @@
   height: calc(100vh - var(--rs-nav-h));
   height: calc(100dvh - var(--rs-nav-h));
   justify-content: center;
-  gap: 16px;
+  gap: 20px;
+  padding-block: 24px;
 }
-.is-enhanced .rs-process-track {
-  overflow: visible;
+.rs-page .rs-process-head {
+  margin-bottom: 8px;
 }
-/* 卡片可以一路滑到螢幕邊緣；clip 不會建立捲動容器，sticky 仍然有效 */
-#rs-process {
-  overflow-x: clip;
+.is-enhanced .rs-process-head {
+  margin-bottom: 0;
+}
+.is-enhanced .rs-process-head h2 {
+  margin-bottom: 6px;
 }
 .is-enhanced .rs-process-list {
   display: flex;
@@ -1179,29 +1193,55 @@
   will-change: transform;
 }
 .is-enhanced .rs-pstep {
-  width: min(440px, 78vw);
+  width: min(480px, 80vw);
   flex-shrink: 0;
-}
-.is-enhanced .rs-pstep h3 {
-  color: var(--mid);
-  transition: color 0.3s ease;
+  opacity: 0.45;
+  transition: opacity 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
 .is-enhanced .rs-pstep.is-active {
+  opacity: 1;
   border-color: var(--accent-fill, var(--accent));
   box-shadow: 0 8px 24px rgba(16, 25, 36, 0.08);
-}
-.is-enhanced .rs-pstep.is-active h3 {
-  color: var(--dark);
 }
 .rs-pstep.is-active .rs-pstep-num {
   background: var(--accent-fill, var(--accent));
   border-color: var(--accent-fill, var(--accent));
   color: var(--accent-on, var(--white));
 }
-/* 動畫依剩下的高度縮放，固定區內放得下 */
+/* 動畫：橫式螢幕吃掉剩下的高度（上限 520px），直式螢幕依寬度 */
 .is-enhanced .rs-process-visual {
-  width: min(100%, 720px, calc((100vh - var(--rs-nav-h) - 300px) * 720 / 505));
-  width: min(100%, 720px, calc((100dvh - var(--rs-nav-h) - 300px) * 720 / 505));
+  flex: 1 1 0;
+  min-height: 160px;
+  max-height: 520px;
+  max-width: none;
+  display: flex;
+  justify-content: center;
+}
+.is-enhanced .rs-process-visual iframe {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+}
+@media (max-aspect-ratio: 1/1) {
+  .is-enhanced .rs-process-visual {
+    flex: 0 0 auto;
+    max-height: none;
+    width: min(100%, 720px);
+  }
+  .is-enhanced .rs-process-visual iframe {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-height: 760px) {
+  .is-enhanced .rs-process-head .rs-lead,
+  .is-enhanced .rs-process-head .label {
+    display: none;
+  }
+  .is-enhanced .rs-process-pin {
+    gap: 12px;
+    padding-block: 12px;
+  }
 }
 /* 進度點 */
 .rs-process-dots {
@@ -1234,10 +1274,6 @@
   }
   .rs-pstep h3 {
     font-size: 17px;
-  }
-  .is-enhanced .rs-process-visual {
-    width: min(100%, calc((100vh - var(--rs-nav-h) - 330px) * 720 / 530));
-    width: min(100%, calc((100dvh - var(--rs-nav-h) - 330px) * 720 / 530));
   }
   .rs-process-visual iframe {
     aspect-ratio: 720 / 530; /* 讀數在手機上會換行，多留一點高度 */

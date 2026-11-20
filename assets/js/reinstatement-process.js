@@ -60,12 +60,15 @@
   }
 
   var stride = 0;
+  var center = 0;
 
   function measure() {
     // 每張卡片的寬度＋間距，用來把「目前這一步」對齊到左邊
     var first = steps[0];
     var second = steps[1];
     stride = second ? second.offsetLeft - first.offsetLeft : first.offsetWidth;
+    // 目前這一步的卡片置中，前後兩張各露出一部分
+    center = Math.max(0, (track.clientWidth - first.offsetWidth) / 2);
   }
 
   // 每一步前後各停 30%（讓動畫播），中間 40% 才滑到下一張
@@ -80,12 +83,19 @@
     ticking = false;
     var rect = root.getBoundingClientRect();
     var travel = root.offsetHeight - pin.offsetHeight;
+    // 固定區從導覽列下緣開始算（sticky top），不是從螢幕最上面
+    var stickyTop = parseFloat(window.getComputedStyle(pin).top) || 0;
     var progress =
-      travel > 0 ? Math.min(1, Math.max(0, -rect.top / travel)) : 0;
+      travel > 0
+        ? Math.min(1, Math.max(0, (stickyTop - rect.top) / travel))
+        : 0;
     var pos = progress * (steps.length - 1);
     var index = Math.floor(pos);
     var shift = index + dwell(pos - index);
-    root.style.setProperty("--rs-x", (-shift * stride).toFixed(1) + "px");
+    root.style.setProperty(
+      "--rs-x",
+      (center - shift * stride).toFixed(1) + "px",
+    );
     activate(Math.min(steps.length, Math.round(pos) + 1));
   }
 
@@ -116,6 +126,7 @@
     el.addEventListener("focusin", function () {
       var travel = root.offsetHeight - pin.offsetHeight;
       var top = root.getBoundingClientRect().top + window.pageYOffset;
+      top -= parseFloat(window.getComputedStyle(pin).top) || 0;
       window.scrollTo(0, top + (travel * (i + 0.5)) / steps.length);
     });
   });
