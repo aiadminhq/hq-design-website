@@ -37,7 +37,7 @@ Language toggle **EN | 中文** on every mirrored page, linking to the counterpa
 - `zh/about.html`
 - `zh/contact.html`
 - `zh/careers.html`
-- `zh/local-partner-international-pm.html` — includes: under design lead, legal name, 統編 89956251, 室裝 not architect, 一個工作天 + info@ + lily@, AIONTECH/SECOM/C.SUN, three models, what to send
+- `zh/local-partner-international-pm.html` — includes: under design lead, legal name, 統編 89956251, 室裝 not architect, 一個工作天 + info@ + lily@, AIONTECH/SECOM, three models, what to send
 
 ### Shared / meta
 - `assets/css/style.css` — **appended** only: `.lang-toggle*`, EN logo subtitle, ≤375px nav tweaks

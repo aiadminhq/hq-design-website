@@ -31,7 +31,6 @@
 |---------|-----------------|--------------|----------|--------|--------------|----------|-------|
 | aiontech | Nangang, Taipei | — | Tech Office | 台北南港 | — | 科技辦公室 | missing_size |
 | baohua | Nangang, Taipei | — | Corporate Office | 台北南港 | — | 企業辦公室 | missing_size |
-| csun | **台灣** | — | Corporate Office | 台灣 | — | 企業辦公室 | **chinese_on_en**, missing_size |
 | epicstech-10f | Nangang, Taipei | — | Corporate Office | 台北南港 | — | 企業辦公室 | missing_size |
 | hq-office | **台北市南港區經貿二路…** | — | Office & Showroom | 台北市南港區經貿二路… | — | Office & Showroom (EN on ZH) | **chinese_on_en**, missing_size, badge_lang |
 | kimpton | **台北大安** | — | Hospitality | 台北大安 | — | 飯店 | **chinese_on_en**, missing_size |
@@ -57,7 +56,6 @@
 |---------|------------------------|---------|
 | aiontech | 825 sqm | 250 坪 |
 | baohua | 350 sqm | 106 坪 |
-| csun | 710 sqm | 215 坪 |
 | epicstech-10f | 165 sqm | 50 坪 |
 | hq-office | 165 sqm | 50 坪 |
 | kimpton | 330 sqm | 100 坪 |
@@ -87,7 +85,6 @@ See post-fix section after apply (filled by script).
 |---------|-------------|---------|----------|-------------|---------|----------|
 | aiontech | Nangang, Taipei | 825 SQM | Tech Office | 台北南港 | 250 坪 | 科技辦公室 |
 | baohua | Nangang, Taipei | 350 SQM | Corporate Office | 台北南港 | 106 坪 | 企業辦公室 |
-| csun | Taiwan | 710 SQM | Corporate Office | 台灣 | 215 坪 | 企業辦公室 |
 | epicstech-10f | Nangang, Taipei | 165 SQM | Corporate Office | 台北南港 | 50 坪 | 企業辦公室 |
 | hq-office | Nangang, Taipei | 165 SQM | Office & Showroom | 台北南港 | 50 坪 | 辦公室・展間 |
 | kimpton | Da An, Taipei | 330 SQM | Hospitality | 台北大安 | 100 坪 | 飯店 |
@@ -107,9 +104,9 @@ See post-fix section after apply (filled by script).
 | zhongbao-tianhe | Nangang, Taipei | 350 SQM | Corporate Office | 台北南港 | 106 坪 | 企業辦公室 |
 
 ### Counts
-- Paired project pages updated: **20 EN + 20 ZH = 40 files**
-- EN locations with Chinese before → after: csun, hq-office, kimpton, popeyes, soup-spoon-101, soup-spoon-station, zhongbao-showroom (7)
-- Size chips added: all 20 paired projects (from Project Info; SECOM ATL-locked ~6,000 SQM / 1,800 坪)
+- Paired project pages updated: **19 EN + 19 ZH = 38 files**
+- EN locations with Chinese before → after: hq-office, kimpton, popeyes, soup-spoon-101, soup-spoon-station, zhongbao-showroom (6)
+- Size chips added: all 19 paired projects (from Project Info; SECOM ATL-locked ~6,000 SQM / 1,800 坪)
 - Badge normalized: SECOM `Flagship HQ · Design & Build` → `Flagship HQ`; ZH twin → `旗艦總部`; hq-office ZH badge → `辦公室・展間`; zhongbao-showroom ZH badge → `展廳`
 - Left without size: none (paired). Orphan `zhongbao-nangang` unchanged (no area in specs; not in sitemap).
 - SECOM unique 4-block stats bar: not reintroduced.

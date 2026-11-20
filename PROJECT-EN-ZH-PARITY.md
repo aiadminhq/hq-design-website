@@ -19,14 +19,6 @@ Skipped: `zhongbao-nangang` (orphan superseded by secom-nangang-complex).
 - **Area EN vs ZH:** 350 sqm ↔ 106 坪
 - **Verdict:** MATCH
 
-## `csun`
-- **EN title:** C.SUN Industrial HQ — HQ Design
-- **EN overview:** Office fit-out for C.SUN Industrial, a listed Taiwanese manufacturer. The design reflects the client's scale and brand while optimising executive-level spaces and overall circulation efficiency.
-- **ZH title:** 志聖工業總部 — 惠強室內裝修 HQ Design
-- **ZH overview:** 志聖工業辦公空間設計施工，為台灣上市製造企業打造符合企業規模與品牌形象的辦公環境，兼顧管理階層需求與整體動線效率。
-- **Area EN vs ZH:** 710 sqm ↔ 215 坪
-- **Verdict:** MATCH
-
 ## `epicstech-10f`
 - **EN title:** Epic Tech — HQ Design
 - **EN overview:** 10th floor office renovation for Epicstech. Precision zoning and brand-aligned interiors deliver a high-performance workspace — completed without disrupting day-to-day operations.
@@ -164,7 +156,7 @@ Skipped: `zhongbao-nangang` (orphan superseded by secom-nangang-complex).
 - **Verdict:** MATCH
 
 ## Summary
-- Twinned projects checked: 20
-- MATCH: 20
+- Twinned projects checked: 19
+- MATCH: 19
 - DRIFT: 0
 - Skipped twinning: `zhongbao-nangang` (file may remain under `projects/` but no ZH twin; not in sitemap; not linked from zh lists).
