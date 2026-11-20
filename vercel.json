@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/projects/csun.html",
+      "destination": "/projects.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/zh/projects/csun.html",
+      "destination": "/zh/projects.html",
+      "statusCode": 301
+    }
+  ]
+}
