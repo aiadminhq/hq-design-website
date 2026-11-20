@@ -399,3 +399,172 @@ a.hq-card:hover {
     transform: none;
   }
 }
+
+/* ============================================================
+   全站外框：導覽列與頁尾（沿用現有 HTML 結構，只在 .ds-v2 頁面換外觀）
+   ============================================================ */
+
+/* ---------- 導覽列 ---------- */
+.ds-v2 .nav {
+  background: var(--color-bg);
+  border-bottom: var(--stroke-divider) solid var(--color-border);
+  z-index: var(--z-sticky);
+  transition:
+    background-color var(--duration-base) var(--ease-standard),
+    border-color var(--duration-base) var(--ease-standard),
+    box-shadow var(--duration-base) var(--ease-standard);
+}
+.ds-v2 .nav.scrolled {
+  box-shadow: var(--shadow-sm);
+}
+.ds-v2 .nav-inner {
+  height: var(--nav-height);
+  max-width: calc(var(--container-max) + var(--gutter) * 2);
+  padding-inline: var(--gutter);
+}
+.ds-v2 .nav-links {
+  gap: var(--space-lg);
+}
+.ds-v2 .nav-links a {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--color-text-secondary);
+}
+.ds-v2 .nav-links a:hover,
+.ds-v2 .nav-links a.active {
+  color: var(--color-text);
+}
+.ds-v2 .nav-links a::after {
+  background: var(--color-accent-fill);
+  height: 2px;
+  bottom: -6px;
+}
+.ds-v2 .lang-toggle__item {
+  font-family: var(--font-latin);
+  color: var(--color-text-secondary);
+}
+.ds-v2 .lang-toggle__item.is-active {
+  color: var(--color-text);
+}
+.ds-v2 .lang-toggle__sep {
+  color: var(--color-border-strong);
+}
+/* 導覽列的 Contact 按鈕：深藍膠囊 */
+.ds-v2 .nav-cta.btn {
+  min-height: 40px;
+  padding: 8px 20px;
+  border: var(--stroke-component) solid var(--color-primary);
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  font-family: inherit;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  letter-spacing: 0;
+  text-transform: none;
+}
+.ds-v2 .nav-cta.btn:hover {
+  background: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
+  box-shadow: none;
+  transform: none;
+}
+/* 漢堡選單（建議用 <button>；沿用舊的 div 也可） */
+.ds-v2 .hamburger {
+  border: 0;
+  background: none;
+  padding: 10px;
+  margin-right: -10px;
+  color: inherit;
+}
+.ds-v2 .hamburger span {
+  background: var(--color-text);
+  transition:
+    transform var(--duration-base) var(--ease-standard),
+    opacity var(--duration-fast) var(--ease-standard);
+}
+.ds-v2 .nav-mobile-open .hamburger span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.ds-v2 .nav-mobile-open .hamburger span:nth-child(2) {
+  opacity: 0;
+}
+.ds-v2 .nav-mobile-open .hamburger span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+@media (max-width: 768px) {
+  .ds-v2 .nav-mobile-open .nav-links {
+    top: var(--nav-height);
+    padding: var(--space-md) var(--gutter) var(--space-lg);
+    gap: var(--space-md);
+    background: var(--hq-white);
+    border-bottom: var(--stroke-divider) solid var(--hq-neutral-dark-50);
+    box-shadow: var(--shadow-md);
+  }
+  .ds-v2 .nav-mobile-open .nav-links a {
+    font-size: var(--text-body);
+    color: var(--hq-ink);
+  }
+}
+
+/* 疊在照片上的透明導覽列：<nav class="nav nav--over-photo">
+   捲動超過 40px（main.js 加 .scrolled）或打開手機選單後變回白底 */
+.ds-v2 .nav--over-photo:not(.scrolled):not(.nav-mobile-open) {
+  --color-text: var(--hq-white);
+  --color-text-secondary: rgb(255 255 255 / 0.82);
+  --color-border-strong: rgb(255 255 255 / 0.4);
+  --color-primary: var(--hq-white);
+  --color-primary-hover: var(--hq-neutral-dark-25);
+  --color-on-primary: var(--hq-ink);
+  --color-focus: var(--hq-orange-90);
+  background: transparent;
+  border-bottom-color: transparent;
+}
+.ds-v2 .nav--over-photo:not(.scrolled):not(.nav-mobile-open) .nav-logo img {
+  filter: brightness(0) invert(1);
+}
+.ds-v2 .nav--over-photo:not(.scrolled):not(.nav-mobile-open) .nav-logo,
+.ds-v2 .nav--over-photo:not(.scrolled):not(.nav-mobile-open) .nav-logo * {
+  color: var(--hq-white);
+}
+
+/* ---------- 頁尾 ---------- */
+.ds-v2 .footer {
+  background: var(--hq-ink);
+  padding: var(--space-3xl) 0 var(--space-xl);
+}
+.ds-v2 .footer .container {
+  max-width: calc(var(--container-max) + var(--gutter) * 2);
+  padding-inline: var(--gutter);
+}
+.ds-v2 .footer-col h4 {
+  font-family: var(--font-latin);
+  font-size: var(--text-caption);
+  font-weight: var(--weight-medium);
+  letter-spacing: var(--tracking-label);
+  color: rgb(255 255 255 / 0.6);
+}
+.ds-v2 .footer-col ul a {
+  font-size: var(--text-sm);
+  color: rgb(255 255 255 / 0.78);
+}
+.ds-v2 .footer-col ul a:hover {
+  color: var(--hq-white);
+}
+.ds-v2 .footer-tagline,
+.ds-v2 .footer-tagline span {
+  color: rgb(255 255 255 / 0.7);
+}
+.ds-v2 .cert-badge {
+  border-radius: var(--radius-full);
+  padding: 4px 10px;
+  border-color: rgb(255 255 255 / 0.24);
+  color: rgb(255 255 255 / 0.7);
+}
+.ds-v2 .footer-bottom {
+  border-top-color: rgb(255 255 255 / 0.12);
+}
+.ds-v2 .footer-bottom p,
+.ds-v2 .footer-reg {
+  color: rgb(255 255 255 / 0.6);
+}

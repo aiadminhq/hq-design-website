@@ -1,0 +1,441 @@
+/* ============================================================
+   HQ DESIGN — 首頁（index.html／zh/index.html）專用版面
+   依賴：tokens.css、components.css；只用 tokens 變數，不寫死色碼。
+   規劃：docs/reviews/2026-11-20-homepage-redesign-plan.md（Hero 採 H2 全版照片）
+   ============================================================ */
+
+/* ---------- 1. Hero：全版照片＋左下漸層遮罩 ---------- */
+.home-hero {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: max(640px, 88vh);
+  min-height: max(640px, 88svh);
+  padding-top: var(--nav-height);
+  overflow: hidden;
+  isolation: isolate;
+  background: var(--hq-ink);
+  color: var(--hq-white);
+  --color-focus: var(--hq-orange-90); /* 深色照片上的焦點外框要亮一點 */
+}
+.home-hero__media,
+.home-hero__media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-hero__media {
+  z-index: -2;
+}
+.home-hero__media img {
+  object-fit: cover;
+  object-position: center 55%;
+}
+/* 兩層遮罩：由下往上 ＋ 由左往右，左下最深；換照片時只調 --scrim-strength */
+.home-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(
+      to top,
+      rgb(var(--scrim-color) / var(--scrim-strength)) 0%,
+      rgb(var(--scrim-color) / calc(var(--scrim-strength) * 0.6)) 40%,
+      rgb(var(--scrim-color) / 0) 75%
+    ),
+    linear-gradient(
+      to right,
+      rgb(var(--scrim-color) / calc(var(--scrim-strength) * 0.6)) 0%,
+      rgb(var(--scrim-color) / 0) 65%
+    ),
+    /* 頂端淡淡壓暗，讓透明導覽列的白字看得清楚 */
+    linear-gradient(
+        to bottom,
+        rgb(var(--scrim-color) / 0.45) 0%,
+        rgb(var(--scrim-color) / 0) 160px
+      );
+}
+.home-hero__content {
+  padding-block: var(--space-2xl) var(--space-3xl);
+}
+.home-hero__inner {
+  max-width: 720px;
+}
+.home-hero .hq-label {
+  color: var(--hq-white);
+  margin-bottom: var(--space-md);
+}
+.home-hero__title {
+  font-size: var(--text-display);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-display);
+  letter-spacing: var(--tracking-display);
+  color: var(--hq-white);
+  text-wrap: balance;
+}
+.home-hero__title em {
+  font-style: normal;
+  color: var(--hq-orange-70);
+}
+.home-hero__sub {
+  margin-top: var(--space-md);
+  max-width: 600px;
+  font-size: var(--text-body-lg);
+  line-height: var(--leading-body);
+  color: rgb(255 255 255 / 0.88);
+}
+.home-hero__sub + .home-hero__sub {
+  margin-top: var(--space-xs);
+  font-size: var(--text-body);
+}
+.home-hero .hq-btn-row {
+  margin-top: var(--space-lg);
+}
+
+/* ---------- 2. 數字條（照片下方白底） ---------- */
+.home-stats {
+  padding-block: var(--space-xl);
+  border-bottom: var(--stroke-divider) solid var(--color-border);
+  background: var(--color-bg);
+}
+.home-stats .hq-stats {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+/* ---------- 3. 客戶與外資服務 ---------- */
+.home-clients {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-sm) var(--space-xl);
+  padding-bottom: var(--space-xl);
+  margin-bottom: var(--space-xl);
+  border-bottom: var(--stroke-divider) solid var(--color-border);
+  list-style: none;
+}
+.home-clients__label {
+  display: block;
+  margin-bottom: var(--space-md);
+}
+.home-clients li {
+  font-family: var(--font-latin);
+  font-size: var(--text-body-lg);
+  font-weight: var(--weight-bold);
+  letter-spacing: 0.02em;
+  color: var(--color-text-secondary);
+}
+:lang(zh) .home-clients li {
+  font-family: var(--font-zh);
+}
+.home-launch {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: var(--space-xl);
+  align-items: start;
+}
+.home-checks {
+  display: grid;
+  gap: var(--space-sm);
+  list-style: none;
+}
+.home-checks li {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: flex-start;
+}
+.home-checks svg {
+  flex: none;
+  width: var(--icon-sm);
+  height: var(--icon-sm);
+  margin-top: 3px;
+  stroke: var(--color-accent-text);
+  stroke-width: var(--icon-stroke);
+  fill: none;
+}
+
+/* ---------- 4. 精選作品 ---------- */
+.home-work {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: var(--space-xl) var(--space-md);
+}
+.home-work__item {
+  grid-column: span 3;
+}
+.home-work__item:first-child {
+  grid-column: span 4;
+}
+.home-work__item:nth-child(2) {
+  grid-column: span 2;
+}
+.work-card {
+  display: grid;
+  gap: var(--space-sm);
+  color: var(--color-text);
+  text-decoration: none;
+}
+.work-card__media {
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  background: var(--color-bg-subtle);
+  aspect-ratio: 4 / 3;
+}
+.home-work__item:first-child .work-card__media {
+  aspect-ratio: 16 / 10;
+}
+.home-work__item:nth-child(2) .work-card__media {
+  aspect-ratio: auto;
+  height: 100%;
+}
+.work-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--duration-slow) var(--ease-out);
+}
+.work-card:hover .work-card__media img {
+  transform: scale(1.03);
+}
+.work-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs) var(--space-sm);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+.work-card__title {
+  font-size: var(--text-h3);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-tight);
+}
+.work-card__title small {
+  display: block;
+  margin-top: 2px;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-regular);
+  color: var(--color-text-muted);
+}
+.work-card__more {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2xs);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--color-accent-text);
+}
+.work-card:hover .work-card__more {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.home-work__all {
+  margin-top: var(--space-xl);
+}
+/* 第 2 張（窄欄）讓圖片撐滿整欄高度 */
+.home-work__item:nth-child(2) .work-card {
+  height: 100%;
+  grid-template-rows: 1fr auto auto auto;
+}
+
+/* ---------- 5. 兩扇門 ---------- */
+.home-doors {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-md);
+}
+.door {
+  display: grid;
+  align-content: start;
+  gap: var(--space-sm);
+  padding: var(--space-xl);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-muted);
+  color: var(--color-text);
+  text-decoration: none;
+  transition: box-shadow var(--duration-base) var(--ease-standard);
+}
+.door[data-theme] {
+  background: var(--color-bg);
+}
+.door:hover {
+  box-shadow: var(--shadow-md);
+}
+.door__title {
+  font-size: var(--text-h2);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-heading);
+  letter-spacing: var(--tracking-heading);
+}
+.door p {
+  color: var(--color-text-secondary);
+}
+.door .hq-btn {
+  justify-self: start;
+  margin-top: var(--space-sm);
+}
+
+/* ---------- 6. 優勢＋流程 ---------- */
+.home-why {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-md);
+}
+.home-process {
+  margin-top: var(--space-3xl);
+}
+
+/* ---------- 7. 服務清單 ---------- */
+.home-services {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 var(--space-xl);
+  list-style: none;
+  border-top: var(--stroke-divider) solid var(--color-border);
+}
+.service-row {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: var(--space-2xs) var(--space-md);
+  align-items: baseline;
+  padding-block: var(--space-md);
+  border-bottom: var(--stroke-divider) solid var(--color-border);
+  color: var(--color-text);
+  text-decoration: none;
+}
+.service-row__num {
+  font-family: var(--font-latin);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  color: var(--color-accent-text);
+}
+.service-row__title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs);
+  font-weight: var(--weight-bold);
+}
+.service-row__desc {
+  grid-column: 2 / 3;
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+.service-row__arrow {
+  grid-row: 1 / 3;
+  grid-column: 3;
+  align-self: center;
+  width: var(--icon-sm);
+  height: var(--icon-sm);
+  stroke: currentColor;
+  stroke-width: var(--icon-stroke);
+  fill: none;
+  transition: transform var(--duration-base) var(--ease-standard);
+}
+a.service-row:hover .service-row__title {
+  color: var(--color-accent-text);
+}
+a.service-row:hover .service-row__arrow {
+  transform: translateX(4px);
+}
+.home-services__more {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-sm) var(--space-lg);
+  margin-top: var(--space-xl);
+}
+.home-services__more a:not(.hq-btn) {
+  color: var(--color-link);
+  font-size: var(--text-sm);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* ---------- 8. CTA（深藍） ---------- */
+.home-cta {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: var(--space-xl);
+  align-items: end;
+}
+.home-cta__contact {
+  display: grid;
+  gap: var(--space-xs);
+  font-family: var(--font-latin);
+}
+.home-cta__contact a {
+  color: var(--color-text);
+  font-size: var(--text-body-lg);
+  text-decoration: none;
+}
+.home-cta__contact a:hover {
+  color: var(--color-link-hover);
+}
+.home-cta .hq-btn-row {
+  margin-top: var(--space-lg);
+}
+
+/* ---------- 響應式 ---------- */
+@media (max-width: 1024px) {
+  .home-work__item,
+  .home-work__item:first-child,
+  .home-work__item:nth-child(2) {
+    grid-column: span 3;
+  }
+  .home-work__item:first-child .work-card__media,
+  .home-work__item:nth-child(2) .work-card__media {
+    aspect-ratio: 4 / 3;
+    height: auto;
+  }
+  .home-why {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .home-hero {
+    min-height: max(600px, 82svh);
+  }
+  .home-hero::after {
+    /* 手機：文字區塊較高，遮罩從底部一路深到中段 */
+    background: linear-gradient(
+      to top,
+      rgb(var(--scrim-color) / var(--scrim-strength)) 0%,
+      rgb(var(--scrim-color) / var(--scrim-strength)) 55%,
+      rgb(var(--scrim-color) / calc(var(--scrim-strength) * 0.5)) 78%,
+      rgb(var(--scrim-color) / 0.35) 100%
+    ),
+    linear-gradient(to bottom, rgb(var(--scrim-color) / 0.45) 0%, rgb(var(--scrim-color) / 0) 140px);
+  }
+  .home-hero__content {
+    padding-block: var(--space-xl) var(--space-2xl);
+  }
+  .home-hero .hq-btn-row .hq-btn {
+    flex: 1 1 auto;
+  }
+  .home-stats .hq-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-lg) var(--space-md);
+  }
+  .home-launch,
+  .home-doors,
+  .home-services,
+  .home-cta {
+    grid-template-columns: 1fr;
+  }
+  .home-work {
+    grid-template-columns: 1fr;
+  }
+  .home-work__item,
+  .home-work__item:first-child,
+  .home-work__item:nth-child(2) {
+    grid-column: auto;
+  }
+  .door {
+    padding: var(--space-lg);
+  }
+  .home-clients {
+    gap: var(--space-xs) var(--space-lg);
+  }
+}

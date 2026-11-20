@@ -224,6 +224,17 @@
   --leading-heading: 1.3;
   --leading-body: 1.8;
 }
+/* 中文頁裡的英文片段（lang="en"）換回 Latin 設定 */
+:lang(en) {
+  --font-body: var(--font-latin);
+  --tracking-display: -0.02em;
+  --tracking-heading: -0.01em;
+  --tracking-body: 0;
+  --tracking-label: 0.12em;
+  --leading-display: 1.05;
+  --leading-heading: 1.15;
+  --leading-body: 1.65;
+}
 
 /* ---------- 深色區塊（Figma Slide Theme = Navy；Color Mode = Dark） ----------
    用法：<section data-theme="navy">…</section> */
