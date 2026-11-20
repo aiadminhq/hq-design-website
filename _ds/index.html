@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>HQ DESIGN — Design Tokens (internal)</title>
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap">
+  <!-- 跟正式頁面一樣先載入舊的 style.css，才看得出新舊樣式有沒有打架 -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <style>
+    /* 只給這個展示頁用 */
+    .sw-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: var(--space-sm); }
+    .sw { border-radius: var(--radius-sm); overflow: hidden; border: 1px solid var(--color-border); font-size: var(--text-caption); }
+    .sw i { display: block; height: 64px; }
+    .sw span { display: block; padding: 10px 12px; font-family: var(--font-latin); color: var(--color-text-secondary); }
+    .row { display: flex; flex-wrap: wrap; gap: var(--space-sm); align-items: center; }
+    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-md); }
+    .spec { font-family: var(--font-latin); font-size: var(--text-caption); color: var(--color-text-muted); }
+    .hero-demo { position: relative; min-height: 520px; border-radius: var(--radius-lg); overflow: hidden; display: flex; align-items: flex-end; }
+    .hero-demo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    .hero-demo::after { content: ""; position: absolute; inset: 0;
+      /* 兩層遮罩：由下往上 ＋ 由左往右，交集在左下最深 */
+      background:
+        linear-gradient(to top, rgb(var(--scrim-color) / var(--scrim-strength)) 0%, rgb(var(--scrim-color) / calc(var(--scrim-strength) * 0.6)) 40%, rgb(var(--scrim-color) / 0) 75%),
+        linear-gradient(to right, rgb(var(--scrim-color) / calc(var(--scrim-strength) * 0.6)) 0%, rgb(var(--scrim-color) / 0) 65%); }
+    .hero-demo__content { position: relative; z-index: 1; padding: var(--space-xl); max-width: 640px; color: var(--hq-white); }
+    .hero-demo__content .hq-display { color: var(--hq-white); font-size: clamp(2.25rem, 1.4rem + 3.4vw, 4.25rem); }
+    .hero-demo__content p { color: rgb(255 255 255 / 0.85); margin-block: var(--space-sm) var(--space-lg); }
+    .hero-demo__content .hq-label { color: var(--hq-white); }
+  </style>
+</head>
+<body class="ds-v2">
+
+<header class="hq-section hq-section--subtle" style="padding-block: var(--space-2xl);">
+  <div class="hq-container">
+    <span class="hq-label">Internal · PR 0</span>
+    <h1 class="hq-h1" style="margin-top: var(--space-xs);">HQ DESIGN Design Tokens</h1>
+    <p class="hq-lead">Source: Figma “HQ DESIGN – New Design System”. This page is not linked from the site and is set to noindex. Files: <code>assets/css/tokens.css</code>, <code>assets/css/components.css</code>.</p>
+  </div>
+</header>
+
+<section class="hq-section">
+  <div class="hq-container">
+    <div class="hq-section-head"><span class="hq-label">Color</span><h2 class="hq-h2">Brand palette</h2></div>
+    <div class="sw-grid">
+      <div class="sw"><i style="background:var(--hq-orange-120)"></i><span>orange-120<br>#992f19</span></div>
+      <div class="sw"><i style="background:var(--hq-orange-110)"></i><span>orange-110<br>#cc3e22 text</span></div>
+      <div class="sw"><i style="background:var(--hq-orange-100)"></i><span>orange-100<br>#ff4e2a fill</span></div>
+      <div class="sw"><i style="background:var(--hq-orange-90)"></i><span>orange-90<br>#fc6f50</span></div>
+      <div class="sw"><i style="background:var(--hq-orange-70)"></i><span>orange-70<br>#f7ae9e</span></div>
+      <div class="sw"><i style="background:var(--hq-orange-60)"></i><span>orange-60<br>#f4cec5</span></div>
+      <div class="sw"><i style="background:var(--hq-navy-120)"></i><span>navy-120<br>#19273a</span></div>
+      <div class="sw"><i style="background:var(--hq-navy-100)"></i><span>navy-100<br>#1f3148</span></div>
+      <div class="sw"><i style="background:var(--hq-navy-80)"></i><span>navy-80<br>#4c5a6d</span></div>
+      <div class="sw"><i style="background:var(--hq-navy-50)"></i><span>navy-50<br>#8f98a4</span></div>
+      <div class="sw"><i style="background:var(--hq-ink)"></i><span>ink<br>#101924</span></div>
+      <div class="sw"><i style="background:var(--hq-ink-secondary)"></i><span>ink-secondary<br>#4d4f53</span></div>
+      <div class="sw"><i style="background:var(--hq-ink-muted)"></i><span>ink-muted<br>#6b6f75</span></div>
+      <div class="sw"><i style="background:var(--hq-neutral-dark-100)"></i><span>neutral-dark-100<br>#d9d9d9</span></div>
+      <div class="sw"><i style="background:var(--hq-neutral-dark-50)"></i><span>neutral-dark-50<br>#e8e8e8</span></div>
+      <div class="sw"><i style="background:var(--hq-neutral-light-100)"></i><span>neutral-light-100<br>#f5f5f5</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="hq-section hq-section--subtle">
+  <div class="hq-container hq-stack">
+    <div class="hq-section-head"><span class="hq-label">Type · Satoshi</span><h2 class="hq-h2">Type scale</h2></div>
+    <p class="spec">display · 44→88px</p><p class="hq-display">Zero Downtime.</p>
+    <p class="spec">h1 · 32→56px</p><p class="hq-h1">Turnkey commercial fit-out</p>
+    <p class="spec">h2 · 26→36px</p><p class="hq-h2">Three structural advantages</p>
+    <p class="spec">h3 · 20→24px</p><p class="hq-h3">Single contract, single team</p>
+    <p class="spec">lead · 18px</p><p class="hq-lead">Design and build by the same in-house team. One contract. One PM. One point of accountability from briefing to handover.</p>
+    <p class="spec">body · 16px</p><p>Phased, zone-by-zone construction preserving full business operations throughout. Weekly progress reports as standard.</p>
+  </div>
+</section>
+
+<section class="hq-section" lang="zh-Hant">
+  <div class="hq-container hq-stack">
+    <div class="hq-section-head"><span class="hq-label">字體 · Noto Sans TC</span><h2 class="hq-h2">中文字級</h2></div>
+    <p class="hq-display">營運不中斷。</p>
+    <p class="hq-h1">一站式商業空間設計施工</p>
+    <p class="hq-h2">三大結構優勢</p>
+    <p class="hq-h3">一份合約，一個團隊</p>
+    <p class="hq-lead">設計與施工由同一個團隊負責，一份合約、一位 PM，從需求訪談到交屋保固一路負責到底。</p>
+    <p>分區分階段施工，讓您的營運全程不中斷；每週提供進度報告。數字與英文 Office、PM、MEP 保留原文。</p>
+  </div>
+</section>
+
+<section class="hq-section hq-section--subtle">
+  <div class="hq-container hq-stack">
+    <div class="hq-section-head"><span class="hq-label">Components</span><h2 class="hq-h2">Buttons &amp; tags</h2></div>
+    <div class="row">
+      <a class="hq-btn hq-btn--accent" href="#">Start your project
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="hq-btn hq-btn--primary" href="#">View portfolio</a>
+      <a class="hq-btn hq-btn--outline" href="#">All services</a>
+      <a class="hq-btn hq-btn--primary hq-btn--sm" href="#">Contact</a>
+      <a class="hq-btn hq-btn--accent hq-btn--lg" href="#">Talk to a PM</a>
+      <button class="hq-btn hq-btn--primary" disabled>Disabled</button>
+    </div>
+    <div class="row">
+      <span class="hq-tag hq-tag--accent">New</span>
+      <span class="hq-tag hq-tag--primary">Office</span>
+      <span class="hq-tag hq-tag--outline">Showroom</span>
+    </div>
+  </div>
+</section>
+
+<section class="hq-section">
+  <div class="hq-container">
+    <div class="hq-section-head"><span class="hq-label">Components</span><h2 class="hq-h2">Cards, stats, steps</h2></div>
+    <div class="grid-3">
+      <div class="hq-card">
+        <span class="hq-icon-box"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></span>
+        <h3 class="hq-card__title">Zero-disruption construction</h3>
+        <p class="hq-card__body">Phased, zone-by-zone works that keep your business running.</p>
+      </div>
+      <div class="hq-card hq-card--outline">
+        <span class="hq-icon-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15 14.5c3 0 6 1.8 6 5.5"/></svg></span>
+        <h3 class="hq-card__title">Single contract, single team</h3>
+        <p class="hq-card__body">Design and build in-house under one PM.</p>
+      </div>
+      <a class="hq-card hq-card--outline" href="#">
+        <span class="hq-tag hq-tag--accent" style="justify-self:start">New</span>
+        <h3 class="hq-card__title">Office reinstatement</h3>
+        <p class="hq-card__body">End-of-lease reinstatement and structured handback. (linked card, hover)</p>
+      </a>
+    </div>
+    <hr class="hq-divider">
+    <div class="hq-stats">
+      <div class="hq-stat"><span class="hq-stat__num">31<span class="hq-stat__unit">+</span></span><span class="hq-stat__label">Years in operation</span></div>
+      <div class="hq-stat"><span class="hq-stat__num">1,600<span class="hq-stat__unit">+</span></span><span class="hq-stat__label">Commercial projects</span></div>
+      <div class="hq-stat"><span class="hq-stat__num">9<span class="hq-stat__unit">+</span></span><span class="hq-stat__label">Listed clients</span></div>
+      <div class="hq-stat"><span class="hq-stat__num">12<span class="hq-stat__unit">M</span></span><span class="hq-stat__label">Post-handover warranty</span></div>
+    </div>
+    <hr class="hq-divider">
+    <ol class="hq-steps">
+      <li class="hq-step"><span class="hq-step__title">Consult</span><span class="hq-step__body">Site visit and brief</span></li>
+      <li class="hq-step"><span class="hq-step__title">Design</span><span class="hq-step__body">Layout, materials, renders</span></li>
+      <li class="hq-step"><span class="hq-step__title">Quote</span><span class="hq-step__body">One itemised contract</span></li>
+      <li class="hq-step"><span class="hq-step__title">Build</span><span class="hq-step__body">Permits, works, weekly reports</span></li>
+      <li class="hq-step"><span class="hq-step__title">Handover</span><span class="hq-step__body">12-month warranty</span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="hq-section" data-theme="navy">
+  <div class="hq-container">
+    <div class="hq-section-head"><span class="hq-label">Theme · navy</span><h2 class="hq-h2">Ready to start your Taiwan project?</h2>
+      <p class="hq-lead">Dark sections reuse the same components; only the semantic tokens change.</p></div>
+    <div class="hq-btn-row">
+      <a class="hq-btn hq-btn--accent" href="#">Get in touch</a>
+      <a class="hq-btn hq-btn--outline" href="#">Call +886-2-2557-3003</a>
+    </div>
+  </div>
+</section>
+
+<section class="hq-section hq-section--subtle">
+  <div class="hq-container">
+    <div class="hq-section-head"><span class="hq-label">Preview · Hero H2</span><h2 class="hq-h2">Full-bleed photo with bottom-left scrim</h2>
+      <p class="hq-lead">Placeholder photo. The scrim strength is one token: <code>--scrim-strength</code>.</p></div>
+    <div class="hero-demo">
+      <img src="../assets/images/projects/secom-nangang-complex/photo-01.jpg" alt="" width="2400" height="1600">
+      <div class="hero-demo__content">
+        <span class="hq-label">Commercial Design &amp; Build · Taipei · Since 1995</span>
+        <p class="hq-display">Zero Downtime. Turnkey Delivery.</p>
+        <p>Design and build, in-house. One contract. One PM.</p>
+        <div class="hq-btn-row">
+          <a class="hq-btn hq-btn--accent" href="#">Start your project</a>
+          <a class="hq-btn hq-btn--inverse" href="#">View portfolio</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

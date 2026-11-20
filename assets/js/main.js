@@ -68,8 +68,10 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.1 });
 
-document.querySelectorAll('.why-card, .project-card, .service-card, .career-card')
+document.querySelectorAll('.why-card, .project-card, .service-card, .career-card, .hq-reveal')
   .forEach(el => observer.observe(el));
+// New design system: .hq-reveal only hides content once this flag is set, so pages stay visible without JS.
+document.documentElement.classList.add('hq-reveal-ready');
 
 // Contact forms: AJAX submit to Formspree (stay on page + thank-you)
 (function initContactFormAjax() {
