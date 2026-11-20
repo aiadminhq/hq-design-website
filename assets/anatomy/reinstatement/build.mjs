@@ -235,6 +235,7 @@ const ITEMS = [
   },
 ];
 const N = ITEMS.length;
+const TAG_H = { carpet: 2, cabinet: 32, rack: 42, partition: 54, glass: 54, meeting: 18, desks: 24, chairs: 18, reception: 22, logo: 50, plants: 17, trunking: 4 };
 // 拆除順序：家具 → 設備 → 隔間 → 地坪
 const ORDER = ["plants", "chairs", "meeting", "desks", "cabinet", "rack", "reception", "logo", "glass", "partition", "trunking", "carpet"];
 
@@ -266,8 +267,9 @@ const svg = k.figureSvg({
     plinth(), slab(), windowWall(), backWall(),
     itemSvg(carpet),
     ...underCeil.map(itemSvg),
-    ceiling(),
+    `<g data-part="ceiling">${ceiling()}</g>`,
     ...frontParts.map((p) => p.svg),
+    `<g data-part="tags" class="rs-tags">${ORDER.map((id, i) => { const it = ITEMS.find((x) => x.id === id); const [x, y] = at([it.cx, it.cy, TAG_H[id]]); return `<g data-tag="${id}"><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="6.2"/><text x="${x.toFixed(1)}" y="${(y + 2.3).toFixed(1)}">${i + 1}</text></g>`; }).join("")}</g>`,
     `<g data-part="cart" transform="${k.translateAlong(P, [CART[0], CART[1] - 26, 0])}">${cart()}</g>`,
   ],
 });
@@ -288,6 +290,10 @@ const readout = root.querySelector("[data-readout]");
 const buttons = [...root.querySelectorAll("[data-phase]")];
 const checks = [...root.querySelectorAll("[data-check]")];
 const still = matchMedia("(prefers-reduced-motion: reduce)");
+const EMBED = new URLSearchParams(location.search).has("embed");
+const read2 = root.querySelector("[data-readout2]");
+const tags = Object.fromEntries(ORDER.map((id) => [id, svg.querySelector('[data-tag="' + id + '"]')]));
+if (EMBED) document.documentElement.classList.add("rs-embed");
 const ease = (t) => t < 0 ? 0 : t > 1 ? 1 : t * t * (3 - 2 * t);
 // u：0 = 裝修現況，1 = 拆除完成。每項在 [s, s+w] 內抬起淡出。
 const SLOT = 0.86 / N, WIN = 0.14;
@@ -315,6 +321,8 @@ function draw() {
   const label = u <= 0 ? PH[0] : u >= 1 ? PH[2] : PH[1];
   const text = READ(label, gone, N, u >= 1 ? Math.ceil(N / PER_TRIP) : trips);
   if (readout.textContent !== text) readout.textContent = text;
+  if (read2.textContent !== text) read2.textContent = text;
+  ORDER.forEach((id, i) => { tags[id].style.opacity = String(1 - ease((u - i * SLOT) / WIN)); });
   buttons.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.phase === (u <= 0 ? "0" : u >= 1 ? "2" : "1"))));
 }
 const TOUR = [[0, 2.4], [1, 7.5], [1, 3.2], [0, 1.4]];
@@ -333,7 +341,7 @@ function tick(now) {
     if (t < 0) { u = Math.max(0, u - dt / 1.2); } else { u = t; }
     target = u;
   } else {
-    const speed = 1 / 6;
+    const speed = target < u ? 1 / 1.5 : 1 / 6;
     u = still.matches ? target : u + Math.sign(target - u) * Math.min(Math.abs(target - u), speed * dt);
   }
   draw();
@@ -351,6 +359,25 @@ function go(phase) {
 buttons.forEach((b) => b.addEventListener("click", () => go(Number(b.dataset.phase))));
 new IntersectionObserver((e) => { visible = e[e.length - 1].isIntersecting; if (visible) run(); }, { rootMargin: "120px 0px" }).observe(root);
 if (still.matches) { touring = false; u = target = 1; }
+let step = 0;
+function setStep(n) {
+  n = Math.max(1, Math.min(5, n | 0));
+  if (n === step) return;
+  const from = step; step = n; touring = false; clearTimeout(idle);
+  root.classList.toggle("rs-ceil-off", n === 1);
+  root.classList.toggle("rs-show-tags", n === 3 || n === 4);
+  if (n <= 3) target = 0;
+  if (n === 4) { if (from && from < 4) u = 0; target = from === 5 ? 0.6 : 1; }
+  if (n === 5) target = 1;
+  if (still.matches) u = target;
+  if (n <= 3 && !still.matches && u > 0) u = Math.max(0, u); // 往回時以動畫退回
+  draw(); run();
+}
+if (EMBED) {
+  touring = false; u = target = 0; setStep(1);
+  addEventListener("message", (e) => { if (e.origin !== location.origin) return; const d = e.data; if (d && d.type === "rs-anatomy-step") setStep(d.step); });
+  if (window.parent !== window) window.parent.postMessage({ type: "rs-anatomy-ready" }, location.origin);
+}
 draw();
 `;
 
@@ -366,6 +393,19 @@ const css = `
 .rs-anatomy .iso-plate-corner{font-size:11px}
 .rs-anatomy [data-readout]{white-space:normal;text-align:right;max-width:70%}
 @media (max-width:560px){.rs-anatomy [data-corner="hint"]{display:none}.rs-anatomy [data-readout]{left:0;max-width:none;text-align:left}}
+.rs-tags{opacity:0;transition:opacity .5s}
+.rs-tags circle{fill:#fff;stroke:#1F3148;stroke-width:.8;stroke-dasharray:2 1.4}
+.rs-tags text{font:600 7px 'Satoshi',system-ui,sans-serif;fill:#1F3148;text-anchor:middle}
+.rs-show-tags .rs-tags{opacity:1}
+[data-part="ceiling"] path{transition:fill .6s,stroke .6s}
+.rs-ceil-off [data-part="ceiling"]{--anatomy-lit:#9a9da3;--anatomy-lit-top:#ffffff;--anatomy-lit-shade:#ececec}
+.rs-embed-read{display:none}
+html.rs-embed,html.rs-embed body{background:transparent!important;color-scheme:normal;margin:0;padding:0!important}
+html.rs-embed .iso-page{padding:0;max-width:none;margin:0}
+html.rs-embed .iso-figure{margin:0}
+html.rs-embed .iso-plate{background:transparent;box-shadow:none;padding:0;--anatomy-paper:#ffffff}
+html.rs-embed .iso-plate-corners,html.rs-embed .iso-legend,html.rs-embed .iso-caption,html.rs-embed .rs-phases,html.rs-embed .rs-check{display:none}
+html.rs-embed .rs-embed-read{display:block;margin:4px 0 0;text-align:center;font:500 13px/1.4 'Satoshi','Noto Sans TC',system-ui,sans-serif;color:#4D4F53;font-variant-numeric:tabular-nums}
 .rs-check{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:#4D4F53}
 .rs-check li::before{content:"○";margin-right:6px;color:#b8b8b8}
 .rs-check li[data-on]{color:#101924}
@@ -391,7 +431,7 @@ const controls = `<div class="rs-phases" role="group" aria-label="${T.group}">
 </div>
 <ul class="rs-check" aria-label="${T.checkLabel}">${CHECK.map((c) => `<li data-check>${c}</li>`).join("")}</ul>`;
 // readout 在 plate 內；按鈕與清單放在 plate 後，整組用 .rs-anatomy 包起來
-const body = `<section class="rs-anatomy" aria-label="${T.section}"><style>${css}</style>${plate}${controls}</section>`;
+const body = `<section class="rs-anatomy" aria-label="${T.section}"><style>${css}</style>${plate}<p class="rs-embed-read" data-readout2 aria-live="polite"></p>${controls}</section>`;
 
 writeFileSync(join(HERE, T.file), k.pageHtml({ title: T.page, theme: "light", body, script: kitScript() + live, width: 720 }));
 const outFile = join(HERE, T.file);

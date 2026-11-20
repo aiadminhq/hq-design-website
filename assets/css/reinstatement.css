@@ -1096,7 +1096,9 @@
 .rs-process-visual iframe {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  max-width: 720px;
+  margin: 0 auto;
+  aspect-ratio: 720 / 505; /* 動畫嵌入模式：模型高約 0.63 倍寬＋一行讀數 */
   height: auto;
   border: 0;
   background: transparent;
@@ -1172,10 +1174,6 @@
     padding: 8px 0;
     border-bottom: 1px solid var(--border);
   }
-  .rs-process-visual iframe {
-    max-height: 38vh;
-    margin: 0 auto;
-  }
   .is-enhanced .rs-pstep {
     min-height: 40vh;
   }
@@ -1184,5 +1182,14 @@
   .rs-pstep-num,
   .rs-pstep h3 {
     transition: none;
+  }
+}
+/* 手機寬度：動畫下方讀數會換行（英文兩行），框多留一點高度 */
+@media (max-width: 560px) {
+  .rs-process-visual iframe {
+    aspect-ratio: 720 / 530;
+  }
+  html[lang="en"] .rs-process-visual iframe {
+    aspect-ratio: 720 / 555;
   }
 }
