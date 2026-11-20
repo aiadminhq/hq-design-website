@@ -1079,55 +1079,41 @@
 }
 
 /* ============================================================
-   流程：左邊固定的拆除動畫＋右邊 5 步，捲到哪一步就播到哪一步
-   （reinstatement-process.js；動畫 iframe 用 ?embed=1）
+   流程：整頁照常往下捲；捲到這一區時畫面固定，
+   往下捲＝步驟卡片往左滑（上），拆除動畫跟著播到該步（下）。
+   reinstatement-process.js 加上 .is-enhanced 後才啟用；沒有 JS 時是普通的直向清單。
    ============================================================ */
 .rs-process {
-  display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
-  gap: 56px;
-  align-items: start;
+  --rs-nav-h: 72px;
+  --rs-steps: 5;
+  position: relative;
 }
-.rs-process-visual {
-  position: sticky;
-  top: 104px;
-  margin: 0;
-}
-.rs-process-visual iframe {
-  display: block;
-  width: 100%;
-  max-width: 720px;
-  margin: 0 auto;
-  aspect-ratio: 720 / 505; /* 動畫嵌入模式：模型高約 0.63 倍寬＋一行讀數 */
-  height: auto;
-  border: 0;
-  background: transparent;
+.rs-process-pin {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 .rs-process-list {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  gap: 16px;
 }
 .rs-pstep {
   display: flex;
-  gap: 20px;
+  gap: 16px;
   align-items: flex-start;
-  padding: 28px 0;
-  border-top: 1px solid var(--border);
-}
-.rs-pstep:last-child {
-  border-bottom: 1px solid var(--border);
-}
-.is-enhanced .rs-pstep {
-  min-height: 46vh;
-}
-.is-enhanced .rs-pstep:last-child {
-  min-height: 38vh;
+  padding: 24px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 .rs-pstep-num {
   flex-shrink: 0;
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   border: 1.5px solid var(--border);
   background: var(--white);
@@ -1141,20 +1127,70 @@
   transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 .rs-pstep h3 {
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.4;
-  margin: 10px 0 8px;
-  color: var(--mid);
-  transition: color 0.3s ease;
+  margin: 8px 0 6px;
+  color: var(--dark);
 }
 .rs-pstep p {
   font-size: 15px;
-  line-height: 1.8;
+  line-height: 1.75;
   color: var(--mid);
-  max-width: 32em;
 }
-.rs-pstep.is-active h3,
-.rs-process:not(.is-enhanced) .rs-pstep h3 {
+.rs-process-visual {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 720px;
+}
+.rs-process-visual iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 720 / 505; /* 動畫嵌入模式：模型高約 0.63 倍寬＋一行讀數 */
+  height: auto;
+  border: 0;
+  background: transparent;
+}
+
+/* ---------- 啟用後：固定＋橫向滑動 ---------- */
+.rs-process.is-enhanced {
+  /* 每一步大約捲 70% 螢幕高，再加上固定區本身的高度 */
+  height: calc(var(--rs-steps) * 70vh + 100vh - var(--rs-nav-h));
+}
+.is-enhanced .rs-process-pin {
+  position: sticky;
+  top: var(--rs-nav-h);
+  height: calc(100vh - var(--rs-nav-h));
+  height: calc(100dvh - var(--rs-nav-h));
+  justify-content: center;
+  gap: 16px;
+}
+.is-enhanced .rs-process-track {
+  overflow: visible;
+}
+/* 卡片可以一路滑到螢幕邊緣；clip 不會建立捲動容器，sticky 仍然有效 */
+#rs-process {
+  overflow-x: clip;
+}
+.is-enhanced .rs-process-list {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  transform: translate3d(var(--rs-x, 0px), 0, 0);
+  will-change: transform;
+}
+.is-enhanced .rs-pstep {
+  width: min(440px, 78vw);
+  flex-shrink: 0;
+}
+.is-enhanced .rs-pstep h3 {
+  color: var(--mid);
+  transition: color 0.3s ease;
+}
+.is-enhanced .rs-pstep.is-active {
+  border-color: var(--accent-fill, var(--accent));
+  box-shadow: 0 8px 24px rgba(16, 25, 36, 0.08);
+}
+.is-enhanced .rs-pstep.is-active h3 {
   color: var(--dark);
 }
 .rs-pstep.is-active .rs-pstep-num {
@@ -1162,34 +1198,59 @@
   border-color: var(--accent-fill, var(--accent));
   color: var(--accent-on, var(--white));
 }
-@media (max-width: 960px) {
-  .rs-process {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 8px;
-  }
-  .rs-process-visual {
-    top: 72px;
-    z-index: 2;
-    background: var(--white);
-    padding: 8px 0;
-    border-bottom: 1px solid var(--border);
-  }
-  .is-enhanced .rs-pstep {
-    min-height: 40vh;
-  }
+/* 動畫依剩下的高度縮放，固定區內放得下 */
+.is-enhanced .rs-process-visual {
+  width: min(100%, 720px, calc((100vh - var(--rs-nav-h) - 300px) * 720 / 505));
+  width: min(100%, 720px, calc((100dvh - var(--rs-nav-h) - 300px) * 720 / 505));
 }
-@media (prefers-reduced-motion: reduce) {
-  .rs-pstep-num,
-  .rs-pstep h3 {
-    transition: none;
-  }
+/* 進度點 */
+.rs-process-dots {
+  display: none;
 }
-/* 手機寬度：動畫下方讀數會換行（英文兩行），框多留一點高度 */
+.is-enhanced .rs-process-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.rs-process-dots li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--border);
+  transition: background-color 0.3s ease, width 0.3s ease;
+}
+.rs-process-dots li.is-active {
+  width: 24px;
+  border-radius: 999px;
+  background: var(--accent-fill, var(--accent));
+}
+
 @media (max-width: 560px) {
+  .rs-pstep {
+    padding: 20px;
+  }
+  .rs-pstep h3 {
+    font-size: 17px;
+  }
+  .is-enhanced .rs-process-visual {
+    width: min(100%, calc((100vh - var(--rs-nav-h) - 330px) * 720 / 530));
+    width: min(100%, calc((100dvh - var(--rs-nav-h) - 330px) * 720 / 530));
+  }
   .rs-process-visual iframe {
-    aspect-ratio: 720 / 530;
+    aspect-ratio: 720 / 530; /* 讀數在手機上會換行，多留一點高度 */
   }
   html[lang="en"] .rs-process-visual iframe {
     aspect-ratio: 720 / 555;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rs-pstep,
+  .rs-pstep-num,
+  .rs-pstep h3,
+  .rs-process-dots li {
+    transition: none;
   }
 }
