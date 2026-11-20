@@ -2,11 +2,12 @@
    HQ DESIGN New Design System — 退租復原三頁的內容區
    來源：Figma「HQ DESIGN - New Design System」（YkQYrRyGsKJEpQj1Lo9kzR）
          Components 頁 Core Components（128:2）的 Variables
-   範圍：只作用在 .rs-page 的 <main>；導覽列與頁尾維持全站舊樣式。
+   範圍：只作用在 .rs-page 的 <main> 與頁首標題區 .page-hero；導覽列與頁尾維持全站舊樣式。
    之後全站改版時，這裡的 token 可直接搬到 :root。
    ============================================================ */
 
-.rs-page main {
+.rs-page main,
+.rs-page .page-hero {
   /* 色彩 */
   --brand: #1f3148; /* color/navy/100、slide/action/primary-bg */
   --brand-dark: #19273a; /* control/fill-a */
@@ -175,4 +176,22 @@
 .rs-page main .form-group textarea:focus,
 .rs-page main .form-group select:focus {
   border-color: var(--brand);
+}
+
+/* ---------- 表單頁、感謝頁的頁首標題區（在 <main> 之外） ---------- */
+.rs-page .page-hero {
+  background:
+    radial-gradient(60% 80% at 92% 0%, rgba(255, 78, 42, 0.32) 0%, rgba(255, 78, 42, 0) 70%),
+    var(--brand);
+}
+.rs-page .page-hero h1 {
+  font-family: var(--font-zh);
+  font-weight: 700;
+}
+.rs-page .page-hero .label {
+  font-family: var(--font-en);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  color: #ffb3a1;
 }
