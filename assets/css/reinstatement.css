@@ -1007,3 +1007,65 @@
     align-items: flex-start;
   }
 }
+
+/* ============================================================
+   卡片標題 icon（inline SVG sprite，線條風格，跟隨文字顏色）
+   ============================================================ */
+.rs-ico {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.rs-ico circle[r=".4"] {
+  fill: currentColor;
+}
+.rs-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.rs-card-top .rs-card-num {
+  margin-bottom: 0;
+}
+.rs-card-ico {
+  width: 28px;
+  height: 28px;
+  color: var(--brand);
+}
+.rs-ico-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.rs-ico-title .rs-ico {
+  color: var(--accent);
+}
+.step .rs-ico-title {
+  justify-content: center;
+  gap: 6px;
+}
+.step .rs-ico-title .rs-ico {
+  width: 16px;
+  height: 16px;
+}
+.rs-list--icons li::before {
+  content: none;
+}
+.rs-li-ico {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: var(--accent);
+}
+.rs-faq summary > .rs-ico {
+  color: var(--accent);
+}
+.rs-faq summary > span {
+  flex: 1;
+}
