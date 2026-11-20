@@ -314,16 +314,17 @@ function draw() {
   const cyc = ease(((u * N) % PER_TRIP) / PER_TRIP);
   const away = u > 0 && u < 1 && gone % PER_TRIP === 0 && gone > 0 ? Math.sin(Math.min(1, ((u - (gone - 1) * SLOT - WIN) / SLOT)) * Math.PI) : 0;
   cart.setAttribute("transform", translateAlong(P, [CART[0] + 60 * Math.max(0, away), CART[1] - 26, 0]));
-  cart.style.opacity = String(u >= 1 ? 0 : 1);
-  load.style.opacity = String(u >= 1 ? 0 : Math.min(1, phase + (gone > 0 && gone % PER_TRIP === 0 ? 0 : 0.34)));
-  const done = [u > 9 * SLOT, u > 10 * SLOT + WIN * 0.5, u >= 1, u >= 1, u >= 1];
+  cart.style.opacity = String(gone >= N ? 0 : 1);
+  load.style.opacity = String(gone >= N ? 0 : Math.min(1, phase + (gone > 0 && gone % PER_TRIP === 0 ? 0 : 0.34)));
+  const done = [u > 9 * SLOT, u > 10 * SLOT + WIN * 0.5, gone >= N, gone >= N, gone >= N];
   checks.forEach((c, i) => c.toggleAttribute("data-on", done[i]));
-  const label = u <= 0 ? PH[0] : u >= 1 ? PH[2] : PH[1];
-  const text = READ(label, gone, N, u >= 1 ? Math.ceil(N / PER_TRIP) : trips);
+  const finished = gone >= N;
+  const label = finished ? PH[2] : u <= 0 ? PH[0] : PH[1];
+  const text = READ(label, gone, N, finished ? Math.ceil(N / PER_TRIP) : trips);
   if (readout.textContent !== text) readout.textContent = text;
   if (read2.textContent !== text) read2.textContent = text;
   ORDER.forEach((id, i) => { tags[id].style.opacity = String(1 - ease((u - i * SLOT) / WIN)); });
-  buttons.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.phase === (u <= 0 ? "0" : u >= 1 ? "2" : "1"))));
+  buttons.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.phase === (gone >= N ? "2" : u <= 0 ? "0" : "1"))));
 }
 const TOUR = [[0, 2.4], [1, 7.5], [1, 3.2], [0, 1.4]];
 function tourTarget(t) {
@@ -369,7 +370,7 @@ function setStep(n) {
   if (n <= 3) target = 0;
   if (n === 4) { if (from && from < 4) u = 0; target = from === 5 ? 0.6 : 1; }
   if (n === 5) target = 1;
-  if (still.matches) u = target;
+  if (still.matches || !visible) u = target;
   if (n <= 3 && !still.matches && u > 0) u = Math.max(0, u); // 往回時以動畫退回
   draw(); run();
 }
@@ -401,11 +402,16 @@ const css = `
 .rs-ceil-off [data-part="ceiling"]{--anatomy-lit:#9a9da3;--anatomy-lit-top:#ffffff;--anatomy-lit-shade:#ececec}
 .rs-embed-read{display:none}
 html.rs-embed,html.rs-embed body{background:transparent!important;color-scheme:normal;margin:0;padding:0!important}
-html.rs-embed .iso-page{padding:0;max-width:none;margin:0}
-html.rs-embed .iso-figure{margin:0}
+html.rs-embed .iso-page{padding:0;max-width:none;margin:0;width:100%}
+html.rs-embed .iso-figure{margin:0;flex:1 1 0;min-height:0;display:flex;flex-direction:column}
 html.rs-embed .iso-plate{background:transparent;box-shadow:none;padding:0;--anatomy-paper:#ffffff}
 html.rs-embed .iso-plate-corners,html.rs-embed .iso-legend,html.rs-embed .iso-caption,html.rs-embed .rs-phases,html.rs-embed .rs-check{display:none}
-html.rs-embed .rs-embed-read{display:block;margin:4px 0 0;text-align:center;font:500 13px/1.4 'Satoshi','Noto Sans TC',system-ui,sans-serif;color:#4D4F53;font-variant-numeric:tabular-nums}
+html.rs-embed,html.rs-embed body{height:100%;overflow:hidden}
+html.rs-embed .iso-page,html.rs-embed .rs-anatomy{height:100%;display:flex;flex-direction:column}
+html.rs-embed .iso-plate{flex:1 1 0;min-height:0;display:flex;flex-direction:column}
+html.rs-embed .iso-stage{flex:1 1 0;min-height:0;display:flex;position:relative}
+html.rs-embed .iso-stage svg{position:absolute;inset:0;width:100%;height:100%}
+html.rs-embed .rs-embed-read{flex:0 0 auto;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:clamp(9px,2.2vw,13px)!important;display:block;margin:2px 0 0;text-align:center;font:500 13px/1.4 'Satoshi','Noto Sans TC',system-ui,sans-serif;color:#4D4F53;font-variant-numeric:tabular-nums}
 .rs-check{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:#4D4F53}
 .rs-check li::before{content:"○";margin-right:6px;color:#b8b8b8}
 .rs-check li[data-on]{color:#101924}
