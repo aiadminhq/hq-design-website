@@ -1,0 +1,86 @@
+{
+  "slug": "soup-spoon-station",
+  "nameZh": "The Soup Spoon 台北車站店",
+  "nameEn": "",
+  "category": "fb",
+  "year": 2023,
+  "heroImage": "assets/images/projects/soup-spoon-station/photo-01.jpg",
+  "categoryLabel": "F&B",
+  "locationZh": "台北車站",
+  "yearLabel": "2023",
+  "designBuildLabel": "HQ Interior",
+  "descriptionZh": "The Soup Spoon 台北車站店設計施工，位於高人流交通樞紐，空間規劃強調快速翻桌動線與視覺識別，同時符合車站商場施工規範。",
+  "scopeZh": "餐飲空間",
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "value": "The Soup Spoon"
+    },
+    {
+      "labelZh": "類型",
+      "value": "餐飲連鎖"
+    },
+    {
+      "labelZh": "坪數",
+      "value": "30 坪"
+    },
+    {
+      "labelZh": "地點",
+      "value": "台北車站商場"
+    },
+    {
+      "labelZh": "完工年份",
+      "value": "2023"
+    },
+    {
+      "labelZh": "特色",
+      "value": "高人流動線規劃、捷運商場施工規範"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/images/projects/soup-spoon-station/photo-01.jpg",
+      "alt": "完工實景 01"
+    },
+    {
+      "image": "assets/images/projects/soup-spoon-station/photo-02.jpg",
+      "alt": "完工實景 02"
+    },
+    {
+      "image": "assets/images/projects/soup-spoon-station/photo-03.jpg",
+      "alt": "完工實景 03"
+    },
+    {
+      "image": "assets/images/projects/soup-spoon-station/photo-04.jpg",
+      "alt": "完工實景 04"
+    },
+    {
+      "image": "assets/images/projects/soup-spoon-station/photo-05.jpg",
+      "alt": "完工實景 05"
+    },
+    {
+      "image": "assets/images/projects/soup-spoon-station/photo-06.jpg",
+      "alt": "完工實景 06"
+    },
+    {
+      "image": "assets/images/projects/soup-spoon-station/photo-07.jpg",
+      "alt": "完工實景 07"
+    },
+    {
+      "image": "assets/images/projects/soup-spoon-station/photo-08.jpg",
+      "alt": "完工實景 08"
+    },
+    {
+      "image": "assets/images/projects/soup-spoon-station/photo-09.jpg",
+      "alt": "完工實景 09"
+    },
+    {
+      "image": "assets/images/projects/soup-spoon-station/photo-10.jpg",
+      "alt": "完工實景 10"
+    },
+    {
+      "image": "assets/images/projects/soup-spoon-station/photo-11.jpg",
+      "alt": "完工實景 11"
+    }
+  ]
+}

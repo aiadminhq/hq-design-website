@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs (importer run output)
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Build / cache
+dist/
+build/
+.cache/
+*.tsbuildinfo
+
+# Workflow-generated media and path indexes
+.workflow/**/web-assets/
+.workflow/**/.process/photo-index.json
+.process/web-assets/
+.process/photo-index.json
+
+# Test
+coverage/
+
+# 第三方個資：以下工作檔的內容為 NAS 原始檔名，檔名本身嵌有攝影師姓名與手機號碼。
+# aiadminhq / chr1st1anw0w 兩個 repo 均為公開，提交等同公開發布，故一律排除。
+# 若日後改推私有 repo 並確認要納管，移除本區塊即可。
+.workflow/**/.process/photo-review/
+.workflow/**/.process/photo-selection.json
+.workflow/**/.process/photo-selection.md
+.workflow/**/.process/ds-folder-inventory.md
+
+# macOS / Dropbox 產生的資料夾圖示檔
+Icon?

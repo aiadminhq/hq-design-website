@@ -1,0 +1,56 @@
+/* ============================================================
+   HQ Design — Token 3.0
+   權威來源：HQ Design - Design System/Claude Design/DESIGN.md
+   ------------------------------------------------------------
+   #D64518 為品牌唯一英雄色，單頁像素佔比 ≤10%（--hq-ratio-brand-max）
+   零圓角（僅 logo 印記例外）｜影像一律 3:2｜絕無襯線體
+   英文 Satoshi ｜ 中文 Noto Sans TC ｜ 數字 Geist Mono
+   ============================================================ */
+@font-face{font-family:"Satoshi";font-weight:400;font-style:normal;font-display:swap;src:url("../fonts/Satoshi-Regular.woff2") format("woff2")}
+@font-face{font-family:"Satoshi";font-weight:500;font-style:normal;font-display:swap;src:url("../fonts/Satoshi-Medium.woff2") format("woff2")}
+@font-face{font-family:"Satoshi";font-weight:700;font-style:normal;font-display:swap;src:url("../fonts/Satoshi-Bold.woff2") format("woff2")}
+@font-face{font-family:"Satoshi";font-weight:400;font-style:italic;font-display:swap;src:url("../fonts/Satoshi-Italic.woff2") format("woff2")}
+@font-face{font-family:"Satoshi";font-weight:500;font-style:italic;font-display:swap;src:url("../fonts/Satoshi-MediumItalic.woff2") format("woff2")}
+@font-face{font-family:"Satoshi";font-weight:700;font-style:italic;font-display:swap;src:url("../fonts/Satoshi-BoldItalic.woff2") format("woff2")}
+
+:root{
+  /* ── HQ Design Token 3.0 · primitives ── */
+  --p-verm-050:#FDEDE5;--p-verm-100:#FACDB6;--p-verm-300:#ED6D45;--p-verm-400:#D64518;--p-verm-500:#BA3A12;--p-verm-600:#8E2A09;
+  --p-navy-050:#F1F5F9;--p-navy-100:#E1E8F0;--p-navy-300:#C0C8D2;--p-navy-400:#6B7785;--p-navy-500:#3F4E60;--p-navy-700:#1F2A36;--p-navy-800:#131B25;--p-navy-900:#0A1118;
+  --p-white:#FFFFFF;
+  /* ── semantic · light ── */
+  --bg:var(--p-white);--bg-sunken:var(--p-navy-050);--bg-inverse:var(--p-navy-700);--bg-immersive:var(--p-navy-900);
+  --fg:var(--p-navy-700);--fg-2:var(--p-navy-500);--fg-3:var(--p-navy-400);--fg-inverse:var(--p-white);--fg-inverse-2:var(--p-navy-300);
+  --line:var(--p-navy-100);--line-strong:var(--p-navy-300);--line-ink:var(--p-navy-700);
+  --brand:var(--p-verm-400);--brand-hover:var(--p-verm-500);--brand-pressed:var(--p-verm-600);--brand-subtle:var(--p-verm-050);
+  --img-scrim:linear-gradient(180deg,rgba(10,17,24,0) 40%,rgba(10,17,24,.55) 100%);
+  /* ── type ── */
+  --f-en:"Satoshi",system-ui,-apple-system,sans-serif;
+  --f-cjk:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+  --f-sans:var(--f-en),var(--f-cjk);
+  --f-mono:"Geist Mono","SF Mono",Menlo,monospace;
+  /* ── space ── */
+  --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:48px;--s8:64px;--s9:96px;--s10:128px;
+  --container:1320px;--gutter:24px;--section-y:clamp(72px,8vw,150px);
+  --ease:cubic-bezier(.2,.7,.2,1);
+  --radius-control:4px;      /* 唯一允許的圓角：按鈕。其餘一律直角 */
+  --radius-mark:9.8%;        /* 僅 logo 印記 */
+  --hq-ratio-brand-max:0.10; /* 稽核用：單頁 --brand 像素佔比上限 */
+  color-scheme:light;
+}
+
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:var(--p-navy-900);--bg-sunken:var(--p-navy-800);--bg-inverse:var(--p-navy-050);--bg-immersive:#050A0F;
+  --fg:var(--p-navy-050);--fg-2:var(--p-navy-300);--fg-3:var(--p-navy-400);--fg-inverse:var(--p-navy-900);--fg-inverse-2:var(--p-navy-500);
+  --line:#1C2733;--line-strong:#2E3B49;--line-ink:var(--p-navy-050);
+  --brand:var(--p-verm-300);--brand-hover:var(--p-verm-400);--brand-pressed:var(--p-verm-500);--brand-subtle:#2A150C;
+  color-scheme:dark;
+}}
+
+:root[data-theme="dark"]{
+  --bg:var(--p-navy-900);--bg-sunken:var(--p-navy-800);--bg-inverse:var(--p-navy-050);--bg-immersive:#050A0F;
+  --fg:var(--p-navy-050);--fg-2:var(--p-navy-300);--fg-3:var(--p-navy-400);--fg-inverse:var(--p-navy-900);--fg-inverse-2:var(--p-navy-500);
+  --line:#1C2733;--line-strong:#2E3B49;--line-ink:var(--p-navy-050);
+  --brand:var(--p-verm-300);--brand-hover:var(--p-verm-400);--brand-pressed:var(--p-verm-500);--brand-subtle:#2A150C;
+  color-scheme:dark;
+}

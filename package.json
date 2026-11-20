@@ -1,0 +1,46 @@
+{
+  "name": "hq-design-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev:web": "npm --prefix web run dev",
+    "build:web": "npm --prefix web run build",
+    "test:web": "npm --prefix web test",
+    "test": "node --import tsx --test scripts/*.test.ts",
+    "validate": "tsx scripts/validate-schemas.ts",
+    "extract": "tsx scripts/extract-html.ts",
+    "push:notion": "tsx scripts/push-to-notion.ts",
+    "push:notion:dry": "tsx scripts/push-to-notion.ts --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chr1st1anw0w/hq-design-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/chr1st1anw0w/hq-design-website/issues"
+  },
+  "homepage": "https://github.com/chr1st1anw0w/hq-design-website#readme",
+  "dependencies": {
+    "@notionhq/client": "^2.3.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^25.9.1",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "cheerio": "^1.2.0",
+    "fast-glob": "^3.3.3",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3",
+    "zod": "^4.4.3"
+  }
+}

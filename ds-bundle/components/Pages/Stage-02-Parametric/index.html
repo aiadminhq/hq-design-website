@@ -1,0 +1,314 @@
+<!-- @dsCard group="Pages" name="Stage-02-Parametric" subtitle="02 參數化方案 · SEO 主攻詞落地頁" viewport="1440x2000" -->
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 每頁自填：title / description / canonical / OG -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../../../styles.css">
+<title>參數化設計 室內｜一個條件改變，整套空間同步更新｜惠強 HQ Design</title>
+<meta name="description" content="人數從 80 變 120，方案要重畫多久？惠強以參數化設計讓一個條件改變、整套空間同步更新：多方案可比較、平立剖與數據同步。看它怎麼運作。">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://www.hqdesign.tw/process/parametric/", "url": "https://www.hqdesign.tw/process/parametric/", "name": "參數化設計 室內｜一個條件改變，整套空間同步更新｜惠強 HQ Design", "description": "人數從 80 變 120，方案要重畫多久？惠強以參數化設計讓一個條件改變、整套空間同步更新：多方案可比較、平立剖與數據同步。看它怎麼運作。", "inLanguage": "zh-TW", "isPartOf": {"@id": "https://www.hqdesign.tw/#website"}, "publisher": {"@id": "https://www.hqdesign.tw/#org"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://www.hqdesign.tw/"}, {"@type": "ListItem", "position": 2, "name": "設計流程", "item": "https://www.hqdesign.tw/process/"}, {"@type": "ListItem", "position": 3, "name": "02 參數化方案", "item": "https://www.hqdesign.tw/process/parametric/"}]}]}</script>
+<style>
+/* ── process pages · 延伸 hq.css 的 .steps/.step 與 .cmp 語彙，只用既有 token ── */
+.rail{display:flex;border-top:1px solid var(--line-ink);border-bottom:1px solid var(--line);font-family:var(--f-mono);font-size:12px;letter-spacing:.06em}
+.rail a{flex:1;padding:var(--s3) 0;color:var(--fg-3);display:flex;align-items:center;gap:var(--s2);border-right:1px solid var(--line);transition:color .2s}
+.rail a:last-child{border-right:0}
+.rail a::before{content:"";width:6px;height:6px;border:1px solid var(--line-ink);transform:rotate(45deg);flex:none}
+.rail a:hover{color:var(--fg)}
+.rail a.on{color:var(--fg)}
+.rail a.on::before{background:var(--brand);border-color:var(--brand)}
+.rail a span{display:none}
+@media (min-width:1000px){.rail a span{display:inline;font-family:var(--f-cjk);letter-spacing:0}}
+
+.phero{padding:clamp(56px,7vw,120px) 0 0}
+.phero .grid{align-items:start}
+.phero .copy{grid-column:1/span 12}
+.phero .io{grid-column:1/span 12}
+@media (min-width:1000px){.phero .copy{grid-column:1/span 8}.phero .io{grid-column:10/span 3;margin-top:var(--s6)}}
+.phero h1{margin:var(--s5) 0 var(--s6);font-size:clamp(34px,4.4vw,64px);line-height:1.08}
+.phero .lede{max-width:30em}
+.phero .gloss{margin-top:var(--s4);font-family:var(--f-en);font-size:15px;color:var(--fg-3);line-height:1.6}
+.io .note .blk+.blk{margin-top:var(--s5);padding-top:var(--s4);border-top:1px solid var(--line)}
+.io .note span{display:block}
+.io .note .mono{font-size:12px;color:var(--fg-3);letter-spacing:.04em}
+
+.q h2{font-size:clamp(28px,3.2vw,48px);line-height:1.22}
+@media (min-width:900px){.q .l{grid-column:1/span 6}.q .r{grid-column:8/span 5}}
+.q .r .en{color:var(--fg-3);font-size:15px;line-height:1.6}
+
+.how h2{margin-top:var(--s5)}
+.how .items{margin-top:var(--s8);display:grid;grid-template-columns:1fr;gap:0;border-top:1px solid var(--line-ink)}
+@media (min-width:900px){.how .items.c3{grid-template-columns:repeat(3,1fr);gap:var(--gutter)}.how .items.c4{grid-template-columns:repeat(4,1fr);gap:var(--gutter)}}
+@media (min-width:900px) and (max-width:999px){.how .step{border-bottom:0}.how .step::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:var(--line)}}
+.how .step .idx::before{background:transparent;border-color:var(--line-ink)}
+.how .step:first-child::before{background:var(--brand)}
+.how .step h3{font-size:clamp(20px,1.9vw,26px)}
+.how .step p{font-size:15px}
+.fact{margin-top:var(--s4);padding-top:var(--s3);border-top:1px solid var(--line);font-size:14px;color:var(--fg-2);line-height:1.7}
+.fact .k{font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--brand);margin-right:var(--s2)}
+.fact b{color:var(--fg);font-weight:500}
+
+.dia{padding:var(--section-y) 0}
+.dia figure{margin:0;border:1px solid var(--line);position:relative;background:var(--bg)}
+.dia .lab{position:absolute;left:0;top:0;padding:var(--s2) var(--s3);font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3);border-right:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:var(--s2)}
+.dia .lab .n{color:var(--brand)}
+.dia .frame{overflow-x:auto;padding:var(--s7) var(--s5) var(--s5)}
+.dia svg{display:block;width:100%;min-width:44em;height:auto;color:var(--fg)}
+.dia figcaption{display:flex;flex-wrap:wrap;gap:var(--s3) var(--s6);padding:var(--s4) var(--s5);border-top:1px solid var(--line);font-family:var(--f-mono);font-size:12px;color:var(--fg-3);letter-spacing:.02em;line-height:1.7}
+.dia figcaption .cjk{font-family:var(--f-cjk);color:var(--fg-2);letter-spacing:0}
+.dia .ln{fill:none;stroke:currentColor;stroke-width:1;vector-effect:non-scaling-stroke;stroke-linecap:butt;stroke-linejoin:miter}
+.dia .ln2{stroke:var(--line-strong)}
+.dia .ln3{stroke:var(--line)}
+.dia .br{stroke:var(--brand)}
+.dia .fb{fill:var(--brand);stroke:none}
+.dia .fs{fill:var(--bg-sunken)}
+.dia .fx{fill:var(--bg)}
+.dia .fi{fill:currentColor;stroke:none}
+.dia .ds{stroke-dasharray:3 3}
+.dia .tx{font-family:var(--f-mono);font-size:11px;fill:var(--fg-3);letter-spacing:.06em}
+.dia .tx.b{fill:var(--brand)}
+.dia .tx.f{fill:var(--fg)}
+.dia .tc{font-family:var(--f-cjk);font-size:12px;fill:var(--fg-2)}
+.dia .tc.f{fill:var(--fg);font-weight:500}
+
+.why{background:var(--bg-sunken)}
+.why h2{margin-top:var(--s5)}
+.why .grid3{margin-top:var(--s8);display:grid;grid-template-columns:1fr;gap:var(--s7)}
+@media (min-width:900px){.why .grid3{grid-template-columns:repeat(3,1fr);gap:var(--gutter)}}
+.why .it{padding-top:var(--s5);border-top:1px solid var(--line-ink)}
+.why .k{font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--brand)}
+.why h3{margin-top:var(--s3);font-weight:700;font-size:18px;letter-spacing:0}
+.why p{margin-top:var(--s2);font-size:15px;color:var(--fg-2);line-height:1.7}
+
+.ev h2{margin-top:var(--s5)}
+.ev .cards{margin-top:var(--s8);display:grid;grid-template-columns:1fr;gap:var(--gutter)}
+@media (min-width:900px){.ev .cards{grid-template-columns:repeat(2,1fr)}}
+.ev .card2{display:block;border:1px solid var(--line);padding:var(--s5);transition:border-color .2s}
+.ev .card2:hover{border-color:var(--line-ink)}
+.ev .t{font-weight:500;font-size:17px;line-height:1.35}
+.ev .t .en{display:block;font-size:13px;color:var(--fg-3);font-weight:400;margin-top:2px}
+.ev .d{margin-top:var(--s4);font-family:var(--f-mono);font-size:12px;color:var(--fg-3);letter-spacing:.02em;line-height:1.7}
+.ev .d b{color:var(--fg);font-weight:500}
+.ev .claim{margin-top:var(--s4);padding-top:var(--s4);border-top:1px solid var(--line);font-size:14px;color:var(--fg-2);line-height:1.7}
+.ev .claim b{color:var(--fg);font-weight:500;display:block}
+.ev .mode{display:inline-flex;font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-3);border:1px solid var(--line-strong);padding:3px 8px;margin-top:var(--s4)}
+.ev .none{margin-top:var(--s8);padding:var(--s5);border:1px solid var(--line);color:var(--fg-2);font-size:15px;line-height:1.7;max-width:44em}
+.ev .none b{color:var(--fg);font-weight:500}
+.ev .foot{margin-top:var(--s6);font-size:14px;color:var(--fg-3);max-width:44em;line-height:1.7}
+
+.pn{border-top:1px solid var(--line-ink);display:grid;grid-template-columns:1fr}
+@media (min-width:700px){.pn{grid-template-columns:1fr 1fr}}
+.pn a{padding:var(--s6) 0;display:flex;flex-direction:column;gap:var(--s2);border-bottom:1px solid var(--line)}
+@media (min-width:700px){.pn a:first-child{padding-right:var(--s7);border-right:1px solid var(--line)}.pn a:last-child{padding-left:var(--s7);text-align:right;align-items:flex-end}}
+.pn .k{font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3)}
+.pn .t{font-weight:700;font-size:clamp(20px,1.9vw,26px);line-height:1.3;transition:color .2s}
+.pn .t .en{display:block;font-family:var(--f-en);font-weight:500;font-size:13px;color:var(--fg-3);margin-top:2px}
+.pn a:hover .t{color:var(--brand)}
+
+/* 總覽專用 */
+.tl h2{margin-top:var(--s5)}
+.tl .steps .step{display:block}
+.tl .step .idx::before{background:transparent;border-color:var(--line-ink)}
+.tl .step.ai .idx::before{background:var(--brand);border-color:var(--brand)}
+.tl .step .num{font-family:var(--f-en);font-size:clamp(34px,3.2vw,48px);font-weight:700;letter-spacing:-.03em;line-height:1;margin-top:var(--s5);font-feature-settings:"tnum" 1}
+.tl .step .en{margin-top:var(--s4)}
+.tl .step h3{transition:color .2s}
+.tl .step:hover h3{color:var(--brand)}
+.tl .step .go{display:block;margin-top:var(--s4);font-family:var(--f-mono);font-size:12px;color:var(--fg-3);letter-spacing:.06em}
+.tl .asset{grid-column:1/-1;margin-top:var(--s5);padding-top:var(--s3);border-top:1px solid var(--line-strong);font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;color:var(--fg-3);display:flex;justify-content:space-between;gap:var(--s4);flex-wrap:wrap}
+.tl .asset .cjk{font-family:var(--f-cjk);letter-spacing:0;color:var(--fg-2)}
+@media (min-width:1000px){.tl .asset{grid-column:2/-1}}
+.tl .foot{margin-top:var(--s7);color:var(--fg-2);font-size:15px;max-width:44em}
+.modes h2{margin-top:var(--s5)}
+.modes .two{margin-top:var(--s7);display:grid;grid-template-columns:1fr;gap:var(--gutter)}
+@media (min-width:900px){.modes .two{grid-template-columns:repeat(2,1fr)}}
+.modes .m{border-top:1px solid var(--line-ink);padding-top:var(--s5)}
+.modes .m .k{font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--brand)}
+.modes .m h3{margin-top:var(--s3);font-weight:700;font-size:clamp(20px,1.9vw,26px);letter-spacing:0}
+.modes .m .en{display:block;font-family:var(--f-en);font-weight:500;font-size:14px;color:var(--fg-3);margin-top:6px}
+.modes .m p{margin-top:var(--s4);font-size:15px;color:var(--fg-2);line-height:1.7}
+.modes .m .chain{margin-top:var(--s4);display:flex;flex-wrap:wrap;gap:var(--s2);font-family:var(--f-mono);font-size:12px;letter-spacing:.06em}
+.modes .m .chain span{border:1px solid var(--line-strong);padding:3px 8px;color:var(--fg-3)}
+.modes .m .chain span.on{border-color:var(--brand);color:var(--brand)}
+.modes .cite{margin-top:var(--s7);max-width:44em}
+.modes .cite p+p{margin-top:var(--s4)}
+.modes .cite .small{margin-top:var(--s4)}
+.ai h2{margin-top:var(--s5)}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="wrap">
+    <a class="mark" href="#" aria-label="HQ Design 惠強室內裝修">
+      <span class="sq" aria-hidden="true"></span>
+      <span><b>HQ DESIGN</b><small>惠強室內裝修</small></span>
+    </a>
+    <ul>
+      <li><a href="#">設計流程</a></li>
+      <li><a href="#">實績</a></li>
+      <li><a href="#">服務項目</a></li>
+      <li><a href="#">關於惠強</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:var(--s6)">
+      <span class="lang"><b>ZH</b> / EN</span>
+      <a class="btn" href="#">洽詢專案 <span class="ar">→</span></a>
+    </div>
+  </div>
+</nav>
+<div class="wrap"><nav class="rail" aria-label="七段流程"><a href="#">01<span> 現況掃描</span></a><a class="on" href="#">02<span> 參數化方案</span></a><a href="#">03<span> 設計意圖定案</span></a><a href="#">04<span> 技術驗證</span></a><a href="#">05<span> BIM 協調</span></a><a href="#">06<span> 施工圖說</span></a><a href="#">07<span> 交付與專案管理</span></a></nav></div>
+
+<header class="phero">
+  <div class="wrap">
+    <div class="grid">
+      <div class="copy">
+        <div class="eyebrow rv"><span class="n">02</span><span>參數化方案 · Parametric Design</span></div>
+        <h1 class="cjk rv">改一次條件，要重畫幾次圖？</h1>
+        <p class="lede cjk rv">條件改一次，方案與圖面一起更新，不必從頭重畫。人做決策，系統做運算。</p>
+        <p class="gloss rv">Parametric Design — one change, multiple verified options. Plans, elevations, sections and data update together.</p>
+      </div>
+      <aside class="io aside rv">
+        <div class="note">
+          <div class="blk"><b>Input · 你提供</b><span class="cjk">使用人數與成長預估、面積與樓層條件、部門關係與動線需求、品牌規範。</span></div>
+          <div class="blk"><b>Output · 你拿到</b><span class="cjk">多組可比較的空間方案，各附座位數、會議室數與面積使用率等數據；供 03 設計意圖定案選定。</span></div>
+          <div class="blk"><b>Stage</b><span class="mono">02 / 07 · PARAMETRIC</span></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="thesis q" id="question">
+  <div class="wrap">
+    <div class="grid">
+      <div class="l">
+        <div class="eyebrow"><span class="n">Q</span><span>業主的問題</span></div>
+        <h2 class="cjk">「如果人數從 80 變 120，方案要重畫多久？」</h2>
+      </div>
+      <div class="r">
+        <p class="cjk">惠強室內裝修（HQ Design）在參數化方案階段，以人數、尺寸、動線與品牌條件作為輸入，由系統重新運算並產出多組可比較的空間方案；條件改變時，平面、立面、剖面與相關數據同步更新，不需從頭重畫。參數化多方案自 2026 年 4 月起導入。</p>
+        <p class="cjk">一般設計流程為單一方案、改一次重畫一次；參數化流程讓同一份需求可在多種使用情境下快速驗證，品牌特徵成為可複製的空間系統。</p>
+        <p class="en">When headcount, dimensions, circulation or brand rules change, the system recalculates the options and keeps spatial and design rules consistent — instead of redrawing from scratch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="how hair" id="how">
+  <div class="wrap">
+    <div class="eyebrow"><span class="n">02</span><span>How · 我們怎麼做</span></div>
+    <h2 class="cjk">惠強室內裝修在參數化方案階段做哪四件事？</h2>
+    <div class="items c4">
+      <div class="step">
+        <div class="idx">02.1</div>
+        <div class="en">Inputs</div>
+        <h3 class="cjk">條件即輸入</h3>
+        <p class="cjk">人數、尺寸、動線、品牌規範不是註記在圖上的文字，而是驅動方案的參數。</p>
+        <div class="fact cjk"><span class="k">依據</span>公司簡介 Parametric Advantage：「人數、尺寸、動線或品牌需求調整時，不必從頭重畫；系統可即時重新運算。」</div>
+      </div>
+      <div class="step">
+        <div class="idx">02.2</div>
+        <div class="en">Options</div>
+        <h3 class="cjk">多方案運算與比較</h3>
+        <p class="cjk">同一份需求產出多組配置，每組附座位數、會議室數、面積使用率等數據，讓業主用數字比較而非憑感覺。</p>
+        <div class="fact cjk"><span class="k">依據</span>對照一般流程的「單一方案，改一次重畫一次」（公司簡介 The Difference 對照表）。</div>
+      </div>
+      <div class="step">
+        <div class="idx">02.3</div>
+        <div class="en">Sync</div>
+        <h3 class="cjk">平立剖與數據同步</h3>
+        <p class="cjk">方案變更延伸至相關圖面與數據；平面、立面、剖面與報價依據來自同一套模型。</p>
+        <div class="fact cjk"><span class="k">依據</span>與 05 BIM 協調的「BIM 報價整合」共用同一模型（2026 年 4 月導入項目）。</div>
+      </div>
+      <div class="step">
+        <div class="idx">02.4</div>
+        <div class="en">Human-led</div>
+        <h3 class="cjk">人做決策，系統做運算</h3>
+        <p class="cjk">設計團隊掌握方向與判斷，AI 與規則負責加速推演與一致性。</p>
+        <div class="fact cjk"><span class="k">依據</span>規則來源為惠強 <b>30 年</b>、<b>1,600+</b> 件商業空間案件的設計決策與材料工法紀錄。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dia hair" id="diagram">
+  <div class="wrap">
+    <figure>
+      <div class="lab"><span class="n">FIG · 02</span><span>Parametric Design</span></div>
+      <div class="frame"><svg viewBox="0 0 960 360" role="img" aria-labelledby="fig02" xmlns="http://www.w3.org/2000/svg"><title id="fig02">參數化方案圖解：一組輸入條件（人數、面積、動線、品牌）分岐為多組可比較的空間方案，平面、立面、剖面與數據同步更新</title><rect class="ln br" x="40" y="135" width="220" height="90"/><text class="tx b" x="56" y="161" text-anchor="start">INPUT · 條件</text><text class="tc f" x="56" y="185" text-anchor="start">人數 80 → 120</text><text class="tc" x="56" y="207" text-anchor="start">面積 · 動線 · 品牌規範</text><line class="ln" x1="260" y1="180" x2="320" y2="180"/><rect class="ln fb" x="316" y="176" width="8" height="8"/><line class="ln" x1="320" y1="180" x2="389.3" y2="60"/><line class="ln" x1="389.3" y1="60" x2="430" y2="60"/><rect class="ln" x="430" y="15" width="270" height="90"/><text class="tx f" x="712" y="58" text-anchor="start">OPTION A</text><rect class="ln ln2" x="448" y="31" width="14" height="10"/><rect class="ln ln2" x="474" y="31" width="14" height="10"/><rect class="ln ln2" x="500" y="31" width="14" height="10"/><rect class="ln ln2" x="526" y="31" width="14" height="10"/><rect class="ln ln2" x="552" y="31" width="14" height="10"/><rect class="ln ln2" x="578" y="31" width="14" height="10"/><rect class="ln ln2" x="604" y="31" width="14" height="10"/><rect class="ln ln2" x="630" y="31" width="14" height="10"/><rect class="ln ln2" x="656" y="31" width="14" height="10"/><rect class="ln ln2" x="448" y="53" width="14" height="10"/><rect class="ln ln2" x="474" y="53" width="14" height="10"/><rect class="ln ln2" x="500" y="53" width="14" height="10"/><rect class="ln ln2" x="526" y="53" width="14" height="10"/><rect class="ln ln2" x="552" y="53" width="14" height="10"/><rect class="ln ln2" x="578" y="53" width="14" height="10"/><rect class="ln ln2" x="604" y="53" width="14" height="10"/><rect class="ln ln2" x="630" y="53" width="14" height="10"/><rect class="ln ln2" x="656" y="53" width="14" height="10"/><rect class="ln ln2" x="448" y="75" width="14" height="10"/><rect class="ln ln2" x="474" y="75" width="14" height="10"/><rect class="ln ln2" x="500" y="75" width="14" height="10"/><rect class="ln ln2" x="526" y="75" width="14" height="10"/><rect class="ln ln2" x="552" y="75" width="14" height="10"/><rect class="ln ln2" x="578" y="75" width="14" height="10"/><rect class="ln ln2" x="604" y="75" width="14" height="10"/><rect class="ln ln2" x="630" y="75" width="14" height="10"/><rect class="ln ln2" x="656" y="75" width="14" height="10"/><line class="ln" x1="320" y1="180" x2="430" y2="180"/><rect class="ln" x="430" y="135" width="270" height="90"/><text class="tx f" x="712" y="178" text-anchor="start">OPTION B</text><line class="ln" x1="560" y1="135" x2="560" y2="225"/><rect class="ln ln2" x="448" y="151" width="14" height="10"/><rect class="ln ln2" x="474" y="151" width="14" height="10"/><rect class="ln ln2" x="500" y="151" width="14" height="10"/><rect class="ln ln2" x="526" y="151" width="14" height="10"/><rect class="ln ln2" x="448" y="173" width="14" height="10"/><rect class="ln ln2" x="474" y="173" width="14" height="10"/><rect class="ln ln2" x="500" y="173" width="14" height="10"/><rect class="ln ln2" x="526" y="173" width="14" height="10"/><rect class="ln ln2" x="448" y="195" width="14" height="10"/><rect class="ln ln2" x="474" y="195" width="14" height="10"/><rect class="ln ln2" x="500" y="195" width="14" height="10"/><rect class="ln ln2" x="526" y="195" width="14" height="10"/><rect class="ln ln2" x="580" y="149" width="100" height="62"/><line class="ln ln3" x1="580" y1="180" x2="680" y2="180"/><line class="ln" x1="320" y1="180" x2="389.3" y2="300"/><line class="ln" x1="389.3" y1="300" x2="430" y2="300"/><rect class="ln" x="430" y="255" width="270" height="90"/><text class="tx f" x="712" y="298" text-anchor="start">OPTION C</text><rect class="ln ln2" x="444" y="273" width="39.5" height="54"/><line class="ln" x1="497.5" y1="255" x2="497.5" y2="345"/><rect class="ln ln2" x="511.5" y="273" width="39.5" height="54"/><line class="ln" x1="565" y1="255" x2="565" y2="345"/><rect class="ln ln2" x="579" y="273" width="39.5" height="54"/><line class="ln" x1="632.5" y1="255" x2="632.5" y2="345"/><rect class="ln ln2" x="646.5" y="273" width="39.5" height="54"/><text class="tc" x="712" y="76" text-anchor="start">座位數 · 會議室數 · 使用率</text><text class="tc" x="712" y="196" text-anchor="start">座位數 · 會議室數 · 使用率</text><text class="tc" x="712" y="316" text-anchor="start">座位數 · 會議室數 · 使用率</text><line class="ln ln2" x1="900" y1="40" x2="900" y2="320"/><rect class="ln fx" x="896" y="66" width="8" height="8"/><text class="tx" x="912" y="74" text-anchor="start">PLAN</text><rect class="ln fx" x="896" y="136" width="8" height="8"/><text class="tx" x="912" y="144" text-anchor="start">ELEV</text><rect class="ln fx" x="896" y="206" width="8" height="8"/><text class="tx" x="912" y="214" text-anchor="start">SECT</text><rect class="ln fx" x="896" y="276" width="8" height="8"/><text class="tx" x="912" y="284" text-anchor="start">DATA</text><text class="tx b" x="900" y="30" text-anchor="start">SYNC</text><text class="tc" x="892" y="340" text-anchor="end">平立剖與數據同步</text></svg></div>
+      <figcaption><span>INPUT → OPTIONS → SYNC</span><span class='cjk'>一組輸入條件分岐為三組可比較方案（開放、混合、隔間），每組以座位數、會議室數與面積使用率比較；右側為同步更新的平面、立面、剖面與數據。示意圖，不含特定案件數值。</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="why" id="why">
+  <div class="wrap">
+    <div class="eyebrow"><span class="n">02</span><span>Why it matters · 對業主的意義</span></div>
+    <h2 class="cjk">參數化方案對業主的意義是什麼？</h2>
+    <div class="grid3">
+      <div class="it"><div class="k">More Options, Less Waiting</div><h3 class="cjk">多方案，不必多等待</h3><p class="cjk">調整輸入條件即可快速比較方案。</p></div>
+      <div class="it"><div class="k">Synchronized Outputs</div><h3 class="cjk">平立剖與數據同步</h3><p class="cjk">方案變更可延伸至相關圖面與數據。</p></div>
+      <div class="it"><div class="k">Human-led, System-assisted</div><h3 class="cjk">人做決策，系統做運算</h3><p class="cjk">設計團隊掌握方向，AI 與規則加速推演。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ev hair" id="evidence">
+  <div class="wrap">
+    <div class="eyebrow"><span class="n">02</span><span>Evidence · 證據</span></div>
+    <h2 class="cjk">有哪些案件可以對照？</h2>
+    <div class="none cjk"><b>目前尚無可公開引用的階段證據。</b>參數化多方案自 2026 年 4 月起導入；本頁不列 2024 年前完成之案件，也不陳述尚未統計的方案數與改版工時。首批以此流程完成的案件將補列方案比較數。</div>
+    
+    <p class="foot cjk">全部案例見 <a href="#" style="color:var(--fg);border-bottom:1px solid var(--line-strong)">實績</a>；本頁只列與此階段直接相關、且 2024 年後完成的案件。</p>
+  </div>
+</section>
+
+<section class="pnw" id="nav" style="padding-top:0">
+  <div class="wrap">
+    <nav class="pn" aria-label="前後段">
+      <a href="#"><span class="k">← 上一段</span><span class="t cjk">01 現況掃描<span class="en">Site Survey</span></span></a>
+      <a href="#"><span class="k">下一段 →</span><span class="t cjk">03 設計意圖定案<span class="en">Design Intent</span></span></a>
+    </nav>
+  </div>
+</section>
+<section class="cta hair" id="contact">
+  <div class="wrap">
+    <div class="grid">
+      <div class="l">
+        <div class="eyebrow"><span class="n">→</span><span>Start a Project</span></div>
+        <h2 class="cjk">告訴我們人數、面積、時程與營運限制。</h2>
+        <p class="lede cjk">第一次提案就帶著多組參數化方案與可建造性的初步驗證來。設計已定案、只找執行夥伴，也從第 04 段開始談。</p>
+      </div>
+      <div class="r">
+        <a class="btn" href="#">洽詢專案 <span class="ar">→</span></a>
+        <a class="btn ghost" href="#">回流程總覽 <span class="ar">→</span></a>
+        <p class="small mono">TAIPEI, TAIWAN · EST. 1995</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="wrap">
+    <div class="grid">
+      <div class="a">
+        <div class="mark"><span class="sq" aria-hidden="true"></span><span><b>HQ DESIGN</b><small>惠強室內裝修股份有限公司</small></span></div>
+        <p class="cjk" style="max-width:36em">商業空間設計施工統包。辦公空間、商業空間、國際飯店與連鎖餐飲，設計、專案、技術與現場由同一團隊統籌。</p>
+        <p class="mono" style="margin-top:var(--s4)">AI PARAMETRIC × CONSTRUCTION EXECUTION</p>
+      </div>
+      <div class="b">
+        <ul class="cjk"><li><a href="#">設計流程</a></li><li><a href="#">AI 整合</a></li><li><a href="#">實績</a></li><li><a href="#">服務項目</a></li><li><a href="#">關於惠強</a></li></ul>
+      </div>
+      <div class="c">
+        <ul class="cjk"><li><a href="#">聯絡我們</a></li><li><a href="mailto:info@hqdesign.tw">info@hqdesign.tw</a></li><li><a href="tel:+886225573003">02-2557-3003</a></li></ul>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© 2026 HQ DESIGN CO., LTD.</span>
+      <span>WHERE DATA BUILDS SPACE</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

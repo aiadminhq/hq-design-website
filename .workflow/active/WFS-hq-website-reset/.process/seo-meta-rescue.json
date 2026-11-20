@@ -1,0 +1,230 @@
+{
+ "rescued_at": "2026-09-03",
+ "purpose": "舊 HTML 的 SEO 文案唯一副本；cms/data 的 metaTitle/metaDescription 為 0/21，不搶救會隨舊站廢棄而永久遺失",
+ "pages": {
+  "index.html": {
+   "lang": "en",
+   "title": "HQ Interior & Space Design | Commercial Fit-Out for International Brands · Taipei",
+   "description": "Institutional-grade commercial fit-out for foreign-HQ enterprises, hotel groups and listed corporations expanding into Taiwan. 31 years. 1,600+ projects. Design & build under one contract.",
+   "h1": "Zero Downtime.\n      Turnkey Delivery.",
+   "og": false,
+   "canonical": "",
+   "jsonld": 0
+  },
+  "about.html": {
+   "lang": "zh-TW",
+   "title": "關於我們 About — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "惠強室內裝修，1995年創立，31+ 年商業空間設計施工專業，完成超過1,600件案件。",
+   "h1": "關於惠強",
+   "og": false,
+   "canonical": "",
+   "jsonld": 0
+  },
+  "services.html": {
+   "lang": "zh-TW",
+   "title": "服務項目 Services — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "惠強室內裝修十大服務：辦公空間設計、商業空間設計、設計施工統包、AIoT智慧空間、完工保固等全方位一站式服務。",
+   "h1": "服務項目",
+   "og": false,
+   "canonical": "",
+   "jsonld": 0
+  },
+  "projects.html": {
+   "lang": "zh-TW",
+   "title": "專案案例 Projects — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "惠強室內裝修專案案例：辦公室、飯店、餐飲連鎖、企業展廳。超過1,600件商業空間設計施工實績。",
+   "h1": "專案案例",
+   "og": false,
+   "canonical": "",
+   "jsonld": 0
+  },
+  "careers.html": {
+   "lang": "zh-TW",
+   "title": "加入我們 Careers — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "加入惠強室內裝修。我們正在尋找室內設計師、專案經理等人才，一同打造台灣最具代表性的商業空間。",
+   "h1": "與我們一起，打造台灣最好的商業空間",
+   "og": false,
+   "canonical": "",
+   "jsonld": 0
+  },
+  "contact.html": {
+   "lang": "zh-TW",
+   "title": "聯繫我們 Contact — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "聯繫惠強室內裝修。告訴我們您的商業空間需求，我們將於一個工作天內回覆。電話：02-2557-3003。",
+   "h1": "聯繫我們",
+   "og": false,
+   "canonical": "",
+   "jsonld": 0
+  }
+ },
+ "projects": {
+  "aiontech": {
+   "lang": "zh-TW",
+   "title": "博訊科技 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "博訊科技與史詩科技聯合辦公空間，以開放協作為核心設計理念，融入品牌視覺語言，打造兼具靈活性與科技感的現代工作環境。",
+   "h1": "博訊科技AIONTECH",
+   "og": false,
+   "canonical": ""
+  },
+  "baohua": {
+   "lang": "zh-TW",
+   "title": "保華資安 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "保華資安 11 樓辦公空間設計施工，以資安產業的專業形象為設計出發點，融合穩重、精準的空間語彙，打造符合企業定位的工作環境。",
+   "h1": "保華資安Baohua Cybersecurity",
+   "og": false,
+   "canonical": ""
+  },
+  "csun": {
+   "lang": "zh-TW",
+   "title": "志聖工業總部 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "志聖工業辦公空間設計施工，為台灣上市製造企業打造符合企業規模與品牌形象的辦公環境，兼顧管理階層需求與整體動線效率。",
+   "h1": "志聖工業總部C.SUN Industrial HQ",
+   "og": false,
+   "canonical": ""
+  },
+  "epicstech-10f": {
+   "lang": "zh-TW",
+   "title": "史詩科技 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "史詩科技 10 樓辦公空間翻新專案，以精準的空間配置與品牌色系整合，打造高效能現代辦公環境，施工期間維持正常營運。",
+   "h1": "史詩科技Epicstech",
+   "og": false,
+   "canonical": ""
+  },
+  "hq-office": {
+   "lang": "zh-TW",
+   "title": "惠強室內裝修 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "惠強室內裝修自建辦公室與材料展示空間，以 31 年設計施工積累的工藝能量為展示主軸，整合辦公、接待與材料樣品區，呈現品牌完整服務能力。",
+   "h1": "惠強室內裝修HQ Design&Build",
+   "og": false,
+   "canonical": ""
+  },
+  "kimpton": {
+   "lang": "zh-TW",
+   "title": "金普頓大安酒店 Kimpton Da An Hotel — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "台北大安 Kimpton Da An Hotel 國際飯店裝修工程，由惠強承攬公共區域與客房走廊施工，以精細木作與品牌美學呈現國際精品飯店水準。",
+   "h1": "金普頓大安酒店Kimpton Da An Hotel",
+   "og": false,
+   "canonical": ""
+  },
+  "ledaojia": {
+   "lang": "zh-TW",
+   "title": "樂到家國際娛樂 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "樂到家國際娛樂 9 樓辦公空間設計施工，以娛樂產業的活潑創意為調性，在專業辦公格局中注入品牌個性與空間活力。",
+   "h1": "樂到家國際娛樂Ledaojia International Entertainment",
+   "og": false,
+   "canonical": ""
+  },
+  "lijie": {
+   "lang": "zh-TW",
+   "title": "立捷國際 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "立捷國際 9 樓辦公空間，以國際商務形象為設計基調，空間配置兼顧接待洽談與內部辦公功能，呈現企業的專業與開放文化。",
+   "h1": "立捷國際Lijie International",
+   "og": false,
+   "canonical": ""
+  },
+  "liwei": {
+   "lang": "zh-TW",
+   "title": "立偉電子 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "立偉電子 9 樓辦公室翻新，以電子產業的精密工藝為設計靈感，呈現技術導向企業的專業形象，動線規劃符合產品研發與業務協作需求。",
+   "h1": "立偉電子Liwei Electronics",
+   "og": false,
+   "canonical": ""
+  },
+  "polytron": {
+   "lang": "zh-TW",
+   "title": "保創科技 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "保創科技辦公空間結合防災應變中心，以高規格的技術需求為設計依據，兼顧指揮功能與日常辦公使用，空間機能複合，施工精度要求嚴格。",
+   "h1": "保創科技Brightron Technology",
+   "og": false,
+   "canonical": ""
+  },
+  "popeyes": {
+   "lang": "zh-TW",
+   "title": "Popeyes 許昌店 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "Popeyes 許昌店餐飲空間設計施工，以美式炸雞品牌識別為核心，規劃符合高翻桌率的高效動線，兼顧品牌個性與施工精度。",
+   "h1": "Popeyes 許昌店Popeyes — Xuchang Branch, Taipei",
+   "og": false,
+   "canonical": ""
+  },
+  "qijia": {
+   "lang": "zh-TW",
+   "title": "起家雞 台中店 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "起家雞台中店餐飲空間設計施工，以韓式炸雞品牌風格為設計基調，呈現活潑品牌個性，並兼顧高效翻桌與舒適用餐體驗。",
+   "h1": "起家雞 台中店Chicken Up — Taichung",
+   "og": false,
+   "canonical": ""
+  },
+  "secom-nangang-complex": {
+   "lang": "zh-TW",
+   "title": "中興保全南港總部 SECOM Nangang HQ — 惠強室內裝修",
+   "description": "中保集團南港辦公大樓多戶統包案，惠強統籌規劃 9F–11F 共 6 個獨立辦公空間，分層分區同步施工，確保各租戶營運不中斷。",
+   "h1": "中興保全南港總部\n        \n          SECOM Nangang HQ",
+   "og": false,
+   "canonical": ""
+  },
+  "soup-spoon-101": {
+   "lang": "zh-TW",
+   "title": "The Soup Spoon 台北 101 店 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "The Soup Spoon 台北 101 旗艦店設計施工，於台灣最高地標商場打造符合品牌質感的用餐環境，工程精度與施工速度並重。",
+   "h1": "The Soup Spoon 101 店The Soup Spoon — Taipei 101",
+   "og": false,
+   "canonical": ""
+  },
+  "soup-spoon-station": {
+   "lang": "zh-TW",
+   "title": "The Soup Spoon 台北車站店 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "The Soup Spoon 台北車站店設計施工，位於高人流交通樞紐，空間規劃強調快速翻桌動線與視覺識別，同時符合車站商場施工規範。",
+   "h1": "The Soup Spoon 台北車站店The Soup Spoon — Taipei Main Station",
+   "og": false,
+   "canonical": ""
+  },
+  "xinlan": {
+   "lang": "zh-TW",
+   "title": "欣蘭企業 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "欣蘭企業 9 樓辦公空間設計施工，依據客戶的業務特性與團隊動線需求，規劃兼具專業感與使用效率的現代辦公環境。",
+   "h1": "欣蘭企業Xinlan Enterprise",
+   "og": false,
+   "canonical": ""
+  },
+  "zhongbao-baojing": {
+   "lang": "zh-TW",
+   "title": "中保保經 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "中保科技旗下中保保經 11 樓辦公空間設計施工，延續中保集團一貫的穩重專業形象，以精準工法打造符合金融保險產業定位的辦公環境。",
+   "h1": "中保保經SECOM Zhongbao Baojing",
+   "og": false,
+   "canonical": ""
+  },
+  "zhongbao-jingzhen": {
+   "lang": "zh-TW",
+   "title": "京琠科技 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "京琠科技 9 樓辦公空間設計施工，以科技產業的簡潔俐落為基調，呈現現代專業的工作場域氛圍。",
+   "h1": "京琠科技SECOM Jingzhen Tech",
+   "og": false,
+   "canonical": ""
+  },
+  "zhongbao-nangang": {
+   "lang": "zh-TW",
+   "title": "中保南港大樓 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "中保集團南港辦公大樓多戶統包專案，單棟涵蓋多家子公司與進駐企業，分層分區同步施工，確保各租戶營運不中斷。惠強以完整設計施工整合能力，統籌規劃 9F–11F 共",
+   "h1": "中保南港大樓SECOM Nangang Complex",
+   "og": false,
+   "canonical": ""
+  },
+  "zhongbao-showroom": {
+   "lang": "zh-TW",
+   "title": "中保科技展示廳 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "中保集團品牌展示廳設計施工專案，以沉浸式空間體驗呈現智慧安防技術與企業形象，融合科技感與品牌識別，打造符合企業定位的旗艦展示空間。",
+   "h1": "中保科技展示廳SECOM Technology Hall",
+   "og": false,
+   "canonical": ""
+  },
+  "zhongbao-tianhe": {
+   "lang": "zh-TW",
+   "title": "天河電訊 — 惠強室內裝修 HQ Interior & Space Design",
+   "description": "天河電訊 9 樓辦公空間設計施工，以電信科技產業特性為設計出發，整合開放協作與獨立作業需求，打造高效能的現代辦公環境。",
+   "h1": "天河電訊SECOM Tianhe Telecom",
+   "og": false,
+   "canonical": ""
+  }
+ }
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "polytron",
+  "nameZh": "保創科技",
+  "nameEn": "Brightron Technology",
+  "category": "office",
+  "year": 2025,
+  "heroImage": "assets/images/projects/polytron/render-01.jpg",
+  "categoryLabel": "Tech Office",
+  "locationZh": "台北南港",
+  "yearLabel": "2025",
+  "designBuildLabel": "HQ Interior",
+  "descriptionZh": "保創科技辦公空間結合防災應變中心，以高規格的技術需求為設計依據，兼顧指揮功能與日常辦公使用，空間機能複合，施工精度要求嚴格。",
+  "scopeZh": "科技辦公室",
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "value": "保創科技 Polytron-global"
+    },
+    {
+      "labelZh": "坪數",
+      "value": "257 坪"
+    },
+    {
+      "labelZh": "類型",
+      "value": "科技辦公室 + 防災指揮中心"
+    },
+    {
+      "labelZh": "地點",
+      "value": "台北南港"
+    },
+    {
+      "labelZh": "完工年份",
+      "value": "2025"
+    },
+    {
+      "labelZh": "特色",
+      "value": "雙功能空間整合、高規格機電配置"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/images/projects/polytron/floorplan.jpg",
+      "alt": "平面配置圖"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-01.jpg",
+      "alt": "空間效果圖 01"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-02.jpg",
+      "alt": "空間效果圖 02"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-03.jpg",
+      "alt": "空間效果圖 03"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-04.jpg",
+      "alt": "空間效果圖 04"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-05.jpg",
+      "alt": "空間效果圖 05"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-06.jpg",
+      "alt": "空間效果圖 06"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-07.jpg",
+      "alt": "空間效果圖 07"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-08.jpg",
+      "alt": "空間效果圖 08"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-09.jpg",
+      "alt": "空間效果圖 09"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-10.jpg",
+      "alt": "空間效果圖 10"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-11.jpg",
+      "alt": "空間效果圖 11"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-12.jpg",
+      "alt": "空間效果圖 12"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-13.jpg",
+      "alt": "空間效果圖 13"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-14.jpg",
+      "alt": "空間效果圖 14"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-15.jpg",
+      "alt": "空間效果圖 15"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-16.jpg",
+      "alt": "空間效果圖 16"
+    },
+    {
+      "image": "assets/images/projects/polytron/render-17.jpg",
+      "alt": "空間效果圖 17"
+    }
+  ]
+}

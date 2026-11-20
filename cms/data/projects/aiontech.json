@@ -1,0 +1,122 @@
+{
+  "slug": "aiontech",
+  "nameZh": "博訊科技",
+  "nameEn": "",
+  "category": "office",
+  "year": 2025,
+  "heroImage": "assets/images/projects/aiontech/render-01.jpg",
+  "categoryLabel": "Tech Office",
+  "locationZh": "台北南港",
+  "yearLabel": "2025",
+  "designBuildLabel": "HQ Interior",
+  "descriptionZh": "博訊科技與史詩科技聯合辦公空間，以開放協作為核心設計理念，融入品牌視覺語言，打造兼具靈活性與科技感的現代工作環境。",
+  "scopeZh": "科技辦公室",
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "value": "博訊科技 AIONTECH・史詩科技 Epicstech"
+    },
+    {
+      "labelZh": "類型",
+      "value": "科技辦公室"
+    },
+    {
+      "labelZh": "坪數",
+      "value": "250 坪"
+    },
+    {
+      "labelZh": "地點",
+      "value": "台北南港"
+    },
+    {
+      "labelZh": "完工年份",
+      "value": "2025"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/images/projects/aiontech/floorplan.jpg",
+      "alt": "平面配置圖"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-01.jpg",
+      "alt": "接待大廳"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-02.jpg",
+      "alt": "休閒討論區"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-03.jpg",
+      "alt": "休閒討論區 角度二"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-04.jpg",
+      "alt": "空間效果圖 04"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-05.jpg",
+      "alt": "空間效果圖 05"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-06.jpg",
+      "alt": "會議室"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-07.jpg",
+      "alt": "空間效果圖 07"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-08.jpg",
+      "alt": "空間效果圖 08"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-09.jpg",
+      "alt": "空間效果圖 09"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-10.jpg",
+      "alt": "工作區"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-11.jpg",
+      "alt": "空間效果圖 11"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-12.jpg",
+      "alt": "空間效果圖 12"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-13.jpg",
+      "alt": "空間效果圖 13"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-14.jpg",
+      "alt": "空間效果圖 14"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-15.jpg",
+      "alt": "空間效果圖 15"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-16.jpg",
+      "alt": "主管室"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-17.jpg",
+      "alt": "空間效果圖 17"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-18.jpg",
+      "alt": "空間效果圖 18"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-19.jpg",
+      "alt": "空間效果圖 19"
+    },
+    {
+      "image": "assets/images/projects/aiontech/render-20.jpg",
+      "alt": "空間效果圖 20"
+    }
+  ]
+}

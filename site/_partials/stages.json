@@ -1,0 +1,51 @@
+[
+ {
+  "slug": "site-survey",
+  "idx": "01",
+  "zh": "現況掃描",
+  "en": "Site Survey",
+  "tag": "AI"
+ },
+ {
+  "slug": "parametric",
+  "idx": "02",
+  "zh": "參數化方案",
+  "en": "Parametric Design",
+  "tag": "Parametric"
+ },
+ {
+  "slug": "design-intent",
+  "idx": "03",
+  "zh": "設計意圖定案",
+  "en": "Design Intent",
+  "tag": ""
+ },
+ {
+  "slug": "technical-validation",
+  "idx": "04",
+  "zh": "技術驗證",
+  "en": "Technical Validation",
+  "tag": ""
+ },
+ {
+  "slug": "bim",
+  "idx": "05",
+  "zh": "BIM 協調",
+  "en": "BIM Coordination",
+  "tag": "BIM"
+ },
+ {
+  "slug": "construction-docs",
+  "idx": "06",
+  "zh": "施工圖說",
+  "en": "Construction Documentation",
+  "tag": ""
+ },
+ {
+  "slug": "delivery",
+  "idx": "07",
+  "zh": "交付與專案管理",
+  "en": "Site Delivery & AI PM",
+  "tag": "AI PM"
+ }
+]

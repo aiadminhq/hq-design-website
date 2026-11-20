@@ -1,0 +1,217 @@
+{
+ "shape": "manual-static",
+ "note": "純靜態 HTML/CSS 設計系統，無 React bundle。手動產出 layout（design-sync converter 需可 esbuild 的元件庫，本 repo 不適用）。",
+ "styleSha": "31eaec72fe1b",
+ "sourceHashes": {
+  "README.md": "8ab318bb2a3a",
+  "_preview/img/057a0a1550.jpg": "af8371140980",
+  "_preview/img/1277aef34c.jpg": "e22ce45bc7b3",
+  "_preview/img/1561399870.jpg": "65bb606cc3ec",
+  "_preview/img/185fdc034e.jpg": "d17af045a905",
+  "_preview/img/18b9b9d2b1.jpg": "7ce42e22a9f1",
+  "_preview/img/1aedc3df8c.jpg": "e0992e4ceff1",
+  "_preview/img/1d92ab6fbc.jpg": "1bf1ed76ed8e",
+  "_preview/img/1fbea8f2bf.jpg": "5a5853359e94",
+  "_preview/img/208805075d.jpg": "1611abe7121e",
+  "_preview/img/208e0f753e.jpg": "c2ecfaec8bcb",
+  "_preview/img/2508fa2426.jpg": "119b509f3457",
+  "_preview/img/2e6806ea6a.jpg": "3bcb33289e17",
+  "_preview/img/33125d705b.jpg": "45b79e5003f1",
+  "_preview/img/38e2d6f0d9.jpg": "e8cce4d50de2",
+  "_preview/img/3a14e02b32.jpg": "d5d8d56f5d9a",
+  "_preview/img/3db11c46b6.jpg": "68fda61bb51b",
+  "_preview/img/460b9a9d67.jpg": "0368cd8caef1",
+  "_preview/img/609a9f591a.jpg": "f375bdae5d4c",
+  "_preview/img/6946a8ee6b.jpg": "c1f746f260bc",
+  "_preview/img/6e565b236e.jpg": "d40d2236641f",
+  "_preview/img/7332000da6.jpg": "49f447b7715f",
+  "_preview/img/742f492993.jpg": "372a07d5556e",
+  "_preview/img/76f485ce67.jpg": "d8ffc16e10fc",
+  "_preview/img/77eb8dcccc.jpg": "5b0fe785efc2",
+  "_preview/img/78a5c81ba4.jpg": "deb4bb566548",
+  "_preview/img/9276be7ed2.jpg": "5e5db950c23f",
+  "_preview/img/9cc33b5a24.jpg": "e71934e29ad3",
+  "_preview/img/9d816f78d3.jpg": "c10ec65e0fa2",
+  "_preview/img/b4a9357a8f.jpg": "2d8b0b47d0d7",
+  "_preview/img/bf3717a11a.jpg": "13e00a32ddd2",
+  "_preview/img/c7816df79e.jpg": "3efc188808d7",
+  "_preview/img/c8ce40f410.jpg": "ebf7488e9355",
+  "_preview/img/d27e5010d7.jpg": "d5b9755d176b",
+  "_preview/img/d415718b3a.jpg": "78254dec9615",
+  "_preview/img/d474ee0a05.jpg": "8b91dce2296a",
+  "_preview/img/ddb10dc963.jpg": "32c836281e6f",
+  "_preview/img/e8bfaae8ea.jpg": "0736bd44992b",
+  "_preview/img/f5ba35a01a.jpg": "fd49cc999ba0",
+  "_preview/img/ff42400cd9.jpg": "43132c93947f",
+  "_preview/img/kimpton.jpg": "a76f85de6aa4",
+  "_preview/img/polytron-viz.jpg": "7015206f470a",
+  "_preview/img/qijia.jpg": "5e0d3e3f7d78",
+  "_preview/img/secom-hero.jpg": "184617ebb8d6",
+  "components/Components/Buttons-Eyebrow/Buttons-Eyebrow.prompt.md": "94d6fc0a7432",
+  "components/Components/Buttons-Eyebrow/index.html": "bbe1ef5cbd6b",
+  "components/Components/Case-Card/Case-Card.prompt.md": "352918a20298",
+  "components/Components/Case-Card/index.html": "c43a27219199",
+  "components/Components/Comparison-Table/Comparison-Table.prompt.md": "6d9d5fa665da",
+  "components/Components/Comparison-Table/index.html": "4d3e3fac2748",
+  "components/Components/Process-Steps/Process-Steps.prompt.md": "4a81553739d6",
+  "components/Components/Process-Steps/index.html": "f86db0b10094",
+  "components/Components/Source-Label/Source-Label.prompt.md": "1af7f1262c01",
+  "components/Components/Source-Label/index.html": "311350a9c901",
+  "components/Foundations/Brand-Color/Brand-Color.prompt.md": "84dbdace8cfa",
+  "components/Foundations/Brand-Color/index.html": "a223a80b8714",
+  "components/Foundations/Grid-Spacing/Grid-Spacing.prompt.md": "2a7e17e932b8",
+  "components/Foundations/Grid-Spacing/index.html": "ce716eac8d05",
+  "components/Foundations/Neutrals/Neutrals.prompt.md": "d946823cebb0",
+  "components/Foundations/Neutrals/index.html": "aae543f36a23",
+  "components/Foundations/Typography/Typography.prompt.md": "85b3065e27b3",
+  "components/Foundations/Typography/index.html": "c50b9d0f748e",
+  "components/Pages/About/About.prompt.md": "e3b97417d743",
+  "components/Pages/About/index.html": "0960e46fefae",
+  "components/Pages/Case-SECOM/Case-SECOM.prompt.md": "7de464c0cebc",
+  "components/Pages/Case-SECOM/index.html": "5e74e2bb49e7",
+  "components/Pages/Case-Showroom-Viz/Case-Showroom-Viz.prompt.md": "18c8bb458fd2",
+  "components/Pages/Case-Showroom-Viz/index.html": "136a7798fcf1",
+  "components/Pages/Contact/Contact.prompt.md": "ab654d4316ca",
+  "components/Pages/Contact/index.html": "23f8f2a5408e",
+  "components/Pages/Home/Home.prompt.md": "bc65ad159932",
+  "components/Pages/Home/index.html": "485db6248560",
+  "components/Pages/Process-Overview/Process-Overview.prompt.md": "95cb5623a606",
+  "components/Pages/Process-Overview/index.html": "c74c55feae13",
+  "components/Pages/Services/Services.prompt.md": "453d830cd42e",
+  "components/Pages/Services/index.html": "3038ec455e55",
+  "components/Pages/Stage-02-Parametric/Stage-02-Parametric.prompt.md": "c64ead3f20fd",
+  "components/Pages/Stage-02-Parametric/index.html": "05d095b69a08",
+  "components/Pages/Stage-05-BIM/Stage-05-BIM.prompt.md": "3b1530c119ce",
+  "components/Pages/Stage-05-BIM/index.html": "70cb8e86b4c0",
+  "components/Pages/Work-List/Work-List.prompt.md": "07ce19ae52b2",
+  "components/Pages/Work-List/index.html": "f4c969b38401",
+  "fonts/LICENSE-Satoshi-FFL.txt": "145e7fe2429a",
+  "fonts/Satoshi-Bold.woff2": "6f979e75eb9d",
+  "fonts/Satoshi-BoldItalic.woff2": "cdce008b6361",
+  "fonts/Satoshi-Italic.woff2": "a80f3880397b",
+  "fonts/Satoshi-Medium.woff2": "d492ce178ab9",
+  "fonts/Satoshi-MediumItalic.woff2": "e4655448c210",
+  "fonts/Satoshi-Regular.woff2": "5aa97d938f52",
+  "guidelines/facts.md": "3e88b01e1c53",
+  "styles.css": "31eaec72fe1b",
+  "tokens/components.css": "98607caeffca",
+  "tokens/hq.css": "49c430c55b60"
+ },
+ "cards": [
+  {
+   "group": "Foundations",
+   "name": "Brand-Color",
+   "subtitle": "HQ Vermillion #D64518 · 8 階 · 單頁像素上限 10%",
+   "path": "components/Foundations/Brand-Color/index.html"
+  },
+  {
+   "group": "Foundations",
+   "name": "Neutrals",
+   "subtitle": "Navy 10 階 + 語意層（bg／fg／line）· 雙主題",
+   "path": "components/Foundations/Neutrals/index.html"
+  },
+  {
+   "group": "Foundations",
+   "name": "Typography",
+   "subtitle": "Satoshi + Noto Sans TC + Geist Mono · 絕無襯線體",
+   "path": "components/Foundations/Typography/index.html"
+  },
+  {
+   "group": "Foundations",
+   "name": "Grid-Spacing",
+   "subtitle": "12 欄 · 1320 容器 · 4px 起 10 階間距",
+   "path": "components/Foundations/Grid-Spacing/index.html"
+  },
+  {
+   "group": "Components",
+   "name": "Source-Label",
+   "subtitle": "四種影像來源標示 · 60° slash · 製圖語彙",
+   "path": "components/Components/Source-Label/index.html"
+  },
+  {
+   "group": "Components",
+   "name": "Case-Card",
+   "subtitle": "案例卡 · 3:2 影像 + mono 規格 + 來源標示",
+   "path": "components/Components/Case-Card/index.html"
+  },
+  {
+   "group": "Components",
+   "name": "Process-Steps",
+   "subtitle": "七段流程列 · 製圖式時間軸 · AI 標籤",
+   "path": "components/Components/Process-Steps/index.html"
+  },
+  {
+   "group": "Components",
+   "name": "Comparison-Table",
+   "subtitle": "一般流程 vs AI 整合 · 對照表",
+   "path": "components/Components/Comparison-Table/index.html"
+  },
+  {
+   "group": "Components",
+   "name": "Buttons-Eyebrow",
+   "subtitle": "按鈕與 eyebrow · 零圓角 · 4px control radius",
+   "path": "components/Components/Buttons-Eyebrow/index.html"
+  },
+  {
+   "group": "Pages",
+   "name": "Home",
+   "subtitle": "首頁 · AI Parametric × Construction Execution",
+   "path": "components/Pages/Home/index.html"
+  },
+  {
+   "group": "Pages",
+   "name": "Process-Overview",
+   "subtitle": "七段流程總覽 · 兩種委任模式",
+   "path": "components/Pages/Process-Overview/index.html"
+  },
+  {
+   "group": "Pages",
+   "name": "Stage-02-Parametric",
+   "subtitle": "02 參數化方案 · SEO 主攻詞落地頁",
+   "path": "components/Pages/Stage-02-Parametric/index.html"
+  },
+  {
+   "group": "Pages",
+   "name": "Stage-05-BIM",
+   "subtitle": "05 BIM 協調 · 三層疊合圖解",
+   "path": "components/Pages/Stage-05-BIM/index.html"
+  },
+  {
+   "group": "Pages",
+   "name": "Work-List",
+   "subtitle": "實績列表 · 33 案 · 實景與提案視覺分區",
+   "path": "components/Pages/Work-List/index.html"
+  },
+  {
+   "group": "Pages",
+   "name": "Case-SECOM",
+   "subtitle": "旗艦案 · 5,940 sqm · 完工實景",
+   "path": "components/Pages/Case-SECOM/index.html"
+  },
+  {
+   "group": "Pages",
+   "name": "Case-Showroom-Viz",
+   "subtitle": "中保科技展示廳 · 設計提案視覺標示",
+   "path": "components/Pages/Case-Showroom-Viz/index.html"
+  },
+  {
+   "group": "Pages",
+   "name": "About",
+   "subtitle": "關於惠強 · 八節點里程碑 · AI 部門",
+   "path": "components/Pages/About/index.html"
+  },
+  {
+   "group": "Pages",
+   "name": "Services",
+   "subtitle": "十項服務 · 兩種委任模式 · 施工六步",
+   "path": "components/Pages/Services/index.html"
+  },
+  {
+   "group": "Pages",
+   "name": "Contact",
+   "subtitle": "聯絡 · 第一次會議請準備六件事",
+   "path": "components/Pages/Contact/index.html"
+  }
+ ],
+ "generatedAt": "2026-09-04"
+}

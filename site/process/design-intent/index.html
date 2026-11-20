@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 每頁自填：title / description / canonical / OG -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/assets/css/hq.css">
+<title>設計意圖定案｜Design Intent Review｜惠強 HQ Design</title>
+<meta name="description" content="這個階段你要決定什麼？設計意圖定案確認設計目標、品牌語彙、關鍵視覺與使用情境四項；外部設計意圖也在此接入審閱。了解你要拍板的四件事。">
+<link rel="canonical" href="https://www.hqdesign.tw/process/design-intent/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:site_name" content="惠強室內裝修 HQ Design">
+<meta property="og:title" content="設計意圖定案｜Design Intent Review｜惠強 HQ Design">
+<meta property="og:description" content="這個階段你要決定什麼？設計意圖定案確認設計目標、品牌語彙、關鍵視覺與使用情境四項；外部設計意圖也在此接入審閱。了解你要拍板的四件事。">
+<meta property="og:url" content="https://www.hqdesign.tw/process/design-intent/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://www.hqdesign.tw/process/design-intent/", "url": "https://www.hqdesign.tw/process/design-intent/", "name": "設計意圖定案｜Design Intent Review｜惠強 HQ Design", "description": "這個階段你要決定什麼？設計意圖定案確認設計目標、品牌語彙、關鍵視覺與使用情境四項；外部設計意圖也在此接入審閱。了解你要拍板的四件事。", "inLanguage": "zh-TW", "isPartOf": {"@id": "https://www.hqdesign.tw/#website"}, "publisher": {"@id": "https://www.hqdesign.tw/#org"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://www.hqdesign.tw/"}, {"@type": "ListItem", "position": 2, "name": "設計流程", "item": "https://www.hqdesign.tw/process/"}, {"@type": "ListItem", "position": 3, "name": "03 設計意圖定案", "item": "https://www.hqdesign.tw/process/design-intent/"}]}]}</script>
+<style>
+/* ── process pages · 延伸 hq.css 的 .steps/.step 與 .cmp 語彙，只用既有 token ── */
+.rail{display:flex;border-top:1px solid var(--line-ink);border-bottom:1px solid var(--line);font-family:var(--f-mono);font-size:12px;letter-spacing:.06em}
+.rail a{flex:1;padding:var(--s3) 0;color:var(--fg-3);display:flex;align-items:center;gap:var(--s2);border-right:1px solid var(--line);transition:color .2s}
+.rail a:last-child{border-right:0}
+.rail a::before{content:"";width:6px;height:6px;border:1px solid var(--line-ink);transform:rotate(45deg);flex:none}
+.rail a:hover{color:var(--fg)}
+.rail a.on{color:var(--fg)}
+.rail a.on::before{background:var(--brand);border-color:var(--brand)}
+.rail a span{display:none}
+@media (min-width:1000px){.rail a span{display:inline;font-family:var(--f-cjk);letter-spacing:0}}
+
+.phero{padding:clamp(56px,7vw,120px) 0 0}
+.phero .grid{align-items:start}
+.phero .copy{grid-column:1/span 12}
+.phero .io{grid-column:1/span 12}
+@media (min-width:1000px){.phero .copy{grid-column:1/span 8}.phero .io{grid-column:10/span 3;margin-top:var(--s6)}}
+.phero h1{margin:var(--s5) 0 var(--s6);font-size:clamp(34px,4.4vw,64px);line-height:1.08}
+.phero .lede{max-width:30em}
+.phero .gloss{margin-top:var(--s4);font-family:var(--f-en);font-size:15px;color:var(--fg-3);line-height:1.6}
+.io .note .blk+.blk{margin-top:var(--s5);padding-top:var(--s4);border-top:1px solid var(--line)}
+.io .note span{display:block}
+.io .note .mono{font-size:12px;color:var(--fg-3);letter-spacing:.04em}
+
+.q h2{font-size:clamp(28px,3.2vw,48px);line-height:1.22}
+@media (min-width:900px){.q .l{grid-column:1/span 6}.q .r{grid-column:8/span 5}}
+.q .r .en{color:var(--fg-3);font-size:15px;line-height:1.6}
+
+.how h2{margin-top:var(--s5)}
+.how .items{margin-top:var(--s8);display:grid;grid-template-columns:1fr;gap:0;border-top:1px solid var(--line-ink)}
+@media (min-width:900px){.how .items.c3{grid-template-columns:repeat(3,1fr);gap:var(--gutter)}.how .items.c4{grid-template-columns:repeat(4,1fr);gap:var(--gutter)}}
+@media (min-width:900px) and (max-width:999px){.how .step{border-bottom:0}.how .step::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:var(--line)}}
+.how .step .idx::before{background:transparent;border-color:var(--line-ink)}
+.how .step:first-child::before{background:var(--brand)}
+.how .step h3{font-size:clamp(20px,1.9vw,26px)}
+.how .step p{font-size:15px}
+.fact{margin-top:var(--s4);padding-top:var(--s3);border-top:1px solid var(--line);font-size:14px;color:var(--fg-2);line-height:1.7}
+.fact .k{font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--brand);margin-right:var(--s2)}
+.fact b{color:var(--fg);font-weight:500}
+
+.dia{padding:var(--section-y) 0}
+.dia figure{margin:0;border:1px solid var(--line);position:relative;background:var(--bg)}
+.dia .lab{position:absolute;left:0;top:0;padding:var(--s2) var(--s3);font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3);border-right:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:var(--s2)}
+.dia .lab .n{color:var(--brand)}
+.dia .frame{overflow-x:auto;padding:var(--s7) var(--s5) var(--s5)}
+.dia svg{display:block;width:100%;min-width:44em;height:auto;color:var(--fg)}
+.dia figcaption{display:flex;flex-wrap:wrap;gap:var(--s3) var(--s6);padding:var(--s4) var(--s5);border-top:1px solid var(--line);font-family:var(--f-mono);font-size:12px;color:var(--fg-3);letter-spacing:.02em;line-height:1.7}
+.dia figcaption .cjk{font-family:var(--f-cjk);color:var(--fg-2);letter-spacing:0}
+.dia .ln{fill:none;stroke:currentColor;stroke-width:1;vector-effect:non-scaling-stroke;stroke-linecap:butt;stroke-linejoin:miter}
+.dia .ln2{stroke:var(--line-strong)}
+.dia .ln3{stroke:var(--line)}
+.dia .br{stroke:var(--brand)}
+.dia .fb{fill:var(--brand);stroke:none}
+.dia .fs{fill:var(--bg-sunken)}
+.dia .fx{fill:var(--bg)}
+.dia .fi{fill:currentColor;stroke:none}
+.dia .ds{stroke-dasharray:3 3}
+.dia .tx{font-family:var(--f-mono);font-size:11px;fill:var(--fg-3);letter-spacing:.06em}
+.dia .tx.b{fill:var(--brand)}
+.dia .tx.f{fill:var(--fg)}
+.dia .tc{font-family:var(--f-cjk);font-size:12px;fill:var(--fg-2)}
+.dia .tc.f{fill:var(--fg);font-weight:500}
+
+.why{background:var(--bg-sunken)}
+.why h2{margin-top:var(--s5)}
+.why .grid3{margin-top:var(--s8);display:grid;grid-template-columns:1fr;gap:var(--s7)}
+@media (min-width:900px){.why .grid3{grid-template-columns:repeat(3,1fr);gap:var(--gutter)}}
+.why .it{padding-top:var(--s5);border-top:1px solid var(--line-ink)}
+.why .k{font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--brand)}
+.why h3{margin-top:var(--s3);font-weight:700;font-size:18px;letter-spacing:0}
+.why p{margin-top:var(--s2);font-size:15px;color:var(--fg-2);line-height:1.7}
+
+.ev h2{margin-top:var(--s5)}
+.ev .cards{margin-top:var(--s8);display:grid;grid-template-columns:1fr;gap:var(--gutter)}
+@media (min-width:900px){.ev .cards{grid-template-columns:repeat(2,1fr)}}
+.ev .card2{display:block;border:1px solid var(--line);padding:var(--s5);transition:border-color .2s}
+.ev .card2:hover{border-color:var(--line-ink)}
+.ev .t{font-weight:500;font-size:17px;line-height:1.35}
+.ev .t .en{display:block;font-size:13px;color:var(--fg-3);font-weight:400;margin-top:2px}
+.ev .d{margin-top:var(--s4);font-family:var(--f-mono);font-size:12px;color:var(--fg-3);letter-spacing:.02em;line-height:1.7}
+.ev .d b{color:var(--fg);font-weight:500}
+.ev .claim{margin-top:var(--s4);padding-top:var(--s4);border-top:1px solid var(--line);font-size:14px;color:var(--fg-2);line-height:1.7}
+.ev .claim b{color:var(--fg);font-weight:500;display:block}
+.ev .mode{display:inline-flex;font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-3);border:1px solid var(--line-strong);padding:3px 8px;margin-top:var(--s4)}
+.ev .none{margin-top:var(--s8);padding:var(--s5);border:1px solid var(--line);color:var(--fg-2);font-size:15px;line-height:1.7;max-width:44em}
+.ev .none b{color:var(--fg);font-weight:500}
+.ev .foot{margin-top:var(--s6);font-size:14px;color:var(--fg-3);max-width:44em;line-height:1.7}
+
+.pn{border-top:1px solid var(--line-ink);display:grid;grid-template-columns:1fr}
+@media (min-width:700px){.pn{grid-template-columns:1fr 1fr}}
+.pn a{padding:var(--s6) 0;display:flex;flex-direction:column;gap:var(--s2);border-bottom:1px solid var(--line)}
+@media (min-width:700px){.pn a:first-child{padding-right:var(--s7);border-right:1px solid var(--line)}.pn a:last-child{padding-left:var(--s7);text-align:right;align-items:flex-end}}
+.pn .k{font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3)}
+.pn .t{font-weight:700;font-size:clamp(20px,1.9vw,26px);line-height:1.3;transition:color .2s}
+.pn .t .en{display:block;font-family:var(--f-en);font-weight:500;font-size:13px;color:var(--fg-3);margin-top:2px}
+.pn a:hover .t{color:var(--brand)}
+
+/* 總覽專用 */
+.tl h2{margin-top:var(--s5)}
+.tl .steps .step{display:block}
+.tl .step .idx::before{background:transparent;border-color:var(--line-ink)}
+.tl .step.ai .idx::before{background:var(--brand);border-color:var(--brand)}
+.tl .step .num{font-family:var(--f-en);font-size:clamp(34px,3.2vw,48px);font-weight:700;letter-spacing:-.03em;line-height:1;margin-top:var(--s5);font-feature-settings:"tnum" 1}
+.tl .step .en{margin-top:var(--s4)}
+.tl .step h3{transition:color .2s}
+.tl .step:hover h3{color:var(--brand)}
+.tl .step .go{display:block;margin-top:var(--s4);font-family:var(--f-mono);font-size:12px;color:var(--fg-3);letter-spacing:.06em}
+.tl .asset{grid-column:1/-1;margin-top:var(--s5);padding-top:var(--s3);border-top:1px solid var(--line-strong);font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;color:var(--fg-3);display:flex;justify-content:space-between;gap:var(--s4);flex-wrap:wrap}
+.tl .asset .cjk{font-family:var(--f-cjk);letter-spacing:0;color:var(--fg-2)}
+@media (min-width:1000px){.tl .asset{grid-column:2/-1}}
+.tl .foot{margin-top:var(--s7);color:var(--fg-2);font-size:15px;max-width:44em}
+.modes h2{margin-top:var(--s5)}
+.modes .two{margin-top:var(--s7);display:grid;grid-template-columns:1fr;gap:var(--gutter)}
+@media (min-width:900px){.modes .two{grid-template-columns:repeat(2,1fr)}}
+.modes .m{border-top:1px solid var(--line-ink);padding-top:var(--s5)}
+.modes .m .k{font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--brand)}
+.modes .m h3{margin-top:var(--s3);font-weight:700;font-size:clamp(20px,1.9vw,26px);letter-spacing:0}
+.modes .m .en{display:block;font-family:var(--f-en);font-weight:500;font-size:14px;color:var(--fg-3);margin-top:6px}
+.modes .m p{margin-top:var(--s4);font-size:15px;color:var(--fg-2);line-height:1.7}
+.modes .m .chain{margin-top:var(--s4);display:flex;flex-wrap:wrap;gap:var(--s2);font-family:var(--f-mono);font-size:12px;letter-spacing:.06em}
+.modes .m .chain span{border:1px solid var(--line-strong);padding:3px 8px;color:var(--fg-3)}
+.modes .m .chain span.on{border-color:var(--brand);color:var(--brand)}
+.modes .cite{margin-top:var(--s7);max-width:44em}
+.modes .cite p+p{margin-top:var(--s4)}
+.modes .cite .small{margin-top:var(--s4)}
+.ai h2{margin-top:var(--s5)}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="wrap">
+    <a class="mark" href="/" aria-label="HQ Design 惠強室內裝修">
+      <span class="sq" aria-hidden="true"></span>
+      <span><b>HQ DESIGN</b><small>惠強室內裝修</small></span>
+    </a>
+    <ul>
+      <li><a href="/process/">設計流程</a></li>
+      <li><a href="/work/">實績</a></li>
+      <li><a href="/services/">服務項目</a></li>
+      <li><a href="/about/">關於惠強</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:var(--s6)">
+      <span class="lang"><b>ZH</b> / EN</span>
+      <a class="btn" href="/contact/">洽詢專案 <span class="ar">→</span></a>
+    </div>
+  </div>
+</nav>
+<div class="wrap"><nav class="rail" aria-label="七段流程"><a href="/process/site-survey/">01<span> 現況掃描</span></a><a href="/process/parametric/">02<span> 參數化方案</span></a><a class="on" href="/process/design-intent/">03<span> 設計意圖定案</span></a><a href="/process/technical-validation/">04<span> 技術驗證</span></a><a href="/process/bim/">05<span> BIM 協調</span></a><a href="/process/construction-docs/">06<span> 施工圖說</span></a><a href="/process/delivery/">07<span> 交付與專案管理</span></a></nav></div>
+
+<header class="phero">
+  <div class="wrap">
+    <div class="grid">
+      <div class="copy">
+        <div class="eyebrow rv"><span class="n">03</span><span>設計意圖定案 · Design Intent</span></div>
+        <h1 class="cjk rv">這個階段你要決定什麼？</h1>
+        <p class="lede cjk rv">你在這裡拍板四件事：設計目標、品牌語彙、關鍵視覺、使用情境。定案後的每一段都以此為對照。</p>
+        <p class="gloss rv">Design Intent — goals, brand language, key visuals and use scenarios confirmed; the reference every later stage is checked against.</p>
+      </div>
+      <aside class="io aside rv">
+        <div class="note">
+          <div class="blk"><b>Input · 你提供</b><span class="cjk">你對參數化方案的選擇與取捨、品牌規範、營運情境與未來成長預估。</span></div>
+          <div class="blk"><b>Output · 你拿到</b><span class="cjk">定案設計意圖文件（設計目標、品牌語彙、關鍵視覺、使用情境四項），交 04 技術驗證。</span></div>
+          <div class="blk"><b>Stage</b><span class="mono">03 / 07</span></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="thesis q" id="question">
+  <div class="wrap">
+    <div class="grid">
+      <div class="l">
+        <div class="eyebrow"><span class="n">Q</span><span>業主的問題</span></div>
+        <h2 class="cjk">「方案這麼多，我要在什麼時候、憑什麼定案？」</h2>
+      </div>
+      <div class="r">
+        <p class="cjk">惠強室內裝修（HQ Design）在設計意圖定案階段確認四項：設計目標、品牌語彙、關鍵視覺與使用情境。全案設計施工模式下，業主自參數化方案中選定並在此定案；設計意圖來自外部團隊時，同一節點改為設計意圖審閱（Design Intent Review），惠強自此理解設計目標後接手技術執行。</p>
+        <p class="cjk">定案的設計意圖是後續技術驗證、BIM 協調、施工圖說與交付的共同對照，也是「設計意圖可被建造」的起點。</p>
+        <p class="en">Design Intent Review: understand design goals, brand language, key visuals and use scenarios — the same node whether the intent is produced in-house or received from an external design team.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="how hair" id="how">
+  <div class="wrap">
+    <div class="eyebrow"><span class="n">03</span><span>How · 我們怎麼做</span></div>
+    <h2 class="cjk">設計意圖定案要確認哪四件事？</h2>
+    <div class="items c4">
+      <div class="step">
+        <div class="idx">03.1</div>
+        <div class="en">Goals</div>
+        <h3 class="cjk">設計目標</h3>
+        <p class="cjk">空間要解決什麼：人數、協作模式、營運效率或品牌體驗——用可驗證的條件寫下來，而非形容詞。</p>
+        <div class="fact cjk"><span class="k">依據</span>公司簡介協作流程 01 Design Intent Review：「理解設計目標、品牌語彙、關鍵視覺與使用情境」四項。</div>
+      </div>
+      <div class="step">
+        <div class="idx">03.2</div>
+        <div class="en">Brand Language</div>
+        <h3 class="cjk">品牌語彙</h3>
+        <p class="cjk">材料、比例、識別系統如何落地為空間規則，讓連鎖或多據點可複製。</p>
+        <div class="fact cjk"><span class="k">依據</span>「品牌特徵成為可複製的空間系統」（公司簡介 AI Advantage）。</div>
+      </div>
+      <div class="step">
+        <div class="idx">03.3</div>
+        <div class="en">Key Visuals</div>
+        <h3 class="cjk">關鍵視覺</h3>
+        <p class="cjk">接待、主要動線與代表性場景的視覺定案，作為完工後對照的依據。</p>
+        <div class="fact cjk"><span class="k">依據</span>完工實景以「AS-BUILT」標示，與設計階段視覺分開標註，供業主自行比對。</div>
+      </div>
+      <div class="step">
+        <div class="idx">03.4</div>
+        <div class="en">Scenarios</div>
+        <h3 class="cjk">使用情境</h3>
+        <p class="cjk">日常、尖峰、活動與成長後的使用情境，決定彈性配置的邊界。</p>
+        <div class="fact cjk"><span class="k">依據</span>「同一需求可快速驗證多種使用情境」（公司簡介 AI Advantage）。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dia hair" id="diagram">
+  <div class="wrap">
+    <figure>
+      <div class="lab"><span class="n">FIG · 03</span><span>Design Intent</span></div>
+      <div class="frame"><svg viewBox="0 0 960 380" role="img" aria-labelledby="fig03" xmlns="http://www.w3.org/2000/svg"><title id="fig03">設計意圖定案圖解：多組參數化方案收斂為一個定案節點，確認設計目標、品牌語彙、關鍵視覺與使用情境四項；外部設計意圖亦可在同一節點接入審閱</title><rect class="ln ln2" x="40" y="25" width="160" height="70"/><text class="tx" x="52" y="45" text-anchor="start">OPTION A</text><rect class="ln ln3" x="52" y="57" width="22" height="10"/><rect class="ln ln3" x="86" y="57" width="22" height="10"/><rect class="ln ln3" x="120" y="57" width="22" height="10"/><rect class="ln ln3" x="154" y="57" width="22" height="10"/><line class="ln" x1="200" y1="60" x2="300" y2="60"/><line class="ln" x1="300" y1="60" x2="369.3" y2="180"/><line class="ln" x1="369.3" y1="180" x2="408" y2="180"/><rect class="ln ln2" x="40" y="145" width="160" height="70"/><text class="tx" x="52" y="165" text-anchor="start">OPTION B</text><rect class="ln ln3" x="52" y="177" width="22" height="10"/><rect class="ln ln3" x="86" y="177" width="22" height="10"/><rect class="ln ln3" x="120" y="177" width="22" height="10"/><rect class="ln ln3" x="154" y="177" width="22" height="10"/><line class="ln" x1="200" y1="180" x2="408" y2="180"/><rect class="ln ln2" x="40" y="265" width="160" height="70"/><text class="tx" x="52" y="285" text-anchor="start">OPTION C</text><rect class="ln ln3" x="52" y="297" width="22" height="10"/><rect class="ln ln3" x="86" y="297" width="22" height="10"/><rect class="ln ln3" x="120" y="297" width="22" height="10"/><rect class="ln ln3" x="154" y="297" width="22" height="10"/><line class="ln" x1="200" y1="300" x2="300" y2="300"/><line class="ln" x1="300" y1="300" x2="369.3" y2="180"/><line class="ln" x1="369.3" y1="180" x2="408" y2="180"/><rect class="ln fb" x="408" y="168" width="24" height="24"/><text class="tx b" x="420" y="154" text-anchor="middle">DESIGN INTENT</text><text class="tc f" x="420" y="220" text-anchor="middle">定案</text><line class="ln br ds" x1="60" y1="350" x2="328.8" y2="350"/><line class="ln br ds" x1="328.8" y1="350" x2="420" y2="192"/><text class="tx b" x="60" y="342" text-anchor="start">EXTERNAL DESIGN INTENT → REVIEW</text><text class="tc" x="300" y="342" text-anchor="start">外部設計意圖在此接入審閱</text><line class="ln" x1="432" y1="180" x2="580" y2="180"/><line class="ln" x1="580" y1="60" x2="580" y2="300"/><line class="ln" x1="580" y1="60" x2="610" y2="60"/><rect class="ln" x="610" y="38" width="280" height="44"/><text class="tx" x="626" y="56" text-anchor="start">GOALS</text><text class="tc f" x="626" y="74" text-anchor="start">設計目標</text><line class="ln" x1="580" y1="140" x2="610" y2="140"/><rect class="ln" x="610" y="118" width="280" height="44"/><text class="tx" x="626" y="136" text-anchor="start">BRAND LANGUAGE</text><text class="tc f" x="626" y="154" text-anchor="start">品牌語彙</text><line class="ln" x1="580" y1="220" x2="610" y2="220"/><rect class="ln" x="610" y="198" width="280" height="44"/><text class="tx" x="626" y="216" text-anchor="start">KEY VISUALS</text><text class="tc f" x="626" y="234" text-anchor="start">關鍵視覺</text><line class="ln" x1="580" y1="300" x2="610" y2="300"/><rect class="ln" x="610" y="278" width="280" height="44"/><text class="tx" x="626" y="296" text-anchor="start">SCENARIOS</text><text class="tc f" x="626" y="314" text-anchor="start">使用情境</text><text class="tx" x="610" y="30" text-anchor="start">4 ITEMS CONFIRMED · 四項確認</text></svg></div>
+      <figcaption><span>OPTIONS → INTENT → 4 ITEMS</span><span class='cjk'>多組方案收斂為一個定案節點，展開為四項確認；底部虛線為外部設計意圖接入審閱的路徑（第二委任模式）。</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="why" id="why">
+  <div class="wrap">
+    <div class="eyebrow"><span class="n">03</span><span>Why it matters · 對業主的意義</span></div>
+    <h2 class="cjk">設計意圖定案對業主的意義是什麼？</h2>
+    <div class="grid3">
+      <div class="it"><div class="k">Reference Point</div><h3 class="cjk">後續每一段都以此為對照</h3><p class="cjk">技術驗證、BIM 協調與施工圖說都對照同一份定案意圖，設計品質可被建造、可被驗收。</p></div>
+      <div class="it"><div class="k">Reusable System</div><h3 class="cjk">品牌特徵成為可複製的空間系統</h3><p class="cjk">定案的語彙與規則可延伸至其他據點，不必每次重新定義。</p></div>
+      <div class="it"><div class="k">Open Entry</div><h3 class="cjk">外部設計也能在此接入</h3><p class="cjk">設計已由其他團隊完成時，惠強在同一節點審閱意圖，自技術驗證接手。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ev hair" id="evidence">
+  <div class="wrap">
+    <div class="eyebrow"><span class="n">03</span><span>Evidence · 證據</span></div>
+    <h2 class="cjk">有哪些案件可以對照？</h2>
+    <div class="cards">
+      <a class="card2" href="/work/kimpton/">
+        <div class="t cjk">金普頓大安酒店 Kimpton<span class="en">Hospitality · Public Areas Construction</span></div>
+        <div class="d">TAIPEI DA'AN · <b>2022</b></div>
+        <div class="claim cjk"><b>外部設計意圖接手（第二委任模式）</b>設計意圖來自外部團隊，惠強承攬公共區域與客房走廊施工，自技術驗證起負責把設計品質建造出來並可被驗收。</div>
+        <span class="mode">委任模式說明 · 非 AI 流程證據</span>
+      </a>
+    </div>
+    <p class="foot cjk">金普頓大安酒店（2022）在此僅說明「外部設計意圖接入審閱」的委任模式，不作為參數化或 AI 流程的證據。</p>
+    <p class="foot cjk">全部案例見 <a href="/work/" style="color:var(--fg);border-bottom:1px solid var(--line-strong)">實績</a>；本頁只列與此階段直接相關、且 2024 年後完成的案件。</p>
+  </div>
+</section>
+
+<section class="pnw" id="nav" style="padding-top:0">
+  <div class="wrap">
+    <nav class="pn" aria-label="前後段">
+      <a href="/process/parametric/"><span class="k">← 上一段</span><span class="t cjk">02 參數化方案<span class="en">Parametric Design</span></span></a>
+      <a href="/process/technical-validation/"><span class="k">下一段 →</span><span class="t cjk">04 技術驗證<span class="en">Technical Validation</span></span></a>
+    </nav>
+  </div>
+</section>
+<section class="cta hair" id="contact">
+  <div class="wrap">
+    <div class="grid">
+      <div class="l">
+        <div class="eyebrow"><span class="n">→</span><span>Start a Project</span></div>
+        <h2 class="cjk">告訴我們人數、面積、時程與營運限制。</h2>
+        <p class="lede cjk">第一次提案就帶著多組參數化方案與可建造性的初步驗證來。設計已定案、只找執行夥伴，也從第 04 段開始談。</p>
+      </div>
+      <div class="r">
+        <a class="btn" href="/contact/">洽詢專案 <span class="ar">→</span></a>
+        <a class="btn ghost" href="/process/">回流程總覽 <span class="ar">→</span></a>
+        <p class="small mono">TAIPEI, TAIWAN · EST. 1995</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="wrap">
+    <div class="grid">
+      <div class="a">
+        <div class="mark"><span class="sq" aria-hidden="true"></span><span><b>HQ DESIGN</b><small>惠強室內裝修股份有限公司</small></span></div>
+        <p class="cjk" style="max-width:36em">商業空間設計施工統包。辦公空間、商業空間、國際飯店與連鎖餐飲，設計、專案、技術與現場由同一團隊統籌。</p>
+        <p class="mono" style="margin-top:var(--s4)">AI PARAMETRIC × CONSTRUCTION EXECUTION</p>
+      </div>
+      <div class="b">
+        <ul class="cjk"><li><a href="/process/">設計流程</a></li><li><a href="/#advantage">AI 整合</a></li><li><a href="/work/">實績</a></li><li><a href="/services/">服務項目</a></li><li><a href="/about/">關於惠強</a></li></ul>
+      </div>
+      <div class="c">
+        <ul class="cjk"><li><a href="/contact/">聯絡我們</a></li><li><a href="mailto:info@hqdesign.tw">info@hqdesign.tw</a></li><li><a href="tel:+886225573003">02-2557-3003</a></li></ul>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© 2026 HQ DESIGN CO., LTD.</span>
+      <span>WHERE DATA BUILDS SPACE</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

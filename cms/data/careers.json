@@ -1,0 +1,138 @@
+{
+  "positions": [
+    {
+      "slug": "interior-designer",
+      "titleZh": "室內設計師",
+      "titleEn": "",
+      "department": "Design 設計部",
+      "summaryZh": "負責商業空間設計提案、3D視覺化、施工圖製作，參與從概念發展到材料確認的完整設計流程。與工務團隊密切合作，確保設計在施工中完整實現。",
+      "skills": [
+        "AutoCAD",
+        "SketchUp / 3ds Max",
+        "商業空間經驗",
+        "施工圖"
+      ]
+    },
+    {
+      "slug": "senior-interior-designer",
+      "titleZh": "資深室內設計師",
+      "titleEn": "",
+      "department": "Design 設計部",
+      "summaryZh": "帶領設計提案與客戶簡報，管理年輕設計師，確保設計品質與時程。具備獨立主導設計專案的能力，對商業空間設計有深刻理解與豐富實績。",
+      "skills": [
+        "5年以上經驗",
+        "商業空間",
+        "提案能力",
+        "團隊管理"
+      ]
+    },
+    {
+      "slug": "project-manager",
+      "titleZh": "專案經理",
+      "titleEn": "",
+      "department": "Project 專案部",
+      "summaryZh": "負責商業裝修專案的全程管理，包含時程規劃、預算控管、客戶溝通與協調工務團隊。確保專案準時、在預算內、高品質交付。",
+      "skills": [
+        "裝修工程背景",
+        "專案管理",
+        "客戶溝通",
+        "預算管控"
+      ]
+    },
+    {
+      "slug": "site-manager",
+      "titleZh": "工務經理",
+      "titleEn": "",
+      "department": "Site 工務部",
+      "summaryZh": "駐場管理商業裝修施工現場，負責進度追蹤、品質管控、安全管理與分包商協調。確保施工按圖執行，符合品質與安全標準。",
+      "skills": [
+        "施工管理",
+        "品質管控",
+        "安全管理",
+        "室內裝修背景"
+      ]
+    }
+  ],
+  "values": [
+    {
+      "slug": "real-institutional-clients",
+      "icon": "🏆",
+      "titleZh": "真實的高端客戶",
+      "titleEn": "",
+      "descZh": "我們的客戶是Kimpton、中保科技、Popeyes。每個專案都有清楚的品牌需求與施工標準，讓設計師的工作真正被執行、被看見。"
+    },
+    {
+      "slug": "design-to-build-integration",
+      "icon": "🔄",
+      "titleZh": "設計到施工，完整閉環",
+      "titleEn": "",
+      "descZh": "惠強是100%設計施工自有整合。設計師不只畫圖，你的設計會被完整執行。你可以在現場看到自己的作品從圖面變成空間，這在其他公司很難有的經驗。"
+    },
+    {
+      "slug": "modern-tools-workflows",
+      "icon": "📈",
+      "titleZh": "AI工具 + 現代化工作流",
+      "titleEn": "",
+      "descZh": "我們積極導入AI輔助繪圖與成本分析工具，讓設計師把時間用在真正有價值的創意決策上，而不是重複性的繪圖作業。"
+    },
+    {
+      "slug": "31-years-of-proven-stability",
+      "icon": "🏢",
+      "titleZh": "31+ 年穩定經營",
+      "titleEn": "",
+      "descZh": "惠強自1995年持續深耕台灣商業空間市場，31+ 年穩定經營、1,600+ 件完工案件。穩定的客戶資源與財務體質，讓你可以專注在做好作品。"
+    },
+    {
+      "slug": "cross-sector-design-exposure",
+      "icon": "🎯",
+      "titleZh": "跨產業設計經驗",
+      "titleEn": "",
+      "descZh": "辦公室、飯店、餐飲連鎖、企業展廳、智慧辦公室 — 你不會只做同一類型的空間。在惠強，每個案件都是不同的挑戰，讓你持續成長。"
+    },
+    {
+      "slug": "sustainability-smart-space",
+      "icon": "🌱",
+      "titleZh": "永續與新技術前沿",
+      "titleEn": "",
+      "descZh": "LEED、AIoT智慧空間整合 — 我們讓設計師接觸最新的建築永續標準與智慧空間技術，讓你的專業持續走在產業前端。"
+    }
+  ],
+  "perks": [
+    {
+      "slug": "perk-1",
+      "icon": "📐",
+      "titleZh": "真實的高端案件",
+      "descZh": "每個案件都是實際執行的商業空間，你的設計會完整呈現在你的作品集上。"
+    },
+    {
+      "slug": "perk-2",
+      "icon": "🤝",
+      "titleZh": "設計與工務緊密合作",
+      "descZh": "設計師直接與工務團隊協作，理解施工邏輯，讓你的設計更落地、更可執行。"
+    },
+    {
+      "slug": "ai工具培訓",
+      "icon": "🧠",
+      "titleZh": "AI工具培訓",
+      "descZh": "公司積極導入AI輔助工具，提供培訓資源，讓設計師掌握最新的工作效率工具。"
+    },
+    {
+      "slug": "perk-4",
+      "icon": "🌿",
+      "titleZh": "永續設計知識",
+      "descZh": "接觸LEED、綠建築等認證標準，拓展設計師在永續領域的專業知識。"
+    },
+    {
+      "slug": "perk-5",
+      "icon": "📍",
+      "titleZh": "台北南港，交通便利",
+      "descZh": "辦公室位於南港經貿二路，鄰近捷運南港展覽館站，交通便利。"
+    },
+    {
+      "slug": "31-年穩定經營",
+      "icon": "🏛",
+      "titleZh": "31+ 年穩定經營",
+      "descZh": "1995年創立至今持續深耕，穩定的案源與財務體質，讓你可以專注在工作本身。"
+    }
+  ]
+}
