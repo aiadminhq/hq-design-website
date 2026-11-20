@@ -1348,3 +1348,101 @@ html[lang="zh-Hant"] .faq-group-title {
   line-height: 1.55;
   color: var(--mid);
 }
+
+/* Services dropdown — desktop hover/focus, mobile indented list */
+.nav-item--services { position: relative; }
+.nav-item--services::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 22px;
+}
+.nav-caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 6px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid currentColor;
+  vertical-align: 2px;
+  pointer-events: none;
+}
+.nav-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 18px);
+  left: 0;
+  z-index: 120;
+  min-width: 220px;
+  margin: 0;
+  padding: 8px 0;
+  list-style: none;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  text-align: left;
+}
+.nav-dropdown a {
+  display: block;
+  padding: 10px 16px;
+  white-space: nowrap;
+  color: var(--mid);
+}
+.nav-links .nav-dropdown a::after { display: none; }
+.nav-dropdown a:hover,
+.nav-dropdown a:focus-visible,
+.nav-dropdown a.active {
+  color: var(--dark);
+  background: var(--bg);
+}
+.nav-services-link:focus-visible,
+.nav-dropdown a:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+@media (min-width: 769px) {
+  .nav-item--services:hover > .nav-dropdown,
+  .nav-item--services:focus-within > .nav-dropdown {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .nav-item--services::before { display: none; }
+  .nav-mobile-open .nav-links {
+    align-items: flex-start;
+    text-align: left;
+  }
+  .nav-mobile-open .nav-item--services {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 12px;
+    text-align: left;
+  }
+  .nav-mobile-open .nav-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: static;
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0 0 0 18px;
+    gap: 12px;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: left;
+  }
+  .nav-mobile-open .nav-dropdown a {
+    padding: 0;
+    white-space: normal;
+    text-align: left;
+  }
+}

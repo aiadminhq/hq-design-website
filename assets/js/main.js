@@ -12,6 +12,40 @@ hamburger?.addEventListener('click', () => {
   nav?.classList.toggle('nav-mobile-open');
 });
 
+// Services dropdown: keep aria-expanded in sync with hover, keyboard focus, and the open mobile menu.
+(function initServicesDropdown() {
+  const item = document.querySelector('.nav-item--services');
+  const toggle = item?.querySelector('[aria-controls="nav-services-menu"]');
+  if (!item || !toggle) return;
+
+  const desktop = window.matchMedia('(min-width: 769px)');
+
+  function syncExpanded() {
+    if (!desktop.matches) {
+      toggle.setAttribute('aria-expanded', nav?.classList.contains('nav-mobile-open') ? 'true' : 'false');
+      return;
+    }
+    const open = item.matches(':hover') || item.matches(':focus-within');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+
+  item.addEventListener('mouseenter', syncExpanded);
+  item.addEventListener('mouseleave', syncExpanded);
+  item.addEventListener('focusin', syncExpanded);
+  item.addEventListener('focusout', (event) => {
+    if (!item.contains(event.relatedTarget)) syncExpanded();
+  });
+  item.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape' || !desktop.matches) return;
+    const active = document.activeElement;
+    if (active && item.contains(active)) active.blur();
+    toggle.setAttribute('aria-expanded', 'false');
+  });
+
+  hamburger?.addEventListener('click', syncExpanded);
+  desktop.addEventListener('change', syncExpanded);
+})();
+
 // Set active nav link
 const navLinks = document.querySelectorAll('.nav-links a');
 const currentPage = window.location.pathname.split('/').pop() || 'index.html';
