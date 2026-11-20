@@ -801,7 +801,10 @@
   height: 1px;
   overflow: hidden;
 }
-.rs-form [hidden] {
+/* [hidden] 要贏過全站 .contact-form 的 display:flex：兩個表單本身與裡面的元素都要能真的隱藏 */
+.rs-form[hidden],
+.rs-form [hidden],
+.rs-page main [hidden] {
   display: none !important;
 }
 
