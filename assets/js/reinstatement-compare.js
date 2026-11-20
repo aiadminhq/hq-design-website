@@ -20,7 +20,9 @@
         if (!fromRange) range.value = String(pos);
         range.setAttribute(
           "aria-valuetext",
-          "完工時 " + pos + "%，復原後 " + (100 - pos) + "%",
+          /^en/i.test(document.documentElement.lang || "")
+            ? "Before " + pos + "%, after " + (100 - pos) + "%"
+            : "完工時 " + pos + "%，復原後 " + (100 - pos) + "%",
         );
       }
     }

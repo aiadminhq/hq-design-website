@@ -94,7 +94,6 @@
 }
 
 /* ---------- 深色區：Navy 底＋橘色光暈（Card Tone：Mesh Navy） ---------- */
-.rs-page main .rs-hero,
 .rs-page main .cta-banner {
   background:
     radial-gradient(
@@ -194,4 +193,64 @@
   font-size: 12px;
   letter-spacing: 0.16em;
   color: #ffb3a1;
+}
+
+/* ---------- 服務頁英雄區：淺色背景（Figma Slide Background「Type=Cover」139:378：bg/mesh＋icon/hq-glow） ---------- */
+.rs-page main .rs-hero {
+  background: #e3e3e3 url("../images/reinstatement/hero-bg-hq-lines.webp") center / cover no-repeat;
+  color: var(--dark);
+}
+@media (max-width: 960px) {
+  .rs-page main .rs-hero {
+    background-image: url("../images/reinstatement/hero-bg-hq-lines-960.webp");
+  }
+}
+.rs-page main .rs-hero h1 {
+  color: var(--dark);
+}
+.rs-page main .rs-hero .label {
+  color: #b2381e; /* 灰底上的橘色小字：比 #CC3E22 再深一階，對比 4.7:1 */
+}
+.rs-page main .rs-hero-sub {
+  color: #33363b;
+}
+.rs-page main .rs-hero-note,
+.rs-page main .rs-hero .rs-compare-caption {
+  color: var(--mid);
+}
+.rs-page main .rs-hero .btn-outline {
+  color: var(--dark);
+  border-color: var(--dark);
+}
+.rs-page main .rs-hero .btn-outline:hover {
+  background: var(--dark);
+  color: var(--white);
+}
+.rs-page main .rs-hero .rs-scene-btn {
+  color: var(--dark);
+  border-color: rgba(16, 25, 36, 0.35);
+  background: rgba(255, 255, 255, 0.55);
+}
+.rs-page main .rs-hero .rs-scene-btn:hover {
+  background: var(--white);
+}
+.rs-page main .rs-hero .rs-scene-btn[aria-pressed="true"] {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: var(--white);
+}
+.rs-page main .rs-hero a:focus-visible,
+.rs-page main .rs-hero button:focus-visible {
+  outline-color: var(--brand);
+}
+.rs-page main .rs-hero .rs-compare {
+  box-shadow: 0 12px 32px rgba(16, 25, 36, 0.16);
+}
+
+/* ---------- 整頁字體：Inter 換成 Satoshi（含導覽列、頁尾；使用者 2026-11-20 決定） ----------
+   只作用在退租復原三頁（body.rs-page）。中文維持 Noto Sans TC。 */
+body.rs-page {
+  --font-en: 'Satoshi', 'Noto Sans TC', sans-serif;
+  --font-zh: 'Satoshi', 'Noto Sans TC', sans-serif;
+  font-family: var(--font-zh);
 }
