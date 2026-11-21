@@ -1,0 +1,401 @@
+/* ============================================================
+   HQ DESIGN — 共用元件（New Design System）
+   依賴：tokens.css（必須先載入）
+   對應 Figma：Components 頁 Core Components（128:2）
+
+   用法
+   - 頁面 <body> 加 class="ds-v2" 才會換成新的字體與底色。
+   - 元件一律用 .hq- 開頭的 class，不會跟舊的 style.css（.btn、.card…）互相干擾。
+   - 這個檔只能用 tokens.css 的變數；不要寫死色碼。
+   ============================================================ */
+
+/* ---------- 頁面開關 ---------- */
+body.ds-v2 *,
+body.ds-v2 *::before,
+body.ds-v2 *::after {
+  box-sizing: border-box;
+}
+body.ds-v2 {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  letter-spacing: var(--tracking-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+/* 頁面中途切換語言的區塊（例如 <section lang="zh-Hant">）要重新套字體 */
+body.ds-v2 [lang] {
+  font-family: var(--font-body);
+  letter-spacing: var(--tracking-body);
+}
+body.ds-v2 ::selection {
+  background: var(--hq-orange-60);
+  color: var(--hq-ink);
+}
+body.ds-v2 :focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+/* ---------- 版面 ---------- */
+.hq-container {
+  width: 100%;
+  max-width: calc(var(--container-max) + var(--gutter) * 2);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.hq-container--narrow {
+  max-width: calc(var(--container-narrow) + var(--gutter) * 2);
+}
+.hq-section {
+  padding-block: var(--section-y);
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+.hq-section--subtle {
+  background: var(--color-bg-subtle);
+}
+.hq-stack > * + * {
+  margin-top: var(--space-md);
+}
+
+/* ---------- 文字（Figma Title／Label） ---------- */
+.hq-label {
+  display: inline-block;
+  font-family: var(--font-latin);
+  font-size: var(--text-label);
+  font-weight: var(--weight-medium);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  line-height: var(--leading-tight);
+  color: var(--color-accent-text);
+}
+:lang(zh) .hq-label {
+  font-family: var(--font-zh);
+  text-transform: none;
+}
+.hq-display,
+.hq-h1,
+.hq-h2,
+.hq-h3 {
+  font-weight: var(--weight-bold);
+  color: var(--color-text);
+  text-wrap: balance;
+}
+.hq-display {
+  font-size: var(--text-display);
+  line-height: var(--leading-display);
+  letter-spacing: var(--tracking-display);
+}
+.hq-h1 {
+  font-size: var(--text-h1);
+  line-height: var(--leading-heading);
+  letter-spacing: var(--tracking-heading);
+}
+.hq-h2 {
+  font-size: var(--text-h2);
+  line-height: var(--leading-heading);
+  letter-spacing: var(--tracking-heading);
+}
+.hq-h3 {
+  font-size: var(--text-h3);
+  line-height: var(--leading-tight);
+}
+.hq-lead {
+  font-size: var(--text-body-lg);
+  line-height: var(--leading-body);
+  color: var(--color-text-secondary);
+  max-width: 62ch;
+}
+.hq-muted {
+  color: var(--color-text-muted);
+}
+
+/* 區塊標題組：label ＋ 標題 ＋ 說明（Figma Title） */
+.hq-section-head {
+  display: grid;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-xl);
+  max-width: 760px;
+}
+.hq-section-head--center {
+  margin-inline: auto;
+  text-align: center;
+  justify-items: center;
+}
+
+/* ---------- 按鈕（Figma Button） ----------
+   --primary 深藍、--accent 品牌橘（一頁只放一顆）、--outline 外框、--inverse 深色／照片上的白框 */
+.hq-btn {
+  --btn-bg: transparent;
+  --btn-fg: var(--color-text);
+  --btn-border: transparent;
+  --btn-bg-hover: var(--btn-bg);
+  --btn-border-hover: var(--btn-border);
+  --btn-fg-hover: var(--btn-fg);
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  min-height: 48px;
+  padding: 12px 24px;
+  border: var(--stroke-component) solid var(--btn-border);
+  border-radius: var(--radius-full);
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  font-family: inherit;
+  font-size: var(--text-body);
+  font-weight: var(--weight-medium);
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    background-color var(--duration-base) var(--ease-standard),
+    border-color var(--duration-base) var(--ease-standard),
+    color var(--duration-base) var(--ease-standard),
+    transform var(--duration-fast) var(--ease-standard);
+}
+.hq-btn:hover {
+  background: var(--btn-bg-hover);
+  border-color: var(--btn-border-hover);
+  color: var(--btn-fg-hover);
+}
+.hq-btn:active {
+  transform: scale(0.98);
+}
+.hq-btn[disabled],
+.hq-btn[aria-disabled="true"] {
+  opacity: 0.55;
+  pointer-events: none;
+}
+.hq-btn svg {
+  width: var(--icon-sm);
+  height: var(--icon-sm);
+  flex: none;
+  stroke: currentColor;
+  stroke-width: var(--icon-stroke);
+  fill: none;
+  transition: transform var(--duration-base) var(--ease-standard);
+}
+.hq-btn:hover svg {
+  transform: translateX(2px);
+}
+
+.hq-btn--primary {
+  --btn-bg: var(--color-primary);
+  --btn-border: var(--color-primary);
+  --btn-fg: var(--color-on-primary);
+  --btn-bg-hover: var(--color-primary-hover);
+  --btn-border-hover: var(--color-primary-hover);
+}
+.hq-btn--accent {
+  --btn-bg: var(--color-accent-fill);
+  --btn-border: var(--color-accent-fill);
+  --btn-fg: var(--color-on-accent);
+  --btn-bg-hover: var(--color-accent-fill-hover);
+  --btn-border-hover: var(--color-accent-fill-hover);
+}
+.hq-btn--outline {
+  --btn-border: var(--color-text);
+  --btn-fg: var(--color-text);
+  --btn-bg-hover: var(--color-text);
+  --btn-fg-hover: var(--color-bg);
+}
+.hq-btn--inverse {
+  --btn-border: rgb(255 255 255 / 0.7);
+  --btn-fg: var(--hq-white);
+  --btn-bg-hover: var(--hq-white);
+  --btn-border-hover: var(--hq-white);
+  --btn-fg-hover: var(--hq-ink);
+}
+.hq-btn--sm {
+  min-height: 40px;
+  padding: 8px 18px;
+  font-size: var(--text-sm);
+}
+.hq-btn--lg {
+  min-height: 56px;
+  padding: 16px 32px;
+  font-size: var(--text-body-lg);
+}
+.hq-btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+/* ---------- Tag（Figma Tag：Accent／Primary／Outline） ---------- */
+.hq-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 4px 12px;
+  border: var(--stroke-divider) solid transparent;
+  border-radius: var(--radius-full);
+  font-family: var(--font-latin);
+  font-size: var(--text-caption);
+  font-weight: var(--weight-medium);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+:lang(zh) .hq-tag {
+  font-family: var(--font-zh);
+}
+.hq-tag--accent {
+  background: var(--color-accent-fill);
+  color: var(--color-on-accent);
+}
+.hq-tag--primary {
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+}
+.hq-tag--outline {
+  border-color: var(--color-border-strong);
+  color: var(--color-text);
+}
+
+/* ---------- 卡片（Figma Card：Flat／Outline；網站預設 Flat） ---------- */
+.hq-card {
+  display: grid;
+  align-content: start;
+  gap: var(--space-sm);
+  padding: var(--space-lg);
+  border: var(--stroke-divider) solid transparent;
+  border-radius: var(--radius-md);
+  background: var(--color-surface-muted);
+  color: var(--color-text);
+}
+.hq-card--outline {
+  background: var(--color-surface);
+  border-color: var(--color-border);
+}
+.hq-card__title {
+  font-size: var(--text-h3);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-tight);
+}
+.hq-card__body {
+  color: var(--color-text-secondary);
+}
+a.hq-card {
+  text-decoration: none;
+  transition:
+    border-color var(--duration-base) var(--ease-standard),
+    box-shadow var(--duration-base) var(--ease-standard);
+}
+a.hq-card:hover {
+  border-color: var(--color-border-strong);
+  box-shadow: var(--shadow-md);
+}
+
+/* 圖示框（Figma Icon Box） */
+.hq-icon-box {
+  display: inline-grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border: var(--stroke-divider) solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: var(--color-surface);
+  color: var(--color-accent-text);
+}
+.hq-icon-box svg {
+  width: var(--icon-md);
+  height: var(--icon-md);
+  stroke: currentColor;
+  stroke-width: var(--icon-stroke);
+  fill: none;
+}
+
+/* ---------- 數字（Figma Stat Card） ----------
+   數字直接寫在 HTML，不做從 0 跳起的動畫（搜尋引擎才讀得到） */
+.hq-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: var(--space-lg);
+}
+.hq-stat {
+  display: grid;
+  gap: var(--space-2xs);
+}
+.hq-stat__num {
+  font-family: var(--font-latin);
+  font-size: var(--text-numeral);
+  font-weight: var(--weight-bold);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text);
+}
+.hq-stat__unit {
+  color: var(--color-accent-text);
+}
+.hq-stat__label {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+
+/* ---------- 流程（Figma Process Step） ---------- */
+.hq-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--space-lg);
+  counter-reset: hq-step;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.hq-step {
+  display: grid;
+  gap: var(--space-sm);
+  counter-increment: hq-step;
+}
+.hq-step::before {
+  content: counter(hq-step, decimal-leading-zero);
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border: var(--stroke-component) solid var(--color-border-strong);
+  border-radius: var(--radius-full);
+  font-family: var(--font-latin);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  color: var(--color-accent-text);
+}
+.hq-step__title {
+  font-weight: var(--weight-bold);
+}
+.hq-step__body {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+
+/* ---------- 分隔線（Figma Divider） ---------- */
+.hq-divider {
+  height: 0;
+  border: 0;
+  border-top: var(--stroke-divider) solid var(--color-border);
+  margin-block: var(--space-xl);
+}
+
+/* ---------- 捲動淡入 ----------
+   main.js 會在 <html> 加 .hq-reveal-ready，並在元素進畫面時加 .in-view。
+   沒有 JS 或 JS 出錯時，內容維持可見。 */
+@media (prefers-reduced-motion: no-preference) {
+  .hq-reveal-ready .hq-reveal {
+    opacity: 0;
+    transform: translateY(12px);
+    transition:
+      opacity var(--duration-slow) var(--ease-out),
+      transform var(--duration-slow) var(--ease-out);
+  }
+  .hq-reveal-ready .hq-reveal.in-view {
+    opacity: 1;
+    transform: none;
+  }
+}

@@ -1,0 +1,264 @@
+/* ============================================================
+   HQ DESIGN — Design Tokens（全站共用）
+   來源：Figma「HQ DESIGN - New Design System」（YkQYrRyGsKJEpQj1Lo9kzR）
+         Components 頁（126:22）Foundations／Core Components 的 Variables
+   對照表：docs/design-system/tokens.md
+
+   三層結構
+   1. 原始層 --hq-*        ：Figma Brand Color／Layout 的原始值，只在本檔被引用
+   2. 語意層 --color-* 等  ：「這個值拿來做什麼」，頁面與元件只用這一層
+   3. 元件層 --btn-* 等    ：寫在 components.css
+
+   注意
+   - 本檔只定義變數，不改任何元素外觀；頁面要在 <body> 加 .ds-v2 才會套用新樣式。
+   - 舊的 style.css 變數（--brand、--accent…）不動，兩套並存到全站改完為止。
+   - 標「web」的 token 是 Figma 目前沒有、為網頁補上的值，待 Figma 補「Web Foundations」頁後回填。
+   ============================================================ */
+
+:root {
+  /* ---------- 1. 原始層：色票（Figma Brand Color） ---------- */
+  --hq-orange-50: #f2ded9;
+  --hq-orange-60: #f4cec5;
+  --hq-orange-70: #f7ae9e;
+  --hq-orange-80: #f98e78;
+  --hq-orange-90: #fc6f50;
+  --hq-orange-100: #ff4e2a; /* 品牌橘：只當底色／面積 */
+  --hq-orange-110: #cc3e22; /* 淺底上的橘色文字 */
+  --hq-orange-120: #992f19;
+
+  --hq-navy-50: #8f98a4;
+  --hq-navy-60: #798391;
+  --hq-navy-70: #626f7f;
+  --hq-navy-80: #4c5a6d;
+  --hq-navy-90: #35465a;
+  --hq-navy-100: #1f3148; /* 品牌藍 */
+  --hq-navy-110: #1c2c41;
+  --hq-navy-120: #19273a;
+
+  --hq-neutral-light-50: #fcfcfc;
+  --hq-neutral-light-75: #f9f9f9;
+  --hq-neutral-light-100: #f5f5f5;
+  --hq-neutral-dark-25: #eeeeee;
+  --hq-neutral-dark-50: #e8e8e8;
+  --hq-neutral-dark-75: #e2e2e2;
+  --hq-neutral-dark-100: #d9d9d9;
+
+  --hq-ink: #101924; /* slide/text/primary */
+  --hq-black: #0a0a0a; /* color/hq/black */
+  --hq-white: #ffffff;
+
+  /* web：Figma 的次要文字是 #0a0a0a 70%／50% 透明；網頁改用實色，避免疊在不同底色上對比不穩 */
+  --hq-ink-secondary: #4d4f53; /* ≈ #0a0a0ab2 on white，對比 8.2:1 */
+  --hq-ink-muted: #6b6f75; /* 取代 #0a0a0a80（只有 3.7:1，不合格），對比 5.0:1（淺灰底 4.6:1） */
+
+  /* web：狀態色（沿用退租復原頁，Figma 只有淺底色） */
+  --hq-success-50: #eaf3ec;
+  --hq-success-60: #b9d6bf;
+  --hq-success-120: #1e4d2b;
+  --hq-danger-50: #fff3ef;
+  --hq-danger-60: #f4cec5;
+  --hq-danger-120: #7a2609;
+  --hq-warning-50: #fff6e5;
+  --hq-warning-60: #ffd999; /* mode/warning */
+  --hq-warning-120: #6b4300;
+
+  /* ---------- 2. 語意層：顏色（Figma Color Mode = Light） ---------- */
+  --color-bg: var(--hq-white); /* 頁面底色 */
+  --color-bg-subtle: var(--hq-neutral-light-100); /* 交替區塊底色 */
+  --color-surface: var(--hq-white); /* 卡片 */
+  --color-surface-muted: var(--hq-neutral-light-100); /* Flat 卡片 */
+
+  --color-text: var(--hq-ink);
+  --color-text-secondary: var(--hq-ink-secondary);
+  --color-text-muted: var(--hq-ink-muted);
+  --color-text-inverse: var(--hq-white);
+
+  --color-primary: var(--hq-navy-100); /* 主要按鈕、連結 */
+  --color-primary-hover: var(--hq-navy-120);
+  --color-on-primary: var(--hq-white);
+
+  --color-accent-fill: var(--hq-orange-100); /* 一頁最重要的那顆按鈕 */
+  --color-accent-fill-hover: var(--hq-orange-90);
+  --color-on-accent: var(--hq-ink); /* 橘底一律深字（白字只有 3.3:1） */
+  --color-accent-text: var(--hq-orange-110); /* 橘色文字、label */
+
+  --color-link: var(--hq-navy-100);
+  --color-link-hover: var(--hq-orange-110);
+
+  --color-border: var(--hq-neutral-dark-50); /* slide/line */
+  --color-border-faint: var(--hq-neutral-dark-25);
+  --color-border-strong: var(--hq-neutral-dark-100);
+
+  --color-focus: var(--hq-orange-110); /* 鍵盤 focus 外框 */
+
+  --color-success-bg: var(--hq-success-50);
+  --color-success-line: var(--hq-success-60);
+  --color-success-text: var(--hq-success-120);
+  --color-danger-bg: var(--hq-danger-50);
+  --color-danger-line: var(--hq-danger-60);
+  --color-danger-text: var(--hq-danger-120);
+  --color-warning-bg: var(--hq-warning-50);
+  --color-warning-line: var(--hq-warning-60);
+  --color-warning-text: var(--hq-warning-120);
+
+  /* 照片上的漸層遮罩（首頁 Hero H2）；換照片時只調 strength */
+  --scrim-color: 16 25 36; /* = --hq-ink 的 RGB */
+  --scrim-strength: 0.8;
+
+  /* ---------- 2. 語意層：字體（Figma Typography） ---------- */
+  --font-latin:
+    "Satoshi", "Noto Sans TC", ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Arial, sans-serif;
+  --font-zh:
+    "Noto Sans TC", "Satoshi", ui-sans-serif, system-ui, "PingFang TC",
+    "Microsoft JhengHei", sans-serif;
+  --font-body: var(--font-latin); /* :lang(zh) 時改成 --font-zh，見下方 */
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
+  --weight-black: 900;
+
+  /* web：網頁字級（Figma 只有投影片尺寸 18–220px；依投影片比例縮成網頁用，會隨螢幕寬度縮放） */
+  --text-display: clamp(
+    2.75rem,
+    1.6rem + 4.2vw,
+    5.5rem
+  ); /* 44→88 ≈ Display XL 120 */
+  --text-h1: clamp(2rem, 1.4rem + 2.6vw, 3.5rem); /* 32→56 ≈ Headline XL 60 */
+  --text-h2: clamp(
+    1.625rem,
+    1.3rem + 1.3vw,
+    2.25rem
+  ); /* 26→36 ≈ Headline M 36 */
+  --text-h3: clamp(1.25rem, 1.15rem + 0.4vw, 1.5rem); /* 20→24 ≈ Title S 24 */
+  --text-body-lg: 1.125rem; /* 18 ≈ Body L */
+  --text-body: 1rem; /* 16 ≈ Body M */
+  --text-sm: 0.875rem; /* 14 */
+  --text-label: 0.8125rem; /* 13 ≈ Label 18 */
+  --text-caption: 0.75rem; /* 12 */
+  --text-numeral: clamp(2.25rem, 1.8rem + 2vw, 3.5rem); /* 數字條 ≈ Numeral */
+
+  /* 行高：Figma 投影片行高偏緊（Body 1.2），網頁內文放寬 */
+  --leading-display: 1.05;
+  --leading-heading: 1.15;
+  --leading-body: 1.65;
+  --leading-tight: 1.3;
+
+  /* 字距：Latin 值取自 Figma tracking/*（換算成 em） */
+  --tracking-display: -0.02em; /* tracking/display/xl -2.4 / 120 */
+  --tracking-heading: -0.01em; /* tracking/headline/l -0.56 / 56 */
+  --tracking-body: 0;
+  --tracking-label: 0.12em; /* web：label 大寫加寬 */
+
+  /* ---------- 2. 語意層：間距、圓角、線寬（Figma Layout） ---------- */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 20px;
+  --space-lg: 32px;
+  --space-xl: 50px;
+  --space-2xl: 64px; /* web */
+  --space-3xl: 96px; /* web */
+  --space-4xl: 128px; /* web */
+  --section-y: clamp(4rem, 2.5rem + 5vw, 7.5rem); /* web：區塊上下留白 64→120 */
+
+  --radius-sm: 8px; /* 輸入框、小元素 */
+  --radius-md: 16px; /* 卡片 */
+  --radius-lg: 24px; /* 照片、大區塊 */
+  --radius-full: 999px; /* 按鈕、Tag */
+
+  --stroke-divider: 1px;
+  --stroke-component: 1.5px;
+
+  /* web：版面 */
+  --container-max: 1200px;
+  --container-narrow: 760px;
+  --gutter: clamp(16px, 4vw, 32px);
+  --nav-height: 72px;
+
+  /* web：斷點（CSS 變數無法用在 @media，這裡只做紀錄與給 JS 讀；@media 請直接寫數字）
+     sm 640 ｜ md 768 ｜ lg 1024 ｜ xl 1280 */
+  --bp-sm: 640px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+
+  /* ---------- 2. 語意層：陰影 ---------- */
+  --shadow-sm: 0 1px 2px rgb(16 25 36 / 0.06);
+  --shadow-md: 0 8px 24px rgb(16 25 36 / 0.08);
+  --shadow-lg: 0 10px 32px rgb(10 10 10 / 0.2); /* container/shadow */
+
+  /* ---------- 2. 語意層：圖示（Figma Icon Size／Weight） ---------- */
+  --icon-xs: 16px;
+  --icon-sm: 20px;
+  --icon-md: 24px;
+  --icon-lg: 32px;
+  --icon-stroke: 2;
+
+  /* web：動態（Figma 沒有） */
+  --duration-fast: 150ms;
+  --duration-base: 240ms;
+  --duration-slow: 400ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* web：圖層 */
+  --z-base: 0;
+  --z-raised: 10;
+  --z-sticky: 100;
+  --z-overlay: 900;
+  --z-modal: 1000;
+}
+
+/* ---------- 中文（Figma Typography = ZH-TW） ----------
+   規則：含中文用 Noto Sans TC；純英文／數字用 Satoshi（元件用 --font-latin 指定）。
+   中文字距一律微加寬、行高加高。 */
+:lang(zh) {
+  --font-body: var(--font-zh);
+  --tracking-display: 0.01em; /* tracking/display/xl 1.2 / 120 */
+  --tracking-heading: 0.01em; /* tracking/headline/l 0.56 / 56 */
+  --tracking-body: 0.03em; /* tracking/body/m 0.6 / 20 */
+  --tracking-label: 0.08em;
+  --leading-display: 1.15;
+  --leading-heading: 1.3;
+  --leading-body: 1.8;
+}
+
+/* ---------- 深色區塊（Figma Slide Theme = Navy；Color Mode = Dark） ----------
+   用法：<section data-theme="navy">…</section> */
+[data-theme="navy"],
+[data-theme="dark"] {
+  --color-bg: var(--hq-navy-100);
+  --color-bg-subtle: var(--hq-navy-110);
+  --color-surface: var(--hq-navy-110);
+  --color-surface-muted: var(--hq-navy-90);
+  --color-text: var(--hq-white);
+  --color-text-secondary: rgb(255 255 255 / 0.8);
+  --color-text-muted: rgb(255 255 255 / 0.68);
+  --color-primary: var(--hq-white);
+  --color-primary-hover: var(--hq-neutral-dark-25);
+  --color-on-primary: var(--hq-navy-100);
+  --color-accent-text: var(--hq-orange-70); /* 深底上的橘字 */
+  --color-link: var(--hq-white);
+  --color-link-hover: var(--hq-orange-70);
+  --color-border: rgb(255 255 255 / 0.16);
+  --color-border-faint: rgb(255 255 255 / 0.08);
+  --color-border-strong: rgb(255 255 255 / 0.32);
+  --color-focus: var(--hq-orange-90);
+}
+[data-theme="dark"] {
+  --color-bg: var(--hq-ink); /* mode/code/bg #101924 */
+  --color-bg-subtle: var(--hq-navy-120);
+  --color-surface: var(--hq-navy-120);
+  --color-on-primary: var(--hq-ink);
+}
+
+/* 減少動態：使用者在系統設定「減少動態」時，所有動畫幾乎瞬間完成 */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-fast: 0.01ms;
+    --duration-base: 0.01ms;
+    --duration-slow: 0.01ms;
+  }
+}
