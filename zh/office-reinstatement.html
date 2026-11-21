@@ -28,9 +28,6 @@
 
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../assets/css/reinstatement.css">
-  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
-  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap">
-  <link rel="stylesheet" href="../assets/css/reinstatement-ds.css">
   <link rel="preload" as="image" href="../assets/images/reinstatement/secom7f-01-before.webp" type="image/webp">
 
   <script type="application/ld+json">
@@ -182,7 +179,7 @@
 <main>
 
 <!-- ① HERO：前後對照 -->
-<section class="rs-hero rs-dark">
+<section class="page-hero rs-hero">
   <div class="container">
     <div class="rs-hero-grid">
       <div>
@@ -329,7 +326,7 @@
     <div class="rs-zoom-bar">
       <p class="rs-zoom-caption" id="rs-zoom-caption" data-rs-zoom-caption></p>
       <form method="dialog">
-        <button type="submit" class="rs-zoom-close">關閉</button>
+        <button type="submit" class="btn btn-outline rs-zoom-close">關閉</button>
       </form>
     </div>
     <img class="rs-zoom-img" alt="" width="1600" height="1067">
@@ -344,24 +341,24 @@
       <h2>你是不是遇到這些問題</h2>
       <p class="rs-lead">退租這件事，多數人好幾年才遇到一次。不熟悉很正常。</p>
     </div>
-    <div class="rs-cards rs-cards--snap" role="region" aria-label="常見問題，可以左右滑動" tabindex="0">
-      <div class="rs-card">
-        <div class="rs-card-top"><svg class="rs-ico rs-card-ico" aria-hidden="true" focusable="false"><use href="#rs-i-deadline"/></svg><span class="rs-card-num">01</span></div>
+    <div class="door-grid rs-pain-grid">
+      <div class="door-card door-card--static">
+        <span class="door-kicker">01</span>
         <h3>租約快到期，不知道從哪裡開始</h3>
         <p>要找誰、要做多久、要先準備什麼，沒有人說得清楚，日子卻一天一天接近。</p>
       </div>
-      <div class="rs-card">
-        <div class="rs-card-top"><svg class="rs-ico rs-card-ico" aria-hidden="true" focusable="false"><use href="#rs-i-unsure"/></svg><span class="rs-card-num">02</span></div>
+      <div class="door-card door-card--static">
+        <span class="door-kicker">02</span>
         <h3>不確定哪些要拆、哪些是房東的</h3>
         <p>天花板、燈具、冷氣，有些是公司後來裝的，有些本來就在。拆錯了要賠，漏拆了點交不過。</p>
       </div>
-      <div class="rs-card">
-        <div class="rs-card-top"><svg class="rs-ico rs-card-ico" aria-hidden="true" focusable="false"><use href="#rs-i-deposit"/></svg><span class="rs-card-num">03</span></div>
+      <div class="door-card door-card--static">
+        <span class="door-kicker">03</span>
         <h3>擔心押金被扣</h3>
         <p>到了點交那天，房東才說「這裡沒有還原」。押金卡住，人已經搬走，很難再回頭處理。</p>
       </div>
-      <div class="rs-card">
-        <div class="rs-card-top"><svg class="rs-ico rs-card-ico" aria-hidden="true" focusable="false"><use href="#rs-i-night"/></svg><span class="rs-card-num">04</span></div>
+      <div class="door-card door-card--static">
+        <span class="door-kicker">04</span>
         <h3>大樓只准晚上或假日施工</h3>
         <p>什麼時段可以施工、能不能有噪音、垃圾怎麼運出去，每棟大樓的規定都不一樣。</p>
       </div>
@@ -377,8 +374,8 @@
       <h2>我們做什麼，不動什麼</h2>
       <p class="rs-lead">簡單說：把你當初裝上去的拆掉，把房東要求的補回來，房東的東西不碰。任何辦公室都接，不限我們裝修過的。</p>
     </div>
-    <div class="rs-scope">
-      <div class="rs-scope-box">
+    <div class="door-grid">
+      <div class="door-card door-card--static">
         <h3 class="rs-ico-title"><svg class="rs-ico" aria-hidden="true" focusable="false"><use href="#rs-i-demolish"/></svg>我們做</h3>
         <ul class="rs-list">
           <li><strong>拆除隔間與裝修</strong>隔間牆、玻璃隔間、櫃體、地毯、招牌，還有你後來加的線路與設備。</li>
@@ -388,7 +385,7 @@
           <li><strong>陪同點交</strong>點交當天我們到場，跟你和房東一起逐項檢查，有問題當場處理。</li>
         </ul>
       </div>
-      <div class="rs-scope-box rs-scope-box--keep">
+      <div class="door-card door-card--static door-card--accent">
         <h3 class="rs-ico-title"><svg class="rs-ico" aria-hidden="true" focusable="false"><use href="#rs-i-keep"/></svg>我們不動</h3>
         <ul class="rs-list rs-list--keep">
           <li><strong>房東財產</strong>屬於房東、不能拆的東西。常見的有天花板、燈具、冷氣風機、窗簾。</li>
@@ -460,8 +457,8 @@
 <!-- ⑤ 準備什麼 ＋ ⑥ 拿到什麼 -->
 <section class="section rs-alt">
   <div class="container">
-    <div class="rs-prep">
-      <div>
+    <div class="door-grid">
+      <div class="door-card door-card--static">
         <div class="section-title" style="margin-bottom:32px;">
           <span class="label">What to Prepare</span>
           <h2>你需要準備什麼</h2>
@@ -476,7 +473,7 @@
         </ul>
         <p class="rs-prep-note">一樣都沒有也沒關係。現勘時我們會現場丈量，也可以幫你跟房東或大樓管理單位確認。</p>
       </div>
-      <div>
+      <div class="door-card door-card--static">
         <div class="section-title" style="margin-bottom:32px;">
           <span class="label">What You Get</span>
           <h2>你會拿到什麼</h2>
@@ -499,45 +496,45 @@
       <span class="label">FAQ</span>
       <h2>常見問題</h2>
     </div>
-    <div class="rs-faq">
-      <details>
-        <summary><svg class="rs-ico" aria-hidden="true" focusable="false"><use href="#rs-i-deposit"/></svg><span>押金拿得回來嗎？</span></summary>
-        <p>押金退不退由房東決定，我們沒辦法替房東保證。我們能做的是降低被扣款的風險：照房東的還原清單施工、保留施工前後的照片、點交當天陪你一起跟房東逐項確認，有問題當場處理。</p>
+    <div class="faq-group">
+      <details class="faq-item">
+        <summary>押金拿得回來嗎？</summary>
+        <div class="faq-answer"><p>押金退不退由房東決定，我們沒辦法替房東保證。我們能做的是降低被扣款的風險：照房東的還原清單施工、保留施工前後的照片、點交當天陪你一起跟房東逐項確認，有問題當場處理。</p></div>
       </details>
-      <details>
-        <summary><svg class="rs-ico" aria-hidden="true" focusable="false"><use href="#rs-i-unsure"/></svg><span>不知道哪些要拆怎麼辦？</span></summary>
-        <p>沒關係，大部分客戶一開始都不確定。表單上勾「不確定」就好，現勘時我們會在現場一項一項跟你一起判斷，也可以幫你跟房東或大樓管理單位確認。</p>
+      <details class="faq-item">
+        <summary>不知道哪些要拆怎麼辦？</summary>
+        <div class="faq-answer"><p>沒關係，大部分客戶一開始都不確定。表單上勾「不確定」就好，現勘時我們會在現場一項一項跟你一起判斷，也可以幫你跟房東或大樓管理單位確認。</p></div>
       </details>
-      <details>
-        <summary><svg class="rs-ico" aria-hidden="true" focusable="false"><use href="#rs-i-keep"/></svg><span>房東的東西會不會被拆錯？</span></summary>
-        <p>施工前我們會先在現場把房東財產標記出來，常見的有天花板、燈具、冷氣風機、窗簾。標記的結果跟你確認之後才會動工。</p>
+      <details class="faq-item">
+        <summary>房東的東西會不會被拆錯？</summary>
+        <div class="faq-answer"><p>施工前我們會先在現場把房東財產標記出來，常見的有天花板、燈具、冷氣風機、窗簾。標記的結果跟你確認之後才會動工。</p></div>
       </details>
-      <details>
-        <summary><svg class="rs-ico" aria-hidden="true" focusable="false"><use href="#rs-i-night"/></svg><span>大樓只准晚上或假日施工，可以嗎？</span></summary>
-        <p>可以。每棟大樓的施工時段、噪音和垃圾清運規定都不一樣，我們會先跟大樓管理單位確認，再照規定排工。</p>
+      <details class="faq-item">
+        <summary>大樓只准晚上或假日施工，可以嗎？</summary>
+        <div class="faq-answer"><p>可以。每棟大樓的施工時段、噪音和垃圾清運規定都不一樣，我們會先跟大樓管理單位確認，再照規定排工。</p></div>
       </details>
-      <details>
-        <summary><svg class="rs-ico" aria-hidden="true" focusable="false"><use href="#rs-i-truck"/></svg><span>拆下來的廢棄物怎麼處理？</span></summary>
-        <p>由合法的清運業者載走處理，完成後提供清運證明，你可以留底，也可以交給房東或公司存查。</p>
+      <details class="faq-item">
+        <summary>拆下來的廢棄物怎麼處理？</summary>
+        <div class="faq-answer"><p>由合法的清運業者載走處理，完成後提供清運證明，你可以留底，也可以交給房東或公司存查。</p></div>
       </details>
-      <details>
-        <summary><svg class="rs-ico" aria-hidden="true" focusable="false"><use href="#rs-i-drawing"/></svg><span>沒有原始圖面可以嗎？</span></summary>
-        <p>可以。有圖面會比較快，沒有的話我們現勘時會現場丈量、拍照記錄。</p>
+      <details class="faq-item">
+        <summary>沒有原始圖面可以嗎？</summary>
+        <div class="faq-answer"><p>可以。有圖面會比較快，沒有的話我們現勘時會現場丈量、拍照記錄。</p></div>
       </details>
-      <details>
-        <summary><svg class="rs-ico" aria-hidden="true" focusable="false"><use href="#rs-i-time"/></svg><span>要做多久？費用怎麼算？</span></summary>
-        <p>要看坪數、拆除項目，還有大樓允許施工的時段。現勘之後我們會給你明確的工期，並依坪數與項目報價。租約到期日越早告訴我們，越好安排。</p>
+      <details class="faq-item">
+        <summary>要做多久？費用怎麼算？</summary>
+        <div class="faq-answer"><p>要看坪數、拆除項目，還有大樓允許施工的時段。現勘之後我們會給你明確的工期，並依坪數與項目報價。租約到期日越早告訴我們，越好安排。</p></div>
       </details>
-      <details>
-        <summary><svg class="rs-ico" aria-hidden="true" focusable="false"><use href="#rs-i-sites"/></svg><span>我有好幾個辦公室要退租，可以一起處理嗎？</span></summary>
-        <p>可以。<a href="office-reinstatement-request.html">表單</a>可以一次填多個地點，我們會把每個地點的到期日排在一起規劃。</p>
+      <details class="faq-item">
+        <summary>我有好幾個辦公室要退租，可以一起處理嗎？</summary>
+        <div class="faq-answer"><p>可以。<a href="office-reinstatement-request.html">表單</a>可以一次填多個地點，我們會把每個地點的到期日排在一起規劃。</p></div>
       </details>
     </div>
   </div>
 </section>
 
 <!-- ⑧ 結尾 CTA -->
-<section class="cta-banner rs-dark">
+<section class="cta-banner">
   <div class="container">
     <div class="cta-banner-inner">
       <div class="cta-text">
@@ -545,7 +542,7 @@
         <p class="sub">先留下聯絡方式，我們會聯絡你。</p>
       </div>
       <div class="cta-actions">
-        <a class="btn rs-btn-light" href="office-reinstatement-request.html">留下聯絡方式 →</a>
+        <a class="btn btn-primary" href="office-reinstatement-request.html">留下聯絡方式 →</a>
         <div class="cta-contact-info">
           <a href="tel:0225573003">電話 02-2557-3003</a>
           <a href="mailto:info@hqdesign.tw">info@hqdesign.tw</a>
