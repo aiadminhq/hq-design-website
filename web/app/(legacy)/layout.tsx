@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { headers, cookies } from "next/headers";
 import Script from "next/script";
-import { Navigation } from "../components/navigation";
-import { Content } from "../components/content";
-import { MotionProvider, PageTransition } from "../components/motion";
-import { chrome } from "../lib/content";
-import { verifyTicket } from "../lib/cms/auth";
+import { Navigation } from "../../components/navigation";
+import { Content } from "../../components/content";
+import { MotionProvider, PageTransition } from "../../components/motion";
+import { chrome } from "../../lib/content";
+import { verifyTicket } from "../../lib/cms/auth";
 import "./globals.css";
 
 export async function generateMetadata(): Promise<Metadata> {

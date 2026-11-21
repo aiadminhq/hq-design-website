@@ -11,6 +11,7 @@
     "test": "tsx --test tests/*.test.ts",
     "content:import": "tsx scripts/import-main.ts",
     "content:check": "tsx scripts/check-content.ts",
+    "sync:ds": "node scripts/sync-ds.mjs",
     "cms": "tsx scripts/cms.ts"
   },
   "dependencies": {

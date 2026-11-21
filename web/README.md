@@ -112,3 +112,10 @@ npx tsx scripts/check-preview.ts
 ```
 
 路由檢查包含 72 個中英文頁面與 sitemap、72 個 legacy 轉址及 5 組排除專案。預覽整合測試使用暫存目錄及臨時 secret，在 3012 啟動正式 build，測試結束即停止並清除測試資料，不對 Notion 或 Blob 寫入。
+
+## Next 首頁與 Component Lab（New Design System）
+
+- 路由分成兩個 root layout：`app/(ds)/`（New Design System，首頁 `/`、`/zh`、`/lab`）與 `app/(legacy)/`（舊凍結頁面 `[...segments]`，其餘網址）。兩組之間為整頁跳轉，樣式不會互相污染。
+- 設計 token／元件 CSS 不手改：`npm run sync:ds` 會從根目錄 `assets/css/{tokens,components}.css` 複製到 `app/(ds)/styles/`；首頁版型寫在 `app/(ds)/styles/home.css`，只用 token 變數。
+- 首頁文案在 `components/ds/copy.ts`（逐字取自 main 的 `index.html`／`zh/index.html`）；元件在 `components/ds/`。
+- 貼入新元件預覽：存成 `components/ds/lab/<name>.tsx`，在 `components/ds/lab/registry.tsx` 加一筆，開 `/lab`（noindex）。

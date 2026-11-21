@@ -1,10 +1,10 @@
 import { notFound } from "next/navigation";
-import { Content } from "../../components/content";
-import { ProjectDetail } from "../../components/project-detail";
-import { getSnapshot, pages, resolveRoute } from "../../lib/content";
-import { metadata, projectJsonLd, safeJson, siteUrl } from "../../lib/seo";
-import { localizedPath } from "../../lib/project";
-import "../../content/generated/project.css";
+import { Content } from "../../../components/content";
+import { ProjectDetail } from "../../../components/project-detail";
+import { getSnapshot, pages, resolveRoute } from "../../../lib/content";
+import { metadata, projectJsonLd, safeJson, siteUrl } from "../../../lib/seo";
+import { localizedPath } from "../../../lib/project";
+import "../../../content/generated/project.css";
 
 type Props = { params: Promise<{ segments?: string[] }> };
 export async function generateMetadata({ params }: Props) {
