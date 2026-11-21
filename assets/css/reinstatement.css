@@ -40,40 +40,20 @@
   border: 0;
 }
 
-.rs-page .label {
-  color: var(--mid);
-}
-.rs-dark .label {
-  color: rgba(255, 255, 255, 0.72);
-}
-
 /* ============================================================
    HERO（服務頁）
+   外框用全站 .page-hero（海軍藍、標題尺寸、眉標、內文色）。
+   這裡只補前後對照滑桿與按鈕列。
    ============================================================ */
-.rs-hero {
-  background: var(--brand);
-  padding: 128px 0 72px;
-  color: var(--white);
-}
 .rs-hero-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
-  gap: 56px;
-  align-items: center;
-}
-.rs-hero h1 {
-  font-size: clamp(30px, 3.6vw, 46px);
-  line-height: 1.25;
-  letter-spacing: -0.5px;
-  margin: 16px 0 20px;
-  text-wrap: balance;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 48px;
 }
 .rs-hero-sub {
-  font-size: 17px;
-  line-height: 1.8;
-  color: rgba(255, 255, 255, 0.82);
-  margin-bottom: 32px;
-  max-width: 30em;
+  margin-top: 0;
+  margin-bottom: 28px;
 }
 .rs-hero-actions {
   display: flex;
@@ -91,9 +71,8 @@
   transform: translateY(-1px);
 }
 .rs-hero-note {
-  margin-top: 20px;
-  font-size: 13px;
-  color: rgba(255, 255, 255, 0.72);
+  margin-top: 16px;
+  margin-bottom: 0;
 }
 
 /* --- 前後對照滑桿 --- */
@@ -209,9 +188,9 @@
 }
 .rs-scene-btn {
   min-height: 40px;
-  padding: 8px 16px;
+  padding: 8px 18px;
   border-radius: 40px;
-  border: 1.5px solid rgba(255, 255, 255, 0.45);
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
   background: transparent;
   color: var(--white);
   font-family: var(--font-zh);
@@ -220,7 +199,8 @@
   cursor: pointer;
   transition:
     background var(--transition),
-    color var(--transition);
+    color var(--transition),
+    border-color var(--transition);
 }
 .rs-scene-btn:hover {
   background: rgba(255, 255, 255, 0.12);
@@ -230,10 +210,12 @@
   color: var(--brand);
   border-color: var(--white);
 }
-.rs-compare-caption {
+.rs-hero .rs-compare-caption {
+  max-width: none;
   margin-top: 12px;
-  font-size: 13px;
-  color: rgba(255, 255, 255, 0.78);
+  margin-bottom: 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* ============================================================
@@ -255,9 +237,10 @@
 }
 .rs-pair-num {
   font-family: var(--font-en);
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.16em;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
   color: var(--accent);
 }
 .rs-pair-grid {
@@ -273,11 +256,9 @@
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
-  box-shadow: 0 8px 24px rgba(16, 25, 36, 0.06);
-  transition: box-shadow var(--transition);
 }
 .rs-pair-shot:hover {
-  box-shadow: 0 14px 36px rgba(16, 25, 36, 0.14);
+  background: var(--bg);
 }
 .rs-pair-open {
   display: flex;
@@ -304,10 +285,9 @@
   align-items: center;
   gap: 10px;
   padding: 12px 16px;
-  border-top: 3px solid var(--brand);
+  border-top: 1px solid var(--border);
   font-size: 14px;
   font-weight: 700;
-  letter-spacing: 0.04em;
   color: var(--dark);
 }
 .rs-pair-shot--after .rs-pair-label {
@@ -320,10 +300,10 @@
   margin: 0 auto;
   padding: 16px;
   border: 0;
-  border-radius: 16px;
-  background: #101924;
-  color: #fff;
-  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.4);
+  border-radius: var(--radius);
+  background: var(--brand);
+  color: var(--white);
+  box-shadow: var(--shadow-lg);
 }
 .rs-zoom::backdrop {
   background: rgba(16, 25, 36, 0.78);
@@ -354,16 +334,6 @@
 }
 .rs-zoom-close {
   flex: 0 0 auto;
-  min-height: 40px;
-  padding: 8px 16px;
-  border: 1.5px solid rgba(255, 255, 255, 0.6);
-  border-radius: 999px;
-  background: transparent;
-  color: #fff;
-  font: inherit;
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer;
 }
 .rs-zoom-close:hover {
   background: rgba(255, 255, 255, 0.12);
@@ -379,8 +349,8 @@
   height: auto;
   max-height: calc(100dvh - 196px);
   margin: 0 auto;
-  border-radius: 8px;
-  background: #0c1218;
+  border-radius: var(--radius);
+  background: var(--brand-dark);
 }
 @media (max-width: 767px) {
   .rs-pair-list {
@@ -413,7 +383,7 @@
 .rs-lead {
   font-size: 16px;
   color: var(--mid);
-  max-width: 40em;
+  max-width: 720px;
   line-height: 1.8;
 }
 .section-title.center .rs-lead {
@@ -453,33 +423,18 @@
   line-height: 1.8;
 }
 
-/* 做／不動 */
-.rs-scope {
-  display: grid;
-  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
-  gap: 24px;
-  align-items: start;
+/* 痛點四卡：沿用 .door-grid 的雙欄，補上列與列之間的線 */
+.rs-pain-grid .door-card:nth-child(-n+2) {
+  border-bottom: 1px solid var(--border);
 }
-.rs-scope-box {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 32px;
+.rs-pain-grid .door-card:nth-child(2n) {
+  border-right: none;
 }
-.rs-scope-box--keep {
-  background: #fbf6f3;
-}
-.rs-scope-box h3 {
-  font-size: 19px;
-  margin-bottom: 20px;
-}
-.rs-scope-box > p {
-  font-size: 14px;
+.rs-page .door-card .section-title p {
+  font-size: 16px;
   color: var(--mid);
   line-height: 1.8;
-}
-.rs-scope-box > p + p {
-  margin-top: 12px;
+  margin-bottom: 0;
 }
 
 .rs-list {
@@ -539,17 +494,12 @@
   color: var(--white);
 }
 
-/* 準備資料 */
-.rs-prep {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 48px;
-  align-items: start;
-}
-.rs-prep-note {
+/* 準備資料裡的補充說明 */
+.door-card .rs-prep-note {
   margin-top: 28px;
+  margin-bottom: 0;
   padding: 16px 20px;
-  background: var(--white);
+  background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   font-size: 14px;
@@ -608,18 +558,28 @@
   text-underline-offset: 3px;
 }
 
-.rs-page .cta-text .sub {
-  color: rgba(255, 255, 255, 0.8);
-}
-.rs-page .cta-contact-info a {
-  color: rgba(255, 255, 255, 0.85);
-}
-
 /* ============================================================
    表單頁
    ============================================================ */
-.rs-page .page-hero p {
-  color: rgba(255, 255, 255, 0.8);
+.rs-page .page-hero .rs-back-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  min-height: 44px;
+  margin: 0 0 12px;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.rs-page .page-hero .rs-back-link .rs-ico {
+  width: 18px;
+  height: 18px;
+}
+.rs-page .page-hero .rs-back-link:hover {
+  color: var(--white);
 }
 .rs-form-wrap {
   max-width: 720px;
@@ -829,13 +789,13 @@
   display: inline-flex;
   align-items: center;
   min-height: 44px;
-  padding: 8px 16px;
+  padding: 8px 18px;
   border: 1.5px solid var(--border);
   border-radius: 40px;
   background: var(--white);
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--dark);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--mid);
   transition:
     background var(--transition),
     border-color var(--transition),
@@ -950,9 +910,6 @@
 }
 .rs-actions .btn {
   justify-content: center;
-  padding: 16px 28px;
-  font-family: var(--font-zh);
-  font-size: 15px;
 }
 .rs-actions .btn-primary {
   flex: 1 1 260px;
@@ -1045,8 +1002,7 @@
    ============================================================ */
 @media (max-width: 1024px) {
   .rs-hero-grid {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 40px;
+    gap: 36px;
   }
   .rs-cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1057,12 +1013,6 @@
 }
 
 @media (max-width: 768px) {
-  .rs-hero {
-    padding: 104px 0 56px;
-  }
-  .rs-hero-sub {
-    font-size: 16px;
-  }
   .rs-hero-actions .btn {
     flex: 1 1 100%;
     justify-content: center;
@@ -1073,18 +1023,6 @@
   .rs-cards--3 {
     grid-template-columns: minmax(0, 1fr);
   }
-  .rs-scope,
-  .rs-prep {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 20px;
-  }
-  .rs-scope-box {
-    padding: 24px 20px;
-  }
-  .rs-page .section-title {
-    margin-bottom: 36px;
-  }
-
   /* 流程：手機改成左圓圈、右文字 */
   .rs-page .process-steps {
     gap: 24px;
@@ -1104,18 +1042,6 @@
   .rs-page .step h3,
   .rs-page .step h4 {
     margin-top: 6px;
-  }
-
-  .rs-page .cta-actions,
-  .rs-page .cta-actions .btn {
-    width: 100%;
-  }
-  .rs-page .cta-actions .btn {
-    justify-content: center;
-    white-space: normal;
-  }
-  .rs-page .page-hero {
-    padding: 112px 0 48px;
   }
 
   .rs-demo-row {
@@ -1149,44 +1075,37 @@
   }
 }
 
-/* ============================================================
-   共用 nav／footer 在這三頁的可讀性補強
-   （style.css 不動；只在 .rs-page 底下把過小、過淡的字拉到可讀）
-   ============================================================ */
-.rs-page .nav-logo-text .name-en {
-  font-size: 11px;
-  color: var(--mid);
-}
-.rs-page .footer-logo-text .name-en {
-  font-size: 11px;
-  color: rgba(255, 255, 255, 0.72);
-}
-.rs-page .cert-badge {
-  font-size: 11px;
-  color: rgba(255, 255, 255, 0.72);
-  border-color: rgba(255, 255, 255, 0.3);
-}
-.rs-page .footer-col h4,
-.rs-page .footer-tagline,
-.rs-page .footer-bottom p,
-.rs-page .footer-reg {
-  color: rgba(255, 255, 255, 0.72);
-}
-.rs-page .footer-col ul a {
-  color: rgba(255, 255, 255, 0.8);
-}
-.rs-page .btn-primary:hover {
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
-}
-
 /* 錨點不要被固定的 nav 蓋住 */
 .rs-page [id] {
   scroll-margin-top: 96px;
 }
-@media (max-width: 768px) {
-  .rs-page .cta-contact-info {
-    align-items: flex-start;
-  }
+
+/* 表單第 2 步：拆除項目預設收合 */
+.rs-demo-details {
+  margin-top: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--white);
+}
+.rs-demo-details > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 14px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--dark);
+}
+.rs-demo-details > summary::-webkit-details-marker {
+  display: none;
+}
+.rs-demo-details > summary:hover {
+  background: var(--bg);
+}
+.rs-demo-details[open] > summary {
+  border-bottom: 1px solid var(--border);
+}
+.rs-demo-details > .rs-demo-list {
+  padding: 12px 20px 20px;
 }
 
 /* ============================================================
@@ -1290,18 +1209,18 @@
 }
 .rs-pstep-num {
   flex-shrink: 0;
-  width: 44px;
-  height: 44px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
-  border: 1.5px solid var(--border);
+  border: 2px solid var(--border);
   background: var(--white);
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: var(--font-en);
-  font-weight: 700;
-  font-size: 15px;
-  color: var(--mid);
+  font-weight: 800;
+  font-size: 14px;
+  color: var(--light);
   transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 .rs-pstep h3 {
@@ -1371,13 +1290,13 @@
 }
 .is-enhanced .rs-pstep.is-active {
   opacity: 1;
-  border-color: var(--accent-fill, var(--accent));
-  box-shadow: 0 8px 24px rgba(16, 25, 36, 0.08);
+  border-color: var(--brand);
+  box-shadow: var(--shadow);
 }
 .rs-pstep.is-active .rs-pstep-num {
-  background: var(--accent-fill, var(--accent));
-  border-color: var(--accent-fill, var(--accent));
-  color: var(--accent-on, var(--white));
+  background: var(--brand);
+  border-color: var(--brand);
+  color: var(--white);
 }
 /* 動畫：橫式螢幕吃掉剩下的高度（上限 520px），直式螢幕依寬度 */
 .is-enhanced .rs-process-visual {
@@ -1436,7 +1355,7 @@
 .rs-process-dots li.is-active {
   width: 24px;
   border-radius: 999px;
-  background: var(--accent-fill, var(--accent));
+  background: var(--brand);
 }
 
 @media (max-width: 560px) {
