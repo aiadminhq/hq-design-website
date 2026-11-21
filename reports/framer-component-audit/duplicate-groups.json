@@ -1,0 +1,19 @@
+{
+  "status": "partial_live_evidence_read_only",
+  "classificationRule": "exact duplicate requires equal normalized XML tree and compatible variants/props; near duplicate requires structural similarity plus a documented difference; variant candidate requires shared source intent with meaningful controlled differences; unique requires no supported equivalent.",
+  "candidateGroups": [
+    {"groupId": "footer", "members": ["Footer", "Footer Copy"], "classification": "readback_limited", "requiredEvidence": ["component XML trees", "variants/props", "page references", "code content if code-backed"]},
+    {"groupId": "timeline", "members": ["Timeline", "Timeline Copy"], "classification": "near_duplicate_variant_candidate", "evidence": {"ids": ["HAziGIbgH", "kFsjMrHm8"], "normalizedTreesDiffer": true, "sameVariantIdObserved": true}, "requiredEvidence": ["page references", "motion/interaction behavior"]},
+    {"groupId": "project-card", "members": ["Card-Project Portfolio-1", "Card-Project Portfolio-2", "Card-Project Portfolio-3"], "classification": "pending", "requiredEvidence": ["XML tree", "image/text/link props", "page references", "responsive variants"]},
+    {"groupId": "image-card", "members": ["Image card", "Image card 2", "Image card 3"], "classification": "pending", "requiredEvidence": ["XML tree", "image and layout props", "page references"]},
+    {"groupId": "client-card", "members": ["Card", "Clients Card", "copies"], "classification": "near_duplicate_variant_candidate", "evidence": {"ids": ["Tz4ObI3jO", "e6luh5iUG"], "normalizedTreesDiffer": true, "sharedVariantsAndComponentRef": true}, "requiredEvidence": ["page references"]},
+    {"groupId": "gallery", "members": ["Gallery Section", "Gallery Section Copy"], "classification": "near_duplicate_variant_candidate", "evidence": {"ids": ["AGUPnwAVB", "z555HSirV"], "normalizedTreesDiffer": true, "copyHasVariantAndComponentRef": true}, "requiredEvidence": ["CMS/image bindings", "page references", "interaction behavior"]},
+    {"groupId": "faq-item", "members": ["FAQ question-item", "FAQ question-item Copy"], "classification": "pending", "requiredEvidence": ["XML tree", "accordion interaction", "open/closed variants", "page references"]},
+    {"groupId": "counter", "members": ["Counter.tsx", "Counter_1.tsx", "Counter_2.tsx"], "classification": "exact_duplicate", "evidence": {"ids": ["K4D4TwM", "mIDdHOA", "BhpyRnd"], "bytes": 4078, "rawSha256": "8a0b46eab2b1f1d3b3265ebb43056307a621d7980f9f6d9846a812dccb76a366", "normalizedSha256": "615a25f04134cca2914c026eab82c54d02df44115a666d01f4de352d441e8fc0"}, "requiredEvidence": ["page references"]},
+    {"groupId": "retro-grid", "members": ["RetroGrid", "RetroGrid_1"], "classification": "near_duplicate", "evidence": {"ids": ["WM9aLzM", "yPOzKKp"], "controlSurfaceDiffers": true}, "requiredEvidence": ["rendering/runtime behavior", "page references"]},
+    {"groupId": "typewriter", "members": ["TypewriterEffect", "TypewriterEffect_1"], "classification": "near_duplicate", "evidence": {"ids": ["JvhxjSC", "mm6IlTO"], "controlSurfaceDiffers": true}, "requiredEvidence": ["timing/accessibility behavior", "page references"]},
+    {"groupId": "blur-essence", "members": ["Blur_Essence_v3", "Blur_Essence_v3_1", "Blur_Essence_v4"], "classification": "near_duplicate_or_expanded_candidate", "evidence": {"ids": ["FWC3U5u", "f8c0ddB", "O2Ca9Kr"], "controlSurfaceDiffers": true}, "requiredEvidence": ["visual/runtime differences", "page references"]}
+  ],
+  "decisions": [],
+  "safety": "No component was deleted, merged, renamed, detached, or updated."
+}
