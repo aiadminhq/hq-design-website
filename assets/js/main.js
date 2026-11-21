@@ -2,14 +2,15 @@
 
 // Nav scroll effect
 const nav = document.querySelector('.nav');
-window.addEventListener('scroll', () => {
-  nav?.classList.toggle('scrolled', window.scrollY > 40);
-});
+const setNavScrolled = () => nav?.classList.toggle('scrolled', window.scrollY > 40);
+window.addEventListener('scroll', setNavScrolled, { passive: true });
+setNavScrolled();
 
 // Mobile nav toggle
 const hamburger = document.querySelector('.hamburger');
 hamburger?.addEventListener('click', () => {
-  nav?.classList.toggle('nav-mobile-open');
+  const open = nav?.classList.toggle('nav-mobile-open');
+  if (hamburger.hasAttribute('aria-expanded')) hamburger.setAttribute('aria-expanded', String(!!open));
 });
 
 // Services dropdown: keep aria-expanded in sync with hover, keyboard focus, and the open mobile menu.
@@ -102,8 +103,10 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.1 });
 
-document.querySelectorAll('.why-card, .project-card, .service-card, .career-card')
+document.querySelectorAll('.why-card, .project-card, .service-card, .career-card, .hq-reveal')
   .forEach(el => observer.observe(el));
+// New design system: .hq-reveal only hides content once this flag is set, so pages stay visible without JS.
+document.documentElement.classList.add('hq-reveal-ready');
 
 // Contact forms: AJAX submit to Formspree (stay on page + thank-you)
 (function initContactFormAjax() {
