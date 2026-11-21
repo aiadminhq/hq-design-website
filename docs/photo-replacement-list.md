@@ -3,13 +3,13 @@
 - 日期：2026-11-21　分支：`feat/integrate-rebuild-web`
 - 原則：專案文字與規格（面積、年份、地點、類別）**不動**，維持目前靜態版；只換照片。
 - 採用標準：**完整超擬真效果圖或實拍**；不接受「內嵌平面圖」「logo／簡報頁截圖」「角落浮水印」。
-- 平面圖：本次**一律不顯示**。檔案（`floorplan.jpg`）保留在 repo，日後新增獨立的平面圖 section／grid 再放入。
+- 平面圖檔案（`floorplan.jpg`）保留於 repo，本次頁面不顯示平面圖。
 
 ## 為什麼舊圖不能用
 
-`render-NN.jpg`（1626×1125）是簡報頁截圖：左下角疊有縮小的平面圖，底部留白，左上有浮水印圖示；`page-01.jpg` 是 DESIGN AND BUILD logo 頁；`floorplan.jpg` 是平面圖。這三類皆不再顯示。
+`render-NN.jpg`（1626×1125）是簡報頁截圖：左下角疊有縮小的平面圖，底部留白，左上有浮水印圖示；`page-01.jpg` 是 DESIGN AND BUILD logo 頁；`floorplan.jpg` 是平面圖。P0 的舊效果圖待合格素材補齊後替換，見 B 表。
 
-## A. 已替換完成（乾淨圖已上線）
+## A. 已有乾淨圖的專案
 
 | 專案 | slug | 狀態 | 目前張數 | 解析度 | 還缺什麼 |
 |---|---|---|---|---|---|
@@ -32,30 +32,32 @@
 | The Soup Spoon, Taipei Main Station | `soup-spoon-station` | 同檔名換成優化版（實拍） | 11 | 2000–2000px | 無（原檔 2000–8688px、多為 1.5–32 MB，已壓成 2400px 內） |
 | SECOM Nangang HQ | `secom-nangang-complex` | 同檔名換成優化版（實拍） | 1 | 2000–2000px | 無（原檔 2000–8688px、多為 1.5–32 MB，已壓成 2400px 內） |
 
-## B. 尚未有乾淨圖，仍使用舊圖（優先補）
+## B. P0 優先替換 Baohua
+
+本輪最低需補 **55 張、共 13 案**。先補 Baohua 的入口主圖與 5 張相簿圖，再補 Brightron 的 5 張，最後補其餘 11 案各 4 張。B、C 表按各案建議交件順序列出視角，括號內編號對應各案目錄的 `render-NN.jpg`，供設計端找回原始構圖。
 
 | 專案 | slug | 目前狀態 | 需要 |
 |---|---|---|---|
-| Baohua Cybersecurity | `baohua` | 0 張合格圖；暫留 10 張內嵌平面圖的舊效果圖 | 至少 6 張：入口 hero、開放辦公區、長桌會議室、投影會議室、茶水櫃區、獨立辦公室 |
+| Baohua Cybersecurity | `baohua` | 0 張合格圖；暫留 10 張內嵌平面圖的舊效果圖 | **6 張** · 入口 hero（01）、開放辦公區（03）、長桌會議室（04）、投影會議室（05）、茶水櫃區（06）、獨立辦公室（09） |
 
-## C. 張數不足（目前只有 1–2 張乾淨圖，建議補到 6–8 張）
+## C. P1 補齊相簿至每案 6–8 張
 
 | 專案 | slug | 乾淨張數 | 舊簡報素材張數 | 建議補圖數 | 待補視角 |
 |---|---|---|---|---|---|
-| AIONTECH | `aiontech` | 2 | 20 | 4 | 開放工位、投影會議室、黃色協作區、窗邊休憩區 |
-| Epic Tech | `epicstech-10f` | 2 | 6 | 4 | 木牆走廊、長桌會議室縱向、會議區側景、獨立辦公室 |
-| HQ Design Office & Material Library | `hq-office` | 2 | 16 | 4 | 入口看向材料圖書館、材料展示架、茶水區、開放工位 |
-| Lots Home Entertainment | `ledaojia` | 2 | 8 | 4 | 入口門廳、辦公工位、展示櫃、獨立辦公室側景 |
-| Lijie International | `lijie` | 2 | 6 | 4 | 入口門廳、玻璃隔間走道、開放工位、訪客沙發側景 |
-| Liwei Electronics | `liwei` | 2 | 13 | 4 | 入口門廳、協作吧檯、獨立辦公室、窗邊會議區 |
-| Brightron Technology | `polytron` | 1 | 17 | 5 | 開放工位全景、收納走道、主管室、大會議室、茶水區 |
-| Xinlan Enterprise | `xinlan` | 2 | 8 | 4 | 入口走廊、開放工位反向、窗邊長桌會議室、小會議室 |
-| Zhong Bao Insurance Services | `zhongbao-baojing` | 2 | 13 | 4 | 入口、開放工位側景、展示公告櫃、茶水區 |
-| Ching Dian TECH | `zhongbao-jingzhen` | 2 | 15 | 4 | 開放工位、獨立辦公室、投影會議室、茶水區 |
-| SECOM Technology Hall | `zhongbao-showroom` | 2 | 17 | 4 | 入口展區、圓形互動牆、設備展示區、接待廳 |
-| eSkylink | `zhongbao-tianhe` | 2 | 13 | 4 | 入口門廳、開放工位、小會議室、茶水區 |
+| Brightron Technology | `polytron` | 1 | 17 | 5 | 開放工位全景（06）、收納走道（05）、主管室（14）、大會議室（15）、茶水區（17） |
+| AIONTECH | `aiontech` | 2 | 20 | 4 | 開放工位（11）、投影會議室（07）、黃色協作區（04）、休憩區（15） |
+| Epic Tech | `epicstech-10f` | 2 | 6 | 4 | 木牆走廊（02）、長桌會議室縱向（04）、會議區側景（05）、獨立辦公室（06） |
+| HQ Design Office & Material Library | `hq-office` | 2 | 16 | 4 | 入口看向材料圖書館（01）、材料展示架（05）、茶水區（07）、開放工位（11） |
+| Lots Home Entertainment | `ledaojia` | 2 | 8 | 4 | 入口門廳（03）、辦公工位（05）、展示櫃（07）、獨立辦公室側景（08） |
+| Lijie International | `lijie` | 2 | 6 | 4 | 入口門廳（01）、玻璃隔間走道（02）、開放工位（04）、訪客沙發側景（06） |
+| Liwei Electronics | `liwei` | 2 | 13 | 4 | 入口門廳（01）、協作吧檯（02）、獨立辦公室（09）、窗邊會議區（10） |
+| Xinlan Enterprise | `xinlan` | 2 | 8 | 4 | 入口走廊（01）、開放工位反向（03）、窗邊長桌會議室（05）、小會議室（08） |
+| Zhong Bao Insurance Services | `zhongbao-baojing` | 2 | 13 | 4 | 入口（03）、開放工位側景（05）、展示公告櫃（06）、茶水區（07） |
+| Ching Dian TECH | `zhongbao-jingzhen` | 2 | 15 | 4 | 開放工位（05）、獨立辦公室（09）、投影會議室（10）、茶水區（12） |
+| SECOM Technology Hall | `zhongbao-showroom` | 2 | 17 | 4 | 入口展區（01）、圓形互動牆（03）、設備展示區（06）、接待廳（08） |
+| eSkylink | `zhongbao-tianhe` | 2 | 13 | 4 | 入口門廳（03）、開放工位（06）、小會議室（13）、茶水區（12） |
 
-上述 P0、P1 視角依現有構圖整理。已逐案檢視靜態站與 `web/public` 的素材，未找到額外符合規格的來源。
+P0、P1 均待原始素材。已檢查靜態站與 `web/public`，現有額外素材只供構圖參考。Brightron 的第二張爭議照片排除，見 `web/README.md`。
 
 ## D. 不處理（未在 main 公開）
 
@@ -65,10 +67,9 @@
 | 8 個 `web/` 新專案（`guochan-office`、`guochan-showroom`、`secom-reception`、`longteng-travel`、`transasia-bakery-dayuan`、`transasia-bakery-chunri`、`budaejjigae`、`burger-ray`） | 照片已優化並看過皆乾淨（實拍），但 main 沒有這些專案頁、文字資料也未核可，故不加入 |
 | `zhongbao-nangang` | 孤兒頁（115 張簡報截圖），不在列表與 sitemap，未動 |
 
-## E. 後續建議
+## E. 補件與驗收
 
-1. 補 B、C 的乾淨效果圖（建議規格：≥2400px 長邊、16:9 或 3:2、無浮水印、無內嵌圖、`.webp`，檔名 `selected-YYYYMMDD-NN.webp`）。
-2. 補圖後把檔案放進 `assets/images/projects/<slug>/`，重跑 `scratchpad` 式替換或手動更新 gallery。
-3. 平面圖 section：建議在 gallery 下方新增 `.proj-plans`（獨立 grid），資料來源沿用現有 `floorplan.jpg`；等設計確認版型再做。
-4. 舊的 `render-NN.jpg`、`page-NN.jpg`、`photo-NN.jpg`（原始大圖，kimpton 約 260 MB、qijia 約 80 MB）已不被頁面引用，確認無需保留後可移出 repo 減重。
-5. 圖片來源標示（完工實景／AI 強化）政策尚未導入，見 `docs/legacy-assets-review.md`。
+1. **交件**　每張附專案 slug、對應視角、原始檔或可下載連結、素材類型（實拍／效果圖）及公開核可狀態。效果圖從原始場景直接輸出；實拍提供原始照片。
+2. **驗收**　逐張確認畫面完整、長邊至少 2400 px、16:9 或 3:2、WebP，品質約 85，單張建議小於 600 KB。新增效果圖使用 `selected-YYYYMMDD-NN.webp`。畫面須無內嵌平面圖、logo、浮水印及簡報留白。只收到簡報截圖或公開核可未確認時，保留該視角的待補狀態。
+3. **換圖**　Baohua 的入口主圖用於 hero 及現有首頁、列表縮圖，到齊至少 6 張後同步換掉中英詳頁的整組舊圖。P1 既有 hero 可沿用；新增相簿圖從未使用的編號接續，避免覆蓋現有圖檔。
+4. **結案**　同步中英詳頁及所有受影響的列表與首頁縮圖。檢查引用檔案存在、兩語相簿張數一致，並以 390 px 寬度確認沒有水平溢出。回填實收張數、解析度及仍缺視角。
