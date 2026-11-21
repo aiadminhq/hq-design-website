@@ -118,9 +118,20 @@
         });
       },
     );
-    zoomDialog.addEventListener("click", function (e) {
-      if (e.target === zoomDialog) zoomDialog.close();
+    // 點背景關閉：按下與放開都要在背景上，避免在圖片上拖拉後放開就誤關。
+    var pressedOnBackdrop = false;
+    zoomDialog.addEventListener("pointerdown", function (e) {
+      pressedOnBackdrop = e.target === zoomDialog;
     });
+    zoomDialog.addEventListener("click", function (e) {
+      if (e.target === zoomDialog && pressedOnBackdrop) zoomDialog.close();
+      pressedOnBackdrop = false;
+    });
+    // 開啟時鎖住背景捲動；Esc、關閉鈕、點背景都會觸發 close。
+    var root = document.documentElement;
+    new MutationObserver(function () {
+      root.style.overflow = zoomDialog.open ? "hidden" : "";
+    }).observe(zoomDialog, { attributes: true, attributeFilter: ["open"] });
   }
 
   // 手機選單：讓 hamburger 也能用鍵盤操作（main.js 只綁了 click）
