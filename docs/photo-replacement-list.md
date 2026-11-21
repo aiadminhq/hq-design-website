@@ -20,7 +20,7 @@
 | Lijie International | `lijie` | 已換（AI 強化／實拍乾淨圖） | 2 | 2560–2560px | 補圖：原有約 6 張效果圖，僅 2 張乾淨 |
 | Liwei Electronics | `liwei` | 已換（AI 強化／實拍乾淨圖） | 2 | 2560–2560px | 補圖：原有約 13 張效果圖，僅 2 張乾淨 |
 | Brightron Technology | `polytron` | 已換（AI 強化／實拍乾淨圖） | 1 | 2560–2560px | 補圖：原有約 17 張效果圖，僅 1 張乾淨 |
-| Cheogajip, Taichung | `qijia` | 已換（AI 強化／實拍乾淨圖） | 8 | 1024–1536px | 解析度偏低（≤1536px），建議重新輸出 2400px 版；原始實拍 8400px 已存在 `photo-NN.jpg`（未引用） |
+| Cheogajip, Taichung | `qijia` | 已從原始實拍重出 WebP，EN／ZH 詳頁與作品列表已更新 | 8 | 2400px | 無；保留實景招牌與地坪圖樣 |
 | Xinlan Enterprise | `xinlan` | 已換（AI 強化／實拍乾淨圖） | 2 | 2560–2560px | 補圖：原有約 8 張效果圖，僅 2 張乾淨 |
 | Zhong Bao Insurance Services | `zhongbao-baojing` | 已換（AI 強化／實拍乾淨圖） | 2 | 2560–2560px | 補圖：原有約 13 張效果圖，僅 2 張乾淨 |
 | Ching Dian TECH | `zhongbao-jingzhen` | 已換（AI 強化／實拍乾淨圖） | 2 | 2560–2560px | 補圖：原有約 15 張效果圖，僅 2 張乾淨 |
@@ -36,24 +36,26 @@
 
 | 專案 | slug | 目前狀態 | 需要 |
 |---|---|---|---|
-| Baohua Cybersecurity | `baohua` | 已移除平面圖與 logo 頁；仍顯示 10 張內嵌平面圖的舊 `render-NN` | **全部 10 張**需乾淨的完整效果圖（優先：hero） |
+| Baohua Cybersecurity | `baohua` | 0 張合格圖；暫留 10 張內嵌平面圖的舊效果圖 | 至少 6 張：入口 hero、開放辦公區、長桌會議室、投影會議室、茶水櫃區、獨立辦公室 |
 
 ## C. 張數不足（目前只有 1–2 張乾淨圖，建議補到 6–8 張）
 
-| 專案 | slug | 乾淨張數 | 舊稿張數（皆含內嵌平面圖） | 建議補圖數 |
-|---|---|---|---|---|
-| AIONTECH | `aiontech` | 2 | 20 | 4 |
-| Epic Tech | `epicstech-10f` | 2 | 6 | 4 |
-| HQ Design Office & Material Library | `hq-office` | 2 | 16 | 4 |
-| Lots Home Entertainment | `ledaojia` | 2 | 8 | 4 |
-| Lijie International | `lijie` | 2 | 6 | 4 |
-| Liwei Electronics | `liwei` | 2 | 13 | 4 |
-| Brightron Technology | `polytron` | 1 | 17 | 5 |
-| Xinlan Enterprise | `xinlan` | 2 | 8 | 4 |
-| Zhong Bao Insurance Services | `zhongbao-baojing` | 2 | 13 | 4 |
-| Ching Dian TECH | `zhongbao-jingzhen` | 2 | 15 | 4 |
-| SECOM Technology Hall | `zhongbao-showroom` | 2 | 17 | 4 |
-| eSkylink | `zhongbao-tianhe` | 2 | 13 | 4 |
+| 專案 | slug | 乾淨張數 | 舊簡報素材張數 | 建議補圖數 | 待補視角 |
+|---|---|---|---|---|---|
+| AIONTECH | `aiontech` | 2 | 20 | 4 | 開放工位、投影會議室、黃色協作區、窗邊休憩區 |
+| Epic Tech | `epicstech-10f` | 2 | 6 | 4 | 木牆走廊、長桌會議室縱向、會議區側景、獨立辦公室 |
+| HQ Design Office & Material Library | `hq-office` | 2 | 16 | 4 | 入口看向材料圖書館、材料展示架、茶水區、開放工位 |
+| Lots Home Entertainment | `ledaojia` | 2 | 8 | 4 | 入口門廳、辦公工位、展示櫃、獨立辦公室側景 |
+| Lijie International | `lijie` | 2 | 6 | 4 | 入口門廳、玻璃隔間走道、開放工位、訪客沙發側景 |
+| Liwei Electronics | `liwei` | 2 | 13 | 4 | 入口門廳、協作吧檯、獨立辦公室、窗邊會議區 |
+| Brightron Technology | `polytron` | 1 | 17 | 5 | 開放工位全景、收納走道、主管室、大會議室、茶水區 |
+| Xinlan Enterprise | `xinlan` | 2 | 8 | 4 | 入口走廊、開放工位反向、窗邊長桌會議室、小會議室 |
+| Zhong Bao Insurance Services | `zhongbao-baojing` | 2 | 13 | 4 | 入口、開放工位側景、展示公告櫃、茶水區 |
+| Ching Dian TECH | `zhongbao-jingzhen` | 2 | 15 | 4 | 開放工位、獨立辦公室、投影會議室、茶水區 |
+| SECOM Technology Hall | `zhongbao-showroom` | 2 | 17 | 4 | 入口展區、圓形互動牆、設備展示區、接待廳 |
+| eSkylink | `zhongbao-tianhe` | 2 | 13 | 4 | 入口門廳、開放工位、小會議室、茶水區 |
+
+上述 P0、P1 視角依現有構圖整理。已逐案檢視靜態站與 `web/public` 的素材，未找到額外符合規格的來源。
 
 ## D. 不處理（未在 main 公開）
 
