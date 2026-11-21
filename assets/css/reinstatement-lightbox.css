@@ -1,0 +1,136 @@
+/* 退租復原工程 — 前後對照燈箱（點並排照片開啟）
+   外框沿用 reinstatement.css 的 .rs-zoom；這裡只放燈箱內部版面。
+   獨立成檔，避免與 reinstatement.css 的改版互相衝突。 */
+
+.rs-lb[open] {
+  gap: 14px;
+  overflow: hidden;
+}
+
+.rs-lb-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.rs-lb-title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #fff;
+  font-variant-numeric: tabular-nums;
+}
+.rs-lb-close {
+  flex: 0 0 auto;
+  min-height: 40px;
+  padding: 8px 16px;
+  border: 1.5px solid rgba(255, 255, 255, 0.6);
+  border-radius: 999px;
+  background: transparent;
+  color: #fff;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.rs-lb-close:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* 滑桿：在視窗內完整放得下（3:2），扣掉上方列、提示、下方導覽 */
+.rs-lb .rs-lb-compare {
+  width: min(100%, calc((100dvh - 300px) * 1.5));
+  margin: 0 auto;
+  flex: 0 0 auto;
+}
+
+.rs-lb-hint {
+  margin: 0;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.rs-lb-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.rs-lb-nav[hidden] {
+  display: none;
+}
+.rs-lb-arrow {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+}
+.rs-lb-arrow:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+.rs-lb-dots {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+/* 圓點本身小，但可點範圍 32px */
+.rs-lb-dot {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.rs-lb-dot::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.4);
+  transition: width 0.2s ease, background-color 0.2s ease;
+}
+.rs-lb-dot:hover::before {
+  background: rgba(255, 255, 255, 0.7);
+}
+.rs-lb-dot[aria-current="true"]::before {
+  width: 24px;
+  background: #fff;
+}
+
+.rs-lb-close:focus-visible,
+.rs-lb-arrow:focus-visible,
+.rs-lb-dot:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+
+@media (max-width: 767px) {
+  .rs-lb .rs-lb-compare {
+    width: 100%;
+  }
+  .rs-lb-nav {
+    gap: 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rs-lb-dot::before {
+    transition: none;
+  }
+}
