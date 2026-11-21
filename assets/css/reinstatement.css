@@ -237,6 +237,174 @@
 }
 
 /* ============================================================
+   並排前後對照（Hero 滑桿下方）
+   ============================================================ */
+.rs-pair-list {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+.rs-pair-name {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 14px;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: var(--dark);
+}
+.rs-pair-num {
+  font-family: var(--font-en);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--accent);
+}
+.rs-pair-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  align-items: start;
+}
+.rs-pair-shot {
+  margin: 0;
+  min-width: 0;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(16, 25, 36, 0.06);
+  transition: box-shadow var(--transition);
+}
+.rs-pair-shot:hover {
+  box-shadow: 0 14px 36px rgba(16, 25, 36, 0.14);
+}
+.rs-pair-open {
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  cursor: zoom-in;
+}
+.rs-page .rs-pair-open:focus-visible {
+  outline: none;
+}
+.rs-page .rs-pair-shot:focus-within {
+  outline: 3px solid var(--brand);
+  outline-offset: 3px;
+}
+.rs-pair-open img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1600 / 1067;
+  object-fit: cover;
+  background: #e3e3e3;
+}
+.rs-pair-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border-top: 3px solid var(--brand);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--dark);
+}
+.rs-pair-shot--after .rs-pair-label {
+  border-top-color: var(--accent-fill, var(--accent));
+}
+.rs-zoom {
+  width: min(1080px, calc(100vw - 32px));
+  max-width: calc(100vw - 32px);
+  max-height: calc(100dvh - 104px);
+  margin: 0 auto;
+  padding: 16px;
+  border: 0;
+  border-radius: 16px;
+  background: #101924;
+  color: #fff;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.4);
+}
+.rs-zoom::backdrop {
+  background: rgba(16, 25, 36, 0.78);
+}
+.rs-zoom[open] {
+  /* 頁首是 fixed、高 72px。對話框放在它下面，避免關閉鈕壓到「聯繫我們」。 */
+  top: 88px;
+  right: 16px;
+  bottom: auto;
+  left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: auto;
+  overflow: auto;
+}
+.rs-zoom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.rs-zoom-caption {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.rs-zoom-close {
+  flex: 0 0 auto;
+  min-height: 40px;
+  padding: 8px 16px;
+  border: 1.5px solid rgba(255, 255, 255, 0.6);
+  border-radius: 999px;
+  background: transparent;
+  color: #fff;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.rs-zoom-close:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+.rs-page .rs-zoom-close:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+.rs-zoom-img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: calc(100dvh - 196px);
+  margin: 0 auto;
+  border-radius: 8px;
+  background: #0c1218;
+}
+@media (max-width: 767px) {
+  .rs-pair-list {
+    gap: 40px;
+  }
+  .rs-pair-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+  .rs-zoom {
+    width: calc(100vw - 20px);
+    padding: 12px;
+  }
+  .rs-zoom-bar {
+    align-items: flex-start;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rs-pair-shot {
+    transition: none;
+  }
+}
+
+/* ============================================================
    內容區塊
    ============================================================ */
 .rs-alt {

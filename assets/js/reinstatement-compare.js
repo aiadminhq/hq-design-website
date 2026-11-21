@@ -92,6 +92,37 @@
     showScene(buttons[0].getAttribute("data-rs-scene"));
   }
 
+  // 並排照片：點擊開大圖。沒有 <dialog> 時，連結會直接打開圖片。
+  var zoomDialog = document.querySelector("[data-rs-zoom-dialog]");
+  if (zoomDialog && typeof zoomDialog.showModal === "function") {
+    var zoomImg = zoomDialog.querySelector(".rs-zoom-img");
+    var zoomCaption = zoomDialog.querySelector("[data-rs-zoom-caption]");
+    Array.prototype.forEach.call(
+      document.querySelectorAll("[data-rs-zoom]"),
+      function (link) {
+        link.addEventListener("click", function (e) {
+          var source = link.querySelector("img");
+          if (!source || !zoomImg) return;
+          e.preventDefault();
+          zoomImg.src = source.currentSrc || source.src;
+          zoomImg.alt = source.getAttribute("alt") || "";
+          if (zoomCaption) {
+            zoomCaption.textContent =
+              link.getAttribute("data-rs-zoom-label") || zoomImg.alt;
+          }
+          try {
+            if (!zoomDialog.open) zoomDialog.showModal();
+          } catch (err) {
+            window.location.href = link.href;
+          }
+        });
+      },
+    );
+    zoomDialog.addEventListener("click", function (e) {
+      if (e.target === zoomDialog) zoomDialog.close();
+    });
+  }
+
   // 手機選單：讓 hamburger 也能用鍵盤操作（main.js 只綁了 click）
   var hamburger = document.querySelector(".hamburger");
   if (hamburger) {
