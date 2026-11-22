@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.env*
+!.env.example
+.workflow/
+framer reference/
+*.tsbuildinfo
+grok-out/
+.DS_Store
