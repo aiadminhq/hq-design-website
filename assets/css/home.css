@@ -184,13 +184,15 @@
     clip-path 900ms var(--ease-out),
     opacity var(--duration-base) var(--ease-standard);
 }
-.hm-loader__window svg {
+/* 虛構樓層平面（Higgsfield 生成，白線黑底）：screen 混色後只留下白線 */
+.hm-loader__window img {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
-  color: var(--hq-white);
-  opacity: 0.9;
+  object-fit: cover;
+  mix-blend-mode: screen;
+  opacity: 0.8;
 }
 .hm-loader[data-step="3"] .hm-loader__window {
   opacity: 1;
@@ -263,6 +265,16 @@
     background-color var(--duration-base) var(--ease-standard),
     border-color var(--duration-base) var(--ease-standard);
 }
+.hm-loader__skip {
+  background: rgb(16 25 36 / 0.72);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+.hm-loader__meta > span {
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  background: rgb(16 25 36 / 0.72);
+}
 .hm-loader__skip:hover {
   background: rgb(255 255 255 / 0.1);
   border-color: var(--hq-white);
@@ -307,11 +319,16 @@
 .hm-hero__plan {
   position: absolute;
   z-index: -1;
-  top: calc(var(--nav-height) + var(--space-xl));
+  top: calc(var(--nav-height) + var(--space-2xl));
   right: 0;
-  width: min(54vw, 800px);
+  width: min(60vw, 940px);
   height: auto;
-  color: var(--hq-white);
+  /* 虛構 3D 剖視線稿（白線黑底）：screen 混色後黑底消失，只留線條 */
+  mix-blend-mode: screen;
+  opacity: 0.88;
+  /* 左側淡出，避免線條壓在標題後面 */
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgb(0 0 0 / 0.25) 22%, #000 48%);
+  mask-image: linear-gradient(90deg, transparent 0%, rgb(0 0 0 / 0.25) 22%, #000 48%);
   pointer-events: none;
 }
 .hm-hero__inner {
@@ -462,13 +479,16 @@
     transform: translateY(24px);
     transition: none;
   }
-  .hm-plan-draw {
-    stroke-dasharray: var(--len, 1000);
-    stroke-dashoffset: 0;
-    transition: stroke-dashoffset 1800ms var(--ease-out);
+  /* loader 結束後，3D 線稿由左往右「出圖」 */
+  .hm-hero__plan {
+    clip-path: inset(0 0 0 0);
+    transition:
+      clip-path 1600ms var(--ease-out) 150ms,
+      transform 1800ms var(--ease-out) 150ms;
   }
-  .hm-loading .hm-plan-draw {
-    stroke-dashoffset: var(--len, 1000);
+  .hm-loading .hm-hero__plan {
+    clip-path: inset(0 100% 0 0);
+    transform: scale(1.03);
     transition: none;
   }
 }
@@ -948,7 +968,7 @@
   aspect-ratio: 4 / 3;
   border-radius: var(--radius-sm);
   background: var(--color-bg-subtle);
-  color: var(--color-primary);
+  object-fit: contain;
 }
 .hm-work__item h3 {
   margin: 0;
