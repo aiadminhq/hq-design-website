@@ -60,6 +60,25 @@
       ]
     },
     {
+      "@type": "Organization",
+      "@id": "https://www.hqdesign.tw/#organization",
+      "name": "惠強室內裝修股份有限公司",
+      "url": "https://www.hqdesign.tw/",
+      "logo": "https://www.hqdesign.tw/assets/images/logo/IMG_6412.PNG",
+      "foundingDate": "1995",
+      "taxID": "89956251",
+      "telephone": "+886-2-2557-3003",
+      "email": "info@hqdesign.tw",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "經貿二路135號9樓",
+        "addressLocality": "南港區",
+        "addressRegion": "台北市",
+        "postalCode": "115",
+        "addressCountry": "TW"
+      }
+    },
+    {
       "@type": "Service",
       "@id": "https://www.hqdesign.tw/zh/office-reinstatement.html#service",
       "name": "辦公室拆除與退租復原工程",
@@ -151,6 +170,16 @@
         },
         {
           "@type": "Question",
+          "name": "5A 大樓退租需要向管委會申請什麼？",
+          "acceptedAnswer": { "@type": "Answer", "text": "開工前，我們向管委會或物業送出申請書、圖說、室內裝修施工許可證、施工計畫書、保證金或切結書，以及清潔費，並提供施工計畫書與保險證明。" }
+        },
+        {
+          "@type": "Question",
+          "name": "5A 大樓的機電消防由誰施作？",
+          "acceptedAnswer": { "@type": "Answer", "text": "若大樓指定自己的機電或消防廠商，我們與該廠商配合。若沒有指定，由我們自己的班組施作。" }
+        },
+        {
+          "@type": "Question",
           "name": "如何順利拿回押金？",
           "acceptedAnswer": { "@type": "Answer", "text": "押金退不退由房東決定，我們不能保證一定拿得回來。能做的是把過程留成可以對照的紀錄：施工前先和房東確認原狀回復範圍，施工中保留前後照片，拆除清運留下證明，點交時雙方一起逐項檢查並簽署點交確認書。有落差就在現場處理，而不是人離開之後才發現。這些文件是你和房東溝通的依據，最後仍以租約與房東的認定為準。" }
         }
@@ -239,13 +268,13 @@
       </div>
 
       <div class="rs-compare-wrap">
-        <!-- 前後對照圖：中興保全南港總部 7 樓。before＝完工照，after＝復原後（1600×1067 WebP）。來源記錄見 docs/specs/2026-11-20-reinstatement-service-spec.md §6.1 -->
+        <!-- 前後對照圖：南港 5A 商辦。before＝完工照，after＝復原後（1600×1067 WebP）。來源記錄見 docs/specs/2026-11-20-reinstatement-service-spec.md §6.1 -->
 
         <!-- 第 01 組：接待櫃檯 -->
         <div class="rs-compare-panel" data-rs-panel="01">
           <figure class="rs-compare" data-rs-compare>
-            <img class="rs-compare-after" src="../assets/images/reinstatement/secom7f-01-after.webp" width="1600" height="1067" alt="復原後：隔間與裝修已拆除，還原成空的辦公室樓層">
-            <img class="rs-compare-before" src="../assets/images/reinstatement/secom7f-01-before.webp" width="1600" height="1067" alt="完工時：中興保全南港總部 7 樓的接待櫃檯" fetchpriority="high">
+            <img class="rs-compare-after" src="../assets/images/reinstatement/secom7f-01-after.webp" width="1600" height="1067" alt="復原後：南港 5A 商辦，隔間與裝修已拆除，還原成空的辦公室樓層">
+            <img class="rs-compare-before" src="../assets/images/reinstatement/secom7f-01-before.webp" width="1600" height="1067" alt="完工時：南港 5A 商辦的接待櫃檯" fetchpriority="high">
             <span class="rs-compare-tag rs-compare-tag--before" aria-hidden="true">完工時</span>
             <span class="rs-compare-tag rs-compare-tag--after" aria-hidden="true">復原後</span>
             <input class="rs-compare-range" type="range" min="0" max="100" step="2" value="50" aria-label="接待櫃檯前後對照。用左右鍵調整「完工時」與「復原後」的顯示比例">
@@ -256,8 +285,8 @@
         <!-- 第 02 組：大會議室 -->
         <div class="rs-compare-panel" data-rs-panel="02">
           <figure class="rs-compare" data-rs-compare>
-            <img class="rs-compare-after" src="../assets/images/reinstatement/secom7f-02-after.webp" width="1600" height="1067" alt="復原後：會議室隔間與設備已拆除，牆面完成補土" loading="lazy" decoding="async">
-            <img class="rs-compare-before" src="../assets/images/reinstatement/secom7f-02-before.webp" width="1600" height="1067" alt="完工時：中興保全南港總部 7 樓的大會議室" loading="lazy" decoding="async">
+            <img class="rs-compare-after" src="../assets/images/reinstatement/secom7f-02-after.webp" width="1600" height="1067" alt="復原後：南港 5A 商辦，會議室隔間與設備已拆除，牆面完成補土" loading="lazy" decoding="async">
+            <img class="rs-compare-before" src="../assets/images/reinstatement/secom7f-02-before.webp" width="1600" height="1067" alt="完工時：南港 5A 商辦的大會議室" loading="lazy" decoding="async">
             <span class="rs-compare-tag rs-compare-tag--before" aria-hidden="true">完工時</span>
             <span class="rs-compare-tag rs-compare-tag--after" aria-hidden="true">復原後</span>
             <input class="rs-compare-range" type="range" min="0" max="100" step="2" value="50" aria-label="大會議室前後對照。用左右鍵調整「完工時」與「復原後」的顯示比例">
@@ -268,8 +297,8 @@
         <!-- 第 03 組：窗邊休憩區 -->
         <div class="rs-compare-panel" data-rs-panel="03">
           <figure class="rs-compare" data-rs-compare>
-            <img class="rs-compare-after" src="../assets/images/reinstatement/secom7f-03-after.webp" width="1600" height="1067" alt="復原後：窗邊的家具與櫃體已拆除清空" loading="lazy" decoding="async">
-            <img class="rs-compare-before" src="../assets/images/reinstatement/secom7f-03-before.webp" width="1600" height="1067" alt="完工時：中興保全南港總部 7 樓的窗邊休憩區" loading="lazy" decoding="async">
+            <img class="rs-compare-after" src="../assets/images/reinstatement/secom7f-03-after.webp" width="1600" height="1067" alt="復原後：南港 5A 商辦，窗邊的家具與櫃體已拆除清空" loading="lazy" decoding="async">
+            <img class="rs-compare-before" src="../assets/images/reinstatement/secom7f-03-before.webp" width="1600" height="1067" alt="完工時：南港 5A 商辦的窗邊休憩區" loading="lazy" decoding="async">
             <span class="rs-compare-tag rs-compare-tag--before" aria-hidden="true">完工時</span>
             <span class="rs-compare-tag rs-compare-tag--after" aria-hidden="true">復原後</span>
             <input class="rs-compare-range" type="range" min="0" max="100" step="2" value="50" aria-label="窗邊休憩區前後對照。用左右鍵調整「完工時」與「復原後」的顯示比例">
@@ -280,8 +309,8 @@
         <!-- 第 04 組：玻璃會議室 -->
         <div class="rs-compare-panel" data-rs-panel="04">
           <figure class="rs-compare" data-rs-compare>
-            <img class="rs-compare-after" src="../assets/images/reinstatement/secom7f-04-after.webp" width="1600" height="1067" alt="復原後：玻璃隔間已拆除，空間恢復成一整片" loading="lazy" decoding="async">
-            <img class="rs-compare-before" src="../assets/images/reinstatement/secom7f-04-before.webp" width="1600" height="1067" alt="完工時：中興保全南港總部 7 樓的玻璃會議室" loading="lazy" decoding="async">
+            <img class="rs-compare-after" src="../assets/images/reinstatement/secom7f-04-after.webp" width="1600" height="1067" alt="復原後：南港 5A 商辦，玻璃隔間已拆除，空間恢復成一整片" loading="lazy" decoding="async">
+            <img class="rs-compare-before" src="../assets/images/reinstatement/secom7f-04-before.webp" width="1600" height="1067" alt="完工時：南港 5A 商辦的玻璃會議室" loading="lazy" decoding="async">
             <span class="rs-compare-tag rs-compare-tag--before" aria-hidden="true">完工時</span>
             <span class="rs-compare-tag rs-compare-tag--after" aria-hidden="true">復原後</span>
             <input class="rs-compare-range" type="range" min="0" max="100" step="2" value="50" aria-label="玻璃會議室前後對照。用左右鍵調整「完工時」與「復原後」的顯示比例">
@@ -295,9 +324,19 @@
           <button type="button" class="rs-scene-btn" data-rs-scene="03" aria-pressed="false">窗邊休憩區</button>
           <button type="button" class="rs-scene-btn" data-rs-scene="04" aria-pressed="false">玻璃會議室</button>
         </div>
-        <p class="rs-compare-caption">實際案例：中興保全南港總部 7 樓。左右拖曳中間的把手，比較完工時與復原後。</p>
+        <p class="rs-compare-caption">實際案例：南港 5A 商辦。左右拖曳中間的把手，比較完工時與復原後。</p>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="rs-trust" aria-label="公司資料">
+  <div class="container">
+    <ul class="rs-trust-list">
+      <li>創立於 1995</li>
+      <li>統一編號 89956251</li>
+      <li>台北南港辦公室</li>
+    </ul>
   </div>
 </section>
 
@@ -307,22 +346,23 @@
     <div class="section-title">
       <span class="label">Before &amp; After</span>
       <h2 id="rs-pairs-title">復原前後對照</h2>
-      <p class="rs-lead">中興保全南港總部 7 樓實際案例：從使用中的辦公室，到可交還房東的狀態。</p>
+      <p class="rs-lead">南港 5A 商辦實際案例：從使用中的辦公室，到可交還房東的狀態。</p>
     </div>
 
     <div class="rs-pair-list">
       <article class="rs-pair">
         <h3 class="rs-pair-name"><span class="rs-pair-num">01</span>接待櫃檯</h3>
+        <p class="rs-pair-place">南港 5A 商辦</p>
         <div class="rs-pair-grid">
           <figure class="rs-pair-shot">
-            <a class="rs-pair-open" href="../assets/images/reinstatement/secom7f-01-before.webp" data-rs-zoom data-rs-zoom-label="接待櫃檯 · 復原前">
-              <img src="../assets/images/reinstatement/secom7f-01-before.webp" width="1600" height="1067" alt="復原前：中興保全南港總部 7 樓接待櫃檯，櫃檯與隔間仍在使用中" loading="lazy" decoding="async">
+            <a class="rs-pair-open" href="../assets/images/reinstatement/secom7f-01-before.webp" data-rs-zoom data-rs-zoom-label="南港 5A 商辦 · 接待櫃檯 · 復原前">
+              <img src="../assets/images/reinstatement/secom7f-01-before.webp" width="1600" height="1067" alt="復原前：南港 5A 商辦接待櫃檯，櫃檯與隔間仍在使用中" loading="lazy" decoding="async">
               <span class="rs-pair-label">復原前</span>
             </a>
           </figure>
           <figure class="rs-pair-shot rs-pair-shot--after">
-            <a class="rs-pair-open" href="../assets/images/reinstatement/secom7f-01-after.webp" data-rs-zoom data-rs-zoom-label="接待櫃檯 · 復原後">
-              <img src="../assets/images/reinstatement/secom7f-01-after.webp" width="1600" height="1067" alt="復原後：中興保全南港總部 7 樓接待櫃檯原址，隔間與裝修已拆除，還原成可交還房東的空辦公室" loading="lazy" decoding="async">
+            <a class="rs-pair-open" href="../assets/images/reinstatement/secom7f-01-after.webp" data-rs-zoom data-rs-zoom-label="南港 5A 商辦 · 接待櫃檯 · 復原後">
+              <img src="../assets/images/reinstatement/secom7f-01-after.webp" width="1600" height="1067" alt="復原後：南港 5A 商辦接待櫃檯原址，隔間與裝修已拆除，還原成可交還房東的空辦公室" loading="lazy" decoding="async">
               <span class="rs-pair-label">復原後</span>
             </a>
           </figure>
@@ -331,16 +371,17 @@
 
       <article class="rs-pair">
         <h3 class="rs-pair-name"><span class="rs-pair-num">02</span>大會議室</h3>
+        <p class="rs-pair-place">南港 5A 商辦</p>
         <div class="rs-pair-grid">
           <figure class="rs-pair-shot">
-            <a class="rs-pair-open" href="../assets/images/reinstatement/secom7f-02-before.webp" data-rs-zoom data-rs-zoom-label="大會議室 · 復原前">
-              <img src="../assets/images/reinstatement/secom7f-02-before.webp" width="1600" height="1067" alt="復原前：中興保全南港總部 7 樓大會議室，會議桌與隔間仍在" loading="lazy" decoding="async">
+            <a class="rs-pair-open" href="../assets/images/reinstatement/secom7f-02-before.webp" data-rs-zoom data-rs-zoom-label="南港 5A 商辦 · 大會議室 · 復原前">
+              <img src="../assets/images/reinstatement/secom7f-02-before.webp" width="1600" height="1067" alt="復原前：南港 5A 商辦大會議室，會議桌與隔間仍在" loading="lazy" decoding="async">
               <span class="rs-pair-label">復原前</span>
             </a>
           </figure>
           <figure class="rs-pair-shot rs-pair-shot--after">
-            <a class="rs-pair-open" href="../assets/images/reinstatement/secom7f-02-after.webp" data-rs-zoom data-rs-zoom-label="大會議室 · 復原後">
-              <img src="../assets/images/reinstatement/secom7f-02-after.webp" width="1600" height="1067" alt="復原後：中興保全南港總部 7 樓大會議室原址，隔間與設備已拆除，牆面完成補土" loading="lazy" decoding="async">
+            <a class="rs-pair-open" href="../assets/images/reinstatement/secom7f-02-after.webp" data-rs-zoom data-rs-zoom-label="南港 5A 商辦 · 大會議室 · 復原後">
+              <img src="../assets/images/reinstatement/secom7f-02-after.webp" width="1600" height="1067" alt="復原後：南港 5A 商辦大會議室原址，隔間與設備已拆除，牆面完成補土" loading="lazy" decoding="async">
               <span class="rs-pair-label">復原後</span>
             </a>
           </figure>
@@ -349,16 +390,17 @@
 
       <article class="rs-pair">
         <h3 class="rs-pair-name"><span class="rs-pair-num">03</span>窗邊休憩區</h3>
+        <p class="rs-pair-place">南港 5A 商辦</p>
         <div class="rs-pair-grid">
           <figure class="rs-pair-shot">
-            <a class="rs-pair-open" href="../assets/images/reinstatement/secom7f-03-before.webp" data-rs-zoom data-rs-zoom-label="窗邊休憩區 · 復原前">
-              <img src="../assets/images/reinstatement/secom7f-03-before.webp" width="1600" height="1067" alt="復原前：中興保全南港總部 7 樓窗邊休憩區，座椅與櫃體仍在窗邊" loading="lazy" decoding="async">
+            <a class="rs-pair-open" href="../assets/images/reinstatement/secom7f-03-before.webp" data-rs-zoom data-rs-zoom-label="南港 5A 商辦 · 窗邊休憩區 · 復原前">
+              <img src="../assets/images/reinstatement/secom7f-03-before.webp" width="1600" height="1067" alt="復原前：南港 5A 商辦窗邊休憩區，座椅與櫃體仍在窗邊" loading="lazy" decoding="async">
               <span class="rs-pair-label">復原前</span>
             </a>
           </figure>
           <figure class="rs-pair-shot rs-pair-shot--after">
-            <a class="rs-pair-open" href="../assets/images/reinstatement/secom7f-03-after.webp" data-rs-zoom data-rs-zoom-label="窗邊休憩區 · 復原後">
-              <img src="../assets/images/reinstatement/secom7f-03-after.webp" width="1600" height="1067" alt="復原後：中興保全南港總部 7 樓窗邊休憩區原址，家具與櫃體已拆除清空" loading="lazy" decoding="async">
+            <a class="rs-pair-open" href="../assets/images/reinstatement/secom7f-03-after.webp" data-rs-zoom data-rs-zoom-label="南港 5A 商辦 · 窗邊休憩區 · 復原後">
+              <img src="../assets/images/reinstatement/secom7f-03-after.webp" width="1600" height="1067" alt="復原後：南港 5A 商辦窗邊休憩區原址，家具與櫃體已拆除清空" loading="lazy" decoding="async">
               <span class="rs-pair-label">復原後</span>
             </a>
           </figure>
@@ -376,6 +418,49 @@
     </div>
     <img class="rs-zoom-img" alt="" width="1600" height="1067">
   </dialog>
+</section>
+
+<!-- 5A 商辦：開工到點交。只寫工務確認過的六項。 -->
+<section class="section" id="rs-grade-a" aria-labelledby="rs-grade-a-title">
+  <div class="container">
+    <div class="section-title">
+      <span class="label">Grade-A Buildings</span>
+      <h2 id="rs-grade-a-title">5A 商辦大樓的退租復原，我們怎麼做</h2>
+      <p class="rs-lead">5A 商辦大樓退租復原時，我們從送件做到點交。下面六項是實際會做的事。</p>
+    </div>
+    <div class="rs-cards rs-cards--3">
+      <div class="rs-card">
+        <div class="rs-card-top"><svg class="rs-ico rs-card-ico" aria-hidden="true" focusable="false"><use href="#rs-i-checklist"/></svg><span class="rs-card-num">01</span></div>
+        <h3>開工前向管委會或物業送件</h3>
+        <p>開工前送出申請。文件包含申請書、圖說、室內裝修施工許可證、施工計畫書、保證金或切結書，以及清潔費。</p>
+      </div>
+      <div class="rs-card">
+        <div class="rs-card-top"><svg class="rs-ico rs-card-ico" aria-hidden="true" focusable="false"><use href="#rs-i-drawing"/></svg><span class="rs-card-num">02</span></div>
+        <h3>施工計畫書與保險證明</h3>
+        <p>我們提供施工計畫書，並附上保險證明。</p>
+      </div>
+      <div class="rs-card">
+        <div class="rs-card-top"><svg class="rs-ico rs-card-ico" aria-hidden="true" focusable="false"><use href="#rs-i-build"/></svg><span class="rs-card-num">03</span></div>
+        <h3>機電與消防</h3>
+        <p>若大樓指定自己的機電或消防廠商，我們與該廠商配合。若沒有指定，由我們自己的班組施作。</p>
+      </div>
+      <div class="rs-card">
+        <div class="rs-card-top"><svg class="rs-ico rs-card-ico" aria-hidden="true" focusable="false"><use href="#rs-i-night"/></svg><span class="rs-card-num">04</span></div>
+        <h3>夜間或假日、貨梯與公共區域</h3>
+        <p>我們安排夜間或假日施工、貨梯預約，以及公共區域的保護。</p>
+      </div>
+      <div class="rs-card">
+        <div class="rs-card-top"><svg class="rs-ico rs-card-ico" aria-hidden="true" focusable="false"><use href="#rs-i-handover"/></svg><span class="rs-card-num">05</span></div>
+        <h3>回復當初交屋標準</h3>
+        <p>需要做退租復原時，我們把現場回復到房東當初的交屋標準。</p>
+      </div>
+      <div class="rs-card">
+        <div class="rs-card-top"><svg class="rs-ico rs-card-ico" aria-hidden="true" focusable="false"><use href="#rs-i-camera"/></svg><span class="rs-card-num">06</span></div>
+        <h3>點交時的紀錄</h3>
+        <p>點交時我們提供照片、書面說明和清冊。</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- ② 痛點 -->
@@ -558,6 +643,7 @@
     <p class="rs-handover-actions">
       <button type="button" class="btn btn-outline-dark" data-rs-print-checklist>列印這份清單</button>
     </p>
+    <p class="rs-guide-note">想先了解點交通常怎麼進行，可以讀<a href="guides/office-move-out-handover.html">辦公室退租點交流程：從租約檢查到押金退還</a>。那是一般說明，實際範圍仍以租約、房東與這棟大樓的規定為準。</p>
   </div>
 </section>
 
@@ -597,6 +683,14 @@
       <details>
         <summary><svg class="rs-ico" aria-hidden="true" focusable="false"><use href="#rs-i-building"/></svg><span>管委會／大樓有哪些規定？</span></summary>
         <p>每棟大樓不一樣，沒有一份適用所有台北辦公室的清單。常見會規範可以施工的時段、是否允許夜間或假日、噪音、貨梯與卸貨、公共區域與樓層的保護、廢棄物怎麼運出，以及進場前要不要向管委會或物業報備。這些多半寫在大樓的管理規約或施工須知裡。我們會在現勘階段向管理單位確認，再照規定排工，避免做到一半才被要求停工。</p>
+      </details>
+      <details>
+        <summary><svg class="rs-ico" aria-hidden="true" focusable="false"><use href="#rs-i-checklist"/></svg><span>5A 大樓退租需要向管委會申請什麼？</span></summary>
+        <p>開工前，我們向管委會或物業送出申請書、圖說、室內裝修施工許可證、施工計畫書、保證金或切結書，以及清潔費，並提供施工計畫書與保險證明。</p>
+      </details>
+      <details>
+        <summary><svg class="rs-ico" aria-hidden="true" focusable="false"><use href="#rs-i-build"/></svg><span>5A 大樓的機電消防由誰施作？</span></summary>
+        <p>若大樓指定自己的機電或消防廠商，我們與該廠商配合。若沒有指定，由我們自己的班組施作。</p>
       </details>
       <details>
         <summary><svg class="rs-ico" aria-hidden="true" focusable="false"><use href="#rs-i-deposit"/></svg><span>如何順利拿回押金？</span></summary>
@@ -729,6 +823,7 @@
   </div>
 </footer>
 
+<a class="rs-call" href="tel:+886225573003">撥打 02-2557-3003</a>
 <script src="../assets/js/main.js"></script>
 <link rel="stylesheet" href="../assets/css/reinstatement-lightbox.css">
 <script src="../assets/js/reinstatement-compare.js"></script>

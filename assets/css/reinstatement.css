@@ -1513,7 +1513,106 @@
     font-size: 14px;
   }
 }
+/* 案例地點：並排圖在沒有 JS 時看得到；有 JS 時由相簿標籤與燈箱標題帶出。 */
+.rs-pair-place {
+  margin: -6px 0 14px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--mid);
+}
+
+/* 英雄區下方的公司事實，不改頁尾。 */
+.rs-trust {
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+  padding: 16px 0;
+}
+.rs-trust-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.rs-trust-list li {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--dark);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
+
+.rs-guide-note {
+  max-width: 760px;
+  margin: 18px auto 0;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--mid);
+}
+.rs-guide-note a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* 只在手機顯示。桌機 display:none，避免蓋住表單或燈箱。 */
+.rs-call {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .rs-call {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 90;
+    right: 16px;
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    min-height: 48px;
+    max-width: calc(100vw - 32px);
+    padding: 12px 18px;
+    border-radius: 999px;
+    background: var(--brand);
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+    box-shadow: 0 8px 24px rgba(16, 25, 36, 0.28);
+  }
+  .rs-call:hover {
+    background: var(--brand-dark);
+    color: var(--white);
+  }
+  .rs-page .rs-call:focus-visible {
+    outline: 3px solid var(--white);
+    outline-offset: 3px;
+  }
+  /* 燈箱、手機選單，或會蓋到場景切換／列印鈕時先收起。仍佔位以便量測。 */
+  .rs-call.is-blocked,
+  .rs-page:has(dialog[open]) .rs-call,
+  .rs-page:has(.nav.nav-mobile-open) .rs-call {
+    visibility: hidden;
+    pointer-events: none;
+  }
+  body.rs-page {
+    padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+  }
+}
+
 @media print {
+  .rs-call,
+  .rs-guide-note,
   .rs-handover-actions {
     display: none !important;
   }

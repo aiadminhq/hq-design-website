@@ -126,12 +126,14 @@
       var before = shot(shots[0]);
       var key = (before.src.split("/").pop() || "").replace(/-(before|after)\.\w+$/, "");
       var video = RS_VIDEOS[key] ? assetBase + RS_VIDEOS[key] : "";
+      var placeEl = pair.querySelector(".rs-pair-place");
       return {
         el: pair,
         num: num ? num.textContent.trim() : "",
         name: name
           ? name.textContent.replace(num ? num.textContent : "", "").trim()
           : "",
+        place: placeEl ? placeEl.textContent.trim() : "",
         before: before,
         after: shot(shots[1]),
         video: video,
@@ -216,7 +218,7 @@
     nextBtn.innerHTML = '<span aria-hidden="true">&#8250;</span>';
     var dots = el("div", "rs-lb-dots", { role: "group", "aria-label": t.areas });
     var dotBtns = pairs.map(function (p, i) {
-      var d = el("button", "rs-lb-dot", { type: "button", "aria-label": t.go + " " + p.num + " " + p.name });
+      var d = el("button", "rs-lb-dot", { type: "button", "aria-label": t.go + " " + p.num + " " + p.name + (p.place ? " " + p.place : "") });
       d.addEventListener("click", function () {
         show(i);
       });
@@ -293,7 +295,7 @@
       tagBefore.textContent = p.before.label;
       tagAfter.textContent = p.after.label;
       title.textContent =
-        p.num + " / " + String(pairs.length).padStart(2, "0") + "　" + p.name;
+        p.num + " / " + String(pairs.length).padStart(2, "0") + "　" + p.name + (p.place ? " · " + p.place : "");
       range.setAttribute("aria-label", p.name + (isEn ? ", before and after" : "，前後對照"));
       setRange(50);
       loadVideo(p);
@@ -387,7 +389,7 @@
         var card = el("button", "rs-eg-card", {
           type: "button",
           "aria-expanded": "false",
-          "aria-label": p.num + " " + p.name + " · " + (p.video ? t.play : t.open),
+          "aria-label": p.num + " " + p.name + (p.place ? "，" + p.place : "") + " · " + (p.video ? t.play : t.open),
         });
         var media = el("span", "rs-eg-media", { "aria-hidden": "true" });
         var imgB = el("img", "rs-eg-img rs-eg-img--before", {
@@ -407,6 +409,11 @@
         tagState.textContent = p.before.label + " → " + p.after.label;
         tags.appendChild(tagNum);
         tags.appendChild(tagState);
+        if (p.place) {
+          var tagPlace = el("span", "rs-eg-tag");
+          tagPlace.textContent = p.place;
+          tags.appendChild(tagPlace);
+        }
         var name = el("span", "rs-eg-name");
         name.textContent = p.name;
         var cta = el("span", "rs-eg-cta");
@@ -470,6 +477,44 @@
       root.style.overflow = zoomDialog.open ? "hidden" : "";
       if (!zoomDialog.open) video.pause();
     }).observe(zoomDialog, { attributes: true, attributeFilter: ["open"] });
+  }
+
+  // 手機撥打鈕不要蓋住場景切換、列印清單，或對話框裡的按鈕。
+  var callBtn = document.querySelector(".rs-call");
+  if (callBtn) {
+    var callQuery = window.matchMedia("(max-width: 768px)");
+    function rectsOverlap(a, b) {
+      return (
+        a.width > 1 &&
+        b.width > 1 &&
+        a.height > 1 &&
+        b.height > 1 &&
+        a.left < b.right &&
+        a.right > b.left &&
+        a.top < b.bottom &&
+        a.bottom > b.top
+      );
+    }
+    function syncCall() {
+      if (!callQuery.matches) {
+        callBtn.classList.remove("is-blocked");
+        return;
+      }
+      var mine = callBtn.getBoundingClientRect();
+      var blockers = document.querySelectorAll(".rs-scenes, .rs-handover-actions, form");
+      var hit = false;
+      for (var i = 0; i < blockers.length; i++) {
+        if (rectsOverlap(mine, blockers[i].getBoundingClientRect())) {
+          hit = true;
+          break;
+        }
+      }
+      callBtn.classList.toggle("is-blocked", hit);
+    }
+    window.addEventListener("scroll", syncCall, { passive: true });
+    window.addEventListener("resize", syncCall);
+    if (callQuery.addEventListener) callQuery.addEventListener("change", syncCall);
+    syncCall();
   }
 
   // 手機選單：讓 hamburger 也能用鍵盤操作（main.js 只綁了 click）
