@@ -75,54 +75,43 @@
 }
   </script>
   <link rel="stylesheet" href="assets/css/style.css">
-  <style>
-    .hero--int { min-height: 88vh; display: block; padding-top: 0; }
-    .hero--int .hero-bg { background-image: url('assets/images/projects/secom-nangang-complex/photo-01.jpg'); background-position: center 40%; opacity: 0.75; }
-    .hero--int::after { background: linear-gradient(180deg, rgba(20,35,50,0.78) 0%, rgba(20,35,50,0.68) 48%, rgba(20,35,50,0.84) 100%); }
-    .hero--int .hero-content { padding-top: 168px; padding-bottom: 56px; }
-    .hero--int .hero-headline { font-size: clamp(48px, 7vw, 92px); letter-spacing: -2px; margin-bottom: 24px; }
-    .hero--int .hero-sub-en { font-size: 18px; max-width: 640px; margin-bottom: 40px; color: rgba(255,255,255,0.78); line-height: 1.5; }
-    .hero--int .hero-actions { margin-bottom: 56px; }
-    .hero--int .btn-primary { background: var(--accent); border-color: var(--accent); padding: 16px 32px; font-size: 15px; }
-    .hero--int .btn-primary:hover { background: var(--accent-dark); border-color: var(--accent-dark); }
-    .hero--int .hero-stats { gap: 56px; padding-top: 36px; border-top: 1px solid rgba(255,255,255,0.14); }
-    .hero--int .stat-num { font-size: 48px; display: inline-flex; align-items: baseline; gap: 2px; }
-    .hero--int .stat-num .stat-unit { font-size: 32px; color: var(--accent); font-weight: 700; }
-    .hero--int .stat-label-en { font-size: 10px; letter-spacing: 1.2px; text-transform: uppercase; }
-    .logos-bar--int { background: var(--white); border-bottom: 1px solid var(--border); padding: 36px 0; }
-    .logos-bar--int .logos-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px 0; }
-    .logos-bar--int .logo-item { flex: 0 0 20%; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px; padding: 4px 0; opacity: 0.88; }
-    .logos-bar--int .logo-item:hover { opacity: 1; }
-    .logos-bar--int .logo-item .lo-en { font-family: var(--font-en); font-size: 12px; font-weight: 700; letter-spacing: 0.6px; color: var(--brand); line-height: 1.1; text-transform: uppercase; }
-    .logos-bar--int .logos-bar-label { font-family: var(--font-en); font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--light); text-align: center; margin-bottom: 22px; font-weight: 600; }
-    .taiwan-wedge { background: var(--brand); color: var(--white); padding: 88px 0; position: relative; overflow: hidden; }
-    .taiwan-wedge::before { content: ''; position: absolute; top: 0; right: 0; bottom: 0; width: 45%; background-image: url('assets/images/projects/kimpton/photo-01.jpg'); background-size: cover; background-position: center; opacity: 0.20; pointer-events: none; }
-    .taiwan-wedge::after { content: ''; position: absolute; top: 0; bottom: 0; right: 35%; width: 30%; background: linear-gradient(90deg, var(--brand) 0%, transparent 100%); pointer-events: none; }
-    .taiwan-wedge .container { position: relative; z-index: 1; }
-    .taiwan-wedge .label { color: var(--accent); margin-bottom: 14px; }
-    .taiwan-wedge h2 { font-family: var(--font-en); font-size: clamp(32px, 4.2vw, 48px); letter-spacing: -1.2px; max-width: 720px; margin-bottom: 20px; line-height: 1.1; }
-    .taiwan-wedge .lead { max-width: 640px; font-size: 17px; color: rgba(255,255,255,0.72); line-height: 1.65; margin-bottom: 32px; }
-    .taiwan-wedge .checks { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 14px 28px; max-width: 720px; margin-bottom: 36px; }
-    .taiwan-wedge .check { display: flex; gap: 12px; align-items: flex-start; font-family: var(--font-en); font-size: 14px; color: rgba(255,255,255,0.82); }
-    .taiwan-wedge .check .dot { width: 6px; height: 6px; background: var(--accent); border-radius: 50%; margin-top: 8px; flex-shrink: 0; }
-    .scroll-cue { position: absolute; bottom: 28px; left: 50%; transform: translateX(-50%); font-family: var(--font-en); font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.45); z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 8px; }
-    .scroll-cue .line { width: 1px; height: 36px; background: linear-gradient(180deg, rgba(255,255,255,0.40), transparent); }
-    .project-name { display: flex; flex-direction: column; gap: 2px; line-height: 1.25; margin-bottom: 6px; }
-    .project-name .name-en { font-family: var(--font-en); font-size: 18px; font-weight: 700; color: var(--white); }
-    .project-name .name-zh-pn { font-family: var(--font-zh); font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.65); }
-    .project-name .name-zh { font-family: var(--font-zh); font-size: 18px; font-weight: 700; color: var(--white); }
-    @media (max-width: 768px) {
-      .hero--int .hero-content { padding-top: 110px; }
-      .taiwan-wedge::before, .taiwan-wedge::after { display: none; }
-      .taiwan-wedge .checks { grid-template-columns: 1fr; }
-      .hero--int .hero-stats { gap: 28px; }
-    }
-  </style>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/home.css">
+  <!-- Loader 旗標：未開啟「減少動態」且本 session 首次才播放；7 秒保險逾時。詳見 docs/redesign/motion-study.md -->
+  <script>(function(){var d=document.documentElement;try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&sessionStorage.getItem('hqLoader')!=='1'){d.classList.add('hm-loading');setTimeout(function(){d.classList.remove('hm-loading')},7000)}}catch(e){}})();</script>
 </head>
-<body>
+<body class="ds-v2 hm-page">
 
+<div class="hm-loader" id="hm-loader" data-theme="dark" role="dialog" aria-modal="true" aria-label="HQ Design intro" data-step="0">
+  <div class="hm-loader__window" aria-hidden="true">
+<svg viewBox="0 0 960 600" preserveAspectRatio="xMidYMid slice" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true" focusable="false">
+  <rect x="120" y="80" width="720" height="440"/><rect x="424" y="204" width="112" height="192"/>
+  <path d="M120 262 H424 M536 300 H840 M300 80 V262 M660 300 V520 M120 400 H300"/>
+  <rect x="540" y="304" width="296" height="212" fill="#ff4e2a" fill-opacity=".1" stroke="#ff4e2a" stroke-dasharray="6 5"/>
+</svg>
+
+  </div>
+  <div class="hm-loader__stage">
+    <ol class="hm-loader__list" lang="en">
+      <li class="hm-loader__row" aria-label="Brief"><span class="hm-loader__ini" aria-hidden="true">B</span><span class="hm-loader__rest" aria-hidden="true">rief</span><span class="hm-loader__num" aria-hidden="true">01</span></li>
+      <li class="hm-loader__row" aria-label="Design"><span class="hm-loader__ini" aria-hidden="true">D</span><span class="hm-loader__rest" aria-hidden="true">esign</span><span class="hm-loader__num" aria-hidden="true">02</span></li>
+      <li class="hm-loader__row" aria-label="Permit"><span class="hm-loader__ini" aria-hidden="true">P</span><span class="hm-loader__rest" aria-hidden="true">ermit</span><span class="hm-loader__num" aria-hidden="true">03</span></li>
+      <li class="hm-loader__row" aria-label="Build"><span class="hm-loader__ini" aria-hidden="true">B</span><span class="hm-loader__rest" aria-hidden="true">uild</span><span class="hm-loader__num" aria-hidden="true">04</span></li>
+    </ol>
+  </div>
+  <div class="hm-loader__meta">
+    <span>HQ Design · Taipei</span>
+    <button type="button" class="hm-loader__skip">Skip intro</button>
+  </div>
+  <div class="hm-loader__bar" aria-hidden="true"></div>
+</div>
+
+<div id="hm-page">
 <!-- NAVIGATION -->
-<nav class="nav" id="nav">
+<nav class="nav nav--over-photo" id="nav">
   <div class="nav-inner">
     <a class="nav-logo nav-logo--int" href="index.html">
       <img src="assets/images/logo/IMG_6412.PNG" alt="HQ Design Logo">
@@ -156,163 +145,77 @@
   </div>
 </nav>
 
-<section class="hero hero--int">
-  <div class="hero-bg"></div>
-  <div class="hero-content">
-    <div class="hero-label">Commercial Design &amp; Build · 31 Years · Taipei</div>
-    <h1 class="hero-headline">Zero Downtime.<br><span class="accent">Turnkey Delivery.</span></h1>
-    <p class="hero-sub-en en">Institutional-grade fit-out for foreign-HQ enterprises, hotel groups and listed corporations expanding into Taiwan. Design and build, in-house. One contract. One PM.</p>
-    <div class="hero-actions">
-      <a class="btn btn-primary" href="contact.html">Start Your Project →</a>
-      <a class="btn btn-outline" href="projects.html">View Portfolio</a>
-    </div>
-    <div class="hero-stats">
-      <div class="stat-item"><span class="stat-num en">31<span class="stat-unit">+</span></span><span class="stat-label-en en">Years in Operation</span></div>
-      <div class="stat-item"><span class="stat-num en">1,600<span class="stat-unit">+</span></span><span class="stat-label-en en">Commercial Projects</span></div>
-      <div class="stat-item"><span class="stat-num en">9<span class="stat-unit">+</span></span><span class="stat-label-en en">Listed clients</span></div>
-      <div class="stat-item"><span class="stat-num en">12<span class="stat-unit">M</span></span><span class="stat-label-en en">Post-Handover Warranty</span></div>
-    </div>
-  </div>
-  <div class="scroll-cue"><span>Scroll</span><span class="line"></span></div>
-</section>
+<main id="main">
+<section class="hm-hero" data-theme="dark" aria-labelledby="hm-hero-title">
+  <div class="hm-hero__grid" aria-hidden="true"></div>
+<svg class="hm-hero__plan" viewBox="0 0 960 600" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="square" aria-hidden="true" focusable="false">
+  <!-- 虛構辦公樓層平面（HQ 自繪線稿，非任何實際專案圖面） -->
+  <g opacity=".9">
+    <rect pathLength="1000" class="hm-plan-draw" x="120" y="80" width="720" height="440"/>
+    <rect pathLength="1000" class="hm-plan-draw" x="424" y="204" width="112" height="192"/>
+    <path pathLength="1000" class="hm-plan-draw" d="M424 204 L536 396 M536 204 L424 396" opacity=".5"/>
+    <path pathLength="1000" class="hm-plan-draw" d="M120 262 H424 M536 300 H840 M300 80 V262 M660 300 V520 M120 400 H300"/>
+    <path pathLength="1000" class="hm-plan-draw" d="M300 262 a44 44 0 0 0 -44 -44 M660 380 a40 40 0 0 1 40 40 M300 400 a40 40 0 0 1 -40 40" opacity=".6"/>
+  </g>
+  <!-- 開放區工位 -->
+  <defs><g id="hm-desk"><rect x="0" y="0" width="38" height="20"/><circle cx="19" cy="31" r="7"/></g></defs>
+  <g stroke-width="1" opacity=".55">
+    <use href="#hm-desk" x="150" y="430"/><use href="#hm-desk" x="200" y="430"/><use href="#hm-desk" x="250" y="430"/>
+    <use href="#hm-desk" x="150" y="290"/><use href="#hm-desk" x="200" y="290"/><use href="#hm-desk" x="250" y="290"/>
+    <use href="#hm-desk" x="330" y="110"/><use href="#hm-desk" x="380" y="110"/><use href="#hm-desk" x="560" y="110"/><use href="#hm-desk" x="610" y="110"/><use href="#hm-desk" x="660" y="110"/><use href="#hm-desk" x="710" y="110"/>
+  </g>
+  <!-- 施工分區（零停工：分區分階段） -->
+  <g data-in style="--i:4">
+    <rect x="540" y="304" width="296" height="212" fill="#ff4e2a" fill-opacity=".10" stroke="#ff4e2a" stroke-dasharray="6 5"/>
+    <rect x="564" y="476" width="148" height="24" fill="#ff4e2a" stroke="none"/>
+    <text x="574" y="493" fill="#101924" stroke="none" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12" letter-spacing="1.2">ZONE B · IN WORKS</text>
+  </g>
+  <!-- 尺寸線 -->
+  <g stroke-width="1" opacity=".7" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12" fill="currentColor">
+    <path d="M120 52 H840 M120 44 V60 M840 44 V60"/>
+    <text x="446" y="44" stroke="none" letter-spacing="1.2">24,000</text>
+    <path d="M92 80 V520 M84 80 H100 M84 520 H100"/>
+    <text transform="translate(76 312) rotate(-90)" stroke="none" letter-spacing="1.2">14,600</text>
+    <circle cx="120" cy="560" r="12" fill="none"/><text x="115" y="565" stroke="none">A</text>
+    <circle cx="480" cy="560" r="12" fill="none"/><text x="475" y="565" stroke="none">B</text>
+    <circle cx="840" cy="560" r="12" fill="none"/><text x="835" y="565" stroke="none">C</text>
+    <path d="M120 548 V536 M480 548 V536 M840 548 V536" opacity=".5"/>
+  </g>
+  <g data-in style="--i:6" stroke-width="1">
+    <path d="M700 220 L740 160 H822" stroke="#ff4e2a"/>
+    <circle cx="700" cy="220" r="4" fill="#ff4e2a" stroke="none"/>
+    <text x="746" y="152" fill="currentColor" stroke="none" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12" letter-spacing="1.2">OPEN DURING WORKS</text>
+  </g>
+</svg>
 
-<section class="section audience-doors" id="audience-doors">
-  <div class="container">
-    <div class="section-title">
-      <span class="label">Two ways in</span>
-      <h2>Who are you working with?</h2>
-      <p class="sub-en en">Same licensed Taiwan team. Two clear doors — pick the one that matches your role.</p>
+  <div class="hm-hero__inner">
+    <div class="hm-hero__top" data-in style="--i:0">
+      <span>Commercial Design &amp; Build · Taipei</span>
+      <span>Since 1995</span>
     </div>
-    <div class="door-grid">
-      <a class="door-card" href="services.html">
-        <span class="door-kicker en">For the client</span>
-        <h3>You need a space built</h3>
-        <p>You are the occupier or brand. You want design and build under one contract, one PM, and a finished commercial interior in Taipei.</p>
-        <span class="door-cta en">View services →</span>
-      </a>
-      <a class="door-card door-card--accent" href="local-partner-international-pm.html">
-        <span class="door-kicker en">For designers &amp; PMs abroad</span>
-        <h3>You need a licensed local partner</h3>
-        <p>You keep the design and the client. We file permits, run local compliance, procure, and supervise the site in Taiwan.</p>
-        <span class="door-cta en">Local Partner →</span>
-      </a>
-    </div>
-  </div>
-</section>
-
-<div class="logos-bar logos-bar--int">
-  <div class="container">
-    <p class="logos-bar-label">Trusted by</p>
-    <div class="logos-grid">
-      <div class="logo-item"><span class="lo-en">SECOM</span></div>
-      <div class="logo-item"><span class="lo-en">TransAsia Catering</span></div>
-      <div class="logo-item"><span class="lo-en">Kimpton Hotel</span></div>
-      <div class="logo-item"><span class="lo-en">Popeyes</span></div>
-      <div class="logo-item"><span class="lo-en">Soup Spoon</span></div>
-      <div class="logo-item"><span class="lo-en">Cheogajip</span></div>
-      <div class="logo-item"><span class="lo-en">Goldsun Group</span></div>
-      <div class="logo-item"><span class="lo-en">Wellpool</span></div>
-    </div>
-  </div>
-</div>
-
-<section class="taiwan-wedge">
-  <div class="container">
-    <span class="label">For Foreign-HQ Enterprises</span>
-    <h2>Opening your first Taipei office, hotel or flagship?</h2>
-    <p class="lead">We've delivered Taiwan launches for Kimpton (US), Popeyes (US), Soup Spoon (Singapore) and Cheogajip (Korea). We handle local permitting, vendor management, building-management coordination and procurement documentation in English — so your HQ can sign off without a translator.</p>
-    <div class="checks">
-      <div class="check"><span class="dot"></span><span>English specification notes, drawings &amp; reporting</span></div>
-      <div class="check"><span class="dot"></span><span>Local permitting &amp; building management liaison</span></div>
-      <div class="check"><span class="dot"></span><span>Procurement-grade documentation (audit-ready)</span></div>
-<div class="check"><span class="dot"></span><span>Single PM from briefing to final handover</span></div>
-    </div>
-    <a class="btn btn-primary" href="contact.html" style="background:var(--accent); border-color:var(--accent);">Talk to a Project Manager →</a>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <div class="section-title">
-      <span class="label">Why HQ</span>
-      <h2>Three Structural Advantages</h2>
-      <p class="sub-en en">What sets HQ apart for institutional and corporate clients</p>
-    </div>
-    <div class="why-grid">
-      <div class="why-card"><div class="why-num">01</div><h3>Zero-Disruption Construction</h3><p>Phased, zone-by-zone construction preserving full business operations throughout. Institutional-grade noise, dust and access management. Weekly progress reports as standard.</p></div>
-      <div class="why-card"><div class="why-num">02</div><h3>Single Contract, Single Team</h3><p>Design and build by the same in-house team. One contract. One PM. One point of accountability — from briefing to final handover. Eliminates the #1 source of cost overruns in commercial fit-out.</p></div>
-      <div class="why-card"><div class="why-num">03</div><h3>Institutional-Grade Delivery</h3><p>31+ years, 1,600+ projects. Full procurement documentation package — audit-ready for listed-company and financial-institution compliance teams.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="section" style="background: var(--bg); padding-top: 80px; padding-bottom: 80px;">
-  <div class="container">
-    <div class="section-title">
-      <span class="label">Selected Work</span>
-      <h2>Featured Projects</h2>
-      <p class="sub-en en">Office · Hospitality · F&amp;B · Retail — fit-out across sectors</p>
-    </div>
-    <div class="projects-grid">
-      <div class="project-card large">
-        <img src="assets/images/projects/secom-nangang-complex/photo-01.jpg" alt="SECOM Nangang HQ">
-        <div class="project-card-overlay">
-          <h3 class="project-name"><span class="name-en">SECOM Nangang HQ</span><span class="name-zh-pn">中興保全南港總部</span></h3>
-          <span class="project-meta en">6,000 sqm · Nangang, Taipei · 2025</span>
-          <span class="project-type">Corporate Office</span>
+    <div class="hm-hero__main">
+      <div>
+        <h1 class="hm-hero__title" id="hm-hero-title" data-in style="--i:1">Zero Downtime. <em>Turnkey Delivery.</em></h1>
+        <p class="hm-hero__lead" data-in style="--i:2">Institutional-grade fit-out for foreign-HQ enterprises, hotel groups and listed corporations expanding into Taiwan. Design and build, in-house. One contract. One PM.</p>
+        <div class="hm-hero__cta" data-in style="--i:3">
+          <a class="hq-btn hq-btn--accent hq-btn--lg" href="contact.html">Start Your Project →</a>
+          <a class="hq-btn hq-btn--ghost hq-btn--lg" href="projects.html">View Portfolio</a>
         </div>
-        <a class="project-link" href="projects/secom-nangang-complex.html">View Case →</a>
       </div>
-      <div class="project-card">
-        <img src="assets/images/projects/polytron/render-01.jpg" alt="Brightron Technology">
-        <div class="project-card-overlay">
-          <h3 class="project-name"><span class="name-en">Brightron Technology</span><span class="name-zh-pn">保創科技</span></h3>
-          <span class="project-meta en">850 sqm · Nangang, Taipei · 2025</span>
-          <span class="project-type">Corporate Office</span>
-        </div>
-        <a class="project-link" href="projects/polytron.html">View Case →</a>
-      </div>
-      <div class="project-card">
-        <img src="assets/images/projects/aiontech/render-01.jpg" alt="AIONTECH">
-        <div class="project-card-overlay">
-          <h3 class="project-name"><span class="name-en">AIONTECH</span><span class="name-zh-pn">博訊科技</span></h3>
-          <span class="project-meta en">825 sqm · Nangang, Taipei · 2025</span>
-          <span class="project-type">Corporate Office</span>
-        </div>
-        <a class="project-link" href="projects/aiontech.html">View Case →</a>
-      </div>
-      <div class="project-card">
-        <img src="assets/images/projects/kimpton/photo-01.jpg" alt="Kimpton Da An Hotel">
-        <div class="project-card-overlay">
-          <h3 class="project-name"><span class="name-en">Kimpton Da An Hotel</span><span class="name-zh-pn">金普頓大安酒店</span></h3>
-          <span class="project-meta en">330 sqm · Da An, Taipei · 2022</span>
-          <span class="project-type">Hospitality</span>
-        </div>
-        <a class="project-link" href="projects/kimpton.html">View Case →</a>
-      </div>
+      <aside class="hm-glass" data-in style="--i:4" aria-label="HQ Design at a glance">
+        <p class="hm-glass__title">At a glance</p>
+        <dl class="hm-stats">
+          <div><dt>Years in operation</dt><dd>31<small>+</small></dd></div>
+          <div><dt>Commercial projects</dt><dd>1,600<small>+</small></dd></div>
+          <div><dt>Listed clients</dt><dd>9<small>+</small></dd></div>
+          <div><dt>Post-handover warranty</dt><dd>12<small>M</small></dd></div>
+        </dl>
+      </aside>
     </div>
-    <div style="text-align:center; margin-top: 48px;"><a class="btn btn-outline-dark" href="projects.html">View All 19 Projects →</a></div>
   </div>
 </section>
 
-<section class="section-sm">
-  <div class="container">
-    <div class="section-title center">
-      <span class="label">Services</span>
-      <h2>Integrated Services</h2>
-      <p class="sub-en en">Six named services — from design-and-build to permits you can buy on their own</p>
-    </div>
-    <div class="services-grid">
-      <div class="service-card"><div class="service-number en">01</div><h3>Design &amp; Build</h3><p>Design and construction by the same in-house team under one contract and one PM — from briefing through handover.</p></div>
-      <div class="service-card"><div class="service-number en">02</div><h3>Permits &amp; Compliance</h3><p>Interior-renovation permit filing, fire review, and completion inspection. Available standalone under your design lead.</p></div>
-      <div class="service-card"><div class="service-number en">03</div><h3>Construction Management</h3><p>Site supervision, programme control, quality and safety oversight for commercial fit-out in Taiwan.</p></div>
-      <div class="service-card"><div class="service-number en">04</div><h3>Public-Sector Tenders</h3><p>Documentation and packaging support for public-sector procurement tied to interior fit-out delivery.</p></div>
-      <div class="service-card"><div class="service-number en">05</div><h3>MEP Coordination</h3><p>Mechanical, electrical, and fire-protection coordination so systems meet code and stay buildable.</p></div>
-      <div class="service-card"><div class="service-number en">06</div><h3>Reinstatement &amp; Handback</h3><p>End-of-lease reinstatement and structured handback for a clear, compliant close-out.</p><a class="service-card-link" href="office-reinstatement.html">office demolition &amp; reinstatement</a></div>
-    </div>
-    <div style="text-align:center; margin-top: 40px;"><a class="btn btn-outline-dark" href="services.html">All Services →</a></div>
-  </div>
-</section>
+</main>
 
 <section class="cta-banner">
   <div class="container">
@@ -390,6 +293,8 @@
   </div>
 </footer>
 
+</div>
+<script src="assets/js/home.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
