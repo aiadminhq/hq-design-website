@@ -19,3 +19,11 @@ jobs:
           exit $fail
       - name: SEO head layer is in sync with titles/descriptions
         run: python3 scripts/legacy-seo/apply_seo_layer.py --check
+      - name: Images must be web-sized (<= 1 MB each)
+        run: |
+          set -e; fail=0
+          while IFS= read -r f; do
+            size=$(wc -c < "$f")
+            if [ "$size" -gt 1048576 ]; then echo "::error file=$f::$((size/1024)) KB — resize to <= 2000px long edge before committing (keep originals out of the repo)"; fail=1; fi
+          done < <(git ls-files -- assets/images)
+          exit $fail
