@@ -13,33 +13,33 @@
 | `GET /v1/models`（驗證金鑰） | **HTTP 200**，共 99 個模型 |
 | 可用影像模型 | `gpt-image-2`、`gpt-image-2-2026-04-21`、`gpt-image-2.5-flare`、`gpt-image-2.5-sunburst`、`gpt-image-2.6-flare`、`gpt-image-2.6-sunburst`、`gpt-image-1.5`、`gpt-image-1-mini`、`chatgpt-image-latest` 等 11 個 |
 | 實際生成測試（`gpt-image-1-mini`，low，1024×1024） | **HTTP 200**，回傳 1024×1024 PNG |
-| 尚未驗證 | `/v1/images/edits`（以舊稿為參考重生）、`gpt-image-2` 系列實際生成與單價；正式批次前需各測 1 張 |
+| `POST /v1/images/edits`（`gpt-image-2`，high，2400×1600，以裁切後舊稿為構圖參考） | **HTTP 200**，2026-11-22 產出 7 張（baohua 6、ledaojia 1），每張約 75–80 秒；流程見 `scripts/photo-regen/` |
 
 > 腳本若要求變數，可設 `OPENAI_API_KEY=proxy-injected`（proxy 會覆寫 Authorization header）。
 
 ## 2. 成果總覽
 
-- 掃描 **257** 個檔案（不含孤兒頁 `zhongbao-nangang`：孤兒頁（115 張簡報截圖），不在列表與 sitemap）。
-- **上線中**（被 EN／ZH 頁面引用）的不重複圖片：合格 **40**、規格偏離 **20**、不合格 **11**。
-- 距「每案 6 張合格」仍缺 **56 張**，涉及 **13 案**（先前文件回報 55 張；本次多 1 張，原因見 §5 ledaojia）。
+- 掃描 **264** 個檔案（不含孤兒頁 `zhongbao-nangang`：孤兒頁（115 張簡報截圖），不在列表與 sitemap）。
+- **上線中**（被 EN／ZH 頁面引用）的不重複圖片：合格 **67**、規格偏離 **0**、不合格 **0**。
+- 距「每案 6 張合格」仍缺 **49 張**，涉及 **12 案**。2026-11-22 已以 OpenAI 重生成補齊 baohua 6 張、替換 ledaojia hero（原 55＋ledaojia 1 − 已補 7）。
 - 全部 19 案 EN／ZH 相簿張數一致。
 
 | 優先 | 專案 | slug | 上線 | 合格 | 規格偏離 | 不合格 | 距 6 張缺口 | 照片集 |
 |---|---|---|--:|--:|--:|--:|--:|---|
-| P0 | Baohua Cybersecurity | `baohua` | 10 | 0 | 0 | 10 | 6 | [不合格集](non-compliant.md#baohua) |
+| P0 | Baohua Cybersecurity | `baohua` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#baohua) · [成果](#baohua) |
 | P1 | Brightron Technology | `polytron` | 1 | 1 | 0 | 0 | 5 | [不合格集](non-compliant.md#polytron) · [成果](#polytron) |
 | P1 | AIONTECH | `aiontech` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#aiontech) · [成果](#aiontech) |
 | P1 | Epic Tech | `epicstech-10f` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#epicstech-10f) · [成果](#epicstech-10f) |
 | P1 | HQ Design Office & Material Library | `hq-office` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#hq-office) · [成果](#hq-office) |
 | — | Kimpton Da An Hotel | `kimpton` | 10 | 10 | 0 | 0 | — | [成果](#kimpton) |
-| P1 | Lots Home Entertainment | `ledaojia` | 2 | 1 | 0 | 1 | 5 | [不合格集](non-compliant.md#ledaojia) · [成果](#ledaojia) |
+| P1 | Lots Home Entertainment | `ledaojia` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#ledaojia) · [成果](#ledaojia) |
 | P1 | Lijie International | `lijie` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#lijie) · [成果](#lijie) |
 | P1 | Liwei Electronics | `liwei` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#liwei) · [成果](#liwei) |
-| — | Popeyes Xuchang Street | `popeyes` | 5 | 0 | 5 | 0 | — | [規格偏離](non-compliant.md#popeyes) |
+| — | Popeyes Xuchang Street | `popeyes` | 5 | 5 | 0 | 0 | — | [成果](#popeyes) |
 | — | Cheogajip, Taichung | `qijia` | 8 | 8 | 0 | 0 | — | [成果](#qijia) |
-| — | SECOM Nangang HQ | `secom-nangang-complex` | 1 | 0 | 1 | 0 | — | [規格偏離](non-compliant.md#secom-nangang-complex) |
-| — | The Soup Spoon, Taipei 101 | `soup-spoon-101` | 3 | 0 | 3 | 0 | — | [規格偏離](non-compliant.md#soup-spoon-101) |
-| — | The Soup Spoon, Taipei Main Station | `soup-spoon-station` | 11 | 0 | 11 | 0 | — | [規格偏離](non-compliant.md#soup-spoon-station) |
+| — | SECOM Nangang HQ | `secom-nangang-complex` | 1 | 1 | 0 | 0 | — | [成果](#secom-nangang-complex) |
+| — | The Soup Spoon, Taipei 101 | `soup-spoon-101` | 3 | 3 | 0 | 0 | — | [成果](#soup-spoon-101) |
+| — | The Soup Spoon, Taipei Main Station | `soup-spoon-station` | 11 | 11 | 0 | 0 | — | [成果](#soup-spoon-station) |
 | P1 | Xinlan Enterprise | `xinlan` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#xinlan) · [成果](#xinlan) |
 | P1 | Zhong Bao Insurance Services | `zhongbao-baojing` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#zhongbao-baojing) · [成果](#zhongbao-baojing) |
 | P1 | Ching Dian TECH | `zhongbao-jingzhen` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#zhongbao-jingzhen) · [成果](#zhongbao-jingzhen) |
@@ -51,7 +51,7 @@
 | 照片集 | 內容 | 位置 |
 |---|---|---|
 | **A. 確認不符合標準** | 簡報截圖（內嵌平面圖／浮水印／留白）、logo 頁、AI 亂碼文字，共 172 個檔案 | [`non-compliant.md`](non-compliant.md)、`sheets/*-noncompliant.jpg` |
-| **B. 規格偏離（內容乾淨、解析度／比例不足）** | 實拍專案 popeyes／soup-spoon／secom-nangang，長邊 < 2400 px | [`non-compliant.md`](non-compliant.md#b-規格偏離實拍專案)、`sheets/*-specgap.jpg` |
+| **B. 規格偏離（內容乾淨、尺寸不足）** | 實拍最低長邊 2000 px（不足以 `upscale_real_photos.py` 放大）；效果圖 2400 px。目前上線中 0 張 | [`non-compliant.md`](non-compliant.md#b-規格偏離實拍專案) |
 | **C. 合格成果（GitHub 呈現）** | 規格合格且內容乾淨，可直接作為官網成果 | 本檔 §4、`sheets/*-compliant.jpg` |
 | 機器可讀清單 | 逐檔規格與狀態；`decision` 欄供人工填寫 | [`inventory.csv`](inventory.csv)、[`inventory.json`](inventory.json) |
 | 重生成佇列 | 待補視角 → 舊稿構圖參考 → 建議路線 | [`regeneration-queue.csv`](regeneration-queue.csv) |
@@ -59,6 +59,11 @@
 ## 4. 合格成果集（GitHub 呈現）
 
 綠框＝規格合格；`LIVE`＝目前被官網頁面引用。
+
+### Baohua Cybersecurity · `baohua`
+<a id="baohua"></a>
+
+![baohua compliant](sheets/baohua-compliant.jpg)
 
 ### Brightron Technology · `polytron`
 <a id="polytron"></a>
@@ -100,10 +105,30 @@
 
 ![liwei compliant](sheets/liwei-compliant.jpg)
 
+### Popeyes Xuchang Street · `popeyes`
+<a id="popeyes"></a>
+
+![popeyes compliant](sheets/popeyes-compliant.jpg)
+
 ### Cheogajip, Taichung · `qijia`
 <a id="qijia"></a>
 
 ![qijia compliant](sheets/qijia-compliant.jpg)
+
+### SECOM Nangang HQ · `secom-nangang-complex`
+<a id="secom-nangang-complex"></a>
+
+![secom-nangang-complex compliant](sheets/secom-nangang-complex-compliant.jpg)
+
+### The Soup Spoon, Taipei 101 · `soup-spoon-101`
+<a id="soup-spoon-101"></a>
+
+![soup-spoon-101 compliant](sheets/soup-spoon-101-compliant.jpg)
+
+### The Soup Spoon, Taipei Main Station · `soup-spoon-station`
+<a id="soup-spoon-station"></a>
+
+![soup-spoon-station compliant](sheets/soup-spoon-station-compliant.jpg)
 
 ### Xinlan Enterprise · `xinlan`
 <a id="xinlan"></a>
@@ -134,7 +159,7 @@
 
 | 檔案 | 狀況 | 處理 |
 |---|---|---|
-| `ledaojia/selected-20260923-01.webp` | 內容瑕疵：招牌文字為 AI 亂碼（NNOVANON／RETHNKNG／VECMNOLOGY／IVE），規格合格但不宜作 hero | 已改列**不合格**，列入重生成佇列 |
+| `ledaojia/selected-20260923-01.webp` | 內容瑕疵：招牌文字為 AI 亂碼（NNOVANON／RETHNKNG／VECMNOLOGY／IVE），規格合格但不宜作 hero | 已改列**不合格**；2026-11-22 以 OpenAI 重生成 `selected-20261122-01.webp`（字牆改為無文字浮雕）並替換全站引用 |
 | `zhongbao-jingzhen/selected-20260923-01.webp` | 招牌英文 JINGTIAN TECHNOLOGY 與專案名 Ching Dian TECH／京典 拼音不一致，需與業主確認品牌拼寫 | 保留合格；待確認 |
 | `zhongbao-showroom/selected-20260923-02.webp` | 展牆時間軸小字（年份以外）可能為 AI 近似文字，需對照實景確認 | 保留合格；待確認 |
 
@@ -151,7 +176,7 @@
 | **keep** | 已合格 | 不動 | — |
 | **drop** | logo 頁、平面圖（暫不顯示） | 不進相簿 | — |
 
-建議順序：先 `baohua`（P0，0 張合格、10 張上線皆不合格）→ `polytron`（缺 5）→ 其餘 11 案各補 4；`ledaojia` 另加重生入口 hero。
+已完成：`baohua` 6 張、`ledaojia` hero（2026-11-22，OpenAI `gpt-image-2` edits）。建議下一批：`polytron`（缺 5）→ 其餘 11 案各補 4。
 
 ## 7. 重跑與檔案
 

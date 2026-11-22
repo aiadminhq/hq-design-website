@@ -1,10 +1,4 @@
 ﻿priority,slug,project,target_view,reference_file,reference_path,suggested_route,decision(search-replace|regenerate|keep|drop),new_file,notes
-P0,baohua,Baohua Cybersecurity,入口 hero,render-01.jpg,assets/images/projects/baohua/render-01.jpg,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,,
-P0,baohua,Baohua Cybersecurity,開放辦公區,render-03.jpg,assets/images/projects/baohua/render-03.jpg,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,,
-P0,baohua,Baohua Cybersecurity,長桌會議室,render-04.jpg,assets/images/projects/baohua/render-04.jpg,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,,
-P0,baohua,Baohua Cybersecurity,投影會議室,render-05.jpg,assets/images/projects/baohua/render-05.jpg,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,,
-P0,baohua,Baohua Cybersecurity,茶水櫃區,render-06.jpg,assets/images/projects/baohua/render-06.jpg,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,,
-P0,baohua,Baohua Cybersecurity,獨立辦公室,render-09.jpg,assets/images/projects/baohua/render-09.jpg,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,,
 P1,polytron,Brightron Technology,收納走道,render-05.jpg,assets/images/projects/polytron/render-05.jpg,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,,
 P1,polytron,Brightron Technology,開放工位全景,render-06.jpg,assets/images/projects/polytron/render-06.jpg,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,,
 P1,polytron,Brightron Technology,主管室,render-14.jpg,assets/images/projects/polytron/render-14.jpg,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,,
@@ -26,7 +20,6 @@ P1,ledaojia,Lots Home Entertainment,入口門廳,render-03.jpg,assets/images/pro
 P1,ledaojia,Lots Home Entertainment,辦公工位,render-05.jpg,assets/images/projects/ledaojia/render-05.jpg,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,,
 P1,ledaojia,Lots Home Entertainment,展示櫃,render-07.jpg,assets/images/projects/ledaojia/render-07.jpg,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,,
 P1,ledaojia,Lots Home Entertainment,獨立辦公室側景,render-08.jpg,assets/images/projects/ledaojia/render-08.jpg,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,,
-P1,ledaojia,Lots Home Entertainment,入口接待（重生：招牌文字改用實際 logo／真實字樣，或留白）,selected-20260923-01.webp,assets/images/projects/ledaojia/selected-20260923-01.webp,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,,
 P1,lijie,Lijie International,入口門廳,render-01.jpg,assets/images/projects/lijie/render-01.jpg,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,,
 P1,lijie,Lijie International,玻璃隔間走道,render-02.jpg,assets/images/projects/lijie/render-02.jpg,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,,
 P1,lijie,Lijie International,開放工位,render-04.jpg,assets/images/projects/lijie/render-04.jpg,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,,

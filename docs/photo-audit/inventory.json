@@ -24,17 +24,17 @@
     {
       "slug": "baohua",
       "project": "Baohua Cybersecurity",
-      "files": 12,
-      "live_unique": 10,
-      "live_compliant": 0,
+      "files": 18,
+      "live_unique": 6,
+      "live_compliant": 6,
       "live_spec_gap": 0,
-      "live_non_compliant": 10,
-      "compliant_total": 0,
+      "live_non_compliant": 0,
+      "compliant_total": 6,
       "legacy_render_files": 10,
       "en_zh_match": true,
-      "en_count": 10,
-      "zh_count": 10,
-      "needed_to_reach_6": 6,
+      "en_count": 6,
+      "zh_count": 6,
+      "needed_to_reach_6": 0,
       "needed_views": [
         "入口 hero",
         "投影會議室",
@@ -105,17 +105,17 @@
     {
       "slug": "ledaojia",
       "project": "Lots Home Entertainment",
-      "files": 10,
+      "files": 11,
       "live_unique": 2,
-      "live_compliant": 1,
+      "live_compliant": 2,
       "live_spec_gap": 0,
-      "live_non_compliant": 1,
-      "compliant_total": 1,
+      "live_non_compliant": 0,
+      "compliant_total": 2,
       "legacy_render_files": 8,
       "en_zh_match": true,
       "en_count": 2,
       "zh_count": 2,
-      "needed_to_reach_6": 5,
+      "needed_to_reach_6": 4,
       "needed_views": [
         "入口接待（重生：招牌文字改用實際 logo／真實字樣，或留白）",
         "入口門廳",
@@ -193,10 +193,10 @@
       "project": "Popeyes Xuchang Street",
       "files": 5,
       "live_unique": 5,
-      "live_compliant": 0,
-      "live_spec_gap": 5,
+      "live_compliant": 5,
+      "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 0,
+      "compliant_total": 5,
       "legacy_render_files": 0,
       "en_zh_match": true,
       "en_count": 5,
@@ -212,7 +212,7 @@
       "live_compliant": 8,
       "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 14,
+      "compliant_total": 16,
       "legacy_render_files": 0,
       "en_zh_match": true,
       "en_count": 8,
@@ -225,10 +225,10 @@
       "project": "SECOM Nangang HQ",
       "files": 1,
       "live_unique": 1,
-      "live_compliant": 0,
-      "live_spec_gap": 1,
+      "live_compliant": 1,
+      "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 0,
+      "compliant_total": 1,
       "legacy_render_files": 0,
       "en_zh_match": true,
       "en_count": 1,
@@ -241,10 +241,10 @@
       "project": "The Soup Spoon, Taipei 101",
       "files": 3,
       "live_unique": 3,
-      "live_compliant": 0,
-      "live_spec_gap": 3,
+      "live_compliant": 3,
+      "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 0,
+      "compliant_total": 3,
       "legacy_render_files": 0,
       "en_zh_match": true,
       "en_count": 3,
@@ -257,10 +257,10 @@
       "project": "The Soup Spoon, Taipei Main Station",
       "files": 11,
       "live_unique": 11,
-      "live_compliant": 0,
-      "live_spec_gap": 11,
+      "live_compliant": 11,
+      "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 0,
+      "compliant_total": 11,
       "legacy_render_files": 0,
       "en_zh_match": true,
       "en_count": 11,
@@ -1002,20 +1002,9 @@
         "簡報截圖：內嵌平面圖／浮水印／底部留白"
       ],
       "advisory": [],
-      "live": true,
-      "roles": [
-        "detail-en",
-        "detail-zh",
-        "list-home-other"
-      ],
-      "pages": [
-        "projects.html",
-        "projects/baohua.html",
-        "zh/office-relocation.html",
-        "zh/projects.html",
-        "zh/projects/baohua.html",
-        "zh/taipei-office-renovation.html"
-      ],
+      "live": false,
+      "roles": [],
+      "pages": [],
       "needed_view": "入口 hero",
       "flags": [],
       "suggested_route": "regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）",
@@ -1036,15 +1025,9 @@
         "簡報截圖：內嵌平面圖／浮水印／底部留白"
       ],
       "advisory": [],
-      "live": true,
-      "roles": [
-        "detail-en",
-        "detail-zh"
-      ],
-      "pages": [
-        "projects/baohua.html",
-        "zh/projects/baohua.html"
-      ],
+      "live": false,
+      "roles": [],
+      "pages": [],
       "needed_view": "",
       "flags": [],
       "suggested_route": "reference-only（構圖參考；非本輪必補視角）",
@@ -1065,15 +1048,9 @@
         "簡報截圖：內嵌平面圖／浮水印／底部留白"
       ],
       "advisory": [],
-      "live": true,
-      "roles": [
-        "detail-en",
-        "detail-zh"
-      ],
-      "pages": [
-        "projects/baohua.html",
-        "zh/projects/baohua.html"
-      ],
+      "live": false,
+      "roles": [],
+      "pages": [],
       "needed_view": "開放辦公區",
       "flags": [],
       "suggested_route": "regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）",
@@ -1094,15 +1071,9 @@
         "簡報截圖：內嵌平面圖／浮水印／底部留白"
       ],
       "advisory": [],
-      "live": true,
-      "roles": [
-        "detail-en",
-        "detail-zh"
-      ],
-      "pages": [
-        "projects/baohua.html",
-        "zh/projects/baohua.html"
-      ],
+      "live": false,
+      "roles": [],
+      "pages": [],
       "needed_view": "長桌會議室",
       "flags": [],
       "suggested_route": "regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）",
@@ -1123,15 +1094,9 @@
         "簡報截圖：內嵌平面圖／浮水印／底部留白"
       ],
       "advisory": [],
-      "live": true,
-      "roles": [
-        "detail-en",
-        "detail-zh"
-      ],
-      "pages": [
-        "projects/baohua.html",
-        "zh/projects/baohua.html"
-      ],
+      "live": false,
+      "roles": [],
+      "pages": [],
       "needed_view": "投影會議室",
       "flags": [],
       "suggested_route": "regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）",
@@ -1152,15 +1117,9 @@
         "簡報截圖：內嵌平面圖／浮水印／底部留白"
       ],
       "advisory": [],
-      "live": true,
-      "roles": [
-        "detail-en",
-        "detail-zh"
-      ],
-      "pages": [
-        "projects/baohua.html",
-        "zh/projects/baohua.html"
-      ],
+      "live": false,
+      "roles": [],
+      "pages": [],
       "needed_view": "茶水櫃區",
       "flags": [],
       "suggested_route": "regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）",
@@ -1181,15 +1140,9 @@
         "簡報截圖：內嵌平面圖／浮水印／底部留白"
       ],
       "advisory": [],
-      "live": true,
-      "roles": [
-        "detail-en",
-        "detail-zh"
-      ],
-      "pages": [
-        "projects/baohua.html",
-        "zh/projects/baohua.html"
-      ],
+      "live": false,
+      "roles": [],
+      "pages": [],
       "needed_view": "",
       "flags": [],
       "suggested_route": "reference-only（構圖參考；非本輪必補視角）",
@@ -1210,15 +1163,9 @@
         "簡報截圖：內嵌平面圖／浮水印／底部留白"
       ],
       "advisory": [],
-      "live": true,
-      "roles": [
-        "detail-en",
-        "detail-zh"
-      ],
-      "pages": [
-        "projects/baohua.html",
-        "zh/projects/baohua.html"
-      ],
+      "live": false,
+      "roles": [],
+      "pages": [],
       "needed_view": "",
       "flags": [],
       "suggested_route": "reference-only（構圖參考；非本輪必補視角）",
@@ -1239,15 +1186,9 @@
         "簡報截圖：內嵌平面圖／浮水印／底部留白"
       ],
       "advisory": [],
-      "live": true,
-      "roles": [
-        "detail-en",
-        "detail-zh"
-      ],
-      "pages": [
-        "projects/baohua.html",
-        "zh/projects/baohua.html"
-      ],
+      "live": false,
+      "roles": [],
+      "pages": [],
       "needed_view": "獨立辦公室",
       "flags": [],
       "suggested_route": "regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）",
@@ -1268,6 +1209,59 @@
         "簡報截圖：內嵌平面圖／浮水印／底部留白"
       ],
       "advisory": [],
+      "live": false,
+      "roles": [],
+      "pages": [],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "reference-only（構圖參考；非本輪必補視角）",
+      "decision": ""
+    },
+    {
+      "slug": "baohua",
+      "project": "Baohua Cybersecurity",
+      "file": "selected-20261122-01.webp",
+      "path": "assets/images/projects/baohua/selected-20261122-01.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 132716,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh",
+        "list-home-other"
+      ],
+      "pages": [
+        "projects.html",
+        "projects/baohua.html",
+        "zh/office-relocation.html",
+        "zh/projects.html",
+        "zh/projects/baohua.html",
+        "zh/taipei-office-renovation.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "baohua",
+      "project": "Baohua Cybersecurity",
+      "file": "selected-20261122-02.webp",
+      "path": "assets/images/projects/baohua/selected-20261122-02.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 466876,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
       "live": true,
       "roles": [
         "detail-en",
@@ -1279,7 +1273,115 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "reference-only（構圖參考；非本輪必補視角）",
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "baohua",
+      "project": "Baohua Cybersecurity",
+      "file": "selected-20261122-03.webp",
+      "path": "assets/images/projects/baohua/selected-20261122-03.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 345874,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/baohua.html",
+        "zh/projects/baohua.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "baohua",
+      "project": "Baohua Cybersecurity",
+      "file": "selected-20261122-04.webp",
+      "path": "assets/images/projects/baohua/selected-20261122-04.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 422668,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/baohua.html",
+        "zh/projects/baohua.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "baohua",
+      "project": "Baohua Cybersecurity",
+      "file": "selected-20261122-05.webp",
+      "path": "assets/images/projects/baohua/selected-20261122-05.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 209194,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/baohua.html",
+        "zh/projects/baohua.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "baohua",
+      "project": "Baohua Cybersecurity",
+      "file": "selected-20261122-06.webp",
+      "path": "assets/images/projects/baohua/selected-20261122-06.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 349820,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/baohua.html",
+        "zh/projects/baohua.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -2481,18 +2583,9 @@
         "內容瑕疵：招牌文字為 AI 亂碼（NNOVANON／RETHNKNG／VECMNOLOGY／IVE），規格合格但不宜作 hero"
       ],
       "advisory": [],
-      "live": true,
-      "roles": [
-        "detail-en",
-        "detail-zh",
-        "list-home-other"
-      ],
-      "pages": [
-        "projects.html",
-        "projects/ledaojia.html",
-        "zh/projects.html",
-        "zh/projects/ledaojia.html"
-      ],
+      "live": false,
+      "roles": [],
+      "pages": [],
       "needed_view": "入口接待（重生：招牌文字改用實際 logo／真實字樣，或留白）",
       "flags": [],
       "suggested_route": "regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）",
@@ -2518,6 +2611,36 @@
       ],
       "pages": [
         "projects/ledaojia.html",
+        "zh/projects/ledaojia.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "ledaojia",
+      "project": "Lots Home Entertainment",
+      "file": "selected-20261122-01.webp",
+      "path": "assets/images/projects/ledaojia/selected-20261122-01.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 452406,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh",
+        "list-home-other"
+      ],
+      "pages": [
+        "projects.html",
+        "projects/ledaojia.html",
+        "zh/projects.html",
         "zh/projects/ledaojia.html"
       ],
       "needed_view": "",
@@ -3643,11 +3766,9 @@
       "height": 1333,
       "bytes": 449464,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -3663,7 +3784,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -3675,11 +3796,9 @@
       "height": 1333,
       "bytes": 353076,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -3692,7 +3811,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -3704,11 +3823,9 @@
       "height": 1333,
       "bytes": 313120,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -3721,7 +3838,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -3733,12 +3850,9 @@
       "height": 2000,
       "bytes": 329715,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.333,
-      "reasons": [
-        "長邊 2000px < 2400px",
-        "比例 1.33 非 16:9 / 3:2"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -3751,7 +3865,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -3763,12 +3877,9 @@
       "height": 2000,
       "bytes": 360302,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.115,
-      "reasons": [
-        "長邊 2000px < 2400px",
-        "比例 1.11 非 16:9 / 3:2"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -3781,7 +3892,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -3896,11 +4007,9 @@
       "height": 5121,
       "bytes": 10607006,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.333,
-      "reasons": [
-        "比例 1.33 非 16:9 / 3:2"
-      ],
+      "reasons": [],
       "advisory": [
         "檔案 10358 KB > 600 KB"
       ],
@@ -3909,7 +4018,7 @@
       "pages": [],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -4048,11 +4157,9 @@
       "height": 5355,
       "bytes": 17438942,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.392,
-      "reasons": [
-        "比例 1.39 非 16:9 / 3:2"
-      ],
+      "reasons": [],
       "advisory": [
         "檔案 17030 KB > 600 KB"
       ],
@@ -4061,7 +4168,7 @@
       "pages": [],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -4386,11 +4493,9 @@
       "height": 1333,
       "bytes": 219557,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -4410,7 +4515,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -4422,11 +4527,9 @@
       "height": 1333,
       "bytes": 448315,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -4442,7 +4545,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -4454,11 +4557,9 @@
       "height": 1333,
       "bytes": 462565,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -4471,7 +4572,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -4483,11 +4584,9 @@
       "height": 1333,
       "bytes": 431525,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -4500,7 +4599,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -4512,11 +4611,9 @@
       "height": 1333,
       "bytes": 310088,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -4532,7 +4629,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -4544,11 +4641,9 @@
       "height": 1333,
       "bytes": 409681,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -4561,7 +4656,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -4573,11 +4668,9 @@
       "height": 1333,
       "bytes": 311264,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -4590,7 +4683,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -4602,11 +4695,9 @@
       "height": 1333,
       "bytes": 445200,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -4619,7 +4710,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -4631,11 +4722,9 @@
       "height": 1333,
       "bytes": 288706,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -4648,7 +4737,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -4660,11 +4749,9 @@
       "height": 1333,
       "bytes": 428588,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -4677,7 +4764,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -4689,11 +4776,9 @@
       "height": 1333,
       "bytes": 405756,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -4706,7 +4791,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -4718,11 +4803,9 @@
       "height": 1333,
       "bytes": 402407,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -4735,7 +4818,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -4747,11 +4830,9 @@
       "height": 1333,
       "bytes": 523185,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -4764,7 +4845,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -4776,11 +4857,9 @@
       "height": 1333,
       "bytes": 316924,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -4793,7 +4872,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {
@@ -4805,11 +4884,9 @@
       "height": 1333,
       "bytes": 306859,
       "kind": "real-photo",
-      "status": "spec-gap",
+      "status": "compliant",
       "ratio": 1.5,
-      "reasons": [
-        "長邊 2000px < 2400px"
-      ],
+      "reasons": [],
       "advisory": [],
       "live": true,
       "roles": [
@@ -4822,7 +4899,7 @@
       ],
       "needed_view": "",
       "flags": [],
-      "suggested_route": "re-export（若有原始檔）或 search-replace",
+      "suggested_route": "keep",
       "decision": ""
     },
     {

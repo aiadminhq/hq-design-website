@@ -9,23 +9,23 @@
 ### Baohua Cybersecurity · `baohua`
 <a id="baohua"></a>
 
-P0｜上線不合格 **10**｜合格 0｜距 6 張缺 **6**
+P0｜上線不合格 **0**｜合格 6｜距 6 張缺 **0**
 
 ![baohua noncompliant](sheets/baohua-noncompliant.jpg)
 
 | 檔案 | 尺寸 | 狀態 | 不符原因 | 待補視角 | 建議路線 |
 |---|---|---|---|---|---|
 | `page-01.jpg` | 1626×1125 | unused | 簡報 logo 頁／封面截圖 | — | discard-from-gallery（logo 頁，不進相簿） |
-| `render-01.jpg` | 1626×1125 | LIVE | 簡報截圖：內嵌平面圖／浮水印／底部留白 | 入口 hero | regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白） |
-| `render-02.jpg` | 1626×1125 | LIVE | 簡報截圖：內嵌平面圖／浮水印／底部留白 | — | reference-only（構圖參考；非本輪必補視角） |
-| `render-03.jpg` | 1626×1125 | LIVE | 簡報截圖：內嵌平面圖／浮水印／底部留白 | 開放辦公區 | regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白） |
-| `render-04.jpg` | 1626×1125 | LIVE | 簡報截圖：內嵌平面圖／浮水印／底部留白 | 長桌會議室 | regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白） |
-| `render-05.jpg` | 1626×1125 | LIVE | 簡報截圖：內嵌平面圖／浮水印／底部留白 | 投影會議室 | regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白） |
-| `render-06.jpg` | 1626×1125 | LIVE | 簡報截圖：內嵌平面圖／浮水印／底部留白 | 茶水櫃區 | regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白） |
-| `render-07.jpg` | 1626×1125 | LIVE | 簡報截圖：內嵌平面圖／浮水印／底部留白 | — | reference-only（構圖參考；非本輪必補視角） |
-| `render-08.jpg` | 1626×1125 | LIVE | 簡報截圖：內嵌平面圖／浮水印／底部留白 | — | reference-only（構圖參考；非本輪必補視角） |
-| `render-09.jpg` | 1626×1125 | LIVE | 簡報截圖：內嵌平面圖／浮水印／底部留白 | 獨立辦公室 | regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白） |
-| `render-10.jpg` | 1626×1125 | LIVE | 簡報截圖：內嵌平面圖／浮水印／底部留白 | — | reference-only（構圖參考；非本輪必補視角） |
+| `render-01.jpg` | 1626×1125 | unused | 簡報截圖：內嵌平面圖／浮水印／底部留白 | 入口 hero | regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白） |
+| `render-02.jpg` | 1626×1125 | unused | 簡報截圖：內嵌平面圖／浮水印／底部留白 | — | reference-only（構圖參考；非本輪必補視角） |
+| `render-03.jpg` | 1626×1125 | unused | 簡報截圖：內嵌平面圖／浮水印／底部留白 | 開放辦公區 | regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白） |
+| `render-04.jpg` | 1626×1125 | unused | 簡報截圖：內嵌平面圖／浮水印／底部留白 | 長桌會議室 | regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白） |
+| `render-05.jpg` | 1626×1125 | unused | 簡報截圖：內嵌平面圖／浮水印／底部留白 | 投影會議室 | regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白） |
+| `render-06.jpg` | 1626×1125 | unused | 簡報截圖：內嵌平面圖／浮水印／底部留白 | 茶水櫃區 | regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白） |
+| `render-07.jpg` | 1626×1125 | unused | 簡報截圖：內嵌平面圖／浮水印／底部留白 | — | reference-only（構圖參考；非本輪必補視角） |
+| `render-08.jpg` | 1626×1125 | unused | 簡報截圖：內嵌平面圖／浮水印／底部留白 | — | reference-only（構圖參考；非本輪必補視角） |
+| `render-09.jpg` | 1626×1125 | unused | 簡報截圖：內嵌平面圖／浮水印／底部留白 | 獨立辦公室 | regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白） |
+| `render-10.jpg` | 1626×1125 | unused | 簡報截圖：內嵌平面圖／浮水印／底部留白 | — | reference-only（構圖參考；非本輪必補視角） |
 
 ### Brightron Technology · `polytron`
 <a id="polytron"></a>
@@ -133,7 +133,7 @@ P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
 ### Lots Home Entertainment · `ledaojia`
 <a id="ledaojia"></a>
 
-P1｜上線不合格 **1**｜合格 1｜距 6 張缺 **5**
+P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
 
 ![ledaojia noncompliant](sheets/ledaojia-noncompliant.jpg)
 
@@ -147,7 +147,7 @@ P1｜上線不合格 **1**｜合格 1｜距 6 張缺 **5**
 | `render-06.jpg` | 1626×1125 | unused | 簡報截圖：內嵌平面圖／浮水印／底部留白 | — | reference-only（構圖參考；非本輪必補視角） |
 | `render-07.jpg` | 1626×1125 | unused | 簡報截圖：內嵌平面圖／浮水印／底部留白 | 展示櫃 | regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白） |
 | `render-08.jpg` | 1626×1125 | unused | 簡報截圖：內嵌平面圖／浮水印／底部留白 | 獨立辦公室側景 | regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白） |
-| `selected-20260923-01.webp` | 2560×1429 | LIVE | 內容瑕疵：招牌文字為 AI 亂碼（NNOVANON／RETHNKNG／VECMNOLOGY／IVE），規格合格但不宜作 hero | 入口接待（重生：招牌文字改用實際 logo／真實字樣，或留白） | regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白） |
+| `selected-20260923-01.webp` | 2560×1429 | unused | 內容瑕疵：招牌文字為 AI 亂碼（NNOVANON／RETHNKNG／VECMNOLOGY／IVE），規格合格但不宜作 hero | 入口接待（重生：招牌文字改用實際 logo／真實字樣，或留白） | regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白） |
 
 ### Lijie International · `lijie`
 <a id="lijie"></a>
@@ -310,59 +310,7 @@ P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
 
 ## B. 規格偏離（實拍專案）
 
-內容為實拍、目視乾淨，但長邊 < 2400 px。`photo-replacement-list.md` 已將其標為『無需補』（原檔已壓縮）；與 §E.2 驗收標準不一致，需決定是否接受為例外，或取得原始大圖重新輸出。
-
-### Popeyes Xuchang Street · `popeyes`
-<a id="popeyes"></a>
-
-![popeyes specgap](sheets/popeyes-specgap.jpg)
-
-| 檔案 | 尺寸 | 原因 |
-|---|---|---|
-| `photo-01.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-| `photo-02.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-| `photo-03.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-| `photo-04.jpg` | 1500×2000 | 長邊 2000px < 2400px；比例 1.33 非 16:9 / 3:2 |
-| `photo-05.jpg` | 1794×2000 | 長邊 2000px < 2400px；比例 1.11 非 16:9 / 3:2 |
-
-### SECOM Nangang HQ · `secom-nangang-complex`
-<a id="secom-nangang-complex"></a>
-
-![secom-nangang-complex specgap](sheets/secom-nangang-complex-specgap.jpg)
-
-| 檔案 | 尺寸 | 原因 |
-|---|---|---|
-| `photo-01.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-
-### The Soup Spoon, Taipei 101 · `soup-spoon-101`
-<a id="soup-spoon-101"></a>
-
-![soup-spoon-101 specgap](sheets/soup-spoon-101-specgap.jpg)
-
-| 檔案 | 尺寸 | 原因 |
-|---|---|---|
-| `photo-01.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-| `photo-02.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-| `photo-03.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-
-### The Soup Spoon, Taipei Main Station · `soup-spoon-station`
-<a id="soup-spoon-station"></a>
-
-![soup-spoon-station specgap](sheets/soup-spoon-station-specgap.jpg)
-
-| 檔案 | 尺寸 | 原因 |
-|---|---|---|
-| `photo-01.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-| `photo-02.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-| `photo-03.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-| `photo-04.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-| `photo-05.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-| `photo-06.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-| `photo-07.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-| `photo-08.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-| `photo-09.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-| `photo-10.jpg` | 2000×1333 | 長邊 2000px < 2400px |
-| `photo-11.jpg` | 2000×1333 | 長邊 2000px < 2400px |
+標準：效果圖長邊 ≥ 2400 px；實拍長邊 ≥ 2000 px（2026-11-22 決議，不足時以 `scripts/photo-audit/upscale_real_photos.py` 放大）。以下僅列上線中仍未達標者。
 
 ## C. 保留不顯示
 

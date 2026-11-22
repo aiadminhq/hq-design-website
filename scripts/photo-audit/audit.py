@@ -35,7 +35,8 @@ SHEETS = OUT / "sheets"
 # 不納入盤點（見 docs/codex-handoff-photo-replacement.md §4 與 photo-replacement-list.md §D）
 SKIP_SLUGS = {"zhongbao-nangang": "孤兒頁（115 張簡報截圖），不在列表與 sitemap"}
 
-MIN_LONG_EDGE = 2400
+MIN_LONG_EDGE = 2400          # 效果圖／AI 生成
+MIN_REAL_LONG_EDGE = 2000     # 實拍最低長邊（2026-11-22 決議；不足以 upscale_real_photos.py 放大）
 RATIOS = (16 / 9, 3 / 2)
 RATIO_TOL = 0.04
 ADVISORY_BYTES = 600 * 1024
@@ -141,9 +142,11 @@ def classify(slug: str, p: Path, w: int, h: int, size: int) -> dict:
         status = "non-compliant"
     else:
         spec_fail = []
-        if long_edge < MIN_LONG_EDGE:
-            spec_fail.append(f"長邊 {long_edge}px < {MIN_LONG_EDGE}px")
-        if not ratio_ok:
+        real = kind == "real-photo"
+        min_edge = MIN_REAL_LONG_EDGE if real else MIN_LONG_EDGE
+        if long_edge < min_edge:
+            spec_fail.append(f"長邊 {long_edge}px < {min_edge}px" + ("（實拍：需 upscale）" if real else ""))
+        if not ratio_ok and not real:  # 實拍允許直幅等原始比例
             spec_fail.append(f"比例 {ratio:.2f} 非 16:9 / 3:2")
         if spec_fail:
             status = "spec-gap"
@@ -247,8 +250,10 @@ def write_reports(summary, records, skipped, sheet_index, by_slug) -> None:
         wr.writerow(["priority", "slug", "project", "target_view", "reference_file", "reference_path",
                      "suggested_route", "decision(search-replace|regenerate|keep|drop)", "new_file", "notes"])
         for slug in _order(by_slug):
+            if not sm[slug]["needed_to_reach_6"]:
+                continue  # 已補足（如 baohua 2026-11-22 重生成）
             for r in by_slug[slug]:
-                if r["needed_view"]:
+                if r["needed_view"] and (r["kind"] == "legacy-render" or r["live"]):
                     pr = "P0" if slug == "baohua" else "P1"
                     wr.writerow([pr, slug, r["project"], r["needed_view"], r["file"], r["path"],
                                  r["suggested_route"], "", "", ""])
@@ -267,13 +272,13 @@ def write_reports(summary, records, skipped, sheet_index, by_slug) -> None:
     a("| `GET /v1/models`（驗證金鑰） | **HTTP 200**，共 99 個模型 |")
     a("| 可用影像模型 | `gpt-image-2`、`gpt-image-2-2026-04-21`、`gpt-image-2.5-flare`、`gpt-image-2.5-sunburst`、`gpt-image-2.6-flare`、`gpt-image-2.6-sunburst`、`gpt-image-1.5`、`gpt-image-1-mini`、`chatgpt-image-latest` 等 11 個 |")
     a("| 實際生成測試（`gpt-image-1-mini`，low，1024×1024） | **HTTP 200**，回傳 1024×1024 PNG |")
-    a("| 尚未驗證 | `/v1/images/edits`（以舊稿為參考重生）、`gpt-image-2` 系列實際生成與單價；正式批次前需各測 1 張 |")
+    a("| `POST /v1/images/edits`（`gpt-image-2`，high，2400×1600，以裁切後舊稿為構圖參考） | **HTTP 200**，2026-11-22 產出 7 張（baohua 6、ledaojia 1），每張約 75–80 秒；流程見 `scripts/photo-regen/` |")
     a("\n> 腳本若要求變數，可設 `OPENAI_API_KEY=proxy-injected`（proxy 會覆寫 Authorization header）。\n")
 
     a("## 2. 成果總覽\n")
     a(f"- 掃描 **{len(records)}** 個檔案（不含孤兒頁 `zhongbao-nangang`：{skipped.get('zhongbao-nangang', '')}）。")
     a(f"- **上線中**（被 EN／ZH 頁面引用）的不重複圖片：合格 **{total_live_ok}**、規格偏離 **{total_live_gap}**、不合格 **{total_live_bad}**。")
-    a(f"- 距「每案 6 張合格」仍缺 **{total_need} 張**，涉及 **{len(program)} 案**（先前文件回報 55 張；本次多 1 張，原因見 §5 ledaojia）。")
+    a(f"- 距「每案 6 張合格」仍缺 **{total_need} 張**，涉及 **{len(program)} 案**。2026-11-22 已以 OpenAI 重生成補齊 baohua 6 張、替換 ledaojia hero（原 55＋ledaojia 1 − 已補 7）。")
     a("- 全部 19 案 EN／ZH 相簿張數一致。\n")
     a("| 優先 | 專案 | slug | 上線 | 合格 | 規格偏離 | 不合格 | 距 6 張缺口 | 照片集 |")
     a("|---|---|---|--:|--:|--:|--:|--:|---|")
@@ -293,7 +298,7 @@ def write_reports(summary, records, skipped, sheet_index, by_slug) -> None:
     a("\n## 3. 三個照片集\n")
     a("| 照片集 | 內容 | 位置 |\n|---|---|---|")
     a(f"| **A. 確認不符合標準** | 簡報截圖（內嵌平面圖／浮水印／留白）、logo 頁、AI 亂碼文字，共 {n_bad} 個檔案 | [`non-compliant.md`](non-compliant.md)、`sheets/*-noncompliant.jpg` |")
-    a("| **B. 規格偏離（內容乾淨、解析度／比例不足）** | 實拍專案 popeyes／soup-spoon／secom-nangang，長邊 < 2400 px | [`non-compliant.md`](non-compliant.md#b-規格偏離實拍專案)、`sheets/*-specgap.jpg` |")
+    a("| **B. 規格偏離（內容乾淨、尺寸不足）** | 實拍最低長邊 2000 px（不足以 `upscale_real_photos.py` 放大）；效果圖 2400 px。目前上線中 0 張 | [`non-compliant.md`](non-compliant.md#b-規格偏離實拍專案) |")
     a("| **C. 合格成果（GitHub 呈現）** | 規格合格且內容乾淨，可直接作為官網成果 | 本檔 §4、`sheets/*-compliant.jpg` |")
     a("| 機器可讀清單 | 逐檔規格與狀態；`decision` 欄供人工填寫 | [`inventory.csv`](inventory.csv)、[`inventory.json`](inventory.json) |")
     a("| 重生成佇列 | 待補視角 → 舊稿構圖參考 → 建議路線 | [`regeneration-queue.csv`](regeneration-queue.csv) |")
@@ -311,7 +316,7 @@ def write_reports(summary, records, skipped, sheet_index, by_slug) -> None:
     for r in records:
         mr_reason = [x for x in r["reasons"] if x.startswith("內容瑕疵")]
         if mr_reason:
-            a(f"| `{r['slug']}/{r['file']}` | {mr_reason[0]} | 已改列**不合格**，列入重生成佇列 |")
+            a(f"| `{r['slug']}/{r['file']}` | {mr_reason[0]} | 已改列**不合格**；2026-11-22 以 OpenAI 重生成 `selected-20261122-01.webp`（字牆改為無文字浮雕）並替換全站引用 |")
     for r in flagged:
         for fl in r["flags"]:
             a(f"| `{r['slug']}/{r['file']}` | {fl} | 保留合格；待確認 |")
@@ -324,7 +329,7 @@ def write_reports(summary, records, skipped, sheet_index, by_slug) -> None:
     a("| **regenerate**（修正不符區域後以 OpenAI 重生） | 只有簡報截圖：以 `render-NN.jpg` 為構圖參考，去除平面圖、浮水印、留白後輸出 | OpenAI `images/edits`（`gpt-image-2` 系列）＋後製放大至 2400 px；逐張目視驗收 | 招牌／文字亂碼（如 ledaojia）；家具與原設計不一致；需業主認可為『效果圖示意』 |")
     a("| **keep** | 已合格 | 不動 | — |")
     a("| **drop** | logo 頁、平面圖（暫不顯示） | 不進相簿 | — |")
-    a("\n建議順序：先 `baohua`（P0，0 張合格、10 張上線皆不合格）→ `polytron`（缺 5）→ 其餘 11 案各補 4；`ledaojia` 另加重生入口 hero。\n")
+    a("\n已完成：`baohua` 6 張、`ledaojia` hero（2026-11-22，OpenAI `gpt-image-2` edits）。建議下一批：`polytron`（缺 5）→ 其餘 11 案各補 4。\n")
 
     a("## 7. 重跑與檔案\n")
     a("```bash\npython3 scripts/photo-audit/audit.py   # 需要 Pillow；重新產生本目錄全部檔案\n```\n")
@@ -355,7 +360,7 @@ def write_reports(summary, records, skipped, sheet_index, by_slug) -> None:
               f"{'；'.join(r['reasons'])} | {r['needed_view'] or '—'} | {r['suggested_route']} |")
         b("")
     b("## B. 規格偏離（實拍專案）\n")
-    b("內容為實拍、目視乾淨，但長邊 < 2400 px。`photo-replacement-list.md` 已將其標為『無需補』（原檔已壓縮）；與 §E.2 驗收標準不一致，需決定是否接受為例外，或取得原始大圖重新輸出。\n")
+    b("標準：效果圖長邊 ≥ 2400 px；實拍長邊 ≥ 2000 px（2026-11-22 決議，不足時以 `scripts/photo-audit/upscale_real_photos.py` 放大）。以下僅列上線中仍未達標者。\n")
     for slug in _order(by_slug):
         gaps = [r for r in by_slug[slug] if r["status"] == "spec-gap" and r["live"]]
         if not gaps:

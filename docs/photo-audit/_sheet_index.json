@@ -4,7 +4,8 @@
     "compliant": "sheets/aiontech-compliant.jpg"
   },
   "baohua": {
-    "noncompliant": "sheets/baohua-noncompliant.jpg"
+    "noncompliant": "sheets/baohua-noncompliant.jpg",
+    "compliant": "sheets/baohua-compliant.jpg"
   },
   "epicstech-10f": {
     "noncompliant": "sheets/epicstech-10f-noncompliant.jpg",
@@ -34,19 +35,19 @@
     "compliant": "sheets/polytron-compliant.jpg"
   },
   "popeyes": {
-    "specgap": "sheets/popeyes-specgap.jpg"
+    "compliant": "sheets/popeyes-compliant.jpg"
   },
   "qijia": {
     "compliant": "sheets/qijia-compliant.jpg"
   },
   "secom-nangang-complex": {
-    "specgap": "sheets/secom-nangang-complex-specgap.jpg"
+    "compliant": "sheets/secom-nangang-complex-compliant.jpg"
   },
   "soup-spoon-101": {
-    "specgap": "sheets/soup-spoon-101-specgap.jpg"
+    "compliant": "sheets/soup-spoon-101-compliant.jpg"
   },
   "soup-spoon-station": {
-    "specgap": "sheets/soup-spoon-station-specgap.jpg"
+    "compliant": "sheets/soup-spoon-station-compliant.jpg"
   },
   "xinlan": {
     "noncompliant": "sheets/xinlan-noncompliant.jpg",
