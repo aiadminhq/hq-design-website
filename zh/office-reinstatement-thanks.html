@@ -36,16 +36,17 @@
   <link rel="stylesheet" href="../assets/css/reinstatement-ds.css">
 </head>
 <body class="rs-page ds-v2">
+<a class="skip-link" href="#main">跳至主要內容</a>
 
 <nav class="nav" id="nav">
   <div class="nav-inner">
     <a class="nav-logo nav-logo--int nav-logo--zh" href="index.html">
-      <img src="../assets/images/logo/IMG_6412.PNG" alt="HQ Design Logo">
+      <img src="../assets/images/logo/IMG_6412.PNG" alt="HQ Design Logo" width="640" height="271">
       <div>
         <span class="name-zh"><span class="name-zh-company">惠強室內裝修</span><span class="name-zh-since">Since 1995</span></span>
       </div>
     </a>
-    <ul class="nav-links">
+    <ul class="nav-links" id="nav-links">
       <li><a href="projects.html">專案</a></li>
       <li class="nav-item nav-item--services">
         <a href="services.html" class="active" aria-haspopup="true" aria-expanded="false" aria-controls="nav-services-menu">服務<span class="nav-caret" aria-hidden="true"></span></a>
@@ -66,21 +67,21 @@
       <a class="lang-toggle__item is-active" href="office-reinstatement-thanks.html" hreflang="zh-Hant" lang="zh-Hant">中文</a>
     </div>
     <a class="btn btn-primary nav-cta" href="contact.html">聯繫我們</a>
-    <div class="hamburger" id="hamburger">
+    <button type="button" class="hamburger" id="hamburger" aria-label="選單" aria-expanded="false" aria-controls="nav-links">
       <span></span><span></span><span></span>
-    </div>
+    </button>
   </div>
 </nav>
 
-<div class="page-hero rs-dark">
+<header class="page-hero rs-dark">
   <div class="container">
     <span class="label">Office Reinstatement｜退租復原工程</span>
     <h1 style="font-size: clamp(30px, 4.2vw, 48px);">收到了！我們會盡快聯絡你。</h1>
     <p>謝謝你。接下來不用再做什麼，等我們的電話或 Email 就好。</p>
   </div>
-</div>
+</header>
 
-<main class="section">
+<main id="main" class="section">
   <div class="container">
     <div class="rs-thanks">
 
@@ -137,7 +138,7 @@
         </div>
       </div>
       <div class="footer-col">
-        <h4>導覽</h4>
+        <p class="footer-col__title">導覽</p>
         <ul>
           <li><a href="projects.html">專案</a></li>
           <li><a href="services.html">服務</a></li>
@@ -151,7 +152,7 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h4>服務</h4>
+        <p class="footer-col__title">服務</p>
         <ul>
           <li><a href="services.html#design-build">設計施工一體</a></li>
           <li><a href="services.html#permits">許可與法規</a></li>
@@ -162,7 +163,7 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h4>聯絡</h4>
+        <p class="footer-col__title">聯絡</p>
         <ul>
           <li><a href="https://maps.google.com/maps?q=115%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%B6%93%E8%B2%BF%E4%BA%8C%E8%B7%AF135%E8%99%9F&amp;hl=zh-TW&amp;z=17" target="_blank" rel="noopener">115台北市南港區<br>經貿二路135號9樓</a></li>
           <li><a href="tel:+886225573003">02-2557-3003</a></li>

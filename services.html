@@ -28,18 +28,19 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to main content</a>
 
 <!-- NAVIGATION -->
 <nav class="nav" id="nav">
   <div class="nav-inner">
     <a class="nav-logo nav-logo--int" href="index.html">
-      <img src="assets/images/logo/IMG_6412.PNG" alt="HQ Design Logo">
+      <img src="assets/images/logo/IMG_6412.PNG" alt="HQ Design Logo" width="640" height="271">
       <div>
         <span class="name-en">HQ Design</span>
         <span class="name-zh name-zh--en">Since 1995</span>
       </div>
     </a>
-    <ul class="nav-links">
+    <ul class="nav-links" id="nav-links">
       <li><a href="projects.html">Projects</a></li>
       <li class="nav-item nav-item--services">
         <a href="services.html" class="active" aria-haspopup="true" aria-expanded="false" aria-controls="nav-services-menu">Services<span class="nav-caret" aria-hidden="true"></span></a>
@@ -58,11 +59,12 @@
       <a class="lang-toggle__item" href="zh/services.html" hreflang="zh-Hant" lang="zh-Hant">中文</a>
     </div>
     <a class="btn btn-primary nav-cta" href="contact.html">Contact</a>
-    <div class="hamburger" id="hamburger">
+    <button type="button" class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">
       <span></span><span></span><span></span>
-    </div>
+    </button>
   </div>
 </nav>
+<main id="main">
 
 <div class="page-hero">
   <div class="container">
@@ -251,6 +253,8 @@
 </section>
 
 <!-- FOOTER -->
+</main>
+
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
@@ -270,7 +274,7 @@
         </div>
       </div>
       <div class="footer-col">
-        <h4>Navigation</h4>
+        <p class="footer-col__title">Navigation</p>
         <ul>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="services.html">Services</a></li>
@@ -282,7 +286,7 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Services</h4>
+        <p class="footer-col__title">Services</p>
         <ul>
           <li><a href="services.html#design-build">Design &amp; Build</a></li>
           <li><a href="services.html#permits">Permits &amp; Compliance</a></li>
@@ -293,7 +297,7 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Contact</h4>
+        <p class="footer-col__title">Contact</p>
         <ul>
           <li><a href="https://maps.google.com/maps?q=115%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%E7%B6%93%E8%B2%BF%E4%BA%8C%E8%B7%AF135%E8%99%9F&amp;hl=en&amp;z=17" target="_blank" rel="noopener">9F, No.135 Jingmao 2nd Rd<br>Nangang, Taipei 115, Taiwan</a></li>
           <li><a href="tel:+886225573003">+886-2-2557-3003</a></li>
