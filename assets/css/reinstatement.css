@@ -1461,3 +1461,79 @@
     transition: none;
   }
 }
+
+/* 退租流程／點交清單（可列印）。不用 .rs-check：那個 class 是表單勾選列。 */
+.rs-handover {
+  list-style: none;
+  display: block;
+  max-width: 760px;
+  margin: 8px auto 0;
+  padding: 0;
+  counter-reset: rs-handover;
+  border-top: 1px solid var(--border);
+}
+.rs-handover li {
+  display: grid;
+  grid-template-columns: 2.6rem 1.15rem minmax(0, 1fr);
+  column-gap: 12px;
+  align-items: start;
+  counter-increment: rs-handover;
+  width: 100%;
+  padding: 16px 4px;
+  border-bottom: 1px solid var(--border);
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--dark);
+  break-inside: avoid;
+}
+.rs-handover li::before {
+  content: counter(rs-handover, decimal-leading-zero);
+  font-family: var(--font-en);
+  font-weight: 700;
+  color: var(--brand);
+  letter-spacing: 0.04em;
+  line-height: 1.75;
+}
+.rs-handover-box {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+  border: 1.5px solid var(--dark);
+  border-radius: 2px;
+  background: var(--white);
+}
+.rs-handover-actions {
+  max-width: 760px;
+  margin: 28px auto 0;
+}
+@media (max-width: 640px) {
+  .rs-handover li {
+    grid-template-columns: 2.2rem 1.15rem minmax(0, 1fr);
+    column-gap: 8px;
+    font-size: 14px;
+  }
+}
+@media print {
+  .rs-handover-actions {
+    display: none !important;
+  }
+  .rs-handover li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  body.rs-printing-checklist nav,
+  body.rs-printing-checklist footer,
+  body.rs-printing-checklist main > section:not(#rs-checklist) {
+    display: none !important;
+  }
+  body.rs-printing-checklist {
+    background: #fff !important;
+  }
+  body.rs-printing-checklist #rs-checklist {
+    display: block !important;
+    padding: 0 !important;
+  }
+  body.rs-printing-checklist #rs-checklist .label {
+    color: #000;
+  }
+}

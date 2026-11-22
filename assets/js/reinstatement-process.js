@@ -135,3 +135,33 @@
   activate(1);
   update();
 })();
+
+/* 點交清單：按下列印時只印這一段，畫面上的內容維持不變。 */
+(function () {
+  "use strict";
+  var button = document.querySelector("[data-rs-print-checklist]");
+  if (!button) return;
+
+  button.addEventListener("click", function () {
+    document.body.classList.add("rs-printing-checklist");
+
+    function cleanup() {
+      document.body.classList.remove("rs-printing-checklist");
+    }
+
+    window.addEventListener("afterprint", cleanup, { once: true });
+    if (window.matchMedia) {
+      var mql = window.matchMedia("print");
+      var onChange = function (event) {
+        if (!event.matches) {
+          cleanup();
+          if (mql.removeEventListener) mql.removeEventListener("change", onChange);
+          else if (mql.removeListener) mql.removeListener(onChange);
+        }
+      };
+      if (mql.addEventListener) mql.addEventListener("change", onChange);
+      else if (mql.addListener) mql.addListener(onChange);
+    }
+    window.print();
+  });
+})();
