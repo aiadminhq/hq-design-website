@@ -75,54 +75,43 @@
 }
   </script>
   <link rel="stylesheet" href="../assets/css/style.css">
-  <style>
-    .hero--int { min-height: 88vh; display: block; padding-top: 0; }
-    .hero--int .hero-bg { background-image: url('../assets/images/projects/secom-nangang-complex/photo-01.jpg'); background-position: center 40%; opacity: 0.75; }
-    .hero--int::after { background: linear-gradient(180deg, rgba(20,35,50,0.78) 0%, rgba(20,35,50,0.68) 48%, rgba(20,35,50,0.84) 100%); }
-    .hero--int .hero-content { padding-top: 168px; padding-bottom: 56px; }
-    .hero--int .hero-headline { font-size: clamp(48px, 7vw, 92px); letter-spacing: -2px; margin-bottom: 24px; }
-    .hero--int .hero-sub-en { font-size: 18px; max-width: 640px; margin-bottom: 40px; color: rgba(255,255,255,0.78); line-height: 1.5; }
-    .hero--int .hero-actions { margin-bottom: 56px; }
-    .hero--int .btn-primary { background: var(--accent); border-color: var(--accent); padding: 16px 32px; font-size: 15px; }
-    .hero--int .btn-primary:hover { background: var(--accent-dark); border-color: var(--accent-dark); }
-    .hero--int .hero-stats { gap: 56px; padding-top: 36px; border-top: 1px solid rgba(255,255,255,0.14); }
-    .hero--int .stat-num { font-size: 48px; display: inline-flex; align-items: baseline; gap: 2px; }
-    .hero--int .stat-num .stat-unit { font-size: 32px; color: var(--accent); font-weight: 700; }
-    .hero--int .stat-label-en { font-size: 10px; letter-spacing: 1.2px; text-transform: uppercase; }
-    .logos-bar--int { background: var(--white); border-bottom: 1px solid var(--border); padding: 36px 0; }
-    .logos-bar--int .logos-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px 0; }
-    .logos-bar--int .logo-item { flex: 0 0 20%; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px; padding: 4px 0; opacity: 0.88; }
-    .logos-bar--int .logo-item:hover { opacity: 1; }
-    .logos-bar--int .logo-item .lo-en { font-family: var(--font-en); font-size: 12px; font-weight: 700; letter-spacing: 0.6px; color: var(--brand); line-height: 1.1; text-transform: uppercase; }
-    .logos-bar--int .logos-bar-label { font-family: var(--font-en); font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--light); text-align: center; margin-bottom: 22px; font-weight: 600; }
-    .taiwan-wedge { background: var(--brand); color: var(--white); padding: 88px 0; position: relative; overflow: hidden; }
-    .taiwan-wedge::before { content: ''; position: absolute; top: 0; right: 0; bottom: 0; width: 45%; background-image: url('../assets/images/projects/kimpton/photo-01.jpg'); background-size: cover; background-position: center; opacity: 0.20; pointer-events: none; }
-    .taiwan-wedge::after { content: ''; position: absolute; top: 0; bottom: 0; right: 35%; width: 30%; background: linear-gradient(90deg, var(--brand) 0%, transparent 100%); pointer-events: none; }
-    .taiwan-wedge .container { position: relative; z-index: 1; }
-    .taiwan-wedge .label { color: var(--accent); margin-bottom: 14px; }
-    .taiwan-wedge h2 { font-family: var(--font-en); font-size: clamp(32px, 4.2vw, 48px); letter-spacing: -1.2px; max-width: 720px; margin-bottom: 20px; line-height: 1.1; }
-    .taiwan-wedge .lead { max-width: 640px; font-size: 17px; color: rgba(255,255,255,0.72); line-height: 1.65; margin-bottom: 32px; }
-    .taiwan-wedge .checks { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 14px 28px; max-width: 720px; margin-bottom: 36px; }
-    .taiwan-wedge .check { display: flex; gap: 12px; align-items: flex-start; font-family: var(--font-en); font-size: 14px; color: rgba(255,255,255,0.82); }
-    .taiwan-wedge .check .dot { width: 6px; height: 6px; background: var(--accent); border-radius: 50%; margin-top: 8px; flex-shrink: 0; }
-    .scroll-cue { position: absolute; bottom: 28px; left: 50%; transform: translateX(-50%); font-family: var(--font-en); font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.45); z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 8px; }
-    .scroll-cue .line { width: 1px; height: 36px; background: linear-gradient(180deg, rgba(255,255,255,0.40), transparent); }
-    .project-name { display: flex; flex-direction: column; gap: 2px; line-height: 1.25; margin-bottom: 6px; }
-    .project-name .name-en { font-family: var(--font-en); font-size: 18px; font-weight: 700; color: var(--white); }
-    .project-name .name-zh-pn { font-family: var(--font-zh); font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.65); }
-    .project-name .name-zh { font-family: var(--font-zh); font-size: 18px; font-weight: 700; color: var(--white); }
-    @media (max-width: 768px) {
-      .hero--int .hero-content { padding-top: 110px; }
-      .taiwan-wedge::before, .taiwan-wedge::after { display: none; }
-      .taiwan-wedge .checks { grid-template-columns: 1fr; }
-      .hero--int .hero-stats { gap: 28px; }
-    }
-  </style>
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;display=swap">
+  <link rel="stylesheet" href="../assets/css/home.css">
+  <!-- Loader 旗標：未開啟「減少動態」且本 session 首次才播放；7 秒保險逾時。詳見 docs/redesign/motion-study.md -->
+  <script>(function(){var d=document.documentElement;try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&sessionStorage.getItem('hqLoader')!=='1'){d.classList.add('hm-loading');setTimeout(function(){d.classList.remove('hm-loading')},7000)}}catch(e){}})();</script>
 </head>
-<body>
+<body class="ds-v2 hm-page">
 
+<div class="hm-loader" id="hm-loader" data-theme="dark" role="dialog" aria-modal="true" aria-label="惠強開場動畫" data-step="0">
+  <div class="hm-loader__window" aria-hidden="true">
+<svg viewBox="0 0 960 600" preserveAspectRatio="xMidYMid slice" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true" focusable="false">
+  <rect x="120" y="80" width="720" height="440"/><rect x="424" y="204" width="112" height="192"/>
+  <path d="M120 262 H424 M536 300 H840 M300 80 V262 M660 300 V520 M120 400 H300"/>
+  <rect x="540" y="304" width="296" height="212" fill="#ff4e2a" fill-opacity=".1" stroke="#ff4e2a" stroke-dasharray="6 5"/>
+</svg>
+
+  </div>
+  <div class="hm-loader__stage">
+    <ol class="hm-loader__list">
+      <li class="hm-loader__row" aria-label="需求"><span class="hm-loader__ini" aria-hidden="true">需</span><span class="hm-loader__rest" aria-hidden="true">求</span><span class="hm-loader__num" aria-hidden="true">01</span></li>
+      <li class="hm-loader__row" aria-label="設計"><span class="hm-loader__ini" aria-hidden="true">設</span><span class="hm-loader__rest" aria-hidden="true">計</span><span class="hm-loader__num" aria-hidden="true">02</span></li>
+      <li class="hm-loader__row" aria-label="申辦"><span class="hm-loader__ini" aria-hidden="true">申</span><span class="hm-loader__rest" aria-hidden="true">辦</span><span class="hm-loader__num" aria-hidden="true">03</span></li>
+      <li class="hm-loader__row" aria-label="施工"><span class="hm-loader__ini" aria-hidden="true">施</span><span class="hm-loader__rest" aria-hidden="true">工</span><span class="hm-loader__num" aria-hidden="true">04</span></li>
+    </ol>
+  </div>
+  <div class="hm-loader__meta">
+    <span>惠強 · 台北</span>
+    <button type="button" class="hm-loader__skip">略過開場</button>
+  </div>
+  <div class="hm-loader__bar" aria-hidden="true"></div>
+</div>
+
+<div id="hm-page">
 <!-- NAVIGATION -->
-<nav class="nav" id="nav">
+<nav class="nav nav--over-photo" id="nav">
   <div class="nav-inner">
     <a class="nav-logo nav-logo--int nav-logo--zh" href="index.html">
       <img src="../assets/images/logo/IMG_6412.PNG" alt="HQ Design Logo">
@@ -157,163 +146,228 @@
   </div>
 </nav>
 
-<section class="hero hero--int">
-  <div class="hero-bg"></div>
-  <div class="hero-content">
-    <div class="hero-label">商業空間設計施工 · 31年 · 台北</div>
-    <h1 class="hero-headline">營運不中斷。<br><span class="accent">一站式交付。</span></h1>
-    <p class="hero-sub-en" style="font-family:var(--font-zh); margin-bottom:12px;">為外資企業、飯店集團與上市櫃公司在台拓點打造機構級商業空間。設計與施工自有整合，一份合約、一位專案經理。</p>
-    <p class="hero-sub-en" style="font-family:var(--font-zh);">也服務在地企業辦公室：一位專案經理對口時程、追加與多方協調。百坪以上是我們接得住的協調與責任，不是承接門檻。</p>
-    <div class="hero-actions">
-      <a class="btn btn-primary" href="contact.html">開始您的專案 →</a>
-      <a class="btn btn-outline" href="projects.html">查看作品</a>
+<main id="main">
+<section class="hm-hero" data-theme="dark" aria-labelledby="hm-hero-title">
+  <div class="hm-hero__grid" aria-hidden="true"></div>
+<svg class="hm-hero__plan" viewBox="0 0 960 600" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="square" aria-hidden="true" focusable="false">
+  <!-- 虛構辦公樓層平面（HQ 自繪線稿，非任何實際專案圖面） -->
+  <g opacity=".9">
+    <rect pathLength="1000" class="hm-plan-draw" x="120" y="80" width="720" height="440"/>
+    <rect pathLength="1000" class="hm-plan-draw" x="424" y="204" width="112" height="192"/>
+    <path pathLength="1000" class="hm-plan-draw" d="M424 204 L536 396 M536 204 L424 396" opacity=".5"/>
+    <path pathLength="1000" class="hm-plan-draw" d="M120 262 H424 M536 300 H840 M300 80 V262 M660 300 V520 M120 400 H300"/>
+    <path pathLength="1000" class="hm-plan-draw" d="M300 262 a44 44 0 0 0 -44 -44 M660 380 a40 40 0 0 1 40 40 M300 400 a40 40 0 0 1 -40 40" opacity=".6"/>
+  </g>
+  <!-- 開放區工位 -->
+  <defs><g id="hm-desk"><rect x="0" y="0" width="38" height="20"/><circle cx="19" cy="31" r="7"/></g></defs>
+  <g stroke-width="1" opacity=".55">
+    <use href="#hm-desk" x="150" y="430"/><use href="#hm-desk" x="200" y="430"/><use href="#hm-desk" x="250" y="430"/>
+    <use href="#hm-desk" x="150" y="290"/><use href="#hm-desk" x="200" y="290"/><use href="#hm-desk" x="250" y="290"/>
+    <use href="#hm-desk" x="330" y="110"/><use href="#hm-desk" x="380" y="110"/><use href="#hm-desk" x="560" y="110"/><use href="#hm-desk" x="610" y="110"/><use href="#hm-desk" x="660" y="110"/><use href="#hm-desk" x="710" y="110"/>
+  </g>
+  <!-- 施工分區（零停工：分區分階段） -->
+  <g data-in style="--i:4">
+    <rect x="540" y="304" width="296" height="212" fill="#ff4e2a" fill-opacity=".10" stroke="#ff4e2a" stroke-dasharray="6 5"/>
+    <rect x="564" y="476" width="148" height="24" fill="#ff4e2a" stroke="none"/>
+    <text x="574" y="493" fill="#101924" stroke="none" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12" letter-spacing="1.2">ZONE B · IN WORKS</text>
+  </g>
+  <!-- 尺寸線 -->
+  <g stroke-width="1" opacity=".7" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12" fill="currentColor">
+    <path d="M120 52 H840 M120 44 V60 M840 44 V60"/>
+    <text x="446" y="44" stroke="none" letter-spacing="1.2">24,000</text>
+    <path d="M92 80 V520 M84 80 H100 M84 520 H100"/>
+    <text transform="translate(76 312) rotate(-90)" stroke="none" letter-spacing="1.2">14,600</text>
+    <circle cx="120" cy="560" r="12" fill="none"/><text x="115" y="565" stroke="none">A</text>
+    <circle cx="480" cy="560" r="12" fill="none"/><text x="475" y="565" stroke="none">B</text>
+    <circle cx="840" cy="560" r="12" fill="none"/><text x="835" y="565" stroke="none">C</text>
+    <path d="M120 548 V536 M480 548 V536 M840 548 V536" opacity=".5"/>
+  </g>
+  <g data-in style="--i:6" stroke-width="1">
+    <path d="M700 220 L740 160 H822" stroke="#ff4e2a"/>
+    <circle cx="700" cy="220" r="4" fill="#ff4e2a" stroke="none"/>
+    <text x="746" y="152" fill="currentColor" stroke="none" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12" letter-spacing="1.2">OPEN DURING WORKS</text>
+  </g>
+</svg>
+
+  <div class="hm-hero__inner">
+    <div class="hm-hero__top" data-in style="--i:0">
+      <span>商業空間設計施工 · 台北</span>
+      <span>Since 1995</span>
     </div>
-    <div class="hero-stats">
-      <div class="stat-item"><span class="stat-num">30<span class="stat-unit">+</span></span><span class="stat-label-en">年深耕經驗</span></div>
-      <div class="stat-item"><span class="stat-num">1,600<span class="stat-unit">+</span></span><span class="stat-label-en">商業空間案件</span></div>
-      <div class="stat-item"><span class="stat-num">9<span class="stat-unit">+</span></span><span class="stat-label-en">上市櫃客戶</span></div>
-      <div class="stat-item"><span class="stat-num">12<span class="stat-unit">月</span></span><span class="stat-label-en">完工保固</span></div>
+    <div class="hm-hero__main">
+      <div>
+        <h1 class="hm-hero__title" id="hm-hero-title" data-in style="--i:1">營運不中斷。<em>一站式交付。</em></h1>
+        <p class="hm-hero__lead" data-in style="--i:2">為外資企業、飯店集團與上市櫃公司在台拓點打造機構級商業空間。設計與施工自有整合，一份合約、一位專案經理。也服務在地企業辦公室：一位專案經理對口時程、追加與多方協調。百坪以上是我們接得住的協調與責任，不是承接門檻。</p>
+        <div class="hm-hero__cta" data-in style="--i:3">
+          <a class="hq-btn hq-btn--accent hq-btn--lg" href="contact.html">開始您的專案 →</a>
+          <a class="hq-btn hq-btn--ghost hq-btn--lg" href="projects.html">查看作品</a>
+        </div>
+      </div>
+      <div class="hm-glass" role="group" data-in style="--i:4" aria-label="惠強一覽">
+        <p class="hm-glass__title">一覽</p>
+        <dl class="hm-stats">
+          <div><dt>年深耕經驗</dt><dd>30<small>+</small></dd></div>
+          <div><dt>商業空間案件</dt><dd>1,600<small>+</small></dd></div>
+          <div><dt>上市櫃客戶</dt><dd>9<small>+</small></dd></div>
+          <div><dt>完工保固</dt><dd>12<small>月</small></dd></div>
+        </dl>
+      </div>
     </div>
   </div>
-  <div class="scroll-cue"><span>向下瀏覽</span><span class="line"></span></div>
 </section>
 
-<section class="section audience-doors" id="audience-doors">
-  <div class="container">
-    <div class="section-title">
-      <span class="label">兩種合作入口</span>
-      <h2>您的角色是？</h2>
+<section class="hm-section" id="services" aria-labelledby="hm-services-title">
+  <div class="hm-wrap">
+    <div class="hm-head hq-reveal">
+      <div>
+        <span class="hm-eyebrow">服務項目</span>
+        <h2 id="hm-services-title">一份合約，六種服務入口。</h2>
+      </div>
+      <p>六大服務 — 從設計施工一體到可單獨委託的許可申請。</p>
+    </div>
+    <ol class="hm-services">
+      <li class="hm-service hq-reveal">
+        <span class="hm-service__num" aria-hidden="true">01</span>
+        <div><h3><a href="services.html#design-build">設計施工一體</a></h3><p>同一自有團隊負責設計與施工，一份合約、一位專案經理，從需求確認到點交。</p></div>
+        <ul class="hm-flow" aria-label="流程"><li>需求</li><li>設計</li><li>施工</li></ul>
+        <span class="hm-service__go" aria-hidden="true">→</span>
+      </li>
+      <li class="hm-service hq-reveal">
+        <span class="hm-service__num" aria-hidden="true">02</span>
+        <div><h3><a href="services.html#permits">許可與法規</a></h3><p>室內裝修許可、消防審查與竣工查驗協調。可單獨委託，設計主導權仍屬您方。</p></div>
+        <ul class="hm-flow" aria-label="流程"><li>申辦</li><li>審查</li><li>查驗</li></ul>
+        <span class="hm-service__go" aria-hidden="true">→</span>
+      </li>
+      <li class="hm-service hq-reveal">
+        <span class="hm-service__num" aria-hidden="true">03</span>
+        <div><h3><a href="services.html#construction-mgmt">工程管理</a></h3><p>現場監造、進度管控、品質與安全監督，服務台灣商業裝修專案。</p></div>
+        <ul class="hm-flow" aria-label="流程"><li>規劃</li><li>監造</li><li>回報</li></ul>
+        <span class="hm-service__go" aria-hidden="true">→</span>
+      </li>
+      <li class="hm-service hq-reveal">
+        <span class="hm-service__num" aria-hidden="true">04</span>
+        <div><h3><a href="services.html#public-tender">政府採購</a></h3><p>協助整理與包裝公共工程／政府採購所需之室內裝修相關文件。</p></div>
+        <ul class="hm-flow" aria-label="流程"><li>文件</li><li>彙整</li><li>協助</li></ul>
+        <span class="hm-service__go" aria-hidden="true">→</span>
+      </li>
+      <li class="hm-service hq-reveal">
+        <span class="hm-service__num" aria-hidden="true">05</span>
+        <div><h3><a href="services.html#mep">機電整合</a></h3><p>機電與消防系統與室內設計協調，符合法規並確保可施工性。</p></div>
+        <ul class="hm-flow" aria-label="流程"><li>協調</li><li>確認</li><li>交付</li></ul>
+        <span class="hm-service__go" aria-hidden="true">→</span>
+      </li>
+      <li class="hm-service hq-reveal">
+        <span class="hm-service__num" aria-hidden="true">06</span>
+        <div><h3><a href="office-reinstatement.html">復原與點交</a></h3><p>租約到期復原與結構化點交，讓業主與下一位承租人清楚交接 — 詳見辦公室拆除／退租復原。</p></div>
+        <ul class="hm-flow" aria-label="流程"><li>勘查</li><li>復原</li><li>點交</li></ul>
+        <span class="hm-service__go" aria-hidden="true">→</span>
+      </li>
+    </ol>
+    <div class="hm-services-foot">
+      <p><a href="office-relocation.html">公司要搬辦公室</a> · <a href="taipei-office-renovation.html">既有據點裝修</a></p>
+      <a class="hq-btn hq-btn--outline" href="services.html">全部服務 →</a>
+    </div>
+  </div>
+</section>
+
+<section class="hm-section hm-section--subtle" id="audience-doors" aria-labelledby="hm-doors-title">
+  <div class="hm-wrap">
+    <div class="hm-head hq-reveal">
+      <div>
+        <span class="hm-eyebrow">兩種合作入口</span>
+        <h2 id="hm-doors-title">您的角色是？</h2>
+      </div>
       <p>同一支具執照的台灣團隊。兩個清楚入口 — 依您的角色選擇。</p>
     </div>
-    <div class="door-grid">
-      <a class="door-card" href="services.html">
-        <span class="door-kicker">業主／品牌</span>
+    <div class="hm-doors hq-reveal">
+      <a class="hm-door" href="services.html">
+        <span class="hm-eyebrow">業主／品牌</span>
         <h3>我需要打造一個空間</h3>
         <p>您是使用單位或品牌方。需要設計施工一體、單一專案經理，在台北完成商業室內裝修。</p>
-        <span class="door-cta">查看服務 →</span>
+        <span class="hm-door__cta">查看服務 →</span>
       </a>
-      <a class="door-card door-card--accent" href="local-partner-international-pm.html">
-        <span class="door-kicker">海外設計師與專案經理</span>
+      <a class="hm-door hm-door--accent" href="local-partner-international-pm.html">
+        <span class="hm-eyebrow">海外設計師與專案經理</span>
         <h3>我需要合格的在地合作夥伴</h3>
         <p>設計與客戶關係由您主導。我們負責台灣許可申請、法規合規、採購與現場監造。</p>
-        <span class="door-cta">在地合作夥伴 →</span>
+        <span class="hm-door__cta">在地合作夥伴 →</span>
       </a>
     </div>
   </div>
 </section>
 
-<div class="logos-bar logos-bar--int">
-  <div class="container">
-    <p class="logos-bar-label">合作客戶</p>
-    <div class="logos-grid">
-      <div class="logo-item"><span class="lo-en">中保科技</span></div>
-      <div class="logo-item"><span class="lo-en">復興空廚</span></div>
-      <div class="logo-item"><span class="lo-en">金普頓大安酒店</span></div>
-      <div class="logo-item"><span class="lo-en">大力水手</span></div>
-      <div class="logo-item"><span class="lo-en">匙碗湯</span></div>
-      <div class="logo-item"><span class="lo-en">起家雞</span></div>
-      <div class="logo-item"><span class="lo-en">國產實業</span></div>
-      <div class="logo-item"><span class="lo-en">惠普</span></div>
+<section class="hm-section" id="process" aria-labelledby="hm-process-title">
+  <div class="hm-wrap">
+    <div class="hm-head hq-reveal">
+      <div>
+        <span class="hm-eyebrow">流程</span>
+        <h2 id="hm-process-title">從需求到點交，一位專案經理。</h2>
+      </div>
+      <p>五個階段、同一個負責團隊，每週進度報告為標準配備。</p>
     </div>
-  </div>
-</div>
-
-<section class="taiwan-wedge">
-  <div class="container">
-    <span class="label">服務外資總部企業</span>
-    <h2>正在開設台北辦公室、飯店或旗艦店？</h2>
-    <p class="lead">我們曾為 Kimpton（美國）、大力水手（美國）、匙碗湯（新加坡）、起家雞（韓國）完成台灣據點交付。從許可、廠商管理、物業協調到英文採購文件，讓海外總部無需翻譯即可簽核。</p>
-    <div class="checks">
-      <div class="check"><span class="dot"></span><span>英文規格註解、圖面與進度報告</span></div>
-      <div class="check"><span class="dot"></span><span>在地許可與物業管理協調</span></div>
-      <div class="check"><span class="dot"></span><span>符合稽核標準的採購文件</span></div>
-<div class="check"><span class="dot"></span><span>從簡報到點交單一專案經理</span></div>
-    </div>
-    <a class="btn btn-primary" href="contact.html" style="background:var(--accent); border-color:var(--accent);">與專案總監洽談 →</a>
+    <ol class="hm-timeline hq-reveal">
+      <li class="hm-step"><span class="hm-step__num">01</span><h3>需求與可行性</h3><p>在開始畫圖前，先確認範圍、預算與時程。</p></li>
+      <li class="hm-step"><span class="hm-step__num">02</span><h3>設計與預算</h3><p>自有設計團隊；需要時提供英文圖面與規格註解。</p></li>
+      <li class="hm-step"><span class="hm-step__num">03</span><h3>許可與法規</h3><p>室內裝修許可、消防審查與物業管理協調。</p></li>
+      <li class="hm-step"><span class="hm-step__num">04</span><h3>施工與管理</h3><p>分區分階段施工，讓您的營運持續進行。</p></li>
+      <li class="hm-step"><span class="hm-step__num">05</span><h3>點交與保固</h3><p>完整結案文件，以及 12 個月完工保固。</p></li>
+    </ol>
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="section-title">
-      <span class="label">為什麼是惠強</span>
-      <h2>三大結構優勢</h2>
-      <p>機構級與企業客戶選擇惠強的關鍵</p>
+<section class="hm-section hm-section--subtle" aria-labelledby="hm-adv-title">
+  <div class="hm-wrap">
+    <div class="hm-head hq-reveal">
+      <div>
+        <span class="hm-eyebrow">為什麼是惠強</span>
+        <h2 id="hm-adv-title">三大結構優勢</h2>
+      </div>
+      <p>機構級與企業客戶選擇惠強的關鍵。</p>
     </div>
-    <div class="why-grid">
-      <div class="why-card"><div class="why-num">01</div><h3>零停工施工</h3><p>分區分階段施工，確保營運全程不中斷。機構級噪音、粉塵與動線管理，每週進度報告為標準配備。</p></div>
-      <div class="why-card"><div class="why-num">02</div><h3>單一合約、同一團隊</h3><p>設計與施工由同一自有團隊執行。一份合約、一位專案經理、單一責任窗口 — 從需求確認到最終點交，消除商業裝修最常見的超支來源。</p></div>
-      <div class="why-card"><div class="why-num">03</div><h3>機構級交付標準</h3><p>30+ 年、1,600+ 案件。完整採購文件包，符合上市櫃與金融機構合規稽核需求。</p></div>
+    <div class="hm-adv">
+      <article class="hm-adv__card hq-reveal"><span class="hm-eyebrow">01</span><h3>零停工施工</h3><p>分區分階段施工，確保營運全程不中斷。機構級噪音、粉塵與動線管理，每週進度報告為標準配備。</p></article>
+      <article class="hm-adv__card hq-reveal"><span class="hm-eyebrow">02</span><h3>單一合約、同一團隊</h3><p>設計與施工由同一自有團隊執行。一份合約、一位專案經理、單一責任窗口 — 從需求確認到最終點交，消除商業裝修最常見的超支來源。</p></article>
+      <article class="hm-adv__card hq-reveal"><span class="hm-eyebrow">03</span><h3>機構級交付標準</h3><p>30+ 年、1,600+ 案件。完整採購文件包，符合上市櫃與金融機構合規稽核需求。</p></article>
     </div>
   </div>
 </section>
 
-<section class="section" style="background: var(--bg); padding-top: 80px; padding-bottom: 80px;">
-  <div class="container">
-    <div class="section-title">
-      <span class="label">精選作品</span>
-      <h2>代表案例</h2>
-      <p>辦公室 · 飯店 · 餐飲 · 零售 — 跨產業商業空間實績</p>
+<section class="hm-hq" data-theme="navy" aria-labelledby="hm-hq-title">
+  <div class="hm-wrap">
+    <div class="hm-hq__grid">
+      <div class="hq-reveal">
+        <span class="hm-eyebrow">服務外資總部企業</span>
+        <h2 id="hm-hq-title">正在開設台北辦公室、飯店或旗艦店？</h2>
+        <p class="hm-hq__lead">我們曾為來自美國、新加坡與韓國的飯店、餐飲與企業品牌完成台灣據點交付。從許可、廠商管理、物業協調到英文採購文件，讓海外總部無需翻譯即可簽核。</p>
+        <a class="hq-btn hq-btn--accent hq-btn--lg" href="contact.html">與專案總監洽談 →</a>
+      </div>
+      <ul class="hm-checks hq-reveal">
+        <li>英文規格註解、圖面與進度報告</li>
+        <li>在地許可與物業管理協調</li>
+        <li>符合稽核標準的採購文件</li>
+        <li>從簡報到點交單一專案經理</li>
+      </ul>
     </div>
-    <div class="projects-grid">
-      <div class="project-card large">
-        <img src="../assets/images/projects/secom-nangang-complex/photo-01.jpg" alt="中興保全南港總部">
-        <div class="project-card-overlay">
-          <h3 class="project-name"><span class="name-zh">中興保全南港總部</span></h3>
-          <span class="project-meta">1,800 坪 · 台北南港 · 2025</span>
-          <span class="project-type">企業辦公</span>
-        </div>
-        <a class="project-link" href="projects/secom-nangang-complex.html">查看案例 →</a>
-      </div>
-      <div class="project-card">
-        <img src="../assets/images/projects/polytron/render-01.jpg" alt="保創科技">
-        <div class="project-card-overlay">
-          <h3 class="project-name"><span class="name-zh">保創科技</span><span class="name-en" style="font-size:13px;font-weight:500;color:rgba(255,255,255,0.65);">Brightron Technology</span></h3>
-          <span class="project-meta">257 坪 · 台北南港 · 2025</span>
-          <span class="project-type">企業辦公</span>
-        </div>
-        <a class="project-link" href="projects/polytron.html">查看案例 →</a>
-      </div>
-      <div class="project-card">
-        <img src="../assets/images/projects/aiontech/render-01.jpg" alt="博訊科技">
-        <div class="project-card-overlay">
-          <h3 class="project-name"><span class="name-zh">博訊科技</span><span class="name-en" style="font-size:13px;font-weight:500;color:rgba(255,255,255,0.65);">AIONTECH</span></h3>
-          <span class="project-meta">250 坪 · 台北南港 · 2025</span>
-          <span class="project-type">企業辦公</span>
-        </div>
-        <a class="project-link" href="projects/aiontech.html">查看案例 →</a>
-      </div>
-      <div class="project-card">
-        <img src="../assets/images/projects/kimpton/photo-01.jpg" alt="金普頓大安酒店">
-        <div class="project-card-overlay">
-          <h3 class="project-name"><span class="name-zh">金普頓大安酒店</span><span class="name-en" style="font-size:13px;font-weight:500;color:rgba(255,255,255,0.65);">Kimpton Da An Hotel</span></h3>
-          <span class="project-meta">100 坪 · 台北大安 · 2022</span>
-          <span class="project-type">飯店</span>
-        </div>
-        <a class="project-link" href="projects/kimpton.html">查看案例 →</a>
-      </div>
-    </div>
-    <div style="text-align:center; margin-top: 48px;"><a class="btn btn-outline-dark" href="projects.html">查看全部案例 →</a></div>
   </div>
 </section>
 
-<section class="section-sm">
-  <div class="container">
-    <div class="section-title center">
-      <span class="label">服務項目</span>
-      <h2>整合服務</h2>
-      <p>六大服務 — 從設計施工一體到可單獨委託的許可申請</p>
+<section class="hm-section" aria-labelledby="hm-work-title">
+  <div class="hm-wrap">
+    <div class="hm-head hq-reveal">
+      <div>
+        <span class="hm-eyebrow">精選作品</span>
+        <h2 id="hm-work-title">跨產業的商業空間實績</h2>
+      </div>
+      <p>辦公室 · 飯店 · 餐飲 · 零售。完整案例請見「專案」頁。</p>
     </div>
-    <div class="services-grid">
-      <div class="service-card"><div class="service-number">01</div><h3>設計施工一體</h3><p>同一自有團隊負責設計與施工，一份合約、一位專案經理，從需求確認到點交。</p></div>
-      <div class="service-card"><div class="service-number">02</div><h3>許可與法規</h3><p>室內裝修許可、消防審查與竣工查驗協調。可單獨委託，設計主導權仍屬您方。</p></div>
-      <div class="service-card"><div class="service-number">03</div><h3>工程管理</h3><p>現場監造、進度管控、品質與安全監督，服務台灣商業裝修專案。</p></div>
-      <div class="service-card"><div class="service-number">04</div><h3>政府採購</h3><p>協助整理與包裝公共工程／政府採購所需之室內裝修相關文件。</p></div>
-      <div class="service-card"><div class="service-number">05</div><h3>機電整合</h3><p>機電與消防系統與室內設計協調，符合法規並確保可施工性。</p></div>
-      <div class="service-card"><div class="service-number">06</div><h3>復原與點交</h3><p>租約到期復原與結構化點交，讓業主與下一位承租人清楚交接。</p><a class="service-card-link" href="office-reinstatement.html">辦公室拆除／退租復原</a></div>
-    </div>
-    <div style="text-align:center; margin-top: 40px;"><a class="btn btn-outline-dark" href="services.html">全部服務 →</a></div>
-    <p style="text-align:center; margin-top:16px; font-size:14px;"><a href="office-relocation.html">公司要搬辦公室</a> · <a href="taipei-office-renovation.html">既有據點裝修</a></p>
+    <ul class="hm-work">
+      <li class="hm-work__item hq-reveal"><svg class="hm-work__art" viewBox="0 0 160 120" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><rect x="14" y="12" width="132" height="96"/><path d="M14 52 H70 M96 12 V52"/><rect x="24" y="70" width="16" height="9"/><rect x="24" y="88" width="16" height="9"/><rect x="46" y="70" width="16" height="9"/><rect x="46" y="88" width="16" height="9"/><rect x="72" y="70" width="16" height="9"/><rect x="72" y="88" width="16" height="9"/><rect x="100" y="70" width="16" height="9"/><rect x="100" y="88" width="16" height="9"/><rect x="122" y="70" width="16" height="9"/><rect x="122" y="88" width="16" height="9"/><rect x="104" y="22" width="34" height="22" stroke="#ff4e2a"/></svg><h3><a href="projects.html">企業辦公</a></h3><p>總部與多樓層辦公室。</p></li>
+      <li class="hm-work__item hq-reveal"><svg class="hm-work__art" viewBox="0 0 160 120" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><rect x="14" y="14" width="132" height="92"/><rect x="38" y="46" width="64" height="48"/><rect x="42" y="50" width="24" height="12"/><rect x="74" y="50" width="24" height="12"/><rect x="112" y="64" width="22" height="22"/><path d="M14 30 H146" opacity=".5"/><rect x="24" y="40" width="10" height="54" stroke="#ff4e2a"/></svg><h3><a href="projects.html">飯店</a></h3><p>飯店與服務式空間。</p></li>
+      <li class="hm-work__item hq-reveal"><svg class="hm-work__art" viewBox="0 0 160 120" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M14 40 H146 M14 40 V104 M146 40 V104"/><path d="M24 40 V30 M60 40 V30 M96 40 V30 M132 40 V30" opacity=".6"/><circle cx="30" cy="84" r="8"/><circle cx="62" cy="84" r="8"/><circle cx="94" cy="84" r="8"/><circle cx="126" cy="84" r="8" stroke="#ff4e2a"/><path d="M14 64 H146"/></svg><h3><a href="projects.html">餐飲</a></h3><p>餐廳與連鎖速食品牌。</p></li>
+      <li class="hm-work__item hq-reveal"><svg class="hm-work__art" viewBox="0 0 160 120" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><rect x="14" y="14" width="132" height="92"/><path d="M14 44 H146 M14 74 H146" opacity=".6"/><rect x="24" y="30" width="14" height="12"/><rect x="24" y="60" width="14" height="12"/><rect x="46" y="30" width="14" height="12"/><rect x="46" y="60" width="14" height="12"/><rect x="68" y="30" width="14" height="12"/><rect x="68" y="60" width="14" height="12"/><rect x="94" y="30" width="14" height="12"/><rect x="94" y="60" width="14" height="12"/><rect x="118" y="30" width="14" height="12"/><rect x="118" y="60" width="14" height="12"/><rect x="52" y="86" width="56" height="12" stroke="#ff4e2a"/></svg><h3><a href="projects.html">零售</a></h3><p>旗艦店與專櫃。</p></li>
+
+    </ul>
+    <div class="hm-work-foot hq-reveal"><a class="hq-btn hq-btn--outline" href="projects.html">查看全部案例 →</a></div>
   </div>
 </section>
 
@@ -335,6 +389,7 @@
   </div>
 </section>
 
+</main>
 <!-- FOOTER -->
 <footer class="footer">
   <div class="container">
@@ -395,6 +450,8 @@
   </div>
 </footer>
 
+</div>
+<script src="../assets/js/home.js"></script>
 <script src="../assets/js/main.js"></script>
 </body>
 </html>
