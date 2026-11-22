@@ -537,7 +537,8 @@ a.hq-card:hover {
   max-width: calc(var(--container-max) + var(--gutter) * 2);
   padding-inline: var(--gutter);
 }
-.ds-v2 .footer-col h4 {
+.ds-v2 .footer-col h4,
+.ds-v2 .footer-col__title {
   font-family: var(--font-latin);
   font-size: var(--text-caption);
   font-weight: var(--weight-medium);

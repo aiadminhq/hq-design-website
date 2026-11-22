@@ -20,7 +20,7 @@
   --blue:       #2E5C8A;
   --dark:       #1A1A1A;
   --mid:        #5A5A5A;
-  --light:      #9A9A9A;
+  --light:      #6B6B6B; /* 白底 5.3:1、#F8F8F6 底 5.0:1（原 #9A9A9A 僅 2.8:1） */
   --bg:         #F8F8F6;
   --white:      #FFFFFF;
   --border:     #E0E0DB;
@@ -164,7 +164,11 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
-  padding: 4px;
+  padding: 14px 10px; /* 觸控範圍約 44×44 */
+  margin-right: -10px;
+  background: none;
+  border: 0;
+  color: inherit;
 }
 .hamburger span { display: block; width: 24px; height: 2px; background: var(--dark); transition: all var(--transition); border-radius: 2px; }
 
@@ -445,7 +449,11 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   transition: opacity var(--transition);
   background: transparent;
   color: var(--white);
-  padding: 10px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 22px;
   border-radius: var(--radius);
   border: 1px solid rgba(255,255,255,0.70);
   font-size: 12px;
@@ -635,7 +643,7 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
    ============================================================ */
 .about-stats {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 2px;
   background: var(--border);
   border-radius: var(--radius);
@@ -657,7 +665,7 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
 }
 .about-stat .unit { font-size: 24px; }
 .about-stat .zh { font-size: 13px; color: rgba(255,255,255,0.6); margin-top: 8px; }
-.about-stat .en-s { font-family: var(--font-en); font-size: 10px; color: rgba(255,255,255,0.3); margin-top: 2px; letter-spacing: 1px; text-transform: uppercase; }
+.about-stat .en-s { font-family: var(--font-en); font-size: 10px; color: rgba(255,255,255,0.6); margin-top: 2px; letter-spacing: 1px; text-transform: uppercase; }
 
 /* ============================================================
    CAREERS
@@ -841,7 +849,7 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
 .footer-logo { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
 .footer-logo img { height: 32px; filter: brightness(0) invert(1); }
 .footer-logo-text .name-zh { font-size: 14px; font-weight: 700; color: var(--white); }
-.footer-logo-text .name-en { font-family: var(--font-en); font-size: 10px; color: rgba(255,255,255,0.4); letter-spacing: 0.5px; }
+.footer-logo-text .name-en { font-family: var(--font-en); font-size: 10px; color: rgba(255,255,255,0.6); letter-spacing: 0.5px; }
 .footer-tagline { font-size: 13px; color: rgba(255,255,255,0.5); margin-bottom: 20px; line-height: 1.7; }
 .footer-certs { display: flex; flex-wrap: wrap; gap: 8px; }
 .cert-badge {
@@ -851,13 +859,13 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   letter-spacing: 0.5px;
   padding: 3px 8px;
   border-radius: 3px;
-  border: 1px solid rgba(255,255,255,0.15);
-  color: rgba(255,255,255,0.4);
+  border: 1px solid rgba(255,255,255,0.25);
+  color: rgba(255,255,255,0.65);
 }
 
-.footer-col h4 { font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 20px; font-family: var(--font-en); }
-.footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
-.footer-col ul a { font-size: 13px; color: rgba(255,255,255,0.6); transition: color var(--transition); }
+.footer-col h4, .footer-col__title { font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.6); margin-bottom: 20px; font-family: var(--font-en); }
+.footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 2px; }
+.footer-col ul a { display: inline-block; padding: 4px 0; font-size: 13px; color: rgba(255,255,255,0.6); transition: color var(--transition); }
 .footer-col ul a:hover { color: var(--white); }
 
 .footer-bottom {
@@ -867,8 +875,8 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   align-items: center;
   justify-content: space-between;
 }
-.footer-bottom p { font-family: var(--font-en); font-size: 12px; color: rgba(255,255,255,0.3); }
-.footer-reg { font-family: var(--font-en); font-size: 11px; color: rgba(255,255,255,0.25); }
+.footer-bottom p { font-family: var(--font-en); font-size: 12px; color: rgba(255,255,255,0.6); }
+.footer-reg { font-family: var(--font-en); font-size: 11px; color: rgba(255,255,255,0.6); }
 
 /* ============================================================
    PAGE HERO (inner pages)
@@ -930,7 +938,7 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   .hamburger { display: flex; }
   .why-grid, .services-grid, .projects-grid { grid-template-columns: 1fr; }
   .project-card.large { grid-column: span 1; }
-  .about-stats { grid-template-columns: repeat(2, 1fr); }
+  .about-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .contact-grid { grid-template-columns: 1fr; gap: 48px; }
   .cta-banner-inner { flex-direction: column; align-items: flex-start; }
   .cta-actions { align-items: flex-start; }
@@ -1102,13 +1110,18 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   flex-shrink: 0;
 }
 .lang-toggle__item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  min-height: 44px;
   font-family: var(--font-en);
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.4px;
   color: var(--mid);
   text-decoration: none;
-  padding: 4px 2px;
+  padding: 0 4px;
   white-space: nowrap;
 }
 .lang-toggle__item:hover { color: var(--brand); }
@@ -1319,13 +1332,13 @@ html[lang="zh-Hant"] .faq-group-title {
 .btn-whatsapp {
   background: #25D366;
   border-color: #25D366;
-  color: #fff;
+  color: var(--dark); /* 白字僅 1.98:1，深字約 8.5:1 */
   font-family: var(--font-en);
 }
 .btn-whatsapp:hover {
   background: #1DA851;
   border-color: #1DA851;
-  color: #fff;
+  color: var(--dark);
   transform: translateY(-1px);
   box-shadow: 0 4px 16px rgba(37, 211, 102, 0.35);
 }
@@ -1446,3 +1459,31 @@ html[lang="zh-Hant"] .faq-group-title {
     text-align: left;
   }
 }
+
+/* ============================================================
+   A11Y — skip link、頁尾觸控範圍（2026-11 稽核修復）
+   ============================================================ */
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 1000;
+  padding: 12px 20px;
+  background: var(--brand);
+  color: var(--white);
+  font-family: var(--font-en);
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: var(--radius);
+  transform: translateY(-200%);
+}
+.skip-link:focus { transform: translateY(0); outline: 2px solid var(--white); outline-offset: 2px; }
+main[id="main"] { scroll-margin-top: 72px; }
+@media (max-width: 768px) {
+  .footer-col ul { gap: 0; }
+  .footer-col ul a { padding: 12px 0; }
+}
+
+/* 作品頁：返回連結與側欄電話／信箱的觸控範圍 */
+.proj-hero .proj-back { display: inline-flex; align-items: center; min-height: 44px; }
+.cta-contact-info a { display: inline-block; padding: 11px 0; }

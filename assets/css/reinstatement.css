@@ -1167,6 +1167,7 @@
   border-color: rgba(255, 255, 255, 0.3);
 }
 .rs-page .footer-col h4,
+.rs-page .footer-col__title,
 .rs-page .footer-tagline,
 .rs-page .footer-bottom p,
 .rs-page .footer-reg {
@@ -1366,7 +1367,7 @@
 .is-enhanced .rs-pstep {
   width: min(480px, 80vw);
   flex-shrink: 0;
-  opacity: 0.45;
+  opacity: 0.85;
   transition: opacity 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
 .is-enhanced .rs-pstep.is-active {

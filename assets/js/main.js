@@ -13,6 +13,15 @@ hamburger?.addEventListener('click', () => {
   if (hamburger.hasAttribute('aria-expanded')) hamburger.setAttribute('aria-expanded', String(!!open));
 });
 
+// Esc closes the mobile menu and returns focus to the toggle button.
+document.addEventListener('keydown', (event) => {
+  if (event.key !== 'Escape' || !nav?.classList.contains('nav-mobile-open')) return;
+  nav.classList.remove('nav-mobile-open');
+  hamburger?.setAttribute('aria-expanded', 'false');
+  document.querySelector('[aria-controls="nav-services-menu"]')?.setAttribute('aria-expanded', 'false');
+  hamburger?.focus();
+});
+
 // Services dropdown: keep aria-expanded in sync with hover, keyboard focus, and the open mobile menu.
 (function initServicesDropdown() {
   const item = document.querySelector('.nav-item--services');
