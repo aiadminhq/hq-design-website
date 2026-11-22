@@ -1,0 +1,71 @@
+{
+  "aiontech": {
+    "noncompliant": "sheets/aiontech-noncompliant.jpg",
+    "compliant": "sheets/aiontech-compliant.jpg"
+  },
+  "baohua": {
+    "noncompliant": "sheets/baohua-noncompliant.jpg"
+  },
+  "epicstech-10f": {
+    "noncompliant": "sheets/epicstech-10f-noncompliant.jpg",
+    "compliant": "sheets/epicstech-10f-compliant.jpg"
+  },
+  "hq-office": {
+    "noncompliant": "sheets/hq-office-noncompliant.jpg",
+    "compliant": "sheets/hq-office-compliant.jpg"
+  },
+  "kimpton": {
+    "compliant": "sheets/kimpton-compliant.jpg"
+  },
+  "ledaojia": {
+    "noncompliant": "sheets/ledaojia-noncompliant.jpg",
+    "compliant": "sheets/ledaojia-compliant.jpg"
+  },
+  "lijie": {
+    "noncompliant": "sheets/lijie-noncompliant.jpg",
+    "compliant": "sheets/lijie-compliant.jpg"
+  },
+  "liwei": {
+    "noncompliant": "sheets/liwei-noncompliant.jpg",
+    "compliant": "sheets/liwei-compliant.jpg"
+  },
+  "polytron": {
+    "noncompliant": "sheets/polytron-noncompliant.jpg",
+    "compliant": "sheets/polytron-compliant.jpg"
+  },
+  "popeyes": {
+    "specgap": "sheets/popeyes-specgap.jpg"
+  },
+  "qijia": {
+    "compliant": "sheets/qijia-compliant.jpg"
+  },
+  "secom-nangang-complex": {
+    "specgap": "sheets/secom-nangang-complex-specgap.jpg"
+  },
+  "soup-spoon-101": {
+    "specgap": "sheets/soup-spoon-101-specgap.jpg"
+  },
+  "soup-spoon-station": {
+    "specgap": "sheets/soup-spoon-station-specgap.jpg"
+  },
+  "xinlan": {
+    "noncompliant": "sheets/xinlan-noncompliant.jpg",
+    "compliant": "sheets/xinlan-compliant.jpg"
+  },
+  "zhongbao-baojing": {
+    "noncompliant": "sheets/zhongbao-baojing-noncompliant.jpg",
+    "compliant": "sheets/zhongbao-baojing-compliant.jpg"
+  },
+  "zhongbao-jingzhen": {
+    "noncompliant": "sheets/zhongbao-jingzhen-noncompliant.jpg",
+    "compliant": "sheets/zhongbao-jingzhen-compliant.jpg"
+  },
+  "zhongbao-showroom": {
+    "noncompliant": "sheets/zhongbao-showroom-noncompliant.jpg",
+    "compliant": "sheets/zhongbao-showroom-compliant.jpg"
+  },
+  "zhongbao-tianhe": {
+    "noncompliant": "sheets/zhongbao-tianhe-noncompliant.jpg",
+    "compliant": "sheets/zhongbao-tianhe-compliant.jpg"
+  }
+}
