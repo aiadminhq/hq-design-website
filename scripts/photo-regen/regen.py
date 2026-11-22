@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """以 OpenAI images/edits 從乾淨構圖參考重生成超擬真照片，輸出 WebP（長邊 2400、品質 85、<600KB）。
 金鑰：由執行環境提供（OPENAI_API_KEY，或 Claude Code 環境 proxy 注入）；repo 不存任何金鑰。
+路線：job["route"] = enhance（預設，high＋場景描述）| edit（medium＋通用清理）| upscale（本機放大，不呼叫 API）
 用法：python3 regen.py jobs.json <ref_dir> <out_dir> [--only slug:out ...]
 """
 import base64, io, json, os, sys, time, urllib.request, uuid
@@ -8,6 +9,11 @@ from pathlib import Path
 from PIL import Image
 
 API = "https://api.openai.com/v1/images/edits"
+EDIT_PROMPT = ("Turn this interior design image into a full-bleed photorealistic architectural photograph of the same space "
+               "({view}). Keep the exact layout, camera angle, furniture, materials and colours. Remove any floor-plan inset, "
+               "logo watermark, white margins or presentation frame. Make lighting, materials and shadows look like a real "
+               "photograph, not a 3D render. No people. No legible text or logos anywhere.")
+QUALITY = {"enhance": "high", "edit": "medium"}
 
 
 def multipart(fields, files):
@@ -41,9 +47,19 @@ def main():
         tag = f'{j["slug"]}:{j["out"]}'
         if only and tag not in only: continue
         ref = ref_dir / f'{j["slug"]}-{j["ref"].split("-")[1]}.png'
-        prompt = f'{j["scene"]}\n\n{cfg["style"]}'
+        route = j.get("route", "enhance")
+        if route == "upscale":
+            im = Image.open(ref).convert("RGB"); buf = io.BytesIO(); im.save(buf, "PNG")
+            size, q, kb = to_webp(buf.getvalue(), out_dir / f'{j["slug"]}-{j["out"]}.webp')
+            print(json.dumps({"job": tag, "route": route, "size": size, "kb": kb})); continue
+        if route == "edit":
+            prompt = EDIT_PROMPT.format(view=j["view"])
+        else:
+            scene = j.get("scene") or (f'Space: {j["view"]}. Keep any signage text exactly as it reads in the reference '
+                                       'if clearly legible; if it is not clearly legible, leave the sign panel blank.')
+            prompt = f'{scene}\n\n{cfg["style"]}'
         body, ct = multipart({"model": cfg["model"], "prompt": prompt, "size": cfg["size"],
-                              "quality": cfg["quality"], "n": 1},
+                              "quality": j.get("quality") or QUALITY.get(route, "high"), "n": 1},
                              {"image[]": (ref.name, ref.read_bytes(), "image/png")})
         req = urllib.request.Request(API, data=body, headers={"Content-Type": ct, "Authorization": f"Bearer {key}"})
         t = time.time()
@@ -54,7 +70,7 @@ def main():
         png = base64.b64decode(d["data"][0]["b64_json"])
         (out_dir / f'{j["slug"]}-{j["out"]}.png').write_bytes(png)
         size, q, kb = to_webp(png, out_dir / f'{j["slug"]}-{j["out"]}.webp')
-        rec = {"job": tag, "view": j["view"], "secs": round(time.time() - t), "size": size, "q": q, "kb": kb, "usage": d.get("usage")}
+        rec = {"job": tag, "route": route, "view": j["view"], "secs": round(time.time() - t), "size": size, "q": q, "kb": kb, "usage": d.get("usage")}
         print(json.dumps(rec, ensure_ascii=False)); log.append(rec)
     with (out_dir / "log.jsonl").open("a") as fh:
         for r in log: fh.write(json.dumps(r, ensure_ascii=False) + "\n")
