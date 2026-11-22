@@ -34,7 +34,7 @@
 
 ## B. P0 優先替換 Baohua
 
-**2026-11-22 已完成**：以 OpenAI `gpt-image-2` edits 從裁切後舊稿重生 6 張（`selected-20261122-01…06.webp`，2400×1600），EN／ZH 詳頁、列表、`zh/taipei-office-renovation.html`、`zh/office-relocation.html` 均已替換，舊 `render-NN.jpg` 保留不引用。剩餘缺口 **49 張、12 案**（見 `docs/photo-audit/regeneration-queue.csv`）。原規劃：本輪最低需補 **55 張、共 13 案**。先補 Baohua 的入口主圖與 5 張相簿圖，再補 Brightron 的 5 張，最後補其餘 11 案各 4 張。B、C 表按各案建議交件順序列出視角，括號內編號對應各案目錄的 `render-NN.jpg`，供設計端找回原始構圖。
+**2026-11-22 已完成**：以 OpenAI `gpt-image-2` edits 從裁切後舊稿重生 6 張（`selected-20261122-01…06.webp`，2400×1600），EN／ZH 詳頁、列表、`zh/taipei-office-renovation.html`、`zh/office-relocation.html` 均已替換，舊 `render-NN.jpg` 保留不引用。P1 其餘 12 案（49 張）亦於同日完成：一般空間走 `images/edits` medium，入口／招牌／展示類依 `photo-enhance-render` skill 以 `gpt-image-2.6-sunburst` high 生成，逐張目視並放大檢查招牌文字。**13 案皆已達 6 張，缺口 0。**原規劃：本輪最低需補 **55 張、共 13 案**。先補 Baohua 的入口主圖與 5 張相簿圖，再補 Brightron 的 5 張，最後補其餘 11 案各 4 張。B、C 表按各案建議交件順序列出視角，括號內編號對應各案目錄的 `render-NN.jpg`，供設計端找回原始構圖。
 
 | 專案 | slug | 目前狀態 | 需要 |
 |---|---|---|---|

@@ -3,17 +3,17 @@
     {
       "slug": "aiontech",
       "project": "AIONTECH",
-      "files": 24,
-      "live_unique": 2,
-      "live_compliant": 2,
+      "files": 28,
+      "live_unique": 6,
+      "live_compliant": 6,
       "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 2,
+      "compliant_total": 6,
       "legacy_render_files": 20,
       "en_zh_match": true,
-      "en_count": 2,
-      "zh_count": 2,
-      "needed_to_reach_6": 4,
+      "en_count": 6,
+      "zh_count": 6,
+      "needed_to_reach_6": 0,
       "needed_views": [
         "休憩區",
         "投影會議室",
@@ -47,17 +47,17 @@
     {
       "slug": "epicstech-10f",
       "project": "Epic Tech",
-      "files": 10,
-      "live_unique": 2,
-      "live_compliant": 2,
+      "files": 14,
+      "live_unique": 6,
+      "live_compliant": 6,
       "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 2,
+      "compliant_total": 6,
       "legacy_render_files": 6,
       "en_zh_match": true,
-      "en_count": 2,
-      "zh_count": 2,
-      "needed_to_reach_6": 4,
+      "en_count": 6,
+      "zh_count": 6,
+      "needed_to_reach_6": 0,
       "needed_views": [
         "會議區側景",
         "木牆走廊",
@@ -68,17 +68,17 @@
     {
       "slug": "hq-office",
       "project": "HQ Design Office & Material Library",
-      "files": 20,
-      "live_unique": 2,
-      "live_compliant": 2,
+      "files": 24,
+      "live_unique": 6,
+      "live_compliant": 6,
       "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 2,
+      "compliant_total": 6,
       "legacy_render_files": 16,
       "en_zh_match": true,
-      "en_count": 2,
-      "zh_count": 2,
-      "needed_to_reach_6": 4,
+      "en_count": 6,
+      "zh_count": 6,
+      "needed_to_reach_6": 0,
       "needed_views": [
         "入口看向材料圖書館",
         "材料展示架",
@@ -105,17 +105,17 @@
     {
       "slug": "ledaojia",
       "project": "Lots Home Entertainment",
-      "files": 11,
-      "live_unique": 2,
-      "live_compliant": 2,
+      "files": 15,
+      "live_unique": 6,
+      "live_compliant": 6,
       "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 2,
+      "compliant_total": 6,
       "legacy_render_files": 8,
       "en_zh_match": true,
-      "en_count": 2,
-      "zh_count": 2,
-      "needed_to_reach_6": 4,
+      "en_count": 6,
+      "zh_count": 6,
+      "needed_to_reach_6": 0,
       "needed_views": [
         "入口接待（重生：招牌文字改用實際 logo／真實字樣，或留白）",
         "入口門廳",
@@ -127,17 +127,17 @@
     {
       "slug": "lijie",
       "project": "Lijie International",
-      "files": 10,
-      "live_unique": 2,
-      "live_compliant": 2,
+      "files": 14,
+      "live_unique": 6,
+      "live_compliant": 6,
       "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 2,
+      "compliant_total": 6,
       "legacy_render_files": 6,
       "en_zh_match": true,
-      "en_count": 2,
-      "zh_count": 2,
-      "needed_to_reach_6": 4,
+      "en_count": 6,
+      "zh_count": 6,
+      "needed_to_reach_6": 0,
       "needed_views": [
         "入口門廳",
         "玻璃隔間走道",
@@ -148,17 +148,17 @@
     {
       "slug": "liwei",
       "project": "Liwei Electronics",
-      "files": 17,
-      "live_unique": 2,
-      "live_compliant": 2,
+      "files": 21,
+      "live_unique": 6,
+      "live_compliant": 6,
       "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 2,
+      "compliant_total": 6,
       "legacy_render_files": 13,
       "en_zh_match": true,
-      "en_count": 2,
-      "zh_count": 2,
-      "needed_to_reach_6": 4,
+      "en_count": 6,
+      "zh_count": 6,
+      "needed_to_reach_6": 0,
       "needed_views": [
         "入口門廳",
         "協作吧檯",
@@ -169,17 +169,17 @@
     {
       "slug": "polytron",
       "project": "Brightron Technology",
-      "files": 20,
-      "live_unique": 1,
-      "live_compliant": 1,
+      "files": 25,
+      "live_unique": 6,
+      "live_compliant": 6,
       "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 1,
+      "compliant_total": 6,
       "legacy_render_files": 17,
       "en_zh_match": true,
-      "en_count": 1,
-      "zh_count": 1,
-      "needed_to_reach_6": 5,
+      "en_count": 6,
+      "zh_count": 6,
+      "needed_to_reach_6": 0,
       "needed_views": [
         "主管室",
         "大會議室",
@@ -271,17 +271,17 @@
     {
       "slug": "xinlan",
       "project": "Xinlan Enterprise",
-      "files": 12,
-      "live_unique": 2,
-      "live_compliant": 2,
+      "files": 16,
+      "live_unique": 6,
+      "live_compliant": 6,
       "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 2,
+      "compliant_total": 6,
       "legacy_render_files": 8,
       "en_zh_match": true,
-      "en_count": 2,
-      "zh_count": 2,
-      "needed_to_reach_6": 4,
+      "en_count": 6,
+      "zh_count": 6,
+      "needed_to_reach_6": 0,
       "needed_views": [
         "入口走廊",
         "小會議室",
@@ -292,17 +292,17 @@
     {
       "slug": "zhongbao-baojing",
       "project": "Zhong Bao Insurance Services",
-      "files": 15,
-      "live_unique": 2,
-      "live_compliant": 2,
+      "files": 19,
+      "live_unique": 6,
+      "live_compliant": 6,
       "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 2,
+      "compliant_total": 6,
       "legacy_render_files": 13,
       "en_zh_match": true,
-      "en_count": 2,
-      "zh_count": 2,
-      "needed_to_reach_6": 4,
+      "en_count": 6,
+      "zh_count": 6,
+      "needed_to_reach_6": 0,
       "needed_views": [
         "入口",
         "展示公告櫃",
@@ -313,17 +313,17 @@
     {
       "slug": "zhongbao-jingzhen",
       "project": "Ching Dian TECH",
-      "files": 17,
-      "live_unique": 2,
-      "live_compliant": 2,
+      "files": 21,
+      "live_unique": 6,
+      "live_compliant": 6,
       "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 2,
+      "compliant_total": 6,
       "legacy_render_files": 15,
       "en_zh_match": true,
-      "en_count": 2,
-      "zh_count": 2,
-      "needed_to_reach_6": 4,
+      "en_count": 6,
+      "zh_count": 6,
+      "needed_to_reach_6": 0,
       "needed_views": [
         "投影會議室",
         "獨立辦公室",
@@ -334,17 +334,17 @@
     {
       "slug": "zhongbao-showroom",
       "project": "SECOM Technology Hall",
-      "files": 21,
-      "live_unique": 2,
-      "live_compliant": 2,
+      "files": 25,
+      "live_unique": 6,
+      "live_compliant": 6,
       "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 2,
+      "compliant_total": 6,
       "legacy_render_files": 17,
       "en_zh_match": true,
-      "en_count": 2,
-      "zh_count": 2,
-      "needed_to_reach_6": 4,
+      "en_count": 6,
+      "zh_count": 6,
+      "needed_to_reach_6": 0,
       "needed_views": [
         "入口展區",
         "圓形互動牆",
@@ -355,17 +355,17 @@
     {
       "slug": "zhongbao-tianhe",
       "project": "eSkylink",
-      "files": 15,
-      "live_unique": 2,
-      "live_compliant": 2,
+      "files": 19,
+      "live_unique": 6,
+      "live_compliant": 6,
       "live_spec_gap": 0,
       "live_non_compliant": 0,
-      "compliant_total": 2,
+      "compliant_total": 6,
       "legacy_render_files": 13,
       "en_zh_match": true,
-      "en_count": 2,
-      "zh_count": 2,
-      "needed_to_reach_6": 4,
+      "en_count": 6,
+      "zh_count": 6,
+      "needed_to_reach_6": 0,
       "needed_views": [
         "入口門廳",
         "小會議室",
@@ -927,6 +927,114 @@
       "kind": "ai-selected",
       "status": "compliant",
       "ratio": 1.791,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/aiontech.html",
+        "zh/projects/aiontech.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "aiontech",
+      "project": "AIONTECH",
+      "file": "selected-20261122-03.webp",
+      "path": "assets/images/projects/aiontech/selected-20261122-03.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 374782,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/aiontech.html",
+        "zh/projects/aiontech.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "aiontech",
+      "project": "AIONTECH",
+      "file": "selected-20261122-04.webp",
+      "path": "assets/images/projects/aiontech/selected-20261122-04.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 323438,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/aiontech.html",
+        "zh/projects/aiontech.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "aiontech",
+      "project": "AIONTECH",
+      "file": "selected-20261122-05.webp",
+      "path": "assets/images/projects/aiontech/selected-20261122-05.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 410470,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/aiontech.html",
+        "zh/projects/aiontech.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "aiontech",
+      "project": "AIONTECH",
+      "file": "selected-20261122-06.webp",
+      "path": "assets/images/projects/aiontech/selected-20261122-06.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 394448,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
       "reasons": [],
       "advisory": [],
       "live": true,
@@ -1624,6 +1732,114 @@
       "decision": ""
     },
     {
+      "slug": "epicstech-10f",
+      "project": "Epic Tech",
+      "file": "selected-20261122-03.webp",
+      "path": "assets/images/projects/epicstech-10f/selected-20261122-03.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 283074,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/epicstech-10f.html",
+        "zh/projects/epicstech-10f.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "epicstech-10f",
+      "project": "Epic Tech",
+      "file": "selected-20261122-04.webp",
+      "path": "assets/images/projects/epicstech-10f/selected-20261122-04.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 514710,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/epicstech-10f.html",
+        "zh/projects/epicstech-10f.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "epicstech-10f",
+      "project": "Epic Tech",
+      "file": "selected-20261122-05.webp",
+      "path": "assets/images/projects/epicstech-10f/selected-20261122-05.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 397860,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/epicstech-10f.html",
+        "zh/projects/epicstech-10f.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "epicstech-10f",
+      "project": "Epic Tech",
+      "file": "selected-20261122-06.webp",
+      "path": "assets/images/projects/epicstech-10f/selected-20261122-06.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 389168,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/epicstech-10f.html",
+        "zh/projects/epicstech-10f.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
       "slug": "hq-office",
       "project": "HQ Design Office & Material Library",
       "file": "floorplan.jpg",
@@ -2076,6 +2292,114 @@
       "kind": "ai-selected",
       "status": "compliant",
       "ratio": 1.491,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/hq-office.html",
+        "zh/projects/hq-office.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "hq-office",
+      "project": "HQ Design Office & Material Library",
+      "file": "selected-20261122-03.webp",
+      "path": "assets/images/projects/hq-office/selected-20261122-03.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 295096,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/hq-office.html",
+        "zh/projects/hq-office.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "hq-office",
+      "project": "HQ Design Office & Material Library",
+      "file": "selected-20261122-04.webp",
+      "path": "assets/images/projects/hq-office/selected-20261122-04.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 184624,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/hq-office.html",
+        "zh/projects/hq-office.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "hq-office",
+      "project": "HQ Design Office & Material Library",
+      "file": "selected-20261122-05.webp",
+      "path": "assets/images/projects/hq-office/selected-20261122-05.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 295838,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/hq-office.html",
+        "zh/projects/hq-office.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "hq-office",
+      "project": "HQ Design Office & Material Library",
+      "file": "selected-20261122-06.webp",
+      "path": "assets/images/projects/hq-office/selected-20261122-06.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 214676,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
       "reasons": [],
       "advisory": [],
       "live": true,
@@ -2649,6 +2973,114 @@
       "decision": ""
     },
     {
+      "slug": "ledaojia",
+      "project": "Lots Home Entertainment",
+      "file": "selected-20261122-03.webp",
+      "path": "assets/images/projects/ledaojia/selected-20261122-03.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 406530,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/ledaojia.html",
+        "zh/projects/ledaojia.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "ledaojia",
+      "project": "Lots Home Entertainment",
+      "file": "selected-20261122-04.webp",
+      "path": "assets/images/projects/ledaojia/selected-20261122-04.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 297362,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/ledaojia.html",
+        "zh/projects/ledaojia.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "ledaojia",
+      "project": "Lots Home Entertainment",
+      "file": "selected-20261122-05.webp",
+      "path": "assets/images/projects/ledaojia/selected-20261122-05.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 218496,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/ledaojia.html",
+        "zh/projects/ledaojia.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "ledaojia",
+      "project": "Lots Home Entertainment",
+      "file": "selected-20261122-06.webp",
+      "path": "assets/images/projects/ledaojia/selected-20261122-06.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 577384,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/ledaojia.html",
+        "zh/projects/ledaojia.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
       "slug": "lijie",
       "project": "Lijie International",
       "file": "floorplan.jpg",
@@ -2871,6 +3303,114 @@
       "kind": "ai-selected",
       "status": "compliant",
       "ratio": 1.791,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/lijie.html",
+        "zh/projects/lijie.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "lijie",
+      "project": "Lijie International",
+      "file": "selected-20261122-03.webp",
+      "path": "assets/images/projects/lijie/selected-20261122-03.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 201292,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/lijie.html",
+        "zh/projects/lijie.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "lijie",
+      "project": "Lijie International",
+      "file": "selected-20261122-04.webp",
+      "path": "assets/images/projects/lijie/selected-20261122-04.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 537106,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/lijie.html",
+        "zh/projects/lijie.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "lijie",
+      "project": "Lijie International",
+      "file": "selected-20261122-05.webp",
+      "path": "assets/images/projects/lijie/selected-20261122-05.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 321508,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/lijie.html",
+        "zh/projects/lijie.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "lijie",
+      "project": "Lijie International",
+      "file": "selected-20261122-06.webp",
+      "path": "assets/images/projects/lijie/selected-20261122-06.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 599316,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
       "reasons": [],
       "advisory": [],
       "live": true,
@@ -3272,6 +3812,114 @@
       "kind": "ai-selected",
       "status": "compliant",
       "ratio": 1.791,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/liwei.html",
+        "zh/projects/liwei.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "liwei",
+      "project": "Liwei Electronics",
+      "file": "selected-20261122-03.webp",
+      "path": "assets/images/projects/liwei/selected-20261122-03.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 233380,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/liwei.html",
+        "zh/projects/liwei.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "liwei",
+      "project": "Liwei Electronics",
+      "file": "selected-20261122-04.webp",
+      "path": "assets/images/projects/liwei/selected-20261122-04.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 297134,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/liwei.html",
+        "zh/projects/liwei.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "liwei",
+      "project": "Liwei Electronics",
+      "file": "selected-20261122-05.webp",
+      "path": "assets/images/projects/liwei/selected-20261122-05.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 314960,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/liwei.html",
+        "zh/projects/liwei.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "liwei",
+      "project": "Liwei Electronics",
+      "file": "selected-20261122-06.webp",
+      "path": "assets/images/projects/liwei/selected-20261122-06.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 441784,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
       "reasons": [],
       "advisory": [],
       "live": true,
@@ -3751,6 +4399,141 @@
         "zh/projects.html",
         "zh/projects/polytron.html",
         "zh/taipei-office-renovation.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "polytron",
+      "project": "Brightron Technology",
+      "file": "selected-20261122-02.webp",
+      "path": "assets/images/projects/polytron/selected-20261122-02.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 218186,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/polytron.html",
+        "zh/projects/polytron.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "polytron",
+      "project": "Brightron Technology",
+      "file": "selected-20261122-03.webp",
+      "path": "assets/images/projects/polytron/selected-20261122-03.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 471472,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/polytron.html",
+        "zh/projects/polytron.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "polytron",
+      "project": "Brightron Technology",
+      "file": "selected-20261122-04.webp",
+      "path": "assets/images/projects/polytron/selected-20261122-04.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 406298,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/polytron.html",
+        "zh/projects/polytron.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "polytron",
+      "project": "Brightron Technology",
+      "file": "selected-20261122-05.webp",
+      "path": "assets/images/projects/polytron/selected-20261122-05.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 388172,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/polytron.html",
+        "zh/projects/polytron.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "polytron",
+      "project": "Brightron Technology",
+      "file": "selected-20261122-06.webp",
+      "path": "assets/images/projects/polytron/selected-20261122-06.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 185032,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/polytron.html",
+        "zh/projects/polytron.html"
       ],
       "needed_view": "",
       "flags": [],
@@ -5189,6 +5972,114 @@
       "decision": ""
     },
     {
+      "slug": "xinlan",
+      "project": "Xinlan Enterprise",
+      "file": "selected-20261122-03.webp",
+      "path": "assets/images/projects/xinlan/selected-20261122-03.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 483420,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/xinlan.html",
+        "zh/projects/xinlan.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "xinlan",
+      "project": "Xinlan Enterprise",
+      "file": "selected-20261122-04.webp",
+      "path": "assets/images/projects/xinlan/selected-20261122-04.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 404674,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/xinlan.html",
+        "zh/projects/xinlan.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "xinlan",
+      "project": "Xinlan Enterprise",
+      "file": "selected-20261122-05.webp",
+      "path": "assets/images/projects/xinlan/selected-20261122-05.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 394436,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/xinlan.html",
+        "zh/projects/xinlan.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "xinlan",
+      "project": "Xinlan Enterprise",
+      "file": "selected-20261122-06.webp",
+      "path": "assets/images/projects/xinlan/selected-20261122-06.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 517472,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/xinlan.html",
+        "zh/projects/xinlan.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
       "slug": "zhongbao-baojing",
       "project": "Zhong Bao Insurance Services",
       "file": "render-01.jpg",
@@ -5528,6 +6419,114 @@
       "kind": "ai-selected",
       "status": "compliant",
       "ratio": 1.791,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/zhongbao-baojing.html",
+        "zh/projects/zhongbao-baojing.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "zhongbao-baojing",
+      "project": "Zhong Bao Insurance Services",
+      "file": "selected-20261122-03.webp",
+      "path": "assets/images/projects/zhongbao-baojing/selected-20261122-03.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 175268,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/zhongbao-baojing.html",
+        "zh/projects/zhongbao-baojing.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "zhongbao-baojing",
+      "project": "Zhong Bao Insurance Services",
+      "file": "selected-20261122-04.webp",
+      "path": "assets/images/projects/zhongbao-baojing/selected-20261122-04.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 304904,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/zhongbao-baojing.html",
+        "zh/projects/zhongbao-baojing.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "zhongbao-baojing",
+      "project": "Zhong Bao Insurance Services",
+      "file": "selected-20261122-05.webp",
+      "path": "assets/images/projects/zhongbao-baojing/selected-20261122-05.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 450800,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/zhongbao-baojing.html",
+        "zh/projects/zhongbao-baojing.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "zhongbao-baojing",
+      "project": "Zhong Bao Insurance Services",
+      "file": "selected-20261122-06.webp",
+      "path": "assets/images/projects/zhongbao-baojing/selected-20261122-06.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 242550,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
       "reasons": [],
       "advisory": [],
       "live": true,
@@ -5932,6 +6931,114 @@
       "kind": "ai-selected",
       "status": "compliant",
       "ratio": 1.791,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/zhongbao-jingzhen.html",
+        "zh/projects/zhongbao-jingzhen.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "zhongbao-jingzhen",
+      "project": "Ching Dian TECH",
+      "file": "selected-20261122-03.webp",
+      "path": "assets/images/projects/zhongbao-jingzhen/selected-20261122-03.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 299110,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/zhongbao-jingzhen.html",
+        "zh/projects/zhongbao-jingzhen.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "zhongbao-jingzhen",
+      "project": "Ching Dian TECH",
+      "file": "selected-20261122-04.webp",
+      "path": "assets/images/projects/zhongbao-jingzhen/selected-20261122-04.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 489084,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/zhongbao-jingzhen.html",
+        "zh/projects/zhongbao-jingzhen.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "zhongbao-jingzhen",
+      "project": "Ching Dian TECH",
+      "file": "selected-20261122-05.webp",
+      "path": "assets/images/projects/zhongbao-jingzhen/selected-20261122-05.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 492462,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/zhongbao-jingzhen.html",
+        "zh/projects/zhongbao-jingzhen.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "zhongbao-jingzhen",
+      "project": "Ching Dian TECH",
+      "file": "selected-20261122-06.webp",
+      "path": "assets/images/projects/zhongbao-jingzhen/selected-20261122-06.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 140914,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
       "reasons": [],
       "advisory": [],
       "live": true,
@@ -6444,6 +7551,114 @@
       "decision": ""
     },
     {
+      "slug": "zhongbao-showroom",
+      "project": "SECOM Technology Hall",
+      "file": "selected-20261122-03.webp",
+      "path": "assets/images/projects/zhongbao-showroom/selected-20261122-03.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 205094,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/zhongbao-showroom.html",
+        "zh/projects/zhongbao-showroom.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "zhongbao-showroom",
+      "project": "SECOM Technology Hall",
+      "file": "selected-20261122-04.webp",
+      "path": "assets/images/projects/zhongbao-showroom/selected-20261122-04.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 313654,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/zhongbao-showroom.html",
+        "zh/projects/zhongbao-showroom.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "zhongbao-showroom",
+      "project": "SECOM Technology Hall",
+      "file": "selected-20261122-05.webp",
+      "path": "assets/images/projects/zhongbao-showroom/selected-20261122-05.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 352056,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/zhongbao-showroom.html",
+        "zh/projects/zhongbao-showroom.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "zhongbao-showroom",
+      "project": "SECOM Technology Hall",
+      "file": "selected-20261122-06.webp",
+      "path": "assets/images/projects/zhongbao-showroom/selected-20261122-06.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 434616,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/zhongbao-showroom.html",
+        "zh/projects/zhongbao-showroom.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
       "slug": "zhongbao-tianhe",
       "project": "eSkylink",
       "file": "render-01.jpg",
@@ -6784,6 +7999,114 @@
       "kind": "ai-selected",
       "status": "compliant",
       "ratio": 1.791,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/zhongbao-tianhe.html",
+        "zh/projects/zhongbao-tianhe.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "zhongbao-tianhe",
+      "project": "eSkylink",
+      "file": "selected-20261122-03.webp",
+      "path": "assets/images/projects/zhongbao-tianhe/selected-20261122-03.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 217916,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/zhongbao-tianhe.html",
+        "zh/projects/zhongbao-tianhe.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "zhongbao-tianhe",
+      "project": "eSkylink",
+      "file": "selected-20261122-04.webp",
+      "path": "assets/images/projects/zhongbao-tianhe/selected-20261122-04.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 350980,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/zhongbao-tianhe.html",
+        "zh/projects/zhongbao-tianhe.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "zhongbao-tianhe",
+      "project": "eSkylink",
+      "file": "selected-20261122-05.webp",
+      "path": "assets/images/projects/zhongbao-tianhe/selected-20261122-05.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 154666,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
+      "reasons": [],
+      "advisory": [],
+      "live": true,
+      "roles": [
+        "detail-en",
+        "detail-zh"
+      ],
+      "pages": [
+        "projects/zhongbao-tianhe.html",
+        "zh/projects/zhongbao-tianhe.html"
+      ],
+      "needed_view": "",
+      "flags": [],
+      "suggested_route": "keep",
+      "decision": ""
+    },
+    {
+      "slug": "zhongbao-tianhe",
+      "project": "eSkylink",
+      "file": "selected-20261122-06.webp",
+      "path": "assets/images/projects/zhongbao-tianhe/selected-20261122-06.webp",
+      "width": 2400,
+      "height": 1600,
+      "bytes": 492764,
+      "kind": "ai-selected",
+      "status": "compliant",
+      "ratio": 1.5,
       "reasons": [],
       "advisory": [],
       "live": true,

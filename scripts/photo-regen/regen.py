@@ -13,7 +13,31 @@ EDIT_PROMPT = ("Turn this interior design image into a full-bleed photorealistic
                "({view}). Keep the exact layout, camera angle, furniture, materials and colours. Remove any floor-plan inset, "
                "logo watermark, white margins or presentation frame. Make lighting, materials and shadows look like a real "
                "photograph, not a 3D render. No people. No legible text or logos anywhere.")
-QUALITY = {"enhance": "high", "edit": "medium"}
+QUALITY = {"enhance": "high", "edit": "medium", "skill-enhance": "high"}
+
+
+def skill_prompt(j):
+    """photo-enhance-render skill §4：cg-render／interior／final；signage 旗標加逐字保留句。"""
+    parts = [
+        f'Edit IMAGE 1, a 3D render of a {j["space"]}, into a real photograph of the same space — remove every trace of the CG look.',
+        "Keep the design exactly as modeled: geometry, layout, furniture, material colors, and detailing. Change only how it is lit "
+        "and photographed: one clear dominant light source with natural falloff and soft bounce light; tight contact shadows where "
+        "objects meet floors and walls; physically correct material response with subtle roughness variation, Fresnel reflections, "
+        "real-world texture scale, and faint imperfections — no plastic sheen; shot on a full-frame camera with a 35mm lens at eye "
+        "level, slight depth of field, subtle sensor grain.",
+        "Lighting: daytime; soft daylight from the windows as in IMAGE 1, with neutral 4000K office ceiling lights on.",
+        "Keep the camera position, angle, lens, perspective, vanishing points, and framing identical to IMAGE 1. Do not add, remove, "
+        "move, or resize any wall, opening, structural element, furniture, fixture, or decorative object.",
+    ]
+    if j.get("signage"):
+        parts.append("Keep all signage text and logos exactly as written, character by character, including Chinese characters; "
+                     "render them crisp and legible.")
+    if j.get("extra"):
+        parts.append(j["extra"])
+    parts.append("The result must look like a professional interior design photograph taken on site, not a render or an AI image: "
+                 "natural, restrained color, no oversaturation, no oversharpening. Match IMAGE 1's framing; extend the scene only "
+                 "minimally where needed to fill a 3:2 frame. No added text, borders, or watermarks. No people.")
+    return "\n".join(parts)
 
 
 def multipart(fields, files):
@@ -54,11 +78,13 @@ def main():
             print(json.dumps({"job": tag, "route": route, "size": size, "kb": kb})); continue
         if route == "edit":
             prompt = EDIT_PROMPT.format(view=j["view"])
+        elif route == "skill-enhance":
+            prompt = skill_prompt(j)
         else:
             scene = j.get("scene") or (f'Space: {j["view"]}. Keep any signage text exactly as it reads in the reference '
                                        'if clearly legible; if it is not clearly legible, leave the sign panel blank.')
             prompt = f'{scene}\n\n{cfg["style"]}'
-        body, ct = multipart({"model": cfg["model"], "prompt": prompt, "size": cfg["size"],
+        body, ct = multipart({"model": j.get("model") or cfg["model"], "prompt": prompt, "size": cfg["size"],
                               "quality": j.get("quality") or QUALITY.get(route, "high"), "n": 1},
                              {"image[]": (ref.name, ref.read_bytes(), "image/png")})
         req = urllib.request.Request(API, data=body, headers={"Content-Type": ct, "Authorization": f"Bearer {key}"})

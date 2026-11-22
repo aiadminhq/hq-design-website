@@ -23,6 +23,10 @@ aiontech,AIONTECH,render-19.jpg,legacy-render,non-compliant,False,,1626,1125,1.4
 aiontech,AIONTECH,render-20.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,129661,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/aiontech/render-20.jpg
 aiontech,AIONTECH,selected-20260923-01.webp,ai-selected,compliant,True,detail-en;detail-zh;list-home-other,2560,1429,1.791,120006,,,,keep,,assets/images/projects/aiontech/selected-20260923-01.webp
 aiontech,AIONTECH,selected-20260923-02.webp,ai-selected,compliant,True,detail-en;detail-zh,2560,1429,1.791,395738,,,,keep,,assets/images/projects/aiontech/selected-20260923-02.webp
+aiontech,AIONTECH,selected-20261122-03.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,374782,,,,keep,,assets/images/projects/aiontech/selected-20261122-03.webp
+aiontech,AIONTECH,selected-20261122-04.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,323438,,,,keep,,assets/images/projects/aiontech/selected-20261122-04.webp
+aiontech,AIONTECH,selected-20261122-05.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,410470,,,,keep,,assets/images/projects/aiontech/selected-20261122-05.webp
+aiontech,AIONTECH,selected-20261122-06.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,394448,,,,keep,,assets/images/projects/aiontech/selected-20261122-06.webp
 baohua,Baohua Cybersecurity,floorplan.jpg,floorplan,reserved,False,,1626,1125,1.445,272823,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/baohua/floorplan.jpg
 baohua,Baohua Cybersecurity,page-01.jpg,legacy-page,non-compliant,False,,1626,1125,1.445,107265,簡報 logo 頁／封面截圖,,,discard-from-gallery（logo 頁，不進相簿）,,assets/images/projects/baohua/page-01.jpg
 baohua,Baohua Cybersecurity,render-01.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,152813,簡報截圖：內嵌平面圖／浮水印／底部留白,,入口 hero,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/baohua/render-01.jpg
@@ -51,6 +55,10 @@ epicstech-10f,Epic Tech,render-05.jpg,legacy-render,non-compliant,False,,1626,11
 epicstech-10f,Epic Tech,render-06.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,286434,簡報截圖：內嵌平面圖／浮水印／底部留白,,獨立辦公室,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/epicstech-10f/render-06.jpg
 epicstech-10f,Epic Tech,selected-20260923-01.webp,ai-selected,compliant,True,detail-en;detail-zh;list-home-other,2560,1429,1.791,291008,,,,keep,,assets/images/projects/epicstech-10f/selected-20260923-01.webp
 epicstech-10f,Epic Tech,selected-20260923-02.webp,ai-selected,compliant,True,detail-en;detail-zh,2560,1429,1.791,181140,,,,keep,,assets/images/projects/epicstech-10f/selected-20260923-02.webp
+epicstech-10f,Epic Tech,selected-20261122-03.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,283074,,,,keep,,assets/images/projects/epicstech-10f/selected-20261122-03.webp
+epicstech-10f,Epic Tech,selected-20261122-04.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,514710,,,,keep,,assets/images/projects/epicstech-10f/selected-20261122-04.webp
+epicstech-10f,Epic Tech,selected-20261122-05.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,397860,,,,keep,,assets/images/projects/epicstech-10f/selected-20261122-05.webp
+epicstech-10f,Epic Tech,selected-20261122-06.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,389168,,,,keep,,assets/images/projects/epicstech-10f/selected-20261122-06.webp
 hq-office,HQ Design Office & Material Library,floorplan.jpg,floorplan,reserved,False,,1626,1125,1.445,155433,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/hq-office/floorplan.jpg
 hq-office,HQ Design Office & Material Library,page-01.jpg,legacy-page,non-compliant,False,,1626,1125,1.445,107539,簡報 logo 頁／封面截圖,,,discard-from-gallery（logo 頁，不進相簿）,,assets/images/projects/hq-office/page-01.jpg
 hq-office,HQ Design Office & Material Library,render-01.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,182451,簡報截圖：內嵌平面圖／浮水印／底部留白,,入口看向材料圖書館,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/hq-office/render-01.jpg
@@ -71,6 +79,10 @@ hq-office,HQ Design Office & Material Library,render-15.jpg,legacy-render,non-co
 hq-office,HQ Design Office & Material Library,render-16.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,193150,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/hq-office/render-16.jpg
 hq-office,HQ Design Office & Material Library,selected-20260923-01.webp,ai-selected,compliant,True,detail-en;detail-zh;list-home-other,2560,1717,1.491,306682,,,,keep,,assets/images/projects/hq-office/selected-20260923-01.webp
 hq-office,HQ Design Office & Material Library,selected-20260923-02.webp,ai-selected,compliant,True,detail-en;detail-zh,2560,1717,1.491,410846,,,,keep,,assets/images/projects/hq-office/selected-20260923-02.webp
+hq-office,HQ Design Office & Material Library,selected-20261122-03.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,295096,,,,keep,,assets/images/projects/hq-office/selected-20261122-03.webp
+hq-office,HQ Design Office & Material Library,selected-20261122-04.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,184624,,,,keep,,assets/images/projects/hq-office/selected-20261122-04.webp
+hq-office,HQ Design Office & Material Library,selected-20261122-05.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,295838,,,,keep,,assets/images/projects/hq-office/selected-20261122-05.webp
+hq-office,HQ Design Office & Material Library,selected-20261122-06.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,214676,,,,keep,,assets/images/projects/hq-office/selected-20261122-06.webp
 kimpton,Kimpton Da An Hotel,photo-01.jpg,real-photo,compliant,True,detail-en;detail-zh;list-home-other,2400,1600,1.5,845103,,檔案 825 KB > 600 KB,,keep,,assets/images/projects/kimpton/photo-01.jpg
 kimpton,Kimpton Da An Hotel,photo-02.jpg,real-photo,compliant,True,detail-en;detail-zh;list-home-other,2400,1600,1.5,796154,,檔案 777 KB > 600 KB,,keep,,assets/images/projects/kimpton/photo-02.jpg
 kimpton,Kimpton Da An Hotel,photo-03.jpg,real-photo,compliant,True,detail-en;detail-zh,2400,1600,1.5,667092,,檔案 651 KB > 600 KB,,keep,,assets/images/projects/kimpton/photo-03.jpg
@@ -92,6 +104,10 @@ ledaojia,Lots Home Entertainment,render-08.jpg,legacy-render,non-compliant,False
 ledaojia,Lots Home Entertainment,selected-20260923-01.webp,ai-selected,non-compliant,False,,2560,1429,1.791,293856,內容瑕疵：招牌文字為 AI 亂碼（NNOVANON／RETHNKNG／VECMNOLOGY／IVE），規格合格但不宜作 hero,,入口接待（重生：招牌文字改用實際 logo／真實字樣，或留白）,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/ledaojia/selected-20260923-01.webp
 ledaojia,Lots Home Entertainment,selected-20260923-02.webp,ai-selected,compliant,True,detail-en;detail-zh,2560,1429,1.791,230414,,,,keep,,assets/images/projects/ledaojia/selected-20260923-02.webp
 ledaojia,Lots Home Entertainment,selected-20261122-01.webp,ai-selected,compliant,True,detail-en;detail-zh;list-home-other,2400,1600,1.5,452406,,,,keep,,assets/images/projects/ledaojia/selected-20261122-01.webp
+ledaojia,Lots Home Entertainment,selected-20261122-03.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,406530,,,,keep,,assets/images/projects/ledaojia/selected-20261122-03.webp
+ledaojia,Lots Home Entertainment,selected-20261122-04.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,297362,,,,keep,,assets/images/projects/ledaojia/selected-20261122-04.webp
+ledaojia,Lots Home Entertainment,selected-20261122-05.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,218496,,,,keep,,assets/images/projects/ledaojia/selected-20261122-05.webp
+ledaojia,Lots Home Entertainment,selected-20261122-06.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,577384,,,,keep,,assets/images/projects/ledaojia/selected-20261122-06.webp
 lijie,Lijie International,floorplan.jpg,floorplan,reserved,False,,1626,1125,1.445,124435,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/lijie/floorplan.jpg
 lijie,Lijie International,page-01.jpg,legacy-page,non-compliant,False,,1626,1125,1.445,107311,簡報 logo 頁／封面截圖,,,discard-from-gallery（logo 頁，不進相簿）,,assets/images/projects/lijie/page-01.jpg
 lijie,Lijie International,render-01.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,235814,簡報截圖：內嵌平面圖／浮水印／底部留白,,入口門廳,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/lijie/render-01.jpg
@@ -102,6 +118,10 @@ lijie,Lijie International,render-05.jpg,legacy-render,non-compliant,False,,1626,
 lijie,Lijie International,render-06.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,552306,簡報截圖：內嵌平面圖／浮水印／底部留白,,訪客沙發側景,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/lijie/render-06.jpg
 lijie,Lijie International,selected-20260923-01.webp,ai-selected,compliant,True,detail-en;detail-zh;list-home-other,2560,1429,1.791,237402,,,,keep,,assets/images/projects/lijie/selected-20260923-01.webp
 lijie,Lijie International,selected-20260923-02.webp,ai-selected,compliant,True,detail-en;detail-zh,2560,1429,1.791,397690,,,,keep,,assets/images/projects/lijie/selected-20260923-02.webp
+lijie,Lijie International,selected-20261122-03.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,201292,,,,keep,,assets/images/projects/lijie/selected-20261122-03.webp
+lijie,Lijie International,selected-20261122-04.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,537106,,,,keep,,assets/images/projects/lijie/selected-20261122-04.webp
+lijie,Lijie International,selected-20261122-05.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,321508,,,,keep,,assets/images/projects/lijie/selected-20261122-05.webp
+lijie,Lijie International,selected-20261122-06.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,599316,,,,keep,,assets/images/projects/lijie/selected-20261122-06.webp
 liwei,Liwei Electronics,floorplan.jpg,floorplan,reserved,False,,1626,1125,1.445,354319,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/liwei/floorplan.jpg
 liwei,Liwei Electronics,page-01.jpg,legacy-page,non-compliant,False,,1626,1125,1.445,107265,簡報 logo 頁／封面截圖,,,discard-from-gallery（logo 頁，不進相簿）,,assets/images/projects/liwei/page-01.jpg
 liwei,Liwei Electronics,render-01.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,231355,簡報截圖：內嵌平面圖／浮水印／底部留白,,入口門廳,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/liwei/render-01.jpg
@@ -119,6 +139,10 @@ liwei,Liwei Electronics,render-12.jpg,legacy-render,non-compliant,False,,1626,11
 liwei,Liwei Electronics,render-13.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,138884,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/liwei/render-13.jpg
 liwei,Liwei Electronics,selected-20260923-01.webp,ai-selected,compliant,True,detail-en;detail-zh;list-home-other,2560,1429,1.791,140956,,,,keep,,assets/images/projects/liwei/selected-20260923-01.webp
 liwei,Liwei Electronics,selected-20260923-02.webp,ai-selected,compliant,True,detail-en;detail-zh,2560,1429,1.791,416088,,,,keep,,assets/images/projects/liwei/selected-20260923-02.webp
+liwei,Liwei Electronics,selected-20261122-03.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,233380,,,,keep,,assets/images/projects/liwei/selected-20261122-03.webp
+liwei,Liwei Electronics,selected-20261122-04.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,297134,,,,keep,,assets/images/projects/liwei/selected-20261122-04.webp
+liwei,Liwei Electronics,selected-20261122-05.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,314960,,,,keep,,assets/images/projects/liwei/selected-20261122-05.webp
+liwei,Liwei Electronics,selected-20261122-06.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,441784,,,,keep,,assets/images/projects/liwei/selected-20261122-06.webp
 polytron,Brightron Technology,floorplan.jpg,floorplan,reserved,False,,1626,1125,1.445,292907,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/polytron/floorplan.jpg
 polytron,Brightron Technology,page-01.jpg,legacy-page,non-compliant,False,,1626,1125,1.445,107265,簡報 logo 頁／封面截圖,,,discard-from-gallery（logo 頁，不進相簿）,,assets/images/projects/polytron/page-01.jpg
 polytron,Brightron Technology,render-01.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,230966,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/polytron/render-01.jpg
@@ -139,6 +163,11 @@ polytron,Brightron Technology,render-15.jpg,legacy-render,non-compliant,False,,1
 polytron,Brightron Technology,render-16.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,283294,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/polytron/render-16.jpg
 polytron,Brightron Technology,render-17.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,251649,簡報截圖：內嵌平面圖／浮水印／底部留白,,茶水區,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/polytron/render-17.jpg
 polytron,Brightron Technology,selected-20260923-01.webp,ai-selected,compliant,True,detail-en;detail-zh;list-home-other,2560,1429,1.791,227132,,,,keep,,assets/images/projects/polytron/selected-20260923-01.webp
+polytron,Brightron Technology,selected-20261122-02.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,218186,,,,keep,,assets/images/projects/polytron/selected-20261122-02.webp
+polytron,Brightron Technology,selected-20261122-03.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,471472,,,,keep,,assets/images/projects/polytron/selected-20261122-03.webp
+polytron,Brightron Technology,selected-20261122-04.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,406298,,,,keep,,assets/images/projects/polytron/selected-20261122-04.webp
+polytron,Brightron Technology,selected-20261122-05.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,388172,,,,keep,,assets/images/projects/polytron/selected-20261122-05.webp
+polytron,Brightron Technology,selected-20261122-06.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,185032,,,,keep,,assets/images/projects/polytron/selected-20261122-06.webp
 popeyes,Popeyes Xuchang Street,photo-01.jpg,real-photo,compliant,True,detail-en;detail-zh;list-home-other,2000,1333,1.5,449464,,,,keep,,assets/images/projects/popeyes/photo-01.jpg
 popeyes,Popeyes Xuchang Street,photo-02.jpg,real-photo,compliant,True,detail-en;detail-zh,2000,1333,1.5,353076,,,,keep,,assets/images/projects/popeyes/photo-02.jpg
 popeyes,Popeyes Xuchang Street,photo-03.jpg,real-photo,compliant,True,detail-en;detail-zh,2000,1333,1.5,313120,,,,keep,,assets/images/projects/popeyes/photo-03.jpg
@@ -195,6 +224,10 @@ xinlan,Xinlan Enterprise,render-07.jpg,legacy-render,non-compliant,False,,1626,1
 xinlan,Xinlan Enterprise,render-08.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,339544,簡報截圖：內嵌平面圖／浮水印／底部留白,,小會議室,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/xinlan/render-08.jpg
 xinlan,Xinlan Enterprise,selected-20260923-01.webp,ai-selected,compliant,True,detail-en;detail-zh;list-home-other,2560,1429,1.791,442008,,,,keep,,assets/images/projects/xinlan/selected-20260923-01.webp
 xinlan,Xinlan Enterprise,selected-20260923-02.webp,ai-selected,compliant,True,detail-en;detail-zh,2560,1429,1.791,188186,,,,keep,,assets/images/projects/xinlan/selected-20260923-02.webp
+xinlan,Xinlan Enterprise,selected-20261122-03.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,483420,,,,keep,,assets/images/projects/xinlan/selected-20261122-03.webp
+xinlan,Xinlan Enterprise,selected-20261122-04.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,404674,,,,keep,,assets/images/projects/xinlan/selected-20261122-04.webp
+xinlan,Xinlan Enterprise,selected-20261122-05.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,394436,,,,keep,,assets/images/projects/xinlan/selected-20261122-05.webp
+xinlan,Xinlan Enterprise,selected-20261122-06.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,517472,,,,keep,,assets/images/projects/xinlan/selected-20261122-06.webp
 zhongbao-baojing,Zhong Bao Insurance Services,render-01.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,85859,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/zhongbao-baojing/render-01.jpg
 zhongbao-baojing,Zhong Bao Insurance Services,render-02.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,155659,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/zhongbao-baojing/render-02.jpg
 zhongbao-baojing,Zhong Bao Insurance Services,render-03.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,126890,簡報截圖：內嵌平面圖／浮水印／底部留白,,入口,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/zhongbao-baojing/render-03.jpg
@@ -210,6 +243,10 @@ zhongbao-baojing,Zhong Bao Insurance Services,render-12.jpg,legacy-render,non-co
 zhongbao-baojing,Zhong Bao Insurance Services,render-13.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,96378,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/zhongbao-baojing/render-13.jpg
 zhongbao-baojing,Zhong Bao Insurance Services,selected-20260923-01.webp,ai-selected,compliant,True,detail-en;detail-zh;list-home-other,2560,1429,1.791,398694,,,,keep,,assets/images/projects/zhongbao-baojing/selected-20260923-01.webp
 zhongbao-baojing,Zhong Bao Insurance Services,selected-20260923-02.webp,ai-selected,compliant,True,detail-en;detail-zh,2560,1429,1.791,307330,,,,keep,,assets/images/projects/zhongbao-baojing/selected-20260923-02.webp
+zhongbao-baojing,Zhong Bao Insurance Services,selected-20261122-03.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,175268,,,,keep,,assets/images/projects/zhongbao-baojing/selected-20261122-03.webp
+zhongbao-baojing,Zhong Bao Insurance Services,selected-20261122-04.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,304904,,,,keep,,assets/images/projects/zhongbao-baojing/selected-20261122-04.webp
+zhongbao-baojing,Zhong Bao Insurance Services,selected-20261122-05.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,450800,,,,keep,,assets/images/projects/zhongbao-baojing/selected-20261122-05.webp
+zhongbao-baojing,Zhong Bao Insurance Services,selected-20261122-06.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,242550,,,,keep,,assets/images/projects/zhongbao-baojing/selected-20261122-06.webp
 zhongbao-jingzhen,Ching Dian TECH,render-01.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,85859,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/zhongbao-jingzhen/render-01.jpg
 zhongbao-jingzhen,Ching Dian TECH,render-02.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,203543,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/zhongbao-jingzhen/render-02.jpg
 zhongbao-jingzhen,Ching Dian TECH,render-03.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,211595,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/zhongbao-jingzhen/render-03.jpg
@@ -227,6 +264,10 @@ zhongbao-jingzhen,Ching Dian TECH,render-14.jpg,legacy-render,non-compliant,Fals
 zhongbao-jingzhen,Ching Dian TECH,render-15.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,219412,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/zhongbao-jingzhen/render-15.jpg
 zhongbao-jingzhen,Ching Dian TECH,selected-20260923-01.webp,ai-selected,compliant,True,detail-en;detail-zh;list-home-other,2560,1429,1.791,230230,,,,keep,,assets/images/projects/zhongbao-jingzhen/selected-20260923-01.webp
 zhongbao-jingzhen,Ching Dian TECH,selected-20260923-02.webp,ai-selected,compliant,True,detail-en;detail-zh,2560,1429,1.791,224770,,,,keep,,assets/images/projects/zhongbao-jingzhen/selected-20260923-02.webp
+zhongbao-jingzhen,Ching Dian TECH,selected-20261122-03.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,299110,,,,keep,,assets/images/projects/zhongbao-jingzhen/selected-20261122-03.webp
+zhongbao-jingzhen,Ching Dian TECH,selected-20261122-04.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,489084,,,,keep,,assets/images/projects/zhongbao-jingzhen/selected-20261122-04.webp
+zhongbao-jingzhen,Ching Dian TECH,selected-20261122-05.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,492462,,,,keep,,assets/images/projects/zhongbao-jingzhen/selected-20261122-05.webp
+zhongbao-jingzhen,Ching Dian TECH,selected-20261122-06.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,140914,,,,keep,,assets/images/projects/zhongbao-jingzhen/selected-20261122-06.webp
 zhongbao-showroom,SECOM Technology Hall,floorplan.jpg,floorplan,reserved,False,,2001,1125,1.779,258862,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/zhongbao-showroom/floorplan.jpg
 zhongbao-showroom,SECOM Technology Hall,page-01.jpg,legacy-page,non-compliant,False,,2001,1125,1.779,45714,簡報 logo 頁／封面截圖,,,discard-from-gallery（logo 頁，不進相簿）,,assets/images/projects/zhongbao-showroom/page-01.jpg
 zhongbao-showroom,SECOM Technology Hall,render-01.jpg,legacy-render,non-compliant,False,,2001,1125,1.779,211037,簡報截圖：內嵌平面圖／浮水印／底部留白,,入口展區,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/zhongbao-showroom/render-01.jpg
@@ -248,6 +289,10 @@ zhongbao-showroom,SECOM Technology Hall,render-16.jpg,legacy-render,non-complian
 zhongbao-showroom,SECOM Technology Hall,render-17.jpg,legacy-render,non-compliant,False,,2001,1125,1.779,365705,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/zhongbao-showroom/render-17.jpg
 zhongbao-showroom,SECOM Technology Hall,selected-20260923-01.webp,ai-selected,compliant,True,detail-en;detail-zh;list-home-other,2560,1717,1.491,259030,,,,keep,,assets/images/projects/zhongbao-showroom/selected-20260923-01.webp
 zhongbao-showroom,SECOM Technology Hall,selected-20260923-02.webp,ai-selected,compliant,True,detail-en;detail-zh,2560,1717,1.491,331210,,,,keep,,assets/images/projects/zhongbao-showroom/selected-20260923-02.webp
+zhongbao-showroom,SECOM Technology Hall,selected-20261122-03.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,205094,,,,keep,,assets/images/projects/zhongbao-showroom/selected-20261122-03.webp
+zhongbao-showroom,SECOM Technology Hall,selected-20261122-04.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,313654,,,,keep,,assets/images/projects/zhongbao-showroom/selected-20261122-04.webp
+zhongbao-showroom,SECOM Technology Hall,selected-20261122-05.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,352056,,,,keep,,assets/images/projects/zhongbao-showroom/selected-20261122-05.webp
+zhongbao-showroom,SECOM Technology Hall,selected-20261122-06.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,434616,,,,keep,,assets/images/projects/zhongbao-showroom/selected-20261122-06.webp
 zhongbao-tianhe,eSkylink,render-01.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,85909,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/zhongbao-tianhe/render-01.jpg
 zhongbao-tianhe,eSkylink,render-02.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,187244,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/zhongbao-tianhe/render-02.jpg
 zhongbao-tianhe,eSkylink,render-03.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,132363,簡報截圖：內嵌平面圖／浮水印／底部留白,,入口門廳,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/zhongbao-tianhe/render-03.jpg
@@ -263,3 +308,7 @@ zhongbao-tianhe,eSkylink,render-12.jpg,legacy-render,non-compliant,False,,1626,1
 zhongbao-tianhe,eSkylink,render-13.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,171653,簡報截圖：內嵌平面圖／浮水印／底部留白,,小會議室,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/zhongbao-tianhe/render-13.jpg
 zhongbao-tianhe,eSkylink,selected-20260923-01.webp,ai-selected,compliant,True,detail-en;detail-zh;list-home-other,2560,1429,1.791,404524,,,,keep,,assets/images/projects/zhongbao-tianhe/selected-20260923-01.webp
 zhongbao-tianhe,eSkylink,selected-20260923-02.webp,ai-selected,compliant,True,detail-en;detail-zh,2560,1429,1.791,452362,,,,keep,,assets/images/projects/zhongbao-tianhe/selected-20260923-02.webp
+zhongbao-tianhe,eSkylink,selected-20261122-03.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,217916,,,,keep,,assets/images/projects/zhongbao-tianhe/selected-20261122-03.webp
+zhongbao-tianhe,eSkylink,selected-20261122-04.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,350980,,,,keep,,assets/images/projects/zhongbao-tianhe/selected-20261122-04.webp
+zhongbao-tianhe,eSkylink,selected-20261122-05.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,154666,,,,keep,,assets/images/projects/zhongbao-tianhe/selected-20261122-05.webp
+zhongbao-tianhe,eSkylink,selected-20261122-06.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,492764,,,,keep,,assets/images/projects/zhongbao-tianhe/selected-20261122-06.webp

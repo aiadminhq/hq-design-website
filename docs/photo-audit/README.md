@@ -13,38 +13,39 @@
 | `GET /v1/models`（驗證金鑰） | **HTTP 200**，共 99 個模型 |
 | 可用影像模型 | `gpt-image-2`、`gpt-image-2-2026-04-21`、`gpt-image-2.5-flare`、`gpt-image-2.5-sunburst`、`gpt-image-2.6-flare`、`gpt-image-2.6-sunburst`、`gpt-image-1.5`、`gpt-image-1-mini`、`chatgpt-image-latest` 等 11 個 |
 | 實際生成測試（`gpt-image-1-mini`，low，1024×1024） | **HTTP 200**，回傳 1024×1024 PNG |
-| `POST /v1/images/edits`（`gpt-image-2`，high，2400×1600，以裁切後舊稿為構圖參考） | **HTTP 200**，2026-11-22 產出 7 張（baohua 6、ledaojia 1），每張約 75–80 秒；流程見 `scripts/photo-regen/` |
+| `POST /v1/images/edits`（`gpt-image-2`，high，2400×1600，以裁切後舊稿為構圖參考） | **HTTP 200**，2026-11-22 共產出 56 張；流程見 `scripts/photo-regen/` |
+| 分流 | edit（一般空間，`gpt-image-2` medium）35 張；enhance 依 `photo-enhance-render` skill（cg-render／final → `gpt-image-2.6-sunburst` high）14 張；baohua＋ledaojia hero 7 張為 `gpt-image-2` high |
 
 > 腳本若要求變數，可設 `OPENAI_API_KEY=proxy-injected`（proxy 會覆寫 Authorization header）。
 
 ## 2. 成果總覽
 
-- 掃描 **264** 個檔案（不含孤兒頁 `zhongbao-nangang`：孤兒頁（115 張簡報截圖），不在列表與 sitemap）。
-- **上線中**（被 EN／ZH 頁面引用）的不重複圖片：合格 **67**、規格偏離 **0**、不合格 **0**。
-- 距「每案 6 張合格」仍缺 **49 張**，涉及 **12 案**。2026-11-22 已以 OpenAI 重生成補齊 baohua 6 張、替換 ledaojia hero（原 55＋ledaojia 1 − 已補 7）。
+- 掃描 **313** 個檔案（不含孤兒頁 `zhongbao-nangang`：孤兒頁（115 張簡報截圖），不在列表與 sitemap）。
+- **上線中**（被 EN／ZH 頁面引用）的不重複圖片：合格 **116**、規格偏離 **0**、不合格 **0**。
+- 距「每案 6 張合格」仍缺 **0 張**，涉及 **0 案**。2026-11-22 已以 OpenAI 重生成補齊全部 13 案（共 56 張：原缺 55＋ledaojia hero 1）。
 - 全部 19 案 EN／ZH 相簿張數一致。
 
 | 優先 | 專案 | slug | 上線 | 合格 | 規格偏離 | 不合格 | 距 6 張缺口 | 照片集 |
 |---|---|---|--:|--:|--:|--:|--:|---|
 | P0 | Baohua Cybersecurity | `baohua` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#baohua) · [成果](#baohua) |
-| P1 | Brightron Technology | `polytron` | 1 | 1 | 0 | 0 | 5 | [不合格集](non-compliant.md#polytron) · [成果](#polytron) |
-| P1 | AIONTECH | `aiontech` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#aiontech) · [成果](#aiontech) |
-| P1 | Epic Tech | `epicstech-10f` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#epicstech-10f) · [成果](#epicstech-10f) |
-| P1 | HQ Design Office & Material Library | `hq-office` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#hq-office) · [成果](#hq-office) |
+| — | Brightron Technology | `polytron` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#polytron) · [成果](#polytron) |
+| — | AIONTECH | `aiontech` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#aiontech) · [成果](#aiontech) |
+| — | Epic Tech | `epicstech-10f` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#epicstech-10f) · [成果](#epicstech-10f) |
+| — | HQ Design Office & Material Library | `hq-office` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#hq-office) · [成果](#hq-office) |
 | — | Kimpton Da An Hotel | `kimpton` | 10 | 10 | 0 | 0 | — | [成果](#kimpton) |
-| P1 | Lots Home Entertainment | `ledaojia` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#ledaojia) · [成果](#ledaojia) |
-| P1 | Lijie International | `lijie` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#lijie) · [成果](#lijie) |
-| P1 | Liwei Electronics | `liwei` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#liwei) · [成果](#liwei) |
+| — | Lots Home Entertainment | `ledaojia` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#ledaojia) · [成果](#ledaojia) |
+| — | Lijie International | `lijie` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#lijie) · [成果](#lijie) |
+| — | Liwei Electronics | `liwei` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#liwei) · [成果](#liwei) |
 | — | Popeyes Xuchang Street | `popeyes` | 5 | 5 | 0 | 0 | — | [成果](#popeyes) |
 | — | Cheogajip, Taichung | `qijia` | 8 | 8 | 0 | 0 | — | [成果](#qijia) |
 | — | SECOM Nangang HQ | `secom-nangang-complex` | 1 | 1 | 0 | 0 | — | [成果](#secom-nangang-complex) |
 | — | The Soup Spoon, Taipei 101 | `soup-spoon-101` | 3 | 3 | 0 | 0 | — | [成果](#soup-spoon-101) |
 | — | The Soup Spoon, Taipei Main Station | `soup-spoon-station` | 11 | 11 | 0 | 0 | — | [成果](#soup-spoon-station) |
-| P1 | Xinlan Enterprise | `xinlan` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#xinlan) · [成果](#xinlan) |
-| P1 | Zhong Bao Insurance Services | `zhongbao-baojing` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#zhongbao-baojing) · [成果](#zhongbao-baojing) |
-| P1 | Ching Dian TECH | `zhongbao-jingzhen` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#zhongbao-jingzhen) · [成果](#zhongbao-jingzhen) |
-| P1 | SECOM Technology Hall | `zhongbao-showroom` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#zhongbao-showroom) · [成果](#zhongbao-showroom) |
-| P1 | eSkylink | `zhongbao-tianhe` | 2 | 2 | 0 | 0 | 4 | [不合格集](non-compliant.md#zhongbao-tianhe) · [成果](#zhongbao-tianhe) |
+| — | Xinlan Enterprise | `xinlan` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#xinlan) · [成果](#xinlan) |
+| — | Zhong Bao Insurance Services | `zhongbao-baojing` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#zhongbao-baojing) · [成果](#zhongbao-baojing) |
+| — | Ching Dian TECH | `zhongbao-jingzhen` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#zhongbao-jingzhen) · [成果](#zhongbao-jingzhen) |
+| — | SECOM Technology Hall | `zhongbao-showroom` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#zhongbao-showroom) · [成果](#zhongbao-showroom) |
+| — | eSkylink | `zhongbao-tianhe` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#zhongbao-tianhe) · [成果](#zhongbao-tianhe) |
 
 ## 3. 三個照片集
 
@@ -176,7 +177,7 @@
 | **keep** | 已合格 | 不動 | — |
 | **drop** | logo 頁、平面圖（暫不顯示） | 不進相簿 | — |
 
-已完成：`baohua` 6 張、`ledaojia` hero（2026-11-22，OpenAI `gpt-image-2` edits）。建議下一批：`polytron`（缺 5）→ 其餘 11 案各補 4。
+已完成（2026-11-22）：13 案皆達 6 張。重生成圖為依原設計之擬真效果圖，業主已同意公開。
 
 ## 7. 重跑與檔案
 

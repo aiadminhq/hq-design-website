@@ -30,7 +30,7 @@ P0｜上線不合格 **0**｜合格 6｜距 6 張缺 **0**
 ### Brightron Technology · `polytron`
 <a id="polytron"></a>
 
-P1｜上線不合格 **0**｜合格 1｜距 6 張缺 **5**
+P1｜上線不合格 **0**｜合格 6｜距 6 張缺 **0**
 
 ![polytron noncompliant](sheets/polytron-noncompliant.jpg)
 
@@ -58,7 +58,7 @@ P1｜上線不合格 **0**｜合格 1｜距 6 張缺 **5**
 ### AIONTECH · `aiontech`
 <a id="aiontech"></a>
 
-P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
+P1｜上線不合格 **0**｜合格 6｜距 6 張缺 **0**
 
 ![aiontech noncompliant](sheets/aiontech-noncompliant.jpg)
 
@@ -89,7 +89,7 @@ P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
 ### Epic Tech · `epicstech-10f`
 <a id="epicstech-10f"></a>
 
-P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
+P1｜上線不合格 **0**｜合格 6｜距 6 張缺 **0**
 
 ![epicstech-10f noncompliant](sheets/epicstech-10f-noncompliant.jpg)
 
@@ -106,7 +106,7 @@ P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
 ### HQ Design Office & Material Library · `hq-office`
 <a id="hq-office"></a>
 
-P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
+P1｜上線不合格 **0**｜合格 6｜距 6 張缺 **0**
 
 ![hq-office noncompliant](sheets/hq-office-noncompliant.jpg)
 
@@ -133,7 +133,7 @@ P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
 ### Lots Home Entertainment · `ledaojia`
 <a id="ledaojia"></a>
 
-P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
+P1｜上線不合格 **0**｜合格 6｜距 6 張缺 **0**
 
 ![ledaojia noncompliant](sheets/ledaojia-noncompliant.jpg)
 
@@ -152,7 +152,7 @@ P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
 ### Lijie International · `lijie`
 <a id="lijie"></a>
 
-P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
+P1｜上線不合格 **0**｜合格 6｜距 6 張缺 **0**
 
 ![lijie noncompliant](sheets/lijie-noncompliant.jpg)
 
@@ -169,7 +169,7 @@ P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
 ### Liwei Electronics · `liwei`
 <a id="liwei"></a>
 
-P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
+P1｜上線不合格 **0**｜合格 6｜距 6 張缺 **0**
 
 ![liwei noncompliant](sheets/liwei-noncompliant.jpg)
 
@@ -193,7 +193,7 @@ P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
 ### Xinlan Enterprise · `xinlan`
 <a id="xinlan"></a>
 
-P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
+P1｜上線不合格 **0**｜合格 6｜距 6 張缺 **0**
 
 ![xinlan noncompliant](sheets/xinlan-noncompliant.jpg)
 
@@ -212,7 +212,7 @@ P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
 ### Zhong Bao Insurance Services · `zhongbao-baojing`
 <a id="zhongbao-baojing"></a>
 
-P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
+P1｜上線不合格 **0**｜合格 6｜距 6 張缺 **0**
 
 ![zhongbao-baojing noncompliant](sheets/zhongbao-baojing-noncompliant.jpg)
 
@@ -235,7 +235,7 @@ P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
 ### Ching Dian TECH · `zhongbao-jingzhen`
 <a id="zhongbao-jingzhen"></a>
 
-P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
+P1｜上線不合格 **0**｜合格 6｜距 6 張缺 **0**
 
 ![zhongbao-jingzhen noncompliant](sheets/zhongbao-jingzhen-noncompliant.jpg)
 
@@ -260,7 +260,7 @@ P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
 ### SECOM Technology Hall · `zhongbao-showroom`
 <a id="zhongbao-showroom"></a>
 
-P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
+P1｜上線不合格 **0**｜合格 6｜距 6 張缺 **0**
 
 ![zhongbao-showroom noncompliant](sheets/zhongbao-showroom-noncompliant.jpg)
 
@@ -288,7 +288,7 @@ P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
 ### eSkylink · `zhongbao-tianhe`
 <a id="zhongbao-tianhe"></a>
 
-P1｜上線不合格 **0**｜合格 2｜距 6 張缺 **4**
+P1｜上線不合格 **0**｜合格 6｜距 6 張缺 **0**
 
 ![zhongbao-tianhe noncompliant](sheets/zhongbao-tianhe-noncompliant.jpg)
 
