@@ -2,7 +2,7 @@
   "mcpServers": {
     "awwwards": {
       "command": "npx",
-      "args": ["-y", "awwwards-mcp"]
+      "args": ["-y", "-p", "awwwards-mcp", "-p", "playwright", "-p", "ffmpeg-static", "awwwards-mcp"]
     }
   }
 }
