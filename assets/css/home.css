@@ -554,11 +554,14 @@
   --color-accent-text: var(--hq-orange-70);
   --color-focus: var(--hq-orange-90);
 }
+/* 淺色卡：橘字改用較深的 orange-120，確保小字對比 ≥ 4.5:1 */
 .hm-service:nth-child(2) {
   --hm-bg: var(--hm-tint-warm);
+  --color-accent-text: var(--hq-orange-120);
 }
 .hm-service:nth-child(3) {
   --hm-bg: var(--hm-tint-cool);
+  --color-accent-text: var(--hq-orange-120);
 }
 .hm-service:nth-child(4) {
   --hm-bg: var(--hq-navy-90);
@@ -570,6 +573,7 @@
 }
 .hm-service:nth-child(5) {
   --hm-bg: var(--hm-tint-warm-2);
+  --color-accent-text: var(--hq-orange-120);
 }
 .hm-service:nth-child(6) {
   --hm-bg: var(--hq-ink);
