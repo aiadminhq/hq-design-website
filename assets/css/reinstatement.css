@@ -208,7 +208,7 @@
   display: flex;
 }
 .rs-scene-btn {
-  min-height: 40px;
+  min-height: 44px;
   padding: 8px 16px;
   border-radius: 40px;
   border: 1.5px solid rgba(255, 255, 255, 0.45);
@@ -354,7 +354,7 @@
 }
 .rs-zoom-close {
   flex: 0 0 auto;
-  min-height: 40px;
+  min-height: 44px;
   padding: 8px 16px;
   border: 1.5px solid rgba(255, 255, 255, 0.6);
   border-radius: 999px;
@@ -717,8 +717,9 @@
 
 .rs-check {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 12px;
+  min-height: 44px;
   font-size: 14px;
   color: var(--dark);
   line-height: 1.7;
@@ -727,9 +728,9 @@
 .rs-check input[type="checkbox"],
 .rs-check input[type="radio"] {
   flex-shrink: 0;
-  width: 20px;
-  height: 20px;
-  margin-top: 3px;
+  width: 24px;
+  height: 24px;
+  margin-top: 0;
   accent-color: var(--brand);
 }
 .rs-check input:focus-visible {
@@ -893,7 +894,7 @@
   flex-wrap: nowrap;
 }
 .rs-demo-row .rs-pill span {
-  min-height: 40px;
+  min-height: 44px;
   padding: 6px 12px;
   font-size: 13px;
   white-space: nowrap;
@@ -1347,6 +1348,12 @@
   gap: 20px;
   padding-block: 24px;
 }
+@media (max-width: 768px) {
+  .is-enhanced .rs-process-pin {
+    /* 讓出底部撥打列，避免動畫與進度點被蓋住 */
+    height: calc(100dvh - var(--rs-nav-h) - 80px - env(safe-area-inset-bottom, 0px));
+  }
+}
 .rs-page .rs-process-head {
   margin-bottom: 8px;
 }
@@ -1605,8 +1612,14 @@
     visibility: hidden;
     pointer-events: none;
   }
+  html:has(body.rs-page) {
+    scroll-padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+  }
   body.rs-page {
     padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+  }
+  .rs-page .rs-faq details[open] p {
+    scroll-margin-bottom: calc(88px + env(safe-area-inset-bottom, 0px));
   }
 }
 

@@ -501,7 +501,9 @@
         return;
       }
       var mine = callBtn.getBoundingClientRect();
-      var blockers = document.querySelectorAll(".rs-scenes, .rs-handover-actions, form");
+      var blockers = document.querySelectorAll(
+        ".rs-scenes, .rs-handover-actions, form, .rs-faq details[open], .cta-banner .btn, .rs-hero-actions",
+      );
       var hit = false;
       for (var i = 0; i < blockers.length; i++) {
         if (rectsOverlap(mine, blockers[i].getBoundingClientRect())) {
@@ -513,6 +515,9 @@
     }
     window.addEventListener("scroll", syncCall, { passive: true });
     window.addEventListener("resize", syncCall);
+    document.addEventListener("toggle", function (event) {
+      if (event.target && event.target.tagName === "DETAILS") syncCall();
+    });
     if (callQuery.addEventListener) callQuery.addEventListener("change", syncCall);
     syncCall();
   }

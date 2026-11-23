@@ -162,9 +162,14 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
 .hamburger {
   display: none;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 5px;
   cursor: pointer;
-  padding: 4px;
+  box-sizing: border-box;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 10px;
 }
 .hamburger span { display: block; width: 24px; height: 2px; background: var(--dark); transition: all var(--transition); border-radius: 2px; }
 
@@ -1108,6 +1113,11 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   letter-spacing: 0.4px;
   color: var(--mid);
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
   padding: 4px 2px;
   white-space: nowrap;
 }

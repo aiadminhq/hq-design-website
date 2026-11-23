@@ -473,6 +473,9 @@ a.hq-card:hover {
 .ds-v2 .hamburger {
   border: 0;
   background: none;
+  box-sizing: border-box;
+  min-width: 44px;
+  min-height: 44px;
   padding: 10px;
   margin-right: -10px;
   color: inherit;
