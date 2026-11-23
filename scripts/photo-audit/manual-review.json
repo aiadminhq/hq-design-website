@@ -1,0 +1,14 @@
+{
+  "_說明": "目視複核結果（2026-11-22，檢視 selected-*.webp 全圖與招牌放大）。override_status 會覆蓋自動判定；flags 只在報告中列為『待人工複核』。",
+  "ledaojia/selected-20260923-01.webp": {
+    "override_status": "non-compliant",
+    "reason": "內容瑕疵：招牌文字為 AI 亂碼（NNOVANON／RETHNKNG／VECMNOLOGY／IVE），規格合格但不宜作 hero",
+    "needed_view": "入口接待（重生：招牌文字改用實際 logo／真實字樣，或留白）"
+  },
+  "zhongbao-jingzhen/selected-20260923-01.webp": {
+    "flags": ["招牌英文 JINGTIAN TECHNOLOGY 與專案名 Ching Dian TECH／京典 拼音不一致，需與業主確認品牌拼寫"]
+  },
+  "zhongbao-showroom/selected-20260923-02.webp": {
+    "flags": ["展牆時間軸小字（年份以外）可能為 AI 近似文字，需對照實景確認"]
+  }
+}
