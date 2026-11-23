@@ -1,5 +1,5 @@
 ﻿slug,project,file,kind,status,live,roles,width,height,ratio,bytes,reasons,advisory,needed_view,suggested_route,decision,path
-aiontech,AIONTECH,floorplan.jpg,floorplan,reserved,True,detail-en;detail-zh,1626,1125,1.445,283143,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/aiontech/floorplan.jpg
+aiontech,AIONTECH,floorplan.jpg,floorplan,reserved,False,,1626,1125,1.445,283143,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/aiontech/floorplan.jpg
 aiontech,AIONTECH,page-01.jpg,legacy-page,non-compliant,False,,1626,1125,1.445,107265,簡報 logo 頁／封面截圖,,,discard-from-gallery（logo 頁，不進相簿）,,assets/images/projects/aiontech/page-01.jpg
 aiontech,AIONTECH,render-01.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,252993,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/aiontech/render-01.jpg
 aiontech,AIONTECH,render-02.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,267302,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/aiontech/render-02.jpg
@@ -33,7 +33,7 @@ airport-lounges,airport-lounges,portfolio-20260923-01.webp,other,spec-gap,False,
 airport-lounges,airport-lounges,portfolio-20260923-02.webp,other,spec-gap,False,,2400,1800,1.333,209682,比例 1.33 非 16:9 / 3:2,,,re-export（若有原始檔）或 search-replace,,assets/images/projects/airport-lounges/portfolio-20260923-02.webp
 airport-lounges,airport-lounges,portfolio-20260923-03.webp,other,spec-gap,False,,2400,1800,1.333,221916,比例 1.33 非 16:9 / 3:2,,,re-export（若有原始檔）或 search-replace,,assets/images/projects/airport-lounges/portfolio-20260923-03.webp
 airport-lounges,airport-lounges,portfolio-20260923-04.webp,other,spec-gap,False,,2400,1800,1.333,163292,比例 1.33 非 16:9 / 3:2,,,re-export（若有原始檔）或 search-replace,,assets/images/projects/airport-lounges/portfolio-20260923-04.webp
-baohua,Baohua Cybersecurity,floorplan.jpg,floorplan,reserved,True,detail-en;detail-zh,1626,1125,1.445,272823,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/baohua/floorplan.jpg
+baohua,Baohua Cybersecurity,floorplan.jpg,floorplan,reserved,False,,1626,1125,1.445,272823,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/baohua/floorplan.jpg
 baohua,Baohua Cybersecurity,page-01.jpg,legacy-page,non-compliant,False,,1626,1125,1.445,107265,簡報 logo 頁／封面截圖,,,discard-from-gallery（logo 頁，不進相簿）,,assets/images/projects/baohua/page-01.jpg
 baohua,Baohua Cybersecurity,render-01.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,152813,簡報截圖：內嵌平面圖／浮水印／底部留白,,入口 hero,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/baohua/render-01.jpg
 baohua,Baohua Cybersecurity,render-02.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,120450,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/baohua/render-02.jpg
@@ -65,7 +65,7 @@ csun,csun,selected-20260923-01.jpg,ai-selected,compliant,False,,2560,1429,1.791,
 csun,csun,selected-20260923-01.webp,ai-selected,compliant,False,,2560,1429,1.791,361156,,,,keep,,assets/images/projects/csun/selected-20260923-01.webp
 csun,csun,selected-20260923-02.jpg,ai-selected,compliant,False,,2560,1429,1.791,1271739,,檔案 1241 KB > 600 KB;建議 WebP,,keep,,assets/images/projects/csun/selected-20260923-02.jpg
 csun,csun,selected-20260923-02.webp,ai-selected,compliant,False,,2560,1429,1.791,462812,,,,keep,,assets/images/projects/csun/selected-20260923-02.webp
-epicstech-10f,Epic Tech,floorplan.jpg,floorplan,reserved,True,detail-en;detail-zh,1626,1125,1.445,145914,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/epicstech-10f/floorplan.jpg
+epicstech-10f,Epic Tech,floorplan.jpg,floorplan,reserved,False,,1626,1125,1.445,145914,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/epicstech-10f/floorplan.jpg
 epicstech-10f,Epic Tech,page-01.jpg,legacy-page,non-compliant,False,,1626,1125,1.445,107265,簡報 logo 頁／封面截圖,,,discard-from-gallery（logo 頁，不進相簿）,,assets/images/projects/epicstech-10f/page-01.jpg
 epicstech-10f,Epic Tech,render-01.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,222247,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/epicstech-10f/render-01.jpg
 epicstech-10f,Epic Tech,render-02.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,282463,簡報截圖：內嵌平面圖／浮水印／底部留白,,木牆走廊,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/epicstech-10f/render-02.jpg
@@ -89,7 +89,7 @@ guochan-showroom,guochan-showroom,portfolio-20260923-01.webp,other,compliant,Tru
 guochan-showroom,guochan-showroom,portfolio-20260923-02.webp,other,compliant,True,detail-en,2400,1601,1.499,231878,,,,keep,,assets/images/projects/guochan-showroom/portfolio-20260923-02.webp
 guochan-showroom,guochan-showroom,portfolio-20260923-03.webp,other,compliant,True,detail-en,2400,1601,1.499,170604,,,,keep,,assets/images/projects/guochan-showroom/portfolio-20260923-03.webp
 guochan-showroom,guochan-showroom,portfolio-20260923-04.webp,other,compliant,True,detail-en,2400,1601,1.499,213686,,,,keep,,assets/images/projects/guochan-showroom/portfolio-20260923-04.webp
-hq-office,HQ Design Office & Material Library,floorplan.jpg,floorplan,reserved,True,detail-en;detail-zh,1626,1125,1.445,155433,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/hq-office/floorplan.jpg
+hq-office,HQ Design Office & Material Library,floorplan.jpg,floorplan,reserved,False,,1626,1125,1.445,155433,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/hq-office/floorplan.jpg
 hq-office,HQ Design Office & Material Library,page-01.jpg,legacy-page,non-compliant,False,,1626,1125,1.445,107539,簡報 logo 頁／封面截圖,,,discard-from-gallery（logo 頁，不進相簿）,,assets/images/projects/hq-office/page-01.jpg
 hq-office,HQ Design Office & Material Library,render-01.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,182451,簡報截圖：內嵌平面圖／浮水印／底部留白,,入口看向材料圖書館,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/hq-office/render-01.jpg
 hq-office,HQ Design Office & Material Library,render-02.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,264225,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/hq-office/render-02.jpg
@@ -142,7 +142,7 @@ ledaojia,Lots Home Entertainment,selected-20261122-03.webp,ai-selected,compliant
 ledaojia,Lots Home Entertainment,selected-20261122-04.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,297362,,,,keep,,assets/images/projects/ledaojia/selected-20261122-04.webp
 ledaojia,Lots Home Entertainment,selected-20261122-05.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,218496,,,,keep,,assets/images/projects/ledaojia/selected-20261122-05.webp
 ledaojia,Lots Home Entertainment,selected-20261122-06.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,577384,,,,keep,,assets/images/projects/ledaojia/selected-20261122-06.webp
-lijie,Lijie International,floorplan.jpg,floorplan,reserved,True,detail-en;detail-zh,1626,1125,1.445,124435,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/lijie/floorplan.jpg
+lijie,Lijie International,floorplan.jpg,floorplan,reserved,False,,1626,1125,1.445,124435,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/lijie/floorplan.jpg
 lijie,Lijie International,page-01.jpg,legacy-page,non-compliant,False,,1626,1125,1.445,107311,簡報 logo 頁／封面截圖,,,discard-from-gallery（logo 頁，不進相簿）,,assets/images/projects/lijie/page-01.jpg
 lijie,Lijie International,render-01.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,235814,簡報截圖：內嵌平面圖／浮水印／底部留白,,入口門廳,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/lijie/render-01.jpg
 lijie,Lijie International,render-02.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,425974,簡報截圖：內嵌平面圖／浮水印／底部留白,,玻璃隔間走道,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/lijie/render-02.jpg
@@ -158,7 +158,7 @@ lijie,Lijie International,selected-20261122-03.webp,ai-selected,compliant,True,d
 lijie,Lijie International,selected-20261122-04.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,537106,,,,keep,,assets/images/projects/lijie/selected-20261122-04.webp
 lijie,Lijie International,selected-20261122-05.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,321508,,,,keep,,assets/images/projects/lijie/selected-20261122-05.webp
 lijie,Lijie International,selected-20261122-06.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,599316,,,,keep,,assets/images/projects/lijie/selected-20261122-06.webp
-liwei,Liwei Electronics,floorplan.jpg,floorplan,reserved,True,detail-en;detail-zh,1626,1125,1.445,354319,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/liwei/floorplan.jpg
+liwei,Liwei Electronics,floorplan.jpg,floorplan,reserved,False,,1626,1125,1.445,354319,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/liwei/floorplan.jpg
 liwei,Liwei Electronics,page-01.jpg,legacy-page,non-compliant,False,,1626,1125,1.445,107265,簡報 logo 頁／封面截圖,,,discard-from-gallery（logo 頁，不進相簿）,,assets/images/projects/liwei/page-01.jpg
 liwei,Liwei Electronics,render-01.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,231355,簡報截圖：內嵌平面圖／浮水印／底部留白,,入口門廳,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/liwei/render-01.jpg
 liwei,Liwei Electronics,render-02.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,271715,簡報截圖：內嵌平面圖／浮水印／底部留白,,協作吧檯,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/liwei/render-02.jpg
@@ -185,7 +185,7 @@ longteng-travel,longteng-travel,portfolio-20260923-01.webp,other,compliant,True,
 longteng-travel,longteng-travel,portfolio-20260923-02.webp,other,compliant,True,detail-en,1601,2400,1.499,208330,,,,keep,,assets/images/projects/longteng-travel/portfolio-20260923-02.webp
 longteng-travel,longteng-travel,portfolio-20260923-03.webp,other,compliant,True,detail-en,1601,2400,1.499,248346,,,,keep,,assets/images/projects/longteng-travel/portfolio-20260923-03.webp
 longteng-travel,longteng-travel,portfolio-20260923-04.webp,other,compliant,True,detail-en,2400,1601,1.499,187046,,,,keep,,assets/images/projects/longteng-travel/portfolio-20260923-04.webp
-polytron,Brightron Technology,floorplan.jpg,floorplan,reserved,True,detail-en;detail-zh,1626,1125,1.445,292907,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/polytron/floorplan.jpg
+polytron,Brightron Technology,floorplan.jpg,floorplan,reserved,False,,1626,1125,1.445,292907,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/polytron/floorplan.jpg
 polytron,Brightron Technology,page-01.jpg,legacy-page,non-compliant,False,,1626,1125,1.445,107265,簡報 logo 頁／封面截圖,,,discard-from-gallery（logo 頁，不進相簿）,,assets/images/projects/polytron/page-01.jpg
 polytron,Brightron Technology,render-01.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,230966,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/polytron/render-01.jpg
 polytron,Brightron Technology,render-02.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,165277,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/polytron/render-02.jpg
@@ -275,7 +275,7 @@ transasia-bakery-dayuan,transasia-bakery-dayuan,portfolio-20260923-01.webp,other
 transasia-bakery-dayuan,transasia-bakery-dayuan,portfolio-20260923-02.webp,other,spec-gap,True,detail-en,2400,1800,1.333,461122,比例 1.33 非 16:9 / 3:2,,,re-export（若有原始檔）或 search-replace,,assets/images/projects/transasia-bakery-dayuan/portfolio-20260923-02.webp
 transasia-bakery-dayuan,transasia-bakery-dayuan,portfolio-20260923-03.webp,other,spec-gap,True,detail-en,2400,1800,1.333,252412,比例 1.33 非 16:9 / 3:2,,,re-export（若有原始檔）或 search-replace,,assets/images/projects/transasia-bakery-dayuan/portfolio-20260923-03.webp
 transasia-bakery-dayuan,transasia-bakery-dayuan,portfolio-20260923-04.webp,other,spec-gap,True,detail-en,2400,1800,1.333,247412,比例 1.33 非 16:9 / 3:2,,,re-export（若有原始檔）或 search-replace,,assets/images/projects/transasia-bakery-dayuan/portfolio-20260923-04.webp
-xinlan,Xinlan Enterprise,floorplan.jpg,floorplan,reserved,True,detail-en;detail-zh,1626,1125,1.445,238925,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/xinlan/floorplan.jpg
+xinlan,Xinlan Enterprise,floorplan.jpg,floorplan,reserved,False,,1626,1125,1.445,238925,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/xinlan/floorplan.jpg
 xinlan,Xinlan Enterprise,page-01.jpg,legacy-page,non-compliant,False,,1626,1125,1.445,107311,簡報 logo 頁／封面截圖,,,discard-from-gallery（logo 頁，不進相簿）,,assets/images/projects/xinlan/page-01.jpg
 xinlan,Xinlan Enterprise,render-01.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,154280,簡報截圖：內嵌平面圖／浮水印／底部留白,,入口走廊,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/xinlan/render-01.jpg
 xinlan,Xinlan Enterprise,render-02.jpg,legacy-render,non-compliant,False,,1626,1125,1.445,300486,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/xinlan/render-02.jpg
@@ -337,7 +337,7 @@ zhongbao-jingzhen,Ching Dian TECH,selected-20261122-03.webp,ai-selected,complian
 zhongbao-jingzhen,Ching Dian TECH,selected-20261122-04.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,489084,,,,keep,,assets/images/projects/zhongbao-jingzhen/selected-20261122-04.webp
 zhongbao-jingzhen,Ching Dian TECH,selected-20261122-05.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,492462,,,,keep,,assets/images/projects/zhongbao-jingzhen/selected-20261122-05.webp
 zhongbao-jingzhen,Ching Dian TECH,selected-20261122-06.webp,ai-selected,compliant,True,detail-en;detail-zh,2400,1600,1.5,140914,,,,keep,,assets/images/projects/zhongbao-jingzhen/selected-20261122-06.webp
-zhongbao-showroom,SECOM Technology Hall,floorplan.jpg,floorplan,reserved,True,detail-en;detail-zh,2001,1125,1.779,258862,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/zhongbao-showroom/floorplan.jpg
+zhongbao-showroom,SECOM Technology Hall,floorplan.jpg,floorplan,reserved,False,,2001,1125,1.779,258862,,,,reserve（平面圖獨立 section，暫不顯示）,,assets/images/projects/zhongbao-showroom/floorplan.jpg
 zhongbao-showroom,SECOM Technology Hall,page-01.jpg,legacy-page,non-compliant,False,,2001,1125,1.779,45714,簡報 logo 頁／封面截圖,,,discard-from-gallery（logo 頁，不進相簿）,,assets/images/projects/zhongbao-showroom/page-01.jpg
 zhongbao-showroom,SECOM Technology Hall,render-01.jpg,legacy-render,non-compliant,False,,2001,1125,1.779,211037,簡報截圖：內嵌平面圖／浮水印／底部留白,,入口展區,regenerate（OpenAI edit：以此舊稿為構圖參考，去除平面圖／浮水印／留白）,,assets/images/projects/zhongbao-showroom/render-01.jpg
 zhongbao-showroom,SECOM Technology Hall,render-02.jpg,legacy-render,non-compliant,False,,2001,1125,1.779,309225,簡報截圖：內嵌平面圖／浮水印／底部留白,,,reference-only（構圖參考；非本輪必補視角）,,assets/images/projects/zhongbao-showroom/render-02.jpg

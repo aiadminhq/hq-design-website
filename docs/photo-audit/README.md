@@ -27,21 +27,21 @@
 
 | 優先 | 專案 | slug | 上線 | 合格 | 規格偏離 | 不合格 | 距 6 張缺口 | 照片集 |
 |---|---|---|--:|--:|--:|--:|--:|---|
-| P0 | Baohua Cybersecurity | `baohua` | 7 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#baohua) · [成果](#baohua) |
-| — | Brightron Technology | `polytron` | 7 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#polytron) · [成果](#polytron) |
-| — | AIONTECH | `aiontech` | 7 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#aiontech) · [成果](#aiontech) |
+| P0 | Baohua Cybersecurity | `baohua` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#baohua) · [成果](#baohua) |
+| — | Brightron Technology | `polytron` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#polytron) · [成果](#polytron) |
+| — | AIONTECH | `aiontech` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#aiontech) · [成果](#aiontech) |
 | — | airport-lounges | `airport-lounges` | 0 | 0 | 0 | 0 | — |  |
 | — | budaejjigae | `budaejjigae` | 4 | 3 | 1 | 0 | — | [規格偏離](non-compliant.md#budaejjigae) · [成果](#budaejjigae) |
 | — | burger-ray | `burger-ray` | 4 | 4 | 0 | 0 | — | [成果](#burger-ray) |
 | — | csun | `csun` | 0 | 0 | 0 | 0 | — | [成果](#csun) |
-| — | Epic Tech | `epicstech-10f` | 7 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#epicstech-10f) · [成果](#epicstech-10f) |
+| — | Epic Tech | `epicstech-10f` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#epicstech-10f) · [成果](#epicstech-10f) |
 | — | guochan-office | `guochan-office` | 4 | 4 | 0 | 0 | — | [成果](#guochan-office) |
 | — | guochan-showroom | `guochan-showroom` | 4 | 4 | 0 | 0 | — | [成果](#guochan-showroom) |
-| — | HQ Design Office & Material Library | `hq-office` | 7 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#hq-office) · [成果](#hq-office) |
+| — | HQ Design Office & Material Library | `hq-office` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#hq-office) · [成果](#hq-office) |
 | — | Kimpton Da An Hotel | `kimpton` | 10 | 10 | 0 | 0 | — | [成果](#kimpton) |
 | — | Lots Home Entertainment | `ledaojia` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#ledaojia) · [成果](#ledaojia) |
-| — | Lijie International | `lijie` | 7 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#lijie) · [成果](#lijie) |
-| — | Liwei Electronics | `liwei` | 7 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#liwei) · [成果](#liwei) |
+| — | Lijie International | `lijie` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#lijie) · [成果](#lijie) |
+| — | Liwei Electronics | `liwei` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#liwei) · [成果](#liwei) |
 | — | longteng-travel | `longteng-travel` | 4 | 4 | 0 | 0 | — | [成果](#longteng-travel) |
 | — | Popeyes Xuchang Street | `popeyes` | 5 | 5 | 0 | 0 | — | [成果](#popeyes) |
 | — | Cheogajip, Taichung | `qijia` | 8 | 8 | 0 | 0 | — | [成果](#qijia) |
@@ -52,10 +52,10 @@
 | — | staff-facility | `staff-facility` | 0 | 0 | 0 | 0 | — |  |
 | — | transasia-bakery-chunri | `transasia-bakery-chunri` | 3 | 3 | 0 | 0 | — | [成果](#transasia-bakery-chunri) |
 | — | transasia-bakery-dayuan | `transasia-bakery-dayuan` | 4 | 0 | 4 | 0 | — | [規格偏離](non-compliant.md#transasia-bakery-dayuan) |
-| — | Xinlan Enterprise | `xinlan` | 7 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#xinlan) · [成果](#xinlan) |
+| — | Xinlan Enterprise | `xinlan` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#xinlan) · [成果](#xinlan) |
 | — | Zhong Bao Insurance Services | `zhongbao-baojing` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#zhongbao-baojing) · [成果](#zhongbao-baojing) |
 | — | Ching Dian TECH | `zhongbao-jingzhen` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#zhongbao-jingzhen) · [成果](#zhongbao-jingzhen) |
-| — | SECOM Technology Hall | `zhongbao-showroom` | 7 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#zhongbao-showroom) · [成果](#zhongbao-showroom) |
+| — | SECOM Technology Hall | `zhongbao-showroom` | 6 | 6 | 0 | 0 | — | [不合格集](non-compliant.md#zhongbao-showroom) · [成果](#zhongbao-showroom) |
 | — | zhongbao-smart-facility | `zhongbao-smart-facility` | 0 | 0 | 0 | 0 | — | [成果](#zhongbao-smart-facility) |
 | — | zhongbao-store-daan | `zhongbao-store-daan` | 0 | 0 | 0 | 0 | — | [成果](#zhongbao-store-daan) |
 | — | zhongbao-store-zhuangjing | `zhongbao-store-zhuangjing` | 0 | 0 | 0 | 0 | — | [成果](#zhongbao-store-zhuangjing) |
