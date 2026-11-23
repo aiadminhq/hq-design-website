@@ -1,0 +1,90 @@
+{
+  "slug": "csun",
+  "nameZh": "志聖工業總部",
+  "nameEn": "",
+  "category": "office",
+  "year": 2026,
+  "heroImage": "assets/images/projects/csun/render-01.jpg",
+  "categoryLabel": "Corporate Office",
+  "locationZh": "台灣",
+  "yearLabel": "2026",
+  "designBuildLabel": "HQ Interior",
+  "descriptionZh": "志聖工業辦公空間設計施工，為台灣上市製造企業打造符合企業規模與品牌形象的辦公環境，兼顧管理階層需求與整體動線效率。",
+  "scopeZh": "企業辦公室",
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "value": "志聖工業總部 C.SUN Industrial（上市公司）"
+    },
+    {
+      "labelZh": "類型",
+      "value": "企業辦公室"
+    },
+    {
+      "labelZh": "坪數",
+      "value": "215 坪"
+    },
+    {
+      "labelZh": "完工年份",
+      "value": "2026"
+    },
+    {
+      "labelZh": "特色",
+      "value": "上市企業形象辦公空間、管理階層專區"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/images/projects/csun/floorplan.jpg",
+      "alt": "平面配置圖"
+    },
+    {
+      "image": "assets/images/projects/csun/render-01.jpg",
+      "alt": "空間效果圖 01"
+    },
+    {
+      "image": "assets/images/projects/csun/render-02.jpg",
+      "alt": "空間效果圖 02"
+    },
+    {
+      "image": "assets/images/projects/csun/render-03.jpg",
+      "alt": "空間效果圖 03"
+    },
+    {
+      "image": "assets/images/projects/csun/render-04.jpg",
+      "alt": "空間效果圖 04"
+    },
+    {
+      "image": "assets/images/projects/csun/render-05.jpg",
+      "alt": "空間效果圖 05"
+    },
+    {
+      "image": "assets/images/projects/csun/render-06.jpg",
+      "alt": "空間效果圖 06"
+    },
+    {
+      "image": "assets/images/projects/csun/render-07.jpg",
+      "alt": "空間效果圖 07"
+    },
+    {
+      "image": "assets/images/projects/csun/render-08.jpg",
+      "alt": "空間效果圖 08"
+    },
+    {
+      "image": "assets/images/projects/csun/render-09.jpg",
+      "alt": "空間效果圖 09"
+    },
+    {
+      "image": "assets/images/projects/csun/render-10.jpg",
+      "alt": "空間效果圖 10"
+    },
+    {
+      "image": "assets/images/projects/csun/render-11.jpg",
+      "alt": "空間效果圖 11"
+    },
+    {
+      "image": "assets/images/projects/csun/render-12.jpg",
+      "alt": "空間效果圖 12"
+    }
+  ]
+}

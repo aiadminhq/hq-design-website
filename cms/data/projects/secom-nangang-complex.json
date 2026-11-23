@@ -1,0 +1,52 @@
+{
+  "slug": "secom-nangang-complex",
+  "nameZh": "中興保全南港總部",
+  "nameEn": "",
+  "category": "office",
+  "year": 2025,
+  "heroImage": "assets/images/projects/secom-nangang-complex/photo-01.jpg",
+  "categoryLabel": "Flagship Complex · Multi-Tenant Design & Build",
+  "locationZh": "台北市南港區",
+  "yearLabel": "2025",
+  "designBuildLabel": "HQ Interior",
+  "specs": [
+    {
+      "labelZh": "業主",
+      "value": "中保集團 SECOM Group"
+    },
+    {
+      "labelZh": "案件規模",
+      "value": "6 個獨立空間"
+    },
+    {
+      "labelZh": "總坪數",
+      "value": "756 坪"
+    },
+    {
+      "labelZh": "樓層範圍",
+      "value": "7F–14F"
+    },
+    {
+      "labelZh": "地點",
+      "value": "台北市南港區"
+    },
+    {
+      "labelZh": "服務模式",
+      "value": "設計施工統包"
+    },
+    {
+      "labelZh": "完工年份",
+      "value": "2025"
+    },
+    {
+      "labelZh": "施工工法",
+      "value": "分層分區同步施工"
+    },
+    {
+      "labelZh": "保固期",
+      "value": "完工後 12 個月"
+    }
+  ],
+  "client": "SECOM",
+  "featured": true
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "kimpton",
+  "nameZh": "金普頓大安酒店",
+  "nameEn": "",
+  "category": "hospitality",
+  "year": 2022,
+  "heroImage": "assets/images/projects/kimpton/photo-01.jpg",
+  "categoryLabel": "Hospitality",
+  "locationZh": "台北大安",
+  "yearLabel": "2022",
+  "designBuildLabel": "HQ Interior",
+  "descriptionZh": "台北大安 Kimpton Da An Hotel 國際飯店裝修工程，由惠強承攬公共區域與客房走廊施工，以精細木作與品牌美學呈現國際精品飯店水準。",
+  "scopeZh": "國際飯店",
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "value": "Kimpton Da An Hotel"
+    },
+    {
+      "labelZh": "類型",
+      "value": "國際精品飯店"
+    },
+    {
+      "labelZh": "坪數",
+      "value": "100 坪"
+    },
+    {
+      "labelZh": "地點",
+      "value": "台北市大安區"
+    },
+    {
+      "labelZh": "完工年份",
+      "value": "2022"
+    },
+    {
+      "labelZh": "施工範圍",
+      "value": "公共區域、客房走廊"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/images/projects/kimpton/photo-01.jpg",
+      "alt": "完工實景 01"
+    },
+    {
+      "image": "assets/images/projects/kimpton/photo-02.jpg",
+      "alt": "完工實景 02"
+    },
+    {
+      "image": "assets/images/projects/kimpton/photo-03.jpg",
+      "alt": "完工實景 03"
+    },
+    {
+      "image": "assets/images/projects/kimpton/photo-04.jpg",
+      "alt": "完工實景 04"
+    },
+    {
+      "image": "assets/images/projects/kimpton/photo-05.jpg",
+      "alt": "完工實景 05"
+    },
+    {
+      "image": "assets/images/projects/kimpton/photo-06.jpg",
+      "alt": "完工實景 06"
+    },
+    {
+      "image": "assets/images/projects/kimpton/photo-07.jpg",
+      "alt": "完工實景 07"
+    },
+    {
+      "image": "assets/images/projects/kimpton/photo-08.jpg",
+      "alt": "完工實景 08"
+    },
+    {
+      "image": "assets/images/projects/kimpton/photo-09.jpg",
+      "alt": "完工實景 09"
+    },
+    {
+      "image": "assets/images/projects/kimpton/photo-10.jpg",
+      "alt": "完工實景 10"
+    }
+  ],
+  "client": "Kimpton",
+  "featured": true
+}

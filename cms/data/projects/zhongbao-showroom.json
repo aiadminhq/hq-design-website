@@ -1,0 +1,111 @@
+{
+  "slug": "zhongbao-showroom",
+  "nameZh": "中保科技展示廳",
+  "nameEn": "",
+  "category": "office",
+  "year": 2025,
+  "heroImage": "assets/images/projects/zhongbao-showroom/render-01.jpg",
+  "categoryLabel": "Exhibition Hall",
+  "locationZh": "台北",
+  "yearLabel": "2025",
+  "designBuildLabel": "HQ Interior",
+  "descriptionZh": "中保集團品牌展示廳設計施工專案，以沉浸式空間體驗呈現智慧安防技術與企業形象，融合科技感與品牌識別，打造符合企業定位的旗艦展示空間。",
+  "scopeZh": "企業展廳",
+  "specs": [
+    {
+      "labelZh": "類型",
+      "value": "企業品牌展廳"
+    },
+    {
+      "labelZh": "服務模式",
+      "value": "設計施工統包"
+    },
+    {
+      "labelZh": "坪數",
+      "value": "100 坪"
+    },
+    {
+      "labelZh": "完工年份",
+      "value": "2025"
+    },
+    {
+      "labelZh": "特色",
+      "value": "沉浸式展示動線、智慧科技整合"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/images/projects/zhongbao-showroom/floorplan.jpg",
+      "alt": "平面配置圖"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-01.jpg",
+      "alt": "空間效果圖 01"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-02.jpg",
+      "alt": "空間效果圖 02"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-03.jpg",
+      "alt": "空間效果圖 03"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-04.jpg",
+      "alt": "空間效果圖 04"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-05.jpg",
+      "alt": "空間效果圖 05"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-06.jpg",
+      "alt": "空間效果圖 06"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-07.jpg",
+      "alt": "空間效果圖 07"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-08.jpg",
+      "alt": "空間效果圖 08"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-09.jpg",
+      "alt": "空間效果圖 09"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-10.jpg",
+      "alt": "空間效果圖 10"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-11.jpg",
+      "alt": "空間效果圖 11"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-12.jpg",
+      "alt": "空間效果圖 12"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-13.jpg",
+      "alt": "空間效果圖 13"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-14.jpg",
+      "alt": "空間效果圖 14"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-15.jpg",
+      "alt": "空間效果圖 15"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-16.jpg",
+      "alt": "空間效果圖 16"
+    },
+    {
+      "image": "assets/images/projects/zhongbao-showroom/render-17.jpg",
+      "alt": "空間效果圖 17"
+    }
+  ],
+  "client": "中保展示"
+}

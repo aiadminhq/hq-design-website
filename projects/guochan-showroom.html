@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>國產建材情境展示間 — 惠強室內裝修 HQ Design</title>
+  <meta name="description" content="以客廳、臥室與衛浴等居家情境呈現建材應用，記錄不同材質、收邊與照明的搭配。">
+  <link rel="canonical" href="https://www.hqdesign.tw/projects/guochan-showroom.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="HQ Design">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:url" content="https://www.hqdesign.tw/projects/guochan-showroom.html">
+  <meta property="og:title" content="國產建材情境展示間 — 惠強室內裝修 HQ Design">
+  <meta property="og:description" content="以客廳、臥室與衛浴等居家情境呈現建材應用，記錄不同材質、收邊與照明的搭配。">
+  <meta property="og:image" content="https://www.hqdesign.tw/assets/images/logo/IMG_6412.PNG">
+  <meta property="og:image:alt" content="HQ Design logo">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.hqdesign.tw/assets/images/logo/IMG_6412.PNG">
+  <meta name="twitter:image:alt" content="HQ Design logo">
+  <meta name="twitter:title" content="國產建材情境展示間 — 惠強室內裝修 HQ Design">
+  <meta name="twitter:description" content="以客廳、臥室與衛浴等居家情境呈現建材應用，記錄不同材質、收邊與照明的搭配。">
+
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .proj-hero {
+      position: relative; height: 70vh; min-height: 480px;
+      overflow: hidden; display: flex; align-items: flex-end;
+    }
+    .proj-hero-img {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      object-fit: cover; object-position: center;
+    }
+    .proj-hero-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.82) 0%, rgba(0,0,0,0.2) 55%, transparent 100%);
+    }
+    .proj-hero-content { position: relative; z-index: 2; width: 100%; padding: 0 0 48px; }
+    .proj-hero-content .container { padding-bottom: 0; }
+    .proj-back {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-family: var(--font-en); font-size: 12px; font-weight: 600;
+      letter-spacing: 1.5px; text-transform: uppercase;
+      color: rgba(255,255,255,0.55); margin-bottom: 20px;
+      transition: color var(--transition);
+    }
+    .proj-back:hover { color: #fff; }
+    .proj-hero h1 { color: #fff; font-size: clamp(28px, 4vw, 52px); margin-bottom: 10px; }
+    .proj-hero-meta { display: flex; gap: 24px; flex-wrap: wrap; margin-top: 12px; }
+    .proj-hero-meta span {
+      font-family: var(--font-en); font-size: 12px; font-weight: 500;
+      letter-spacing: 1px; text-transform: uppercase; color: rgba(255,255,255,0.55);
+    }
+    .proj-hero-meta span strong { color: rgba(255,255,255,0.9); font-weight: 600; }
+    .proj-type-badge {
+      display: inline-block; background: var(--brand); color: #fff;
+      font-family: var(--font-en); font-size: 10px; font-weight: 700;
+      letter-spacing: 1.5px; text-transform: uppercase;
+      padding: 4px 10px; border-radius: 3px; margin-bottom: 14px;
+    }
+    .proj-body { padding: 72px 0 96px; }
+    .proj-layout {
+      display: grid; grid-template-columns: 1fr 320px;
+      gap: 64px; align-items: start;
+    }
+    @media (max-width: 900px) { .proj-layout { grid-template-columns: 1fr; gap: 40px; } }
+    .proj-desc-zh { font-size: 17px; line-height: 1.9; color: var(--dark); margin-bottom: 16px; }
+    .proj-desc-en { font-family: var(--font-en); font-size: 14px; line-height: 1.8; color: var(--mid); }
+    .proj-specs {
+      background: var(--bg); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 28px;
+      position: sticky; top: 88px;
+    }
+    .proj-specs h3 {
+      font-size: 11px; font-family: var(--font-en); font-weight: 700;
+      letter-spacing: 2px; text-transform: uppercase;
+      color: var(--brand); margin-bottom: 20px;
+    }
+    .spec-row {
+      display: flex; justify-content: space-between; gap: 12px;
+      padding: 12px 0; border-bottom: 1px solid var(--border); font-size: 13px;
+    }
+    .spec-row:last-child { border-bottom: none; }
+    .spec-label { color: var(--light); font-weight: 500; white-space: nowrap; }
+    .spec-value { color: var(--dark); font-weight: 600; text-align: right; }
+    .proj-gallery { padding: 0 0 96px; }
+    .proj-gallery h2 { font-size: 22px; margin-bottom: 8px; }
+    .gallery-divider { width: 40px; height: 3px; background: var(--brand); margin-bottom: 40px; }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 16px;
+    }
+    @media (max-width: 600px) { .gallery-grid { grid-template-columns: 1fr; } }
+    .gallery-item { overflow: hidden; border-radius: var(--radius); background: var(--bg); aspect-ratio: 16/10; }
+    .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; display: block; }
+    .gallery-item:hover img { transform: scale(1.03); }
+    .proj-nav-cta { display: flex; gap: 16px; margin-top: 32px; flex-wrap: wrap; }
+  </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "國產建材情境展示間",
+  "url": "https://www.hqdesign.tw/projects/guochan-showroom.html",
+  "description": "以客廳、臥室與衛浴等居家情境呈現建材應用，記錄不同材質、收邊與照明的搭配。",
+  "primaryImageOfPage": "https://www.hqdesign.tw/assets/images/og/guochan-showroom-portfolio-20260923.jpg",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "首頁",
+        "item": "https://www.hqdesign.tw/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "專案案例",
+        "item": "https://www.hqdesign.tw/projects.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "國產建材情境展示間",
+        "item": "https://www.hqdesign.tw/projects/guochan-showroom.html"
+      }
+    ]
+  }
+}
+</script>
+</head>
+<body>
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="../index.html">
+      <img src="../assets/images/logo/IMG_6412.PNG" alt="HQ Interior Design Logo">
+      <div class="nav-logo-text">
+        <span class="name-zh">惠強室內裝修</span>
+        <span class="name-en">HQ Interior &amp; Space Design</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../projects.html" class="active">專案案例 Projects</a></li>
+      <li><a href="../services.html">服務項目 Services</a></li>
+      <li><a href="../about.html">關於我們 About</a></li>
+      <li><a href="../careers.html">加入我們 Careers</a></li>
+    </ul>
+    <a class="btn btn-primary nav-cta" href="../contact.html">聯繫我們 Contact</a>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<div class="proj-hero">
+  <img class="proj-hero-img" src="../assets/images/projects/guochan-showroom/portfolio-20260923-01.webp" alt="國產建材情境展示間" fetchpriority="high">
+  <div class="proj-hero-overlay"></div>
+  <div class="proj-hero-content"><div class="container">
+    <a class="proj-back" href="../projects.html">← 返回所有案例 All Projects</a>
+    <div class="proj-type-badge">Showroom</div>
+    <h1>國產建材情境展示間<br><span style="font-family:var(--font-en);font-size:0.6em;font-weight:400;opacity:0.7">Guochan Building Materials Showroom</span></h1>
+    <div class="proj-hero-meta"></div>
+  </div></div>
+</div>
+<section class="proj-body">
+  <div class="container"><div class="proj-layout">
+    <div>
+      <span class="label">展示空間 · Showroom</span>
+      <p class="proj-desc-zh" style="margin-top:16px">以客廳、臥室與衛浴等居家情境呈現建材應用，記錄不同材質、收邊與照明的搭配。</p>
+      <div class="proj-nav-cta">
+        <a class="btn btn-primary" href="../contact.html">詢問類似專案 →</a>
+        <a class="btn btn-outline" href="../projects.html">查看更多案例</a>
+      </div>
+    </div>
+    <aside class="proj-specs"><h3>Project Info</h3>
+      <div class="spec-row"><span class="spec-label">類型</span><span class="spec-value">展示空間</span></div>
+    </aside>
+  </div></div>
+</section>
+<section class="proj-gallery">
+  <div class="container"><h2>空間影像</h2><div class="gallery-divider"></div>
+    <div class="gallery-grid">
+      <div class="gallery-item"><img src="../assets/images/projects/guochan-showroom/portfolio-20260923-01.webp" alt="國產建材情境展示間 空間細節 1" loading="lazy"></div>
+      <div class="gallery-item"><img src="../assets/images/projects/guochan-showroom/portfolio-20260923-02.webp" alt="國產建材情境展示間 空間細節 2" loading="lazy"></div>
+      <div class="gallery-item"><img src="../assets/images/projects/guochan-showroom/portfolio-20260923-03.webp" alt="國產建材情境展示間 空間細節 3" loading="lazy"></div>
+      <div class="gallery-item"><img src="../assets/images/projects/guochan-showroom/portfolio-20260923-04.webp" alt="國產建材情境展示間 空間細節 4" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-banner">
+  <div class="container">
+    <div class="cta-banner-inner">
+      <div class="cta-text">
+        <h2>有類似需求嗎？<br><span style="font-size:0.65em;font-weight:400;color:rgba(255,255,255,0.5)" class="en">Have a similar project in mind?</span></h2>
+        <p class="sub">告訴我們您的需求，我們將提供初步評估與建議。</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-primary" href="../contact.html">聯繫我們 Contact Us →</a>
+        <div class="cta-contact-info"><a href="tel:0225573003">📞 02-2557-3003</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="../assets/images/logo/IMG_6412.PNG" alt="HQ Logo">
+          <div class="footer-logo-text">
+            <span class="name-zh">惠強室內裝修股份有限公司</span>
+            <span class="name-en en">HQ Interior &amp; Space Design Co., Ltd.</span>
+          </div>
+        </div>
+        <p class="footer-tagline">匠藝專工，一應皆備。<br><span style="font-family:var(--font-en);font-size:12px">Precision craftsmanship. Complete delivery. 31+ Years.</span></p>
+        <div class="footer-certs">
+          <span class="cert-badge">LEED</span>
+
+          <span class="cert-badge">Green Building</span>
+          <span class="cert-badge">AIoT</span>
+          <span class="cert-badge">ESG</span>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="../projects.html">專案案例 Projects</a></li>
+          <li><a href="../services.html">服務項目 Services</a></li>
+          <li><a href="../about.html">關於我們 About</a></li>
+          <li><a href="../careers.html">加入我們 Careers</a></li>
+          <li><a href="../contact.html">聯繫我們 Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Project Types</h4>
+        <ul>
+          <li><a href="../projects.html">辦公室 Office</a></li>
+          <li><a href="../projects.html">飯店 Hospitality</a></li>
+          <li><a href="../projects.html">餐飲 F&amp;B</a></li>
+          <li><a href="../projects.html">展廳 Exhibition</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#">115台北市南港區經貿二路135號9樓</a></li>
+          <li><a href="tel:0225573003">02-2557-3003</a></li>
+          <li><a href="mailto:info@hqdesign.tw">info@hqdesign.tw</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="en">© 2026 HQ Interior &amp; Space Design Co., Ltd. All rights reserved.</p>
+      <p class="footer-reg en">統一編號 89956251</p>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,70 @@
+{
+  "slug": "qijia",
+  "nameZh": "起家雞 台中店",
+  "nameEn": "",
+  "category": "office",
+  "year": 2024,
+  "heroImage": "assets/images/projects/qijia/photo-01.jpg",
+  "categoryLabel": "F&B",
+  "locationZh": "台中",
+  "yearLabel": "2024",
+  "designBuildLabel": "HQ Interior",
+  "descriptionZh": "起家雞台中店餐飲空間設計施工，以韓式炸雞品牌風格為設計基調，呈現活潑品牌個性，並兼顧高效翻桌與舒適用餐體驗。",
+  "scopeZh": "餐飲空間",
+  "specs": [
+    {
+      "labelZh": "客戶",
+      "value": "起家雞 Chicken Up"
+    },
+    {
+      "labelZh": "類型",
+      "value": "餐飲連鎖"
+    },
+    {
+      "labelZh": "坪數",
+      "value": "212 坪"
+    },
+    {
+      "labelZh": "地點",
+      "value": "台中"
+    },
+    {
+      "labelZh": "完工年份",
+      "value": "2024"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/images/projects/qijia/photo-01.jpg",
+      "alt": "完工實景 01"
+    },
+    {
+      "image": "assets/images/projects/qijia/photo-02.jpg",
+      "alt": "完工實景 02"
+    },
+    {
+      "image": "assets/images/projects/qijia/photo-03.jpg",
+      "alt": "完工實景 03"
+    },
+    {
+      "image": "assets/images/projects/qijia/photo-04.jpg",
+      "alt": "完工實景 04"
+    },
+    {
+      "image": "assets/images/projects/qijia/photo-05.jpg",
+      "alt": "完工實景 05"
+    },
+    {
+      "image": "assets/images/projects/qijia/photo-06.jpg",
+      "alt": "完工實景 06"
+    },
+    {
+      "image": "assets/images/projects/qijia/photo-07.jpg",
+      "alt": "完工實景 07"
+    },
+    {
+      "image": "assets/images/projects/qijia/photo-08.jpg",
+      "alt": "完工實景 08"
+    }
+  ]
+}

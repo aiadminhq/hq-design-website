@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hq-careers.schema.json",
+  "title": "HQ Careers (Open positions + Values + Perks)",
+  "description": "三個子集合：positions / values / perks，建議用 Notion 三個獨立 DB。",
+  "framerCollectionType": "multi-item-collection",
+  "collections": {
+    "positions": {
+      "notionDatabase": "HQ — Open Positions",
+      "type": "object",
+      "required": ["slug", "titleZh", "titleEn", "department"],
+      "properties": {
+        "slug": { "type": "string", "example": "interior-designer" },
+        "titleZh": { "type": "string", "example": "室內設計師" },
+        "titleEn": {
+          "type": "string",
+          "example": "Interior Designer — Commercial"
+        },
+        "department": {
+          "type": "string",
+          "enum": [
+            "Design 設計部",
+            "Project 專案部",
+            "Site 工務部",
+            "Operations 行政部"
+          ]
+        },
+        "summaryZh": { "type": "string" },
+        "summaryEn": { "type": "string" },
+        "skills": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "技能 chip 文字"
+        },
+        "experienceLevel": {
+          "type": "string",
+          "enum": ["junior", "mid", "senior", "lead"]
+        },
+        "location": { "type": "string", "example": "Taipei 南港" },
+        "active": { "type": "boolean", "default": true },
+        "order": { "type": "integer" }
+      },
+      "seed": [
+        {
+          "slug": "interior-designer",
+          "titleZh": "室內設計師",
+          "titleEn": "Interior Designer — Commercial",
+          "department": "Design 設計部",
+          "skills": ["AutoCAD", "SketchUp / 3ds Max", "商業空間經驗", "施工圖"],
+          "experienceLevel": "mid"
+        },
+        {
+          "slug": "senior-interior-designer",
+          "titleZh": "資深室內設計師",
+          "titleEn": "Senior Interior Designer — Commercial",
+          "department": "Design 設計部",
+          "skills": ["5年以上經驗", "商業空間", "提案能力", "團隊管理"],
+          "experienceLevel": "senior"
+        },
+        {
+          "slug": "project-manager",
+          "titleZh": "專案經理",
+          "titleEn": "Project Manager — Commercial Fit-out",
+          "department": "Project 專案部",
+          "skills": ["裝修工程背景", "專案管理", "客戶溝通", "預算管控"],
+          "experienceLevel": "senior"
+        },
+        {
+          "slug": "site-manager",
+          "titleZh": "工務經理",
+          "titleEn": "Site Manager — Commercial Construction",
+          "department": "Site 工務部",
+          "skills": ["施工管理", "品質管控", "安全管理", "室內裝修背景"],
+          "experienceLevel": "senior"
+        }
+      ]
+    },
+    "values": {
+      "notionDatabase": "HQ — Why Join HQ",
+      "type": "object",
+      "required": ["slug", "icon", "titleZh", "titleEn", "descZh"],
+      "properties": {
+        "slug": { "type": "string" },
+        "icon": { "type": "string" },
+        "titleZh": { "type": "string" },
+        "titleEn": { "type": "string" },
+        "descZh": { "type": "string" },
+        "descEn": { "type": "string" },
+        "order": { "type": "integer" }
+      },
+      "seed": [
+        {
+          "slug": "real-clients",
+          "icon": "🏆",
+          "titleZh": "真實的高端客戶",
+          "titleEn": "Real institutional clients"
+        },
+        {
+          "slug": "design-to-build",
+          "icon": "🔄",
+          "titleZh": "設計到施工，完整閉環",
+          "titleEn": "Design-to-build integration"
+        },
+        {
+          "slug": "ai-workflow",
+          "icon": "📈",
+          "titleZh": "AI工具 + 現代化工作流",
+          "titleEn": "Modern tools & workflows"
+        },
+        {
+          "slug": "stable-31y",
+          "icon": "🏢",
+          "titleZh": "31+ 年穩定經營",
+          "titleEn": "31+ Years of proven stability"
+        },
+        {
+          "slug": "cross-sector",
+          "icon": "🎯",
+          "titleZh": "跨產業設計經驗",
+          "titleEn": "Cross-sector design exposure"
+        },
+        {
+          "slug": "sustainability",
+          "icon": "🌱",
+          "titleZh": "永續與新技術前沿",
+          "titleEn": "Sustainability & smart space"
+        }
+      ]
+    },
+    "perks": {
+      "notionDatabase": "HQ — Perks",
+      "type": "object",
+      "required": ["slug", "icon", "titleZh", "descZh"],
+      "properties": {
+        "slug": { "type": "string" },
+        "icon": { "type": "string" },
+        "titleZh": { "type": "string" },
+        "titleEn": { "type": "string" },
+        "descZh": { "type": "string" },
+        "descEn": { "type": "string" },
+        "order": { "type": "integer" }
+      },
+      "seed": [
+        {
+          "slug": "premium-projects",
+          "icon": "📐",
+          "titleZh": "真實的高端案件"
+        },
+        {
+          "slug": "tight-collab",
+          "icon": "🤝",
+          "titleZh": "設計與工務緊密合作"
+        },
+        { "slug": "ai-training", "icon": "🧠", "titleZh": "AI工具培訓" },
+        { "slug": "sustainability", "icon": "🌿", "titleZh": "永續設計知識" },
+        { "slug": "nangang", "icon": "📍", "titleZh": "台北南港，交通便利" },
+        { "slug": "31y-stable", "icon": "🏛", "titleZh": "31+ 年穩定經營" }
+      ]
+    }
+  }
+}

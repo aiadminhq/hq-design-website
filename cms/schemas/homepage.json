@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hq-homepage.schema.json",
+  "title": "HQ Homepage Sections",
+  "description": "首頁區塊內容；建議切 4 個獨立 sub-DB（hero、logos、stats、wedge）或一個 sections Singleton",
+  "framerCollectionType": "single-item-collection",
+  "notionDatabase": "HQ — Homepage",
+  "type": "object",
+  "properties": {
+    "hero": {
+      "type": "object",
+      "properties": {
+        "kicker": {
+          "type": "string",
+          "example": "Trusted by global brands in Taiwan"
+        },
+        "headlineZh": {
+          "type": "string",
+          "example": "為國際品牌，打造在台灣的旗艦空間。"
+        },
+        "headlineEn": {
+          "type": "string",
+          "example": "Building flagship spaces in Taiwan for global brands."
+        },
+        "subZh": { "type": "string" },
+        "subEn": { "type": "string" },
+        "backgroundImage": {
+          "type": "string",
+          "format": "uri-reference",
+          "example": "assets/images/projects/secom-nangang-complex/hero.jpg"
+        },
+        "ctaPrimary": {
+          "type": "object",
+          "properties": {
+            "label": { "type": "string" },
+            "href": { "type": "string" }
+          }
+        },
+        "ctaSecondary": {
+          "type": "object",
+          "properties": {
+            "label": { "type": "string" },
+            "href": { "type": "string" }
+          }
+        },
+        "stats": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "number": { "type": "string", "example": "31+" },
+              "labelZh": { "type": "string", "example": "Years 年經驗" },
+              "labelEn": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "logosBar": {
+      "type": "object",
+      "properties": {
+        "labelZh": { "type": "string", "example": "受信賴的合作夥伴" },
+        "labelEn": { "type": "string", "example": "Trusted by" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string", "example": "Kimpton" },
+              "image": { "type": "string", "format": "uri-reference" },
+              "alt": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "featuredProjects": {
+      "type": "array",
+      "description": "首頁精選案例 (3–6 筆)，引用 projects slug",
+      "items": { "type": "string" },
+      "default": [
+        "secom-nangang-complex",
+        "kimpton",
+        "zhongbao-nangang",
+        "hq-office",
+        "popeyes"
+      ]
+    },
+    "taiwanWedge": {
+      "type": "object",
+      "description": "Opening in Taiwan? 區塊",
+      "properties": {
+        "titleZh": { "type": "string", "example": "在台灣開設新據點？" },
+        "titleEn": { "type": "string", "example": "Opening in Taiwan?" },
+        "descZh": { "type": "string" },
+        "descEn": { "type": "string" },
+        "bullets": { "type": "array", "items": { "type": "string" } },
+        "ctaLabel": { "type": "string" },
+        "ctaHref": { "type": "string" }
+      }
+    },
+    "approach": {
+      "type": "object",
+      "description": "首頁服務切入點，連 services.html",
+      "properties": {
+        "titleZh": { "type": "string", "example": "從概念到完工，一站式服務" },
+        "titleEn": { "type": "string", "example": "End-to-end design + build" },
+        "highlightedServiceSlugs": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": ["design-build", "smart-aiot", "office-design"]
+        }
+      }
+    },
+    "testimonials": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "quoteZh": { "type": "string" },
+          "quoteEn": { "type": "string" },
+          "authorName": { "type": "string" },
+          "authorRole": { "type": "string" },
+          "company": { "type": "string" },
+          "logo": { "type": "string", "format": "uri-reference" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hq-about.schema.json",
+  "title": "HQ About Page Content",
+  "description": "About 頁四個區塊：stats / story / team / certifications。建議用一個 Singleton 加一個 team DB。",
+  "framerCollectionType": "single-item-collection",
+  "notionDatabase": "HQ — About",
+  "type": "object",
+  "properties": {
+    "stats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "number": { "type": "string", "example": "1995" },
+          "labelZh": { "type": "string", "example": "創立年份" },
+          "labelEn": { "type": "string", "example": "Founded" }
+        }
+      },
+      "default": [
+        { "number": "1995", "labelZh": "創立年份", "labelEn": "Founded" },
+        {
+          "number": "1,600+",
+          "labelZh": "完工案件",
+          "labelEn": "Projects delivered"
+        },
+        {
+          "number": "100%",
+          "labelZh": "設計施工自有",
+          "labelEn": "Design + Build in-house"
+        },
+        {
+          "number": "12mo",
+          "labelZh": "完工保固",
+          "labelEn": "Post-completion warranty"
+        }
+      ]
+    },
+    "story": {
+      "type": "object",
+      "properties": {
+        "tagline": { "type": "string", "example": "匠藝專工，一應皆備。" },
+        "paragraphsZh": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "中文段落 (2 段)"
+        },
+        "paragraphEn": { "type": "string", "description": "英文段落 (1 段)" },
+        "image": { "type": "string", "format": "uri-reference" },
+        "imageCaption": { "type": "string" }
+      }
+    },
+    "team": {
+      "type": "object",
+      "description": "團隊 5 區塊 (MD / PM / Site / Designer / Finance)。實際個人成員放 sub-collection 'teamMembers'。",
+      "properties": {
+        "summaryZh": { "type": "string" },
+        "summaryEn": { "type": "string" },
+        "cells": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "role": {
+                "type": "string",
+                "enum": ["MD", "PM", "Site", "Designer", "Finance"]
+              },
+              "roleLabelZh": { "type": "string" },
+              "roleLabelEn": { "type": "string" },
+              "count": { "type": "integer", "description": "人數" }
+            }
+          },
+          "default": [
+            {
+              "role": "MD",
+              "roleLabelZh": "負責人 / 總經理",
+              "roleLabelEn": "Managing Director",
+              "count": 1
+            },
+            {
+              "role": "PM",
+              "roleLabelZh": "專案經理 / 設計主管",
+              "roleLabelEn": "Project Managers",
+              "count": 3
+            },
+            {
+              "role": "Site",
+              "roleLabelZh": "工務經理",
+              "roleLabelEn": "Site Managers",
+              "count": 3
+            },
+            {
+              "role": "Designer",
+              "roleLabelZh": "設計師",
+              "roleLabelEn": "Designers",
+              "count": 3
+            },
+            {
+              "role": "Finance",
+              "roleLabelZh": "財務行政",
+              "roleLabelEn": "Finance & Ops",
+              "count": 2
+            }
+          ]
+        }
+      }
+    },
+    "teamMembers": {
+      "type": "array",
+      "description": "獨立 sub-DB（若用戶想曝光個人成員）",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "nameEn": { "type": "string" },
+          "role": { "type": "string" },
+          "bioZh": { "type": "string" },
+          "photo": { "type": "string", "format": "uri-reference" },
+          "linkedin": { "type": "string", "format": "uri" }
+        }
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "description": "與 globals.certifications 共用 schema；about 頁可額外加說明文字",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": { "type": "string" },
+          "labelZh": { "type": "string" },
+          "labelEn": { "type": "string" },
+          "descZh": { "type": "string" },
+          "image": { "type": "string", "format": "uri-reference" }
+        }
+      }
+    },
+    "timeline": {
+      "type": "array",
+      "description": "可選；公司里程碑",
+      "items": {
+        "type": "object",
+        "properties": {
+          "year": { "type": "integer" },
+          "titleZh": { "type": "string" },
+          "descZh": { "type": "string" }
+        }
+      }
+    }
+  }
+}
