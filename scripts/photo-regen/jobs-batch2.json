@@ -1,0 +1,400 @@
+{
+  "date": "20261122",
+  "model": "gpt-image-2",
+  "size": "2400x1600",
+  "style": "Photorealistic architectural interior photograph of a completed, occupied-ready corporate office in Taipei, as published in a professional interior design portfolio. Shot on a full-frame camera with a 24mm tilt-shift lens at eye level, verticals corrected, natural daylight from windows mixed with warm-neutral ceiling lighting, true-to-life exposure. Real material detail: visible wood grain, matte paint texture, carpet-tile fibres, faint reflections and fingerprints on glass, soft realistic contact shadows, slight natural imperfections. It must NOT look like a 3D render or CGI: no plastic surfaces, no perfectly uniform lighting, no oversaturation, no glow halos. Keep the same room layout, camera angle, furniture arrangement, materials and colours as the reference image. Full-bleed photo: remove any floor-plan inset, logo watermark, white margins or presentation frame. No people. Screens are off. No legible text anywhere except what is explicitly specified.",
+  "jobs": [
+    {
+      "slug": "polytron",
+      "ref": "render-05",
+      "out": "selected-20261122-02",
+      "view": "收納走道",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "polytron",
+      "ref": "render-06",
+      "out": "selected-20261122-03",
+      "view": "開放工位全景",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "polytron",
+      "ref": "render-14",
+      "out": "selected-20261122-04",
+      "view": "主管室",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "polytron",
+      "ref": "render-15",
+      "out": "selected-20261122-05",
+      "view": "大會議室",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "polytron",
+      "ref": "render-17",
+      "out": "selected-20261122-06",
+      "view": "茶水區",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "aiontech",
+      "ref": "render-04",
+      "out": "selected-20261122-03",
+      "view": "黃色協作區",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "aiontech",
+      "ref": "render-07",
+      "out": "selected-20261122-04",
+      "view": "投影會議室",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "aiontech",
+      "ref": "render-11",
+      "out": "selected-20261122-05",
+      "view": "開放工位",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "aiontech",
+      "ref": "render-15",
+      "out": "selected-20261122-06",
+      "view": "休憩區",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "epicstech-10f",
+      "ref": "render-02",
+      "out": "selected-20261122-03",
+      "view": "木牆走廊",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "epicstech-10f",
+      "ref": "render-04",
+      "out": "selected-20261122-04",
+      "view": "長桌會議室縱向",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "epicstech-10f",
+      "ref": "render-05",
+      "out": "selected-20261122-05",
+      "view": "會議區側景",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "epicstech-10f",
+      "ref": "render-06",
+      "out": "selected-20261122-06",
+      "view": "獨立辦公室",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "hq-office",
+      "ref": "render-01",
+      "out": "selected-20261122-03",
+      "view": "入口看向材料圖書館",
+      "route": "enhance",
+      "scene": ""
+    },
+    {
+      "slug": "hq-office",
+      "ref": "render-05",
+      "out": "selected-20261122-04",
+      "view": "材料展示架",
+      "route": "enhance",
+      "scene": ""
+    },
+    {
+      "slug": "hq-office",
+      "ref": "render-07",
+      "out": "selected-20261122-05",
+      "view": "茶水區",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "hq-office",
+      "ref": "render-11",
+      "out": "selected-20261122-06",
+      "view": "開放工位",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "ledaojia",
+      "ref": "render-03",
+      "out": "selected-20261122-03",
+      "view": "入口門廳",
+      "route": "enhance",
+      "scene": ""
+    },
+    {
+      "slug": "ledaojia",
+      "ref": "render-05",
+      "out": "selected-20261122-04",
+      "view": "辦公工位",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "ledaojia",
+      "ref": "render-07",
+      "out": "selected-20261122-05",
+      "view": "展示櫃",
+      "route": "enhance",
+      "scene": ""
+    },
+    {
+      "slug": "ledaojia",
+      "ref": "render-08",
+      "out": "selected-20261122-06",
+      "view": "獨立辦公室側景",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "lijie",
+      "ref": "render-01",
+      "out": "selected-20261122-03",
+      "view": "入口門廳",
+      "route": "enhance",
+      "scene": ""
+    },
+    {
+      "slug": "lijie",
+      "ref": "render-02",
+      "out": "selected-20261122-04",
+      "view": "玻璃隔間走道",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "lijie",
+      "ref": "render-04",
+      "out": "selected-20261122-05",
+      "view": "開放工位",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "lijie",
+      "ref": "render-06",
+      "out": "selected-20261122-06",
+      "view": "訪客沙發側景",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "liwei",
+      "ref": "render-01",
+      "out": "selected-20261122-03",
+      "view": "入口門廳",
+      "route": "enhance",
+      "scene": ""
+    },
+    {
+      "slug": "liwei",
+      "ref": "render-02",
+      "out": "selected-20261122-04",
+      "view": "協作吧檯",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "liwei",
+      "ref": "render-09",
+      "out": "selected-20261122-05",
+      "view": "獨立辦公室",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "liwei",
+      "ref": "render-10",
+      "out": "selected-20261122-06",
+      "view": "窗邊會議區",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "xinlan",
+      "ref": "render-01",
+      "out": "selected-20261122-03",
+      "view": "入口走廊",
+      "route": "enhance",
+      "scene": ""
+    },
+    {
+      "slug": "xinlan",
+      "ref": "render-03",
+      "out": "selected-20261122-04",
+      "view": "開放工位反向",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "xinlan",
+      "ref": "render-05",
+      "out": "selected-20261122-05",
+      "view": "窗邊長桌會議室",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "xinlan",
+      "ref": "render-08",
+      "out": "selected-20261122-06",
+      "view": "小會議室",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "zhongbao-baojing",
+      "ref": "render-03",
+      "out": "selected-20261122-03",
+      "view": "入口",
+      "route": "enhance",
+      "scene": ""
+    },
+    {
+      "slug": "zhongbao-baojing",
+      "ref": "render-05",
+      "out": "selected-20261122-04",
+      "view": "開放工位側景",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "zhongbao-baojing",
+      "ref": "render-06",
+      "out": "selected-20261122-05",
+      "view": "展示公告櫃",
+      "route": "enhance",
+      "scene": ""
+    },
+    {
+      "slug": "zhongbao-baojing",
+      "ref": "render-07",
+      "out": "selected-20261122-06",
+      "view": "茶水區",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "zhongbao-jingzhen",
+      "ref": "render-05",
+      "out": "selected-20261122-03",
+      "view": "開放工位",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "zhongbao-jingzhen",
+      "ref": "render-09",
+      "out": "selected-20261122-04",
+      "view": "獨立辦公室",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "zhongbao-jingzhen",
+      "ref": "render-10",
+      "out": "selected-20261122-05",
+      "view": "投影會議室",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "zhongbao-jingzhen",
+      "ref": "render-12",
+      "out": "selected-20261122-06",
+      "view": "茶水區",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "zhongbao-showroom",
+      "ref": "render-01",
+      "out": "selected-20261122-03",
+      "view": "入口展區",
+      "route": "enhance",
+      "scene": ""
+    },
+    {
+      "slug": "zhongbao-showroom",
+      "ref": "render-03",
+      "out": "selected-20261122-04",
+      "view": "圓形互動牆",
+      "route": "enhance",
+      "scene": ""
+    },
+    {
+      "slug": "zhongbao-showroom",
+      "ref": "render-06",
+      "out": "selected-20261122-05",
+      "view": "設備展示區",
+      "route": "enhance",
+      "scene": ""
+    },
+    {
+      "slug": "zhongbao-showroom",
+      "ref": "render-08",
+      "out": "selected-20261122-06",
+      "view": "接待廳",
+      "route": "enhance",
+      "scene": ""
+    },
+    {
+      "slug": "zhongbao-tianhe",
+      "ref": "render-03",
+      "out": "selected-20261122-03",
+      "view": "入口門廳",
+      "route": "enhance",
+      "scene": ""
+    },
+    {
+      "slug": "zhongbao-tianhe",
+      "ref": "render-06",
+      "out": "selected-20261122-04",
+      "view": "開放工位",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "zhongbao-tianhe",
+      "ref": "render-12",
+      "out": "selected-20261122-05",
+      "view": "茶水區",
+      "route": "edit",
+      "scene": ""
+    },
+    {
+      "slug": "zhongbao-tianhe",
+      "ref": "render-13",
+      "out": "selected-20261122-06",
+      "view": "小會議室",
+      "route": "edit",
+      "scene": ""
+    }
+  ]
+}

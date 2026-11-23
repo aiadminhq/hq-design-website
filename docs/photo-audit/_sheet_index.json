@@ -1,0 +1,109 @@
+{
+  "aiontech": {
+    "noncompliant": "sheets/aiontech-noncompliant.jpg",
+    "compliant": "sheets/aiontech-compliant.jpg"
+  },
+  "baohua": {
+    "noncompliant": "sheets/baohua-noncompliant.jpg",
+    "compliant": "sheets/baohua-compliant.jpg"
+  },
+  "budaejjigae": {
+    "specgap": "sheets/budaejjigae-specgap.jpg",
+    "compliant": "sheets/budaejjigae-compliant.jpg"
+  },
+  "burger-ray": {
+    "compliant": "sheets/burger-ray-compliant.jpg"
+  },
+  "csun": {
+    "compliant": "sheets/csun-compliant.jpg"
+  },
+  "epicstech-10f": {
+    "noncompliant": "sheets/epicstech-10f-noncompliant.jpg",
+    "compliant": "sheets/epicstech-10f-compliant.jpg"
+  },
+  "guochan-office": {
+    "compliant": "sheets/guochan-office-compliant.jpg"
+  },
+  "guochan-showroom": {
+    "compliant": "sheets/guochan-showroom-compliant.jpg"
+  },
+  "hq-office": {
+    "noncompliant": "sheets/hq-office-noncompliant.jpg",
+    "compliant": "sheets/hq-office-compliant.jpg"
+  },
+  "kimpton": {
+    "compliant": "sheets/kimpton-compliant.jpg"
+  },
+  "ledaojia": {
+    "noncompliant": "sheets/ledaojia-noncompliant.jpg",
+    "compliant": "sheets/ledaojia-compliant.jpg"
+  },
+  "lijie": {
+    "noncompliant": "sheets/lijie-noncompliant.jpg",
+    "compliant": "sheets/lijie-compliant.jpg"
+  },
+  "liwei": {
+    "noncompliant": "sheets/liwei-noncompliant.jpg",
+    "compliant": "sheets/liwei-compliant.jpg"
+  },
+  "longteng-travel": {
+    "compliant": "sheets/longteng-travel-compliant.jpg"
+  },
+  "polytron": {
+    "noncompliant": "sheets/polytron-noncompliant.jpg",
+    "compliant": "sheets/polytron-compliant.jpg"
+  },
+  "popeyes": {
+    "compliant": "sheets/popeyes-compliant.jpg"
+  },
+  "qijia": {
+    "compliant": "sheets/qijia-compliant.jpg"
+  },
+  "secom-nangang-complex": {
+    "compliant": "sheets/secom-nangang-complex-compliant.jpg"
+  },
+  "secom-reception": {
+    "compliant": "sheets/secom-reception-compliant.jpg"
+  },
+  "soup-spoon-101": {
+    "compliant": "sheets/soup-spoon-101-compliant.jpg"
+  },
+  "soup-spoon-station": {
+    "compliant": "sheets/soup-spoon-station-compliant.jpg"
+  },
+  "transasia-bakery-chunri": {
+    "compliant": "sheets/transasia-bakery-chunri-compliant.jpg"
+  },
+  "transasia-bakery-dayuan": {
+    "specgap": "sheets/transasia-bakery-dayuan-specgap.jpg"
+  },
+  "xinlan": {
+    "noncompliant": "sheets/xinlan-noncompliant.jpg",
+    "compliant": "sheets/xinlan-compliant.jpg"
+  },
+  "zhongbao-baojing": {
+    "noncompliant": "sheets/zhongbao-baojing-noncompliant.jpg",
+    "compliant": "sheets/zhongbao-baojing-compliant.jpg"
+  },
+  "zhongbao-jingzhen": {
+    "noncompliant": "sheets/zhongbao-jingzhen-noncompliant.jpg",
+    "compliant": "sheets/zhongbao-jingzhen-compliant.jpg"
+  },
+  "zhongbao-showroom": {
+    "noncompliant": "sheets/zhongbao-showroom-noncompliant.jpg",
+    "compliant": "sheets/zhongbao-showroom-compliant.jpg"
+  },
+  "zhongbao-smart-facility": {
+    "compliant": "sheets/zhongbao-smart-facility-compliant.jpg"
+  },
+  "zhongbao-store-daan": {
+    "compliant": "sheets/zhongbao-store-daan-compliant.jpg"
+  },
+  "zhongbao-store-zhuangjing": {
+    "compliant": "sheets/zhongbao-store-zhuangjing-compliant.jpg"
+  },
+  "zhongbao-tianhe": {
+    "noncompliant": "sheets/zhongbao-tianhe-noncompliant.jpg",
+    "compliant": "sheets/zhongbao-tianhe-compliant.jpg"
+  }
+}

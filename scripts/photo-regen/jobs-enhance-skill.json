@@ -1,0 +1,31 @@
+{
+  "date": "20261122",
+  "model": "gpt-image-2.6-sunburst",
+  "size": "2400x1600",
+  "_note": "photo-enhance-render skill：cg-render／interior／final → GPT Image 2.6 Sunburst high；OpenAI 直連（本環境可達 api.openai.com）",
+  "style": "",
+  "jobs": [
+    {"slug": "hq-office", "ref": "render-01", "out": "selected-20261122-03", "view": "入口看向材料圖書館", "route": "skill-enhance", "space": "design studio entrance looking toward a material library"},
+    {"slug": "hq-office", "ref": "render-05", "out": "selected-20261122-04", "view": "材料展示架", "route": "skill-enhance", "space": "material sample library with display shelves"},
+    {"slug": "ledaojia", "ref": "render-03", "out": "selected-20261122-03", "view": "入口門廳", "route": "skill-enhance", "signage": true, "space": "office entrance lobby with two tenant sign panels"},
+    {"slug": "ledaojia", "ref": "render-07", "out": "selected-20261122-05", "view": "展示櫃", "route": "skill-enhance", "space": "office display cabinet wall"},
+    {"slug": "lijie", "ref": "render-01", "out": "selected-20261122-03", "view": "入口門廳", "route": "skill-enhance", "signage": true, "space": "office entrance lobby with company sign panels",
+     "extra": "The tiny English line under the sign '立捷國際' is illegible in IMAGE 1: omit that line entirely rather than inventing any words."},
+    {"slug": "liwei", "ref": "render-01", "out": "selected-20261122-03", "view": "入口門廳", "route": "skill-enhance", "signage": true, "space": "office entrance lobby with company sign panels",
+     "extra": "The tiny English line under the sign '立捷國際' is illegible in IMAGE 1: omit that line entirely rather than inventing any words."},
+    {"slug": "xinlan", "ref": "render-01", "out": "selected-20261122-03", "view": "入口走廊", "route": "skill-enhance", "signage": true, "space": "office entrance corridor with a company wall sign and a framed project display board",
+     "extra": "The wall sign reads exactly '欣蘭企業股份有限公司' with 'XINLAN ENTERPRISE CO., LTD' below. On the framed display board keep the drawing and photos, but render all of its small body text and headings as soft, unreadable texture — do not invent any legible words."},
+    {"slug": "zhongbao-baojing", "ref": "render-03", "out": "selected-20261122-03", "view": "入口", "route": "skill-enhance", "signage": true, "space": "office entrance with a company sign"},
+    {"slug": "zhongbao-baojing", "ref": "render-06", "out": "selected-20261122-05", "view": "展示公告櫃", "route": "skill-enhance", "space": "office display shelving with a cork notice board",
+     "extra": "Papers pinned on the notice board must have soft, unreadable text only — no legible invented words."},
+    {"slug": "zhongbao-showroom", "ref": "render-01", "out": "selected-20261122-03", "view": "入口展區", "route": "skill-enhance", "signage": true, "space": "corporate security-technology showroom entrance exhibition area",
+     "extra": "Exhibition graphics: keep the large headings exactly as in IMAGE 1; any small body text that is not clearly legible in IMAGE 1 must stay soft and unreadable — never invent words."},
+    {"slug": "zhongbao-showroom", "ref": "render-03", "out": "selected-20261122-04", "view": "圓形互動牆", "route": "skill-enhance", "signage": true, "space": "corporate showroom with a circular interactive wall and a large LED screen",
+     "extra": "Exhibition graphics: keep the large headings exactly as in IMAGE 1; any small body text that is not clearly legible in IMAGE 1 must stay soft and unreadable — never invent words."},
+    {"slug": "zhongbao-showroom", "ref": "render-06", "out": "selected-20261122-05", "view": "設備展示區", "route": "skill-enhance", "signage": true, "space": "corporate showroom equipment exhibition area",
+     "extra": "Exhibition graphics: keep the large headings exactly as in IMAGE 1; any small body text that is not clearly legible in IMAGE 1 must stay soft and unreadable — never invent words."},
+    {"slug": "zhongbao-showroom", "ref": "render-08", "out": "selected-20261122-06", "view": "接待廳", "route": "skill-enhance", "signage": true, "space": "corporate reception hall with a marble reception desk",
+     "extra": "Exhibition graphics: keep the large headings exactly as in IMAGE 1; any small body text that is not clearly legible in IMAGE 1 must stay soft and unreadable — never invent words."},
+    {"slug": "zhongbao-tianhe", "ref": "render-03", "out": "selected-20261122-03", "view": "入口門廳", "route": "skill-enhance", "signage": true, "space": "office entrance lobby with a company sign"}
+  ]
+}

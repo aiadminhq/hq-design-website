@@ -1,0 +1,23 @@
+{
+  "date": "20261122",
+  "model": "gpt-image-2",
+  "size": "2400x1600",
+  "quality": "high",
+  "jobs": [
+    {"slug": "baohua", "ref": "render-01", "out": "selected-20261122-01", "view": "入口 hero",
+     "scene": "Office entrance portal: a slim black steel door frame with clear glass side panels, opening onto a white layered-relief feature wall with deep navy blue vertical accent strips. A softly backlit light-grey sign panel on the feature wall reads exactly \"保華資安\" in dark grey Chinese characters with \"BAOHUA ZIAN\" in small capitals beneath it. Glimpse of open-plan workstations with green-mesh chairs through the glass."},
+    {"slug": "baohua", "ref": "render-03", "out": "selected-20261122-02", "view": "開放辦公區",
+     "scene": "Wide view of an open-plan office: rows of white bench workstations with low privacy screens and green-mesh task chairs, light oak wall panelling, black full-height doors, a printer station, grey carpet tiles, grid ceiling with recessed LED panels."},
+    {"slug": "baohua", "ref": "render-04", "out": "selected-20261122-03", "view": "長桌會議室",
+     "scene": "Meeting room with a long oak-top table on slim black steel legs, grey mesh conference chairs, full-height light oak wall panelling on one side and white acoustic wall panels, grid ceiling with LED panels."},
+    {"slug": "baohua", "ref": "render-05", "out": "selected-20261122-04", "view": "投影會議室",
+     "scene": "Boardroom with a long white conference table lined with green-mesh chairs, a pull-down projection screen (blank, white) on the end wall with a ceiling projector, light oak and white wall panels, dark grey carpet."},
+    {"slug": "baohua", "ref": "render-06", "out": "selected-20261122-05", "view": "茶水櫃區",
+     "scene": "Pantry niche: light oak upper cabinets with concealed LED strip lighting, a dark charcoal backsplash, white lower cabinets with a microwave and a hot-water dispenser, a tall white refrigerator, a glass partition door on the left showing a meeting room."},
+    {"slug": "baohua", "ref": "render-09", "out": "selected-20261122-06", "view": "獨立辦公室",
+     "scene": "Private manager office: white desk with a high-back black mesh chair, two beige visitor chairs, light oak wall with black open shelving, a linear black pendant light, a wall-mounted whiteboard, glass partition, roller blinds, grey carpet."},
+    {"slug": "ledaojia", "ref": "render-04", "out": "selected-20261122-01", "view": "入口接待（hero）",
+     "scene": "Reception area with a white reception counter with an oak top, grey microcement walls, black metal open shelving, a potted olive tree. On the wall behind the counter is a thin black-framed, softly backlit panel containing ONLY a subtle abstract linear relief pattern — absolutely no letters, words or logos on it."}
+  ],
+  "style": "Photorealistic architectural interior photograph of a completed, occupied-ready corporate office in Taipei, as published in a professional interior design portfolio. Shot on a full-frame camera with a 24mm tilt-shift lens at eye level, verticals corrected, natural daylight from windows mixed with warm-neutral ceiling lighting, true-to-life exposure. Real material detail: visible wood grain, matte paint texture, carpet-tile fibres, faint reflections and fingerprints on glass, soft realistic contact shadows, slight natural imperfections. It must NOT look like a 3D render or CGI: no plastic surfaces, no perfectly uniform lighting, no oversaturation, no glow halos. Keep the same room layout, camera angle, furniture arrangement, materials and colours as the reference image. Full-bleed photo: remove any floor-plan inset, logo watermark, white margins or presentation frame. No people. Screens are off. No legible text anywhere except what is explicitly specified."
+}
