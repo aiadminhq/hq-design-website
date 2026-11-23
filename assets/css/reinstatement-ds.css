@@ -1,0 +1,197 @@
+/* ============================================================
+   HQ DESIGN New Design System — 退租復原三頁的內容區
+   來源：Figma「HQ DESIGN - New Design System」（YkQYrRyGsKJEpQj1Lo9kzR）
+         Components 頁 Core Components（128:2）的 Variables
+   範圍：只作用在 .rs-page 的 <main> 與頁首標題區 .page-hero；導覽列與頁尾維持全站舊樣式。
+   之後全站改版時，這裡的 token 可直接搬到 :root。
+   ============================================================ */
+
+.rs-page main,
+.rs-page .page-hero {
+  /* 色彩 */
+  --brand: #1f3148; /* color/navy/100、slide/action/primary-bg */
+  --brand-dark: #19273a; /* control/fill-a */
+  --accent: #cc3e22; /* slide/text/accent：淺底上的橘色文字 */
+  --accent-fill: #ff4e2a; /* color/orange/100：橘色面積、按鈕 */
+  --accent-on: #101924; /* slide/action/accent-text：橘底上的文字 */
+  --accent-tint: #fff3ef; /* color/orange/60 的淡化底色 */
+  --dark: #101924; /* slide/text/primary */
+  --mid: #4d4f53; /* slide/text/secondary（#0a0a0a 70%）在白底的實色 */
+  --light: #6b6f75;
+  --bg: #f5f5f5; /* slide/surface、color/neutral/light-100 */
+  --border: #e8e8e8; /* slide/line */
+  --white: #ffffff;
+
+  /* 圓角：radius/sm 8、md 16、lg 24、full 999 */
+  --radius: 16px;
+  --radius-sm: 8px;
+  --radius-lg: 24px;
+  --radius-full: 999px;
+
+  /* 字體：Latin＝Satoshi，ZH-TW＝Noto Sans TC */
+  --font-en: "Satoshi", "Noto Sans TC", sans-serif;
+  --font-zh: "Satoshi", "Noto Sans TC", sans-serif;
+
+  font-family: var(--font-zh);
+  color: var(--dark);
+}
+
+/* ---------- 標題與標籤 ---------- */
+.rs-page main h1,
+.rs-page main h2,
+.rs-page main h3,
+.rs-page main h4 {
+  font-family: var(--font-zh);
+  font-weight: 700;
+}
+.rs-page main .section-title h2 {
+  letter-spacing: -0.02em;
+}
+.rs-page main .label {
+  font-family: var(--font-en);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  color: var(--accent);
+}
+.rs-page main .rs-dark .label {
+  color: #ffb3a1;
+}
+
+/* ---------- 按鈕：膠囊形（Button：Primary / Accent / Outline） ---------- */
+.rs-page main .btn {
+  border-radius: var(--radius-full);
+  border-width: 1.5px;
+  font-family: var(--font-zh);
+  font-weight: 500;
+  padding: 14px 26px;
+}
+.rs-page main .btn-primary {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: var(--white);
+}
+.rs-page main .btn-primary:hover {
+  background: var(--brand-dark);
+  border-color: var(--brand-dark);
+  box-shadow: none;
+}
+.rs-page main .rs-btn-light {
+  background: var(--accent-fill);
+  border-color: var(--accent-fill);
+  color: var(--accent-on);
+}
+.rs-page main .rs-btn-light:hover {
+  background: #ff6a4b;
+  border-color: #ff6a4b;
+}
+.rs-page main .btn-outline {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+.rs-page main .btn-outline-dark {
+  border-color: var(--dark);
+  color: var(--dark);
+}
+
+/* ---------- 深色區：Navy 底＋橘色光暈（Card Tone：Mesh Navy） ---------- */
+.rs-page main .rs-hero,
+.rs-page main .cta-banner {
+  background:
+    radial-gradient(
+      60% 80% at 92% 0%,
+      rgba(255, 78, 42, 0.32) 0%,
+      rgba(255, 78, 42, 0) 70%
+    ),
+    var(--brand);
+}
+.rs-page main .cta-banner::before {
+  display: none;
+}
+
+/* ---------- 前後對照 ---------- */
+.rs-page main .rs-compare {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+.rs-page main .rs-compare-tag {
+  border-radius: var(--radius-full);
+  font-family: var(--font-en);
+}
+.rs-page main .rs-scene-btn {
+  font-family: var(--font-zh);
+  font-weight: 500;
+}
+
+/* ---------- 卡片（Card：Filled / Outline） ---------- */
+.rs-page main .rs-card,
+.rs-page main .rs-scope-box {
+  border-radius: var(--radius);
+  border-color: var(--border);
+}
+.rs-page main .rs-alt .rs-card,
+.rs-page main .rs-alt .rs-scope-box {
+  background: var(--white);
+}
+.rs-page main .rs-scope-box--keep {
+  background: var(--accent-tint);
+  border-color: #f4cec5; /* color/orange/60 */
+}
+.rs-page main .rs-card-num {
+  font-family: var(--font-en);
+  font-weight: 500;
+  letter-spacing: 0.16em;
+}
+.rs-page main .rs-card-ico {
+  color: var(--accent-fill);
+}
+
+/* ---------- 流程步驟（Step） ---------- */
+.rs-page main .step-circle {
+  border-width: 1.5px;
+  border-color: var(--border);
+  color: var(--mid);
+  font-family: var(--font-en);
+  font-weight: 700;
+}
+.rs-page main .step:hover .step-circle {
+  background: var(--accent-fill);
+  border-color: var(--accent-fill);
+  color: var(--accent-on);
+}
+
+/* ---------- FAQ ---------- */
+.rs-page main .rs-faq summary {
+  font-weight: 500;
+}
+
+/* ---------- 表單 ---------- */
+.rs-page main .form-group input,
+.rs-page main .form-group textarea,
+.rs-page main .form-group select {
+  border-radius: var(--radius-sm);
+  border-width: 1px;
+  font-family: var(--font-zh);
+}
+.rs-page main .form-group input:focus,
+.rs-page main .form-group textarea:focus,
+.rs-page main .form-group select:focus {
+  border-color: var(--brand);
+}
+
+/* ---------- 表單頁、感謝頁的頁首標題區（在 <main> 之外） ---------- */
+.rs-page .page-hero {
+  background:
+    radial-gradient(60% 80% at 92% 0%, rgba(255, 78, 42, 0.32) 0%, rgba(255, 78, 42, 0) 70%),
+    var(--brand);
+}
+.rs-page .page-hero h1 {
+  font-family: var(--font-zh);
+  font-weight: 700;
+}
+.rs-page .page-hero .label {
+  font-family: var(--font-en);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  color: #ffb3a1;
+}

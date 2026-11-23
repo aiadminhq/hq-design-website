@@ -32,3 +32,8 @@ build/
 
 # Test
 coverage/
+
+# Local tooling / Dropbox artifacts
+.claude/
+.workflow/
+Icon?
