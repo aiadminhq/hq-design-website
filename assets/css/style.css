@@ -1,5 +1,5 @@
 /* ============================================================
-   HQ Interior & Space Design — Main Stylesheet
+   HQ Design — Main Stylesheet
    Brand: #1C2B3A (deep navy) | #C8410F (accent red) | #F8F8F6 (off-white)
    CBRE/JLL institutional style — updated 2026-05
    ============================================================ */
@@ -266,7 +266,7 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   border-top: 1px solid rgba(255,255,255,0.1);
 }
 .stat-item { display: flex; flex-direction: column; }
-.stat-num  { font-family: var(--font-en); font-size: 44px; font-weight: 800; color: var(--white); line-height: 1; }
+.stat-num  { font-family: var(--font-en); font-size: 44px; font-weight: 800; color: var(--white); line-height: 1; white-space: nowrap; }
 .stat-num .stat-unit { font-size: 22px; color: var(--accent); }
 .stat-label-en { font-family: var(--font-en); font-size: 11px; color: rgba(255,255,255,0.55); letter-spacing: 0.5px; margin-top: 6px; display: block; }
 .stat-label-zh { font-size: 11px; color: rgba(255,255,255,0.30); margin-top: 2px; display: block; letter-spacing: 0.5px; }
@@ -506,11 +506,15 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   font-family: var(--font-en);
   font-size: 36px;
   font-weight: 800;
-  color: var(--bg);
+    color: var(--accent);
   margin-bottom: 20px;
-  line-height: 1;
+    line-height: 1;
+     letter-spacing: -0.02em;
 }
-.service-card:hover .service-number { color: rgba(28,43,58,0.12); }
+.service-card:hover .service-number {
+     color: var(--accent);
+     opacity: 1;
+}
 .service-card h3 { font-size: 16px; margin-bottom: 4px; }
 .service-card .en-name {
   font-family: var(--font-en);
@@ -521,6 +525,18 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   letter-spacing: 0.3px;
 }
 .service-card p { font-size: 13px; color: var(--mid); line-height: 1.7; }
+.service-card-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+}
+.service-card-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+.service-card-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
 
 /* ============================================================
    PROCESS STEPS
@@ -637,6 +653,7 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   font-weight: 800;
   color: var(--accent);
   line-height: 1;
+  white-space: nowrap;
 }
 .about-stat .unit { font-size: 24px; }
 .about-stat .zh { font-size: 13px; color: rgba(255,255,255,0.6); margin-top: 8px; }
@@ -746,36 +763,66 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
 .form-group textarea { resize: vertical; min-height: 120px; }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 
+.contact-form-fields { display: flex; flex-direction: column; gap: 20px; }
+/* [hidden] must win over display:flex above, or fields stay visible after AJAX success */
+.contact-form-fields[hidden] { display: none !important; }
+.contact-form.is-sent .contact-form-fields { display: none; }
+.contact-form-status {
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  font-size: 15px;
+  line-height: 1.7;
+  border: 1px solid var(--border);
+}
+.contact-form-status.is-success {
+  background: var(--bg);
+  border-color: var(--brand);
+  color: var(--dark);
+}
+.contact-form-status.is-error {
+  background: #fff8f7;
+  border-color: #c45c4a;
+  color: #7a2e22;
+}
+.contact-form-thankyou {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--dark);
+}
+.contact-form-submit[disabled] {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
 .contact-info { display: flex; flex-direction: column; gap: 36px; }
 .info-block h3 { font-size: 16px; margin-bottom: 16px; }
 .info-item { display: flex; gap: 12px; margin-bottom: 12px; align-items: flex-start; }
-.info-icon { width: 20px; color: var(--mid); flex-shrink: 0; margin-top: 2px; }
-.info-item p { font-size: 14px; color: var(--mid); }
-.info-item p strong { color: var(--dark); }
-
-.line-box {
-  background: var(--bg);
-  border: 1.5px solid var(--border);
-  border-radius: var(--radius);
-  padding: 28px;
-  text-align: center;
-}
-.line-box h4 { font-size: 16px; margin-bottom: 8px; }
-.line-box p { font-size: 13px; color: var(--mid); margin-bottom: 20px; }
-.line-placeholder {
-  width: 140px; height: 140px;
-  background: var(--border);
-  border-radius: 8px;
+.info-icon {
+  width: 20px;
+  height: 20px;
+  color: var(--brand);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 12px;
-  font-size: 12px;
-  color: var(--light);
-  text-align: center;
-  padding: 12px;
-  line-height: 1.4;
+  flex-shrink: 0;
+  margin-top: 2px;
 }
+.info-icon svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.info-item p { font-size: 14px; color: var(--mid); }
+.info-item p strong { color: var(--dark); }
+
 
 /* ============================================================
    FOOTER
@@ -908,4 +955,494 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
   padding: 24px 32px;
   gap: 20px;
   box-shadow: var(--shadow-lg);
+}
+
+
+/* ============================================================
+   STAGE 1 — feat/international-partner (append only; do not edit rules above)
+   ============================================================ */
+.door-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.door-grid--three { grid-template-columns: repeat(3, 1fr); }
+.door-card {
+  display: block;
+  background: var(--white);
+  padding: 40px 36px;
+  border-right: 1px solid var(--border);
+  text-decoration: none;
+  color: inherit;
+  transition: background var(--transition);
+}
+.door-card:last-child { border-right: none; }
+.door-card:hover { background: var(--bg); }
+.door-card--static { cursor: default; }
+.door-card--static:hover { background: var(--white); }
+.door-card--accent { background: var(--bg); }
+.door-kicker {
+  display: block;
+  font-family: var(--font-en);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+.door-card h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: var(--dark);
+}
+.door-card p {
+  font-size: 14px;
+  color: var(--mid);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+.door-cta {
+  font-family: var(--font-en);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--brand);
+}
+.service-badge {
+  display: inline-block;
+  font-family: var(--font-en);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 4px 8px;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+.lp-prose p { font-size: 15px; color: var(--mid); line-height: 1.8; max-width: 720px; margin-bottom: 20px; }
+.lp-list { list-style: disc; padding-left: 20px; max-width: 720px; }
+.lp-list li { font-size: 15px; color: var(--mid); line-height: 1.7; margin-bottom: 10px; }
+.lp-table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius); }
+.lp-table { width: 100%; border-collapse: collapse; background: var(--white); }
+.lp-table th, .lp-table td {
+  text-align: left;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+  vertical-align: top;
+}
+.lp-table th {
+  font-family: var(--font-en);
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--light);
+  background: var(--bg);
+}
+.lp-table tr:last-child td { border-bottom: none; }
+.lp-steps {
+  list-style: none;
+  counter-reset: lpstep;
+  max-width: 720px;
+  padding: 0;
+  margin: 0;
+}
+.lp-steps li {
+  counter-increment: lpstep;
+  position: relative;
+  padding: 18px 0 18px 56px;
+  border-bottom: 1px solid var(--border);
+  font-size: 15px;
+  color: var(--mid);
+  line-height: 1.7;
+}
+.lp-steps li::before {
+  content: counter(lpstep, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 18px;
+  font-family: var(--font-en);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--accent);
+}
+.placeholder-block {
+  margin-top: 32px;
+  padding: 48px 24px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  text-align: center;
+  color: var(--light);
+  font-family: var(--font-en);
+  font-size: 13px;
+  background: var(--bg);
+}
+@media (max-width: 900px) {
+  .door-grid, .door-grid--three { grid-template-columns: 1fr; }
+  .door-card { border-right: none; border-bottom: 1px solid var(--border); }
+  .door-card:last-child { border-bottom: none; }
+}
+/* =========================================================
+   Stage 1 bilingual split — language toggle & EN logo subtitle
+   Appended for feat/zh-en-split draft
+   ========================================================= */
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 12px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+.lang-toggle__item {
+  font-family: var(--font-en);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  color: var(--mid);
+  text-decoration: none;
+  padding: 4px 2px;
+  white-space: nowrap;
+}
+.lang-toggle__item:hover { color: var(--brand); }
+.lang-toggle__item.is-active {
+  color: var(--dark);
+  font-weight: 700;
+}
+.lang-toggle__sep {
+  color: var(--border);
+  font-size: 12px;
+  user-select: none;
+}
+/* English header brand stack — shared so every EN page matches home/reference:
+   orange logo + DESIGN AND BUILD mark, then "HQ Design" (15px/700 dark)
+   over "SINCE 1995" (11px light, all-caps). Scoped away from .nav-logo--zh. */
+.nav-logo--int:not(.nav-logo--zh) img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+.nav-logo--int:not(.nav-logo--zh) .name-en {
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--dark);
+  letter-spacing: -0.2px;
+  line-height: 1.1;
+  display: block;
+}
+.nav-logo--int .name-zh--en {
+  font-family: var(--font-en);
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--light);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  display: block;
+  margin-top: 2px;
+}
+
+/* Phone 375px: keep toggle visible; collapse spacing */
+@media (max-width: 900px) {
+  .lang-toggle {
+    order: 3;
+    margin-left: auto;
+    margin-right: 8px;
+  }
+  .nav-inner .hamburger { order: 4; }
+  .nav-cta { display: none; }
+}
+@media (max-width: 375px) {
+  .lang-toggle { gap: 4px; margin-right: 4px; }
+  .lang-toggle__item { font-size: 11px; }
+  .nav-logo--int:not(.nav-logo--zh) .name-en { font-size: 13px; }
+  .nav-logo--int:not(.nav-logo--zh) img { height: 32px; }
+  /* Hide EN "SINCE 1995" only — do not blank the ZH company stack */
+  .nav-logo--int:not(.nav-logo--zh) .name-zh { display: none; }
+}
+
+/* Team structure (About) — high-contrast numbers on dark cells */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+  background: var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 48px;
+}
+.team-cell {
+  background: var(--brand);
+  padding: 32px 16px;
+  text-align: center;
+}
+.team-num {
+  font-family: var(--font-en);
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.team-role {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 10px;
+  line-height: 1.35;
+}
+@media (max-width: 768px) {
+  .team-grid { grid-template-columns: repeat(2, 1fr); }
+  .team-cell:last-child { grid-column: 1 / -1; }
+}
+
+/* FAQ page — details/summary accordion */
+.faq-intro {
+  max-width: 720px;
+  margin: 0 auto 48px;
+  font-size: 16px;
+  color: var(--mid);
+  line-height: 1.75;
+  text-align: center;
+}
+.faq-group {
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+.faq-group-title {
+  font-family: var(--font-en);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 16px;
+}
+html[lang="zh-Hant"] .faq-group-title {
+  font-family: var(--font-zh, inherit);
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+.faq-item {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #fff;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 18px 52px 18px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--dark);
+  line-height: 1.45;
+  position: relative;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: "+";
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-en);
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--accent);
+  line-height: 1;
+}
+.faq-item[open] summary::after { content: "−"; }
+.faq-item summary:hover { background: var(--bg); }
+.faq-answer {
+  padding: 0 20px 20px;
+  font-size: 15px;
+  color: var(--mid);
+  line-height: 1.75;
+}
+.faq-answer p { margin: 0 0 12px; }
+.faq-answer p:last-child { margin-bottom: 0; }
+.faq-answer a { color: var(--accent); text-decoration: underline; }
+.faq-answer ul {
+  margin: 0 0 12px;
+  padding-left: 1.25em;
+}
+.faq-answer li { margin-bottom: 6px; }
+/* Chinese navigation: keep the brand name and founding year on separate lines. */
+/* Locale-only header brand: Chinese pages should not render the English name. */
+.nav-logo--int.nav-logo--zh .name-en { display: none; }
+
+.nav-logo--int.nav-logo--zh .name-zh {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+.nav-logo--int.nav-logo--zh .name-zh-company {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--dark);
+  line-height: 1.1;
+}
+.nav-logo--int.nav-logo--zh .name-zh-since {
+  /* Match EN .name-zh--en (approved SINCE 1995 treatment) */
+  display: block;
+  font-family: var(--font-en);
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--light);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+@media (max-width: 375px) {
+  .nav-logo--int.nav-logo--zh .name-zh-company { font-size: 13px; }
+}
+
+/* Contact page WhatsApp button — green #25D366, inline glyph, no icon CDN */
+.wa-glyph {
+  display: block;
+  width: 1.05em;
+  height: 1.05em;
+  flex-shrink: 0;
+}
+.btn-whatsapp {
+  background: #25D366;
+  border-color: #25D366;
+  color: #fff;
+  font-family: var(--font-en);
+}
+.btn-whatsapp:hover {
+  background: #1DA851;
+  border-color: #1DA851;
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.35);
+}
+.btn-whatsapp:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+.btn-whatsapp .wa-glyph {
+  width: 18px;
+  height: 18px;
+  color: #fff;
+}
+.wa-direct { margin-bottom: 18px; }
+.phone-abroad-note {
+  display: block;
+  margin-top: 6px;
+  font-family: var(--font-en);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.55;
+  color: var(--mid);
+}
+
+/* Services dropdown — desktop hover/focus, mobile indented list */
+.nav-item--services { position: relative; }
+.nav-item--services::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 22px;
+}
+.nav-caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 6px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid currentColor;
+  vertical-align: 2px;
+  pointer-events: none;
+}
+.nav-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 18px);
+  left: 0;
+  z-index: 120;
+  min-width: 220px;
+  margin: 0;
+  padding: 8px 0;
+  list-style: none;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  text-align: left;
+}
+.nav-dropdown a {
+  display: block;
+  padding: 10px 16px;
+  white-space: nowrap;
+  color: var(--mid);
+}
+.nav-links .nav-dropdown a::after { display: none; }
+.nav-dropdown a:hover,
+.nav-dropdown a:focus-visible,
+.nav-dropdown a.active {
+  color: var(--dark);
+  background: var(--bg);
+}
+.nav-services-link:focus-visible,
+.nav-dropdown a:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+@media (min-width: 769px) {
+  .nav-item--services:hover > .nav-dropdown,
+  .nav-item--services:focus-within > .nav-dropdown {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .nav-item--services::before { display: none; }
+  .nav-mobile-open .nav-links {
+    align-items: flex-start;
+    text-align: left;
+  }
+  .nav-mobile-open .nav-item--services {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 12px;
+    text-align: left;
+  }
+  .nav-mobile-open .nav-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: static;
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0 0 0 18px;
+    gap: 12px;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: left;
+  }
+  .nav-mobile-open .nav-dropdown a {
+    padding: 0;
+    white-space: normal;
+    text-align: left;
+  }
 }

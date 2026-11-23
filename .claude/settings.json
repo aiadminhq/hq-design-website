@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y playwright install chromium >/dev/null 2>&1 || true"
+          }
+        ]
+      }
+    ]
+  }
+}

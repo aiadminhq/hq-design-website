@@ -16,7 +16,10 @@
   }
 
   // 這次需求已經結束，下次進表單要產生新的編號
-  try { window.sessionStorage.removeItem('rs_ref_id'); } catch (e) { /* 略過 */ }
+  try {
+    window.sessionStorage.removeItem('rs_ref_id');
+    window.sessionStorage.removeItem('rs_step1_draft');
+  } catch (e) { /* 略過 */ }
 
   var box = document.getElementById('rs-refbox');
   var text = document.getElementById('rs-ref');

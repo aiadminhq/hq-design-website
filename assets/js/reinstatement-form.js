@@ -8,13 +8,24 @@
   var step2 = document.getElementById("rs-step2");
   if (!step1 || !step2) return;
 
-  var THANKS_URL = "reinstatement-thanks.html";
+  // 中英文共用：依 <html lang> 切換顯示文字；寄給內部的通知信維持中文，主旨加語言標記
+  var EN = /^en/i.test(document.documentElement.lang || "");
+  function t(zh, en) {
+    return EN ? en : zh;
+  }
+  var LANG_TAG = EN ? "｜EN" : "";
+
+  var THANKS_URL = "office-reinstatement-thanks.html";
   var REF_KEY = "rs_ref_id";
   var REF_PATTERN = /^RS-\d{8}-[A-Z0-9]{4}$/;
   var MAX_SITES = 5;
-  var ERROR_HELP =
+  var ERROR_HELP = t(
     '送出沒有成功，可能是網路不穩。請再試一次，或直接打 <a href="tel:0225573003">02-2557-3003</a>、' +
-    '寫信到 <a href="mailto:info@hqdesign.tw">info@hqdesign.tw</a>。';
+      '寫信到 <a href="mailto:info@hqdesign.tw">info@hqdesign.tw</a>。',
+    "Something went wrong, possibly a network issue. Please try again, or call " +
+      '<a href="tel:+886225573003">+886-2-2557-3003</a> or email ' +
+      '<a href="mailto:info@hqdesign.tw">info@hqdesign.tw</a>. ',
+  );
 
   // 改由下面的程式驗證，才能顯示中文訊息與「電話或 Email 擇一」
   step1.noValidate = true;
@@ -119,6 +130,35 @@
   var consentInput = $("rs-consent");
   var step1Status = $("rs-step1-status");
   var step1Submit = $("rs-step1-submit");
+
+  // 第 1 步草稿：使用者點「回到服務說明」再回來時，把填過的聯絡資料填回去。
+  // 只存在這個分頁（sessionStorage），關掉分頁就清除；送出完成後由感謝頁刪除。
+  var DRAFT_KEY = "rs_step1_draft";
+  var draftInputs = [nameInput, companyInput, phoneInput, emailInput];
+  (function restoreDraft() {
+    var raw = storageGet(DRAFT_KEY);
+    if (!raw) return;
+    try {
+      var draft = JSON.parse(raw);
+      draftInputs.forEach(function (input) {
+        if (input && !input.value && typeof draft[input.id] === "string") {
+          input.value = draft[input.id];
+        }
+      });
+    } catch (e) {
+      /* 格式不對就略過 */
+    }
+  })();
+  draftInputs.forEach(function (input) {
+    if (!input) return;
+    input.addEventListener("input", function () {
+      var draft = {};
+      draftInputs.forEach(function (el) {
+        if (el) draft[el.id] = el.value;
+      });
+      storageSet(DRAFT_KEY, JSON.stringify(draft));
+    });
+  });
   var contact = {};
 
   function setError(input, errorEl, message) {
@@ -137,12 +177,12 @@
     check(
       nameInput,
       $("rs-name-err"),
-      trim(nameInput.value) ? "" : "請填聯絡人姓名。",
+      trim(nameInput.value) ? "" : t("請填聯絡人姓名。", "Please enter your name."),
     );
     check(
       companyInput,
       $("rs-company-err"),
-      trim(companyInput.value) ? "" : "請填公司名稱。",
+      trim(companyInput.value) ? "" : t("請填公司名稱。", "Please enter your company name."),
     );
 
     var phone = trim(phoneInput.value);
@@ -154,11 +194,11 @@
     emailInput.removeAttribute("aria-invalid");
 
     if (!phone && !email) {
-      contactMessage = "電話或 Email 請至少填一個，我們才聯絡得到你。";
+      contactMessage = t("電話或 Email 請至少填一個，我們才聯絡得到你。", "Please give us a phone number or an email so we can reach you.");
     } else if (phone && phone.replace(/\D/g, "").length < 7) {
-      contactMessage = "電話號碼好像少了幾碼，請再確認一次。";
+      contactMessage = t("電話號碼好像少了幾碼，請再確認一次。", "That phone number looks too short. Please check it.");
     } else if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      contactMessage = "Email 格式好像不對，請再確認一次。";
+      contactMessage = t("Email 格式好像不對，請再確認一次。", "That email address doesn't look right. Please check it.");
       contactField = emailInput;
     }
     contactErr.textContent = contactMessage;
@@ -170,7 +210,7 @@
     check(
       consentInput,
       $("rs-consent-err"),
-      consentInput.checked ? "" : "請勾選同意，我們才能用這些資料聯絡你。",
+      consentInput.checked ? "" : t("請勾選同意，我們才能用這些資料聯絡你。", "Please tick the consent box so we can use these details to contact you."),
     );
 
     if (firstInvalid) firstInvalid.focus();
@@ -206,10 +246,10 @@
       email: trim(emailInput.value),
     };
 
-    setBusy(step1Submit, true, "送出中…");
+    setBusy(step1Submit, true, t("送出中…", "Sending…"));
     send(step1, {
-      _subject: "【HQ 退租復原｜新聯絡】" + contact.company + "｜" + refId,
-      _language: "zh",
+      _subject: "【HQ 退租復原｜新聯絡" + LANG_TAG + "】" + contact.company + "｜" + refId,
+      _language: EN ? "en" : "zh",
       ref_id: refId,
       form_step: "1 聯絡方式",
       name: contact.name,
@@ -244,7 +284,7 @@
       });
     });
     all(step2, "[data-rs-lease-label]").forEach(function (label) {
-      label.textContent = role === "landlord" ? "租客搬離日" : "租約到期日";
+      label.textContent = role === "landlord" ? t("租客搬離日", "Tenant move-out date") : t("租約到期日", "Lease end date");
     });
   }
   all(step2, 'input[name="role"]').forEach(function (radio) {
@@ -280,10 +320,10 @@
     var sites = all(sitesWrap, "[data-rs-site]");
     sites.forEach(function (site, index) {
       var n = index + 2; // 第一個地點是上面的主要欄位
-      site.querySelector("[data-rs-site-title]").textContent = "地點 " + n;
+      site.querySelector("[data-rs-site-title]").textContent = t("地點 ", "Site ") + n;
       site
         .querySelector("[data-rs-site-remove]")
-        .setAttribute("aria-label", "移除地點 " + n);
+        .setAttribute("aria-label", t("移除地點 ", "Remove site ") + n);
       all(site, "[data-rs-field]").forEach(function (input) {
         var key = input.getAttribute("data-rs-field");
         var id = "rs-site-" + n + "-" + key;
@@ -358,7 +398,7 @@
     } // 什麼都沒填，等同跳過
 
     var subject =
-      "【HQ 退租復原｜補充資料】" +
+      "【HQ 退租復原｜補充資料" + LANG_TAG + "】" +
       (contact.company || "未填公司") +
       "｜" +
       (answers.site_address || "地址未填") +
@@ -369,7 +409,7 @@
 
     var fields = {
       _subject: subject,
-      _language: "zh",
+      _language: EN ? "en" : "zh",
       ref_id: refId,
       form_step: "2 補充需求",
       company: contact.company,
@@ -381,7 +421,7 @@
       fields[key] = answers[key];
     });
 
-    setBusy(step2Submit, true, "送出中…");
+    setBusy(step2Submit, true, t("送出中…", "Sending…"));
     step2Skip.disabled = true;
     send(step2, fields)
       .then(goThanks)
@@ -389,7 +429,7 @@
         setBusy(step2Submit, false);
         step2Skip.disabled = false;
         step2Status.innerHTML =
-          ERROR_HELP + "你的聯絡方式我們已經收到了，也可以按「先跳過」。";
+          ERROR_HELP + t("你的聯絡方式我們已經收到了，也可以按「先跳過」。", "We already have your contact details, so you can also choose “Skip for now”.");
       });
   });
 

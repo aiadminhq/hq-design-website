@@ -5,10 +5,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.hqdesign.tw/about.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.hqdesign.tw/services.html</loc>
     <priority>0.8</priority>
   </url>
@@ -17,7 +13,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.hqdesign.tw/careers.html</loc>
+    <loc>https://www.hqdesign.tw/about.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
@@ -25,119 +21,255 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.hqdesign.tw/careers.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/local-partner-international-pm.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/faq.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/services.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/projects.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/about.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/contact.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/careers.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/local-partner-international-pm.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/faq.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/taipei-office-renovation.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/office-relocation.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.hqdesign.tw/projects/aiontech.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/baohua.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.hqdesign.tw/projects/csun.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/epicstech-10f.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/hq-office.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/kimpton.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/ledaojia.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/lijie.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/liwei.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/polytron.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/popeyes.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/qijia.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/secom-nangang-complex.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.hqdesign.tw/zh/projects/secom-nangang-complex.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
     <loc>https://www.hqdesign.tw/projects/soup-spoon-101.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/soup-spoon-station.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/xinlan.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.hqdesign.tw/projects/zhongbao-baojing.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/zhongbao-jingzhen.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/zhongbao-nangang.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/zhongbao-showroom.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.hqdesign.tw/projects/zhongbao-tianhe.html</loc>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hqdesign.tw/projects/transasia-bakery-dayuan.html</loc>
-    <priority>0.6</priority>
+    <loc>https://www.hqdesign.tw/zh/projects/aiontech.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hqdesign.tw/projects/longteng-travel.html</loc>
-    <priority>0.6</priority>
+    <loc>https://www.hqdesign.tw/zh/projects/baohua.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hqdesign.tw/projects/transasia-bakery-chunri.html</loc>
-    <priority>0.6</priority>
+    <loc>https://www.hqdesign.tw/zh/projects/epicstech-10f.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hqdesign.tw/projects/budaejjigae.html</loc>
-    <priority>0.6</priority>
+    <loc>https://www.hqdesign.tw/zh/projects/hq-office.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hqdesign.tw/projects/guochan-showroom.html</loc>
-    <priority>0.6</priority>
+    <loc>https://www.hqdesign.tw/zh/projects/kimpton.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hqdesign.tw/projects/secom-reception.html</loc>
-    <priority>0.6</priority>
+    <loc>https://www.hqdesign.tw/zh/projects/ledaojia.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hqdesign.tw/projects/guochan-office.html</loc>
-    <priority>0.6</priority>
+    <loc>https://www.hqdesign.tw/zh/projects/lijie.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hqdesign.tw/projects/burger-ray.html</loc>
-    <priority>0.6</priority>
+    <loc>https://www.hqdesign.tw/zh/projects/liwei.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/projects/polytron.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/projects/popeyes.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/projects/qijia.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/projects/soup-spoon-101.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/projects/soup-spoon-station.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/projects/xinlan.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/projects/zhongbao-baojing.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/projects/zhongbao-jingzhen.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/projects/zhongbao-showroom.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/projects/zhongbao-tianhe.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/office-reinstatement.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/office-reinstatement-request.html</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/office-reinstatement.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/guides/office-move-out-handover.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.hqdesign.tw/zh/office-reinstatement-request.html</loc>
+    <priority>0.5</priority>
   </url>
 </urlset>

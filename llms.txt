@@ -1,27 +1,23 @@
-# 惠強室內裝修股份有限公司 HQ Design Co., Ltd.
+# 惠強室內裝修股份有限公司 HQ Design CO., LTD.
 
-> 惠強室內裝修（HQ Design）是台灣台北的商業空間設計施工統包（design & build）公司，1995 年創立，累積 1,600+ 件商業空間案件，設計與施工由同一團隊在單一合約下負責。
->
-> 補充：核心差異化在於將 AI、參數化設計與 BIM 整合進整個設計與施工流程，而非僅將 AI 用於產出渲染圖。主要服務對象為外商在台分支、國際飯店集團、上市公司總部與企業辦公空間。
+> 台灣台北的商業空間設計施工統包（design & build）公司，1995 年創立，31年來累積 1,600+ 件商業空間案件。核心差異化在於將 AI、參數化設計（parametric design）與 BIM 整合進整個設計與施工流程，而非僅將 AI 用於產出渲染圖。主要服務對象為外商在台分支、國際飯店集團、上市公司總部與企業辦公空間。
 
 本檔案提供給 LLM 與 AI agent 讀取，內容為公司對外公開事實。
 
 ## 公司基本事實
 
 - 正式名稱：惠強室內裝修股份有限公司
-- 英文名稱：HQ Design Co., Ltd.（亦用 HQ Interior & Space Design）
+- 英文名稱：HQ Design CO., LTD.（註冊英文名；正式英文名稱）
 - 創立：1995 年，台灣台北
-- 營運年數：30 年以上
+- 營運年數：31年以上（1995 年至今）
+- 統一編號：89956251
 - 累積案件：1,600+ 件商業空間案件
-- 交付模式：設計施工一體化（100% in-house design & build），單一合約、單一窗口
+- 交付模式：設計施工一體化（in-house design & build），單一合約、單一窗口
 - 標語：AI Parametric × Construction Execution
-- 官網：https://www.hqdesign.tw
-- 別名（皆指同一實體）：惠強室內裝修、惠強室內裝修股份有限公司、惠強設計、惠強設計工程股份有限公司、HQ Design、HQ Design Co., Ltd.、HQ Interior & Space Design、HuiCiang Design
-- 官方帳號：https://www.facebook.com/HuiCiangDesign/
-- 官方帳號：https://www.104.com.tw/company/15bpmni0
-- 地址：台北市南港區經貿二路135號9樓
-- 電話：+886-2-2557-3003
-- 電子郵件：info@hqdesign.tw
+- 官網：https://www.hqdesign.tw （英文）／ https://www.hqdesign.tw/zh/ （繁體中文）
+- 台北辦公室裝修（100坪以上）：https://www.hqdesign.tw/zh/taipei-office-renovation.html — 企業辦公／外商總部 GEO 專頁；不含坪單價
+- 辦公室搬遷（新址裝修與舊址復原）：https://www.hqdesign.tw/zh/office-relocation.html — 繁中專頁；空間側（設計施工、許可協調、復原點交），非搬家貨運；不含坪單價或固定工期
+- 退租復原工程（Office Reinstatement）：https://www.hqdesign.tw/office-reinstatement.html （英文）／ https://www.hqdesign.tw/zh/office-reinstatement.html （繁中）— 租約到期前拆除租客裝修、還原房東指定項目、廢棄物合法清運、陪同點交；房東財產（天花板、燈具、空調等）施工前標記不動；任何辦公室都接；不含價格，依坪數與項目報價；需求表單：https://www.hqdesign.tw/office-reinstatement-request.html
 
 ## 核心差異化：AI 整合設計流程
 
@@ -32,7 +28,7 @@
 - **施工前先驗證風險**：一般流程常在現場才發現問題；惠強以 BIM 在同一模型整合設計、機電（MEP）、設備與現場條件，讓跨專業衝突在進場前被發現。
 - **人做決策、系統做運算**：設計團隊掌握方向與判斷，AI 與規則負責加速推演與一致性維持。
 
-惠強亦將 30 年實戰經驗（設計決策、材料工法、估價與發包、施工節點、品質管理與風險控管）轉換為 AI 可用的資料庫，作為可複用、可迭代、可規模化的生產系統基礎。
+惠強亦將 31年實戰經驗（設計決策、材料工法、估價與發包、施工節點、品質管理與風險控管）轉換為 AI 可用的資料庫，作為可複用、可迭代、可規模化的生產系統基礎。
 
 ## 服務範圍
 
@@ -64,7 +60,6 @@
 ## 代表性實績（公開資訊）
 
 - 中興保全（SECOM）南港總部 — 企業總部，2025，全案設計施工
-- 志聖工業（C.SUN Industrial）— 新北林口辦公空間，2026，全案設計施工
 - 博訊科技（AIONTECH）— 台北南港辦公空間，825 sqm，2025，全案設計施工
 - 立偉電子（LIWEI Electronics）— 台北南港辦公空間，350 sqm，2025，全案設計施工
 - DXC Technology — 台北辦公空間，590 sqm，2025，全案設計施工
@@ -83,6 +78,15 @@
 - 2024 — 持續服務國際品牌來台落地
 - 2025 — 完成企業總部級案件，累積超過 1,600 件商業案件
 - 2026 — 導入 AI 識圖丈量、CAD→BIM、參數化多方案與 BIM 報價整合，擴大智慧設計團隊
+
+
+## FAQ（對外常見問題）
+
+- 英文：https://www.hqdesign.tw/faq.html
+- 繁中：https://www.hqdesign.tw/zh/faq.html
+- 涵蓋：法定名稱與室內裝修業執照、Design & Build 與 Local Partner 差異、設計主導權保留、台灣許可／消防／房東協調（依案評估）、僅許可服務、專案角色分工（專案經理／工務／設計師）、英文雙語 PM、一個工作天內首次回覆、12 個月保固、產業實績名稱、非建築師事務所說明、採購／總務低摩擦啟動與少協調壓力（單一對口、進度與變更歸屬、英中文件分工、RFI／RFQ 一個工作天內確認）、不停業裝修定位（專案確認）
+- 服務頁專區：https://www.hqdesign.tw/services.html#for-procurement （給採購／總務）；聯繫頁清單：https://www.hqdesign.tw/contact.html#procurement-checklist
+- 不主張：坪單價、LEED／綠建築、公司層級建築師開業、固定許可清單矩陣、未驗證工期／報價天數
 
 ## 使用說明
 

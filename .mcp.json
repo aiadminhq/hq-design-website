@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "awwwards": {
+      "command": "npx",
+      "args": ["-y", "-p", "awwwards-mcp", "-p", "playwright", "-p", "ffmpeg-static", "awwwards-mcp"]
+    }
+  }
+}
