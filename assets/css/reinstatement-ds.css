@@ -203,15 +203,10 @@
   color: #ffb3a1;
 }
 
-/* ---------- 服務頁英雄區：淺色背景（Figma Slide Background「Type=Cover」139:378：bg/mesh＋icon/hq-glow） ---------- */
+/* ---------- 服務頁英雄區：淺色底。不使用示意底圖。 ---------- */
 .rs-page main .rs-hero {
-  background: #e3e3e3 url("../images/reinstatement/hero-bg-hq-lines.webp") center / cover no-repeat;
+  background: #e3e3e3;
   color: var(--dark);
-}
-@media (max-width: 960px) {
-  .rs-page main .rs-hero {
-    background-image: url("../images/reinstatement/hero-bg-hq-lines-960.webp");
-  }
 }
 .rs-page main .rs-hero h1 {
   color: var(--dark);

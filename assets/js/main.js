@@ -11,6 +11,16 @@ const hamburger = document.querySelector('.hamburger');
 hamburger?.addEventListener('click', () => {
   const open = nav?.classList.toggle('nav-mobile-open');
   if (hamburger.hasAttribute('aria-expanded')) hamburger.setAttribute('aria-expanded', String(!!open));
+  const root = document.documentElement;
+  const mobile = window.matchMedia('(max-width: 768px)').matches;
+  if (!mobile) return;
+  if (open) {
+    if (!root.dataset.navScrollLock) root.dataset.navScrollLock = root.style.overflow || 'visible';
+    root.style.overflow = 'hidden';
+  } else if (!document.querySelector('dialog[open]')) {
+    root.style.overflow = root.dataset.navScrollLock === 'visible' ? '' : (root.dataset.navScrollLock || '');
+    delete root.dataset.navScrollLock;
+  }
 });
 
 // Services dropdown: keep aria-expanded in sync with hover, keyboard focus, and the open mobile menu.
