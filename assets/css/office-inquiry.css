@@ -1,0 +1,235 @@
+/* ============================================================
+   辦公室裝修需求 — campaign landing
+   只用 tokens.css 的語意變數。頁面 <body class="ds-v2 ori">。
+   ============================================================ */
+
+body.ds-v2.ori {
+  padding-top: var(--nav-height);
+}
+
+.ori-hero-section {
+  padding-top: var(--space-xl);
+}
+
+.ori-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+  gap: var(--space-2xl);
+  align-items: start;
+}
+
+.ori-hero > * {
+  min-width: 0;
+}
+
+.ori-hero .hq-h1 {
+  margin-top: var(--space-sm);
+  /* 中文在標點處換行，避免「執行」被拆成兩行；太長時仍可斷行，不溢出 */
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+#inquiry {
+  scroll-margin-top: calc(var(--nav-height) + var(--space-sm));
+}
+
+.ori-hero .hq-lead {
+  margin-top: var(--space-md);
+}
+
+.ori-roles {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-lg) 0 0;
+  display: grid;
+  gap: var(--space-sm);
+}
+
+.ori-roles li {
+  padding-left: var(--space-md);
+  border-left: var(--stroke-component) solid var(--color-accent-fill);
+  color: var(--color-text-secondary);
+}
+
+.ori-roles strong {
+  color: var(--color-text);
+  font-weight: var(--weight-bold);
+}
+
+.ori-note {
+  margin-top: var(--space-md);
+  color: var(--color-text-secondary);
+}
+
+.ori-hero .hq-btn-row {
+  margin-top: var(--space-lg);
+}
+
+.ori-scope,
+.ori-facts {
+  display: grid;
+  gap: var(--space-md);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ori-scope {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.ori-links {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-xs) 0 0;
+  display: grid;
+  gap: var(--space-xs);
+}
+
+.ori-main a:not(.hq-btn) {
+  color: var(--color-link);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.ori-main a:not(.hq-btn):hover {
+  color: var(--color-link-hover);
+}
+
+.ori-facts {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.ori-fact {
+  display: grid;
+  align-content: start;
+  gap: var(--space-2xs);
+  min-width: 0;
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-muted);
+}
+
+.ori-fact strong,
+.ori-fact a {
+  overflow-wrap: anywhere;
+  font-size: var(--text-body-lg);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-tight);
+}
+
+.ori-fact .hq-muted {
+  font-size: var(--text-sm);
+}
+
+.ori-form-card .hq-h2 {
+  font-size: var(--text-h3);
+}
+
+.ori-form {
+  gap: var(--space-md);
+}
+
+.ori-form .contact-form-fields {
+  gap: var(--space-md);
+}
+
+.ori-form .form-group label {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--color-text);
+}
+
+.ori-optional {
+  font-weight: var(--weight-regular);
+  color: var(--color-text-muted);
+}
+
+.ori-form .form-group input,
+.ori-form .form-group textarea {
+  min-height: 48px;
+  padding: 12px 14px;
+  border: var(--stroke-component) solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-family: inherit;
+  font-size: var(--text-body);
+  line-height: var(--leading-tight);
+}
+
+.ori-form .form-group textarea {
+  min-height: 120px;
+  line-height: var(--leading-body);
+}
+
+.ori-form .form-group input::placeholder,
+.ori-form .form-group textarea::placeholder {
+  color: var(--color-text-muted);
+}
+
+.ori-form .form-group input:focus,
+.ori-form .form-group textarea:focus {
+  border-color: var(--color-focus);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-focus) 20%, transparent);
+}
+
+.ori-form .hq-btn {
+  width: 100%;
+}
+
+.ori-form .contact-form-note {
+  margin: 0;
+  text-align: center;
+  font-size: var(--text-caption);
+  color: var(--color-text-muted);
+}
+
+.ori-form .contact-form-status {
+  border-radius: var(--radius-sm);
+  padding: var(--space-md);
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  border: var(--stroke-component) solid var(--color-border);
+}
+
+.ori-form .contact-form-status[hidden] {
+  display: none !important;
+}
+
+.ori-form .contact-form-status.is-success {
+  background: var(--color-success-bg);
+  border-color: var(--color-success-line);
+  color: var(--color-success-text);
+}
+
+.ori-form .contact-form-status.is-error {
+  background: var(--color-danger-bg);
+  border-color: var(--color-danger-line);
+  color: var(--color-danger-text);
+}
+
+.ori-form .contact-form-thankyou {
+  margin: 0;
+  font-size: var(--text-body-lg);
+  font-weight: var(--weight-medium);
+  color: inherit;
+}
+
+@media (max-width: 900px) {
+  .ori-hero,
+  .ori-facts {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .ori-scope {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .ori-hero .hq-btn-row .hq-btn {
+    width: 100%;
+  }
+}
