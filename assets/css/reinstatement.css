@@ -1636,3 +1636,39 @@
     color: #000;
   }
 }
+
+/* ---------- 2026-11-24 拆除頁精簡：單欄範圍、單欄準備、7F 大廳 ---------- */
+.rs-scope--single {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 760px;
+}
+.rs-scope-keep {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  font-weight: 700;
+  color: var(--dark);
+}
+.rs-prep--single {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 760px;
+}
+.rs-prep-cta {
+  margin-top: 28px;
+}
+.rs-lobby {
+  margin-top: 56px;
+}
+.rs-lobby-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  align-items: start;
+}
+.rs-lobby-main {
+  grid-column: 1 / -1;
+}
+@media (max-width: 768px) {
+  .rs-lobby { margin-top: 40px; }
+  .rs-lobby-grid { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+}
